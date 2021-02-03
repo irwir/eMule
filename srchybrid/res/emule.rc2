@@ -1,0 +1,53 @@
+//
+// emule.RC2 - Ressourcen, die Microsoft Visual C++ nicht direkt bearbeitet
+//
+
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(65001)
+
+/////////////////////////////////////////////////////////////////////////////
+// Fügen Sie hier manuell bearbeitete Ressourcen hinzu...
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+        FILEVERSION         VERSION_MJR,VERSION_MIN,VERSION_UPDATE,VERSION_BUILD
+        PRODUCTVERSION      VERSION_MJR,VERSION_MIN,VERSION_UPDATE,VERSION_BUILD
+        FILEFLAGSMASK       VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+        FILEFLAGS           VS_FF_DEBUG | VS_FF_PRIVATEBUILD | VS_FF_PRERELEASE
+#else
+        FILEFLAGS           0x0L // final version
+#endif
+        FILEOS              VOS__WINDOWS32
+        FILETYPE            VFT_APP
+        FILESUBTYPE         0x0L // not used
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0" // Lang=US English, CharSet=Unicode
+        BEGIN
+            VALUE "CompanyName", "https://www.emule-project.net"
+            VALUE "FileDescription", "eMule"
+            VALUE "FileVersion", SZ_VERSION_NAME " Unicode"
+            VALUE "InternalName", "emule.exe"
+            VALUE "LegalCopyright", "Copyright © 2002-2020 Merkur - Read license.txt for more infos."
+            VALUE "OriginalFilename", "emule.exe"
+            VALUE "ProductName", "eMule"
+            VALUE "ProductVersion", SZ_VERSION_NAME " Unicode"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200 // Lang=US English, CharSet=Unicode
+    END
+END
+
+/////////////////////////////////////////////////////////////////////////////

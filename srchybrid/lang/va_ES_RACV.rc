@@ -1,0 +1,2009 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "va_ES_RACV.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Valencian (RACV) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CAT)
+#ifdef _WIN32
+LANGUAGE 0x903,0
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "va_ES_RACV.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "Erro inicialisant els sockets de windows."
+    IDS_ABOUTBOX            "&Sobre l'eMule..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s de %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "Conectat a %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "Resolguent nom: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "Nom resolt com %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "Conectant a %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "Redireccionant cap a %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "Rebent informació d'archiu"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR
+                            "S'ha produït un erro en l'intent de descarregar  \nl'archiu, Erro: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "S'ha produït un error en l'intent de conexió al  \nservidor, Erro: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE
+                            "No s'ha rebut una resposta valida del servidor"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "No s'ha rebut una resposta HTTP valida del  \nservidor"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE
+                            "S'ha produït un erro durant la descarrega de  \nl'archiu, Erro: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE
+                            "Actualisant la llista de servidors: %s%% de %s  \ncomplet"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "Recuperant l'archiu"
+    IDS_HTTPDOWNLOAD_OF     "%s de %s"
+    IDS_CANCEL              "Cancelar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTP_CAPTION        "Actualisant llista de servidors"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s copiats)"
+    IDS_HSAV                "Disponible Hashset"
+    IDS_FD_CORR             "Corrupte"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "L'archiu '%s' ya existix.\nVols  \nreemplaçar-lo?"
+    IDS_FD_RECOV            "Recuperat"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "S'ha produit un erro obrint l'archiu per a  \ndescarregar, Erro: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "Abortant transferència"
+    IDS_FD_COMPR            "Compressió"
+    IDS_WIZARD_NETWORK      "Tria quines rets vols utilisar."
+    IDS_MAIN_READY          "Versió eMule %s preparada"
+    IDS_WIZARD_ED2K         "Ajusts ED2K"
+    IDS_SEL_SKIN            "Seleccionar Tema..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_SOCKETERROR    "Erro Fatal: No se pot crear un socket en el port %u"
+    IDS_MAIN_BTN_DISCONNECT "Des&con."
+    IDS_ERR_WRONGFILEID     "Enviada id d'archiu erronea"
+    IDS_ERR_BADHASHSET      "Rebut hashset invàlit o corrupte"
+    IDS_ERR_BADDATABLOCK    "Rebut DataBlock invàlit o corrupte"
+    IDS_ERR_ILLFORMEDHASH   "Hash danyat"
+    IDS_ERR_BADED2KLINK     "Es un enllaç ED2K mal escrit"
+    IDS_ERR_NOSLLINK        "No es un servidor o enllaç ED2K"
+    IDS_ERR_WRONGPACKETSIZE "Grandària del paquet OP_FILEREQUEST invalida"
+    IDS_ERR_WRONGHPACKETSIZE "Grandària del paquet OP_HASHSETREQUEST invalida"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "Un client desconegut envia paquets de protocol  \nestes"
+    IDS_ERR_OPENMET         "Erro: ¡Fallo a l'intentar obrir l'archiu part.met! (%s  \n=> %s)"
+    IDS_ERR_BADMETVERSION   "Erro: ¡Versió de l'archiu part.met invàlit! (%s  \n=> %s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION "VersionTag invalida en el server.met (0x%X)!"
+    IDS_SERVERSFOUND        "%u servidors trobats en el server.met"
+    IDS_SERVERSADDED        "%u servidors afegits, %u borrats"
+    IDS_ERR_BADSERVERLIST   "Erro: L'archiu server.met està corrupte, no se  \npot trobar la llista de servidors"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "Fi d'archiu inesperat llegint server.met: %s,  \nno es pot carregar la llista de servidors"
+    IDS_ERR_SAVESERVERMET   "Fallo al guardar el server.met!"
+    IDS_PASSIVE             "Passiu"
+    IDS_MAIN_BTN_CANCEL     "&Cancelar"
+    IDS_AVAIL               "Parts: %u , disponible: %u (%.1f%%)\n\n"
+    IDS_TYPE                "Tipo"
+    IDS_FILEID              "IDArchiu"
+    IDS_FILE                "Archiu"
+    IDS_DOWNLOAD            "Descarrega"
+    IDS_SL_SERVERNAME       "Servidor"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IP                  "IP"//!
+    IDS_DESCRIPTION         "Descripció"
+    IDS_PING                "Ping"//!
+    IDS_FILES               "Archius"
+    IDS_PREFERENCE          "Prioritat"
+    IDS_PRIONOPREF          "Sense Prior."
+    IDS_CONNECTTHIS         "Conectar al servidor seleccionat"
+    IDS_MAIN_BTN_CONNECT    "&Conectar"
+    IDS_ERR_SAVESERVERMET2  "Fallo al guardar el server.met. Tal volta tindras  \nque borrar server.met i renomenar server.met.old a server.met"
+    IDS_NOTCONNECTED        "No Conectat"
+    IDS_DISCONNECTED        "Desconectat"
+    IDS_USERS               "Usuaris: %u"
+    IDS_UPDOWN              "Amunt:%.1f(%.1f) | Avall:%.1f(%.1f)"
+    IDS_CONNECTED           "Conectat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_WRITEERROR      "Erro d'archiu inesperat al gravar %s : %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "Erro d'archiu inesperat completant %s. archiu  \nen pausa, reiniciar eMule per a intentar completar-ho"
+    IDS_ERR_DELETEFAILED    "No se pot borrar %s, tindràs que fer-ho a ma"
+    IDS_DOWNLOADDONE        "Finalisada la descarrega de %s :-)"
+    IDS_ERR_DELETE          "No se pot borrar %s"
+    IDS_ERR_HASHERRORWARNING
+                            "Atenció: No se pot fer hash de la part  \ndescarregada - hashset incomplet (%s)"
+    IDS_ERR_INCOMPLETEHASH  "Erro: No se pot fer hash de la part  \ndescarregada - hashset incomplet (%s). Aço no tindria que passar"
+    IDS_DOWNLOADING         "Descarregant"
+    IDS_WAITING             "Esperant"
+    IDS_HASHING             "Creant Hash"
+    IDS_COMPLETING          "Completant"
+    IDS_COMPLETE            "Complet"
+    IDS_PAUSED              "Pausat"
+    IDS_ERRORLIKE           "erròneu"
+    IDS_ASSIGNED2K          "L'eMule no se troba assignat als enllaços ED2K.  \n¿Vols assignar l'eMule als enllaços ED2K (recomanat)?"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "No hi ha cap direcció de cap llista de servidors  \nen 'addresses.dat'. Posa la direcció d'alguna llista de servidors en este  \narchiu si vols actualisar automàticament la teua llista de servidors"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LINKNOTADDED        "No se pot afegir enllaç"
+    IDS_MAIN_EXIT           "¿Estàs segur d'eixir de l'eMule?"
+    IDS_MAIN_POPUP_RESTORE  "Restaurar"
+    IDS_CONNECTTOANYSERVER  "Conectar a qualsevol servidor"
+    IDS_EXIT                "Eixir"
+    IDS_CONNECTING          "Conectant"
+    IDS_FAILED              "Fallo"
+    IDS_ERR_BADSERVERREPLY  "Resposta del login corrupte o invalida rebuda  \ndel servidor"
+    IDS_NEWCLIENTID         "La nova ID de client es %u"
+    IDS_SHAREDFOLDERS       "Carpetes compartides"
+    IDS_VIEW1               "Vore "
+    IDS_VIEW2               " (no compartit)"
+    IDS_PRIOLOW             "Baixa"
+    IDS_PRIONORMAL          "Normal"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOHIGH            "Alta"
+    IDS_DOWNLOADMENUTITLE   "Descàrregues"
+    IDS_PRIORITY            "Prioritat"
+    IDS_NEWSERVERS          "Rebuts %u nous servidors"
+    IDS_DL_STOP             "&Detindre"
+    IDS_DL_PAUSE            "P&ausa"
+    IDS_DL_RESUME           "&Continuar"
+    IDS_DL_OPEN             "&Obrir l'archiu"
+    IDS_DL_INFO             "Mostrar detalls d'&archiu"
+    IDS_DL_CLEAR            "Borrar &complets"
+    IDS_DL_LINK1            "Copiar enllaç &ED2k al portapapers"
+    IDS_DL_LINK2            "Copiar enllaç ED2k al portapapers (&HTML)"
+    IDS_SHOWDETAILS         "Mostrar &Detalls"
+    IDS_SEND_MSG            "Enviar &Mensage"
+    IDS_ASKING              "Demanant"
+    IDS_CONNVIASERVER       "Conectant via servidor"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ONQUEUE             "En Coa"
+    IDS_TRANSFERRING        "Transferint"
+    IDS_RECHASHSET          "Rebent hashset"
+    IDS_NONEEDEDPARTS       "No falten parts"
+    IDS_NOCONNECTLOW2LOW    "No se pot realisar una conexió LowID a LowID"
+    IDS_UNKNOWN             "Desconegut"
+    IDS_ASKED4ANOTHERFILE   "Demanat per a un atre archiu"
+    IDS_Q_CANCELDL          "¿Vols cancelar i borrar estos  \narchius?\n"
+    IDS_Q_CANCELDL2         "¿Vols cancelar i borrar este  \narchiu?\n"
+    IDS_DL_FILENAME         "Archiu"
+    IDS_DL_SIZE             "Tamany"
+    IDS_DL_TRANSF           "Transferit"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_SPEED            "Velocitat"
+    IDS_DL_PROGRESS         "Progres"
+    IDS_DL_SOURCES          "Fonts"
+    IDS_ERR_BADSERVERLISTRECEIVED
+                            "Rebut paquet de llista de servidors invàlit"
+    IDS_STATUS              "Estat"
+    IDS_DL_REMAINS          "Falta"
+    IDS_UPDATEFROM          "Actualisar des de URL: (filter.dat o format PeerGuardian)"
+    IDS_QL_USERNAME         "Usuari"
+    IDS_LOADURL             "Carregar"
+    IDS_DELETEAFTERALLOC    "El archiu '%s' té ara assignat un espai en disc i després serà eliminat"
+
+    IDS_QL_RATING           "Valoració"
+    IDS_CONNECTINGTO        "Conectant %s (%s:%u)..."
+    IDS_CLIENTS             "Clients"//!
+    IDS_SEARCH_ANY          "Qualsevol"
+    IDS_SEARCH_AUDIO        "Audio"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "Imàgens"
+    IDS_SEARCH_PRG          "Programes"
+    IDS_SEARCH_VIDEO        "Vídeos"
+    IDS_SEARCH_CDIMG        "Imàgens de CD"
+    IDS_SEARCH_ARC          "Archius"
+    IDS_ERR_INVALIDLINK     "Este enllaç d'ed2k es invàlit (%s)"
+    IDS_ERR_LINKERROR       "Enllaç invàlit: %s"
+    IDS_ERR_NOTCONNECTED    "¡No estàs conectat en cap servidor!"
+    IDS_REMOVETHIS          "Borrar servidor seleccionat"
+    IDS_REMOVEALL           "Borrar tots els servidors"
+    IDS_SRV_ADDR            "Per favor, introduïx una direcció de servidor"
+    IDS_SRV_PORT            "Port de servidor incomplet: Introduïx un port  \nper al servidor"
+    IDS_SRV_NOTADDED        "Servidor no afegit"
+    IDS_SRV_NOURLAV         "No hi ha URL."
+    IDS_INVALIDURL          "URL Invalida"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET
+                            "Fallo al descarregar la llista de servidors  \nde %s"
+    IDS_PERMISSION          "Permissos"
+    IDS_SHAREDFILES         "Archius compartits"
+    IDS_PRIOVERYLOW         "Molt baixa"
+    IDS_PRIORELEASE         "Primícia"
+    IDS_TRAYDLG_SPEED       "Velocitat de l'eMule"
+    IDS_FSTATUS_FRIENDSONLY "Només amics"
+    IDS_VIAPASSIVE          "via Passiu"
+    IDS_ERR_RENAMESF        "Erro en renomenar\r\n    ""%s""\r\na\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "Disponible"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FSTAT_TRANSFER      "Transferint"
+    IDS_CONNECTIONS         "Conectant"
+    IDS_FSTAT_SERVERS       "Servidors"
+    IDS_FSTAT_WAITING       "Esperant..."
+    IDS_TIME                "Temps"
+    IDS_STATS_DDATA         "Senyes descarregades: %s"
+    IDS_STATS_UDATA         "Senyes Enviades (Sessió): %s"
+    IDS_STATS_AVGDL         "Mija de Descarrega (Sessió): %s"
+    IDS_STATS_AVGUL         "Mija de Pujada (Sessió): %s"
+    IDS_STATS_FOUNDSRC      "Fonts trobades: %u"
+    IDS_STATS_ACTDL         "Descarregues actives (blocs): %u"
+    IDS_STATS_ACTUL         "Remissions actius: %u"
+    IDS_STATS_WAITINGUSERS  "Remissions en coa: %u"
+    IDS_STATS_RECONNECTS    "Reconexions: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "Desconeguts: %u"
+    IDS_STATS_TOTAL         "Total: %u"//!
+    IDS_DISABLED            "Desactivat"
+    IDS_STOPPED             "Parat"
+    IDS_STATS_UPDATELABEL   "Temps actuali.: %u seg"
+    IDS_ASKEDFAF            "\nDemanat un atre archiu"
+    IDS_WAITED              "Esperat"
+    IDS_ERR_LOADCREDITFILE  "Fallo al carregar l'archiu de crèdits, se  \nfarà un nou"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "L'archiu de crèdits es antic i serà  \nreemplaçat"
+    IDS_CREDITFILELOADED    "Archiu de crèdits carregat, %u clients  \nconeguts"
+    IDS_CREDITFILECORRUPT   "Erro: l'archiu de crèdits està corrupte i sera  \nreemplaçat"
+    IDS_ERR_CREDITFILEREAD  "Erro d'archiu inesperat llegint l'archiu de  \ncredits: %s"
+    IDS_ERR_FAILED_CREDITSAVE "Fallo al gravar l'archiu de crèdits"
+    IDS_NOPARTSFOUND        "No s'han trobat archius temporals .part"
+    IDS_FOUNDPARTS          "Trobats %u archius de parts"
+    IDS_NEWDOWNLOAD         "Descarregant %s"
+    IDS_ERR_ALREADY_DOWNLOADING "Ya estàs descarregant est archiu %s"
+    IDS_ERR_ALREADY_DOWNLOADED "Ya has descarregat est archiu %s"
+    IDS_ERR_SERVERMET_BAD   "Erro: l'archiu known.met està corrupte, no se  \npoden carregar els archius coneguts"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "Erro inesperat llegint l'archiu known.met:  \n%s, no se poden carregar els archius coneguts"
+    IDS_ERR_CONNECTIONERROR "Erro conectant en %s (%s:%u): %s"
+    IDS_ERR_SOCKET          "Erro en el socket del servidor: %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "Trobats %u archius compartits coneguts"
+    IDS_SHAREDFOUNDHASHING  "Trobats %u archius compartits coneguts, creant  \nhash de %u archius nous"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "Bloc incomplet "
+    IDS_ERR_OPEN            "Fallo a l'obrir l'archiu demanat"
+    IDS_ERR_CLIENTERRORED   "El client '%s' ha causat un erro creant el  \npaquet (%s) - desconectant el client"
+    IDS_ERR_REQ_FNF         "l'archiu demanat no s'ha trobat"
+    IDS_DESC                "Descripció: %s"
+    IDS_PORT                "Port"//!
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "No se troben en la llista servidors vàlits als  \nque conectar-se"
+    IDS_CONNECTEDTOREQ      "Conectat a %s (%s:%u), enviant petició de  \nlogin"
+    IDS_ERR_FATAL           "Erro en l'intent de conexió. No deu  \nd'haver conexio a Internet"
+    IDS_ERR_LOSTC           "Conexió perduda en %s (%s:%u)"
+    IDS_ERR_DEAD            "%s (%s:%u) pareix fora de servici."
+    IDS_ERR_FULL            "%s (%s:%u) pareix estar ple"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_METCORRUPT      "Erro: %s (%s) està corrupte, no se pot carregar  \nl'archiu"
+    IDS_ERR_FILEERROR       "Erro d'archiu inesperat llegint  %s (%s): %s"
+    IDS_ERR_FILEOPEN        "Fallo a l'obrir %s (%s)"
+    IDS_SEL_SKINDIR         "Selecciona Carpeta per a Temes..."
+    IDS_ERR_REHASH          "Atenció: %s pareix estar corrupte, se farà un  \nrehash de les parts completes"
+    IDS_SKIN_PROF           "Perfils de Temes"
+    IDS_ERR_PART_FNF        "Archiu .part no trobat"
+    IDS_KADOPEN             "Obert"
+    IDS_ERR_SAVEMET         "Erro gravant l'archiu de parts: %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "S'ha trobat una part corrupta (%u) a %s"
+    IDS_HASHINGDONE         "Finalisat el hash de %s, l'archiu pareix  \nestar be"
+    IDS_ERR_PARTCORRUPT     "La part descarregada %u està corrupta:(  (%s)"
+    IDS_ICHWORKED           "ICH: La part %u corrupta s'ha recuperat (%s), Guardat: %s"
+    IDS_ERR_OUTOFSPACE      "No tens prou d'espai en el disc per a  \ndescarregar %s!"
+    IDS_SE                  "Intercanvi de Fonts"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONNECTEDTO         "Conexió establida en: %s"
+    IDS_DL_PREVIEW          "Vore"
+    IDS_VIEWQUEUE           "Vore Coa"
+    IDS_TW_UPLOADS          "Pujades"
+    IDS_TW_DOWNLOADS        "Descarregues"
+    IDS_TW_QUEUE            "Clients en la coa:"
+    IDS_SW_SEARCHBOX        "Buscar"
+    IDS_SW_NAME             "Nom"
+    IDS_SW_GLOBAL           "busca global"
+    IDS_SW_DIRECTDOWNLOAD   "Descarrega directa"
+    IDS_SW_LINK             "Enllaç ED2K"
+    IDS_SW_START            "Començar"
+    IDS_SCHEDULER           "Programador"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC                 "IRC"
+    IDS_SW_RESULT           "Resultats"
+    IDS_SW_DOWNLOAD         "Descarrega Sel."
+    IDS_SV_SERVERLIST       "Llista servidors"
+    IDS_SV_SERVERINFO       "Info servidors"
+    IDS_SV_LOG              "Registre"
+    IDS_SV_NEWSERVER        "Nou Servidor"
+    IDS_SV_ADDRESS          "IP o direcció"
+
+    IDS_SV_ADD              "Afegir a llista"
+    IDS_SV_MET              "Actualisar server.met des de l'URL"
+    IDS_SV_UPDATE           "Actualisar"
+    IDS_SF_FILES            "Compartits"
+    IDS_SF_STATISTICS       "Estadístiques"
+    IDS_SF_RELOAD           "Recarregar"
+    IDS_SF_CURRENT          "Sessió actual"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPEED_LIMITS        "Llímits de Velocitat"
+    IDS_CAPACITY_LIMITS     "Llímits de Capacitat"
+    IDS_ADMIN               "Admin"
+    IDS_ACCESSDENIED        "¡Accés denegat!"
+    IDS_WEB_LOWUSER         "Convidat"
+    IDS_WEB_ERR_CANTLOAD    "No se poden carregar plantilles: No es pot obrir l'archiu %s"
+    IDS_GLOBALSEARCH        "Global (Servidor)"
+    IDS_METHOD              "Mètodo"
+    IDS_UNDO                "Desfer"
+    IDS_DAYLY               "Diari"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_MO_FR           "Dil-Div"
+    IDS_DAY_SA_SO           "Dis-Du"
+    IDS_MO                  "Dilluns"
+    IDS_DI                  "Dimarts"
+    IDS_MI                  "Dimecres"
+    IDS_DO                  "Dijous"
+    IDS_FR                  "Divendres"
+    IDS_SA                  "Dissabte"
+    IDS_SO                  "Dumenge"
+    IDS_WEB_ADMINLOGIN      "Entrada Admin Webserver"
+    IDS_WEB_GUESTLOGIN      "Entrada de convidat Webserver"
+    IDS_WEB_SESSIONEND      "Webserver: Eixida"
+    IDS_DETAILS             "Detalls"
+    IDS_ACTION              "Acció"
+    IDS_REMOVE              "Borrar"
+    IDS_NEW                 "Nou"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TOTAL            "Total"//!
+    IDS_SF_TRANS            "Transferit:"
+    IDS_SF_ACCEPTED         "Acceptats:"
+    IDS_SF_REQUESTED        "Demanat:"
+    IDS_ST_DOWNLOAD         "Velocitat Descarrega"
+    IDS_ST_UPLOAD           "Velocitat Pujada"
+    IDS_ST_CURRENT          "Actual"
+    IDS_ST_SESSION          "Mija de la sessió"
+    IDS_ST_ACTIVED          "Descarregues actives"
+    IDS_ST_ACTIVEU          "Pujades actives"
+    IDS_CW_MESSAGES         "Mensages"
+    IDS_CW_FRIENDS          "Amics"
+    IDS_CW_SEND             "Enviar"
+    IDS_CW_CLOSE            "Tancar"
+    IDS_PW_GENERAL          "General"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_DIR              "Carpetes"
+    IDS_PW_NICK             "Malnom(NICK)"
+    IDS_PW_INCOMING         "Archius entrants"
+    IDS_PW_TEMP             "Archius temporals"
+    IDS_PW_BROWSE           "Buscar"
+    IDS_PW_SHARED           "Carpetes compartides"
+    IDS_CONNECTION          "Conexió"
+    IDS_PW_DOWNL            "Llímit en recepció"
+    IDS_PW_UPL              "Llímit en enviament"
+    IDS_PW_MAXC             "Max. conexions"
+    IDS_PW_CLIENTPORT       "Port del client"
+    IDS_PW_AUTOCON          "Autoconectar"
+    IDS_PW_RECON            "Reconectar"
+    IDS_PW_SERVER           "Servidor"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_RDEAD            "Borrar servidors caiguts després de"
+    IDS_PW_RETRIES          "Intents"
+    IDS_PW_SCORE            "Usar prioritats"
+    IDS_PW_USC              "Actualisar llista al conectar a un servidor"
+    IDS_PW_UCC              "Actualisar llista al conectar a un client"
+    IDS_PW_FILTER           "Filtre server i client LAN IPs"
+    IDS_PW_USS              "Actualisar automàticament llistat a l'inici"
+    IDS_PW_MISC             "Miscelànea"
+    IDS_PW_TRAY             "Minimis&ar"
+    IDS_PW_PROMPT           "Confirmar eixida"
+    IDS_PW_SPLASH           "Vore pantalla d'inici"
+    IDS_PW_DBLCLICK         "Expandir llista en doble clic"
+    IDS_PW_TOOL             "Retart de segons"
+    IDS_PW_FRONT            "Dur al front al pulsar enllaços"
+    IDS_PW_LANG             "Idioma"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_FILES            "Archius"
+    IDS_PW_SHARE            "Vore compartits"
+    IDS_PW_EVER             "Tots"
+    IDS_PW_FRIENDS          "Amics"
+    IDS_PW_NOONE            "Cap"
+    IDS_PW_RESET            "Reiniciar"
+    IDS_PW_APPLY            "Aplicar"
+    IDS_EM_TRANS            "Transferir"
+    IDS_EM_SERVER           "Servidors"
+    IDS_EM_SEARCH           "Buscar"
+    IDS_EM_FILES            "Compartits"
+    IDS_EM_MESSAGES         "Mensages"
+    IDS_EM_STATISTIC        "Estadist."
+    IDS_EM_PREFS            "Preferències"
+    IDS_MB_LANGUAGEINFO     "S'ha escollit un idioma per defecte. Pots  \ncanviar-lo en qualsevol moment en l'opció de Preferències."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_GENERAL          "General"//!
+    IDS_FD_MET              "Archiu .met:"
+    IDS_FD_HASH             "Hash:"//!
+    IDS_FD_SIZE             "Tamany:"
+    IDS_FD_TRANSFER         "Transferit"
+    IDS_FD_PARTS            "Parts:"
+    IDS_FD_TRANS            "Transferit:"
+    IDS_FD_DATARATE         "Velocitat:"
+    IDS_FD_COMPSIZE         "Tamany completat:"
+    IDS_FD_CLOSE            "Tancar"
+    IDS_FD_TITLE            "Detalls d'archiu"
+    IDS_CD_GENERAL          "General"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "Usuari:"
+    IDS_CD_UHASH            "Hash Us.:"
+    IDS_CD_CSOFT            "Soft. Client"
+    IDS_CD_UIP              "Direcció IP:"
+    IDS_CD_SIP              "IP Servidor:"
+    IDS_CD_VERSION          "Versió client:"
+    IDS_CD_SNAME            "Nom Servidor:"
+    IDS_CD_CDOWN            "Descarregant:"
+    IDS_CD_DOWN             "Descarregat (sessió):"
+    IDS_CD_ADOWN            "Mija velocitat desc.:"
+    IDS_CD_TDOWN            "Total descarregat:"
+    IDS_CD_UP               "Enviat (sessió):"
+    IDS_CD_AUP              "Mija velocitat env.:"
+    IDS_CD_TUP              "Total enviat:"
+    IDS_CD_TRANS            "Transfer."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_SCORES           "Punts"
+    IDS_CD_MOD              "Modif. DL/UP:"
+    IDS_CD_RATING           "Punt. (total):"
+    IDS_CD_USCORE           "Punt. coa env.:"
+    IDS_CD_TITLE            "Detalls client"
+    IDS_EMULEW              "Pulsa"
+    IDS_EMULEW2             "Per a comprovar si hi ha una versió nova  \ndisponible"
+    IDS_EMULEW3             "Ací"
+    IDS_PW_MAXSOURCES       "Max. fonts per archiu"
+    IDS_SHAREDFILESCOUNT    "Cantitat d'archius compartits: %u"
+    IDS_SF_SIZE             "Tamany total archius compartits: %s"
+    IDS_ERR_BADPORT         "Port incorrecte"
+    IDS_ERR_NOHELLO         "Demana alguna cosa sense dir res"
+    IDS_ERR_INVALIDPACKET   "Paquet rebut invàlit o corrupte"
+    IDS_ERR_CLIENTERROR     "El client '%s' (IP:%s) ha causat un erro: %s.  \nDesconectant Client"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSIZE         "Tamany invàlit (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "No es un enllaç a cap archiu"
+    IDS_ERR_CREATEPARTFILE  "ERRO: Fallo al crear l'archiu de parts"
+    IDS_CHAT_START          "*** Inici de sessió de chat : "
+    IDS_FILEPRIO            "Prioritat"
+    IDS_SCORE               "Puntuació"
+    IDS_ASKED               "Demanat"
+    IDS_LASTSEEN            "Últim vist."
+    IDS_BANNED              "Accés denegat"
+    IDS_UUSERS              "Usuaris"
+    IDS_UFAILED             "Fallos"
+    IDS_OPENFILE            "Obrir archiu"
+    IDS_DATE                "Data"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PARTINFOS           "Archiu de parts:"
+    IDS_PARTINFOS2          "Descarregant (des de %u fonts)"
+    IDS_USERID              "IDUsuari"
+    IDS_CLIENT              "Client"//!
+    IDS_SERVER              "Servidor"
+    IDS_SOURCEINFO          "Conte demanat: %ux - Conte disposable: %u"
+    IDS_CLIENTSOURCENAME    "\nNom archiu client: "
+    IDS_USERINFO            "alies: %s\n"
+    IDS_FILESTATS_SESSION   "Estad. archiu en sessió: Acceptades %u de %u  \npeticions, %s transferits\n"
+    IDS_FILESTATS_TOTAL     "Estad. archiu totes sess.: Acceptades %u de %u  \npeticions, %s transferits"
+    IDS_REQ_UNKNOWNFILE     "Demanat archiu desconegut"
+    IDS_SF_AVERAGESIZE      "Promig tamany: %s"
+    IDS_SF_REQUESTS         "Peticions"
+    IDS_SF_ACCEPTS          "Peticions Acceptades"
+    IDS_SF_TRANSFERRED      "Senyes Transferides"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REMOVESEARCHSTRING  "Borrar resultat(s) seleccionat(s)"
+    IDS_REMOVESELECTED      "Borrar Seleccionat"
+    IDS_REMOVEALLSEARCH     "Borrar tots"
+    IDS_ENTERQUEUE          "Entrats en coa"
+    IDS_SF_FAIL             "Servidors que han fallat"
+    IDS_SF_WUSER            "Usuaris en servidors en funcionament"
+    IDS_SF_WFILE            "Archius en servidors en funcionament"
+    IDS_SF_USER             "Total Usuaris"
+    IDS_SF_FILE             "Total Archius"
+    IDS_UPLOADTIME          "Temps de pujada"
+    IDS_LASTSEENCOMPL       "Ultima volta complet:"
+    IDS_YES                 "Si"
+    IDS_NO                  "No"//!
+    IDS_UNBAN               "Permetre accés"
+    IDS_SF_WORKING          "Servidors en funcionament"
+    IDS_ADDTOSTATIC         "afegir en la llista de servidors estàtica"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDED2SSF           "afegit en la llista de servidors estàtica"
+    IDS_STATICSERVER        "Estàtic"
+    IDS_ERROR_SSF           "Fallo obrint staticservers.dat"
+    IDS_SF_ACTIVECON        "conexions Actives (estimació)"
+    IDS_SF_MAXCONLIMITREACHED "S'ha arribat al número max. de conexions"
+    IDS_SF_AVGCON           "Promig de conexions (estimació)"
+    IDS_SF_PEAKCON          "Pics de conexions (estimació)"
+    IDS_ST_ACTIVEC          "conexions actives"
+    IDS_NETWORK             "Ret"
+    IDS_SF_DELCOUNT         "Servidors borrats"
+    IDS_QUEUEFULL           "Coa Plena"
+    IDS_AVG                 "Promig"
+    IDS_BYTES               "Bytes"//!
+    IDS_KBYTES              "KB"//!
+    IDS_MBYTES              "MB"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GBYTES              "GB"//!
+    IDS_TBYTES              "TB"//!
+    IDS_SECS                "segs"
+    IDS_MINS                "mins"//!
+    IDS_HOURS               "h"//!
+    IDS_DAYS                "D"
+    IDS_ED2KLINKFIX         "Enllaços ED2K"
+    IDS_RECONNECT           "La conexió automàtica en el servidor se tornarà a  \nintentar en %u segons"
+    IDS_SERVERADDED         "Servidor afegit: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "Ignorar info mensages"
+    IDS_STATS_SUCCUPCOUNT   "Total sessions de pujades en èxit: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "Ignorar Part info mensages"
+    IDS_STATS_FAILUPCOUNT   "Total sessions de pujades fallades: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "Promig de temps de pujades: %s"
+    IDS_SEARCHMINSIZE       "Tamany min."
+    IDS_SEARCHMAXSIZE       "Tamany max."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PREF_ONLINESIG      "Activar Firma Online"
+    IDS_ERROR_SAVEFILE      "Fallo al guardar"
+    IDS_REQ_SHAREDFILES     "L'usuari %s (%u) ha demanat la teua llista \nd'archius -> %s"
+    IDS_ACCEPTED            "acceptat"
+    IDS_DENIED              "denegat"
+    IDS_PW_CON_DOWNLBL      "Descarrega"
+    IDS_PW_CON_UPLBL        "Pujada"
+    IDS_PW_AUTOCONNECTSTATICONLY
+                            "Autoconectar-se només a servidors  \nfixos"
+    IDS_PW_CON_LIMITFRM     "Llímits"
+    IDS_STATS_AVGLABEL      "Temps per gràfic promig: %u mins"
+    IDS_GRAPHS              "Gràfics"
+    IDS_STREE               "Arbre d'estadístiques"
+    IDS_IRC_IGNOREQUITMESSAGE "Ignorar llevar info mensages"
+    IDS_STATSSETUPINFO      "Configurar la mostra d'estadístiques"
+    IDS_IRC_SOUNDEVENTS     "Tocar sons d'events"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "Intentar descarregar els extrems primer"
+    IDS_RECOVER_SINGLE      "1 archiu recuperat."
+    IDS_RECOVER_MULTIPLE    "%u archius recuperats."
+    IDS_ATTEMPTING_RECOVERY "Recuperant archiu..."
+    IDS_RECOVERY_SUCCESSFUL "Archiu recuperat correctament"
+    IDS_RECOVERY_FAILED     "Fallo recuperant Archiu."
+    IDS_STARTNEXTFILE       "Escomençar pròxim en pausa a l'acabar un archiu"
+    IDS_FULLCHUNKTRANS      "Intentar enviar blocs complets a totes les  \npujades"
+    IDS_MANUALSERVERHIGHPRIO "Posar servidors manuals en Alta Prioritat"
+    IDS_VERBOSE             "Detallat (mes informació de programa)"
+    IDS_FLAT                "pla"
+    IDS_ROUND               "Redonenc"
+    IDS_SAMEUSERHASH        "Els clients '%s' i '%s' tenen la mateixa IP o  \nhash - borrat '%s'"
+    IDS_SEARCHEXTENTION     "Extensió"
+    IDS_SEARCHAVAIL         "Disponibilitat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDLIMIT           "Llímit ferm"
+    IDS_COL_MORECOLORS      "mes..."
+    IDS_TOOMANYCONNS        "Moltes conexions"
+    IDS_DOWNLOADRENAMED     "Ya n'hi ha un archiu en este nom, l'archiu  \ns'ha guardat com %s"
+    IDS_TBN_DOWNLOADDONE    "Descarregat:"
+    IDS_PW_TBN_USESOUND     "Utilisar so"
+    IDS_PW_TBN_ONLOG        "Nova entrada en log"
+    IDS_PW_TBN_ONCHAT       "Escomençar una nova sessió de chat"
+    IDS_PW_TBN_POP_ALWAYS   "S'ha rebut un nou mensage"
+    IDS_PW_TBN_ONDOWNLOAD   "La descarrega ha acabat"
+    IDS_PW_EKDEV_OPTIONS    "Notificacions"
+    IDS_PW_TASKBARNOTIFIER  "Mens. emergent"
+    IDS_PW_TBN_OPTIONS      "Quan Emergir"
+    IDS_TBN_NEWCHATMSG      "Mensage de"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_CON_CAPFRM       "Capacitats"
+    IDS_IRC_PRIVATECHANSTART "* S'ha iniciat una sessió de chat privada"
+    IDS_IRC_SLAPMSG         "* %s colpeja %s en un gran Babelfish!"
+    IDS_IRC_PRIVMESSAGE     "Mensage Privat"
+    IDS_IRC_KICK            "Patejar"
+    IDS_IRC_SLAP            "Colpejar"
+    IDS_IRC_JOIN            "Entrar"
+    IDS_IRC_CHANNELLIST     "Llista de canals"
+    IDS_IRC_CONNECT         "Conectar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_DISCONNECT      "Desconectar"
+    IDS_IRC_HASJOINED       "* %s ha entrat en %s"
+    IDS_IRC_HASPARTED       "* %s ha eixit de %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s ha segut expulsat per %s (%s)"
+    IDS_IRC_HASQUIT         "* %s ha desconectat (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s ara se diu %s"
+    IDS_IRC_SETSMODE        "* %s posar modo: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** S'han canviat alguns modos que encara no se  \nsoporten. Tal volta faça falta eixir i entrar de nou al canal per a actualisar  \nla teua llista d'alies..."
+    IDS_IRC_CHANNEL         "Canal"
+    IDS_IRC_NICK            "alies"
+    IDS_IRC_SEND            "Enviar"
+    IDS_IRC_NAME            "Nom"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION colpeja %s en un gran  \nBabelfish!\001"
+    IDS_IRC_ADDTIMESTAMP    "Posar hora i data en els mensages."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_USEFILTER       "Utilisar filtre de canals"
+    IDS_IRC_PERFORM         "Eixecutar"
+    IDS_IRC_USEPERFORM      "Utilisar cadena d'eixecució al conectar."
+    IDS_IRC_ADDTOFRIENDLIST "Afegir a la llista d'amics"
+    IDS_IRC_LOADCHANNELLISTONCON "Carregar llista de canals al conectar."
+    IDS_IRC_ADDASFRIEND     "afegit com amic"
+    IDS_PW_WARNING          "El número que has seleccionat per a ""%s"" es  \nmolt gran per al teu Windows:  %u\nAçò podria causar que el teu pc siga  \ninestable.\n\n¿Segur que vols fer-ho?"
+    IDS_TAKEOVER            "Agarrar"
+    IDS_CLEANUP             "Netejar"
+    IDS_RENAME              "Renomenar"
+    IDS_IRC_ADDLINKTOIRC    "Afegir açò al portapapers de l'IRC per a enviar  \nals amics."
+    IDS_IRC_SENDLINK        "Enviar açò a l'amic: "
+    IDS_IRC_RECIEVEDLINK    "%s ha enviat (%s) per auto-eixecutar."
+    IDS_IRC_ACCEPTLINKS     "Acceptar enllaços ED2K a l'IRC. (Anar en conte en  \naço)"
+    IDS_SHARED              "Compartit"
+    IDS_DOWNLOADED          "Descarregat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCENAMES         "Nom de les fonts"
+    IDS_PREF_STARTMIN       "Escomençar minimisat"
+    IDS_PS_TBN_IMPORTANT    "Urgent: No queda espai en el disc dur, conexio  \nen el servidor perduda"
+    IDS_COLORS              "Colors"//!
+    IDS_SP_BACKGROUND       "Fondo"
+    IDS_SP_GRID             "Casella"
+    IDS_SP_DL1              "Descarrega actual"
+    IDS_SP_DL2              "Temps de descarrega-promig"
+    IDS_SP_DL3              "Descarrega sessió-promig"
+    IDS_SP_UL1              "Pujada actual"
+    IDS_SP_UL2              "Temps de Pujada-promig"
+    IDS_SP_UL3              "Remissió sessió-promig"
+    IDS_SP_ACTCON           "Conexions actives"
+    IDS_SP_ACTDL            "Descarregues actives"
+    IDS_SP_ACTUL            "Pujades actives"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "Illimitat"
+    IDS_PW_MINREC           "Mínim recomanat\t%u "
+    IDS_PW_UA               "Posar màxima velocitat de pujada/baixada"
+    IDS_PW_PA               "Controlar velocitat de pujada/baixada"
+    IDS_IRC_IGNOREINFOMESSAGE "Ignorar mensages d'informació."
+    IDS_CONNECTIONLOST      "conexió perduda"
+    IDS_WIZ_OS_FRAME        "Sistema Operatiu"
+    IDS_HASHINGFILE         "Hashing archiu:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "Velocitat de pujada real"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "Velocitat de Descarrega Real"
+    IDS_FRIENDLIST          "Amics"
+    IDS_CHATDISCONNECTED    "*** Desconectat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZARD              "Assistent"
+    IDS_ADDFRIEND           "Afegir a Amics"
+    IDS_REMOVEFRIEND        "Borrar Amic"
+    IDS_REMOVEFROMSTATIC    "Borrar de la llista de servidors estàtics"
+    IDS_LENGTH              "Llargària"
+    IDS_VIDEO               "Vídeo"//!
+    IDS_AUDIO               "Audio"//!
+    IDS_FILEINFO            "&Info d'archiu"
+    IDS_CODEC               "Còdec"//!
+    IDS_BITRATE             "Bitrate"//!
+    IDS_WIDTH               "Ample"
+    IDS_FPS                 "Fps"
+    IDS_CHANNELS            "Canals"
+    IDS_SAMPLERATE          "Mostreig"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HEIGHT              "Alçaria"
+    IDS_SHAREDFILES_FAILED  "No se poden recuperar els archius compartits de  \n'%s'"
+    IDS_SHAREDFILES_REQUEST "Demanant archius compartits de '%s'"
+    IDS_VIEWFILES           "Vore archius"
+    IDS_FRIENDSLOT          "Establir lloc reservat per a un amic"
+    IDS_FRIENDDETAIL        "(Puesto para amigo)"
+    IDS_UDPDISABLED         "Desactivar"
+    IDS_WIZ_CTFRAME         "Tipo de conexió"
+    IDS_CONCURDWL           "Descarregues a la volta"
+    IDS_WIZARD_CUSTOM       "Personalisat"
+    IDS_WIZARD_ENTERBELOW   "(entrar avall)"
+    IDS_STATS_MAXAVGDL      "Màxim del Promig Descarrega (Sessió): %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MAXDL         "Màxima Velocitat de Descarrega (Sessió): %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "Ignorar protocol de mensages d'amics afegits d'emule"
+    IDS_PW_FASTSRVCON       "conexió Segura."
+    IDS_SOURCELINKFAILED    "Necessites una HighID per a crear un enllaç de  \nfont valida"
+    IDS_ERR_LOADSERVERMET   "Fallo al carregar server.met!"
+    IDS_ERR_CORRUPTCOMPRPKG "Rebut paquet comprimit corrupte de %s (erro  \n%u)"
+    IDS_ERR_EMFRIENDSINVALID
+                            "l'archiu emfriends.met es invàlit o  \ncorrupte"
+    IDS_ERR_READEMFRIENDS   "Erro desconegut llegint emfriends.met: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "Rebuda informació desconeguda de servidor"
+    IDS_WIZ_DOWN            "Descarrega (kbit/s)"
+    IDS_WIZ_UP              "Pujada (kbit/s)"
+    IDS_SELECT_INCOMINGDIR  "Triar una carpeta per a archius entrants"
+    IDS_SELECT_TEMPDIR      "Triar una carpeta per a archius temporals"
+    IDS_PRIOAUTO            "Auto"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOAUTONORMAL      "Auto [No]"//!
+    IDS_PRIOAUTOHIGH        "Auto [Al]"
+    IDS_PRIOAUTORELEASE     "Auto [Pr]"
+    IDS_PRIOAUTOLOW         "Auto [Ba]"
+    IDS_ERR_CONTIMEOUT      "Intent de conexió en ""%s"" (%s:%u ) fora de  \ntemps"
+    IDS_OUTOFSERVERS        "Fallo al conectar en tots els servidors. Fent  \nuna atra volta."
+    IDS_PW_CONLIMITS        "Llímits de conexió"
+    IDS_MAXCON5SECLABEL     "max. conexions / 5secs"
+    IDS_PW_UAP              "Afegir Nous archius Compartits en Auto-Prioritat"
+    IDS_MAXCLIENT           "Max. Usuaris"
+    IDS_PW_TWEAK            "Opcions adicionals"
+    IDS_TWEAKS_WARNING      "Atenció:  No canvies estos valors si no saps  \nlo que fas. De lo contrari, podries empijorar les coses tu mateix.\neMule  \nfuncionarà be sense canviar res."
+    IDS_ADDAFRIEND          "Afegir a un Amic"
+    IDS_PAF_REQINFO         "Informació Requerida"
+    IDS_PAF_MOREINFO        "Informació Adicional"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "¡Tens que escriure una IP i port valits!"
+    IDS_ADD                 "Afegir"
+    IDS_RECOVERED_PARTMET   "archiu part.met recuperat per: %s"
+    IDS_CMT_QUEST           "Comentar est archiu! (El text se mostrarà a  \ntots els atres usuaris)"
+    IDS_CMT_AIDE            "Per a una película pots posar la llargària, \nl'història, l'idioma... i si es un archiu fals també ho pots dir..."
+    IDS_CMT_ADD             "Canviar el comentari d'est archiu..."
+    IDS_CMT_NONE            "Sense comentaris"
+    IDS_CMT_READ            "Comentari d'archiu:"
+    IDS_CMT_SHOWALL         "Mostrar els comentaris"
+    IDS_CMT_READALL         "Tots els comentaris"
+    IDS_CMT_RATEQUEST       "Calitat archiu"
+    IDS_CMT_RATEHELP        "Tria la puntuació d'est archiu o avisa als  \ndemés si es invàlit"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_FAKE            "Invàlit / Fals"
+    IDS_CMT_POOR            "Roïn"
+    IDS_CMT_GOOD            "Bo"
+    IDS_CMT_FAIR            "Molt Bo"
+    IDS_CMT_EXCELLENT       "Excelent"
+    IDS_CMT_NOTRATED        "Sense puntuació"
+    IDS_KILO                "K"
+    IDS_MEGA                "M"//!
+    IDS_GIGA                "G"//!
+    IDS_TERA                "T"//!
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE
+                            "Ignorar mensages de Protocol  \neMule"
+    IDS_SMARTLOWIDCHECK     "Comprovació inteligent de LowID al conectar"
+    IDS_SF_SRVOCC           "Ocupació server: %.2f%%"
+    IDS_3DDEP               "Estil de barra progrés"
+    IDS_AUTOTAKEED2KLINKS   "Auto-agarrar els ED2K mentres funciona eMule"
+    IDS_ADDNEWFILESPAUSED   "Afegir descarregues en modo pausa"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOHELP          "Per favor visita nostra pagina web en la secció de descarregues per a conseguir una copia de l'archiu nou d'ajuda\n\n¿Vols vore ara l'ajuda online?"
+    IDS_SHOWOVERHEAD        "Mostrar sobrecarrega d'ample de banda"
+    IDS_UPDOWNSMALL         "Env: %.1f | Desc: %.1f"
+    IDS_EDITLIST            "Llista"
+    IDS_SP_ICONBAR          "Barra ràpida"
+    IDS_RATINGRECV          "Rebuda puntuació per a l'archiu '%s': %u"
+    IDS_DESCRIPTIONRECV     "Rebuda descripció per a l'archiu '%s': %s"
+    IDS_WEBSERVICES         "Servicis web"
+    IDS_WEBSVEDIT           "Editar servicis web"
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "Ignorar protocol d'emule d'enviar mensages"
+    IDS_CHECK4UPDATE        "Comprovar si n'hi ha nova versió"
+    IDS_STARTUP             "Inici"
+    IDS_NEWVERSIONAVL       "N'hi ha una versió d'eMule nova. Comprova la  \npagina web per a mes informació."
+    IDS_NEWVERSIONAVLPOPUP  "N'hi ha una versió d'eMule nova. Pulsa ací per a  \nllegir les notes de la nova versió"
+    IDS_NEWVERSIONFAILED    "No s'ha pogut comprovar si n'hi ha versions  \nnoves."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "Detectada versió nova d'eMule"
+    IDS_NONEWERVERSION      "No s'han detectat versions noves d'eMule."
+    IDS_VERSIONCHECK        "&Comprovar versió"
+    IDS_VISITVERSIONCHECK   "\n\n¿Vols visitar la pagina d'informació ara?"
+    IDS_PW_VIDEOPLAYER      "Reproductor de Vídeo"
+    IDS_VIDEOBACKUP         "Crear copia per a prevore"
+    IDS_MYINFO              "La meua informació"
+    IDS_ID                  "ID"//!
+    IDS_IDLOW               "ID Baixa"
+    IDS_IDHIGH              "ID Alta"
+    IDS_UPSTATUS            "Parts obtingudes"
+    IDS_TOVERHEAD           "Total sobrecarrega (Paquets): %s (%s)"
+    IDS_FROVERHEAD          "Sobrecarrega petició d'archius (Paquets): %s  \n(%s)"
+    IDS_SSOVERHEAD          "Sobrecarrega d'intercanvi fonts (Paquets): %s  \n(%s)"
+    IDS_SOVERHEAD           "Sobrecarrega servidor (Paquets): %s (%s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD "El procés de completar l'archiu ha fallat"
+    IDS_FILEBUFFERSIZE      "Tamany del buffer d'archiu"
+    IDS_QUEUESIZE           "Tamany de la coa"
+    IDS_DAYS2               "dies"
+    IDS_ERR_MAKEBAKCREDITFILE
+                            "Fallo fent una copia de seguritat de l'archiu  \nde credits"
+    IDS_COMMENT             "Comentari"
+    IDS_IPFILTERED          "IP Filtrada: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "Completat"
+    IDS_DL_ACTIVE_TIME      "Temps Descarrega"
+    IDS_STATS_FILTEREDCLIENTS "Filtrat: %u"
+    IDS_FILTERLABEL         "Filtrar mensages que continguen: (Separador |  \n)"
+    IDS_ERR_LARGEREQBLOCK   "Client ha solicitat un bloc molt gran."
+    IDS_SHOWRATEONTITLE     "Mostrar velocitat de transferència en la barra"
+    IDS_TBN_NOMESSAGEHISTORY "No n'hi ha historial de mensages"
+    IDS_PW_DAP              "Afegir descarregues noves en autoprioritat"
+    IDS_FD_LASTCHANGE       "Última recepció:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_RUNTIME       "Temps d'eixecució"
+    IDS_ALL                 "Tots"
+    IDS_CAT_ADD             "Afegir categoria"
+    IDS_CAT_EDIT            "Editar categoria"
+    IDS_CAT_REMOVE          "Borrar categoria"
+    IDS_CAT                 "Categoria"
+    IDS_TITLE               "Títul"
+    IDS_COLOR               "Color"//!
+    IDS_DEFAULT             "Defecte"
+    IDS_PW_DISPLAY          "Vore"
+    IDS_INDICATERATINGS     "Indicar descarregues en comentaris/puntuació  \nper icon"
+    IDS_ALLOTHERS           "Tots els demés"
+    IDS_TOCAT               "Assignar a categoria"
+    IDS_CAT_UNASSIGN        "(desassignar)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "¿Afegir estos enllaços en descarregues?\n"
+    IDS_PF_WATCHCB          "Capturar enllaços ED2k en el portapapers"
+    IDS_SECURITY            "Seguritat"
+    IDS_IPFILTERLOADED      "%u filtres-IP carregats"
+    IDS_IPFILTER            "Filtres-IP"
+    IDS_EDIT                "Editar"
+    IDS_FILTERLEVEL         "Nivell de Filtre"
+    IDS_FILTERSERVERBYIPFILTER
+                            "Filtrar servidors"
+    IDS_FILTERCOMMENTSLABEL "Ignorar comentaris contenint: (Separador | )"
+    IDS_CLIENTLIST          "Clients coneguts"
+    IDS_FOLDER              "Carpeta"
+    IDS_CL_UPLOADSTATUS     "Estat de pujada"
+    IDS_CL_TRANSFUP         "Enviat"
+    IDS_CL_DOWNLSTATUS      "Estat de descarregues"
+    IDS_CL_TRANSFDOWN       "Descarregat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CL_PENDING          "Pendent"
+    IDS_CL_LOW2LOW          "IP Baixa a IP baixa"
+    IDS_ERROR               "Erro"
+    IDS_OPENINC             "&Obrir carpeta d'entrada"
+    IDS_HOTMENU             "Hotmenu"//!
+    IDS_DISABLEKNOWNLIST    "Desactivar llista de clients coneguts"
+    IDS_DISABLEQUEUELIST    "Desactivar llista de coa"
+    IDS_USECREDITSYSTEM     "Sistema de Crèdits (Recompensar Enviadors)"
+    IDS_FIRSTAUTODOWN       "Activa esta opció si vols que l'emule controle les teues prioritats de descarrega.\n\nSi actives aço l'emule s'encarregarà de que les descarregues en moltes fonts no interferixen en atres descarregues que tenen fonts noves. Esta opcio sols s'aplicarà a futures descarregues."
+    IDS_FIRSTAUTOUP         "Activa esta opcio si vols que l'emule controle les teues pujades.\n\nSi actives açò permetràs a eMule favorir archius desconeguts mentres archius popular seran mes difícils de conseguir per als demés. Desactivant-lo permetràs a eMule pujar archius populars en mes freqüència que els archius desconeguts. Esta opció només afectarà a futurs archius compartits."
+    IDS_FIRSTSAFECON        "Activa esta opció si vols que l'emule  se conecte de modo segur.\n\nSi lo desactives, eMule es conectarà als Servidors un poc més ràpit, pero pots obtindre més conexions en una falsa ID baixa. (Per defecte: Desactivat)"
+    IDS_FIRSTAUTOCON        "Activa esta opció si vols que l'emule conecte quan Windows s'inicie."
+    IDS_FIRSTCOMPLETE       "Has completat l'assistent de primera  \neixecucio.\r\rEstos ajusts i atres se poden tornar a canviar pulsant en  \nl'icon de Preferències. Per a mes explicacions i ajuda mira l'ajuda pulsant F1 en  \neMule"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENTERUSERNAME       "Per favor, introduïx nom d'usuari:"
+    IDS_STATIC_CPUMEM       "Aforrar CPU- && Memòria"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "Paraula clau molt curta.\r\n\r\nLes paraules clau utilisades en busca Kad tenen que tindre un mínim de 3 caràcters."
+    IDS_LOG2DISK            "Guardar log en disc"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "Ya n'hi ha una busca Kad per ad esta paraula ""%s"".\r\n\r\nPer a buscar de nou per esta paraula, espera fins que la busca de la paraula acabe o tanca el panel de resultats de la busca."
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "Paraula Kad invalida.\r\n\r\nA Les busques Kad requerixen el següent format:\r\n\r\n\t<kad-keyword> [ <ed2k-search-expression> ]\r\n\r\nLa <kad-keyword> no ha de contindre cap dels següents caràcters:\r\n\r\n\t%s"
+    IDS_EDITCAT             "Editar Propietats-Categoria"
+    IDS_PW_WS               "Servidor Web"
+    IDS_ENABLED             "Activat"
+    IDS_WEB_LOGIN           "Identificació"
+    IDS_WEB_ENTER_PASSWORD  "Escriu la teua contrasenya ací"
+    IDS_WEB_LOGIN_NOW       "Identificar Ara"
+    IDS_WEB_CONFIRM_REMOVE_SERVER
+                            "¿Estàs segur de borrar este servidor de la  \nllista?"
+    IDS_WEB_CONTROL         "Panel de Control Web"
+    IDS_WEB_LOGOUT          "Eixir"
+    IDS_WEB_ACTIONS         "Accions"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "Vore coa"
+    IDS_WEB_GZIP_COMPRESSION "Compressió Gzip"
+    IDS_WEB_GZIP_COMMENT    "Aforrar tràfic, sobre tot en gràfics."
+    IDS_WEB_REFRESH_TIME    "Temps de recarrega de les Pagines"
+    IDS_WEB_REFRESH_COMMENT "Temps en segons (zero=desactivat):"
+    IDS_SV_URL              "URL"//!
+    IDS_WS_RELOAD_TMPL      "Plantilla"
+    IDS_SV_DEBUGLOG         "Registre d'erros"
+    IDS_WS_PASS             "Contrasenya"
+    IDS_WS_ERR_LOADTEMPLATE "No puc carregar les plantilles: canviar  \nl'archiu %s en una versió nova"
+    IDS_WEB_CONLIMITS       "Llímits de conexió"
+    IDS_INFLST_USER_TOTALDOWNLOAD "Total Descarregat"
+    IDS_INFLST_USER_TOTALUPLOAD "Total Enviat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "Webserver: Intent de Login fallat"
+    IDS_ERR_TOOLARGEFILE    "Archiu mes gran que el que soporta el protocol  \neDonkey(>=256GB)"
+    IDS_MSGONLYFRIENDS      "Acceptar només d'amics"
+    IDS_DAY_MO_SA           "Dil-Dis"
+    IDS_LIMITSOURCES        "Llimitar fonts"
+    IDS_LIMITCONS5SEC       "Llímit conexions/5segs"
+    IDS_SCHED_CATSTOP       "Cat:Detindre descarregues"
+    IDS_SCHED_CATRESUME     "Cat:Continuar descarregues"
+    IDS_S_DAYS              "Dies"
+    IDS_STARTTIME           "Hora d'inici"
+    IDS_VALUE               "Valor"
+    IDS_SCHED_ENTERDATARATELIMIT "Introduir el llímit de velocitat:"
+    IDS_SCHED_ENTERVAL      "Introduir el nou valor:"
+    IDS_SCHED_ACTCONFIG     "Configurar Acció"
+    IDS_SELECTCAT           "Seleccionar categoria"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALLUNASSIGNED       "Tot sense assignació"
+    IDS_ACTSESSIONS         "Sessió(ns) activa(es)"
+    IDS_WEBSRV              "WebSrv."
+    IDS_SW_REFETCHRES       "Rellegir Resultats"
+    IDS_FILEHASH            "Càlcul d'archiu"
+    IDS_PW_PROXY            "Proxy"//!
+    IDS_PROXY_ENABLE        "Activar Proxy"
+    IDS_PROXY_TYPE          "Tipo Proxy:"
+    IDS_PROXY_HOST          "Host Proxy:"
+    IDS_PROXY_PORT          "Port Proxy:"
+    IDS_PROXY_AUTH          "Activar Autentificació"
+    IDS_AUTH                "Autentificació"
+    IDS_SHOWCATINFO         "Vore informació de descarrega en les tabs de  \ncategoria"
+    IDS_SW_SEARCHINGINFO    "busca en progrés. Demanar novament els resultats  \nen un moment"
+    IDS_LOGENTRY            "Entrada de registre"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "Copiar"
+    IDS_SELECTALL           "Seleccionar Tot"
+    IDS_AUTOSCROLL          "Autoscroll"//!
+    IDS_WIZ1_WELCOME_TITLE  "Benvingut a eMule"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "Este assistent te guiarà pels primers  \npassos configurant eMule."
+    IDS_WIZ1_WELCOME_BTN_HINT "Per a continuar, pulsa en Següent."
+    IDS_WIZ1_END_TITLE      "Completant l'assistent"
+    IDS_WIZ1                "Assistent de Primera Eixecució d'eMule"
+    IDS_WIZ1_END_BTN_HINT   "Per a tancar l'assistent, pulsa en Finalisar."
+    IDS_WIZ1_UPLOAD_SUBTITLE "Transferència de troços complets"
+    IDS_DL_RESUMENEXT       "Continuar en el següent en pausa"
+    IDS_STARTPRIO           "Prioritat per ad esta categoria"
+    IDS_PREF_STARTNEXTFILECAT "Preferir la mateixa categoria"
+    IDS_SOFTFILES           "Llímit d'archiu baix"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDFILES           "Llímit d'archiu alt"
+    IDS_FILTER              "Filtre"
+    IDS_LINKS               "Enllaços"
+    IDS_HM_SCHED_ON         "Activar Programador"
+    IDS_HM_SCHED_OFF        "Desactivar Programador"
+    IDS_HM_LINKHP           "Pagina Principal d'eMule"
+    IDS_HM_LINKFAQ          "FAQ d'eMule"
+    IDS_HM_LINKVC           "Comprovació de versió d'eMule"
+    IDS_DEBUG_SOURCE_EXCHANGE "Vore mensages d'intercanvi de fonts"
+    IDS_SHAREDREQ1          "L'usuari %s (%u) ha demanat la teua llista de carpetes compartides -> %s"
+    IDS_SHAREDREQ2          "L'usuari %s (%u) ha demanat la llista d'archius compartits en la carpeta '%s' -> %s"
+    IDS_SHAREDANSW          "L'usuari %s (%u) compartix la carpeta '%s'"
+    IDS_SHAREDANSW2         "L'usuari %s (%u) ha enviat una llista no demanada de carpetes compartides - ignorat"
+    IDS_SHAREDINFO1         "L'usuari %s (%u) ha enviat una llista d'archius compartits de la carpeta '%s'"
+    IDS_SHAREDINFO2         "L'usuari %s (%u) ha acabat d'enviar llistes d'archius compartits"
+    IDS_SHAREDANSW3         "L'usuari %s (%u) ha enviat una llista no demanada d'archius compartits de la carpeta '%s' - ignorat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDREQDENIED     "L'usuari %s (%u) ha denegat l'accés a la llista de carpetes/archius"
+    IDS_AUTOCLEANUPFN       "Netejar Nom d'archiu"
+    IDS_ONNEWDOWNLOAD       "Inicialisacions"
+    IDS_FILTERFILENAMEWORD  "Posar paraules per a filtrar separades per |"
+    IDS_FNFILTERTITLE       "Editar nom d'archiu de paraules de filtre per a neteja de noms d'archiu"
+    IDS_CHANGECATVIEW       "Seleccionar filtre per a vista"
+    IDS_STATUS_NOTCOMPLETED "Incomplet"
+    IDS_STATS_CUMULATIVE    "Acumulatiu"
+    IDS_STATS_OVRHD         "Sobrecarrega"
+    IDS_STATS_RECORDS       "Registres"
+    IDS_STATS_COMPDL        "Descarregues completes"
+    IDS_STATS_SVRECWORKING  "Max. Servidors Funcionant"
+    IDS_STATS_SVRECUSERS    "Max. Usuaris Conectats"
+    IDS_SEARCH_TEXT         "Buscar"
+    IDS_STATS_SVRECFILES    "Max. archius disponibles"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SHRECNUM      "Max. archius compartits de sempre"
+    IDS_SEARCH_COLUMN       "Buscar en columna"
+    IDS_STATS_SHRECSIZE     "Major grandària compartida"
+    IDS_STATS_SHRECASIZE    "Major promig de grandaria d'archiu"
+    IDS_STATS_SESSION       "Sessió"
+    IDS_STATS_SRATIO        "Radi de EN:DE Sessió:"
+    IDS_STATS_CRATIO        "Radi EN:DE Acumulatiu:"
+    IDS_SEARCH_NORESULT     "No se troben coincidències."
+    IDS_STATS_CURRSRVDUR    "Duració Actual del Servidor"
+    IDS_LONGSECS            "Segons"
+    IDS_STATS_DLSES         "Sessions de Descarrega"
+    IDS_LONGMINS            "Minuts"
+    IDS_STATS_SDLSES        "Sessions de Descarrega en èxit"
+    IDS_STATS_FDLSES        "Sessions de Descarrega fallades"
+    IDS_STATS_AVGDATADLSES  "Promig Descarregat per Sessió"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ULSES         "Sessions de pujada"
+    IDS_STATS_GAINCOMP      "Guanyat per compressió: %s"
+    IDS_STATS_LOSTCORRUPT   "Perdut per corrupció: %s"
+    IDS_STATS_AVGDATAULSES  "Promig Enviat per sessió"
+    IDS_STATS_ICHSAVED      "Parts guardades per I.C.H: %u"
+    IDS_STATS_MBRESET_TXT   "¿Estàs segur de reinicialisar les teues estadístiques acumulatives?\n\nSi canvies d'idea, pots llevar esta acció pulsant el boto 'Restaurar Estadístiques'."
+    IDS_STATS_MBRESTORE_TXT "¿Estàs segur de recuperar les teues estadístiques acumulatives de l'archiu de copia de seguritat?\n\nPulsant el boto 'Restaurar Estadístiques' de nou recarregarà les estadístiques actuals."
+    IDS_ERR_NOSTATBKUP      "ERRO: No se pot trobar l'archiu d'estadistiques..."
+    IDS_STATS_NFOLOADEDBKUP "Estadístiques carregades des de la copia..."
+    IDS_STATS_NFORESET      "Les estadístiques han segut reinicialisades"
+    IDS_STATS_BNRESET       "Reinicialisar Estadístiques"
+    IDS_STATS_BNRESTORE     "Restaurar Estadístiques"
+    IDS_PPGSTATS_YSCALE     "Escala d'eix Y d'Estadístiques de Conexió:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "Radi de conexions Actives:"
+    IDS_STATS_PROBLEMATIC   "Problemàtic"
+    IDS_LONGHRS             "Hores"
+    IDS_STATS_LARGESTFILE   "Archiu Compartit mes Gran"
+    IDS_SPLIT_WINDOW        "Dividir finestra"
+    IDS_STATS_DSPF          "Archiu de Parts"
+    IDS_STATS_DATASOURCE    "Font de senyes"
+    IDS_STATS_DSFILE        "Archiu Complet"
+    IDS_STATS_GENERAL       "General"//!
+    IDS_STATS_TRANSTIME     "Temps de transferència"
+    IDS_STATS_DOWNTIME      "Temps de descarrega"
+    IDS_STATS_UPTIME        "Temps de pujada"
+    IDS_STATS_TOTALSRVDUR   "Duració Total del Servidor"
+    IDS_STATS_MAXAVGUL      "Promig Max. de Velocitat de pujada"
+    IDS_STATS_MAXUL         "Velocitat màxima de pujada"
+    IDS_STATS_AVGDLTIME     "Temps mig de Descarrega"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_PRTDEF        "Defecte"
+    IDS_STATS_PRTOTHER      "Atre"
+    IDS_STATS_MNUTREETITLE  "Arbre d'estadístiques"
+    IDS_STATS_MNUTREECPYSEL "Copiar branca seleccionada"
+    IDS_STATS_MNUTREECPYALL "Copiar totes les estadístiques"
+    IDS_STATS_MNUTREEHTML   "Possibilitats HTML"
+    IDS_STATS_EXPORT2HTML   "Exportar Totes les Estadístiques"
+    IDS_STATS_MNUTREECPYVIS "Copiar Tot lo Visible"
+    IDS_STATS_MNUTREEEXPANDALL "Expandir Totes les Seccions"
+    IDS_STATS_MNUTREECOLLAPSEALL "Contraure Totes les Seccions"
+    IDS_STATS_MNUTREEEXPANDMAIN "Expandir Seccions Principals"
+    IDS_STATS_LASTRESETSTATIC "Ultima posta a zero d'estadístiques: %s"
+    IDS_STATS_MONTHLY       "Mensualment"
+    IDS_STATS_YEARLY        "Anualment"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_TIMESTATS     "Estadístiques de Temps"
+    IDS_STATS_AVGANDPROJ    "Promijos Proyectats"
+    IDS_STATS_TIMESINCERESET "Temps des de l'ultima posada a zero: %s"
+    IDS_CRYPT_INITFAILED    "Fallo en inicialisar criptoclaus - identificació segura desactivada"
+    IDS_CD_IDENT            "Identificació:"
+    IDS_IDENTOK             "Correcte"
+    IDS_IDENTFAILED         "Invàlit"
+    IDS_IDENTNOSUPPORT      "No soportat o desactivat"
+    IDS_COMMITFILES         "Escritura .met/.dat segura"
+    IDS_ERR_BADUNC          "nom UNC invàlit"
+    IDS_NEVER               "Mai"
+    IDS_ALWAYS              "Sempre"
+    IDS_ONSHUTDOWN          "Quan s'apague"
+    IDS_UNCFOLDERS          "Carpetes UNC"
+    IDS_USESECIDENT         "Utilisar identificació segura"
+    IDS_ADVSPAMFILTER       "Filtre spam alvançat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CUT                 "Tallar"
+    IDS_STATS_SECUREIDENT   "Identificació Segura (OK : Fallada)"
+    IDS_ONDISK              "Tamany en disc: "
+    IDS_CLIENTCOL           "Atenció: S'ha trobat a un client igual a un atre conectat: %s (%s) i %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "Cadena no finalisada"
+    IDS_SEARCH_GENERALERROR "Erro General"
+    IDS_SEARCH_MISSINGORRIGHT "Falta la part dreta de l'operador OR"
+    IDS_SEARCH_MISSINGNOTRIGHT "Falta la part dreta de l'operador NOT"
+    IDS_SEARCH_MISSINGEXPRPARANT "Falta expressió per a '(' ')'"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "Falta ')' tancat"
+    IDS_SEARCH_EXPRERROR    "Fallo en l'interpretació de l'expressió de busca"
+    IDS_SEARCH_TOOCOMPLEX   "Expressió molt complexa"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSION             "Versió"
+    IDS_PASTE               "Apegar"
+    IDS_A4AF                "Fonts"
+    IDS_AUTOCAT_LABEL       "Assignació de categories automàticament (patro separat per |)"
+    IDS_SHOWEXTSETTINGS     "Vore mes controls (controls modo alvançat)"
+    IDS_TREEOPTIONS_TRUE    "Verdader"
+    IDS_TREEOPTIONS_FALSE   "Fals"
+    IDS_TREEOPTIONS_OK      "Acceptar"
+    IDS_HYPERTEXT_FONT_HINT "Font per a les finestres de Servidor, Mensages i IRC"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SELECT_FONT         "Seleccionar Font"
+    IDS_SERVER_LIMITS       "Llímit d'archiu baix/alt"
+    IDS_KBITSSEC            "kbit/seg"
+    IDS_KBYTESSEC           "kByte/seg"
+    IDS_ERR_CREATE_DIR      "Fallo creant el directori %s ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "El directori de descarregues no pot ser el directori d'instalacio d'eMule."
+    IDS_WRN_TEMPFILES_RESERVED
+                            "El directori temporal no pot ser el directori d'instalació d'eMule."
+    IDS_WRN_INCTEMP_SAME    "El directori de descarregues i el temporal no poden ser el mateix."
+    IDS_SHOWDWLPERCENTAGE   "Mostrar percentage de descarrega completa en la barra de progres"
+    IDS_TBN_ONNEWDOWNLOAD   "Descarrega afegida"
+    IDS_ARTIST              "Artiste/a"
+    IDS_ALBUM               "Àlbum"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UPLOADREQ        "Pujat demanat:"
+    IDS_SETTINGCHANGED_RESTART
+                            "Per a que els canvis tinguen efecte, has de reiniciar l'eMule"
+    IDS_CREDITSEXPIRED      ", %u clients borrats (no vists en 5 mesos)"
+    IDS_SOURCESINFO         "%u  (útil: %u, NNP: %u, A4AF: %u)"
+    IDS_META_DATA           "Meta Senyes"
+    IDS_TIMEBEFORE          "(fa %s)"
+    IDS_FD_TIMEDATE         "Dates"//!
+    IDS_FILEINFORMATION     "Informació d'archiu"
+    IDS_STATS_FREESPACE     "Espai lliure"
+    IDS_IRC_HELPCHANNEL     "Conectar per ajudar als canals."
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-valencian"
+    IDS_IRC_ACCEPTLINKSFRIENDS "Només d'amics."
+    IDS_COMPLSOURCES        "Fonts completes"
+    IDS_CHECKNOENDTIME      "Sense temps de finalisació"
+    IDS_FD_DOWNLOADSTARTED  "Descarrega afegida:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FAILEDREOPEN        "Erro Fatal: Fallo en reobrir l'archiu de parts '%s' (%s)!"
+    IDS_ERR_PREVIEWALREADY  "Ya n'hi ha una petició de vista prèvia pendent d'este client"
+    IDS_ERR_PREVIEWFAILED   "La vista prèvia de l'Usuari '%s' ha fallat"
+    IDS_DWTOT               "Espai en disc"
+    IDS_DWTOT_NR            "Número de descarregues: %u"
+    IDS_DWTOT_TSD           "Grandària Total de les descarregues: %s"
+    IDS_DWTOT_TCS           "Grandària Total completada: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "Grandària Total a transferir: %s"
+    IDS_DWTOT_TSN           "Espai necessari per a les descarregues: %s"
+    IDS_DWTOT_FS            "Espai Lliure en el disc temporal: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (necessites lliberar %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT
+                            "Interval de Refresc de conexió de Servidor [min.]"
+    IDS_MORE                "&Mes"
+    IDS_TOOLS               "&Ferramentes"
+    IDS_SEARCHPARAMS        "Paràmetros de Búsqueda"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u fent hash)"
+    IDS_CHECKDISKSPACE      "Comprovar espai en disc"
+    IDS_YOURHOSTNAME        "Nom de Host per a enllaços eD2K propis"
+    IDS_INSUFFICIENT        "¡Espai en disc insuficient!"
+    IDS_MINFREEDISKSPACE    "Espai mínim en disc [MB]"
+    IDS_WARNING             "Atenció"
+    IDS_IMPORTSPLPF         "Importar archius parcials (eMule,eDonkey,Overnet)"
+    IDS_IMP_STEPREADPF      "Llegint carpeta de parts"
+    IDS_IMP_STEPBASICINF    "Arreplegant informació bàsica de l'archiu de parts"
+    IDS_IMP_STEPCRDESTFILE  "Creant archiu de parts de destí"
+    IDS_IMP_LOADDATA        "Carregant senyes de l'archiu de parts antic (%u de %u)"
+    IDS_IMP_SAVEDATA        "Guardant bloc de senyes en el nou archiu de parts senzill (%u de %u)"
+    IDS_IMP_IOERROR         "Erro d'archiu convertint l'archiu de parts"
+    IDS_IMP_GETPFINFO       "Arreplegant informació de l'archiu de parts font"
+    IDS_IMP_ADDDWL          "Afegint descarrega i guardant el nou archiu de parts"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_FETCHSTATUS     "Arreplegant estat..."
+    IDS_IMP_INPROGR         "En progrés"
+    IDS_IMP_ERR_DISKSP      "Erro: Sense espai en disc"
+    IDS_IMP_ERR_PARTMETIO   "Erro: No se troba part.met"
+    IDS_IMP_ERR_IO          "Erro: Erro d'entrada/eixida"
+    IDS_IMP_ERR_FAILED      "Erro: Erro!"
+    IDS_IMP_STATUSQUEUED    "En Coa"
+    IDS_IMP_ALRDWL          "Ya Descarregant"
+    IDS_IMP_ADDBTN          "&Afegir importacions"
+    IDS_IMP_RETRYBTN        "&Reintentar seleccionats"
+    IDS_IMP_REMOVEBTN       "&Llevar seleccionats"
+    IDS_IMP_SELFOLDER       "Per favor, tria només una carpeta per a buscar els archius de parts o l'antiga carpeta temp (els subdirectoris seran inclosos)"
+    IDS_IMP_DELSRC          "¿Vols eliminar l'archiu font de totes les descarregues importades correctament?"
+    IDS_IMP_SIZE            "%s (Disc:%s)"
+    IDS_IMP_STATUS          "Important %s: %s"
+    IDS_DYNUPENABLED        "Trobar millor llímit de pujada automàticament"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "Tolerància al Ping (% del ping mes baix)"
+    IDS_DYNUP_GOINGUPDIVIDER "Llentitut Pujant"
+    IDS_DYNUP_GOINGDOWNDIVIDER "Llentitut Baixant"
+    IDS_DYNUP_NUMBEROFPINGS "Número màxim de pings per promig"
+    IDS_DYNUP_MINUPLOAD     "Velocitat mínima permesa de pujada"
+    IDS_ESTTIMELEFT         "Temps estimat:"
+    IDS_TRANSFER_RATE_LABEL "Velocitat de transferència:"
+    IDS_SAVELOG             "Guardar registre"
+    IDS_CMT_COPYCLIPBOARD   "Copiar comentari en el portapapers"
+    IDS_ASKDOWNLOADLANG     "L'idioma que has triat no està instalat en el sistema. ¿Vols que l'eMule el descarregue des de emule-project.net?"
+    IDS_ASKDOWNLOADLANGCAP  "Descarregar archius d'idioma"
+    IDS_DELETESELECTED      "Borrar"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "Erro al descarregar i instalar la dll de l' idioma seleccionat des de %s!"
+    IDS_ERR_BADFOLDER       "Carpeta incorrecta.\nLa carpeta no pot ser creada. Per favor, comprova el nom i la localisació."
+    IDS_AUTOREMOVEFD        "Auto-netejar descarregues completes"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_NODE            "busca de nodo"
+    IDS_KAD_STOREFILE       "Guardar archiu"
+    IDS_KAD_STOREKW         "Guardar Paraula Clau"
+    IDS_KAD_UNKNOWN         "Desconegut"
+    IDS_SRV_TCPCOMPR        "Compressió TCP"
+    IDS_KADSEARCHLAB        "Busques Actuals"
+    IDS_SRV_UDPSR           "Protocol UDP extes per a peticions de fonts"
+    IDS_SRV_UDPFR           "Protocol UDP extes per a peticions d'archius"
+    IDS_MINLENGTH           "Duració min. [hh:mm:ss]"
+    IDS_EM_HELP             "A&juda"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "Amic no afegit.\r\n\r\nYa existix un amic en la mateixa IP i port disponible."
+    IDS_DYNUP               "Sensor de velocitat de pujada"
+    IDS_KADOVERHEAD         "Tràfic excedent Kad (Paquets): %s (%s)"
+    IDS_FIND                "Trobar..."
+    IDS_LOG_BANNED_CLIENTS  "Registrar clients prohibits"
+    IDS_LOG_RATING_RECV     "Registrar puntuacions i descripcions d'archius"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "Des de nous clients"
+    IDS_KADUDPPORTERR       "El port UDP de Kad entra en conflicte en el port extès d'eMule o del servidor UDP d'eMule. El port ha segut canviat a %u."
+    IDS_CONFIRM_FILEDELETE  "¿Realment vols borrar tots els archius seleccionats del disc?"
+    IDS_OPENFOLDER          "Obrir Carpeta"
+    IDS_RUNASUSER           "Eixecutar eMule sense privilegis"
+    IDS_DELETE              "Borrar del disc"
+    IDS_BOOTSTRAP           "Arrancada"
+    IDS_VIAED2KSQ           "Via Servidor ED2K/Coa"
+    IDS_EM_KADEMLIA         "&Kad"//!
+    IDS_VIAKAD              "Via Kad"
+    IDS_VIASE               "Via intercanvi de fonts"
+    IDS_SELECTTOOLBARBITMAP "Seleccionar image per a barra de ferramentes"
+    IDS_SELECTTOOLBARBITMAPDIR "Seleccionar directori d'imàgens"
+    IDS_TOOLBARSKINS        "Pells de barra de ferramentes"
+    IDS_NOTEXTLABELS        "Sense etiquetes"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "Dreta de l'icon"
+    IDS_TEXTLABELS          "Etiquetes"
+    IDS_ENABLETEXTLABELS    "Baix de l'icon"
+    IDS_CUSTOMIZETOOLBAR    "Personalisar Barra de ferramentes"
+    IDS_MINBITRATE          "Bitrate min.[kbit/s]"
+    IDS_KAD_RECHECKFW       "Comprovar tallafocs"
+    IDS_SHAREDTITLE         "ED2K Compartit|Kad"
+    IDS_FIREWALLED          "Tallafocs"
+    IDS_KADEMLIA            "Kad"//!
+    IDS_KADCONTACTLAB       "Contactes"
+    IDS_KADDISTANCE         "Distancia"
+    IDS_KEY                 "Clau"
+    IDS_NUMBER              "Número"
+    IDS_KAD_SEARCHSRC       "Fonts de busca"
+    IDS_KAD_SEARCHKW        "Paraules de busca"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_SECURE_IDENT    "Registrar identificacions segures"
+    IDS_LOG_FILTERED_IPS    "Registrar IPs filtrades i/o ignorades"
+    IDS_LOG_FILE_SAVING     "Registrar accions de guardades d'archius"
+    IDS_DELETEIPFILTERS     "¿Realment vols borrar els archius de filtre seleccionats?"
+    IDS_TOTAL_IPFILTER_LABEL "Total filtres IP:"
+    IDS_TOTAL_IPS_LABEL     "Total IPs:"//!
+    IDS_RAU_WARNING         "Este ajust donarà a eMule mes seguritat contra atacs i trampes i recomanem l'us d'esta opció.\nDe totes formes, millor llegir el manual abans de activar-ho!\n\nEls canvis seran efectius quan reinicies l'eMule."
+    IDS_APPEND              "Afegir..."
+    IDS_SAVE                "Guardar"
+    IDS_IP_START            "Escomençar"
+    IDS_IP_END              "Acabar"
+    IDS_IP_LEVEL            "Nivell"
+    IDS_IP_DESC             "Descripció"
+    IDS_IP_HITS             "Encerts"
+    IDS_IP_RULES            "Filtres IP:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "¡Actualment no estàs conectat en la ret Kad!"
+    IDS_IRC_NOSFS           "No n'hi ha archius compartits seleccionats"
+    IDS_RESETLABEL          "Auto Completar (funció historia)"
+    IDS_IRC_IGNOREMISCMESSAGE "Ignorar mensages d'informació"
+    IDS_KNOWN               "Coneguts"
+    IDS_RAU_RUNNING         "eMule eixecutant-se com usuari sense privilegis ""%s"""
+    IDS_RAU_FAILED          "Fallo a l'iniciar eMule com usuari sense privilegis ""eMule_Secure"". Mantenint els privilegis de l'usuari actual (""%s"")."
+    IDS_KADCONTACTSREAD     "Llegir %u contactes de l'archiu."
+    IDS_ERR_KADCONTACTS     "No se troben contactes, per favor reinicia, o descarréga l'archiu nodes.dat"
+    IDS_METATAGS            "Número de Meta Tag:"
+    IDS_FILEFORMAT          "Format de archiu"
+    IDS_UDPREASKS           "Peticions reiterades d'archiu via UDP"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE_MS                  "Tolerància de ping(ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER        "Metodo de tolerància de ping"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS            "Milisegons (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT       "Percentage (%)"
+    IDS_LOG_A4AF            "Registrar accions A4AF"
+    IDS_A4AF_SAVE_CPU       "Desactivar comprovació A4AF per a conservar CPU"
+    IDS_SEARCH_DOC          "Document"//!
+    IDS_DOWNLOAD_ALPHABETICAL "Descarregar en orde alfabètic"
+    IDS_INSTALL_SKIN        "Instalar tema visual eMule"
+    IDS_INSTALL_SKIN_NODIR  "No s'ha seleccionat una carpeta per a temes visuals d'eMule, o la carpeta no es accessible"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "Erro al crear la carpeta ""%s"" per a temes visuals de l'eMule - %s"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "Erro a l'extraure l'archiu de temes visuals de l'eMule ""%s"" en l'archiu local ""%s"" - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "Este no es un paquet d'archius vàlit de temes visuals per a l'eMule."
+    IDS_NEXT_REASK          "Següent petició per a este client"
+    IDS_A4AF_FILES          "Archius A4AF"
+    IDS_STATS_FRATIO        "Sessió index SU:DE (Excloses pujades a amics):"
+    IDS_STATS_UDATA_FRIENDS "Senyes pujades a llocs reservats d'amics (Sessió): %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FO_TEMPTCP_S        "Port %u (TCP) obert en el tallafocs intern de WinXP per a esta sessió de l'eMule"
+    IDS_FO_TEMPTCP_F        "Erro a l'obrir el port %u (TCP) en el tallafocs intern de WinXP per a esta sessió de l'eMule"
+    IDS_FO_TEMPUDP_S        "Port %u (UDP) obert en el tallafocs intern de WinXP per a esta sessio de l'eMule"
+    IDS_FO_TEMPUDP_F        "Erro a l'intentar obrir el port %u (UDP) en el tallafocs intern de WinXP per a esta sessió de l'eMule"
+    IDS_FO_PREFBUTTON       "Obrir estos ports en el tallafocs intern de WinXP"
+    IDS_FO_PREF_SUCCCEEDED  "Ports oberts en èxit en el tallafocs intern de WinXP.\n¡Tin en conte que açò no afecta als routers o tallafocs d'atres!"
+    IDS_FO_PREF_EXISTED     "L'eMule ha detectat que existixen regles per als ports seleccionats, les quals no poden ser reemplaçades. S'han afegit les regles que falten.\n¡Tin en conte que açò no afecta als routers o tallafocs d'atres!"
+    IDS_FO_PREF_FAILED      "¡Erro al configurar el tallafocs intern de WinXP per als ports seleccionats!"
+    IDS_FO_PREF_STARTUP     "Obrir/tancar ports en el tallafocs de WinXP quan s'inicia i tanca l'eMule"
+    IDS_LOG_LEVEL           "Nivell de registre"
+    IDS_SOURCESWAPBLOCKED   "Intercanvi bloquejat"
+    IDS_A4AF_CHECK_THIS_NOW "Comprovar esta font ara (debug)"
+    IDS_NEWMSG              "Nou Mensage de '%s' (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "Només en la mateixa categoria"
+    IDS_LOG_ULDL_EVENTS     "Registrar events de pujada/descarrega"
+    IDS_PEERCACHE_ENABLED   "El teu proveïdor d'accés a Internet (ISP) es compatible en PeerCache. ¡Activant descarregues en Cache!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "Permetre a un usuari afegir-te com amic."
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "Descarregar primer les parts necessàries per a previsualisar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "Archiu temp en format erròneu o desconegut."
+    IDS_SEARCH_INVALIDCHAR  "Expressió de busca conté caràcters no vàlits. Has introduït un caràcter '?' o caràcters que no poden usar-se en esta ret."
+    IDS_PORTSCON            "Ports i Conexio"
+    IDS_PORTINFO            "L'eMule utilisa dos ports de comunicació en servidors i clients. Estos ports deuen d'estar lliures i disponibles per a clients remots. El port TCP deu d'estar disponible per assegurar el funcionament bàsic de l'eMule. El port UDP es utilisat per Kad (ret sense servidors) i reduïx l'us de la ret (Sobrecarrega).\n\nPots canviar els ports mentres no haja escomençat l'activitat en la ret."
+    IDS_STARTTEST           "Comprovar Ports"
+    IDS_TESTINFO            "Ací pots fer proves per a comprovar si els teus ports TCP i UDP son accessibles des de l'exterior. L'èxit d'esta prova es fonamental per a que es conecten en tu servidors i clients. ¡El port TCP te que funcionar!"
+    IDS_CONNECTIONTEST      "Prova de Conexió"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "¡El canvi de ports no es possible després de conectar-se a clients o mentres es seguix conectat a un servidor/Kad!\n\nPer favor reinicia l'eMule en la nova configuració de ports."
+    IDS_NETWORK_INFO        "Informació de Ret"
+    IDS_SP_TOTALUL          "Pujades totals"
+    IDS_SP_ULFRIENDS        "Llocs de pujada reservats a amics"
+    IDS_SP_ULSLOTSNOOVERHEAD "Pujada actual (excl. excedent)"
+    IDS_ST_ACTIVEU_ZZ       "Pujades Actives"
+    IDS_ST_ULCURRENT        "Actual"
+    IDS_ST_ULSLOTSNOOVERHEAD "Actual (excl. excedent)"
+    IDS_ST_ULFRIEND         "Pujada a amic"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "Pujades actives/necessàries per a completar l'ample de banda: %u"
+    IDS_STATS_TOTALUL       "Número total de pujades: %u"
+    IDS_CHAT_DOWNLOADED     "Descarregat:"
+    IDS_CHAT_UPLOADED       "Pujat:"
+    IDS_CHAT_IDENT          "Identificació:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAXHALFOPENCONS     "Max. conexions a mig obrir"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "Activa esta opció si vols que l'eMule s'inicie a la volta que Windows. (Desactivat per defecte)"
+    IDS_KAD_WAITCBK         "Esperant resposta Kad"
+    IDS_KAD_TOOMANDYKADLKPS "Moltes busques Kad"
+    IDS_PCDS_CLIENTWAIT     "Espera de Client"
+    IDS_PCDS_CACHEWAIT      "Espera de Caché"
+    IDS_CACHE               "Caché"
+    IDS_INDEXED             "Indexat"
+    IDS_KADINFO_SRC         "\tFont: %u\r\n"
+    IDS_KADINFO_KEYW        "\tParaula clau: %u\r\n"
+    IDS_STARTWITHWINDOWS    "Iniciar a la volta que Windows"
+    IDS_ADDSRCMANUALLY      "Afegir una font manualment"
+    IDS_BUDDY               "Mediador"
+    IDS_BUDDYNONE           "Cap"
+    IDS_INFO                "Informació"
+    IDS_HALF                "Sense completar"
+    IDS_CONCOMPL            "Compl"//!
+    IDS_KADSTATUS_STOPPING  "Finalisant"
+    IDS_KADSTATUS_ACTIVE    "Actiu"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FORMAT              "Format"//!
+    IDS_META_COLLECTION     "Colecció"
+    IDS_META_PARTPATH       "Camí de la part"
+    IDS_META_PARTHASH       "Hash de la part"
+    IDS_META_GAPSTART       "Inici del buit"
+    IDS_META_GAPEND         "Fi del buit"
+    IDS_FAIL                "Erro"
+    IDS_META_PREFERENCES    "Preferències"
+    IDS_META_VERSION        "Versió"
+    IDS_META_TEMPFILE       "Archiu temporal"
+    IDS_META_SERVERPORT     "Port Servidor"
+    IDS_META_SERVERIP       "IP Servidor"
+    IDS_META_SRCUDPPORT     "Port Font UDP"
+    IDS_META_SRCTCPPORT     "Port Font TCP"
+    IDS_META_SRCIP          "IP Font"
+    IDS_META_SRCTYPE        "Tipo de Font"
+    IDS_SEARCH_UNICODE      "Busca en Unicode"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LD_ED2KLINK         "Enllaç eD2K"
+    IDS_LD_COPYCLIPBOARD    "Copiar al Portapapers"
+    IDS_LD_HOSTNAME         "Usar hostname, des de Preferències, en conte de la IP quan se crea un enllaç de font"
+    IDS_SAVEACFAILED        "¡Erro al guardar conjunt de hash AICH!"
+    IDS_AICHHASH            "Hash AICH"
+    IDS_BYTESPERSEC         "B/s"//!
+    IDS_KBYTESPERSEC        "kB/s"//!
+    IDS_MBYTESPERSEC        "MB/s"//!
+    IDS_GBYTESPERSEC        "GB/s"//!
+    IDS_TBYTESPERSEC        "TB/s"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MINORCLIENTS  "Menor"
+    IDS_LD_BASICOPT         "Opcions bàsiques"
+    IDS_LD_ADDSOURCE        "Afegir-te a tu mateix com a font"
+    IDS_LD_EMULEHASH        "Afegir a l'eMule el Hash per al sistema alvançat de gestió inteligent de la corrupció (AICH)"
+    IDS_LD_ADVANCEDOPT      "Opcions Alvançades"
+    IDS_LD_ADDHTML          "Afegir etiquetes HTML"
+    IDS_LD_ADDHASHSET       "Afegir conjunt de hash complet"
+    IDS_FILELINK            "Enllaç de l'archiu"
+    IDS_PF_ADVANCEDCALC     "Usar mètodo alvançat per a calcular el temps restant"
+    IDS_DL_SHOWED2KLINK     "Mostrar enllaç eD2K..."
+    IDS_AICH_SYNCTOTAL      "S'han trobat %u archius sense un conjunt de hash AICH vàlit, calculant un nou hash per ad ells"
+    IDS_AICH_CALCFILE       "Calculant Hash AICH per a l'archiu %s"
+    IDS_AICH_WARNUSER       "Des de la versió 0.44a l'eMule usa un hash d'archiu adicional que permet reduir enormement la pèrdua de senyes quan se detecta una corrupció. Si s'està actualisant des d'una versió anterior, l'eMule necessita recalcular un nou hash d'archiu per a tots els archius compartits. Açò pot portar un temps pero només se fa una volta."
+    IDS_AICH_WORKED         "AICH recuperat %s de %s de la part %u de %s"
+    IDS_TRICKLING           "En espera"
+    IDS_SOURCECLIENT        "Font Client"
+    IDS_USERSIP             "IP Usuari"
+    IDS_FEATURES            "Característiques"
+    IDS_IRC_NEWNICK         "Triar un alies IRC."
+    IDS_IRC_NEWNICKDESC     "Deuria de ser una paraula que continguera manco de 20 caràcters (A-Z, 0-9). Açò pot canviar-se atra volta en Preferències->IRC."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPARSEPARTFILES     "Crear nous archius part com separats (nomes NTFS)"
+    IDS_ASPECTRATIO         "Format"
+    IDS_NEGATEFILTER        "Anular filtre"
+    IDS_SEENCOMPL           "Vist completat"
+    IDS_SELSKINPROFILEDIR   "Triar carpeta per a perfils de temes visuals"
+    IDS_ASKDLINCOMPLETE     "Archiu provablement incomplet:\r\n\r\n%s\r\n\r\nPotser que est archiu estiga incomplet en la ret i segurament que no es descarregue completament ¿Estàs segur que vols descarregar est archiu?"
+    IDS_DEADSOURCES         "Fonts desaparegudes"
+    IDS_LARGEICONS          "Icons grans"
+    IDS_SMALLICONS          "Icons chicotets"
+    IDS_SHORTTAGS           "Etiquetes curtes"
+    IDS_THELOAD             "Carrega"
+    IDS_PACKSENT            "Paquets enviats"
+    IDS_RESPONSES           "Respostes"
+    IDS_EXTRACT_META_DATA   "Extraure metadata"
+    IDS_META_DATA_MEDIADET  "DirectShow (per a tots els archius d'audio/video)"
+    IDS_META_DATA_ID3LIB    "Llibreria ID3 (només per a archius d'audio MPEG)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "L'archiu Windows Common Controls (COMCTL32.DLL) es molt vell\r\n\r\neMule ha detectat que la versió de ""Windows Common Controls library (COMCTL32.DLL)"" es molt vella per a funcionar correctament en l'eMule. Per a assegurar-se un funcionament perfecte de l'eMule se recomana encaridament actualisar a la versio 5.8 de ""Windows Common Controls library (COMCTL32.DLL)"".\r\n\r\nDescarregar i instalar l'actualisació de ""Windows Common Controls library (COMCTL32.DLL)"" des de Microsoft (R) Download Center ¿Vols visitar la seua pagina web?"
+    IDS_ASREGEXPR           "Expressions regulars"
+    IDS_STATIC_REGEXP       "Expressió regular per a la vista de filtres:"
+    IDS_CARE4ALL            "Evaluar tots els archius"
+    IDS_REGEXPRESSION       "Expressió regular"
+    IDS_SEARCHKAD           "Busca Kad"
+    IDS_DWL_IPFILTERFILE    "Descarregant archiu de filtres IP"
+    IDS_DWLIPFILTERFAILED   "Erro al descarregar filtres IP"
+    IDS_FINDBUDDY           "Buscar mediador"
+    IDS_ERR_IPFILTERZIPEXTR "Erro a l'extraure l'archiu de filtres IP de l'archiu ZIP descarregat ""%s""."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "L'archiu de filtres IP descarregat ""%s"" es un archiu ZIP en contingut desconegut."
+    IDS_STORENOTES          "Guardar Notes"
+    IDS_NOTES               "Notes"//!
+    IDS_KADSEARCHALREADY    "Ya està en curs una atra busca. ¡Per favor, intenta-ho atra volta mes tart!"
+
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHUTDOWN        "Tancar l'eMule"
+    IDS_WEB_REBOOT          "Reiniciar el sistema"
+    IDS_WEB_SHUTDOWNSYSTEM  "Apagar el sistema"
+    IDS_WEB_ADMINMENU       "Menú de l'Administrador"
+    IDS_WEB_MAIN_CLOSE      "¿Estàs segur de tancar l'eMule?"
+    IDS_WEB_MAIN_REBOOT     "¿Estàs segura de reiniciar el sistema?"
+    IDS_WEB_MAIN_SHUTDOWN   "¿Estàs segur d'apagar el sistema?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "Mostrar clients bloquejats en coa d'espera"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "Mostrar amics en coa d'espera"
+    IDS_WEB_SESSIONTIMEOUT  "Interrompre sessió"
+    IDS_WEB_ALLOWHILEVFUNC  "Permetre tancar l'eMule, reiniciar i apagar"
+    IDS_SETPFSLIMIT         "Llímit de fonts..."
+    IDS_SETPFSLIMITEXPLAINED
+                            "Introduïx el nou llímit de fonts per als archiu(s) triat(s) ! \n(Posar a 0 per a utilisar la configuració estandart)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "¿Vols que s'actualisen les subcarpetes incloses en l'antiga carpeta Incoming?"
+    IDS_USESPEECH           "Notificació de mensage parlat"
+    IDS_CONDTCPACCEPT       "Rebujar conexions ràpidament"
+    IDS_TCPIP_CONNS         "Conexions TCP/IP"
+    IDS_ERR_DELFILE         "Erro al borrar l'archiu ""%s"""
+    IDS_MANUAL_FILENAMECLEANUP "¿Vols netejar els noms dels archius seleccionats?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CONFIGCORRUPT   "%s pareix estar corrupte i serà reemplaçat"
+    IDS_UPLOADING           "Pujant"
+    IDS_CANCELLED           "Cancelat"
+    IDS_PW_REMEMBERDOWNLOADED "Recordar archius descarregats"
+    IDS_PW_REMEMBERCANCELLED "Recordar archius cancelats"
+    IDS_AVAILABLEPARTS      "Parts disponibles"
+    IDS_NOSOUND             "Sense so"
+    IDS_PW_RECEIVERADDRESS  "Direcció destinatari:"
+    IDS_PW_ENABLEEMAIL      "Activar notificacions per correu electrònic"
+    IDS_EMULENOTIFICATION   "Notificació de l'eMule"
+    IDS_PW_EMAILNOTIFICATIONS "Notificacions per correu electrònic"
+    IDS_SMTPSERVER          "Servidor SMTP"
+    IDS_PW_SENDERADDRESS    "Direcció remitent:"
+    IDS_PW_SHOWTRANSTOOLBAR "Barra de ferramentes extra en la finestra de transferències"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHARED_STATUS       "Parts compartides"
+    IDS_INCOMING_FILES      "Archius completats"
+    IDS_INCOMPLETE_FILES    "Archius incomplets"
+    IDS_SHARED_DIRECTORIES  "Directoris compartits"
+    IDS_SHAREDIR            "Compartir directori"
+    IDS_SHAREDIRSUB         "Compartir en subdirectoris"
+    IDS_UNSHAREDIR          "No compartir directori"
+    IDS_UNSHAREDIRSUB       "No compartir en subdirectoris"
+    IDS_ALLSHAREDFILES      "Tots els archius compartits"
+    IDS_ALLDIRECTORIES      "Tots els directoris"
+    IDS_SEARCHRELATED       "Buscar archius relacionats"
+    IDS_RELATED             "Relacionat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLLECTIONLIST      "Llista de coleccions"
+    IDS_SEARCH_EMULECOLLECTION "Colecció"
+    IDS_COLL_REPLACEEXISTING "¿Vols reemplaçar l'archiu existent?"
+    IDS_COLL_ERR_DELETING   "Erro desconegut al borrar l'archiu antic ¿estàs segur d'eixir sense guardar?"
+    IDS_CREATECOLLECTION    "Crear colecció"
+    IDS_COLL_SIGN           "Firmar colecció en nom i clau"
+    IDS_AUTHOR              "Autor"
+    IDS_AUTHORKEY           "Clau de l'autor"
+    IDS_COLL_ADDINCAT       "Afegir noves descarregues en una categoria de colecció"
+    IDS_MODIFYCOLLECTION    "Modificar colecció"
+    IDS_VIEWCOLLECTION      "Vore colecció"
+    IDS_COLL_TEXTFORMAT     "Guardar colecció en un format de text simple"
+    IDS_SEARCHAUTHORCOLLECTION "Buscar coleccions de l'autor"
+    IDS_ERR_DUPL_FILES      "Archius compartits duplicats: ""%s"" i ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "Sensor de velocitat de pujada: El tracerouting ha fallat moltes voltes. Desactivant sensor de velocitat de pujada."
+    IDS_USS_STARTING        "Sensor de velocitat de pujada: Preparat. Iniciant control de velocitat de pujada. (S'utilisarà modo de reacció ràpida durant 60 seg.)"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "Sensor de velocitat de pujada: Detectat un aument del llimit de pujada en Preferències. S'utilisarà modo de reacció ràpida durant 60 seg."
+    IDS_USS_STATE_PREPARING "Preparant..."
+    IDS_USS_STATE_WAITING   "Esperant..."
+    IDS_USS_STATE_ERROR     "¡Error!"
+    IDS_SHAREWARNING        "(¡Es compartirà la carpeta!)"
+    IDS_REMOVEALLSERVERS    "¿Estàs segur de voler eliminar tots els servidors?"
+    IDS_SEARCH_UNKATTR      "Atribut de busca desconegut '%s'"
+    IDS_SEARCH_ATTRERR      "Error de sintaxis en l'atribut de busca '%s'"
+    IDS_SEARCH_MISSINGANDRIGHT "Falta el costat dret de l'operador AND"
+    IDS_SEARCH_OPRERR       "Error de sintaxis en l'operador de comparació '%s'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOAD_LANGFILE   "Descarregant archiu d'idioma"
+    IDS_DOWNLOADING_SERVERMET_FROM "Descarregant server.met des de %s"
+    IDS_DOWNLOADING_SERVERMET "Descarregant server.met..."
+    IDS_FULLALLOC           "Reservar tot l'espai necessari per als archius de parts no dispersos"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "No s'ha trobat el hash."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "La llista de buits està corrupta."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "Llista de buits no trobada."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "El conjunt de hash està corrupte."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "No se troba el conjunt de hash."
+    IDS_CONVERTINGKNOWN2MET "Convertint %s a %s per a soportar archius grans..."
+    IDS_CONVERTINGKNOWN2FAILED
+                            "...erro al convertir known2.met, s'han eliminat senyes antigues"
+    IDS_CONVERTINGKNOWN2DONE "... conversió finalisada"
+    IDS_ERR_MET_BAD         "Erro: l'archiu %s està corrupte. No es possible carregar els archius coneguts"
+    IDS_SRV_LARGEFILES      "Soport per a archius grans"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE
+                            "No pots descarregar est archiu perque el teu sistema d'archius no admet archius de mes de 4 GB, planteja't convertir-lo a NTFS"
+    IDS_NEWVERSIONAVLBETA   "Esta versió beta està antiquada. ¡Les versions beta solen tindre fallos, per lo que es molt important que actualises a una versió estable lo mes pronte possible!"
+    IDS_KADSEARCHACTIVE     "(Buscant via Kad...)"
+    IDS_BOLD                "Canvia a text en negreta"
+    IDS_UNDERLINE           "Canvia a text subrallat"
+    IDS_COLOUR              "Seleccionar color per al text en primer pla,(Opcionalment color per al fondo)."
+    IDS_RESETFORMAT         "Desfa tots els formats modificats prèviament,(Envia una etiqueta de restauracio)."
+    IDS_RESTORESEARCHPARAMS "Restaurar els Paràmetros de Busca"
+    IDS_COMMAND             "Comandament"
+    IDS_ARGUMENTS           "Arguments"//!
+    IDS_AP_CREATEPREVCOPY   "Crear archiu per a previsualisació"
+    IDS_ARCHIVEDETAILS      "Archiu-Detalls"
+    IDS_ARCHTYPE            "Tipo d'archiu:"
+    IDS_ATTRIBUTES          "Atributs"
+    IDS_LASTMODIFIED        "Ultima modificació"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "Capçaleres sifrades - no se pot llegir l'archiu."
+    IDS_ARCPARSED           "Archiu escanejat."
+    IDS_ARCPREV_LISTMAYBEINCOMPL "La llista d'archius podria estar incompleta."
+    IDS_ARCPREV_DIRNOTFOUND "No s'ha trobat la taula de continguts."
+    IDS_ARCPREV_INSUFFDATA  "Falten senyes."
+    IDS_PASSWPROT           "Protecció en contrasenya"
+    IDS_ARCPREV_DIRSUCCREAD "S'ha llegit correctament la taula de continguts."
+    IDS_ARCPREV_UNKNOWNFORMAT "(desconegut/no admés)"
+    IDS_ARCPREV_PLEASEWAIT  "Escanejant archiu..."
+    IDS_OBFUSCATION         "Ofuscació"
+    IDS_SUPPORTED           "Admés"
+    IDS_ESTIMATED           "Estimat"
+    IDS_MEDIAINFO_DLLMISSING
+                            "No està instalada la llibreria MediaInfo. Si vols conseguir informació sobre archius d'audio/video en este quadro de dialec,\r\ndescarraga-la de https://mediaarea.net/es/MediaInfo i copia l'archiu MediaInfo.dll en\r\nla carpeta a on tingues instalat l'eMule ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "Atenció: L'extensió de l'archiu ""%s"" no coincidix en la\r\nque se sol usar per a eixe format d'archius. Tal volta vullgues renomenar l'archiu per a\r\nutilisar una d'eixes extensions ""%s""\r\ni aixina poder utilisar-lo o vore-lo correctament.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "Atenció: L'archiu ""%s"" pareix estar protegit per la Gestió de Drets Digitals.\r\nÉs molt provable que no pugues utilisar eixe archiu sense una llicencia del seu creador.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "Barra de ferramentes de l'eMule per a archius de mapa de bits"
+    IDS_LOADFILTER_EMSKINFILES "Archius dels temes visuals de l'eMule"
+    IDS_WEB_REMOTE_LINK_ADDED "Enllaç afegit: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "Enllaç no afegit. La contrasenya es incorrecta."
+    IDS_OPTIONS             "Opcions"
+    IDS_ERR_FAILEDTOLOAD    "Error al carregar %s: %s "
+    IDS_RUNNINGRESTRICTED   "l'eMule està funcionant en privilegis llimitats"
+    IDS_ARCHPREV_ATTRIBINFO "Els atributs de l'archiu poden contindre:\r\n\r\nP\tl'archiu està protegit en contrasenya\r\nD\tes un directori\r\nC\tComentari\r\nLx\tNivell de compresio x\r\nM\tsenyes comprimides no acabades de descarregar\r\n<\tarchiu continuat des d'un volum anterior\r\n>\tl'archiu continua en el següent volum\r\n"
+    IDS_CONTENT_INFO        "Informació de contingut"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "Mensages i comentaris"
+    IDS_DISABLEOBFUSCATION  "No permetre conexions ofuscades"
+    IDS_ONLYOBFUSCATED      "Només permetre conexions ofuscades (no recomanat)"
+    IDS_ENABLEOBFUSCATION   "Activar l'ofuscació de protocol"
+    IDS_PROTOCOLOBFUSCATION "Ofuscació de protocol"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "Conectant en %s (%s:%u - utilisant ofuscació de protocol) ..."
+    IDS_CONNECTEDTOOBFUSCATED "Conexió ofuscada establida en: %s"
+    IDS_VERIFIED            "Verificat"
+    IDS_OBFUSCATED          "Ofuscat"
+    IDS_UNVERIFIED          "no verificat"
+    IDS_INVALIDFILEEXT      "L'extensió de l'archiu no es valida"
+    IDS_UNKNOWNFILEEXT      "Extensió de l'archiu desconeguda"
+    IDS_ENABLEMINIMULE      "Activar MiniMule"
+    IDS_DISABLE_AUTOARCHPREV
+                            "Desact. inici autom. de previsualis. d'archius en detalls de l'archiu"
+    IDS_US_STALLEDW4BR      "¡Pausat! Esperant un bloc que s'ha solicitat."
+    IDS_US_STALLEDREADINGFDISK "¡Pausat! Llegint disc."
+    IDS_SERVERFEATURE_INTTYPETAGS "Etiquetes de tipo sancer"
+    IDS_FILLGRAPHS          "Dibuixar gràfics en farcit"
+    IDS_PARAMETER           "Paràmetro"
+    IDS_TEST                "Prova"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "Utilisar UPnP per a redirigir ports"
+    IDS_UPNPSETUP           "Intentant redirigir els ports mijan UPnP"
+    IDS_UPNPFAILED          "No s'han pogut redirigir els ports mijan UPnP, per favor, ¡obri estos ports manualment si es necessari!"
+    IDS_UPNPSUCCESS         "S'han redirigit correctament els ports %u (TCP) i %u (UDP) mijan UPnP"
+    IDS_FO_PREFBUTTON_NEW   "Obrir els ports en el tallafocs de WinXP SP1"
+    IDS_UPNP_NOSERVICE      "El servici Host del Dispositiu Plug and Play universal no està eixecutant-se, no es finalisarà la configuració de UPnP"
+    IDS_DELAYEDBYUPNP       "La conexió a la ret encara no s'ha realisat perque UPnP encara està sent redirigit als ports"
+    IDS_DELAYEDBYUPNP2      "Per favor, espera uns segons, eMule es conectarà a la ret quan UPnP finalise."
+    IDS_UPNP                "UPnP"
+    IDS_UPNPCLOSEONEXIT     "Eliminar les redireccions de ports de UPnP al eixir"
+    IDS_UPNPSKIPWANIP       "No configurar la IP de la WAN"
+    IDS_UPNPSKIPWANPPP      "No configurar el PPP de la WAN"
+    IDS_SHAREEMULELABEL     "Compartint eMule en atres usuaris"
+    IDS_SHAREEMULEMULTI     "Cada usuari té sa pròpia configuració i descarrega"
+    IDS_SHAREEMULEPUBLIC    "Tots tenen la mateixa configuració i descarrega"
+    IDS_SHAREEMULEOLD       "Guardar la configuració i les descarregues en el directori del programa"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "Canviant esta opció es permeta a eMule utilisar atra configuració diferent a la actual, que serà ignorada i les descarregues en curs deixaran de ser visibles. Podràs tornar a la teua configuració actual canviant novament esta opció.\n\nSerà necessari reiniciar eMule para que los canvis siguen efectius."
+    IDS_SPAM                "Spam"//!
+    IDS_MARKSPAM            "Marcar com Spam"
+    IDS_MARKNOTSPAM         "Marcar com No Spam"
+    IDS_SEARCHSPAMFILTER    "Activar Filtre de Spam para los resultats de las búsquedes"
+    IDS_SHOWSMILEYS         "Mostrar emoticonos"
+    IDS_CAPTCHAREQUEST      "Per a evitar mensages no desijats, este usuari te demana que escrigues un captcha. Por favor, escriu ací les lletres de la image:"
+    IDS_CAPTCHAFAILED       "La teua resposta al captcha ha segut errònea, i el teu mensage ha segut ignorat. Pots demanar un nou captcha manant un nou mensage."
+    IDS_CAPTCHASOLVED       "Has superat la prova del captcha i el usuari ha rebut tu mensage."
+    IDS_USECAPTCHAS         "Solicitar autentificació per captcha"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat de URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "Descarregant nodes.dat des de %s"
+    IDS_DOWNLOADING_NODESDAT "Descarregant nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "Error al descarregar nodes.dat des de %s"
+    IDS_PREVENTSTANDBY      "No suspendre el sistema si eMule està funcionant"
+    IDS_KADID               "KadID"//!
+    IDS_SEARCHINGFRIENDKAD  "Buscant amics en la Red Kad"
+    IDS_FOUND               "trobat"
+    IDS_EXTERNUDPPORT       "Port UDP extern"
+    IDS_STORESEARCHES       "Recordar búsquedes obertes entre reinicis"
+    IDS_WRN_INCFILE_EXISTS  "Has seleccionat una carpeta nova per als teus archius entrants que no està buida. eMule compartirà automàticament tots els fichers que hi haja en eixe directori."
+    IDS_EDITSPAMFILTER      "Modificació del filtre de spam..."
+    IDS_EDITSPAMFILTERCOMMENTS "Modificar el filtre de spam per a comentaris"
+    IDS_WIZZARDOBFUSCATION  "Activa esta opció si vols habilitar la ofuscació de protocol\n\nSi tu ISP intenta llimitar o bloquejar eMule, la ofuscació ajudarà a esquivar estes restriccions."
+    IDS_BETANAG             "Esta es una versió beta de eMule. Per favor, informa de possibles problemes i comprova regularment si hi ha actualisacions en el nostre fòrum (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "¿Vols descarregar i utilisar els contactes de Kad (nodes.dat) de la següent direcció:\n%s ?"
+    IDS_AUTOMATIC           "Automàtic"
+    IDS_NOTCONNECTEDANY     "No estàs conectat a cap servidor ni a la ret Kad."
+    IDS_ERR_SHARED_DIR      "No s'ha pogut llegir el directori compartit «%s» - %s"
+    IDS_FILE_WARNING_DRM    "Pareix ser que el archiu «%s» està protegit en gestió de persmisos digital (Digital Rights Management).\r\n\r\nLo més probable és que no pugues utilisar-lo sense una llicència del creador. Tindràs que tindre en conte que en obrir este archiu, el vostre reproductor multimèdia segurament obrirà el navegador i vos durà al lloc web del creador, on se vos demanarà si vols adquirir una llicència.\r\n\r\nSegur que vols continuar?"
+    IDS_CHECK_FILE_OPEN     "Mostra un avís en obrir archius que no siguen de confiança"
+    IDS_BOOTABLE            "permet iniciar"
+    IDS_UNSUPPORTEDIMAGE    "image no implementada"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "No compartir"
+    IDS_WEBUPNPINCLUDE      "Incloure port en la configuració UPnP"
+    IDS_ADDEDON             "Afegit"
+    IDS_RESOLVELINKS        "Resolve shell links in shared directories"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "Download Commands"
+    IDS_CLOSETOOLBAR        "Close Toolbar"
+    IDS_SHOWTOOLBAR         "Show Toolbar"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "You cannot use the first keyword with an OR operator when searching on Kad!\n\nFor example ""Keyword1 OR Keyword2"" is not possible. Try ""Keyword1 AND (Keyword2 OR Keyword3)"" or do multiple searches instead."
+    IDS_DISCOVEREDBY        "Discovered by"
+    IDS_NODES               "Node(s)"
+    IDS_ROUTINGTABLE        "Routing Table"
+    IDS_PROTOCOLVERSION     "Protocol Version"
+    IDS_FOUNDNODESUSEFUL    "Found Nodes (useful)"
+    IDS_NORESPONSE          "No Response"
+    IDS_NOTASKED            "Not Asked"
+    IDS_LOOKUPGRAPH         "Search Details"
+    IDS_AUTOKADLOOKUPGRAPH  "Automatically show active searches"
+    IDS_PAUSEONPREVIEW      "Pause when preview possible"
+    IDS_PREVIEWWITH         "Preview with"
+    IDS_CLOSEEMULE          "Close eMule"
+    IDS_DONOTASKAGAIN       "Don't ask me again"
+    IDS_POPULARITY          "Popularity Rank"
+    IDS_SHOWWIN7TASKBARGOODIES "Enable Windows 7 taskbar effects"
+    IDS_LANMODE             "LAN Mode"
+    IDS_OPENPREFINI         "Open preferences.ini"
+END
+
+#endif    // Valencian (RACV) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

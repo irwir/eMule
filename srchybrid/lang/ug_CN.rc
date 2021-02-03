@@ -1,0 +1,1970 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "ug_CN.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Uyghur (PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) // || defined(AFX_TARG_UIG)
+#ifdef _WIN32
+LANGUAGE 0x80, 0x01
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "ug_CN.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "دەسلەپلەشتۈرۈش مەغلۇپ بولدى.‏Socket"
+    IDS_ABOUTBOX            "‫eMule ھەققىدە…‬"
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s دىن %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "غا ئۇلان %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "دائىرە ئاتىنى تەھلىل قىلىۋاتىدۇ: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "‫%s دائىرە ئاتى مۇۋپپەقىيەتلىك تەھلىل قىلىندى‬"
+    IDS_HTTPDOWNLOAD_CONNECTING "غا ئۇلىنىۋاتىدۇ %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "غا قايتا نىشان بەلگىلەش %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "ھۆججەت ئۇچۇرىغا ئېرىشىش"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR
+                            "ھۆججەت چۈشۈرۈشتە خاتالىق كۆرۈلدى: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "مۇلازىمېتىرغا ئۇلىنىشتا خاتالىق كۆرۈلدى: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE
+                            "مۇلازىمېتىردىن توغرا جاۋابقا ئېرىشەلمىدى"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "‫مۇلازىمېتىردىن توغرا HTTP جاۋابقا ئېرىشەلمىدى‬"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE
+                            "ھۆججەت چۈشۈرۈشتە خاتالىق كۆرۈلدى: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "چۈشۈرۈۋاتىدۇ: %s%% تاماملانغىنى %s "
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "ھۆججەت قوبۇللاۋاتىدۇ"
+    IDS_HTTPDOWNLOAD_OF     "%s دىن %s"
+    IDS_FILELINK            "ھۆججەت ئۇلانما"
+    IDS_LD_BASICOPT         "ئاساسىي تاللانما"
+    IDS_LD_ADDSOURCE        "‫IP ئادرېسىڭىزنى مەنبە سۈپىتىدە ئۇلانمىغا قوشىدۇ‬"
+    IDS_LD_EMULEHASH        "‫eMule AICH Hash نى قۇشۇپ، ئالىي دەرىجە خاتالىق بىر تەرەپ قىلىشقا ئىشلىتىدۇ‬"
+    IDS_LD_ADVANCEDOPT      "ئالىي تاللانما"
+    IDS_CANCEL              "ۋاز كەچ"
+    IDS_LD_ADDHTML          "‫HTML بەلگىسى قوش‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTP_CAPTION        "مۇلازىمېتىر تىزىملىكىنى يېڭىلاۋاتىدۇ"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s كۆچۈرۈلدى)"
+    IDS_LD_ADDHASHSET       "‫تولۇق Hashset قوش"
+    IDS_HSAV                "‫Hashset ئىشلىتىشكە بولىدۇ‬"
+    IDS_DL_SHOWED2KLINK     "‫ED2K ئۇلانمىسى…‬"
+    IDS_FD_CORR             "بۇزۇلغان"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            " ھۆججەت مەۋجۇد«%s»\nئالماشتۇرامسىز؟"
+    IDS_FD_RECOV            "ئەسلىگە كەلدى"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "چۈشۈرگەن ھۆججەتنى ئاچقاندا خاتالىق كۆرۈلدى: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "يوللاش ئاخىرلىشىۋاتىدۇ"
+    IDS_FD_COMPR            "پرىسلاش"
+    IDS_WIZARD_NETWORK      "ئىشلەتمەكچى بولغان تورنى تاللاڭ"
+    IDS_MAIN_READY          "‫eMule نىڭ  %s نەشرى ھازىرلاندى‬"
+    IDS_WIZARD_ED2K         "‫eD2K تەڭشىكى‬"
+    IDS_SEL_SKIN            "ئۇسلۇب تاللاش…‏"
+    IDS_MAIN_SOCKETERROR    "‫ئەجەللىك خاتالىق: %u ئېغىزدا Socket قۇرالمىدى‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_BTN_DISCONNECT "‫ئۇلىنىشنى ئۈز(&C)‬"
+    IDS_ERR_WRONGFILEID     "خاتا ھۆججەت كىملىكى يوللاندى"
+    IDS_ERR_BADHASHSET      "‫بۇزۇلغان ياكى ئىناۋەتسىز Hashset قوبۇللاندى‬"
+    IDS_ERR_BADDATABLOCK    "بۇزۇلغان ياكى ئىناۋەتسىز سانلىق مەلۇمات بۆلىكى قوبۇللاندى"
+    IDS_ERR_ILLFORMEDHASH   "‫ناتوغرا Hash فورماتى‬"
+    IDS_ERR_BADED2KLINK     "‫ئۆلچەمسىز فورماتتىكى ED2K ئۇلانمىسى‬"
+    IDS_ERR_NOSLLINK        "‫ئىناۋەتسىز ED2K مۇلازىمېتىر ياكى ھۆججەت ئۇلانمىسى‬"
+    IDS_ERR_WRONGPACKETSIZE "ئىناۋەتسىز OP_REQUESTFILENAME بوغچا چوڭلۇقى"
+    IDS_ERR_WRONGHPACKETSIZE "ئىناۋەتسىز OP_HASHSETREQUEST بوغچا چوڭلۇقى"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "نامەلۇم ئىشلەتكۈچى كېڭەيتىلگەن كېلىشىم بوغچىسى يوللىدى"
+    IDS_ERR_OPENMET         "‫خاتالىق : part.met ھۆججىتى ئېچىش مەغلۇپ بولدى! (%s => %s)‬"
+    IDS_ERR_BADMETVERSION   "خاتالىق : ئىناۋەتسىز‫ part.met ھۆججەت نەشرى (%s => %s)‬"
+    IDS_ERR_METCORRUPT      "‫خاتالىق: %s (%s)‎ بۇزۇلغان، ھۆججەتنى يۈكلىيەلمەيدۇ‬"
+    IDS_ERR_FILEERROR       "‫ %s (%s): %s‎ ئوقۇشتا تاساددىپىي خاتالىق يۈز بەردى‬"
+    IDS_ERR_FILEOPEN        "‫ %s (%s)‎ ئېچىش مەغلۇپ بولدى‬"
+    IDS_SEL_SKINDIR         "ئۇسلۇب مۇندەرىجىسىنى تاللاش…‏"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_HASHERRORWARNING
+                            "‫ئاگاھلاندۇرۇش: %s بۇزۇلغان بولۇشى مۇمكىن، تاماملانغان ھۆججەتنىڭ بۆلىكىنى قايتىدىن Hash قىلىۋاتىدۇ‬"
+    IDS_ERR_INCOMPLETEHASH  "‫خاتالىق: چۈشۈرگەن بۆلەك ھۆججىتىنىhash  قىلالمىدى- hashset تەڭشىكى تولۇق ئەمەس(%s). بۇ خاتالىق يۈز بەرمەسلىكى كېرەك ئىدى.‬"
+    IDS_DOWNLOADING         "چۈشۈرۈۋاتىدۇ"
+    IDS_WAITING             "ساقلاۋاتىدۇ"
+    IDS_HASHING             "Hashing" //!
+    IDS_COMPLETING          "تاماملاۋاتىدۇ"
+    IDS_COMPLETE            "تامام"
+    IDS_PAUSED              "ۋاقىتلىق توختا"
+    IDS_ERRORLIKE           "خاتالىق"
+    IDS_ASSIGNED2K          "‫eMule نۆۋەتتە ED2K ئۇلىنىشىنى بىر تەرەپ قىلىدىغان كۆڭۈلدىكى پروگرامما ئەمەس، ئۇنى كۆڭۈلدىكىگە تەڭشەمسىز (تەۋسىيە)؟‬"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "‫«addresses.dat»‎ دىن مۇلازىمېتىر تىزىملىك ئادرېسىنى تاپالمىدى، قانۇنلۇق مۇلازىمېتىر تىزىملىك ئادرېسىدىن بىرنى بۇ ھۆججەتكە چاپلاپ مۇلازىمېتىر تىزىملىكىنى ئۆزلۈكىدىن يېڭىلىسۇن.‬"
+    IDS_ERR_BADSERVERMETVERSION "‫server.met تا ئىناۋەتسىز نەشر بەلگىسى (0x%X) بايقالدى!‬"
+    IDS_SERVERSFOUND        "‫server.met تىن %u مۇلازىمېتىر تاپتى‬"
+    IDS_SERVERSADDED        "‫%u مۇلازىمېتىر قوشۇلدى،  %u قوشۇلمىدى (تىزىملىكتە ياكى ئادرېس ئناۋەتسىز)‬"
+    IDS_ERR_BADSERVERLIST   "‫خاتالىق: server.met ھۆججەت بۇزۇلغان، مۇلازىمېتىر تىزىملىكىنى يۈكلىيەلمىدى‬"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "‫server.met ئوقۇشتا تاسادىپىي خاتالىق يۈز بەردى:%s، مۇلازىمېتىر تىزىملىكىنى يۈكلىيەلمىدى‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_SAVESERVERMET   "‫server.met ساقلاش مەغلۇپ بولدى!‬"
+    IDS_PASSIVE             "پاسسىپ"
+    IDS_MAIN_BTN_CANCEL     "‫ۋاز كەچ(&C)‬"
+    IDS_AVAIL               "بۆلەك %u، ئېرىشەلەيدىغىنى %u (%.1f%%)\n\n"
+    IDS_TYPE                "تىپى"
+    IDS_FILEID              "ھۆججەت بەلگىسى"
+    IDS_FILE                "ھۆججەت"
+    IDS_DOWNLOAD            "چۈشۈرۈش"
+    IDS_SL_SERVERNAME       "مۇلازىمېتىر ئىسمى"
+    IDS_IP                  "IP" //!
+    IDS_DESCRIPTION         "بىلدۈرگۈ"
+    IDS_PING                "Ping" //!
+    IDS_FILES               "ھۆججەتلەر"
+    IDS_PREFERENCE          "ئالدىنلىق"
+    IDS_PRIONOPREF          "تاللانما يوق"
+    IDS_CONNECTTHIS         "تاللىغان مۇلازىمېتىرغا ئۇلان"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_BTN_CONNECT    "‫ئۇلان(&C)‬"
+    IDS_ERR_SAVESERVERMET2  "‫server.met ساقلاش مەغلۇپ بولدى! server.met نى ئۆچۈرۈپ server.met.old نى server.met قا ئۆزگەرتىدۇ!‬"
+    IDS_NOTCONNECTED        "ئۇلانمىدى"
+    IDS_DISCONNECTED        "ئۇلىنىش ئۈزۈلدى"
+    IDS_USERS               "ئىشلەتكۈچى سانى: %u"
+    IDS_UPDOWN              "يوللاش: %.1f(%.1f) | چۈشۈرۈش: %.1f(%.1f)"
+    IDS_CONNECTED           "ئۇلاندى"
+    IDS_LINKNOTADDED        "ئۇلانما قوشالمىدى"
+    IDS_MAIN_EXIT           "‫eMule دىن راستىنلا چېكىنەمسىز؟‬"
+    IDS_MAIN_POPUP_RESTORE  "ئەسلىگە كەلتۈر"
+    IDS_CONNECTTOANYSERVER  "خالىغان مۇلازىمېتىرغا ئۇلان"
+    IDS_EXIT                "‫چېكىن(&E)‬"
+    IDS_CONNECTING          "ئۇلىنىۋاتىدۇ"
+    IDS_FAILED              "مەغلۇبىيەت"
+    IDS_ERR_BADSERVERREPLY  "بۇزۇلغان ياكى ئىناۋەتسىز مۇلازىمېتىر تىزىمغا كىرىش ئىنكاسى تاپشۇرۇۋالدى"
+    IDS_NEWCLIENTID         "يېڭى ئىشلەتكۈچى بەلگىسى %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_REHASH          "‫ئاگاھلاندۇرۇش: %s بۇزۇلغان بولۇشى مۇمكىن، تاماملانغان ھۆججەتنىڭ بۆلىكىنى قايتىدىن Hash قىلىۋاتىدۇ‬"
+    IDS_SKIN_PROF           "ئۇسلۇب سەپلىمىسى"
+    IDS_ERR_PART_FNF        "‫.part ھۆججىتىنى تاپالمىدى‬"
+    IDS_KADOPEN             "ئاچ"
+    IDS_ERR_SAVEMET         "‫.part ھۆججىتىنى ساقلاشتا خاتالىق كۆرۈلدى: %s (%s)‎‬"
+	IDS_ERR_FOUNDCORRUPTION "Found corrupted part (%u) in %s"
+    IDS_HASHINGDONE         "‫%s نى قايتىدىن Hash قىلىش تاماملاندى، ھۆججەت ياخشى بولۇشى مۇمكىن.‬"
+    IDS_ERR_PARTCORRUPT     "‫چۈشۈرگەن بۆلەك %u بۇزۇلغان:(  (%s)‬"
+    IDS_ICHWORKED           "‫I.C.H.بۇزۇلغان ھۆججەت بۆلىكى‪ %u (%s)‬‎ نى ئەسلىگە كەلتۈردى: %s ‬"
+    IDS_ERR_OUTOFSPACE      "‫دىسكا بوشلۇقى يېتىشمىدى، «%s» چۈشۈرەلمەيدۇ!‬"
+    IDS_SE                  "مەنبە ئالماشتۇرۇش"
+    IDS_ERR_WRITEERROR      "‫%s ھۆججەتنى يازغاندا تاسادىپىي خاتالىق يۈز بەردى: %s‬"
+    IDS_ERR_COMPLETIONFAILED
+                            "‫%s ھۆججەتنى تاماملىغاندا تاسادىپىي خاتالىق يۈز بەردى. ھۆججەت ۋاقىتلىق توختىتىلدى، eMule نى قايتا قوزغىتىپ قايتا سىناپ بېقىڭ.‬"
+    IDS_ERR_DELETEFAILED    "‫%s ھۆججەتنى ئۆچۈرەلمىدى، قولدا ئۆچۈرۈڭ.‬"
+    IDS_DOWNLOADDONE        "چۈشۈرۈش تامام: %s -)"
+    IDS_ERR_DELETE          "‫%s ئۆچۈرەلمىدى‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDFOLDERS       "ھەمبەھىر مۇندەرىجە"
+    IDS_VIEW1               "كۆرۈنۈش"
+    IDS_VIEW2               " (ھەمبەھىر ئەمەس)"
+    IDS_PRIOLOW             "تۆۋەن"
+    IDS_PRIONORMAL          "ئادەتتىكى"
+    IDS_PRIOHIGH            "يۇقىرى"
+    IDS_DOWNLOADMENUTITLE   "چۈشۈرۈش"
+    IDS_PRIORITY            "ئالدىنلىق"
+    IDS_NEWSERVERS          "‫%u يېڭى مۇلازىمېتىر تاپشۇرۇۋالدى‬"
+    IDS_DL_STOP             "‫توختا(&S)‬"
+    IDS_DL_PAUSE            "‫ۋاقىتلىق توختا(&P)‬"
+    IDS_DL_RESUME           "‫داۋاملاشتۇر(&R)‬"
+    IDS_DL_OPEN             "‫ھۆججەت ئاچ(&O)‬"
+    IDS_DL_INFO             "‫تەپسىلاتى(&D)…‬"
+    IDS_DL_CLEAR            "‫تاماملانغان ھۆججەتنى تازىلا(&L)‬"
+    IDS_DL_LINK1            "‫ eD2K ئۇلانمىسىنى كۆچۈر(&L)‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_LINK2            "‫eD2K ئۇلانمىسىنى (&HTML)  كۆچۈر‬"
+    IDS_SHOWDETAILS         "‫تەپسىلاتى(&D)…‬"
+    IDS_SEND_MSG            "‫ئۇچۇر يوللا(&M)‬"
+    IDS_ASKING              "ئىلتىماس قىلىۋاتىدۇ"
+    IDS_CONNVIASERVER       "مۇلازىمېتىر ئارقىلىق ئۇلىنىۋاتىدۇ"
+    IDS_ONQUEUE             "ئۆچرەتتە"
+    IDS_TRANSFERRING        "يوللاۋاتىدۇ"
+    IDS_RECHASHSET          "قوبۇللاۋاتىدۇ hashset"
+    IDS_NONEEDEDPARTS       "لازىملىق بۆلەك يوق"
+    IDS_NOCONNECTLOW2LOW    "‫LowID دىن LowID غا ئۇلىنالمايدۇ‬"
+    IDS_UNKNOWN             "نامەلۇم"
+    IDS_ASKED4ANOTHERFILE   "باشقا ھۆججەت ئىلتىماس قىلىندى"
+    IDS_Q_CANCELDL          "بۇ ھۆججەتلەرنى بىكار قىلىپ، ئۆچۈرەمسىز؟"
+    IDS_Q_CANCELDL2         "بۇ ھۆججەتنى بىكار قىلىپ، ئۆچۈرەمسىز؟"
+    IDS_DL_FILENAME         "ھۆججەت ئاتى"
+    IDS_DL_SIZE             "چوڭلۇقى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_TRANSF           "يوللاندى"
+    IDS_DL_SPEED            "سۈرئەت"
+    IDS_DL_PROGRESS         "سۈرئىتى"
+    IDS_DL_SOURCES          "مەنبەسى"
+    IDS_ERR_BADSERVERLISTRECEIVED "ئىناۋەتسىز مۇلازىمېتىر تىزىملىك سانلىق مەلۇمات بوغچىسى تاپشۇرۇۋالدى"
+    IDS_STATUS              "ھالەت"
+    IDS_DL_REMAINS          "قالغىنى"
+    IDS_UPDATEFROM          "‫بۇ URL دىن يېڭىلاش : (filter.dat ياكى PeerGuardian فورماتى)‬"
+    IDS_QL_USERNAME         "ئىشلەتكۈچى ئاتى"
+    IDS_LOADURL             "يۈكلە"
+    IDS_DELETEAFTERALLOC    "‫«%s» ھۆججەتكە دىسكا بوشلۇقى تەقسىملەۋاتىدۇ، تاماملانغاندا بۇ ھۆججەت ئۆچۈرۈلىدۇ‬"
+    IDS_QL_RATING           "دەرىجىسى"
+    IDS_CONNECTINGTO        "%s (%s:%u) ئۇلىنىۋاتىدۇ…‏"
+    IDS_CLIENTS             "خېرىدار"
+    IDS_SEARCH_ANY          "خالىغان"
+    IDS_SEARCH_AUDIO        "ئاۋاز"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "رەسىم"
+    IDS_SEARCH_PRG          "پروگرامما"
+    IDS_SEARCH_VIDEO        "سىن"
+    IDS_SEARCH_CDIMG        "‫CD تەسۋىرى‬"
+    IDS_SEARCH_ARC          "پرېس بوغچىسى"
+    IDS_ERR_INVALIDLINK     "‫بۇ ئىناۋەتسىز ED2K ئۇلانمىسى (%s)‬"
+    IDS_ERR_LINKERROR       "ئىناۋەتسىز ئۇلانما: %s"
+    IDS_ERR_NOTCONNECTED    "مۇلازىمېتىرغا ئۇلانمىدى!‏"
+    IDS_REMOVETHIS          "ئۆچۈر"
+    IDS_REMOVEALL           "ھەممىنى ئۆچۈر"
+    IDS_SRV_ADDR            "مۇلازىمېتىر ئادرېسىنى كىرگۈزۈڭ"
+    IDS_SRV_PORT            "تولۇق بولمىغان مۇلازىمېتىر ئېغىزى: مۇلازىمېتىر ئېغىزىنى كىرگۈزۈڭ"
+    IDS_SRV_NOTADDED        "مۇلازىمېتىر قوشۇلمىغان!‏"
+    IDS_SRV_NOURLAV         "‫ئىشلىتىلىشچان URL يوق‬"
+    IDS_INVALIDURL          "ئىناۋەتسىز URL"
+    IDS_ERR_FAILEDDOWNLOADMET "‫ %s دىن مۇلازىمېتىر تىزىملىكىنى چۈشۈرەلمىدى‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PERMISSION          "ھوقۇق چېكى"
+    IDS_SHAREDFILES         "ھەمبەھىر ھۆججەت"
+    IDS_PRIOVERYLOW         "ناھايىتى تۆۋەن"
+    IDS_PRIORELEASE         "يوللاش"
+    IDS_TRAYDLG_SPEED       "‫eMule سۈرئىتى‬"
+    IDS_FSTATUS_FRIENDSONLY "دوستقىلا"
+    IDS_VIAPASSIVE          "پاسسىپ"
+    IDS_ERR_RENAMESF        "نامىنى ئۆزگەرتىش مەغلۇپ بولدى \r\n    ""%s""\r\nدىن\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "ئىشلىتىلىشچان"
+    IDS_FSTAT_TRANSFER      "يوللاش"
+    IDS_CONNECTIONS         "ئۇلاش"
+    IDS_FSTAT_SERVERS       "مۇلازىمېتىر"
+    IDS_FSTAT_WAITING       "سەل كۈتۈڭ…‏"
+    IDS_TIME                "ۋاقىت"
+    IDS_STATS_DDATA         "چۈشۈرگىنى: %s"
+    IDS_STATS_UDATA         "يوللىغىنى: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_AVGDL         "ئوتتۇرىچە چۈشۈرۈش سۈرئىتى: %s"
+    IDS_STATS_AVGUL         "ئوتتۇرىچە يوللاش سۈرئىتى: %s"
+    IDS_STATS_FOUNDSRC      "تېپىلغان مەنبە: %u"
+    IDS_STATS_ACTDL         "نۆۋەتتىكى چۈشۈرۈۋاتقانلار (نەپەر)‏: %u"
+    IDS_STATS_ACTUL         "نۆۋەتتە يوللىغان سانى: %u"
+    IDS_STATS_WAITINGUSERS  "نۆۋەتتە يوللىغان سانى: %u"
+    IDS_STATS_RECONNECTS    "قايتا ئۇلىنىش: %u"
+    IDS_STATS_UNKNOWNCLIENT "نامەلۇم: %u"
+    IDS_STATS_TOTAL         "جەمئى: %u"
+    IDS_DISABLED            "چەكلەندى"
+    IDS_STOPPED             "توختىتىلدى"
+    IDS_STATS_UPDATELABEL   "يېڭىلاش ئارىلىقى: %u سېكۇنت"
+    IDS_ASKEDFAF            "\nباشقا بىر ھۆججەت ئىلتىماس قىلىندى"
+    IDS_WAITED              "ساقلاۋاتىدۇ"
+    IDS_ERR_LOADCREDITFILE  "كرېدىت ھۆججىتىنى يۈكلەش مەغلۇپ بولدى، يېڭى ھۆججەت قۇرۇلماقچى"
+    IDS_ERR_CREDITFILEOLD   "كرېدىت ھۆججىتىنىڭ ۋاقتى ئۆتتى ھەمدە ئالماشتۇرۇۋېتىلىدۇ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CREDITFILELOADED    "كرېدىت ھۆججىتى يۈكلەندى، %u مەلۇملۇق خېرىدار"
+    IDS_CREDITFILECORRUPT   "خاتالىق: كرېدىت ھۆججىتىنىڭ ۋاقتى ئۆتتى ھەمدە ئالماشتۇرۇۋېتىلىدۇ!‏"
+    IDS_ERR_CREDITFILEREAD  "كرېدىت ھۆججىتىنى ئوقۇشتا تاسادىپىي خاتالىق يۈز بەردى: %s"
+    IDS_ERR_FAILED_CREDITSAVE "كرېدىت ھۆججىتىنى ساقلاش مەغلۇپ بولدى"
+    IDS_NOPARTSFOUND        "‫part ھۆججىتى بايقالمىدى‬"
+    IDS_FOUNDPARTS          "‫%u دانە part ھۆججىتى بايقالدى‬"
+    IDS_NEWDOWNLOAD         "چۈشۈرۈۋاتىدۇ: %s"
+    IDS_ERR_ALREADY_DOWNLOADING
+                            "چۈشۈرگىنىڭىز مەۋجۇد: %s"
+    IDS_ERR_ALREADY_DOWNLOADED "چۈشۈرگەن ھۆججىتىڭىز: %s"
+    IDS_ERR_SERVERMET_BAD   "‫خاتالىق: known.met ھۆججىتى بۇزۇلغان، مەلۇملۇق ھۆججەتنى يۈكلىيەلمەيدۇ‬"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "‫ known.met ھۆججىتىنى ئوقۇشتا نامەلۇم خاتالىق كۆرۈلدى:%s مەلۇملۇق ھۆججەتنى يۈكلىيەلمەيدۇ‬"
+    IDS_ERR_CONNECTIONERROR "%s (%s:%u) ئۇلانغاندا خاتالىق يۈز بەردى: %s"
+    IDS_ERR_SOCKET          "مۇلازىمېتىر ئېغىزى خاتا:%s (%s:%u): %s"
+    IDS_SHAREDFOUND         "‫ %u مەلۇملۇق ھەمبەھىر ھۆججەت بايقالدى‬"
+    IDS_SHAREDFOUNDHASHING  "‫ %u مەلۇملۇق ھەمبەھىر ھۆججەت بايقالدى، %u يېڭى ھۆججەت Hashing قىلىنىۋاتىدۇ‬"
+    IDS_ERR_INCOMPLETEBLOCK "تاماملانمىغان ھۆججەت بۆلىكى ئىلتىماسى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSIONCHECK        "‫نەشرىنى تەكشۈر(&V)‬"
+    IDS_VISITVERSIONCHECK   "\n\nئۇچۇر بېتىنى زىيارەت قىلامسىز؟"
+    IDS_PW_VIDEOPLAYER      "سىن قويغۇچ"
+    IDS_VIDEOBACKUP         "ئالدىن كۆزەتكەندە زاپاسلا"
+    IDS_MYINFO              "ئۇچۇرۇم"
+    IDS_ID                  "بەلگە"
+    IDS_IDLOW               "Low ID" //!
+    IDS_IDHIGH              "High ID" //!
+    IDS_UPSTATUS            "ئېرىشكەن قىسمى"
+    IDS_TOVERHEAD           "ئومۇمىي سەرپىيات(: %s (%s ‏(بوغچا)‏"
+    IDS_FROVERHEAD          "ھۆججەت ئىلتىماس سەرپىياتى (: %s (%s(بوغچا)"
+    IDS_SSOVERHEAD          "مەنبە ئالماشتۇرۇش سەرپىياتى (: %s (%s(بوغچا)"
+    IDS_SOVERHEAD           "مۇلازىمېتىر سەرپىياتى (: %s (%s(بوغچا)"
+    IDS_ERR_FILECOMPLETIONTHREAD "ھۆججەت تاماملاش جەريانى قۇرۇش مەغلۇپ بولدى"
+    IDS_FILEBUFFERSIZE      "ھۆججەت يىغلەك چوڭلۇقى"
+    IDS_QUEUESIZE           "ئۆچرەت چوڭلۇقى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAYS2               "كۈن"
+    IDS_ERR_MAKEBAKCREDITFILE "كرېدىت ھۆججىتى زاپاسلاش مەغلۇپ بولدى"
+    IDS_COMMENT             "ئىزاھات"
+    IDS_IPFILTERED          "سۈزۈلگەن IP: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "تامام"
+    IDS_DL_ACTIVE_TIME      "چۈشۈرۈش ۋاقتى"
+    IDS_STATS_FILTEREDCLIENTS "سۈزۈلگىنى: %u"
+    IDS_FILTERLABEL         "‫سۈزۈش تۆۋەندىكى ئۇچۇرلارنى ئۆز ئىچىگە ئالىدۇ: (ئايرىش بەلگىسى |)‬"
+    IDS_ERR_LARGEREQBLOCK   "خېرىدار بەك چوڭ ھۆججەت بۆلىكى ئىلتىماس قىلدى"
+    IDS_SHOWRATEONTITLE     "تېما ئىستونىدا يوللاش نىسبىتىنى كۆرسەت"
+    IDS_TBN_NOMESSAGEHISTORY "تارىخ ئۇچۇرى يوق!"
+    IDS_PW_DAP              "يېڭى چۈشۈرۈش قوشۇلغاندا كۆڭۈلدىكى ئالدىنلىقنى ئىشلەت"
+    IDS_FD_LASTCHANGE       "ئاخىرقى قوبۇللىغىنى:"
+    IDS_STATS_RUNTIME       "ئىجرا قىلىش ۋاقتى"
+    IDS_ALL                 "ھەممىسى"
+    IDS_CAT_ADD             "يېڭى تۈر قوش…‏"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CAT_EDIT            "تۈر تەھرىر"
+    IDS_CAT_REMOVE          "تۈر ئۆچۈر"
+    IDS_CAT                 "تۈر"
+    IDS_TITLE               "تېما"
+    IDS_COLOR               "رەڭ"
+    IDS_DEFAULT             "كۆڭۈلدىكى"
+    IDS_PW_DISPLAY          "كۆرسەت"
+    IDS_INDICATERATINGS     "سىنبەلگە ئىشلىتىپ ئىزاھاتى/باھاسى بار چۈشۈرۈشنى كۆرسەت"
+    IDS_ALLOTHERS           "باشقىلار"
+    IDS_TOCAT               "تۈر بەلگىلەش"
+    IDS_CAT_UNASSIGN        "(بەلگىلەنمىگەن)"
+    IDS_ADDDOWNLOADSFROMCB  "‫eD2K ھۆججەت ئۇلىنىشىنى چۈشۈرۈش تىزىملىكىگە قوشامسىز؟‬"
+    IDS_PF_WATCHCB          "‫چاپلاش تاختىسىدىكى eD2K ھۆججەت ئۇلىنىشىنى كۆزەت‬"
+    IDS_SECURITY            "بىخەتەرلىك"
+    IDS_IPFILTERLOADED      "‫%u قۇر IP سۈزۈش قائىدىسى يۈكلەندى‬"
+    IDS_IPFILTER            "‫IP سۈزۈش‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_OPEN            "ئىلتىماس قىلغان ھۆججەتنى ئاچالمىدى"
+    IDS_ERR_CLIENTERRORED   "‫‏«%s» ئىشلەتكۈچى (%s) بوغچىسى قۇرۇشتا خاتالىق كۆرۈلدى - بۇ ئىشلەتكۈچىنى ئۈزۈۋاتىدۇ‬\n"
+    IDS_ERR_REQ_FNF         "ئىلتىماس قىلغان ھۆججەتنى تاپالمىدى"
+    IDS_DESC                "چۈشەندۈرۈش: %s"
+    IDS_PORT                "ئېغىز"
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "مۇلازىمېتىر تىزىملىكىدىن ئىناۋەتلىك ئۇلىنىشچان مۇلازىمېتىر بايقالمىدى"
+    IDS_CONNECTEDTOREQ      "%s (%s:%u) ئۇلىنىشقا تىزىملاش ئىلتىماسى يوللاش"
+    IDS_ERR_FATAL           "ئۇلىنىشتا ئەجەللىك خاتالىق يۈز بەردى. ئىنتېرنېت ئۇلىنىشى ئۈزۈلگەن بولۇشى مۇمكىن"
+    IDS_ERR_LOSTC           "‫  %s (%s:%u)‎بىلەن بولغان ئۇلىنىش ئۈزۈلدى‬"
+    IDS_ERR_DEAD            "‫%s (%s:%u)‎ ئىنكاس يوق بولۇشى مۇمكىن‬"
+    IDS_ERR_FULL            "‫%s (%s:%u)‎ ئۇلىنىش چېكىگە يەتكەن بولۇشى مۇمكىن.‬"
+    IDS_CONNECTEDTO         "ئۇلىنىش قۇرۇلدى: %s"
+    IDS_DL_PREVIEW          "‫ئالدىن كۆزەت(&V)‬"
+    IDS_VIEWQUEUE           "ئۆچرەت كۆرسەت"
+    IDS_TW_UPLOADS          "يوللاش"
+    IDS_TW_DOWNLOADS        "چۈشۈرۈش"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TW_QUEUE            "خېرىدار ئۆچرەتتە:"
+    IDS_SW_SEARCHBOX        "ئىزدە"
+    IDS_SW_NAME             "ئاتى"
+    IDS_SW_GLOBAL           "‫ھەممىنى ئىزدە(&G)‬"
+    IDS_SW_DIRECTDOWNLOAD   "بىۋاسىتە چۈشۈر"
+    IDS_SW_LINK             "eD2K ئۇلىنىشى"
+    IDS_SW_START            "باشلا"
+    IDS_SCHEDULER           "پىلان ۋەزىپە"
+    IDS_IRC                 "&IRC" //!
+    IDS_SW_RESULT           "ئىزدەش نەتىجىسى"
+    IDS_SW_DOWNLOAD         "تاللىغاننى چۈشۈر"
+    IDS_SV_SERVERLIST       "مۇلازىمېتىر"
+    IDS_SV_SERVERINFO       "مۇلازىمېتىر ئۇچۇرى"
+    IDS_SV_LOG              "كۈندىلىك خاتىرە"
+    IDS_SV_NEWSERVER        "يېڭى مۇلازىمېتىر"
+    IDS_SV_ADDRESS          "‫IP ياكى ئادرېسى‬"
+END
+
+STRINGTABLE
+BEGIN
+
+    IDS_SV_ADD              "تىزىملىككە قوش"
+    IDS_SV_MET              "‫URLدىن server.met نى يېڭىلا‬"
+    IDS_SV_UPDATE           "يېڭىلا"
+    IDS_SF_FILES            "ھەمبەھىر ھۆججەت"
+    IDS_SF_STATISTICS       "ستاتىستىكا"
+    IDS_SF_RELOAD           "قايتا يۈكلە"
+    IDS_SF_CURRENT          "نۆۋەتتىكى سۆزلىشىش"
+    IDS_SF_TOTAL            "جەمئى"
+    IDS_SF_TRANS            "يوللىغىنى:"
+    IDS_SF_ACCEPTED         "قوبۇللاپ يوللىغىنى:"
+    IDS_SF_REQUESTED        "ئىلتىماس سانى:"
+    IDS_ST_DOWNLOAD         "چۈشۈرۈش سۈرئىتى"
+    IDS_ST_UPLOAD           "يوللاش سۈرئىتى"
+    IDS_ST_CURRENT          "نۆۋەتتە"
+    IDS_ST_SESSION          "سۆزلىشىش ئوتتۇرىچە"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WS_PASS             "ئىم"
+    IDS_WS_ERR_LOADTEMPLATE "‫قېلىپنى يۈكلىيەلمەيدۇ: %s ھۆججەتنى يېڭى نۇسخىسى بىلەن ئالماشتۇرۇڭ!‬"
+    IDS_WEB_CONLIMITS       "ئۇلىنىش چەكلىمىسى"
+    IDS_INFLST_USER_TOTALDOWNLOAD "جەمئى چۈشۈرگىنى"
+    IDS_INFLST_USER_TOTALUPLOAD "جەمئى يوللىغىنى"
+    IDS_SPEED_LIMITS        "سۈرئەت چەكلىمىسى"
+    IDS_CAPACITY_LIMITS     "بەلباغ كەڭلىك چەكلىمىسى"
+    IDS_ADMIN               "باشقۇرغۇچى"
+    IDS_ACCESSDENIED        "زىيارەت رەت قىلىندى!‏"
+    IDS_WEB_LOWUSER         "مېھمان"
+    IDS_WEB_ERR_CANTLOAD    "قېلىپنى يۈكلىيەلمىدى؛‫  %sھۆججەتنى ئاچالمىدى‬"
+    IDS_GLOBALSEARCH        "ئومۇمىيەت (مۇلازىمېتىر)‏"
+    IDS_METHOD              "ئۇسۇل"
+    IDS_UNDO                "يېنىۋال"
+    IDS_DAYLY               "كۈندىلىك"
+    IDS_DAY_MO_FR           "دۈشەنبىدىن - جۈمەگىچە"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_SA_SO           "شەنبە - يەكشەنبە"
+    IDS_MO                  "دۈشەنبە"
+    IDS_DI                  "سەيشەنبە"
+    IDS_MI                  "چارشەنبە"
+    IDS_DO                  "پەيشەنبە"
+    IDS_FR                  "جۈمە"
+    IDS_SA                  "شەنبە"
+    IDS_SO                  "يەكشەنبە"
+    IDS_WEB_ADMINLOGIN      " تور مۇلازىمېتىر: باشقۇرغۇچى-تىزىمغا كىرىش"
+    IDS_WEB_GUESTLOGIN      " تور مۇلازىمېتىر:خېرىدار-تىزىمغا كىرىش"
+    IDS_WEB_SESSIONEND      "تور مۇلازىمېتىر: تىزىمدىن چىقىش"
+    IDS_DETAILS             "تەپسىلاتى"
+    IDS_ACTION              "ھەرىكەت"
+    IDS_REMOVE              "ئۆچۈر"
+    IDS_NEW                 "يېڭى"
+    IDS_WEB_BADLOGINATTEMPT "تور مۇلازىمېتىر: تىزىمغا كىرەلمىدى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ST_ACTIVED          "چۈشۈرۈۋاتقىنى"
+    IDS_ST_ACTIVEU          "يوللاۋاتقىنى"
+    IDS_CW_MESSAGES         "ئۇچۇر"
+    IDS_CW_FRIENDS          "دوست"
+    IDS_CW_SEND             "يوللا"
+    IDS_CW_CLOSE            "ياپ"
+    IDS_PW_GENERAL          "ئادەتتىكى"
+    IDS_PW_DIR              "مۇندەرىجە"
+    IDS_PW_NICK             "تەخەللۇس"
+    IDS_PW_INCOMING         "چۈشۈرگەن ھۆججەت"
+    IDS_PW_TEMP             "ۋاقىتلىق ھۆججەت"
+    IDS_PW_BROWSE           "كۆز يۈگۈرت…‏"
+    IDS_PW_SHARED           "ھەمبەھىر مۇندەرىجە"
+    IDS_CONNECTION          "ئۇلاش"
+    IDS_PW_DOWNL            "چۈشۈرۈش چەكلىمىسى"
+    IDS_PW_UPL              "يوللاش چەكلىمىسى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_MAXC             "ئەڭ كۆپ ئۇلىنىش سانى"
+    IDS_PW_CLIENTPORT       "خېرىدار ئېغىزى"
+    IDS_PW_AUTOCON          "قوزغالغاندا ئۆزلۈكىدىن ئۇلا"
+    IDS_PW_RECON            "ئۈزۈلگەندە ئۆزلۈكىدىن قايتا ئۇلا"
+    IDS_PW_SERVER           "مۇلازىمېتىر"
+    IDS_PW_RDEAD            "ئىنكاس يوق مۇلازىمېتىرنى چىقىرىۋەت"
+    IDS_PW_RETRIES          "قېتىم سىنىغاندىن كېيىن چىقىرىۋەت"
+    IDS_PW_SCORE            "ئالدىنلىق سىستېمىسىنى قوزغات"
+    IDS_PW_USC              "مۇلازىمېتىرغا ئۇلانغاندا مۇلازىمېتىر تىزىملىكىنى يېڭىلا"
+    IDS_PW_UCC              "باشقا خېرىدارغا ئۇلانغاندا مۇلازىمېتىر تىزىملىكىنى يېڭىلا"
+    IDS_PW_FILTER           "ئىچكى تور‫ IP سىدىكى مۇلازىمېتىر ۋە خېرىدارنى سۈز‬"
+    IDS_PW_USS              "قوزغالغاندا مۇلازىمېتىر تىزىملىكىنى ئۆزلۈكىدىن يېڭىلا"
+    IDS_PW_MISC             "باشقا"
+    IDS_PW_TRAY             "ۋەزىپە بالداق قوندۇرمىسىدا كىچىك سىنبەلگە كۆرسەت"
+    IDS_PW_PROMPT           "چېكىنگەندە جەزملەشنى ئەسكەرت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_SPLASH           "قارشى ئېلىش كۆزنىكىنى كۆرسەت"
+    IDS_PW_DBLCLICK         "قوش چېكىلسە چۈشۈرۈش تىزىملىكىنى ياي"
+    IDS_PW_TOOL             "دوستانە ئەسكەرتىش ۋاقتىنى كېچىكتۈرۈش [سېكۇنت]‏"
+    IDS_PW_FRONT            "ئۇلىنىش چېكىلگەندە ئالدى سۇپىغا ئالماش"
+    IDS_PW_LANG             "تىل"
+    IDS_PW_FILES            "ھۆججەتلەر"
+    IDS_PW_SHARE            "ھەمبەھىر قىسقۇچۇمنى كۆرسەت files/directories"
+    IDS_PW_EVER             "ھەممەيلەن"
+    IDS_PW_FRIENDS          "دوست"
+    IDS_PW_NOONE            "ھېچكىم"
+    IDS_PW_RESET            "تازىلا"
+    IDS_PW_APPLY            "قوللان"
+    IDS_EM_TRANS            "يوللا‫(&T)‬"
+    IDS_EM_SERVER           "‫مۇلازىمېتىر(&V)‬"
+    IDS_EM_SEARCH           "‫ئىزدە(&S)‬"
+    IDS_EM_FILES            "ھەمبەھىر ھۆججەت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EM_MESSAGES         "‫ئۇچۇر(&M)‬"
+    IDS_EM_STATISTIC        "‫ستاتىستىكا(&A)‬"
+    IDS_EM_PREFS            "تاللانما‫(&O)‬"
+    IDS_MB_LANGUAGEINFO     "كۆڭۈلدىكى تىل تاللاندى، تاللانما رامكىدىن تىل تەڭشىكىنى ئۆزگەرتەلەيسىز"
+    IDS_FD_GENERAL          "ئادەتتىكى"
+    IDS_FD_MET              "‫part.met ھۆججەت:‬"
+    IDS_FD_HASH             "Hash:" //!
+    IDS_FD_SIZE             "چوڭلۇقى:"
+    IDS_FD_TRANSFER         "يوللاش"
+    IDS_FD_PARTS            "ھۆججەت بۆلىكى"
+    IDS_FD_TRANS            "يوللىغىنى:"
+    IDS_FD_DATARATE         "يوللاش نىسبىتى:"
+    IDS_FD_COMPSIZE         "تاماملانغىنى:"
+    IDS_FD_CLOSE            "ياپ"
+    IDS_FD_TITLE            "ھۆججەت تەپسىلاتى"
+    IDS_CD_GENERAL          "ئادەتتىكى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "ئىشلەتكۈچى ئاتى:"
+    IDS_CD_UHASH            "Hash:" //!
+    IDS_CD_CSOFT            "يۇمشاق دېتال:"
+    IDS_CD_UIP              "‫IP ئادرېس:‬"
+    IDS_CD_SIP              "‫مۇلازىمېتىر IP:‬"
+    IDS_CD_VERSION          "خېرىدار نەشرى:"
+    IDS_CD_SNAME            "مۇلازىمېتىر نامى:"
+    IDS_CD_CDOWN            "چۈشۈرۈۋاتىدۇ:"
+    IDS_CD_DOWN             "چۈشۈردى(مۇشۇ جەريان)‏:"
+    IDS_CD_ADOWN            "ئوتتۇرىچە چۈشۈرۈش سۈرئىتى:"
+    IDS_CD_TDOWN            "ئومۇمىي چۈشۈرگىنى:"
+    IDS_CD_UP               "يوللانغىنى (مۇشۇ جەريان)‏:"
+    IDS_CD_AUP              "ئوتتۇرىچە يوللاش سۈرئىتى:"
+    IDS_CD_TUP              "ئومۇمىي يوللىغىنى:"
+    IDS_CD_TRANS            "يوللاش"
+    IDS_CD_SCORES           "ئېرىشكەن نومۇر"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_MOD              "يوللاش/چۈشۈرۈش نىسبىتىنى تەڭشەش:"
+    IDS_CD_RATING           "نومۇر باھالاش(ئومۇمىي)‏:"
+    IDS_CD_USCORE           "يوللاش قاتارى نومۇرى:"
+    IDS_CD_TITLE            "خېرىدار تەپسىلاتى"
+    IDS_EMULEW              "چەك"
+    IDS_EMULEW2             "يېڭىلانغان نەشرىنى تەكشۈر"
+    IDS_EMULEW3             "بۇ يەر"
+    IDS_PW_MAXSOURCES       "ھۆججەتنىڭ ئەڭ كۆپ مەنبە سانى"
+    IDS_SHAREDFILESCOUNT    "ھەمبەھىر ھۆججەت سانى: %u"
+    IDS_SF_SIZE             "ھەمبەھىر ھۆججەت ئومۇمى سىغىمى: %s"
+    IDS_ERR_BADPORT         "قانۇنسىز ئېغىز نومۇرى"
+    IDS_ERR_NOHELLO         "ئۇلىنىش تولۇق ئۇلانمايلا سۈرۈشتۈرۈشكە باشلا"
+    IDS_ERR_INVALIDPACKET   "ئىناۋەتسىز ياكى بۇزۇلغان سانلىق مەلۇمات تاپشۇرۇۋالدى"
+    IDS_ERR_CLIENTERROR     "‫«%s»‎ خېرىدار (IP:%s) خاتالىق %s كەلتۈرۈپ چىقاردى. بۇ خېرىدارنى ئۈزۈۋاتىدۇ!"
+    IDS_ERR_BADSIZE         "ئىناۋەتسىز ھۆججەت چوڭلۇقى (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "ھۆججەت ئۇلىنىشى ئەمەس"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREATEPARTFILE  "خاتالىق: بۆلەك ھۆججىتى قۇرالمىدى"
+    IDS_CHAT_START          "***سۆزلىشىش باشلاندى : "
+    IDS_FILEPRIO            "ھۆججەت ئالدىنلىقى"
+    IDS_SCORE               "ئېرىشكەن نومۇر"
+    IDS_ASKED               "ئىلتىماس قىلىندى"
+    IDS_LASTSEEN            "ئاخىرقى ئۇلىنىش"
+    IDS_BANNED              "چەكلەندى"
+    IDS_UUSERS              "ئىشلەتكۈچى"
+    IDS_UFAILED             "مەغلۇب بولدى"
+    IDS_OPENFILE            "‫ھۆججەت ئاچ(&O)‬"
+    IDS_DATE                "ۋاقىت"
+    IDS_PARTINFOS           "‫Part ھۆججەت ئاتى:‬"
+    IDS_PARTINFOS2          "چۈشۈرۈۋاتىدۇ (%u مەنبەدىن)"
+    IDS_USERID              "ئىشلەتكۈچى بەلگىسى"
+    IDS_CLIENT              "خېرىدار"
+    IDS_SERVER              "مۇلازىمېتىر"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCEINFO          "‫ئىلتىماس: %u قېتىم؛ - ئىشلىتىلىشچان ھۆججەت بۆلەك سانى: %u‬"
+    IDS_CLIENTSOURCENAME    "\nئىشلەتكۈچى ھۆججەت سانى: "
+    IDS_USERINFO            "ئىشلەتكۈچى نامى: %s\n"
+    IDS_FILESTATS_SESSION   "‫مۇشۇ قېتىمقى سۆزلىشىش ستاتىستىكا ئۇچۇرى: %u ئىلتىماس قوبۇل قىلىندى جەمئى %u قېتىم، يوللىغىنى %s بايت‬\n\n"
+    IDS_FILESTATS_TOTAL     "‫بارلىق ستاتىستىكا ئۇچۇرى:  %u ئىلتىماس قوبۇل قىلىندى جەمئى %u قېتىم، يوللىغىنى %s بايت‬"
+    IDS_REQ_UNKNOWNFILE     "نامەلۇم ھۆججەت ئىلتىماس قىلىندى"
+    IDS_SF_AVERAGESIZE      "ئوتتۇرىچە ھۆججەت چوڭلۇقى: %s"
+    IDS_SF_REQUESTS         "ئىلتىماس سانى"
+    IDS_SF_ACCEPTS          "قوبۇل قىلغان ئىلتىماس سانى"
+    IDS_SF_TRANSFERRED      "يوللىغان سانلىق مەلۇمات"
+    IDS_REMOVESEARCHSTRING  "بۇ قېتىمقى ئىزدەش نەتىجىسىنى ياپ"
+    IDS_REMOVESELECTED      "ئۆچۈر"
+    IDS_REMOVEALLSEARCH     "بارلىق ئىزدەش نەتىجىسىنى ياپ"
+    IDS_ENTERQUEUE          "ئۆچرەتكە كىر"
+    IDS_SF_FAIL             "ئۈنۈمسىز مۇلازىمېتىر"
+    IDS_SF_WUSER            "ئۈنۈملۈك مۇلازىمېتىر ئىشلەتكۈچى سانى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_WFILE            "ئۈنۈملۈك مۇلازىمېتىر ھۆججەت سانى"
+    IDS_SF_USER             "ئومۇمىي ئىشلەتكۈچى سانى"
+    IDS_SF_FILE             "ئومۇمىي ھۆججەت سانى"
+    IDS_UPLOADTIME          "يوللىغان ۋاقىت"
+    IDS_LASTSEENCOMPL       "ئالدىنقى تاماملىغىنى:"
+    IDS_YES                 "ھەئە"
+    IDS_NO                  "ياق"
+    IDS_UNBAN               "چەكلىمىنى بىكار قىل"
+    IDS_SF_WORKING          "ئۈنۈملۈك مۇلازىمېتىر"
+    IDS_ADDTOSTATIC         "تىنچ مۇلازىمېتىر تىزىملىكىگە قوش"
+    IDS_ADDED2SSF           "تىنچ مۇلازىمېتىر تىزىملىكىگە قوشۇلغان"
+    IDS_STATICSERVER        "تىنچ"
+    IDS_ERROR_SSF           "‫ staticservers.dat ھۆججەتنى ئاچالمىدى‬"
+    IDS_SF_ACTIVECON        "نۆۋەتتىكى ئۇلىنىش سانى (مۆلچەر قىممەت)‏"
+    IDS_SF_MAXCONLIMITREACHED "ئەڭ كۆپ ئۇلىنىش سانىغا يەتتى"
+    IDS_SF_AVGCON           "ئوتتۇرىچە ئۇلىنىش سانى (مۆلچەر قىممەت)‏"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_PEAKCON          "ئۇلىنىشنىڭ ئەڭ كۆپ قىممىتى (مۆلچەر قىممەت)‏"
+    IDS_ST_ACTIVEC          "نۆۋەتتىكى ئۇلىنىش سانى"
+    IDS_NETWORK             "تور"
+    IDS_SF_DELCOUNT         "ئۆچۈرۈلگەن مۇلازىمېتىر"
+    IDS_QUEUEFULL           "ئۆچرەت توشتى"
+    IDS_AVG                 "ئوتتۇرىچە"
+    IDS_BYTES               "بايت"
+    IDS_KBYTES              "ك ب"
+    IDS_MBYTES              "م ب"
+    IDS_GBYTES              "گ ب"
+    IDS_TBYTES              "ت ب"
+    IDS_SECS                "سېكۇنت"
+    IDS_MINS                "مىنۇت"
+    IDS_HOURS               "سائەت"
+    IDS_DAYS                "كۈن"
+    IDS_ED2KLINKFIX         "‫eD2K ھۆججەت ئۇلانمىغا باغلان‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RECONNECT           "‫%u سېكۇنت ئىچىدە مۇلازىمېتىرغا ئۆزلۈكىدىن قايتا ئۇلىنىدۇ‬"
+    IDS_SERVERADDED         "مۇلازىمېتىر قۇشۇلدى: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "قۇشۇش ئۇچۇرىغا پەرۋا قىلما"
+    IDS_STATS_SUCCUPCOUNT   "مۇۋەپپەقىيەتلىك يوللىغان ئومۇمىي قېتىم سانى: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "بۆلەك ئۇچۇرىغا پەرۋا قىلما"
+    IDS_STATS_FAILUPCOUNT   "مەغلۇپ بولغان يوللاش ئومۇمىي قېتىم سانى: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "ئوتتۇرىچە يوللاش سۈرئىتى: %s"
+    IDS_SEARCHMINSIZE       "ئەڭ كىچىك ھۆججەت چوڭلۇقى [MB]"
+    IDS_SEARCHMAXSIZE       "ئەڭ چوڭ ھۆججەت چوڭلۇقى[MB]"
+    IDS_PREF_ONLINESIG      "توردىكى ئىمزانى قوزغات"
+    IDS_ERROR_SAVEFILE      "ساقلاش مەغلۇپ بولدى"
+    IDS_REQ_SHAREDFILES     "‫%s (%u) ‎ ئىشلەتكۈچى ھەمبەھىر ھۆججەت تىزىملىكىڭىزنى ئىلتىماس قىلدى -> %s‬"
+    IDS_ACCEPTED            "قوشۇل"
+    IDS_DENIED              "رەت قىل"
+    IDS_PW_CON_DOWNLBL      "چۈشۈرۈش"
+    IDS_PW_CON_UPLBL        "يوللاش"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_AUTOCONNECTSTATICONLY "تىنچ مۇلازىمېتىرغىلا ئۆزلۈكىدىن ئۇلان"
+    IDS_PW_CON_LIMITFRM     "يۇقىرى چېكى"
+    IDS_STATS_AVGLABEL      "‫ئوتتۇرىچە ۋاقىت ئارىلىقى : %u مىنۇت‬"
+    IDS_GRAPHS              "گرافىك"
+    IDS_STREE               "ستاتىستىكا ئۇچۇر دەرىخى"
+    IDS_IRC_IGNOREQUITMESSAGE "چېكىنىش ئۇچۇرىغا پەرۋا قىلما"
+    IDS_STATSSETUPINFO      "ستاتىستىكا"
+    IDS_IRC_SOUNDEVENTS     "ھادىسە ئاۋازىنى قوي"
+    IDS_HARDLIMIT           "قاتتىق چەكلىمە"
+    IDS_COL_MORECOLORS      "تېخىمۇ كۆپ…‏"
+    IDS_TOOMANYCONNS        "ئۇلىنىش سانى بەك كۆپ"
+    IDS_DOWNLOADRENAMED     "‫ئوخشاش نامدىكى ھۆججەت مەۋجۇد، بۇ ھۆججەت باشقا نامدا ساقلاندى %s‬"
+    IDS_TBN_DOWNLOADDONE    "چۈشۈرۈلدى:"
+    IDS_PW_TBN_USESOUND     "ئاۋاز قوي"
+    IDS_PW_TBN_ONLOG        "يېڭى كۈندىلىك خاتىرە قوشۇلدى"
+    IDS_PW_TBN_ONCHAT       "يېڭى سۆزلىشىش ئاچ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_FILE_SAVING     "ھۆججەت ساقلاش ھەرىكىتىنى خاتىرىلە"
+    IDS_DELETEIPFILTERS     "‫تاللىغان IP سۈزۈش قائىدىسىنى راستىنلا ئۆچۈرەمسىز؟‬"
+    IDS_TOTAL_IPFILTER_LABEL "‫IP سۈزگۈچ:‬"
+    IDS_TOTAL_IPS_LABEL     "‫جەمئى سۈزگەن IP :‬"
+    IDS_RAU_WARNING         "‫بۇ تەڭشەك eMule نىڭ ھۇجۇم ۋە تەكشۈرۈشكە قارشى تۇرۇش ئىقتىدارنى  كۈچەيتتى، بىز بۇ تاللانمىنى ئىشلىتىشىڭىزگە ئىلھام بېرىمىز.\nشۇنداقتىمۇ بۇ ئىقتىدارنى ئاكتىپلاشتۇرۇشتىن بۇرۇن ياردەم قوللانمىسىنى ئوقۇپ چىقىشىڭىزنى كۈچلۈك تەۋسىيە قىلىمىز!\n\nئۆزگەرتىش eMule قايتا قوزغالغاندا كۈچكە ئىگە بولىدۇ.‬"
+    IDS_APPEND              "قوش…‏"
+    IDS_SAVE                "ساقلا"
+    IDS_IP_START            "باشلا"
+    IDS_IP_END              "ئاخىرىلاشتۇر"
+    IDS_IP_LEVEL            "دەرىجە"
+    IDS_IP_DESC             "بىلدۈرگۈ"
+    IDS_IP_HITS             "نىشانغا تېگىش سانى"
+    IDS_IP_RULES            "‫IP سۈزگۈچ:‬"
+    IDS_ERR_NOTCONNECTEDKAD "‫ھازىر Kad تورىغا ئۇلانمىغان!‬"
+    IDS_IRC_NOSFS           "ھەمبەھىر ھۆججەت تاللانمىدى"
+    IDS_RESETLABEL          "ئاپتوماتىك تاماملاش(تارىخ ئىقتىدارى)‏"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_IGNOREMISCMESSAGE "باشقا ئۇچۇرغا پەرۋا قىلما"
+    IDS_KNOWN               "مەلۇملۇم"
+    IDS_RAU_RUNNING         "‫eMule ھوقۇق بېرىلمىگەن ئىشلەتكۈچى سالاھىيىتىدە «%s» ئىجرا قىلىۋاتىدۇ‬"
+    IDS_RAU_FAILED          "‫ھوقۇق بېرىلمىگەن ئىشلەتكۈچى سالاھىيىتىدە «eMule_Secure» eMule قوزغىتىش مەغلۇپ بولدى. ھوقۇق بېرىلگەن ئىشلەتكۈچىنىڭ سالاھىيىتىنى ساقلاپ قال («%s»).‬"
+    IDS_KADCONTACTSREAD     "‫ھۆججەتتىن %u ئالاقىلاشقۇچىنى ئوقۇ.‬"
+    IDS_ERR_KADCONTACTS     "‫ئالاقىلاشقۇچى بايقالمىدى، nodes.dat ھۆججەتنى يېتەكلەڭ ياكى چۈشۈرۈڭ.‬"
+    IDS_METATAGS            " خەتكۈچ سانى:"
+    IDS_FILEFORMAT          "ھۆججەت فورمات"
+    IDS_UDPREASKS           "‫UDP ھۆججەتنى قايتىدىن ئىزدە‬"
+    IDS_DYNUP_PINGTOLERANCE_MS "Ping يول قويۇش چېكى (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER "‫Ping يول قويۇش چېكى ئىشلەتكەن ئۇسۇل‬"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS "مىللىسېكۇنت (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT "پىرسەنتى (%)"
+    IDS_LOG_A4AF            "‫A4AF ھەرىكىتىنى خاتىرىلە‬"
+    IDS_A4AF_SAVE_CPU       "‫CPU مەنبەسىنى تېجەش ئۈچۈن A4AF نى چەكلە‬"
+    IDS_SEARCH_DOC          "ھۆججەت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_POOR            "تۆۋەن"
+    IDS_CMT_GOOD            "ياخشى"
+    IDS_CMT_FAIR            "ئادەتتىكى"
+    IDS_CMT_EXCELLENT       "ناھايىتى ياخشى"
+    IDS_CMT_NOTRATED        "باھالانمىغان"
+    IDS_KILO                "k" //!
+    IDS_MEGA                "M" //!
+    IDS_GIGA                "G" //!
+    IDS_TERA                "T" //!
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "‫eMule كېلىشىم ئۇچۇرىغا پەرۋا قىلما‬"
+    IDS_SMARTLOWIDCHECK     "‫ئۇلانغاندا ئەقلىي ئىقتىدارلىق LowID تەكشۈرۈشنى قوزغات‬"
+    IDS_SF_SRVOCC           "مۇلازىمېتىر ئىگەللىگىنى: %.2f%%"
+    IDS_3DDEP               "سۈرئەت تالچىسى ئۇسلۇبى"
+    IDS_AUTOTAKEED2KLINKS   "ئىجرا بولىۋاتقاندىلا‫ ED2K ئۇلىنىشىنى ئۆزلۈكىدىن قوبۇل قىل‬"
+    IDS_ADDNEWFILESPAUSED   "يېڭى قوشۇلغان چۈشۈرۈش ھۆججىتى ۋاقىتلىق توختاش ھالىتىدە"
+    IDS_DOWNLOADMOVIECHUNKS "ئالدىن كۆزىتىشكە لازىملىق ھۆججەت بۆلىكىنى ئالدىن چۈشۈر"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RECOVER_SINGLE      "بىر ھۆججەت ئەسلىگە كەلتۈرۈلدى"
+    IDS_RECOVER_MULTIPLE    "‫%u ھۆججەت ئەسلىگە كەلتۈرۈلدى.‬"
+    IDS_ATTEMPTING_RECOVERY "ئارخىپلاشتۇرۇش ئەسلىگە كەلتۈرۈلمەكچى…‏"
+    IDS_RECOVERY_SUCCESSFUL "ئارخىپلاشتۇرۇشنى ئەسلىگە كەلتۈرۈش مۇۋەپپەقىيەتلىك"
+    IDS_RECOVERY_FAILED     "ئارخىپلاشتۇرۇشنى ئەسلىگە كەلتۈرۈش مەغلۇپ بولدى"
+    IDS_STARTNEXTFILE       "ھۆججەت چۈشۈرۈش تاماملانغاندا كېيىنكى ۋاقىتلىق توختىغان ھۆججەتنى چۈشۈرۈشكە باشلا"
+    IDS_FULLCHUNKTRANS      "بارلىق يوللىنىشقا پۈتۈن ھۆججەت بۆلىكى بويىچە يوللاشنى سىنا"
+    IDS_MANUALSERVERHIGHPRIO "قولدا قوشقان مۇلازىمېتىرنى يۇقىرى ئالدىنلىق قىلىپ تەڭشە"
+    IDS_VERBOSE             "تەپسىلاتى (باشقا پروگرامما قايتما ئۇچۇرى)‏"
+    IDS_FLAT                "يايپاڭ"
+    IDS_ROUND               "دۆگىلەك"
+    IDS_SAMEUSERHASH        "‫«%s»‎ ۋە «%s» خېرىدارنىڭ ئوخشاش userhash ياكى IP ئادرېسىغا ئىگە -  چىقىرىۋەت«%s»"
+    IDS_SEARCHEXTENTION     "كېڭەيتىلگەن نامى"
+    IDS_SEARCHAVAIL         "ئىشلىتىلىشچان مەنبە سانى"
+    IDS_ERR_NOHELP          "باش بېتىمىزدىكى چۈشۈرۈش رايونىنى زىيارەت قىلىپ ئەڭ يېڭى ياردەم ھۆججىتىگە ئېرىشىڭ!‏\n\nدەرھال توردىكى ياردەم ھۆججىتىنى كۆرەمسىز؟"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_TBN_POP_ALWAYS   "يېڭى ئۇچۇر تاپشۇرۇۋالدى"
+    IDS_PW_TBN_ONDOWNLOAD   "چۈشۈرۈش تاماملاندى"
+    IDS_PW_EKDEV_OPTIONS    "ئۇقتۇرۇش"
+    IDS_PW_TASKBARNOTIFIER  "قاڭقىش ئۇچۇرى"
+    IDS_PW_TBN_OPTIONS      "ئۇچۇر كۆرسەتمىسى"
+    IDS_TBN_NEWCHATMSG      "ئۇچۇر مەنبەسى"
+    IDS_PW_CON_CAPFRM       "ئىقتىدار"
+    IDS_IRC_PRIVATECHANSTART "‫* شەخسىي سۆزلىشىشنى قوزغات‬"
+    IDS_IRC_SLAPMSG         "‫* %s نى %s بىر كاچات سالدى!‬"
+    IDS_IRC_PRIVMESSAGE     "شەخسىي ئۇچۇر"
+    IDS_WEB_REMOTE_LINK_ADDED "ئۇلىنىش قوشۇلدى"
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "ئۇلىنىش قوشۇلمىدى. ئىم خاتا"
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "ئالدىن كۆزىتىشكە تېگىشلىك ھۆججەت بولىكىنى ئالدىن چۈشۈر"
+    IDS_IRC_KICK            "تەپ"
+    IDS_IRC_SLAP            "كاچاتلا"
+    IDS_IRC_JOIN            "قوشۇل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_CHANNELLIST     " قانال تىزىملىكى"
+    IDS_IRC_CONNECT         "ئۇلان"
+    IDS_IRC_DISCONNECT      "ئۇلىنىشنى ئۈز"
+    IDS_IRC_HASJOINED       "* %s - %s غا كىردى"
+    IDS_IRC_HASPARTED       "* %s - %s (%s) دىن ئايرىلدى"
+    IDS_IRC_WASKICKEDBY     "* %s نى %s تېپىۋەتتى (%s)"
+    IDS_DOWNLOAD_ALPHABETICAL "ئېلىپبە تەرتىپى بويىچە چۈشۈر"
+    IDS_IRC_HASQUIT         "* %s چېكىندى (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s نامىنى %s غا ئۆزگەرتتى"
+    IDS_IRC_SETSMODE        "* %s تەڭشەك شەكلى: %s %s"
+    IDS_IRC_NOTSUPPORTED    "**  قوللىمايدىغان شەكىلگە تەڭشەلدى، ئايرىلىپ، قايتىدىن قانالغا كىرىپ تىزىملىكنى يېڭىلىشىڭىز لازىمدۇ."
+    IDS_IRC_CHANNEL         "قانال"
+    IDS_IRC_NICK            "تەخەللۇس"
+    IDS_IRC_SEND            "يوللا"
+    IDS_IRC_NAME            "نامى"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION slaps %s كاچات سالدى!\001"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_INSTALL_SKIN        "‫eMule ئۇسلۇبى ئورنات‬"
+    IDS_INSTALL_SKIN_NODIR  "‫تاللىغان مۇندەرىجىدە eMule ئۇسلۇب سەپلەش ھۆججىتى بايقالمىدى ياكى تاللىغان مۇندەرىجىنى زىيارەت قىلغىلى بولمايدۇ!‬"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "‫«%s»‎ مۇندەرىجە قۇرۇش مەغلۇپ بولدى،بۇ مۇندەرىجىگە ماس ھالدىكى eMule ئۇسلۇب ھۆججىتى - %s‬"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "‫«%s»‎ ھۆججەتنى قويۇپ بېرىش مەغلۇپ بولدى، eMule  ئۇسلۇب ھۆججىتى «%s» دىن يەرلىك ھۆججەت «%s»‬"
+    IDS_INSTALL_SKIN_PKG_ERROR "بۇ ئىناۋەتلىك‫ eMule  ئۇسلۇب ھۆججىتى ئەمەس.‬"
+    IDS_NEXT_REASK          "كېيىنكى قېتىم بۇ خېرىدارنى سۈرۈشتۈر"
+    IDS_A4AF_FILES          "‫A4AF ھۆججەت‬"
+    IDS_FO_TEMPTCP_S        "‫بۇ قېتىم eMule  ئىجرا بولغاندا WinXP مۇداپىئە تېمىدىن %u‎ (TCP) ئېغىزنى مۇۋەپپەقىيەتلىك ئاچتى‬"
+    IDS_FO_TEMPTCP_F        "‫بۇ قېتىم eMule  ئىجرا بولغاندا WinXP مۇداپىئە تېمىدىن %u (TCP) ‎ئېغىزنى ئاچالمىدى‬"
+    IDS_FO_TEMPUDP_S        "‫بۇ قېتىم eMule  ئىجرا بولغاندا WinXP مۇداپىئە تېمىدىن %u (UDP) ئېغىزنى مۇۋەپپەقىيەتلىك ئاچتى‬"
+    IDS_FO_TEMPUDP_F        "‫بۇ قېتىم eMule  ئىجرا بولغاندا WinXP مۇداپىئە تېمىدىن %u (UDP) ئېغىزنى ئاچالمىدى‬"
+    IDS_FO_PREFBUTTON       "‫WinXP مۇداپىئە تېمىدىن بۇ ئېغىزلارنى ئاچ‬"
+    IDS_FO_PREF_SUCCCEEDED  "‫WinXP مۇداپىئە تېمىدىن تاللىغان ئېغىزنى مۇۋەپپەقىيەتلىك ئاچتى.\nدىققەت: باشقا ئۈچىنچى تەرەپ مۇداپىئە تېمى ياكى يول تاللىغۇچ بۇ تاللانمىنىڭ تەسىرىگە ئۇچرىمايدۇ!‬"
+    IDS_FO_PREF_EXISTED     "‫eMule تاللىغان ئېغىزنىڭ مۇداپىئە تېمى قائىدىسى ئۆزگەرتىلمىگەن ياكى ئالماشتۇرۇلمىغانلىقىنى بايقىدى. بۇرۇن قوشۇلمىغان قائىدە مۇۋەپپەقىيەتلىك قوشۇلدى.‬\n"
+    IDS_FO_PREF_FAILED      "‫تاللىغان ئېغىز ئۈچۈن WinXP مۇداپىئە تېمى قائىدىسىنى سەپلىيەلمىدى!‬"
+    IDS_FO_PREF_STARTUP     "‫eMule قوزغالغان/چېكىنگەندە WinXP مۇداپىئە تېمىنىڭ مۇناسىپ ئېغىزىنى ئاچ/تاقا‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_LEVEL           "خاتىرىلەش دەرىجىسى"
+    IDS_NEWMSG              "‫يېڭى ئۇچۇر '%s' (IP:%s) كەلگەن‬"
+    IDS_PREF_STARTNEXTFILECATONLY "پەقەت ئوخشاش تۈردىلا"
+    IDS_LOG_ULDL_EVENTS     "يوللاش چۈشۈرۈش ھادىسىنى خاتىرىلە"
+    IDS_PEERCACHE_ENABLED   "‫ISP ئىنتېرنېت ئۇلىنىش مۇلازىمىتى تەمىنلىگۈچىڭىز PeerCache تېخنىكىسىنى قوللايدۇ، PeerCache نى قوزغىتىپ چۈشۈر!‬"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "باشقىلارنىڭ سىزنى دوست قاتارىغا قوشۇشىغا يول قوي"
+    IDS_SOURCESWAPBLOCKED   "ئالماشتۇرۇش چەكلەندى"
+    IDS_TRICKLING           "كۈتۈش"
+    IDS_A4AF_CHECK_THIS_NOW "بۇ مەنبەنى دەرھال ئىزدە (debug)"
+    IDS_STATS_FRATIO        "نۆۋەتتىكى سۆزلىشىشنىڭ يوللىغىنى:چۈشۈرۈش نىسبىتى (دوستلارغا يوللىغاننى چىقىرىۋەت):‏"
+    IDS_STATS_UDATA_FRIENDS "دوستانە قانال ئارقىلىق يوللا (Session): %s\n"
+    IDS_IMP_ERR_BADFORMAT   "نامەلۇم ياكى بۇزۇلغان ۋاقىتلىق ھۆججەت شەكلى"
+    IDS_SEARCH_INVALIDCHAR  "‫ئىزدەش ئىپادىسىدە قانۇنسىز ھەرپ بەلگە مەۋجۇد. بەلكىم ؟ سوراق بەلگىسى كىرگۈزگەن بولۇشىڭىز مۇمكىن، ئۇندىن باشقا ED2K تورى يول قويمايدىغان ھەرپ كۆرۈلگەن بولۇشىمۇ مۇمكىن.‬"
+    IDS_PORTSCON            "ئېغىز ۋە ئۇلىنىش"
+    IDS_PORTINFO            "‫eMule مۇلازىمېتىر ۋە خېرىدار بىلەن ئالاقىلاشقاندا ئىككى ئېغىز لازىم. بۇ ئېغىزلار يىراق مۇساپىلىق خېرىدار ئىشلىتەلەيدىغان بولۇشى لازىم.  TCP  ئېغىزى eMule نىڭ ئاساسلىق ئىقتىدارىغا كاپالەتلىك قىلىدۇ. UDP ئېغىزى Kad (مۇلازىمېتىرسىز تور) شۇنداقلا تور ئىشلىتىش مىقدارى(Overhead)نى ئازايتىش ئۈچۈن ئىشلىتىلىدۇ.\n\nتور ئۇلىنىشى قوزغىتىلمىغاندىلا  ئاندىن بۇ ئېغىز نومۇرلىرىنى ئۆزگەرتەلەيسىز.‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_ADDTIMESTAMP    "ئۇچۇرغا ۋاقىت تامغىسى قوش"
+    IDS_IRC_USEFILTER       "قانال تىزىملىكى سۈزگۈچى ئىشلەت"
+    IDS_IRC_PERFORM         "ھەرىكەت"
+    IDS_IRC_USEPERFORM      "ئۇلانغاندا ئىجرا قىلىدىغان بۇيرۇق"
+    IDS_IRC_ADDTOFRIENDLIST "دوستلار تىزىملىكىگە قوش"
+    IDS_IRC_LOADCHANNELLISTONCON "ئۇلانغاندا مۇلازىمېتىر قانال تىزىملىكىنى يۈكلە"
+    IDS_IRC_ADDASFRIEND     "سىزنى دوستقا قوشۇش!‏"
+    IDS_PW_WARNING          "‫سىز «%s» ئۈچۈن تاللىغان قىممەت مەشغۇلات سىستېمىسى قوللايدىغان دائىرىدىن ئېشىپ كەتتى:  %u\nبۇ سىستېمىنىڭ مۇقىمسىزلىقىنى كەلتۈرۈپ چىقىرىشى مۇمكىن.\n\nراستىنلا تەڭشەمسىز؟‬"
+    IDS_TAKEOVER            "ئالماشتۇر"
+    IDS_CLEANUP             "تازىلا"
+    IDS_RENAME              "ئات ئۆزگەرت"
+    IDS_IRC_ADDLINKTOIRC    "‫بۇنى IRC چاپلاش تاختىسىغا قىستۇرۇپ‬"
+    IDS_IRC_SENDLINK        "دوستلارغا يوللا:"
+    IDS_IRC_RECIEVEDLINK    "‫%s يوللىسا (%s)ئۆزلۈكىدىن قوزغىلىدۇ‬"
+    IDS_IRC_ACCEPTLINKS     "‫IRC دا eD2K ئۇلىنىشىنى قوبۇل قىلىش (بۇ ئىقتىدارنى ئىشلىتىشتە ئېھتىيات قىلىڭ!)‬"
+    IDS_SHARED              "ھەمبەھىر"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADED          "چۈشۈرگەن"
+    IDS_SOURCENAMES         "ئەسلى ئاتى"
+    IDS_PREF_STARTMIN       "قوزغالغاندا كىچىكلەت"
+    IDS_PS_TBN_IMPORTANT    "جىددى: دىسكا بوشلۇقى يېتىشمىدى، مۇلازىمېتىر ئۇلىنىشى ئۈزۈلدى"
+    IDS_COLORS              "رەڭ"
+    IDS_SP_BACKGROUND       "تەگلىك"
+    IDS_SP_GRID             "تور"
+    IDS_SP_DL1              "نۆۋەتتىكى چۈشۈرۈش"
+    IDS_SP_DL2              "ئوتتۇرىچە چۈشۈرۈش"
+    IDS_SP_DL3              " ئوتتۇرىچە سۆزلىشىش چۈشۈرۈشى"
+    IDS_SP_UL1              "نۆۋەتتىكى يوللاش"
+    IDS_SP_UL2              "ئوتتۇرىچە يوللاش"
+    IDS_SP_UL3              "ئوتتۇرىچە سۆزلىشىش يوللىشى"
+    IDS_SP_ACTCON           "نۆۋەتتىكى ئۇلىنىش سانى"
+    IDS_SP_ACTDL            "چۈشۈرۈۋاتقىنى"
+    IDS_SP_ACTUL            "يوللاۋاتقىنى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "چەكلىمىسىز"
+    IDS_PW_MINREC           "ئەڭ كىچىك تەۋسىيە قىممەت \t%u "
+    IDS_PW_UA               "ئەڭ چوڭ يوللاش/چۈشۈرۈش سۈرئىتىنى تەڭشەش"
+    IDS_PW_PA               "ئەڭ چوڭ يوللاش/چۈشۈرۈش ئېقىمىنى تەڭشەش"
+    IDS_IRC_IGNOREINFOMESSAGE "ئۇچۇرنى ئىتىبارغا ئالماسلىق"
+    IDS_CONNECTIONLOST      "ئۇلىنىش ئۈزۈلدى"
+    IDS_WIZ_OS_FRAME        "مەشغۇلات سىستېمىسى"
+    IDS_HASHINGFILE         "ھۆججەت Hashing:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "ھەقىقىي يوللاش بەلباغ كەڭلىكى"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "ھەقىقىي چۈشۈرۈش بەلباغ كەڭلىكى"
+    IDS_FRIENDLIST          "دوست"
+    IDS_CHATDISCONNECTED    "*** ئۇلىنىش ئۈزۈلدى"
+    IDS_WIZARD              "يېتەكچى…‏"
+    IDS_ADDFRIEND           "‫دوستلار قاتارىغا قوش(&A)‬"
+    IDS_REMOVEFRIEND        "چىقىرىۋەت"
+    IDS_REMOVEFROMSTATIC    "تىنچ مۇلازىمېتىر تىزىملىكىدىن چىقىرىۋەت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LENGTH              "ئۇزۇنلۇقى"
+    IDS_VIDEO               "سىن"
+    IDS_AUDIO               "ئۈن"
+    IDS_FILEINFO            "ۋاسىتە ئۇچۇرى"
+    IDS_CODEC               "كودلىغۇچ"
+    IDS_BITRATE             "بىت نىسبىتى"
+    IDS_WIDTH               "كەڭلىكى"
+    IDS_FPS                 "كاندۇك/سېكۇنت"
+    IDS_CHANNELS            "قانال"
+    IDS_SAMPLERATE          "نۇسخا ئېلىش نىسبىتى"
+    IDS_HEIGHT              "ئېگىزلىكى"
+    IDS_SHAREDFILES_FAILED  "‫«%s»‎دىن ھەمبەھىر ھۆججەت تىزىملىكىگە ئېرىشەلمىدى‬"
+    IDS_SHAREDFILES_REQUEST "‫«%s»‎ غا ھەمبەھىر ھۆججەت تىزىملىكى ئىلتىماس قىلىش"
+    IDS_VIEWFILES           "‫ھەمبەھىر ھۆججەت كۆرسەت(&V)‬"
+    IDS_FRIENDSLOT          "دوست قانىلى قۇر"
+    IDS_FRIENDDETAIL        "(دوست قانىلى)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UDPDISABLED         "چەكلەش"
+    IDS_WIZ_CTFRAME         "ئۇلىنىش تىپى"
+    IDS_CONCURDWL           "بىرلا ۋاقىتتا چۈشۈرۈش"
+    IDS_WIZARD_CUSTOM       "ئىختىيارى"
+    IDS_WIZARD_ENTERBELOW   "(تۆۋەندە كىرگۈزۈڭ)"
+    IDS_STATS_MAXAVGDL      "ئەڭ يۇقىرى ئوتتۇرىچە چۈشۈرۈش سۈرئىتى: %s"
+    IDS_STATS_MAXDL         "ئەڭ يۇقىرى چۈشۈرۈش سۈرئىتى: %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "‫eMule دوست كېلىشىم ئۇچۇرى قوشۇشقا پەرۋا قىلما‬"
+    IDS_PW_FASTSRVCON       "بىخەتەر ئۇلىنىش"
+    IDS_SOURCELINKFAILED    "‫سىز HighID بىلەن قانۇنلۇق ئۇلىنىش مەنبەسى قۇرۇشىڭىز لازىم‬"
+    IDS_ERR_LOADSERVERMET   "‫server.met يۈكلەش مەغلۇپ بولدى!‬"
+    IDS_ERR_CORRUPTCOMPRPKG "‫%s نىڭ بۇزۇلغان پرىس بوغچىسىنى قوبۇللىدى (خاتالىق %u)‬"
+    IDS_ERR_EMFRIENDSINVALID
+                            "‫ھۆججەت emfriends.met ئىناۋەتسىز ياكى بۇزۇلغان!‬"
+    IDS_ERR_READEMFRIENDS   "emfriends.met نى ئوقۇشتا نامەلۇم خاتالىق يۈز بەردى: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "نامەلۇم مۇلازىمېتىر ئۇچۇرى تاپشۇرۇۋالدى!"
+    IDS_WIZ_DOWN            "چۈشۈرۈش (kbit/s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZ_UP              "يوللاش (kbit/s)"
+    IDS_SELECT_INCOMINGDIR  "چۈشۈرىدىغان مۇندەرىجىنى تاللاڭ"
+    IDS_SELECT_TEMPDIR      "ۋاقىتلىق مۇندەرىجىنى تاللاڭ"
+    IDS_PRIOAUTO            "ئۆزلۈكىدىن"
+    IDS_PRIOAUTONORMAL      "ئۆزلۈكىدىن [ئادەتتىكى]‏"
+    IDS_PRIOAUTOHIGH        "ئۆزلۈكىدىن [يۇقىرى]‏"
+    IDS_PRIOAUTORELEASE     "ئۆزلۈكىدىن [تارقىتىش]‏"
+    IDS_PRIOAUTOLOW         "ئۆزلۈكىدىن [تۆۋەن]‏"
+    IDS_ERR_CONTIMEOUT      "‫«%s»‎ ئۇلىنىشتا (%s:%u) ۋاقىت ھالقىدى‬"
+    IDS_OUTOFSERVERS        "تىزىملىكتىكى بارلىق مۇلازىمېتىرغا ئۇلىنىش مەغلۇپ بولدى، قايتا بىر سىناڭ"
+    IDS_PW_CONLIMITS        "ئۇلىنىش چەكلىمىسى"
+    IDS_MAXCON5SECLABEL     "ئەڭ كۆپ يېڭى ئۇلىنىش سانى/ 5 سكۇنت"
+    IDS_PW_UAP              "يېڭى ھەمبەھىر ھۆججەت قوشۇلغاندا ئاپتوماتىك ئالدىنلىق ئىشلەت"
+    IDS_MAXCLIENT           "ئەڭ كۆپ خېرىدار سانى"
+    IDS_PW_TWEAK            "كېڭەيتىلگەن تەڭشەك"
+    IDS_TWEAKS_WARNING      "‫ئاگاھلاندۇرۇش: ئۆزىڭىزنىڭ نېمە ئىش قىلىۋاتقانلىقىنى بىلمىسىڭىز eMule تەڭشىكىنى بۇزىۋېتىسىز شۇڭا بۇ تەڭشەكلەرنى ئۆزگەرتمەڭ. بۇ تەڭشەكلەرنى ئۆزگەرتمىسڭىزمۇ eMule ناھايىتى ياخشى ئىجرا بولىدۇ.‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDAFRIEND          "دوست قوش…‏"
+    IDS_PAF_REQINFO         "لازىملىق ئۇچۇر"
+    IDS_PAF_MOREINFO        "نورمىدىن ئارتۇق ئۇچۇر"
+    IDS_ERR_NOVALIDFRIENDINFO "‫ئىناۋەتلىك IP ئادرېس ياكى ئېغىزدىن بىرنى كىرگۈزۈڭ!‬"
+    IDS_ADD                 "قوش"
+    IDS_RECOVERED_PARTMET   "‫ %s نىڭ part.met ھۆججىتى ئەسلىگە كەلدى:‬"
+    IDS_CMT_QUEST           "بۇ ھۆججەتنىڭ ئىزاھاتىنى قوش! (بۇ ئىزاھاتنى بارلىق ئىشلەتكۈچىلەر كۆرەلەيدۇ)‏"
+    IDS_CMT_AIDE            "‫كىنوغا نسىبەتەن ئۇنىڭ ئۇزۇنلۇقى، ۋەقەلىكى، تىلىنى باھالىسىڭىز بولىدۇ… ئەگەر ھۆججەت ساختا بولسا باشقا eMule ئىشلەتكۈچىلىرىگە ئۇقتۇرۇش قىلسىڭىز بولىدۇ…‬"
+    IDS_CMT_ADD             "‫بۇ ھۆججەتنىڭ ئىزاھاتىنى ئۆزگەرت(&E)…‬"
+    IDS_CMT_NONE            "ئىزاھات يوق"
+    IDS_CMT_READ            "ھۆججەت ئىزاھاتى:"
+    IDS_CMT_SHOWALL         "ئىزاھات…‏"
+    IDS_CMT_READALL         "ئىزاھات"
+    IDS_CMT_RATEQUEST       "ھۆججەت سۈپىتى"
+    IDS_CMT_RATEHELP        "ھۆججەتكە نومۇر قويۇش ياكى ھۆججەت ئىناۋەتسىز بولسا ئىشلەتكۈچىلەرنى ئەسكەرتىش!‏"
+    IDS_CMT_FAKE            "ئىناۋەتسىز \\ بۇزۇلغان \\ ساختا"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHOWOVERHEAD        "نورمىدىن ئارتۇق سەرپىيات باغ كەڭلىكىنى كۆرسەت"
+    IDS_UPDOWNSMALL         "يوللاش: %.1f | چۈشۈرۈش: %.1f"
+    IDS_EDITLIST            "تىزىملىك…‏"
+    IDS_SP_ICONBAR          "سىستېما قونداقتىكى سىنبەلگە سۈرئەت تالچىسى"
+    IDS_RATINGRECV          "‫قوبۇللىغان «%s» ھۆججەتنىڭ باھالىنىشى: %u‬"
+    IDS_DESCRIPTIONRECV     "‫قوبۇللىغان «%s» ھۆججەتنىڭ چۈشەندۈرۈشى: %s‬"
+    IDS_WEBSERVICES         "‫Web مۇلازىمىتى‬"
+    IDS_WEBSVEDIT           "‫Web مۇلازىمىتى تەھرىر…‬"
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "‫eMule يوللىغان ئۇلىنىش كېلىشىم ئۇچۇرىغا پەرۋا قىلما‬"
+    IDS_CHECK4UPDATE        "يېڭى نەشرىنى تەكشۈر"
+    IDS_STARTUP             "قوزغات"
+    IDS_NEWVERSIONAVL       "‫يېڭى نەشرىدىكى eMule نى چۈشۈرگىلى بولىدۇ! باش بەتتىكى تەپسىلى ئۇچۇرنى كۆرۈڭ.‬"
+    IDS_NEWVERSIONAVLPOPUP  "‫يېڭى نەشرىدىكى eMule نى چۈشۈرگىلى بولىدۇ! بۇ يەرنى چېكىپ مۇناسىۋەتلىك ئۇچۇرنى كۆرۈڭ‬"
+    IDS_NEWVERSIONFAILED    "يېڭى نەشرىنى تەكشۈرەلمىدى"
+    IDS_CB_TBN_ONNEWVERSION "‫يېڭى نەشرىدىكى eMule بايقالدى!‬"
+    IDS_NONEWERVERSION      "‫يېڭى نەشرىدىكى eMule بايقالمىدى!‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EDIT                "تەھرىر…‏"
+    IDS_FILTERLEVEL         "سۈزۈش دەرىجىسى"
+    IDS_FILTERSERVERBYIPFILTER "مۇلازىمېتىرمۇ سۈزۈۋېتىلدى"
+    IDS_FILTERCOMMENTSLABEL "تۆۋەندىكى مەزمۇننى ئۆز ئىچىگە ئالغان ئىزاھاتنى ئىتىبارغا ئالماسلىق: (ئايرىش بەلگىسى | )‏"
+    IDS_CLIENTLIST          "تونۇش خېرىدار"
+    IDS_FOLDER              "قىسقۇچ"
+    IDS_CL_UPLOADSTATUS     "يوللاش ئەھۋالى"
+    IDS_CL_TRANSFUP         "يوللاندى"
+    IDS_CL_DOWNLSTATUS      "چۈشۈرۈش ئەھۋالى"
+    IDS_CL_TRANSFDOWN       "چۈشۈرۈش تامام"
+    IDS_CL_PENDING          "ساقلاۋاتىدۇ"
+    IDS_CL_LOW2LOW          "‫تۆۋەندىن تۆۋەن IP غا‬"
+    IDS_ERROR               "خاتالىق"
+    IDS_OPENINC             "‫چۈشۈرۈش مۇندەرىجىسى(Incoming)نى ئاچ(&O)‬"
+    IDS_HOTMENU             "تېزلەتمە تىزىملىك"
+    IDS_DISABLEKNOWNLIST    "تونۇش خېرىدار تىزىملىكى ئىشلىتىشنى چەكلە"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DISABLEQUEUELIST    "ئۆچرەت تىزىملىكىنى چەكلە"
+    IDS_USECREDITSYSTEM     "‫ئىشەنچ سىستېمىسىنى قوزغات-Credit System(يوللىغۇچىغا پايدىلىق)‬"
+    IDS_FIRSTAUTODOWN       "‫ئەگەر eMule چۈشۈرۈش ئالدىنلىقىنى باشقۇرسۇن دېسىڭىز بۇ تاللانمىنى قوزغىتىڭ.\n\nقوزغالغاندىن كېيىن eMule نىڭ مەنبەسى كۆپ چۈشۈرۈشنىڭ مەنبەسى ئازغا تەسىر كۆرسەتمەسلىكىگە يول قويىدۇ.\n\nبۇ تاللانما كەلگۈسىدىكى چۈشۈرۈشكە تەسىر كۆرسىتىدۇ. (ئەسلىدىكى: قوزغىتىلغان)‬\n"
+    IDS_FIRSTAUTOUP         "‫ئەگەر eMule چۈشۈرۈش ئالدىنلىقىنى باشقۇرسۇن دېسىڭىز بۇ تاللانمىنى قوزغىتىڭ.\n\nبۇ تاللانما قوزغىتىلسا eMule ئاز ئۇچرايدىغان ھۆججەتنى ئالدىن يوللايدۇ، بۇ دېگەنلىك باشقىلار قارشى ئېلىنىدىغان ھۆججەتكە تەستە ئېرىشىدۇ. بۇ تاللانما تاقالسا eMule قارشى ئېلىنىدىغان ھۆججەتنى كۆپرەك يوللايدۇ، بۇ دېگەنلىك باشقىلار ئاز ئۇچرايدىغان ھۆججەتكە تەستە ئېرىشىدۇ.\n\nبۇ تاللانما كەلگۈسىدىكى ھەمبەھىر ھۆججەتكىلا تەسىر كۆرسىتىدۇ. (ئەسلىدىكى: قوزغىتىلغان)‬\n"
+    IDS_FIRSTSAFECON        "‫eMule ئۇلانغاندا بىخەتەر ئۇلىنىشنى ئىشلەتسۇن دېسىڭىز بۇ تاللانمىنى قوزغىتىڭ.\n\nبۇ ئىقتىدارنى تاقىۋەتسىڭىز eMule مۇلازىمېتىرغا تېزراق ئۇلىنىدۇ ئەمما سىز تېخىمۇ كۆپ ساختا LowID غا ئېرىشىسىڭىز مۇمكىن. (ئەسلىدىكى: تاقالغان)‬"
+    IDS_FIRSTAUTOCON        "‫eMule قوزغالغاندىلا ئۇلانسۇن دېسىڭىز بۇ تاللانمىنى قوزغىتىڭ. (ئەسلىدىكى: تاقالغان)‬"
+    IDS_FIRSTCOMPLETE       "‫تۇنجى قوزغىتىش يېتەكچىسىنى تاماملىدىڭىز.\n\nبۇ تەڭشەكلەر ۋە باشقا تەڭشەكلەرنىڭ ھەممىسىنى تاللانما سىنبەلگىسىنى چېكىپ ئۆزگەرتىشكە بولىدۇ. ئەگەر مۇناسىۋەتلىك چۈشەندۈرۈش ۋە قوللاشقا ئېرىشمەكچى بولسىڭىز eMule نى قوزغىتىپ F1 نى بېسىپ ياردەم ھۆججىتىنى ئېچىڭ!‬"
+    IDS_ENTERUSERNAME       "ئىشلەتكۈچى نامىڭىزنى كىرگۈزۈڭ:‏"
+    IDS_STATIC_CPUMEM       "‫CPU ۋە ئىچكى ساقلىغۇچ ئىشلىتىلىش مىقدارىنى تېجە‬"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "‫ھالقىلىق سۆز بەك قىسقا.\r\n\r\nKad ئىزدەش ئىپادىسىدىكى ھالقىلىق سۆزنىڭ ئەڭ قىسقا ئۇزۇنلۇقى 3 ھەرپ.‬"
+    IDS_LOG2DISK            "كۈندىلىك خاتىرىنى دىسكىغا ساقلا"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "‫ھالقىلىق سۆز «%s» ئىزدەۋاتقان Kad ئىزدەشتىن بىرى ئىجرا بولۇۋاتىدۇ.\r\n\r\nبۇ ھالقىلىق سۆزنى قايتا ئىزدىسىڭىز ھالقىلىق سۆز ئىزدەش تاماملاشنى ساقلاڭ ياكى مۇناسىپ ئىزدەش نەتىجە كۆزنىكىنى تاقاڭ‬"
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "‫ئىناۋەتسىز Kad ھالقىلىق سۆز.\r\n\r\nKad ئىزدەش ئىپادە شەكلى چوقۇم تۆۋەندىكىدەك بولۇشى لازىم:\r\n\r\n\t<kad-keyword> [ <ed2k-search-expression> ]\r\n\r\n <kad-keyword> تۆۋەندىكى ھەر قانداق ھەرپ بەلگىنى ئۆز ئىچىگە ئالسا بولمايدۇ:\r\n\r\n\t%s‬"
+    IDS_EDITCAT             "تۈر خاسلىقى تەھرىر"
+    IDS_PW_WS               "‫Web مۇلازىمېتىر‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENABLED             "قوزغات"
+    IDS_WEB_LOGIN           "تىزىمغا كىر"
+    IDS_WEB_ENTER_PASSWORD  "بۇ يەرگە ئىم كىرگۈزۈڭ"
+    IDS_WEB_LOGIN_NOW       "ھازىر تىزىمغا كىر"
+    IDS_WEB_CONFIRM_REMOVE_SERVER
+                            "بۇ مۇلازىمېتىرنى تىزىملىكتىن راستىنلا ئۆچۈرۈۋېتەمسىز؟"
+    IDS_WEB_CONTROL         "تور مۇلازىمېتىر"
+    IDS_WEB_LOGOUT          "تىزىمدىن چىق"
+    IDS_WEB_ACTIONS         "ھەرىكەت"
+    IDS_WEB_SHOW_UPLOAD_QUEUE "ئۆچرەتنى كۆرسەت"
+    IDS_WEB_GZIP_COMPRESSION "‫Gzip پرىسلاش‬"
+    IDS_WEB_GZIP_COMMENT    "ئالاقە مىقدارىنى ئازايتىش بولۇپمۇ گرافىك"
+    IDS_WEB_REFRESH_TIME    "بەتنىڭ يېڭىلىنىش ۋاقتى"
+    IDS_WEB_REFRESH_COMMENT "ۋاقىت بىرلىكى سېكۇنت (چەكلەش=0)‏:"
+    IDS_SV_URL              "URL" //!
+    IDS_WS_RELOAD_TMPL      "قېلىپ"
+    IDS_SV_DEBUGLOG         "كۈندىلىك خاتىرە سازلا"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_TOOLARGEFILE    "‫ھۆججەت چوڭلۇقى eDonkey كېلىشىمى قوللايدىغان دائىرە  (>=256GB)دىن ئېشىپ كەتتى‬"
+    IDS_MSGONLYFRIENDS      "دوستلارنىلا قوبۇل قىل"
+    IDS_DAY_MO_SA           "دۈشەنبە ـ شەنبە"
+    IDS_LIMITSOURCES        "مەنبە سانىنى چەكلە"
+    IDS_LIMITCONS5SEC       "ئۇلىنىش چەكلىمىسى/5 سېكۇنت"
+    IDS_SCHED_CATSTOP       "ھۆججەت چۈشۈرۈشنى توختات"
+    IDS_SCHED_CATRESUME     "ھۆججەت چۈشۈرۈشنى داۋاملاشتۇر"
+    IDS_S_DAYS              "كۈن"
+    IDS_STARTTIME           "باشلاش ۋاقتى"
+    IDS_VALUE               "قىممىتى"
+    IDS_SCHED_ENTERDATARATELIMIT "سانلىق مەلۇمات يوللاش نىسبىتى چەكلىمىسىنى كىرگۈزۈڭ:"
+    IDS_SCHED_ENTERVAL      "يېڭى قىممەت كىرگۈزۈڭ:"
+    IDS_SCHED_ACTCONFIG     "ھەرىكەت تەڭشەك"
+    IDS_SELECTCAT           "تۈر تاللاش"
+    IDS_ALLUNASSIGNED       "بارلىق بەلگىلەشنى بىكار قىل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ACTSESSIONS         "ئاكتىپ سۆزلىشىش سانى"
+    IDS_WEBSRV              "تور مۇلازىمېتىر"
+    IDS_SW_REFETCHRES       "نەتىجىگە قايتا ئېرىشىش"
+    IDS_FILEHASH            "ھۆججەت Hash"
+    IDS_PW_PROXY            "ۋاكالەتچى مۇلازىمېتىر"
+    IDS_PROXY_ENABLE        "ۋاكالەتچى مۇلازىمېتىرنى قوزغات"
+    IDS_PROXY_TYPE          "مۇلازىمېتىر تىپى:"
+    IDS_PROXY_HOST          "مۇلازىمېتىر ئاپپاراتى:"
+    IDS_PROXY_PORT          "مۇلازىمېتىر ئېغىزى:"
+    IDS_PROXY_AUTH          "سالاھىيەت دەلىللەشنى قوزغات"
+    IDS_AUTH                "سالاھىيەت دەلىللەش"
+    IDS_SHOWCATINFO         "تۈرگە ئايرىش خەتكۈچىدە چۈشۈرۈش ئۇچۇرىنى كۆرسەت"
+    IDS_SW_SEARCHINGINFO    "ئىزدەۋاتىدۇ، ھازىرلا قايتىدىن نەتىجىگە ئېرىشىدۇ!‏"
+    IDS_LOGENTRY            "كۈندىلىك خاتىرە تۈرى"
+    IDS_COPY                "كۆچۈر"
+    IDS_SELECTALL           "ھەممىنى تاللا"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_AUTOSCROLL          "ئۆزلۈكىدىن دومىلا"
+    IDS_WIZ1_WELCOME_TITLE  "‫eMule ئىشلىتىشىڭىزنى قارشى ئالىمىز‬"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "‫بۇ يېتەكچى سىزنى eMule نى دەسلەپكى قەدەمدە تەڭشەشكە يېتەكلەيدۇ‬"
+    IDS_WIZ1_WELCOME_BTN_HINT "‏«كېيىنكى»نى چېكىپ داۋاملاشتۇرۇڭ"
+    IDS_WIZ1_END_TITLE      "يېتەكچى تاماملىنىۋاتىدۇ"
+    IDS_WIZ1                "‫eMule تۇنجى قوزغىلىش يېتەكچىسى‬"
+    IDS_WIZ1_END_BTN_HINT   "‏«تامام»نى چېكىلسە بۇ يېتەكچىنى تاقايدۇ"
+    IDS_WIZ1_UPLOAD_SUBTITLE "پۈتۈن ھۆججەت بۆلىكىنى يوللا"
+    IDS_DL_RESUMENEXT       "كېيىنكى ۋاقىتلىق توختىغان ھۆججەتنى داۋاملاشتۇر"
+    IDS_STARTPRIO           "بۇ تۈرنىڭ ئالدىنلىق دەرىجىسى"
+    IDS_PREF_STARTNEXTFILECAT "ئوخشاش تۈر ئالدىنلىقى"
+    IDS_SOFTFILES           "يۇمشاق ھۆججەت چەكلىمىسى"
+    IDS_HARDFILES           "قاتتىق ھۆججەت چەكلىمىسى"
+    IDS_FILTER              "سۈزگۈچ"
+    IDS_LINKS               "ئۇلىنىش"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HM_SCHED_ON         "پىلان ۋەزىپىنى ئاچ"
+    IDS_HM_SCHED_OFF        "پىلان ۋەزىپىنى ياپ"
+    IDS_HM_LINKHP           "‫eMule باش بېتى‬"
+    IDS_HM_LINKFAQ          "‫eMule چىگىش مەسىلىگە جاۋاب‬"
+    IDS_HM_LINKVC           "‫eMule نەشرىنى تەكشۈر‬"
+    IDS_DEBUG_SOURCE_EXCHANGE
+                            "مەنبە ئالماشتۇرۇش ئۇچۇرىنى خاتىرىلە"
+    IDS_SHAREDREQ1          "User %s (%u) requested your list of shared directories -> %s"
+    IDS_SHAREDREQ2          "User %s (%u) requested your list of shared files for directory '%s' -> %s"
+    IDS_SHAREDANSW          "User %s (%u) shares directory '%s'"
+    IDS_SHAREDANSW2         "User %s (%u) sent not requested list of shared directories - ignored"
+    IDS_SHAREDINFO1         "User %s (%u) sent list of shared files for directory '%s'"
+    IDS_SHAREDINFO2         "User %s (%u) finished sending lists of shared files"
+    IDS_SHAREDANSW3         "User %s (%u) sent not requested list of shared files for directory '%s' - ignored"
+    IDS_SHAREDREQDENIED     "User %s (%u) denied access to list of shared directories/files"
+    IDS_AUTOCLEANUPFN       "ھۆججەت ئاتىنى ئۆزلۈكىدىن تازىلا"
+    IDS_ONNEWDOWNLOAD       "دەسلەپلەشتۈرۈش قىممەت تەڭشىكى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FILTERFILENAMEWORD  "سۈزىدىغان ھالقىلىق سۆزنى كىرگۈزۈڭ، «|» بىلەن ئايرىڭ"
+    IDS_FNFILTERTITLE       "نامىنى تازىلاشقا لازىملىق ھۆججەت ئاتى ئۆز ئىچىگە ئالغان سۆز سۈزگۈچىنى تەھرىرلەش"
+    IDS_CHANGECATVIEW       "كۆرۈش سۈزگۈچى تاللاش"
+    IDS_STATUS_NOTCOMPLETED "تاماملانمىدى"
+    IDS_STATS_CUMULATIVE    "جۇغلانما"
+    IDS_STATS_OVRHD         "سەرپىيات"
+    IDS_STATS_RECORDS       "خاتىرە"
+    IDS_STATS_COMPDL        "تاماملانغان چۈشۈرۈش"
+    IDS_STATS_SVRECWORKING  "ئەڭ كۆپ خىزمەت مۇلازىمېتىر سانى"
+    IDS_STATS_SVRECUSERS    "ئەڭ كۆپ توردىكى ئىشلەتكۈچى سانى"
+    IDS_SEARCH_TEXT         "ئىزدە"
+    IDS_STATS_SVRECFILES    "ئەڭ كۆپ ئىناۋەتلىك ھۆججەت سانى"
+    IDS_STATS_SHRECNUM      "ئەڭ كۆپ ھەمبەھىر ھۆججەت سانى"
+    IDS_SEARCH_COLUMN       "تۆۋەندىكى ستوندىن ئىزدە"
+    IDS_STATS_SHRECSIZE     "ئەڭ كۆپ ھەمبەھىر ھۆججەت ئومۇمى سىغىمى"
+    IDS_STATS_SHRECASIZE    "ئەڭ چوڭ ئوتتۇرىچە ھۆججەت چوڭلۇقى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SESSION       "سۆزلىشىش"
+    IDS_STATS_SRATIO        "بۇ قېتىمقى سۆزلىشىشنىڭ يوللاش چۈشۈرۈش نىسبىتى:"
+    IDS_STATS_CRATIO        "جۇغلانما يوللاش چۈشۈرۈش نىسبىتى"
+    IDS_SEARCH_NORESULT     "شەرتكە توشىدىغان ھۆججەت تېپىلمىدى"
+    IDS_STATS_CURRSRVDUR    "نۆۋەتتىكى مۇلازىمېتىر داۋاملىشىش ۋاقتى"
+    IDS_LONGSECS            "سېكۇنت"
+    IDS_STATS_DLSES         "چۈشۈرۈش سۆزلىشىشى"
+    IDS_LONGMINS            "مىنۇت"
+    IDS_STATS_SDLSES        "مۇۋەپپەقىيەتلىك چۈشۈرۈش سۆزلىشىشى"
+    IDS_STATS_FDLSES        "مەغلۇپ بولغان چۈشۈرۈش سۆزلىشىشى"
+    IDS_STATS_AVGDATADLSES  "ئوتتۇرىچە ھەر قېتىملىق سۆزلىشىش چۈشۈرۈشى"
+    IDS_STATS_ULSES         "يوللاش سۆزلىشىشى"
+    IDS_STATS_GAINCOMP      "پرىسلاشنىڭ پايدىسى: %s"
+    IDS_STATS_LOSTCORRUPT   "سانلىق مەلۇمات بۇزۇلۇپ يوقالغىنى: %s"
+    IDS_STATS_AVGDATAULSES  "ئوتتۇرىچە ھەر قېتىملىق سۆزلىشىشتە يوللىغىنى"
+    IDS_STATS_ICHSAVED      "‫I.C.H ئەسلىگە كەلتۈرگەن ھۆججەت بۆلىكى: %u‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MBRESET_TXT   "جۇغلانما ستاتىستىكا ئۇچۇرىنى قايتا تەڭشەمسىز؟\n\nئەگەر قارىشىڭىزنى ئۆزگەرتسىڭىز «ستاتىستىكا ئۇچۇرىنى ئەسلىگە كەلتۈرۈش» نى چېكىپ بۇ مەشغۇلاتنى ئەسلىگە كەلتۈرەلەيسىز."
+    IDS_STATS_MBRESTORE_TXT "زاپاس ھۆججەتتىن جۇغلانما ستاتىستىكا ئۇچۇرىنى ئەسلىگە كەلتۈرمەكچىمۇ سىز؟\n\n‏«ستاتىستىكا ئۇچۇرىنى ئەسلىگە كەلتۈر» قايتا بىر چېكىلسە نۆۋەتتىكى ستاتىستىكا ئۇچۇرىڭىز قايتىدىن يۈكلىنىدۇ."
+    IDS_ERR_NOSTATBKUP      "خاتالىق: زاپاس ستاتىستىكا ئۇچۇر ھۆججىتى تېپىلمىدى…"
+    IDS_STATS_NFOLOADEDBKUP "زاپاس ستاتىستىكا سانلىق مەلۇمات يۈكلەندى…‏"
+    IDS_STATS_NFORESET      "ستاتىستىكا ئۇچۇرى قايتا تەڭشەلدى!‏"
+    IDS_STATS_BNRESET       "ستاتىستىكا ئۇچۇرى ئەسلىگە كەلتۈرۈلدى"
+    IDS_STATS_BNRESTORE     "ستاتىستىكا ئۇچۇرى ئەسلىگە كەلتۈرۈلدى"
+    IDS_PPGSTATS_YSCALE     "‫ئۇلىنىش ستاتىستىكا ئۇچۇرى Y ئوقى نىسبەت شىكالىسى‬:"
+    IDS_PPGSTATS_ACRATIO    "ھەرىكەتتىكى ئۇلىنىش نىسبىتى :"
+    IDS_STATS_PROBLEMATIC   "مەسىلە بار"
+    IDS_LONGHRS             "سائەت"
+    IDS_STATS_LARGESTFILE   "ئەڭ چوڭ ھەمبەھىر ھۆججەت چوڭلۇقى"
+    IDS_SPLIT_WINDOW        "كۆزنەكنى پارچىلا"
+    IDS_STATS_DSPF          "بۆلەك ھۆججەت"
+    IDS_STATS_DATASOURCE    "سانلىق مەلۇمات مەنبەسى"
+    IDS_STATS_DSFILE        "ھۆججەت تامام"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_GENERAL       "ئادەتتىكى"
+    IDS_STATS_TRANSTIME     "يوللاش ۋاقتى"
+    IDS_STATS_DOWNTIME      "چۈشۈرۈش ۋاقتى"
+    IDS_STATS_UPTIME        "يوللىغان ۋاقىت"
+    IDS_STATS_TOTALSRVDUR   "ئومۇمىي مۇلازىمېتىر ۋاقتى"
+    IDS_STATS_MAXAVGUL      "ئەڭ يۇقىرى ئوتتۇرىچە يوللاش سۈرئىتى"
+    IDS_STATS_MAXUL         "ئەڭ يۇقىرى يوللاش سۈرئىتى"
+    IDS_STATS_AVGDLTIME     "ئوتتۇرىچە چۈشۈرۈش ۋاقتى"
+    IDS_STATS_PRTDEF        "كۆڭۈلدىكى"
+    IDS_STATS_PRTOTHER      "باشقا"
+    IDS_STATS_MNUTREETITLE  "ستاتىستىكا دەرىخى"
+    IDS_STATS_MNUTREECPYSEL "تاللىغان تارماقنى كۆچۈر"
+    IDS_STATS_MNUTREECPYALL "بارلىق ستاتىستىكا ئۇچۇرىنى كۆچۈر"
+    IDS_STATS_MNUTREEHTML   "‫HTML ئىقتىدارى‬"
+    IDS_STATS_EXPORT2HTML   "ستاتىستىكا ئۇچۇرىنى چىقار…"
+    IDS_CONDTCPACCEPT       "تېز سۈرئەتتە ئۇلىنىشنى چەكلە"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MNUTREECPYVIS "بارلىق كۆرۈشچان ئۇچۇرنى كۆچۈر"
+    IDS_STATS_MNUTREEEXPANDALL "بارلىق بۆلەكنى ياي"
+    IDS_STATS_MNUTREECOLLAPSEALL "بارلىق بۆلەكنى قاتلا"
+    IDS_STATS_MNUTREEEXPANDMAIN "ئاساسىي بۆلەكنى ياي"
+    IDS_STATS_LASTRESETSTATIC "ئالدىنقى ئەسلىگە قايتۇرغان ستاتىستىكا ئۇچۇرىدىن: %s"
+    IDS_STATS_MONTHLY       "ھەر ئاي"
+    IDS_STATS_YEARLY        "ھەر يىل"
+    IDS_STATS_TIMESTATS     "ۋاقىت ستاتىستىكىسى"
+    IDS_STATS_AVGANDPROJ    "پىلاندىكى ئوتتۇرىچە سان"
+    IDS_STATS_TIMESINCERESET "ئالدىنقى ئەسلىگە قايتۇرغان ۋاقىت: %s"
+    IDS_CRYPT_INITFAILED    "شىفىرلىق ئاچقۇچ دەسلەپلەشتۈرۈش مەغلۇپ بولدى - بىخەتەرلىك دەللىلەش چەكلەندى"
+    IDS_CD_IDENT            "دەلىللەش:"
+    IDS_IDENTOK             "مۇۋەپپەقىيەتلىك"
+    IDS_IDENTFAILED         "ئىناۋەتسىز"
+    IDS_IDENTNOSUPPORT      "قوللىمايدۇ ياكى چەكلەنگەن"
+    IDS_COMMITFILES         "‫بىخەتەر .met/.dat ھۆججىتى يېزىش‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DWL_IPFILTERFILE    "‫IP سۈزۈش ھۆججىتىنى چۈشۈرۈۋاتىدۇ‬"
+    IDS_DWLIPFILTERFAILED   "‫IP سۈزۈش ھۆججىتىنى چۈشۈرۈش مەغلۇپ بولدى‬"
+    IDS_FINDBUDDY           "‫Buddy ئىزدە‬"
+    IDS_ERR_IPFILTERZIPEXTR "‫چۈشۈرگەن IP سۈزۈش قائىدە Zip ھۆججىتى «%s» دىن IP سۈزۈش قائىدە ھۆججىتىنى يېشىش مەغلۇپ بولدى.‬"
+    IDS_ERR_IPFILTERCONTENTERR
+                            "‫چۈشۈرگەن IP سۈزۈش قائىدە ھۆججىتى ‎«%s» Zip ھۆججىتى ئەمما نامەلۇم مەزمۇننى ئۆز ئىچىگە ئالغان.‬"
+    IDS_STORENOTES          "ساقلاش ئىزاھاتى"
+    IDS_NOTES               "ئىزاھات"
+    IDS_KADSEARCHALREADY    "باشقا بىر ئىزدەش ئىجرا بولۇۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ!‏"
+    IDS_WEB_SHUTDOWN        "‫eMule نى تاقا‬"
+    IDS_WEB_REBOOT          "سىستېمىنى قايتا قوزغات"
+    IDS_WEB_SHUTDOWNSYSTEM  "سىستېمىنى تاقا"
+    IDS_WEB_ADMINMENU       "باشقۇرغۇچى تىزىملىكى"
+    IDS_WEB_MAIN_CLOSE      "‫eMule دىن راستىنلا چېكىنەمسىز؟‬"
+    IDS_WEB_MAIN_REBOOT     "سىستېمىنى راستىنلا قايتا قوزغىتامسىز؟"
+    IDS_WEB_MAIN_SHUTDOWN   "سىستېمىنى راستىنلا تاقامسىز؟"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "ئۆچىرەتتە چەكلەنگەن خېرىدارنى كۆرسەت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "ئۆچىرەتتە دوستنى كۆرسەت"
+    IDS_WEB_SESSIONTIMEOUT  "سۆزلىشىش ۋاقىت ھالقىدى"
+    IDS_WEB_ALLOWHILEVFUNC  "‫eMule دىن چېكىنىپ، قايتا قوزغىتىپ كومپيۇتېرنى تاقا‬"
+    IDS_SETPFSLIMIT         "مەنبە چەكلىمىسى…‏"
+    IDS_SETPFSLIMITEXPLAINED
+                            "نۆۋەتتىكى ھۆججەتكە يېڭى مەنبە چەكلىمە سانىنى كىرگۈزۈڭ! \n(0 تەڭشەلسە ئومۇمىي تەڭشەك ئىشلىتىلىدۇ)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "كونا مۇندەرىجىنى ئۆز ئىچىگە ئالغان چۈشۈرۈش مۇندەرىجىسىنى ھازىر يېڭىلامسىز؟"
+    IDS_USESPEECH           "ئۇقتۇرۇش ئۇچۇرىنى ئۈنلۈك ئوقۇ"
+    IDS_ERR_FAILEDTOLOAD    " %s %s يۈكلەش مەغلۇپ بولدى"
+    IDS_TCPIP_CONNS         "‫TCP/IP ئۇلىنىش‬"
+    IDS_MANUAL_FILENAMECLEANUP
+                            "نۆۋەتتىكى ھۆججەت ئاتىنى تازىلامسىز؟"
+    IDS_ERR_DELFILE         "‫«%s»‎ ھۆججەتنى ئۆچۈرۈش مەغلۇپ بولدى‬"
+    IDS_ERR_CONFIGCORRUPT   "‫%s بۇزۇلغان بولۇشى مۇمكىن ئالماشتۇرۇلىدۇ‬"
+    IDS_UPLOADING           "يوللاۋاتىدۇ"
+    IDS_CANCELLED           "بىكار قىلىندى"
+    IDS_PW_REMEMBERDOWNLOADED "چۈشۈرگەن ھۆججەتنى ئەستە ساقلا"
+    IDS_PW_REMEMBERCANCELLED "بىكار قىلىنغان ھۆججەتنى ئەستە ساقلا"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADUNC          "‫ئىناۋەتسىز UNC ئاتى‬"
+    IDS_NEVER               "ھەرگىز"
+    IDS_ALWAYS              "ھەمىشە"
+    IDS_ONSHUTDOWN          "تاقىغاندا"
+    IDS_UNCFOLDERS          "‫UNC قىسقۇچ‬"
+    IDS_USESECIDENT         "بىخەتەرلىك دەلىللەش ئىشلەت"
+    IDS_ADVSPAMFILTER       "ئالىي دەرىجىلىك ئەخلەت ئۇچۇرلارنى سۈزگۈچ"
+    IDS_CUT                 "كەس"
+    IDS_STATS_SECUREIDENT   "بىخەتەرلىك دەلىللەش  (مۇۋەپپەقىيەتلىك : مەغلۇپ بولدى)‏"
+    IDS_ONDISK              "دىسكىدىكى چوڭلۇقى: "
+    IDS_CLIENTCOL           "‫ئاگاھلاندۇرۇش: نۆۋەتتىكى ئۇلانغان خېرىدار بىلەن ماس كېلىدىغان خېرىدار تېپىلدى: %s (%s) ۋە %s (%s)‬"
+    IDS_SEARCH_UNTERMSTRING "ھەرپ بەلگە ئاخىرلاشمىدى"
+    IDS_SEARCH_GENERALERROR "ئادەتتىكى خاتالىق"
+    IDS_SEARCH_MISSINGORRIGHT "‫OR ئەمەل بەلگىسىنىڭ ئوڭ تەرىپىدە مەشغۇلات سانى كەم‬"
+    IDS_SEARCH_MISSINGNOTRIGHT "‫NOT ئەمەل بەلگىسىنىڭ ئوڭ تەرىپىدە مەشغۇلات سانى كەم‬"
+    IDS_SEARCH_MISSINGEXPRPARANT " '(' ')' ئىپادە كەم"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_MISSINGCLOSINGPARANT "ئاخىرلاشتۇرۇش بەلگىسى كەم ')'"
+    IDS_SEARCH_EXPRERROR    "ئىزدەش ئىپادىسىنى تەھلىل قىلىش مەغلۇپ بولدى"
+    IDS_SEARCH_TOOCOMPLEX   "ئىپادە بەك مۇرەككەپ"
+    IDS_VERSION             "نەشرى"
+    IDS_OPTIONS             "تاللانما"
+    IDS_PASTE               "چاپلا"
+    IDS_SEARCHAUTHORCOLLECTION "بۇ ئاپتورنىڭ يىغقۇچىنى ئىزدە"
+    IDS_ERR_DUPL_FILES      "تەكرار ھەمبەھىر ھۆججەت: «%s» ۋە «%s»"
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "‫USS: يول تاللاش ئىز قوغلىشى كۆپ قېتىم مەغلۇپ بولدى. USS تاقا.‬"
+    IDS_USS_STARTING        "‫USS: تەييارلاندى. يوللاش سۈرئىتىنى كونترول قىلىشقا باشلىدى. (دەسلەپكى 60 سېكۇنتتا تېز ئىنكاس شەكلى قوللىنىدۇ)‬"
+    IDS_A4AF                "مەنبە بىر تەرەپ قىلىش"
+    IDS_AUTOCAT_LABEL       "ئۆزلۈكىدىن تىپىنى بېكىتىش (ئىپادىسى، «|» بىلەن ئايرىلىدۇ)‏"
+    IDS_SHOWEXTSETTINGS     "تېخىمۇ كۆپ كونترولنى كۆرسىتىش (ئالىي شەكىل كونترول)‏"
+    IDS_TREEOPTIONS_TRUE    "راست"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TREEOPTIONS_FALSE   "يالغان"
+    IDS_TREEOPTIONS_OK      "جەزملە"
+    IDS_HYPERTEXT_FONT_HINT "‫مۇلازىمېتىر-، ئۇچۇر- ۋە  IRC كۆزنەك خېتى‬"
+    IDS_SELECT_FONT         "خەت نۇسخا تاللاش"
+    IDS_SERVER_LIMITS       "يۇمشاق/ قاتتىق ھۆججەت چەكلىمىسى"
+    IDS_KBITSSEC            "kBit/s" //!
+    IDS_KBYTESSEC           "kByte/s" //!
+    IDS_ERR_CREATE_DIR      "‫%s مۇندەرىجە قۇرۇش مەغلۇپ بولدى ‎«%s» -  %s‬"
+    IDS_WRN_INCFILE_RESERVED
+                            "چۈشۈرۈش مۇندەرىجىسى كۆڭۈلدىكى‫ eMule قاچىلاش مۇندەرىجىسى قىلىپ تەڭشەش چەكلەنگەن‬"
+    IDS_WRN_TEMPFILES_RESERVED
+                            "‫Temporary مۇندەرىجىسى كۆڭۈلدىكى eMule قاچىلاش مۇندەرىجىسى قىلىپ تەڭشەش چەكلەنگەن‬"
+    IDS_WRN_INCTEMP_SAME    "چۈشۈرۈش مۇندەرىجىسى بىلەن ۋاقىتلىق مۇندەرىجە ئوخشاش بولسا بولمايدۇ"
+    IDS_SHOWDWLPERCENTAGE   "سۈرئەت تالچىسىدا چۈشۈرۈش مىقدارى پىرسەنتىنى كۆرسەت"
+    IDS_TBN_ONNEWDOWNLOAD   "چۈشۈرۈش قوشۇلدى"
+    IDS_ARTIST              "سەنئەتكار"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALBUM               "پلاستىنكا توپلىمى"
+    IDS_CD_UPLOADREQ        "ئىلتىماس قىلىنغان يوللاش:"
+    IDS_SETTINGCHANGED_RESTART
+                            "‫ئۆزگەرتكەن تەڭشەك كۈچكە ئىگە بولۇشى ئۈچۈن eMule نى قايتا قوزغىتىڭ!‬"
+    IDS_CREDITSEXPIRED      "‫ %u ئىشلەتكۈچى ئۆچۈرۈلدى ( 5 ئاي يوقايدۇ)‏‬"
+    IDS_SOURCESINFO         "%u  (كېرەكلىكl: %u, NNP: %u);  A4AF: %u"
+    IDS_META_DATA           "ئەسلى سانلىق مەلۇمات"
+    IDS_TIMEBEFORE          "(%s بۇرۇن)"
+    IDS_FD_TIMEDATE         "ۋاقىت"
+    IDS_FILEINFORMATION     "ھۆججەت ئۇچۇرى"
+    IDS_STATS_FREESPACE     "ئىشلىتىلىشچان بوشلۇق"
+    IDS_IRC_HELPCHANNEL     "ياردەم قانىلىغا ئۇلان"
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-english" //!
+    IDS_IRC_ACCEPTLINKSFRIENDS "دوستتىنلا"
+    IDS_COMPLSOURCES        "مەنبە تامام"
+    IDS_CHECKNOENDTIME      "ئاخىرلىشىش ۋاقتى يوق"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_DOWNLOADSTARTED  "چۈشۈرۈش قوشۇلدى:"
+    IDS_FAILEDREOPEN        "ئەجەللىك خاتالىق: بۆلەك ھۆججىتىنى قايتا ئېچىش مەغلۇپ بولدى «%s» (%s)!\n"
+    IDS_ERR_PREVIEWALREADY  "بۇ خېرىدارنىڭ ئالدىن كۆزىتىش ئىلتىماسى ساقلاۋاتىدۇ"
+    IDS_ERR_PREVIEWFAILED   "‫ئىشلەتكۈچى«%s» نىڭ ئالدىن كۆزىتىشى مەغلۇپ بولدى‬"
+    IDS_DWTOT               "دىسكا بوشلۇقى"
+    IDS_DWTOT_NR            "چۈشۈرۈش سانى: %u"
+    IDS_DWTOT_TSD           "ئومۇمىي چۈشۈرۈش چوڭلۇقى: %s"
+    IDS_DWTOT_TCS           "ئومۇمىي تاماملىغان چوڭلۇقى: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "ئومۇمىي تاماملىمىغان چوڭلۇقى: %s"
+    IDS_DWTOT_TSN           "ئومۇمىي ئېھتىياجلىق دىسكا بوشلۇقى: %s"
+    IDS_DWTOT_FS            "ۋاقىتلىق قىسقۇچ تۇرۇشلۇق رايوندىكى ئىشلىتىلىشچان بوشلۇق: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (بىكارلاش لازىم %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT "مۇلازىمېتىر ئۇلىنىشنى يېڭىلاش ئارىلىقى  [مىنۇت]‏"
+    IDS_MORE                "‫تېخىمۇ كۆپ(&M)‬"
+    IDS_TOOLS               "قورال"
+    IDS_SEARCHPARAMS        "ئىزدەش پارامېتىرى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u hashing)" //!
+    IDS_CHECKDISKSPACE      "دىسكا بوشلۇقىنى تەكشۈر"
+    IDS_YOURHOSTNAME        "‫ئۆزىدىكى eD2K ئۇلىنىشىنىڭ ئاساسىي ئاپپارات نامى‬"
+    IDS_INSUFFICIENT        "دىسكا بوشلۇقى يېتىشمىدى"
+    IDS_MINFREEDISKSPACE    "‫ئەڭ كىچىك ئىشلىتىلىشچان بوشلۇق [MB]‬"
+    IDS_WARNING             "ئاگاھلاندۇرۇش"
+    IDS_IMPORTSPLPF         "‫تاماملانمىغان چۈشۈرۈشنى ئەكىر (eM,eD,ON)‬"
+    IDS_IMP_STEPREADPF      "ۋاقىتلىق قىسقۇچنى ئوقۇۋاتىدۇ"
+    IDS_IMP_STEPBASICINF    "ئەسلىدىكى چۈشۈرىۋاتقان ھۆججەتتىن ئاساسىي ئۇچۇرغا ئېرىشىۋاتىدۇ"
+    IDS_IMP_STEPCRDESTFILE  "نىشان ھۆججەت قۇرۇۋاتىدۇ"
+    IDS_IMP_LOADDATA        "ئەسلىدىكى چۈشۈرگەن ھۆججەتتىن سانلىق مەلۇمات يۈكلەۋاتىدۇ (%u of %u)"
+    IDS_IMP_SAVEDATA        "سانلىق مەلۇمات بۆلىكىنى يېڭى چۈشۈرگەن ھۆججەتكە ساقلاۋاتىدۇ(%u of %u)"
+    IDS_IMP_IOERROR         "تاماملانمىغان چۈشۈرۈشنى ئايلاندۇرۇشتا خاتالىق كۆرۈلدى"
+    IDS_IMP_GETPFINFO       "ئەسلىدىكى چۈشۈرگەن ھۆججەت ئۇچۇرىغا ئېرىشىۋاتىدۇ"
+    IDS_IMP_ADDDWL          "يېڭى بۆلەك ھۆججىتى قوشۇپ، ساقلاۋاتىدۇ"
+    IDS_IMP_FETCHSTATUS     "ئېرىشىش ئەھۋالى…‏"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_INPROGR         "ئىجرا قىلىنىۋاتىدۇ"
+    IDS_IMP_ERR_DISKSP      "خاتالىق: دىسكا بوشلۇقى يېتىشمىدى"
+    IDS_IMP_ERR_PARTMETIO   "‫خاتالىق: part.met ھۆججىتىنى تاپالمىدى‬"
+    IDS_IMP_ERR_IO          "خاتالىق: كىرگۈزۈش/چىقىرىش خاتالىقى"
+    IDS_IMP_ERR_FAILED      "خاتالىق: مەغلۇبىيەت!‏"
+    IDS_IMP_STATUSQUEUED    "ئۆچرەت"
+    IDS_IMP_ALRDWL          "چۈشۈرۈۋاتىدۇ"
+    IDS_IMP_ADDBTN          "‫ئەكىرىش قوش(&A)‬"
+    IDS_IMP_RETRYBTN        "‫تاللىغاننى قايتا سىنا(&R)‬"
+    IDS_IMP_REMOVEBTN       "‫تاللىغاننى ئۆچۈر(&M)‬"
+    IDS_IMP_SELFOLDER       "تېخى چۈشۈرۈپ بولالمىغان ھۆججەتلەر بار قىسقۇچنى تاللاڭ! (تارماق قىسقۇچنىمۇ ئۆز ئىچىگە ئالىدۇ)‏"
+    IDS_IMP_DELSRC          "مۇۋەپپەقىيەتلىك ئەكىرگەن چۈشۈرىدىغان ئەسلى ھۆججەتنى ئۆچۈرەمسىز؟"
+    IDS_IMP_SIZE            "%s (دىسكا:%s)"
+    IDS_IMP_STATUS          "ئەكىرىۋاتىدۇ %s: %s"
+    IDS_DYNUPENABLED        "يوللاش چەكلىمىسىنى ئۆزلۈكىدىن تەڭشە"
+    IDS_DYNUP_PINGTOLERANCE "‫Pingيول قويۇش چېكى (Ping% ئەڭ تۆۋەن)‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_GOINGUPDIVIDER "ئاستا يۇقىرىغا"
+    IDS_DYNUP_GOINGDOWNDIVIDER "ئاستا تۆۋەنگە"
+    IDS_DYNUP_NUMBEROFPINGS "‫ئوتتۇرىچە ئەڭ كۆپ Ping قېتىم سانى‬"
+    IDS_DYNUP_MINUPLOAD     "يول قويۇلىدىغان ئەڭ تۆۋەن يوللاش سۈرئىتى"
+    IDS_ESTTIMELEFT         "مۆلچەردىكى قالغان ۋاقىت:"
+    IDS_TRANSFER_RATE_LABEL "يوللاش نىسبىتى:"
+    IDS_SAVELOG             "كۈندىلىك خاتىرىنى ساقلا"
+    IDS_CMT_COPYCLIPBOARD   "باھا سۆزىنى كۆچۈر"
+    IDS_ASKDOWNLOADLANG     "‫تاللىغان تىل سىستېمىڭىزغا قاچىلانمىغان emule-project.net دىن چۈشۈرەمسىز؟‬"
+    IDS_ASKDOWNLOADLANGCAP  "تىل ھۆججىتىنى چۈشۈر"
+    IDS_DELETESELECTED      "ئۆچۈر"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "‫%s دىن تاللىغان تىل dll ھۆججىتىنى چۈشۈرۈش ۋە قاچىلاش مەغلۇپ بولدى!‬"
+    IDS_ERR_BADFOLDER       "‫ئىناۋەتسىز قىسقۇچ.\nقىسقۇچ قۇرالمىدى، نامى ۋە ئورنىنى تەكشۈرۈڭ.‬"
+    IDS_AUTOREMOVEFD        "تاماملانغان چۈشۈرۈشنى ئۆزلۈكىدىن تازىلا"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELS          "تېكست بەلگە تاللانمىسى"
+    IDS_ENABLETEXTLABELS    "تېكست بەلگىسى كۆرسەت"
+    IDS_CUSTOMIZETOOLBAR    "قورال بالداق تەڭشەك…‏"
+    IDS_MINBITRATE          "ئەڭ كىچىك بىت نىسبىتى [kBit/s]"
+    IDS_KAD_RECHECKFW       "مۇداپىئە تېمىنى قايتا تەكشۈر"
+    IDS_SHAREDTITLE         "‫ھەمبەھىر eD2K|Kad‬"
+    IDS_FIREWALLED          "مۇداپىئە تېمى ئارقىلىق"
+    IDS_KADEMLIA            "Kad" //!
+    IDS_KADCONTACTLAB       "ئالاقىلىشىش"
+    IDS_KADDISTANCE         "ئارىلىق"
+    IDS_KEY                 "ھالقىلىق سۆز"
+    IDS_NUMBER              "سانى"
+    IDS_KAD_SEARCHSRC       "مەنبە ئىزدە"
+    IDS_KAD_SEARCHKW        "ھالقىلىق سۆز ئىزدە"
+    IDS_KAD_NODE            "نۇقتا ئىزدە"
+    IDS_KAD_STOREFILE       "ھۆججەت ساقلا"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_STOREKW         "ھالقىلىق سۆز ساقلا"
+    IDS_KAD_UNKNOWN         "نامەلۇم"
+    IDS_SRV_TCPCOMPR        "‫TCP پرىسلاش‬"
+    IDS_KADSEARCHLAB        "نۆۋەتتىكى ئىزدەش"
+    IDS_SRV_UDPSR           "‫مەنبە ئىلتىماسىنىڭ كېڭەيتىلگەن  UDP  كېلىشىمى‬"
+    IDS_SRV_UDPFR           "‫مەنبە ئىلتىماسىنىڭ كېڭەيتىلگەن  UDP  كېلىشىمى‬"
+    IDS_MINLENGTH           "‫ئەڭ كىچىك ئۇزۇنلۇق [hh:mm:ss]‬"
+    IDS_EM_HELP             "ياردەم"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "دوست قوشمىدى.\r\n\r\nئوخشاش‫ IP ئادرېسى بار دوستتىن بىرسى مەۋجۇد.‬"
+    IDS_DYNUP               "يوللاش سۈرئىتىنى تەكشۈر"
+    IDS_KADOVERHEAD         "Kad سەرپىياتى (: %s (%s(بوغچا)"
+    IDS_FIND                "ئىزدە…‏"
+    IDS_LOG_BANNED_CLIENTS  "خاتىرە چەكلەنگەن خېرىدار"
+    IDS_LOG_RATING_RECV     "تاپشۇرۇۋالغان ھۆججەت چۈشەندۈرۈشى ۋە باھالاش نومۇرىنى خاتىرىلە"
+    IDS_LOG_SECURE_IDENT    "بىخەتەر سالاھىيەتنى خاتىرىلە"
+    IDS_LOG_FILTERED_IPS    "‫سۈزگەن ياكى پەرۋا قىلمىغان IP نى خاتىرىلە‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "مەلۇملۇق خېرىداردىن كەلگەن"
+    IDS_KADUDPPORTERR       "‫Kad UDP ئېغىزى بىلەن eMule نىڭ Ext UDP ئېغىزى ياكى eMule نىڭ Server UDP ئېغىزى توقۇنۇشتى، ئېغىز  %u غا ئۆزگەرتىلدى.‬"
+    IDS_CONFIRM_FILEDELETE  "دىسكىدىن بارلىق تاللىغان ھۆججەتلەرنى راستىنلا ئۆچۈرەمسىز؟"
+    IDS_OPENFOLDER          "قىسقۇچ ئاچ"
+    IDS_RUNASUSER           "‫ھوقۇق بېرىلمىگەن ئىشلەتكۈچى سالاھىيىتىدە eMule ئىجرا قىل‬"
+    IDS_DELETE              "دىسكىدىن ئۆچۈر"
+    IDS_BOOTSTRAP           "يىتەكلەش پروگراممىسى"
+    IDS_VIAED2KSQ           "‫eD2K مۇلازىمېتىر ئۆچرەت ئارقىلىق‬"
+    IDS_EM_KADEMLIA         "&Kad" //!
+    IDS_VIAKAD              "‫Kad ئارقىلىق‬"
+    IDS_VIASE               "مەنبە ئالماشتۇرۇش ئارقىلىق"
+    IDS_SELECTTOOLBARBITMAP "قورال بالداققا بىتلىق تەسۋىر تاللا…‏"
+    IDS_SELECTTOOLBARBITMAPDIR "بىتلىق تەسۋىر مۇندەرىجىسى تاللا…‏"
+    IDS_TOOLBARSKINS        "قورال بالداق ئۇسلۇبى"
+    IDS_NOTEXTLABELS        "خەتكۈچ يوق"
+    IDS_TEXTLABELSONRIGHT   "گىرافىكنىڭ ئوڭ تەرىپىىدە كۆرسەت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STARTTEST           "ئېغىز سىنا"
+    IDS_TESTINFO            "‫سىز بۇ يەردە TCP ۋە UDP ئېغىزىغا يىراقتىن ئۇلىنالايدىغان ياكى ئۇلىنالمايدىغانلىقىنى سىنىيالايسىز. مۇلازىمېتىر ۋە خېرىدارنىڭ ھەممىسى سىزگە ئۇلىنالىسا سىناش مۇۋەپپەقىيەتلىك بولىدۇ. TCP چوقۇم مۇۋەپپەقىيەتلىك بولۇشى لازىم!‬"
+    IDS_CONNECTIONTEST      "ئۇلىنىش سىنا"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "‫سىز باشقا خېرىدار ياكى مۇلازىمېتىر/Kad گە ئۇلانغاندا ئېغىز نومۇرىنى ئۆزگەرتەلمەيسىز!‬\n\nسىز‫ eMule قايتا قوزغاتقاندىلا ئېغىز تەڭشىكىنى ئۆزگەرتەلەيسىز.‬"
+    IDS_NETWORK_INFO        "تور ئۇچۇرى"
+    IDS_SP_TOTALUL          "ئومۇمى يوللانغىنى"
+    IDS_SP_ULFRIENDS        "دوستلار قانىلىدا يوللا"
+    IDS_SP_ULSLOTSNOOVERHEAD "نۆۋەتتىكى يوللاش، نورمىدىن ئارتۇق سەرپىياتنى چىقىرىۋېتىش (يوللاش قانىلىدىلا)‏"
+    IDS_ST_ACTIVEU_ZZ       "يوللاۋاتقىنى"
+    IDS_ST_ULCURRENT        "نۆۋەتتە"
+    IDS_ST_ULSLOTSNOOVERHEAD "نۆۋەتتىكى، نورمىدىن ئارتۇق سەرپىياتنى چىقىرىۋەت"
+    IDS_ST_ULFRIEND         "دوستقا يوللا"
+    IDS_STATS_ACTUL_ZZ      "بەلباغ كەڭلىكى ئېھتىياجلىق ھەرىكەتتىكى يوللاش سانى: %u"
+    IDS_STATS_TOTALUL       "ئومۇمىي يوللىغىنى: %u"
+    IDS_CHAT_DOWNLOADED     "چۈشۈرۈلدى:"
+    IDS_CHAT_UPLOADED       "يوللىغىنى:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CHAT_IDENT          "دەلىللەش:"
+    IDS_MAXHALFOPENCONS     "ئەڭ كۆپ ئۇلىنىش سانى"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "‫بۇ تاللانما تاللانسا Windows قوزغالغاندا eMule ئۆزلۈكىدىن قوزغىلىدۇ. [ئەسلىدىكى چەكلەنگەن]‬"
+    IDS_KAD_WAITCBK         "‫Kad قايتۇرۇش ئۇچۇرى كۈتۈۋاتىدۇ‬"
+    IDS_KAD_TOOMANDYKADLKPS "‫Kad ئىزدەش بەك كۆپ‬"
+    IDS_PCDS_CLIENTWAIT     "خېرىدار كۈتۈۋاتىدۇ"
+    IDS_PCDS_CACHEWAIT      "غەملەك كۈتۈۋاتىدۇ"
+    IDS_CACHE               "غەملەك"
+    IDS_INDEXED             "ئىندېكس"
+    IDS_KADINFO_SRC         "\tمەنبە: %u\r\n"
+    IDS_KADINFO_KEYW        "\tھالقىلىق سۆز: %u\r\n"
+    IDS_STARTWITHWINDOWS    "‫Windows قوزغالغاندا ئىجرا قىل‬"
+    IDS_ADDSRCMANUALLY      "مەنبە قوش…‏"
+    IDS_BUDDY               "Buddy" //!
+    IDS_BUDDYNONE           "ھېچكىم"
+    IDS_INFO                "ئۇچۇر"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HALF                "يېرىم"
+    IDS_CONCOMPL            "تامامەن"
+    IDS_KADSTATUS_STOPPING  "توختا"
+    IDS_KADSTATUS_ACTIVE    "ھەرىكەتتە"
+    IDS_FORMAT              "فورمات"
+    IDS_META_COLLECTION     "يىغقۇچ"
+    IDS_META_PARTPATH       "‫Part ھۆججەت يولى‬"
+    IDS_META_PARTHASH       "Part hash" //!
+    IDS_META_GAPSTART       "‫Gap باشلا‬"
+    IDS_META_GAPEND         "‫Gap  ئاخىرلاشتۇر‬"
+    IDS_FAIL                "مەغلۇب بولدى"
+    IDS_META_PREFERENCES    "تاللانما"
+    IDS_META_VERSION        "نەشرى"
+    IDS_META_TEMPFILE       "ۋاقىتلىق ھۆججەت"
+    IDS_META_SERVERPORT     "مۇلازىمېتىر ئېغىزى"
+    IDS_META_SERVERIP       "‫مۇلازىمېتىر IP‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_META_SRCUDPPORT     "‫مەنبە UDP ئېغىز‬"
+    IDS_META_SRCTCPPORT     "‫مەنبە TCP ئېغىز‬"
+    IDS_META_SRCIP          "‫مەنبە IP‬"
+    IDS_META_SRCTYPE        "مەنبە تۈرى"
+    IDS_SEARCH_UNICODE      "يۇنىكود ئىشلىتىپ ئىزدە"
+    IDS_PF_ADVANCEDCALC     "قالغان ۋاقىتنى ھېسابلاشتا ئالىي ھېسابلاش ئۇسۇلى ئىشلەت"
+    IDS_LD_ED2KLINK         "‫ED2K ئۇلانمىسى‬"
+    IDS_LD_COPYCLIPBOARD    "كۆچۈر"
+    IDS_LD_HOSTNAME         "‫ئەسلى مەنبەنى ئۆز ئىچىگە ئالغان ئۇلىنىش شەكىللەندۈرۈشتە ئاساسىي ئاپپارات نامى(تاللانمىدا تەڭشىلىدۇ) ئىشلىتىپIP نىڭ ئادرېس ئورنىغا ئالماشتۇر‬"
+    IDS_SAVEACFAILED        "‫AICH Hashset ساقلاش مەغلۇپ بولدى!‬"
+    IDS_AICHHASH            "AICH Hash" //!
+    IDS_BYTESPERSEC         "B/s" //!
+    IDS_KBYTESPERSEC        "KB/s" //!
+    IDS_MBYTESPERSEC        "MB/s" //!
+    IDS_GBYTESPERSEC        "GB/s" //!
+    IDS_TBYTESPERSEC        "TB/s" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MINORCLIENTS  "ئاز ئىشلىتىدىغان"
+    IDS_AICH_SYNCTOTAL      "‫%u ھۆججەتنىڭ ئىناۋەتلىك AICH Hashset يوقلىقى بايقالدى، بۇ ھۆججەتلەر قايتىدىن Hash قىلىنىۋاتىدۇ‬"
+    IDS_AICH_CALCFILE       "‫%s ھۆججەتنىڭ AICH Hash نى ھېسابلاۋاتىدۇ‬"
+    IDS_AICH_WARNUSER       "‫0.44a نەشرىدىن باشلاپ eMule قوشۇمچە ھۆججەت Hash ئىشلەتتى. ئۇ ھۆججەت بۇزۇلغاندا سانلىق مەلۇماتنىڭ يوقۇلۇپ كېتىشىنى زور دەرىجىدە ئازايتىدۇ چۈنكى سىز بۇرۇنقى نەشرىدىن دەرىجىسىنى ئۆستۈرگەن، بارلىق ھەمبەھىر ھۆججىتىڭىز چوقۇم قايتىدىن Hash قىلىنىپ يېڭى AICH Hash ھېسابلاشقا ئىشلىتىلىدۇ. بۇ جەريانغا خېلى كۆپ ۋاقىت كېتىشى مۇمكىن ئەمما ئۇ بىر قېتىملا ئىجرا بولىدۇ.‬"
+    IDS_AICH_WORKED         "‫AICH مۇۋەپپەقىيەتلىك ھالدا %s دىن %s غىچە ھۆججەت بۆلىكى%u نى ھۆججەت  %s نى ئەسلىگە كەلتۈردى‬"
+    IDS_SOURCECLIENT        "خېرىدار مەنبەسى"
+    IDS_USERSIP             "‫ئىشلەتكۈچى IP‬"
+    IDS_FEATURES            "ئالاھىدىلىك"
+    IDS_IRC_NEWNICK         "‫IRC تەخەللۇسىدىن بىرنى تاللاڭ‬"
+    IDS_IRC_NEWNICKDESC     "‫ئات ئاز دېگەندە 20 ھەرپ بولۇشى، (A-Z, 0-9) ئىشلىتىشكە بولىدۇ. سىز تەڭشەش->Ircدىن ئۇنى ئۆزگەرتەلەيسىز‬"
+    IDS_SPARSEPARTFILES     "‫يېڭىدىن قۇرۇلغان Part ھۆججىتى «ئاز ئۇچرايدىغان ھۆججەت» (NTFS تىلا ئىشلەيدۇ)‬"
+    IDS_ASPECTRATIO         "چەكلەش نىسبىتى"
+    IDS_NEGATEFILTER        "سۈزۈشنى بىكار قىل"
+    IDS_SEENCOMPL           "بۇرۇن مۇكەممەلنى كۆرگەن"
+    IDS_SELSKINPROFILEDIR   "ئۇسلۇب سەپلىمە ھۆججىتى ساقلانغان قىسقۇچنى تاللاڭ"
+    IDS_ASKDLINCOMPLETE     "تولۇق بولمىغان ھۆججەت بۇلۇشى مۇمكىن:\r\n\r\n%s\r\n\r\nبۇ ھۆججەت توردا تولۇق بولمىغان ھۆججەت دەپ قارىلىدۇ شۇڭا مۇۋەپپەقىيەتلىك چۈشۈرگىلى بولماسلىقى مۇمكىن! بۇ ھۆججەتنى راستىنلا چۈشۈرەمسىز؟"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DEADSOURCES         "ئىناۋەتسىز مەنبە"
+    IDS_LARGEICONS          "چوڭ سىنبەلگە"
+    IDS_SMALLICONS          "كىچىك سىنبەلگە"
+    IDS_SHORTTAGS           "قىسقا خەتكۈچ"
+    IDS_THELOAD             "يۈكلە"
+    IDS_PACKSENT            "يوللىغان بوغچا"
+    IDS_RESPONSES           "جاۋاب ئومۇمىي سانى"
+    IDS_EXTRACT_META_DATA   "مېتا سانلىق مەلۇماتنى ياي"
+    IDS_META_DATA_MEDIADET  "‫DirectShow (بارلىق باشقا ئاۋاز/سىن ھۆججىتى)‬"
+    IDS_META_DATA_ID3LIB    "‫ھەرىكەتلىك ئۇلىنىش ئامبىرى ID3 (پەقەت MPEG ئۈن ھۆججىتى ئۈچۈنلا)‬"
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "‫Windows نىڭ (COMCTL32.DLL)نەشرى بەك كونا!\r\n\r\nWindows نىڭ (COMCTL32.DLL)نەشرى بەك كونا بولسا eMule نورمال خىزمەت قىلماسلىقى مۇمكىن. eMule نىڭ تولۇق مۇكەممەل ئىجرا بولۇشىغا كاپالەتلىك قىلىش ئۈچۈن  ""Windows Common Controls library (COMCTL32.DLL)‎"" نىڭ ئاز دېگەندە 5.8 نەشرىنى ئىشلىتىشىڭىزنى تەۋسىيە قىلىمىز.\r\n\r\nمىكروسوفت چۈشۈرۈش مەركىزىدىن يېڭىلانغان ""Windows Common Controls library (COMCTL32.DLL)‎"" نەشرىنى چۈشۈرۈشكە بولىدۇ، مۇناسىپ ئۇلانمىنى زىيارەت قىلامسىز؟"
+    IDS_ASREGEXPR           "مۇنتىزىم ئىپادە ئىشلىتىپ تۈرنى بەلگىلەش"
+    IDS_STATIC_REGEXP       "كۆزىتىش سۈزگۈچىدە ئىشلىتىدىغان مۇنتىزىم ئىپادە:"
+    IDS_CARE4ALL            "بارلىق مۆلچەر ھۆججەت"
+    IDS_REGEXPRESSION       "مۇنتىزىم ئىپادە"
+    IDS_SEARCHKAD           "‫Kad ئىزدە‬"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_EMAILNOTIFICATIONS "ئېلخەت ئۇقتۇرۇشى"
+    IDS_SMTPSERVER          "‫SMTPمۇلازىمېتىر‬"
+    IDS_PW_SENDERADDRESS    "يوللاش ئادرېسى:"
+    IDS_AVAILABLEPARTS      "ئىناۋەتلىك ھۆججەت بۆلىكى"
+    IDS_NOSOUND             "ئاۋازسىز"
+    IDS_PW_RECEIVERADDRESS  "قوبۇللاش ئادرېسى:"
+    IDS_PW_ENABLEEMAIL      "ئېلخەت ئۇقتۇرۇشىنى قوزغات"
+    IDS_EMULENOTIFICATION   "‫eMule ئۇقتۇرۇشى‬"
+    IDS_PW_SHOWTRANSTOOLBAR "يوللاش كۆزنىكىدە نورمىدىن ئارتۇق قورال بالداقنى كۆرسەت"
+    IDS_SHARED_STATUS       "ھەمبەھىر ھۆججەت بۆلىكى"
+    IDS_SEARCH_EMULECOLLECTION "يىغقۇچ"
+    IDS_INCOMING_FILES      "چۈشۈرگەن ھۆججەت"
+    IDS_INCOMPLETE_FILES    "تاماملانمىغان ھۆججەت"
+    IDS_SHARED_DIRECTORIES  "ھەمبەھىر مۇندەرىجە"
+    IDS_COLLECTIONLIST      "يىغقۇچ توپلىمى تىزىملىكى"
+    IDS_SHAREDIR            "قىسقۇچنى ھەمبەھىرلە"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDIRSUB         "تارماق قىسقۇچنىمۇ قوشۇپ ھەمبەھىرلە"
+    IDS_UNSHAREDIR          "بۇ قىسقۇچ ھەمبەھىرنى بىكار قىل"
+    IDS_UNSHAREDIRSUB       "تارماق قىسقۇچنىمۇ قوشۇپ ھەمبەھىرنى بىكار قىل"
+    IDS_ALLSHAREDFILES      "بارلىق ھەمبەھىر ھۆججەت"
+    IDS_ALLDIRECTORIES      "بارلىق مۇندەرىجە"
+    IDS_SEARCHRELATED       "مۇناسىۋەتلىك ھۆججەت ئىزدە"
+    IDS_RELATED             "مۇناسىۋەتلىك"
+    IDS_COLL_REPLACEEXISTING "نۆۋەتتىكى ھۆججەتنى ئالماشتۇرامسىز؟"
+    IDS_COLL_ERR_DELETING   "كونا ھۆججەتنى ئۆچۈرگەندە نامەلۇم خاتالىق يۈز بەردى. ساقلاش ۋە چېكىنىشتىن ۋاز كېچەمسىز؟"
+    IDS_CREATECOLLECTION    "يىغقۇچ توپلىمى قۇر"
+    IDS_MODIFYCOLLECTION    "يىغقۇچ توپلىمى ئۆزگەرت"
+    IDS_COLL_SIGN           "ئىشلەتكۈچى ئاتى ۋە دەلىللەش بەلگىسى بىلەن بۇ يىغقۇچ توپلىمىغا بەلگە قوي"
+    IDS_AUTHOR              "ئاپتور"
+    IDS_AUTHORKEY           "ئاپتور دەلىللەش كودى"
+    IDS_COLL_ADDINCAT       "بۇ يىغقۇچ توپلىمىدىكى تۈردىن يېڭى چۈشۈرۈش قوش"
+    IDS_VIEWCOLLECTION      "يىغقۇچ توپلىمى كۆرسەت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLL_TEXTFORMAT     "ئاددى تېكست شەكلىدە يىغقۇچ توپلىمىنى ساقلا"
+    IDS_RUNNINGRESTRICTED   "‫eMule چەكلەش ھالىتىدە ئىجرا بولۇۋاتىدۇ‬"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "يوللاش سۈرئىتى سەزگۈسى: تاللىغان يوللاش سۈرئەت چەكلىمىسى ئۆستۈرۈلگەنلىكى بايقالدى. تېز ئىنكاس شەكلىگە كىرىش 60 سېكۇنت"
+    IDS_USS_STATE_PREPARING "تەييارلىنىۋاتىدۇ…‏"
+    IDS_USS_STATE_WAITING   "سەل ساقلاڭ…‏"
+    IDS_USS_STATE_ERROR     "خاتا!‏"
+    IDS_SHAREWARNING        "(قىسقۇچ ھەمبەھىرلەنمەكچى)"
+    IDS_REMOVEALLSERVERS    "بارلىق مۇلازىمېتىرنى ئۆچۈرەمسىز؟"
+    IDS_SEARCH_UNKATTR      "نامەلۇم ئىزدەش خاسلىقى «%s»"
+    IDS_SEARCH_ATTRERR      "‫ئىزدەش خاسلىقى «%s» دا گرامماتىكىلىق خاتالىق بار‬"
+    IDS_SEARCH_MISSINGANDRIGHT "‫AND  مەشغۇلات بەلگىسىنىڭ ئوڭ تەرىپىدىكى مەشغۇلات سانى بەلگىلەنمىگەن‬"
+    IDS_SEARCH_OPRERR       "‫سېلىشتۇرۇش مەشغۇلات بەلگىسى «%s» دا گرامماتىكىلىق خاتالىق بار‬"
+    IDS_DOWNLOAD_LANGFILE   "تىل ھۆججىتى چۈشۈرۈۋاتىدۇ"
+    IDS_DOWNLOADING_SERVERMET_FROM "‫%s دىن server.met ھۆججىتى چۈشۈرۈۋاتىدۇ‬"
+    IDS_DOWNLOADING_SERVERMET "‫server.met ھۆججىتى چۈشۈرۈۋاتىدۇ…‬"
+    IDS_FULLALLOC           "ئاز ئۇچرىمايدىغان ھۆججەتكە دىسكا بوشلۇقى تەقسىملەش"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "‫Hash تېپىلمىدى.‬"
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "ئايرىش تىزىملىكى بۇزۇلغان.‏"
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "ئايرىش تىزىملىكى تېپىلمىدى.‏"
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "‫Hash تەڭشىكى بۇزۇلغان‬"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "Hash تەڭشىكى تاپالمىدى.‏"
+    IDS_CONVERTINGKNOWN2MET "‫چوڭ ھۆججەت قوللاش ئۈچۈن %s دىن %s غا ئالماشتۇرۇۋاتىدۇ…‬"
+    IDS_CONVERTINGKNOWN2FAILED
+                            "‫… known2.met ئالماشتۇرۇش مەغلۇپ بولدى، كونا كۈندىلىك خاتىرىنى ئىتىبارغا ئالماسلىق"
+    IDS_CONVERTINGKNOWN2DONE "‫…تامام، مۇۋەپپەقىيەتلىك ئايلاندۇرۇلدى!‬\n"
+    IDS_ERR_MET_BAD         "‫خاتالىق: %s ھۆججەت بۇزۇلغان، مەلۇملۇق ھۆججەتنى ئۇقۇيالمايدۇ‬"
+    IDS_SRV_LARGEFILES      "چوڭ ھۆججەت قوللايدۇ"
+    IDS_ERR_FSCANTHANDLEFILE
+                            "‫بۇ ھۆججەتنى چۈشۈرەلمەيسىز چۈنكى ھۆججەت سىستېمىڭىز 4 گىگا بايتتىن چوڭ ھۆججەتنى قوللىمايدۇ. ئۇنى NTFS كە ئايلاندۇرۇشنى ئويلىشىڭ.‬"
+    IDS_NEWVERSIONAVLBETA   "بۇ سىناق نەشرىنىڭ ۋاقتى ئۆتتى سىناق نەشرى بولغاچقا نۇرغۇن خاتالىقنى ئۆز ئىچىگە ئالغان بولۇشى مۇمكىن، مۇمكىن بولسا يېڭىلانغان تارقىتىلغان مۇقىم نەشرىگە يېڭىلاش زۆرۈر!‏"
+    IDS_BOLD                "توم خەتكە ئالماشتۇر"
+    IDS_UNDERLINE           "ئاستى سىزىق خەتكە ئالماشتۇر"
+    IDS_COLOUR              "ئالدى مەنزىرە خەت رەڭگىنى تاللاش (ئارقا مەنزىرە نامى تاللانغان)‏"
+    IDS_RESETFORMAT         "ئەسلىگە قايتۇرۇشتىن بۇرۇنقى بارلىق شەكىل (مۇھىم بىر ئەسلىگە قايتۇرۇش ئۆلچىمى قىلىنىدۇ)‏"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RESTORESEARCHPARAMS "ئىزدەش پارامېتىرىنى ئەسلىگە كەلتۈر"
+    IDS_COMMAND             "بۇيرۇق"
+    IDS_ARGUMENTS           "پارامېتىر"
+    IDS_ARCPREV_PLEASEWAIT  "پرىس ھۆججىتى تەكشۈرۈلۈۋاتىدۇ…‏"
+    IDS_AP_CREATEPREVCOPY   "ئالدىن كۆزىتىش ھۆججىتى قۇر"
+    IDS_ARCHIVEDETAILS      "پرېس ھۆججىتى- تەپسىلىي ئۇچۇرى"
+    IDS_ARCHTYPE            "پرىس ھۆججىتى تىپى"
+    IDS_ATTRIBUTES          "خاسلىق"
+    IDS_LASTMODIFIED        "ئاخىرقى ئۆزگەرتكەن ۋاقىت"
+    IDS_RARFULLENCR         "تېما شىفىرلانغان - ئوقۇيالمايدۇ"
+    IDS_ARCPARSED           "پرېس ھۆججىتى تەكشۈرۈلدى.‏"
+    IDS_ARCPREV_LISTMAYBEINCOMPL "ھۆججەت تىزىملىكى تولۇق بولماسلىقى مۇمكىن.‏"
+    IDS_ARCPREV_DIRNOTFOUND "مۇندەرىجىنى تاپالمىدى.‏"
+    IDS_ARCPREV_INSUFFDATA  "يېتەرلىك ئىشلىتىلىشچان سانلىق مەلۇمات يوق.‏"
+    IDS_PASSWPROT           "پارول قوغدالغان"
+    IDS_ARCPREV_DIRSUCCREAD "مۇندەرىجە مۇۋەپپەقىيەتلىك ئوقۇلدى.‏"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ARCPREV_UNKNOWNFORMAT "(نامەلۇم/قوللىمايدىغان)"
+    IDS_KADSEARCHACTIVE     "‏‫(Kad ئىزدەش بىر تەرەپ قىلىنىۋاتىدۇ…)‬"
+    IDS_OBFUSCATION         "مۈجىمەل"
+    IDS_SUPPORTED           "قوللايدۇ"
+    IDS_ESTIMATED           "مۆلچەر"
+    IDS_MEDIAINFO_DLLMISSING
+                            "‫MediaInfo.dll قاچىلانمىغان. ئەگەر ئاۋاز/سىن ھۆججىتىنىڭ مۇناسىۋەتلىك ئۇچۇرىنى بۇ كۆزنەكتە ئېرىشمەكچى بولسىڭىز\r\nhttps://mediaarea.net/en/MediaInfo دىن MediaInfo.dll چۈشۈرۈپ\r\neMule قاچىلاش مۇندەرىجىسى «%s» غا كۆچۈرۈڭ.‬"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "‫ئاگاھلاندۇرۇش: «%s»ھۆججەت كېڭەيتىلگەن نامىنىڭ مۇناسىپ كېڭەيتىلگەن نامى\r\nبىلەن ئىشلىتىدىغان ھۆججەت شەكلى يوق\r\nسىز ھۆججەتنى كېڭەيتىلگەن نامى «%s» بولغان ھۆججەتكە ئۆزگەرتىپ\n\nبۇ خىل شەكىلدىكى ھۆججەتنى ئىشلىتىڭ ياكى ئالدىن كۆزىتىڭ.‬\r"
+    IDS_MEDIAINFO_DRMWARNING
+                            "‫ئاگاھلاندۇرۇش: «%s»بۇ ھۆججەت رەقەملىك نەشر باشقۇرۇش بىلەن قوغدالغان .\r\nكۆپىنچە ئەھۋالدا ئەسلى ھۆججەتنىڭ ئىجازىتى يوق ئەھۋالدا  بۇ خىل ھۆججەتنى ئىشلىتەلمەيسىز.‬\r"
+    IDS_ARCHPREV_ATTRIBINFO "ھۆججەت ئۇچۇرى تۆۋەندىكىلەرنى ئۆز ئىچىگە ئالىدۇ:\r\n\r\nP\t ھۆججەت پارول بىلەن قوغدالغان\r\nD\t قىسقۇچ\r\nC\t ئىزاھ\r\nLx\t پرىسلاش دەرىجىسىl x\r\nM\t پرىسلانغان سانلىق مەلۇماتنى تولۇق چۈشۈرۈپ بولمىدى \r\n<\t ھۆججەتنى ئالدىنقى ئارخىپقا كېڭەيت\r\n>\t ھۆججەتنى كېيىنكى ئارخىپقا داۋاملاشتۇر\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "‫eMule قورال بالداقتا سىنبەلگە كۆرسەت‬"
+    IDS_LOADFILTER_EMSKINFILES "‫eMule ئۇسلۇب ھۆججىتى‬"
+    IDS_CONTENT_INFO        "مەزمۇن"
+    IDS_MESSAGESCOMMENTS    "ئۇچۇر ۋە ئىزاھ"
+    IDS_PROTOCOLOBFUSCATION "مۇجىمەل كېلىشىم"
+    IDS_ONLYOBFUSCATED      "مۇجىمەل ئۇلىنىشقا يول قويۇش (ئىشلىتىش تەۋسىيە قىلىنمايدۇ)‏"
+    IDS_DISABLEOBFUSCATION  "مۇجىمەل ئۇلىنىش قوللاشنى توختات"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENABLEOBFUSCATION   "مۇجىمەل كېلىشىمنى قوزغات"
+    IDS_CONNECTINGTOOBFUSCATED
+                            " %s (%s:%u غا ئۇلىنىش- مۇجىمەل كېلىشىم ئىشلەت) …"
+    IDS_CONNECTEDTOOBFUSCATED "مۇجىمەل ئۇلىنىش قۇرۇلدى: %s"
+    IDS_VERIFIED            "دەلىللەنگەن"
+    IDS_OBFUSCATED          "مۇجىمەل"
+    IDS_UNVERIFIED          "دەلىللەنمىگەن"
+    IDS_INVALIDFILEEXT      "ئىناۋەتسىز كېڭەيتىلگەن نام"
+    IDS_UNKNOWNFILEEXT      "نامەلۇم كېڭەيتىلگەن نام"
+    IDS_ENABLEMINIMULE      "‫MiniMule قوزغات‬"
+    IDS_DISABLE_AUTOARCHPREV
+                            "ھۆججەت تەپسىلىي ئۇچۇرىدا پرىس ھۆججىتىنى ئۆزلۈكىدىن ئالدىن كۆزىتىشنى چەكلە"
+    IDS_US_STALLEDW4BR      "توختاڭ! بۆلەك ئىلتىماسىنى كۈتۈۋاتىدۇ"
+    IDS_US_STALLEDREADINGFDISK "توختاڭ! دىسكىدىن ئوقۇۋاتىدۇ"
+    IDS_SERVERFEATURE_INTTYPETAGS "پۈتۈن تىپلىق ئەن"
+    IDS_FILLGRAPHS          "گرافىك سىز"
+    IDS_PARAMETER           "پارامېتىر"
+    IDS_TEST                "سىنا"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "قاچىلاش ئېغىزىغا‫ UPnP ئىشلەت‬"
+    IDS_UPNPSETUP           "‫…UPnP ئارقىلىق ئېغىزنى ئەۋەتىپ قاچىلاشنى سىناۋاتىدۇ…‬"
+    IDS_UPNPFAILED          "‫UPnP ئېغىزنى ئەۋەتىپ قاچىلاش مەغلۇپ بولدى، ئەگەر زۆرۈر بولسا ئۇ ئېغىزلارنى ئۆزىڭىز ئەۋەتىڭ!‬"
+    IDS_UPNPSUCCESS         "‫UPnP مۇۋەپپەقىيەتلىك ھالدا  %u (TCP)‎ ۋە %u (UDP)‎ ئېغىزنى تەڭشىدى.‬"
+    IDS_FO_PREFBUTTON_NEW   "‫WinXP SP1 مۇداپىئە تېمىدىن ئېغىزنى مۇۋەپپەقىيەتلىك ئاچتى‬"
+    IDS_UPNP_NOSERVICE      "‫UPnP ئۈسكۈنە مۇلازىمېتىر مۇلازىمىتى قوزغىتىلمىغان، UPnP تەڭشەشتىن ئاتلا‬"
+    IDS_DELAYEDBYUPNP       "‫تورغا ئۇلىنىش كېچىكتۈرۈلدى چۈنكى UPnP ئېغىز تەڭشەش بىلەن ئالدىراش‬"
+    IDS_DELAYEDBYUPNP2      "سەل ساقلاڭ‫، UPnP نى تاماملاپ  eMule ناھايىتى تېزلا ئۇلىنىدۇ.‬"
+    IDS_UPNP                "UPnP"
+    IDS_UPNPCLOSEONEXIT     "‫چېكىنگەندە UPnP ئېغىزىنى ئۆچۈر‬"
+    IDS_UPNPSKIPWANIP       "‫ WAN IP تەڭشەشتىن ئاتلا‬"
+    IDS_UPNPSKIPWANPPP      "‫WAN PPP تەڭشەشتىن ئاتلا‬"
+    IDS_SHAREEMULELABEL     "‫باشقا كومپيۇتېر ئىشلەتكۈچىلەرگە eMule نى ھەمبەھىرلە‬"
+    IDS_SHAREEMULEMULTI     "ھەر بىر ئىشلەتكۈچى ئۆزىنىڭ تەڭشەك ۋە چۈشۈرۈشىگە ئىگە"
+    IDS_SHAREEMULEPUBLIC    "ھەممەيلەن ئوخشاش تەڭشەك ۋە چۈشۈرۈشكە ئىگە"
+    IDS_SHAREEMULEOLD       "پروگرامما مۇندەرىجىسىگە تەڭشەك ۋە چۈشۈرۈشنى ساقلا"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "بۇ تاللانما ئۆزگەرسە‫ eMule باشقا بىر سەپلىمىنى ئىشلىتىدۇ. سىزنىڭ نۆۋەتتىكى تەڭشىكىڭىز ئىتىبارغا ئېلىنمايدۇ ھەمدە باشلانغان چۈشۈرۈشنى كۆرگىلى بولماسلىقى مۇمكىن. نۆۋەتتىكى تاللانمىڭىزنى ھەر قانداق ۋاقىتتا قايتىدىن ئۆزگەرتەلەيسىز ۋە ئەسلىگە كەلتۈرەلەيسىز.\nئۆزگەرتىشىڭىزنىڭ كۈچكە ئىگە بولۇشى ئۈچۈن eMule نى قايتا قوزغىتىشىڭىز لازىم.‬"
+    IDS_SPAM                "ئەخلەت"
+    IDS_MARKSPAM            "ئەخلەت بەلگىسى قوي"
+    IDS_MARKNOTSPAM         "ئەخلەت ئەمەس بەلگىسى قوي"
+    IDS_SEARCHSPAMFILTER    "ئىزدەش نەتىجىسىگە ئەخلەت سۈزگۈچنى قوزغات"
+    IDS_SHOWSMILEYS         "كۈلۈمسىرەشنى كۆرسەت"
+    IDS_CAPTCHAREQUEST      "ئېلان ئۇچۇرلىرىدىن ساقلىنىش ئۈچۈن قارشى تەرەپ ئۇچۇر يوللاشتىن ئىلگىرى دەلىللەشنى تەلەپ قىلىدۇ. بۇ رەسىمدىكى ھەرپنى كىرگۈزۈپ دەلىللەڭ.‏"
+    IDS_CAPTCHAFAILED       "سىز كىرگۈزگەن دەلىللەش كودى خاتا، ئۇچۇرغا قارشى تەرەپ پەرۋا قىلمىدى. سىز قايتا ئۇچۇر يوللاش ئارقىلىق دەلىللىيەلەيسىز.‏ "
+    IDS_CAPTCHASOLVED       "سىز كىرگۈزگەن دەلىللەش كودى توغرا. قارشى تەرەپ ئۇچۇرىڭىزنى تاپشۇرۇۋالدى.‏"
+    IDS_USECAPTCHAS         "دەلىللەش كودىدا دەلىللەش زۆرۈر"
+    IDS_BOOTSRAPNODESDAT    "‫تۆۋەندىكى URL دىن نۇقتا ئۇچۇرىغا ئېرىشتى(Nodes.dat):‬"
+    IDS_DOWNLOADING_NODESDAT_FROM "‫%s دىن نۇقتا ئۇچۇرى (Nodes.dat)نى چۈشۈردى‬"
+    IDS_DOWNLOADING_NODESDAT "‫nodes.dat نى چۈشۈرۈۋاتىدۇ…‬"
+    IDS_ERR_FAILEDDOWNLOADNODES "‫%s دىن نۇقتا ئۇچۇرى (Nodes.dat)نى چۈشۈرەلمىدى‬"
+    IDS_PREVENTSTANDBY      "‫eMule ئىجرا قىلىنىۋاتقاندا كومپيۇتېرنىڭ كۈتۈش ھالىتىگە كىرىشنىڭ ئالدىنى ئالىدۇ‬"
+    IDS_KADID               "KadID" //!
+    IDS_SEARCHINGFRIENDKAD  "‫Kad تورىدىن دوست ئىزدەۋاتىدۇ‬"
+    IDS_FOUND               "تاپتى"
+    IDS_EXTERNUDPPORT       "‫سىرتقى UDP ئېغىز‬"
+    IDS_STORESEARCHES       "‫eMule نى قايتا قوزغىتىشتىن ئىلگىرى تېخى ياپمىغان ئىزدەش نەتىجىلىرىنىڭ ھەممىسىنى خاتىرىلە‬"
+    IDS_WRN_INCFILE_EXISTS  "‫سىز يېڭىدىن بوش بولمىغان قىسقۇچتىن بىرنى تاللىدىڭىز، بۇ قىسقۇچتىكى ھەممە ھۆججەتلەرنى eMule ئۆزلۈكىدىن ھەمبەھىرلەيدۇ.‬"
+    IDS_EDITSPAMFILTER      "ئەخلەت ئۇچۇر سۈزگۈچ تەھرىر…‏"
+    IDS_EDITSPAMFILTERCOMMENTS "ئىزاھاتقا ئىشلىتىدىغان ئەخلەت ئۇچۇر سۈزگۈچ تەھرىر"
+    IDS_WIZZARDOBFUSCATION  "بۇ تاللانما قوزغىتىلسا  مۈجىمەك كېلىشىمدە شىفىرلاش قوزغىتىلىدۇ\n\nئەگەر ISP سىزنىڭ eMule ئىشلىتىشىڭىزنى چەكلىمەكچى ياكى چەكلىسە، مۈجىمەل كېلىشىمدا شىفىرلاش بۇ خىل چەكلىمىدىن بۆسۈپ ئۆتۈشىڭىزگە ياردەم بېرىدۇ."
+    IDS_BETANAG             "‫بۇ سىناق نەشرىدىكى eMule.ئەسلى تور بېكەت مۇنبىرى (https://forum.emule-project.net)گە بېرىپ يېڭىلاشنى تەكشۈرۈڭ ھەمدە ئىشلىتىش جەريانىدا كۆرۈلگەن مەسىلىلەرنى مەلۇم قىلىڭ.‬"
+    IDS_CONFIRMNODESDOWNLOAD
+                            "‫سىز تۆۋەندىكى ئادرېستىن Kad ئالاقەداشلار تىزىملىكى (nodes.dat) نى چۈشۈرەمسىز:\n%s ؟‬"
+    IDS_AUTOMATIC           "ئۆزلۈكىدىن"
+    IDS_NOTCONNECTEDANY     "‫سىز مۇلازىمېتىر ياكى Kad تورىغا ئۇلانمىدىڭىز!‬"
+    IDS_ERR_SHARED_DIR      "ھەمبەھىر قىسقۇچنى ئوقۇغاندا خاتالىق كۆرۈلدى ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "‫ھۆججەت ""%s"" رەقەملىك نەشر ھوقۇقى باشقۇرۇش تەرىپىدىن قوغدالغاندەك تۇرىدۇ.‬\r\n\r\nنەشر ھوقۇقى ئىگىدارى ئىجازەت بەرمىگەن ئەھۋالدا بۇ ھۆججەتنى ئىشلىتەلمەسلىكىڭىز مۇمكىن. سىز بۇ ھۆججەتنى ئاچقان ۋاقتىڭىزدا ۋاسىتە قويغۇچىڭىز توركۆرگۈنى ئېچىپ نەشر ھوقۇقى ئىگىدارىنىڭ تور بېكىتىگە ئۇلىنىپ ھۆججەت ئىجازىتىگە  ئېرىشىشنى ئۆزلۈكىدىن سىنايدۇ.\r\n\r\nسىز راستىنلا بۇ ھۆججەتنى ئېچىشنى داۋاملاشتۇرامسىز؟"
+    IDS_CHECK_FILE_OPEN     "ئىشەنچسىز ھۆججەتنى ئاچقاندا ئاگاھلاندۇر"
+    IDS_BOOTABLE            "قوزغىلىشچان"
+    IDS_UNSUPPORTEDIMAGE    "قوللىمايدىغان سۈرەت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "ھەمبەھىرلىمە"
+    IDS_WEBUPNPINCLUDE      "‫بۇ ئېغىز UPnP بەلگىلەشنىڭ ئىچىدە‬"
+    IDS_ADDEDON             "قوشۇلغان ۋاقتى"
+    IDS_RESOLVELINKS        "ھەمبەھىر قىسقۇچتىكى قىسقا يولنى تەھلىل قىل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "چۈشۈرۈش بۇيرۇقى"
+    IDS_CLOSETOOLBAR        "قورال بالداقنى ياپ"
+    IDS_SHOWTOOLBAR         "قورال بالداقنى كۆرسەت"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "‫Kad دىن ئىزدىگەندە بىرىنچى ئاچقۇچلۇق سۆزنى باغلاش سۆزى OR بىلەن بىللە ئىشلىتىشكە بولمايدۇ!‬\n\n‫مەسىلەن ""ئاچقۇچلۇق سۆز1 OR ئاچقۇچلۇق سۆز2"" نى ئىجرا قىلالمايدۇ.  ""ئاچقۇچلۇق سۆز1 AND (ئاچقۇچلۇق سۆز2 OR ئاچقۇچلۇق سۆز3)"" ياكى كۆپ قېتىم ئىزدەشكە ئالماشتۇرۇپ سىناڭ.‬"
+    IDS_DISCOVEREDBY        "بايقىغۇچى"
+    IDS_NODES               "نۇقتا(لار)‏"
+    IDS_ROUTINGTABLE        "يېتەكلەش جەدۋىلى"
+    IDS_PROTOCOLVERSION     "كېلىشىم نەشرى"
+    IDS_FOUNDNODESUSEFUL    "نۇقتا تېپىلدى (ئىناۋەتلىك)‏"
+    IDS_NORESPONSE          "ئىنكاس يوق"
+    IDS_NOTASKED            "ئىلتىماس قىلىنمىغان"
+    IDS_LOOKUPGRAPH         "ئىزدەش تەپسىلاتى"
+    IDS_AUTOKADLOOKUPGRAPH  "ئاكتىپ ئىزدەشلەرنى ئۆزلۈكىدىن كۆرسەت"
+    IDS_PAUSEONPREVIEW      "ئالدىن كۆزەتكىلى بولغانداچۈشۈرۈشنى ۋاقىتلىق توختات"
+    IDS_PREVIEWWITH         "ئالدىن كۆزەتكۈز"
+    IDS_CLOSEEMULE          "‫eMule نى ياپ‬"
+    IDS_DONOTASKAGAIN       "قايتا سورىما"
+    IDS_POPULARITY          "ئومۇملىشىش نىسبىتى"
+    IDS_SHOWWIN7TASKBARGOODIES "‫Windows 7 ۋەزىپە بالداق ئۈنۈمىنى قوزغات‬"
+    IDS_LANMODE             "دائىرىلىك تور ھالىتى"
+    IDS_OPENPREFINI         "‫سەپلىمە ھۆججەت preferences.ini نى ئاچ‬"
+END
+
+#endif    // Uyghur (PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

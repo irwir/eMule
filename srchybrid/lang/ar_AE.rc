@@ -1,0 +1,1997 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "ar_AE.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Arabic (IQ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ARU)
+#ifdef _WIN32
+LANGUAGE LANG_ARABIC, SUBLANG_ARABIC_UAE
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "ar_AE.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "خطـأ عند بدأ وندوز سوكيت"
+    IDS_ABOUTBOX            "&عن امول"
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s من %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "متصل بــ %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "حجز إسم: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "الاسم حجز لــ %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "الاتصال بــ %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "تغيير الى %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "أخذ معلومات عن الملف"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR
+                            "خطأ عند محاولة تحميل الملف, Error: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "خطأ عند محاولة الاتصال بالسيرفر, Error: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE
+                            "لم يتم الحصول على معلومات من السرفر"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "فشل في تلقّي ردّ إتش تي تي بي صحيح من الخادم"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE
+                            "خطـأ اثناء تحميل الملف, Error: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "تحميل: %s%% من %s completed"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "استعادة الملف"
+    IDS_HTTPDOWNLOAD_OF     "%s من %s"
+    IDS_FILELINK            "وصلة ملف"
+    IDS_LD_BASICOPT         "اختيارات بدائية"
+    IDS_LD_ADDSOURCE        "اظف نفسك كمصدر"
+    IDS_LD_EMULEHASH        "اضف امول ا ي س ه هاش ل الوضع المتقدم"
+    IDS_LD_ADVANCEDOPT      "خيارات متقدمة"
+    IDS_CANCEL              "الغاء"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LD_ADDHTML          "اظف شريط  هتمل"
+    IDS_HTTP_CAPTION        "تحديث قائمة الخادم"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s نسخ)"
+    IDS_LD_ADDHASHSET       "اظف هاشسيت كامل"
+    IDS_HSAV                "هاشسيت متوفر"
+    IDS_DL_SHOWED2KLINK     "اظهر  وصلة  eD2K "
+    IDS_FD_CORR             "غير صالح"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "الملف موجود مسبقاً, هل تريد استبداله بالملف الحالي؟ (%s)"
+    IDS_FD_RECOV            "استرجع"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "خطأ أثناء فتح الملف للتحميل, Error: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "توقيف النقل"
+    IDS_FD_COMPR            "ضغط"
+    IDS_WIZARD_NETWORK      "اختر اي شبكة تريد الاستعمال"
+    IDS_MAIN_READY          "امول الاصدار  %s جاهز"
+    IDS_WIZARD_ED2K         "eD2K وضع"
+    IDS_SEL_SKIN            "اختر شكل..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_SOCKETERROR    "خطأ مميت: من غير الممكن عمل ستوك على البروت %u"
+    IDS_MAIN_BTN_DISCONNECT "قطع الاتصال"
+    IDS_ERR_WRONGFILEID     "هوية الملف ارسلت خطأ"
+    IDS_ERR_BADHASHSET      "استلام خطأ في الهاش سيت"
+    IDS_ERR_BADDATABLOCK    "استلام خطأ في الداتابلوك"
+    IDS_ERR_ILLFORMEDHASH   "هاش غير صالح"
+    IDS_ERR_BADED2KLINK     "وصلة غير صالحة"
+    IDS_ERR_NOSLLINK        "الخادم ليس صالح"
+    IDS_ERR_WRONGPACKETSIZE "غير صالح OP_REQUESTFILENAME حجم الباكيت"
+    IDS_ERR_WRONGHPACKETSIZE "غير صالح OP_HASHSETREQUEST حجم الباكيت"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "عميل غير معروف يرسل  برتوكوت باكيت طويلة "
+    IDS_ERR_OPENMET         "خطأ : غير قادر على فتح الملف (%s => %s)"
+    IDS_ERR_BADMETVERSION   "خطأ : اصدار الملف غير صالح (%s => %s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION "خادم غير صالح (0x%X)!"
+    IDS_SERVERSFOUND        "%u عدد الخدام حاليا"
+    IDS_SERVERSADDED        "%u اظيف الخادم, %u لم يظف ـ موجود مسبقا ـ"
+    IDS_ERR_BADSERVERLIST   "خطأ : خطأ في الخادم ـ غير قادر على تحميل قائمة الخادم"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "خطأ غير متوقع  خلال قرأءة ملف الخادم  %s, غير قادر على تحميل قائمة الخادم"
+    IDS_ERR_SAVESERVERMET   "فشل في حفظ السيرفر"
+    IDS_PASSIVE             "سلبي"
+    IDS_MAIN_BTN_CANCEL     "&الغاء"
+    IDS_AVAIL               "اجزاء %u, متوفرة %u (%.1f%%)\n\n"
+    IDS_TYPE                "نوع"
+    IDS_FILEID              "هوية الملف"
+    IDS_FILE                "ملف"
+    IDS_DOWNLOAD            "حمل"
+    IDS_SL_SERVERNAME       "اسم الخادم"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IP                  "اي بي"
+    IDS_DESCRIPTION         "نبذة "
+    IDS_PING                "رن"
+    IDS_FILES               "مبفات"
+    IDS_PREFERENCE          "اولوية "
+    IDS_PRIONOPREF          "لا بريف"
+    IDS_CONNECTTHIS         "اتصا بـ الخادم المختار"
+    IDS_MAIN_BTN_CONNECT    "&اتصل"
+    IDS_ERR_SAVESERVERMET2  "فشل في حفظ الخادم  server.met! يجب حذف server.met و سمي server.met.old الى server.met!"
+    IDS_NOTCONNECTED        "غير متصل"
+    IDS_DISCONNECTED        "قطع الاتصال"
+    IDS_USERS               "مستخدم: %u"
+    IDS_UPDOWN              "فوق: %.1f(%.1f) | تحت: %.1f(%.1f)"
+    IDS_CONNECTED           "متصل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_WRITEERROR      "خطأ غير متوقع اثناء  كتابة %s : %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "خطأ غير متوقع اثناء  تكملة %s. الملف اوقف, ابدأ امول مرة اخرى لبدأ محاولة جديدة"
+    IDS_ERR_DELETEFAILED    "فشل في حذف %s, يجب حذف الملف يدويا"
+    IDS_DOWNLOADDONE        "كمل التحميل %s :-)"
+    IDS_ERR_DELETE          "خطأ في الحذف %s"
+    IDS_ERR_HASHERRORWARNING
+                            "تحذير : غير الممكن  لعمل هاش للجزء المحمل   الهاش سيت غير كامل (%s)"
+    IDS_ERR_INCOMPLETEHASH  "تحذير : غير الممكن  لعمل هاش للجزء المحمل   الهاش سيت غير كامل (%s). المفروض عدم حدوث هذا الخطأ"
+    IDS_DOWNLOADING         "تحميل"
+    IDS_WAITING             "انتظار"
+    IDS_HASHING             "مزج"
+    IDS_COMPLETING          "تكميل"
+    IDS_COMPLETE            "كمل"
+    IDS_PAUSED              "وقف"
+    IDS_ERRORLIKE           "خاطئ"
+    IDS_ASSIGNED2K          "امول غير مخصص  ل الوصلات, هل تريد اضافة التخصيص؟ ـ يفضل اختياره ـ"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "لا قائمة  في  'addresses.dat' . رجائا الصق قائمة مقبولة حتى يتم تحديث القائمة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LINKNOTADDED        "لم يمكن اظافة الوصلة"
+    IDS_MAIN_EXIT           "هل انت متأكد بأنك تريد الخروج من البرنامج امول؟"
+    IDS_MAIN_POPUP_RESTORE  "استعادة"
+    IDS_CONNECTTOANYSERVER  "اتصل باي سيرفر"
+    IDS_EXIT                "خروج"
+    IDS_CONNECTING          "اتصـــال"
+    IDS_FAILED              "فشل"
+    IDS_ERR_BADSERVERREPLY  "دخول غير صالح  الى الحادم"
+    IDS_NEWCLIENTID         "عميل جديد is %u"
+    IDS_SHAREDFOLDERS       "مجلدات مشتركة"
+    IDS_VIEW1               "اظهر "
+    IDS_VIEW2               " (غير مشترك)"
+    IDS_PRIOLOW             "واطئ"
+    IDS_PRIONORMAL          "عادي"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOHIGH            "عالي"
+    IDS_DOWNLOADMENUTITLE   "تحميلات"
+    IDS_PRIORITY            "أسبقية"
+    IDS_NEWSERVERS          "استلم %u خدام جدد"
+    IDS_DL_STOP             "&قف"
+    IDS_DL_PAUSE            "&استراحة"
+    IDS_DL_RESUME           "&إستأنف"
+    IDS_DL_OPEN             "&افتح الملف"
+    IDS_DL_INFO             "اظهر خصائص الملف..."
+    IDS_DL_CLEAR            "المسح اكمل"
+    IDS_DL_LINK1            "نسخ eD2K &وصلات الى الكليببورد"
+    IDS_DL_LINK2            "نسخ eD2K &وصلات الى الكليببورد (&HTML)"
+    IDS_SHOWDETAILS         "اظهر التفاصيل..."
+    IDS_SEND_MSG            "ارسل رسالة"
+    IDS_ASKING              "اسأل"
+    IDS_CONNVIASERVER       "الاتضال عبر السيرفر"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ONQUEUE             "في الدور"
+    IDS_TRANSFERRING        "تحويل"
+    IDS_RECHASHSET          "استلام الهاش سيت"
+    IDS_NONEEDEDPARTS       "لا اجزاء مطلوبة"
+    IDS_NOCONNECTLOW2LOW    "لا يستطيع الاتصال بين هوبة واطئة مع هوية واطئة اخرى"
+    IDS_UNKNOWN             "غير معروف"
+    IDS_ASKED4ANOTHERFILE   "سأل على ملف اخر"
+    IDS_Q_CANCELDL          "هل انت متأكد بأنك تريد مسح هاذ الملف؟\n"
+    IDS_Q_CANCELDL2         "هل انت متأكد بأنك تريد وقف مسح هذا الملف؟\n"
+    IDS_DL_FILENAME         "اسم الملف"
+    IDS_DL_SIZE             "الحجم"
+    IDS_DL_TRANSF           "تم نقله"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_SPEED            "سرعة"
+    IDS_DL_PROGRESS         "جار"
+    IDS_DL_SOURCES          "مصادر"
+    IDS_ERR_BADSERVERLISTRECEIVED "Iباكيت قائمة الخوادم غير صالحة"
+    IDS_STATUS              "الحالة"
+    IDS_DL_REMAINS          "المتبقي"
+    IDS_UPDATEFROM          "حدث من الوصلة : (filter.dat- or PeerGuardian-format)"
+    IDS_QL_USERNAME         "اسم المستخدم"
+    IDS_LOADURL             "حمل"
+    IDS_DELETEAFTERALLOC    "ملف '%s' حاليا عين في مساحة الديسك و سوف يحذف لاحقا"
+    IDS_QL_RATING           "تقييم"
+    IDS_CONNECTINGTO        "يتصل بــ %s (%s:%u)..."
+    IDS_CLIENTS             "عملاء"
+    IDS_SEARCH_ANY          "اي"
+    IDS_SEARCH_AUDIO        "اوديو"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "صورة"
+    IDS_SEARCH_PRG          "برنامج"
+    IDS_SEARCH_VIDEO        "فيديو"
+    IDS_SEARCH_CDIMG        "صورة سي دي"
+    IDS_SEARCH_ARC          "ارشيف"
+    IDS_ERR_INVALIDLINK     "الوصلة غير صالحة (%s)"
+    IDS_ERR_LINKERROR       "وصلة غير صالحة %s"
+    IDS_ERR_NOTCONNECTED    "انت لست متصل بالخادم"
+    IDS_REMOVETHIS          "احذف الخدام المختارين"
+    IDS_REMOVEALL           "احذف كل الخدام"
+    IDS_SRV_ADDR            "رجاءا ادخل عنوا السيرفر"
+    IDS_SRV_PORT            "بورت الخادم غير كامل, رجاءا ادخل بورت كاملt"
+    IDS_SRV_NOTADDED        "الخادم لم يظف"
+    IDS_SRV_NOURLAV         "لا وصلة متوفرة"
+    IDS_INVALIDURL          "وصلة غير صالحة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET "فشل في محاول تحميل قائمة الخادم  من %s"
+    IDS_PERMISSION          "صلاحية"
+    IDS_SHAREDFILES         "ملفات مشتركة"
+    IDS_PRIOVERYLOW         "منخفظ جدا"
+    IDS_PRIORELEASE         "حرر"
+    IDS_TRAYDLG_SPEED       "سرعة امول"
+    IDS_FSTATUS_FRIENDSONLY "اصدقاء فقط"
+    IDS_VIAPASSIVE          "خلال السئ"
+    IDS_ERR_RENAMESF        "خطا في اعادة تسمية \r\n    ""%s""\r\nالى\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "متوفر"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FSTAT_TRANSFER      "تحويل"
+    IDS_CONNECTIONS         "اتصال"
+    IDS_FSTAT_SERVERS       "خدام"
+    IDS_FSTAT_WAITING       "انتظار..."
+    IDS_TIME                "وقت"
+    IDS_STATS_DDATA         "حملت الداتا: %s"
+    IDS_STATS_UDATA         "رفعت الداتا: %s"
+    IDS_STATS_AVGDL         "متوسط التحميل %s"
+    IDS_STATS_AVGUL         "متوسط الرفع %s"
+    IDS_STATS_FOUNDSRC      "مصادر متوفرة %u"
+    IDS_STATS_ACTDL         "تحميلات شغالة (chunks): %u"
+    IDS_STATS_ACTUL         "رفع شغال: %u"
+    IDS_STATS_WAITINGUSERS  "انتظار الرفع %u"
+    IDS_STATS_RECONNECTS    "اعادة اتصال: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "غير معروف: %u"
+    IDS_STATS_TOTAL         "كلي: %u"
+    IDS_DISABLED            "وقف"
+    IDS_STOPPED             "وقف"
+    IDS_STATS_UPDATELABEL   "حدث التأخير: %u ثواني"
+    IDS_ASKEDFAF            "\nسال عن ملف اخر"
+    IDS_WAITED              "انتظ"
+    IDS_ERR_LOADCREDITFILE  "فشل في تحميل هوية الملف, ملف جديد سوف ينشأ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "صلاحية الملف انتهت و سوف تجدد"
+    IDS_CREDITFILELOADED    "صلاحية الملف حملت , %u عميل معروف"
+    IDS_CREDITFILECORRUPT   "صلاحية الملف انتهت و سوف تجدد"
+    IDS_ERR_CREDITFILEREAD  "خطأ غير متوقع اثناء  قراءة صلاحية الملف %s"
+    IDS_ERR_FAILED_CREDITSAVE "فشل في حقظ صلاحية الملف"
+    IDS_NOPARTSFOUND        "لا ملفات وجدت"
+    IDS_FOUNDPARTS          "وجد %u ملفات"
+    IDS_NEWDOWNLOAD         "تحميل %s"
+    IDS_ERR_ALREADY_DOWNLOADING
+                            "انت تحمل الملف مسبقا %s"
+    IDS_ERR_ALREADY_DOWNLOADED "انت تملك الملف مسبقا %s"
+    IDS_ERR_SERVERMET_BAD   "خطأ: الملف known.met غير صالح, غير قادر على تحميل الملفات المعروفة"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "الملف known.met غير صالح known.met: %s, غير قادر على تحميل الملفات المعروفة"
+    IDS_ERR_CONNECTIONERROR "خطأ اثناء  الاتصال بــ %s (%s:%u): %s"
+    IDS_ERR_SOCKET          "خطأ في السوكت: %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "متوفر %u ملفات مشتركة معروفة"
+    IDS_SHAREDFOUNDHASHING  "متوفر %u ملفات مشتركة معروفة, في طور مزج %u ملفات جديدة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD "فشل في بناء الملف"
+    IDS_FILEBUFFERSIZE      "حجم الملف"
+    IDS_QUEUESIZE           "حجم الدور"
+    IDS_DAYS2               "ايام"
+    IDS_ERR_MAKEBAKCREDITFILE "خطأ في انشاء الملف"
+    IDS_COMMENT             "تعليقات"
+    IDS_IPFILTERED          "فلتر اي بي %s (%s)"
+    IDS_DL_TRANSFCOMPL      "كمل"
+    IDS_DL_ACTIVE_TIME      "وقت التحمل"
+    IDS_STATS_FILTEREDCLIENTS "فلتر %u"
+    IDS_FILTERLABEL         "فلتر الرسائل يحتوي (Separator | )"
+    IDS_ERR_LARGEREQBLOCK   "طلب العميل كبير"
+    IDS_SHOWRATEONTITLE     "اظهر قيمة التحويل في العنوان"
+    IDS_TBN_NOMESSAGEHISTORY "لا رسائل مخزنة"
+    IDS_PW_DAP              "اضف تحميل جديد مع اسبقية اوتوماتيكية"
+    IDS_FD_LASTCHANGE       "اخر استقبال"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_RUNTIME       "وقت التشغيل"
+    IDS_ALL                 "مل"
+    IDS_CAT_ADD             "اضف قائمة..."
+    IDS_CAT_EDIT            "عدل قائمة..."
+    IDS_CAT_REMOVE          "ازل قائمة"
+    IDS_CAT                 "قائمة"
+    IDS_TITLE               "عنوان"
+    IDS_COLOR               "اون"
+    IDS_DEFAULT             "الافتراضي"
+    IDS_PW_DISPLAY          "عرض"
+    IDS_INDICATERATINGS     "عين التحميل بالتصويت بايقونة"
+    IDS_ALLOTHERS           "غير مجدول"
+    IDS_TOCAT               "خصص الى القائمة"
+    IDS_CAT_UNASSIGN        "(غير محدد)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "سأل عن بلوك غير كامل "
+    IDS_ERR_OPEN            "فشل في فتح الملف المطلوب"
+    IDS_ERR_CLIENTERRORED   "عميل '%s' سبب خطأ اثناء انشاء الباكايج (%s) - قطع الاتصال مع العميل"
+    IDS_ERR_REQ_FNF         "الملف المطلوب غير موجود"
+    IDS_DESC                "نبذة: %s"
+    IDS_PORT                "بورت"
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "لا خادم صالح في قائمة الخدام"
+    IDS_CONNECTEDTOREQ      "اتصل بــ %s (%s:%u), يرسل مطالب الدخول"
+    IDS_ERR_FATAL           "خطأ كارثي اثناء محاولة الاتصال بالانترنت, احتمالية انقطاع الانترنت"
+    IDS_ERR_LOSTC           "فقد الاتصال مع  %s (%s:%u)"
+    IDS_ERR_DEAD            "%s (%s:%u) الظاهر غير نافع"
+    IDS_ERR_FULL            "%s (%s:%u) الظاهر ملئ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_METCORRUPT      "خطأ: %s (%s) معطب, غير قادر على تحميل الملف"
+    IDS_ERR_FILEERROR       "خطأ غير متوقع اثناء القراءة %s (%s): %s"
+    IDS_ERR_FILEOPEN        "فشل في الفتح %s (%s)"
+    IDS_SEL_SKINDIR         "اختر مسار الشكل الخارجي..."
+    IDS_ERR_REHASH          "تحذير %s يمكن ان يكون معطب"
+    IDS_SKIN_PROF           "معلومات عن الشكل الخارجي"
+    IDS_ERR_PART_FNF        "جزء الملف لم يوجد"
+    IDS_KADOPEN             "اقتح"
+    IDS_ERR_SAVEMET         "خطأ اثناء حفظ جزء الملف %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "جزء معطب (%u) في %s"
+    IDS_HASHINGDONE         "كمل اعادة المزج %s, الملف جاهز"
+    IDS_ERR_PARTCORRUPT     "تحميل جزءt %u معطب :(  (%s)"
+    IDS_ICHWORKED           "I.C.H.: تغطية الملف المعطب %u (%s), حفظ %s"
+    IDS_ERR_OUTOFSPACE      "ليس عندك مساحة كافية للتحميل ""%s""!"
+    IDS_SE                  "تبديل المصدر"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONNECTEDTO         "الاتصال بدأ في: %s"
+    IDS_DL_PREVIEW          "اعرض"
+    IDS_VIEWQUEUE           "اطهر الدور"
+    IDS_TW_UPLOADS          "المرفوعات"
+    IDS_TW_DOWNLOADS        "التحميلات"
+    IDS_TW_QUEUE            "العميل في الدور:"
+    IDS_SW_SEARCHBOX        "ابصث"
+    IDS_SW_NAME             "اسم"
+    IDS_SW_GLOBAL           "ابحث عالميا"
+    IDS_SW_DIRECTDOWNLOAD   "الصق وصلة  eD2K"
+    IDS_SW_LINK             "eD2K وصلات"
+    IDS_SW_START            "ابدأ"
+    IDS_SCHEDULER           "سشكولدر"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC                 "&أي أر سي"
+    IDS_SW_RESULT           "نتائج البحث"
+    IDS_SW_DOWNLOAD         "حمل المختارين"
+    IDS_SV_SERVERLIST       "الخدام"
+    IDS_SV_SERVERINFO       "معلومات عن الخادم"
+    IDS_SV_LOG              "ادخل"
+    IDS_SV_NEWSERVER        "خادم جديد"
+    IDS_SV_ADDRESS          "اي بي او عنوان"
+
+    IDS_SV_ADD              "اظف الى القائمة"
+    IDS_SV_MET              "حدث server.met من الوصلة"
+    IDS_SV_UPDATE           "تحديث"
+    IDS_SF_FILES            "الملفات المشتركة"
+    IDS_SF_STATISTICS       "احصائيات"
+    IDS_SF_RELOAD           "حمل مرة اخرى"
+    IDS_SF_CURRENT          "الفصل الحالي"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPEED_LIMITS        "حدود السرعة"
+    IDS_CAPACITY_LIMITS     "حدود الياندودث"
+    IDS_ADMIN               "الادارة"
+    IDS_ACCESSDENIED        "الدخول غير مشروع"
+    IDS_WEB_LOWUSER         "ضيف"
+    IDS_WEB_ERR_CANTLOAD    "غير قادر على فتح ملف  %s"
+    IDS_GLOBALSEARCH        "عالمي  (Server)"
+    IDS_METHOD              "طريقة"
+    IDS_UNDO                "تراجع"
+    IDS_DAYLY               "يومي"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_MO_FR           "اثنينn-جمعة"
+    IDS_DAY_SA_SO           "سبت-احد"
+    IDS_MO                  "اثنين"
+    IDS_DI                  "ثلاثاء"
+    IDS_MI                  "اربعاء"
+    IDS_DO                  "خميس"
+    IDS_FR                  "جمعة"
+    IDS_SA                  "سبت"
+    IDS_SO                  "احد"
+    IDS_WEB_ADMINLOGIN      "دخول المدير"
+    IDS_WEB_GUESTLOGIN      "دخول الضيف"
+    IDS_WEB_SESSIONEND      "الخروج"
+    IDS_DETAILS             "تفاصيل"
+    IDS_ACTION              "حدث"
+    IDS_REMOVE              "ازل"
+    IDS_NEW                 "جديد"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TOTAL            "كلي"
+    IDS_SF_TRANS            "حول"
+    IDS_SF_ACCEPTED         "مرفوعات مقبولة"
+    IDS_SF_REQUESTED        "طلب"
+    IDS_ST_DOWNLOAD         "سرعة التحميل"
+    IDS_ST_UPLOAD           "سرعة الرفع"
+    IDS_ST_CURRENT          "حالي"
+    IDS_ST_SESSION          "المتوسط"
+    IDS_ST_ACTIVED          "التحميلات الشغالة"
+    IDS_ST_ACTIVEU          "المرفوعات الشغالة"
+    IDS_CW_MESSAGES         "رسائل"
+    IDS_CW_FRIENDS          "اصدقاء"
+    IDS_CW_SEND             "ارسل"
+    IDS_CW_CLOSE            "اغلق"
+    IDS_PW_GENERAL          "عام"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_DIR              "مسارات"
+    IDS_PW_NICK             "اسم"
+    IDS_PW_INCOMING         "الملفات القادمة"
+    IDS_PW_TEMP             "الملفات المؤقتة"
+    IDS_PW_BROWSE           "تصفح..."
+    IDS_PW_SHARED           "المسارات المشتركة"
+    IDS_CONNECTION          "اتصال"
+    IDS_PW_DOWNL            "حدود التحميل"
+    IDS_PW_UPL              "حد الرفع"
+    IDS_PW_MAXC             "الحد الاعلى للاتصالات"
+    IDS_PW_CLIENTPORT       "بورت العميل"
+    IDS_PW_AUTOCON          "الاتصال الذاتي عند بدأ الجهاز"
+    IDS_PW_RECON            "اعد الاتصال عند الانقطاع"
+    IDS_PW_SERVER           "خادم"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_RDEAD            "احذف الخدام خارج الخدمة بعد"
+    IDS_PW_RETRIES          "محاولات"
+    IDS_PW_SCORE            "استخدم اولوية النظام"
+    IDS_PW_USC              "حدث قائمة الخدام عند الاتصال بالخادم"
+    IDS_PW_UCC              "حدث قائمة الخدام عند الاتصال بالعميل"
+    IDS_PW_FILTER           "فلتر الخادم و الاي بي"
+    IDS_PW_USS              "تحديث قائمة الخدام عند البدأ"
+    IDS_PW_MISC             "متنوع"
+    IDS_PW_TRAY             "صغر الى البار"
+    IDS_PW_PROMPT           "خروج سريع"
+    IDS_PW_SPLASH           "اظهر سبلاش سكرين"
+    IDS_PW_DBLCLICK         "الضغط مرتين لفتح قائمة التحميل"
+    IDS_PW_TOOL             "تأخير الوقت [sec.]"
+    IDS_PW_FRONT            "اجلب الى المقدمة عند الضغط على وصلة"
+    IDS_PW_LANG             "لغة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_FILES            "ملفات"
+    IDS_PW_SHARE            "انظر ملفاتي المشتركة files/directories"
+    IDS_PW_EVER             "للجميع"
+    IDS_PW_FRIENDS          "اصدقاء"
+    IDS_PW_NOONE            "لا احد"
+    IDS_PW_RESET            "اعادة"
+    IDS_PW_APPLY            "تفعيل"
+    IDS_EM_TRANS            "&تحويلات"
+    IDS_EM_SERVER           "خوادم"
+    IDS_EM_SEARCH           "&بحث"
+    IDS_EM_FILES            "ملفات مشتركة"
+    IDS_EM_MESSAGES         "&رسائل"
+    IDS_EM_STATISTIC        "احصائيات"
+    IDS_EM_PREFS            "&خيارات"
+    IDS_MB_LANGUAGEINFO     "اللغة حددت, تستطيع تغيير اللغة  في اي وقت من  قائمة الأفضلية"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_GENERAL          "عام"
+    IDS_FD_MET              "part.met ملف:"
+    IDS_FD_HASH             "هاش:"
+    IDS_FD_SIZE             "حجم:"
+    IDS_FD_TRANSFER         "تحويل"
+    IDS_FD_PARTS            "اجزاء"
+    IDS_FD_TRANS            "حولت:"
+    IDS_FD_DATARATE         "كمية المعلومات:"
+    IDS_FD_COMPSIZE         "كمل:"
+    IDS_FD_CLOSE            "اغلق"
+    IDS_FD_TITLE            "تفاصيل الملف"
+    IDS_CD_GENERAL          "عام"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "اسم المستخدم:"
+    IDS_CD_UHASH            "اسم الهاش:"
+    IDS_CD_CSOFT            "عميل سوفتوير:"
+    IDS_CD_UIP              "عنوان اي بي:"
+    IDS_CD_SIP              "اي بي الخادم:"
+    IDS_CD_VERSION          "اصدار العميل:"
+    IDS_CD_SNAME            "اسم الخادم:"
+    IDS_CD_CDOWN            "التحميل حاليا:"
+    IDS_CD_DOWN             "حمل (this session):"
+    IDS_CD_ADOWN            "متوسط التحميل:"
+    IDS_CD_TDOWN            "اجمالي التحميل:"
+    IDS_CD_UP               "رفعd (this session):"
+    IDS_CD_AUP              "متوسط الرفع:"
+    IDS_CD_TUP              "اجمالي الرفع:"
+    IDS_CD_TRANS            "تحويل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_SCORES           "نقاط"
+    IDS_CD_MOD              "DL/UP lydv:"
+    IDS_CD_RATING           "تصويت (total):"
+    IDS_CD_USCORE           "نقاط التحميل:"
+    IDS_CD_TITLE            "معلومات العميل"
+    IDS_EMULEW              "اظغط"
+    IDS_EMULEW2             "للعيين اذا كان هناك اصدار جديد"
+    IDS_EMULEW3             "هنا"
+    IDS_PW_MAXSOURCES       "حد اقصى sources/file"
+    IDS_SHAREDFILESCOUNT    "عدد الملفات المشتركة: %u"
+    IDS_SF_SIZE             "حجم الملفات المشتركة: %s"
+    IDS_ERR_BADPORT         "رقم بورت سئ"
+    IDS_ERR_NOHELLO         "يسأل عن شئ دون قول هلو"
+    IDS_ERR_INVALIDPACKET   "قد تم استلام باكيت غير صالحة"
+    IDS_ERR_CLIENTERROR     "عميل '%s' (IP:%s) سبب خطأ: %s. فصل الخادم!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSIZE         "حجم غير صالح (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "ليس ملف ذو وصلة"
+    IDS_ERR_CREATEPARTFILE  "ERROR: فشل في بناء ملف البارت)"
+    IDS_CHAT_START          "*** الدردشة تبدأ : "
+    IDS_FILEPRIO            "اغلبية الملف"
+    IDS_SCORE               "نقط"
+    IDS_ASKED               "سأل"
+    IDS_LASTSEEN            "اخر زيارة"
+    IDS_BANNED              "مفصول"
+    IDS_UUSERS              "مستخدمين"
+    IDS_UFAILED             "فشل"
+    IDS_OPENFILE            "&افتح ملف"
+    IDS_DATE                "تاريخ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PARTINFOS           "اسم ملف البارت:"
+    IDS_PARTINFOS2          "تحميل (من %u مصادر)"
+    IDS_USERID              "خوية المستخدم"
+    IDS_CLIENT              "عميل"
+    IDS_SERVER              "خادم"
+    IDS_SOURCEINFO          "سأل: %u مرات; بارت متوفر: %u"
+    IDS_CLIENTSOURCENAME    "\nClient's filename: "
+    IDS_USERINFO            "الاسم المستعار: %s\n"
+    IDS_FILESTATS_SESSION   "حالة الملف: قبل %u من %u طلبات, %s حولت\n"
+    IDS_FILESTATS_TOTAL     "حالة الملف  للجميع: قبل %u من %u طلبات, %s حولت"
+    IDS_REQ_UNKNOWNFILE     "طلب ملف غير معرف"
+    IDS_SF_AVERAGESIZE      "متوسط حجم الملف: %s"
+    IDS_SF_REQUESTS         "طلبات"
+    IDS_SF_ACCEPTS          "قبول الطلبات"
+    IDS_SF_TRANSFERRED      "الداتا المحولة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REMOVESEARCHSTRING  "تغلق نافذة البحث"
+    IDS_REMOVESELECTED      "ازل البحوث المختارة"
+    IDS_REMOVEALLSEARCH     "ازل جميع البحوث"
+    IDS_ENTERQUEUE          "دخلت الصف"
+    IDS_SF_FAIL             "فشل الخدام"
+    IDS_SF_WUSER            "مستخدمين في حدام شغالين"
+    IDS_SF_WFILE            "ملفات في حدام شغالين"
+    IDS_SF_USER             "المستخدمين الكليين"
+    IDS_SF_FILE             "الملفات الكلية"
+    IDS_UPLOADTIME          "وقت الرفع"
+    IDS_LASTSEENCOMPL       "اخر مرة تكميل:"
+    IDS_YES                 "نعم"
+    IDS_NO                  "لا"
+    IDS_UNBAN               "افصل"
+    IDS_SF_WORKING          "الخوادم الشغالة"
+    IDS_ADDTOSTATIC         "اضف الى احصائات قائمة الحدام"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDED2SSF           "اضيف الى احصائات قائمة الحدام"
+    IDS_STATICSERVER        "احصائية"
+    IDS_ERROR_SSF           "Fخطأ في فتح staticservers.dat"
+    IDS_SF_ACTIVECON        "اتصالات فعالة (estimate)"
+    IDS_SF_MAXCONLIMITREACHED "الحد الاقصى للاتصال قد وصل حده"
+    IDS_SF_AVGCON           "متوسط الاتصالات (estimate)"
+    IDS_SF_PEAKCON          "اتصالات ضعيفة (estimate)"
+    IDS_ST_ACTIVEC          "اتصالات فعالة"
+    IDS_NETWORK             "شبكة"
+    IDS_SF_DELCOUNT         "حذف الخدام"
+    IDS_QUEUEFULL           "الدور ممتلئ"
+    IDS_AVG                 "متوسط"
+    IDS_BYTES               "بايت"
+    IDS_KBYTES              "ك ب "
+    IDS_MBYTES              "م ب"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GBYTES              "ج ب"
+    IDS_TBYTES              "ت ب"
+    IDS_SECS                "تواني"
+    IDS_MINS                "دقائق"
+    IDS_HOURS               "ساعة"
+    IDS_DAYS                "يوم"
+    IDS_ED2KLINKFIX         "eD2K وصلات"
+    IDS_RECONNECT           "اتصال اوتوماتيكي عند اعادة المحاولة بعد in %u ثواني"
+    IDS_SERVERADDED         "الخادم اضيف: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "تجاهل رسالة الالتحاق"
+    IDS_STATS_SUCCUPCOUNT   "اجمالي الرفع الناجح: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "تجاهل رسالة البارت"
+    IDS_STATS_FAILUPCOUNT   "اجمالي الرفع الغير ناجح: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "متوسط وقت الرفع: %s"
+    IDS_SEARCHMINSIZE       "الحد الادنى. حجم [MB]"
+    IDS_SEARCHMAXSIZE       "الحد الاقصى. حجم [MB]"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PREF_ONLINESIG      "فعل التوقيع"
+    IDS_ERROR_SAVEFILE      "فشل في الحفظ"
+    IDS_REQ_SHAREDFILES     "مستخدم %s (%u) rسأل عن ملفاتك المشتركة-list -> %s"
+    IDS_ACCEPTED            "قبل"
+    IDS_DENIED              "رفض"
+    IDS_PW_CON_DOWNLBL      "حمل"
+    IDS_PW_CON_UPLBL        "ارفع"
+    IDS_PW_AUTOCONNECTSTATICONLY "اتصال اوتوماتيكي الى الخدام بالقائمة فقط"
+    IDS_PW_CON_LIMITFRM     "حدود"
+    IDS_STATS_AVGLABEL      "متوسط الوقت : %u دقائق"
+    IDS_GRAPHS              "رسوم بيانية"
+    IDS_STREE               "شجرة الاحصائيات"
+    IDS_IRC_IGNOREQUITMESSAGE "تجاهل رسائل الخروج"
+    IDS_STATSSETUPINFO      "الاحصائيات"
+    IDS_IRC_SOUNDEVENTS     "اعزف صوت عند حدوث شئ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "انت لست متصل بشبكة الكاد!"
+    IDS_IRC_NOSFS           "لا ملفات مشتركة معينه"
+    IDS_RESETLABEL          "تكميل ذاتي (history function)"
+    IDS_IRC_IGNOREMISCMESSAGE "تجاهل الرسائل"
+    IDS_KNOWN               "معروف"
+    IDS_RAU_RUNNING         "ايمول سغال كمستخدم غير مسموح ""%s"""
+    IDS_RAU_FAILED          "خطا في تضغيل ايمول  كمستخدم غير مسموح ""eMule_Secure"". استمرار الامتياز للمستخدم الحالي (""%s"")."
+    IDS_KADCONTACTSREAD     "اقرأ %u اتصال من الملف."
+    IDS_ERR_KADCONTACTS     "لا اتصال موجود الرجاء تحميل  nodes.dat ملف."
+    IDS_METATAGS            "احصاء الميتا:"
+    IDS_FILEFORMAT          "نوعية"
+    IDS_UDPREASKS           "يو دي بي يعيد السؤال"
+    IDS_DYNUP_PINGTOLERANCE_MS "سماح البنج (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER "طريقة لسماح البنج"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS "جزء من الثانية (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT "نسبة مئوية (%)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "حاول تحميل القطع الظاهرة اولا"
+    IDS_RECOVER_SINGLE      "1 ملف تم معالجته."
+    IDS_RECOVER_MULTIPLE    "%u ملفات معالجة."
+    IDS_ATTEMPTING_RECOVERY "محاولة استعادة الارشيف..."
+    IDS_RECOVERY_SUCCESSFUL "استعادة الارشيف تمت بنجاح."
+    IDS_RECOVERY_FAILED     "استعادة الارشيف فشلت."
+    IDS_STARTNEXTFILE       "ابدأ الملف الموقف حاليا بعد اكمال الملف"
+    IDS_FULLCHUNKTRANS      "حاول لتحويل جميع القطع لكل المرفوعات"
+    IDS_MANUALSERVERHIGHPRIO "اجعل الحدام للاغلبية العليا"
+    IDS_VERBOSE             "مسهب (additional program feedback)"
+    IDS_FLAT                "فلات"
+    IDS_ROUND               "سلسلة"
+    IDS_SAMEUSERHASH        "عميل '%s' و '%s' يملك نفس مستخدم الهاش او الايبي - ازيل '%s'"
+    IDS_SEARCHEXTENTION     "توسيع"
+    IDS_SEARCHAVAIL         "متاحية"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDLIMIT           "حد صعب"
+    IDS_COL_MORECOLORS      "تكثر..."
+    IDS_TOOMANYCONNS        "اتصالات كثيرة"
+    IDS_DOWNLOADRENAMED     "ملف اخر بنفس الاسم موجود مسبقا, قد تم حفظ الملف ك %s"
+    IDS_TBN_DOWNLOADDONE    "حمل:"
+    IDS_PW_TBN_USESOUND     "استخدم صوت"
+    IDS_PW_TBN_ONLOG        "الدخول اضيف"
+    IDS_PW_TBN_ONCHAT       "الدردشة بدأت"
+    IDS_PW_TBN_POP_ALWAYS   "الدردشة استلمت"
+    IDS_PW_TBN_ONDOWNLOAD   "التحميل كمل"
+    IDS_PW_EKDEV_OPTIONS    "اعلامات"
+    IDS_PW_TASKBARNOTIFIER  "اطهر رسالة"
+    IDS_PW_TBN_OPTIONS      "اظهر رسالة عندما"
+    IDS_TBN_NEWCHATMSG      "رسالة من"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_CON_CAPFRM       "قابلية"
+    IDS_IRC_PRIVATECHANSTART "* دردشة خاصة قد بدأت"
+    IDS_IRC_SLAPMSG         "* %s تبب %s حول مع سمكة كبيرة!"
+    IDS_IRC_PRIVMESSAGE     "دردشة خاصة"
+    IDS_WEB_REMOTE_LINK_ADDED "الوصلة اضيفت: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "الوصلة لم تضاف, كلمة سر خاطئة."
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "ملفات البارت تحتاج الى اظهار اولا"
+    IDS_IRC_KICK            "اطرد"
+    IDS_IRC_SLAP            "تبب"
+    IDS_IRC_JOIN            "التحق"
+    IDS_IRC_CHANNELLIST     "قائمة القنوات"
+    IDS_IRC_CONNECT         "اتصل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FO_PREF_EXISTED     "ايمول قد وجد قانون ل البورت المعين و الذي لايمكن الكتابة فوقه او استبداله . القانون الناقص تم اضافته بنجاح\n  نرجو الانتباه الى انه الجدار الناري و الروتير لم يتعرض لشئ جراء هذا التغيير"
+    IDS_FO_PREF_FAILED      "فشل في اعادة اعاداة الجدار الناري لنظام اكس بي ل البورتات المعينة!"
+    IDS_FO_PREF_STARTUP     "افتح/اغلق بورتات في نظام اكس بي فير وال يبداء/يخرج ايمول"
+    IDS_LOG_LEVEL           "المستوى"
+    IDS_NEWMSG              "رسالة جديدة من '%s' (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "فقط في نفس الجدول"
+    IDS_LOG_ULDL_EVENTS     "رفع\تحميل حدث"
+    IDS_PEERCACHE_ENABLED   "شركة الانترنت الخاصة بك تدعم تقنية البييركاشي, السماح بتحميل الكاشي!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "اسمح للمستخدم باضافتك كصديق."
+    IDS_SOURCESWAPBLOCKED   "التبادل  حجز"
+    IDS_TRICKLING           "الوقوف دون حدث"
+    IDS_A4AF_CHECK_THIS_NOW "فحص المصدر الان (debug)"
+    IDS_STATS_FRATIO        "السيسن الرفع:التحميل (الروابط اللطيفة غير محسوبة):"
+    IDS_STATS_UDATA_FRIENDS "الداتا المرفوعة لصديق (Session): %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_DISCONNECT      "مقطوع الاتصال"
+    IDS_IRC_HASJOINED       "* %s التحق %s"
+    IDS_IRC_HASPARTED       "* %s جزء %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s طرد بواسطة %s (%s)"
+    IDS_DOWNLOAD_ALPHABETICAL "حمل بتسلل الابجدي"
+    IDS_IRC_HASQUIT         "* %s خرج (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s الان معروف بــ %s"
+    IDS_IRC_SETSMODE        "* %s يعطي الحالة: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** بعض التقنيات لم تضاف بعد, تحتاج الى المغادرة و اعادة الدخول"
+    IDS_IRC_CHANNEL         "القناة"
+    IDS_IRC_NICK            "اسم"
+    IDS_IRC_SEND            "ارسل"
+    IDS_IRC_NAME            "اسم"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION slaps %s حول بسمكة كبيرة!\001"
+    IDS_IRC_ADDTIMESTAMP    "اضف توقيت الرسائل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_USEFILTER       "استخدم فلتر القائمة"
+    IDS_IRC_PERFORM         "نفذ"
+    IDS_IRC_USEPERFORM      "نفذ عند الاتصال"
+    IDS_IRC_ADDTOFRIENDLIST "اضف الى قائمة الاصدقاء"
+    IDS_IRC_LOADCHANNELLISTONCON "حمل قائمة القنوات عند الاتصال"
+    IDS_IRC_ADDASFRIEND     "اضافك كصديق!"
+    IDS_PW_WARNING          "الرقم الذي اخترته ل ""%s"" اكبر من دعم نظامك:  %u\nهذا يسبب عدم الموازنة.\n\nهل انت متأكد بانك تريد الاضافة؟"
+    IDS_TAKEOVER            "سيطر"
+    IDS_CLEANUP             "نضف"
+    IDS_RENAME              "اعادة تسمية"
+    IDS_IRC_ADDLINKTOIRC    "اضيف الى ار اي سي كليب بورد"
+    IDS_IRC_SENDLINK        "ارسل هاذ لصديق: "
+    IDS_IRC_RECIEVEDLINK    "%s ارسل (%s) ليكون تلقائي البدأ."
+    IDS_IRC_ACCEPTLINKS     "اقبل  eD2K وصلات في ار اي سي (استخدم فقط مع التحديد!)"
+    IDS_SHARED              "مشتركة"
+    IDS_DOWNLOADED          "خمل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCENAMES         "اسامي المصدر"
+    IDS_PREF_STARTMIN       "ابدأ التصغير"
+    IDS_PS_TBN_IMPORTANT    "حالي: ليس عند مساحة كافية, فصل الاتصال"
+    IDS_COLORS              "الوان"
+    IDS_SP_BACKGROUND       "خلفية"
+    IDS_SP_GRID             "صمام"
+    IDS_SP_DL1              "حمل الخالي"
+    IDS_SP_DL2              "متوسط وقت التحميل"
+    IDS_SP_DL3              "متوسط وقت التحميل"
+    IDS_SP_UL1              "ارفع الحالي"
+    IDS_SP_UL2              "متوسط الرفع"
+    IDS_SP_UL3              "متوسط الرفع"
+    IDS_SP_ACTCON           "اتصالات فعالة"
+    IDS_SP_ACTDL            "تحميلات فعالة"
+    IDS_SP_ACTUL            "رفع فعال"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "غير محدد"
+    IDS_PW_MINREC           "الحد الادنى ينصح \t%u "
+    IDS_PW_UA               "حدد كامل رفع\تحميل السرعة"
+    IDS_PW_PA               " سرع رفع\تحميل السرعة"
+    IDS_IRC_IGNOREINFOMESSAGE "تجاهل رساءل المعلومات"
+    IDS_CONNECTIONLOST      "فقد الاتصال"
+    IDS_WIZ_OS_FRAME        "نطام التشغيل"
+    IDS_HASHINGFILE         "تحشيش الملف:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "سعة الرفع الحقيقية"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "سعة التحميل الحقيقية"
+    IDS_FRIENDLIST          "اصدقاء"
+    IDS_CHATDISCONNECTED    "*** فصل الاتصال"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZARD              "الساحر"
+    IDS_ADDFRIEND           "&اضف الى الاصدقاء"
+    IDS_REMOVEFRIEND        "احذف صديق"
+    IDS_REMOVEFROMSTATIC    "الازالة من قائمة الخادم"
+    IDS_LENGTH              "طول"
+    IDS_VIDEO               "فيديو"
+    IDS_AUDIO               "اوديو"
+    IDS_FILEINFO            "معلومات الميديا"
+    IDS_CODEC               "اعادة تعيين"
+    IDS_BITRATE             "مستوى البايت"
+    IDS_WIDTH               "عرض"
+    IDS_FPS                 "وظيفة بالثانية"
+    IDS_CHANNELS            "قنوات"
+    IDS_SAMPLERATE          "التصويت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HEIGHT              "طول"
+    IDS_SHAREDFILES_FAILED  "غير قادر على استقبال الملفات من '%s'"
+    IDS_SHAREDFILES_REQUEST "طلب الملفات من '%s'"
+    IDS_VIEWFILES           "&اظهر الملفات المشتركة"
+    IDS_FRIENDSLOT          "بدأ اخدود الصديق"
+    IDS_FRIENDDETAIL        "(شق الصديق)"
+    IDS_UDPDISABLED         "حرم"
+    IDS_WIZ_CTFRAME         "نوع الاتصال"
+    IDS_CONCURDWL           "تحميل متعاون"
+    IDS_WIZARD_CUSTOM       "زبن"
+    IDS_WIZARD_ENTERBELOW   "(ادخل ادناه!)"
+    IDS_STATS_MAXAVGDL      "متوسط التحميل: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MAXDL         "الحد الاعلى للتحميل: %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "تجاهل رسائل ايمول عند اضافة صديق"
+    IDS_PW_FASTSRVCON       "اتصال سالم"
+    IDS_SOURCELINKFAILED    "تحتاج ال خاصية عالية لبناء مصدر وصلة فعال"
+    IDS_ERR_LOADSERVERMET   "فشل في تحميل server.met!"
+    IDS_ERR_CORRUPTCOMPRPKG "باكيت غير صالحة ل  %s استلمت (error %u)"
+    IDS_ERR_EMFRIENDSINVALID "الملف emfriends.met معطب او غير صالح!"
+    IDS_ERR_READEMFRIENDS   "خطا غير معروف عند قراءة emfriends.met: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "معلومات غير معروفة استلمت!"
+    IDS_WIZ_DOWN            "تحميل (kbit/s)"
+    IDS_WIZ_UP              "رفع (kbit/s)"
+    IDS_SELECT_INCOMINGDIR  "اختر مجلد للملفات القادمة"
+    IDS_SELECT_TEMPDIR      "اختر مجلد للملفات المؤقتة"
+    IDS_PRIOAUTO            "اوتو"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOAUTONORMAL      "اوتو [عادي]"
+    IDS_PRIOAUTOHIGH        "اوتو [عالي]"
+    IDS_PRIOAUTORELEASE     "اوتو [واطي]"
+    IDS_PRIOAUTOLOW         "اوتو [واطي]"
+    IDS_ERR_CONTIMEOUT      "محاولة اتصال الى ""%s"" (%s:%u ) نفاذ الوقت"
+    IDS_OUTOFSERVERS        "فشل في الاتصال بحميع الخدام المدرجة"
+    IDS_PW_CONLIMITS        "حدود الاتصال"
+    IDS_MAXCON5SECLABEL     "الحد الاقصى للاتصالات الجديدة / 5 secs."
+    IDS_PW_UAP              "اضف ملف مشترك جديد مع اغلبية ذاتية"
+    IDS_MAXCLIENT           "الحد الاقصى للمستخدمين"
+    IDS_PW_TWEAK            "ممتد"
+    IDS_TWEAKS_WARNING      "تحذير: لا تغيير هذا الاعدادات الا اذا كنت ملم بها, و الا فالامور ستكون اصعب. امول  يعمل بجدارة بدون تغيير في هذه الاعدادات"
+    IDS_ADDAFRIEND          "اضف صديق..."
+    IDS_PAF_REQINFO         "معلومات مطلوبة"
+    IDS_PAF_MOREINFO        "معلومات ثانوية"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "يجب ادخال ايبي و بورت فعال!"
+    IDS_ADD                 "اضف"
+    IDS_RECOVERED_PARTMET   "استعيد part.met ل : %s"
+    IDS_CMT_QUEST           "اضف تعليق لهذا الملف! (This text will be shown to all users.)"
+    IDS_CMT_AIDE            "للفلم تستطيع وصع طوله, قصته, لغته... او اذا كان خدعة يمكنك اعلام مستخدمين ايمول..."
+    IDS_CMT_ADD             "&عدل ملف التعليقات..."
+    IDS_CMT_NONE            "لا تعليقات"
+    IDS_CMT_READ            "تعلق الملف:"
+    IDS_CMT_SHOWALL         "اظهر التعليقات..."
+    IDS_CMT_READALL         "تعليقات"
+    IDS_CMT_RATEQUEST       "نقاوة الملف"
+    IDS_CMT_RATEHELP        "استخدم تصويت الملف او نصح المستخدمين بان الملف معطوب او غير صالح!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_FAKE            "غير صالح \ معطوب \ خدعة"
+    IDS_CMT_POOR            "فقير"
+    IDS_CMT_GOOD            "جدي"
+    IDS_CMT_FAIR            "مقبول"
+    IDS_CMT_EXCELLENT       "ممتاز"
+    IDS_CMT_NOTRATED        "لم يثمن"
+    IDS_KILO                "ك"
+    IDS_MEGA                "م"
+    IDS_GIGA                "ج"
+    IDS_TERA                "ت"
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "تجاهل رسائل بروتوكول ايمول"
+    IDS_SMARTLOWIDCHECK     "استعل هوية منخفضة جرب اثناء الاتصال"
+    IDS_SF_SRVOCC           "وضع الخادم: %.2f%%"
+    IDS_3DDEP               "الشكل"
+    IDS_AUTOTAKEED2KLINKS   "خذ الوصلات اوتوماتيا اثناء التشغيل فقط"
+    IDS_ADDNEWFILESPAUSED   "اضف الملفات الى التحميل في وضع التوقف"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOHELP          "الرجاء زيارة موقعنا لتحميل نسخة جديدة من ملف المساعدة!\n\nهل تريد تصفح ملف المساعدة الان؟"
+    IDS_SHOWOVERHEAD        "اظهر الحد المسموح"
+    IDS_UPDOWNSMALL         "تحميل: %.1f | رفع: %.1f"
+    IDS_EDITLIST            "قائمة..."
+    IDS_SP_ICONBAR          "الايقونة"
+    IDS_RATINGRECV          "تثمين الملف '%s' استلم: %u"
+    IDS_DESCRIPTIONRECV     "وصف الملف '%s' استلم: %s"
+    IDS_WEBSERVICES         "&خدمة الموقع"
+    IDS_WEBSVEDIT           "عدل خدمة الموقع..."
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "تجاهل وصلات بروتوكول ايمول"
+    IDS_CHECK4UPDATE        "افحص هل هاك اصدار جديد"
+    IDS_STARTUP             "البدأ"
+    IDS_NEWVERSIONAVL       "اصدار جديد من ايمول متوفر! افحص موقعنا لمزيد من المعلومات."
+    IDS_NEWVERSIONAVLPOPUP  "اصدار جديد من ايمول متوفر. اضغط هنا لقراة بعض المعلومات عن الاصدار الجديد!"
+    IDS_NEWVERSIONFAILED    "غير قادر على فحص اصدار جديد."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "اصدار جديد من ايمول متوفر حاليا"
+    IDS_NONEWERVERSION      "ليس هنال اصدار جديد من ايمول متوفر حاليا."
+    IDS_VERSIONCHECK        "&فحص الاصدار"
+    IDS_VISITVERSIONCHECK   "\n\nهل تريد زيارة صفحة المعلومات الان؟"
+    IDS_PW_VIDEOPLAYER      "فيديو بلير"
+    IDS_VIDEOBACKUP         "اعمل باك اب للاظهار"
+    IDS_MYINFO              "معلوملتي"
+    IDS_ID                  "هوية"
+    IDS_IDLOW               "اي دي واطي"
+    IDS_IDHIGH              "اي دي عالي"
+    IDS_UPSTATUS            "احصل على بارتس"
+    IDS_TOVERHEAD           "اجمالي النفقات العامة (Packets): %s (%s)"
+    IDS_FROVERHEAD          "نفقات طلب الملفات (Packets): %s (%s)"
+    IDS_SSOVERHEAD          "نفقات تبديل المصدر (Packets): %s (%s)"
+    IDS_SOVERHEAD           "نفقات الخادم (Packets): %s (%s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "اضف  eD2K-file-links للتحميل?\n"
+    IDS_PF_WATCHCB          "لاحظ للكليب بورد ل  eD2K file links"
+    IDS_SECURITY            "امن"
+    IDS_IPFILTERLOADED      "%u فلتر الاي بي حمل"
+    IDS_IPFILTER            "فلتر الاي بي"
+    IDS_EDIT                "تعديل..."
+    IDS_FILTERLEVEL         "مستوى الفلتر"
+    IDS_FILTERSERVERBYIPFILTER "فلتر الخادم ايضا"
+    IDS_FILTERCOMMENTSLABEL "تجاهل التعليقات التي تحتوي: (Separator | )"
+    IDS_CLIENTLIST          "عميل معروف"
+    IDS_FOLDER              "مجلد"
+    IDS_CL_UPLOADSTATUS     "حالة الرفع"
+    IDS_CL_TRANSFUP         "تم التحويلp"
+    IDS_CL_DOWNLSTATUS      "حالة التحميل"
+    IDS_CL_TRANSFDOWN       "تم التحميل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CL_PENDING          "التوقيف"
+    IDS_CL_LOW2LOW          "اي بي واطي لاي بي واطي"
+    IDS_ERROR               "خطأ"
+    IDS_OPENINC             "&افتح مجلد القادم"
+    IDS_HOTMENU             "قائمة ساخنة"
+    IDS_DISABLEKNOWNLIST    "حجب قائمة العميل المعروف"
+    IDS_DISABLEQUEUELIST    "حجب قائمة الانتظار"
+    IDS_USECREDITSYSTEM     "استعمل نظام التسليف"
+    IDS_FIRSTAUTODOWN       "فعل هذا الخيار اذا تريد ايمول ان  يعالج افضلية التحميل.\n\nتفيع هذا الخيار يسمح ل ايمول لعمل تحميل ضامن مع الكثير  المصادر لا يتضارب مع تحميل بمصادر قليلة. هذا الخيار يؤثر على التحميل فقط. (Default: Enabled)"
+    IDS_FIRSTAUTOUP         "فعل هذا الخيار اذا اردت ايمول ان  يعالج خصائص الرفع.\n\nتفعيل هذا الخيار يسمح ل ايمول ب دفع الملفات النادرة و المشهورة  لكي لا تكون صعبة المنال. تفعيل الخيار سيسمح للاخرين بالحصول على الملفات المشهورة اكثر من الملفات النادرة. هذا الخيار يؤثر على الرفع فقط. (Default: Enabled)"
+    IDS_FIRSTSAFECON        "فعل هذا الخيار اذا اردت ل ايمول باستخدام اتصال امن.\n\nتفعيل هذا الخيار يسمح ل ايمول بالاتصال بالخادم ارسع لكن قد يسبب باخد هويات كاذبة ذو نقل بطئ. (Default: Disabled)"
+    IDS_FIRSTAUTOCON        "فعل هذا الخيار اذا اردت ل ايمول ان تتصل عند بدا الجهاز. (Default Disabled)"
+    IDS_FIRSTCOMPLETE       "الان انت كملت تشغيل الساحر لاول مرة.\n\nكل هذه الخيارات يمكن تغييرها عند الضغط على الافضليات. ل التوضيح و الدعم ؤاجع ملفات المساعدة بالضغظ على مفتاح F1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENTERUSERNAME       "الرجاء ادخال اسم المستخدم:"
+    IDS_STATIC_CPUMEM       "اخزن سب يب يو و الذاكرة المستخدمة"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "الكلمة قصيرة جدا.\r\n\r\nالكلمة المستخدمة في بحث الكاد يجب ان تكون  3 حروف فاكثر."
+    IDS_LOG2DISK            "اخزن ال لوج في الديسك"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "هناك بحث كاد موجود مسبقا بنفس الكلمة ""%s"".\r\n\r\nللبحث مع هذه الكلمة اما ان تنتظر حتى يكتمل البحث  او اغلق البحث الجاري."
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "كلمة غير صالحة.\r\n\r\nA Kبحث الكاد يكون للصيغ التالية:\r\n\r\n\t<kad-keyword> [ <ed2k-search-expression> ]\r\n\r\n <kad-keyword> يجب ان لا يحتوي على اي من الاحرف التالية:\r\n\r\n\t%s"
+    IDS_EDITCAT             "عدل خصائص القائمة"
+    IDS_PW_WS               "واجه الموقع"
+    IDS_ENABLED             "مفعل"
+    IDS_WEB_LOGIN           "الدخول"
+    IDS_WEB_ENTER_PASSWORD  "ادخل كلمة السر هنا"
+    IDS_WEB_LOGIN_NOW       "تسجيل الدخول"
+    IDS_WEB_CONFIRM_REMOVE_SERVER
+                            "هل انت متأكد بأزالة هذا الخادم من القائمة?"
+    IDS_WEB_CONTROL         "واجه الموقع"
+    IDS_WEB_LOGOUT          "حروج"
+    IDS_WEB_ACTIONS         "احداث"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "اظهر الدور"
+    IDS_WEB_GZIP_COMPRESSION "ضغظ جيزيب"
+    IDS_WEB_GZIP_COMMENT    "اخزن النقل و خاصة بالتصوير."
+    IDS_WEB_REFRESH_TIME    "حدث وقت الصفحة"
+    IDS_WEB_REFRESH_COMMENT "وقت في الثواني (zero=disabled):"
+    IDS_SV_URL              "وصلة"
+    IDS_WS_RELOAD_TMPL      "قالب"
+    IDS_SV_DEBUGLOG         "معالج اللوج"
+    IDS_WS_PASS             "كلمة السر"
+    IDS_WS_ERR_LOADTEMPLATE "خطأ في تحميل التيمبلايت: بدل الملف %s بالاصدار الاحدث!"
+    IDS_WEB_CONLIMITS       "حد الاتصال"
+    IDS_INFLST_USER_TOTALDOWNLOAD "اجمالي التحميل"
+    IDS_INFLST_USER_TOTALUPLOAD "اجمالي الرفع"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "وجه الموقع: فشل في محاول الدخول"
+    IDS_ERR_TOOLARGEFILE    "الملف اكبر من الحجم المصموح به  (>=256GB)"
+    IDS_MSGONLYFRIENDS      "اقبل من الاصدقاء فقط"
+    IDS_DAY_MO_SA           "اثنين ـ احد"
+    IDS_LIMITSOURCES        "حد المصادر"
+    IDS_LIMITCONS5SEC       "حد الاتصالات"
+    IDS_SCHED_CATSTOP       "اوقف التحميل"
+    IDS_SCHED_CATRESUME     "كمل التحميل"
+    IDS_S_DAYS              "ايام"
+    IDS_STARTTIME           "وقت البدأ"
+    IDS_VALUE               "قيمة"
+    IDS_SCHED_ENTERDATARATELIMIT "ادخل حد القيمة:"
+    IDS_SCHED_ENTERVAL      "الرجاء ادخال ثيمة جديدة:"
+    IDS_SCHED_ACTCONFIG     "تعامل مع الحدث"
+    IDS_SELECTCAT           "اختار القائمة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALLUNASSIGNED       "جميع غير المدرجين في القوائم"
+    IDS_ACTSESSIONS         "السلسلات الفعالة"
+    IDS_WEBSRV              "السطح البيني للموقع"
+    IDS_SW_REFETCHRES       "وجه الموقع"
+    IDS_FILEHASH            "ملف الهاش"
+    IDS_PW_PROXY            "بروكسي"
+    IDS_PROXY_ENABLE        "فعل البروكسي"
+    IDS_PROXY_TYPE          "نوع البروكسي:"
+    IDS_PROXY_HOST          "خادم البروكسي:"
+    IDS_PROXY_PORT          "بورت البروكسي:"
+    IDS_PROXY_AUTH          "فعل الاثبات"
+    IDS_AUTH                "الاثبات"
+    IDS_SHOWCATINFO         "اظهر معمولات التحميل في شريط القوائم"
+    IDS_SW_SEARCHINGINFO    "البحث طور التنفيذ انتظر النتائج خلال ثواني!"
+    IDS_LOGENTRY            "الدخــول"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "انسخ"
+    IDS_SELECTALL           "اختر الكل"
+    IDS_AUTOSCROLL          "تدريج ذاتي"
+    IDS_WIZ1_WELCOME_TITLE  "مرحبا الى امول"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "الساحر سوف يقودك خلال الخطوات الاولي في اعدادات ايمول."
+    IDS_WIZ1_WELCOME_BTN_HINT "للاستمرار اضغط التالي."
+    IDS_WIZ1_END_TITLE      "تكميل الساحر"
+    IDS_WIZ1                "تشغيل ايمول اول مرة"
+    IDS_WIZ1_END_BTN_HINT   "لغلق الساحر اضغط على انتهى."
+    IDS_WIZ1_UPLOAD_SUBTITLE "نقل كامل للقطع"
+    IDS_DL_RESUMENEXT       "استمر الموقف التالي"
+    IDS_STARTPRIO           "افضلية لهذه القائمة"
+    IDS_PREF_STARTNEXTFILECAT "فضل نفس القائمة"
+    IDS_SOFTFILES           "حد الملف الخفيف"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDFILES           "حد الملف القوي"
+    IDS_FILTER              "فلتر"
+    IDS_LINKS               "وصلات"
+    IDS_HM_SCHED_ON         "فعل القائمة"
+    IDS_HM_SCHED_OFF        "ابطل القائمة"
+    IDS_HM_LINKHP           "صفحة ايمول "
+    IDS_HM_LINKFAQ          "معلومات ايمول"
+    IDS_HM_LINKVC           "فحص اصدار ايمول"
+    IDS_DEBUG_SOURCE_EXCHANGE
+                            "دخول مصدر العميل و مصدر الخادم"
+    IDS_SHAREDREQ1          "المستخدم %s (%u) طلب قائمة الملفات المشتركة الخاصة بك -> %s"
+    IDS_SHAREDREQ2          "المستخدم %s (%u) طلب قائمة الملفات المشتركة الخاصة بك '%s' -> %s"
+    IDS_SHAREDANSW          "المستخدم %s (%u) مكان المشاركة '%s'"
+    IDS_SHAREDANSW2         "المستخدم %s (%u) لم يرسل اي طلب ـ جوهل"
+    IDS_SHAREDINFO1         "المستخدم %s (%u) ارسل قائمة الملفات المشتركة '%s'"
+    IDS_SHAREDINFO2         "المستخدم %s (%u) اكمل ارسال القائمة المطلوية "
+    IDS_SHAREDANSW3         "المستخدم %s (%u) لم يرسل اي طلب ـ جوهل '%s' - تم غظ النظر عنه"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDREQDENIED     "المستخدم %s (%u) رفض الوصول الى قائمة الملفات المشتركة "
+    IDS_AUTOCLEANUPFN       "تنظيف اسم الملف"
+    IDS_ONNEWDOWNLOAD       "التصيب"
+    IDS_FILTERFILENAMEWORD  "ادخل كلمات للفلترة مفصولة ب  |"
+    IDS_FNFILTERTITLE       "عدل اسم الملف كلمات الفلترة "
+    IDS_CHANGECATVIEW       "اختر اظهار الفلتر"
+    IDS_STATUS_NOTCOMPLETED "غير كامل"
+    IDS_STATS_CUMULATIVE    "تصاعدي"
+    IDS_STATS_OVRHD         "هوائي"
+    IDS_STATS_RECORDS       "تسجيلات"
+    IDS_STATS_COMPDL        "تحميلات كاملة"
+    IDS_STATS_SVRECWORKING  "اكثر حدام عاملين "
+    IDS_STATS_SVRECUSERS    "اكثر مستخدمين في وقت واحد"
+    IDS_SEARCH_TEXT         "ابحث على"
+    IDS_STATS_SVRECFILES    "اكثر ملفات متواجدة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SHRECNUM      "اكثر ملفات مشتركة"
+    IDS_SEARCH_COLUMN       "بحث في الطابور"
+    IDS_STATS_SHRECSIZE     "اكبر حجم مشترك"
+    IDS_STATS_SHRECASIZE    "اكبر متوسط ملف"
+    IDS_STATS_SESSION       "سلسلة"
+    IDS_STATS_SRATIO        "سلسلة التحميل و الرفع"
+    IDS_STATS_CRATIO        "متراكم التحميل و الرفع:"
+    IDS_SEARCH_NORESULT     "لم يوجد."
+    IDS_STATS_CURRSRVDUR    "مدة السيرفر الحالي"
+    IDS_LONGSECS            "ثواني"
+    IDS_STATS_DLSES         "تحميل الحلقات"
+    IDS_LONGMINS            "دقائق"
+    IDS_STATS_SDLSES        "تحميل الحلقات بنجاح"
+    IDS_STATS_FDLSES        "فشل تحميل السلسلة"
+    IDS_STATS_AVGDATADLSES  "متوسط التحميل ب السلسلة "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ULSES         "سلسلة الرفع"
+    IDS_STATS_GAINCOMP      "كسب بسبب الضغط: %s"
+    IDS_STATS_LOSTCORRUPT   "فقد بسبب  عدم الصلاحية: %s"
+    IDS_STATS_AVGDATAULSES  "معدل الرفع بالحلقة الواحدة"
+    IDS_STATS_ICHSAVED      "البارتس تم خزنه بسبب  I.C.H: %u"
+    IDS_STATS_MBRESET_TXT   "هل انت متأكد بانك تريد اعادة تعيين  الاحصائيات المتراكمة\n\nاذا غيرت رأيك يمكنك اعادة الاحصائيات في وقت لاحق بالضغة على اعادة تعيين ."
+    IDS_STATS_MBRESTORE_TXT "هل انت متأكد بانك تريد اعادة تعيين  الاحصائيات المتراكمة من ملف الباك اب؟\n\nClicking بالضغط هنا سوف يتم استرجاع احصائياتك."
+    IDS_ERR_NOSTATBKUP      "ERROR: ملف الباك اب لم يتم العثور عليه..."
+    IDS_STATS_NFOLOADEDBKUP "تم تحميل معلومات الباك اب..."
+    IDS_STATS_NFORESET      "الاحصائيات قد تم اعادة تعيينها!"
+    IDS_STATS_BNRESET       "اعد تعيين الاحصائيات"
+    IDS_STATS_BNRESTORE     "اعد تعيين الاحصائيات"
+    IDS_PPGSTATS_YSCALE     "احصائيات الاتصال Y-axis سكايل:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "الاتصالات الفعالة :"
+    IDS_STATS_PROBLEMATIC   "غير ثابت"
+    IDS_LONGHRS             "ساعات"
+    IDS_STATS_LARGESTFILE   "اكبر ملف مشترك"
+    IDS_STATS_DSPF          "ملف البارت"
+    IDS_STATS_DATASOURCE    "معلومات المصدر"
+    IDS_STATS_DSFILE        "تكملة الملف"
+    IDS_STATS_GENERAL       "عام"
+    IDS_STATS_TRANSTIME     "وقت النقل"
+    IDS_STATS_DOWNTIME      "وقت التحميل"
+    IDS_STATS_UPTIME        "وقت الرفع"
+    IDS_STATS_TOTALSRVDUR   "مدة بقاء السيرفر"
+    IDS_STATS_MAXAVGUL      "اكبر متوسط رفع"
+    IDS_STATS_MAXUL         "اكبر رفع"
+    IDS_STATS_AVGDLTIME     "متوسط وقت التحميل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_PRTDEF        "افتراضي"
+    IDS_STATS_PRTOTHER      "اخر"
+    IDS_STATS_MNUTREETITLE  "شجرة الاخصائيات"
+    IDS_STATS_MNUTREECPYSEL "انسخ الفرع المحدد"
+    IDS_STATS_MNUTREECPYALL "انسخ كل الاحصائيات"
+    IDS_STATS_MNUTREEHTML   "HTML ميزة ال "
+    IDS_STATS_EXPORT2HTML   "ادرج احصائيات..."
+    IDS_STATS_MNUTREECPYVIS "انسخ كل الظاهر"
+    IDS_STATS_MNUTREEEXPANDALL "افتح كل المواقع"
+    IDS_STATS_MNUTREECOLLAPSEALL "اغلق كل المواقع"
+    IDS_STATS_MNUTREEEXPANDMAIN "افتح الموقع الرئيسي"
+    IDS_STATS_LASTRESETSTATIC "اخر مرة تم فيها اعادة تعيين الاحصائيات: %s"
+    IDS_STATS_MONTHLY       "شهري"
+    IDS_STATS_YEARLY        "سنوي"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHUTDOWNSYSTEM  "اطفي النطام"
+    IDS_WEB_ADMINMENU       "مينو الادمن"
+    IDS_WEB_MAIN_CLOSE      "هل انت متأكد بانك تريد اغلاق ايمول؟"
+    IDS_WEB_MAIN_REBOOT     "هل انت متأكد بانك تريد اعادة تشغيل الجهاز؟"
+    IDS_WEB_MAIN_SHUTDOWN   "هل انت متأكد بانك تريد اغلاق الجهاز؟"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "اظهر العملاء المطرودين في الطابور"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "اظهر الاصدقاء في الطابور"
+    IDS_WEB_SESSIONTIMEOUT  "انتهاء وقت السلسلة"
+    IDS_WEB_ALLOWHILEVFUNC  "اسمح بالخروج من ايمول و اعادة تشغيل و اغلاق الجهاز"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_TIMESTATS     "وقت الاحصائيات"
+    IDS_STATS_AVGANDPROJ    "متوسط الخطة"
+    IDS_STATS_TIMESINCERESET "الوقت من اخر اعادة تعيين: %s"
+    IDS_CRYPT_INITFAILED    "فشل في تنصيب المشفر - حماية الهوية اوقف"
+    IDS_CD_IDENT            "كشف الهوية:"
+    IDS_IDENTOK             "بنجاح"
+    IDS_IDENTFAILED         "غير صالح"
+    IDS_IDENTNOSUPPORT      "ليس مدعم او ليس مفعل"
+    IDS_COMMITFILES         "امن .met/.dat كتابة الملف"
+    IDS_ERR_BADUNC          "اسم غير صالح"
+    IDS_NEVER               "ابدا"
+    IDS_ALWAYS              "دائما"
+    IDS_ONSHUTDOWN          "عند الاغلاق"
+    IDS_UNCFOLDERS          "UNC مكان ال "
+    IDS_USESECIDENT         "استعمل كشف الهوية امن"
+    IDS_ADVSPAMFILTER       "فلتر سبام متقدم"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CUT                 "قطع"
+    IDS_STATS_SECUREIDENT   "هوية امنة  (OK : Failed )"
+    IDS_ONDISK              "حجم الهارد ديسك: "
+    IDS_CLIENTCOL           "Warning: تم العثور على عملاء متشابهين, لنفس العملاء المتصلين حاليا: %s (%s) و %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "شريحة غير مغلقة"
+    IDS_SEARCH_GENERALERROR "خطأ عام"
+    IDS_SEARCH_MISSINGORRIGHT "ناقص جهة اليمين ل او المشغل"
+    IDS_SEARCH_MISSINGNOTRIGHT "ناقص جهة اليمين ل ليس المشغل"
+    IDS_SEARCH_MISSINGEXPRPARANT "ناقص التعبير ل  '(' ')'"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "ناقص الغلق ')'"
+    IDS_SEARCH_EXPRERROR    "فشل في تعريب تعبير البحث"
+    IDS_SEARCH_TOOCOMPLEX   "التعبيير معقد جدا"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSION             "اصدار"
+    IDS_PASTE               "لصق"
+    IDS_A4AF                "تدبير المصادر (A4AF)"
+    IDS_AUTOCAT_LABEL       "قوائم اوتوماتيكية (pattern, separated by |)"
+    IDS_SHOWEXTSETTINGS     "اظهر تحكمات اكثر (الوظعية المتقدمة للتحكم)"
+    IDS_TREEOPTIONS_TRUE    "صح"
+    IDS_TREEOPTIONS_FALSE   "خطأ"
+    IDS_TREEOPTIONS_OK      "تمام"
+    IDS_HYPERTEXT_FONT_HINT "خط للخادم-, رسائل- و شباك ال  IRC"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SELECT_FONT         "اختر الخط"
+    IDS_SERVER_LIMITS       "خفيف- / قوي-حد الملف"
+    IDS_KBITSSEC            "kbit/sec"
+    IDS_KBYTESSEC           "kByte/sec"
+    IDS_ERR_CREATE_DIR      "فشل في بناء %s وجهة ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "مكان دخول الملفات لا يجب ان يكون في مكان تنسيب ايمول ."
+    IDS_WRN_TEMPFILES_RESERVED
+                            "مكان دخول الملفات المؤقتة لا يجب ان يكون في مكان تنسيب ايمول ."
+    IDS_WRN_INCTEMP_SAME    "الملفات القادمة و المؤقتة يجب ان لا يكونوا في نفس المكان."
+    IDS_SHOWDWLPERCENTAGE   "اظهر النسبة المئوية في البار"
+    IDS_TBN_ONNEWDOWNLOAD   "التحميل اضيف"
+    IDS_ARTIST              "الفنان"
+    IDS_ALBUM               "البوم"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UPLOADREQ        "طلب بالرفع:"
+    IDS_SETTINGCHANGED_RESTART
+                            "ل العمل بالخيارات المتغيرة الرجاء اعادة تشغيل ايمول!"
+    IDS_CREDITSEXPIRED      ", %u عملاء حذفوا (لم يتواجدوا خلال 5 اشهر)"
+    IDS_SOURCESINFO         "%u  (مفيد: %u, ان ان بي: %u);  أي4 أي أف: %u"
+    IDS_META_DATA           "ميتا معلومات"
+    IDS_TIMEBEFORE          "(%s مضى)"
+    IDS_FD_TIMEDATE         "تواريخ"
+    IDS_FILEINFORMATION     "معلومات الملف"
+    IDS_STATS_FREESPACE     "مساحة مفتوحة"
+    IDS_IRC_HELPCHANNEL     "اتصل بقناة المساعدة"
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-arabic"
+    IDS_IRC_ACCEPTLINKSFRIENDS "من الاصدقاء فقط"
+    IDS_COMPLSOURCES        "اكمل المصادر"
+    IDS_CHECKNOENDTIME      "لا وقت نهاية"
+    IDS_FD_DOWNLOADSTARTED  "اضيف التحميل:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FAILEDREOPEN        "حطأ فادح: فشل في اعادلا فتح ملف بارت '%s' (%s)!"
+    IDS_ERR_PREVIEWALREADY  "هنالك اصلا كلب اظهار و هو تحت الانتظار لهذا العميل"
+    IDS_ERR_PREVIEWFAILED   "اظهار من المستخدم '%s' فشل"
+    IDS_DWTOT               "مساحة الهارد ديسك"
+    IDS_DWTOT_NR            "عدد مرات التحميل: %u"
+    IDS_DWTOT_TSD           "حجم التحميل الاحمالي: %s"
+    IDS_DWTOT_TCS           "حجم التحميل الكامل  الاجمالي: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "حجم التحميل الباقي: %s"
+    IDS_DWTOT_TSN           "مساحة اضافية مطلوبة للتحميل: %s"
+    IDS_DWTOT_FS            "المساحة المتبقية: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (تحتاج الى تفريغ %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT "تحديث الاتصال بالسيرفر كل  [دقيقة.]"
+    IDS_MORE                "&اكثر"
+    IDS_TOOLS               "ادوات"
+    IDS_SEARCHPARAMS        "بحث العوامل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u هاشينج)"
+    IDS_CHECKDISKSPACE      "فحص مساحة الديسك"
+    IDS_YOURHOSTNAME        "اسم الخادم  ل وصلات eD2K"
+    IDS_INSUFFICIENT        "مساحة غير كافية"
+    IDS_MINFREEDISKSPACE    "اقل مساحة متوفرة [MB]"
+    IDS_WARNING             "تحذير"
+    IDS_IMPORTSPLPF         "ادرج تحميل (eM,eD,ON)"
+    IDS_IMP_STEPREADPF      "قراءة المجلد المؤقت"
+    IDS_IMP_STEPBASICINF    "إستعادة المعلومات الاولية من ملف التحميل"
+    IDS_IMP_STEPCRDESTFILE  "بناء ملف التخصيص"
+    IDS_IMP_LOADDATA        "تحميل المعلومات من ملف تحميل قديم (%u of %u)"
+    IDS_IMP_SAVEDATA        "خزن المعلومات في ملف تحميل جديد(%u of %u)"
+    IDS_IMP_IOERROR         "خطا في الملف قي محاولة تحويل التحميل"
+    IDS_IMP_GETPFINFO       "استعادة مصادر التحميل"
+    IDS_IMP_ADDDWL          "اصافة التحميل و خزن ملف البارت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_FETCHSTATUS     "اخراج الحالة..."
+    IDS_IMP_INPROGR         "في طور التشغيل"
+    IDS_IMP_ERR_DISKSP      "خطأ: مساحة غير كافية"
+    IDS_IMP_ERR_PARTMETIO   "خطأ: العشو لم يتم العثور عليه"
+    IDS_IMP_ERR_IO          "خطأ: IO خطأ!"
+    IDS_IMP_ERR_FAILED      "خطأ: فشل!"
+    IDS_IMP_STATUSQUEUED    "بالصف"
+    IDS_IMP_ALRDWL          "في طور التحميل مسبقا"
+    IDS_IMP_ADDBTN          "&اضف مدرجات"
+    IDS_IMP_RETRYBTN        "&اعادة التجربة مختارة"
+    IDS_IMP_REMOVEBTN       "&الحذف مختار"
+    IDS_IMP_SELFOLDER       "الرجاء اختيار مجلد ل البحث في الملفات المؤقتة! (subfolders will be included)"
+    IDS_IMP_DELSRC          "هل تريد لملفات المصدر ل التحميلات المحملة بنجاح بالحذف؟"
+    IDS_IMP_SIZE            "%s (ديسك:%s)"
+    IDS_IMP_STATUS          "ادراج %s: %s"
+    IDS_DYNUPENABLED        "جد اكثر حد ل الرفع ذاتيا"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "حدة البنج (% من اقل بنج)"
+    IDS_DYNUP_GOINGUPDIVIDER "يتقدم ببطأ"
+    IDS_DYNUP_GOINGDOWNDIVIDER "ينسحب بطيئا"
+    IDS_DYNUP_NUMBEROFPINGS "اكبر عدد بنج كمتوسط"
+    IDS_DYNUP_MINUPLOAD     "اكل قيمة رفع مسموحة"
+    IDS_ESTTIMELEFT         "تخمين الوقت المتبقي:"
+    IDS_TRANSFER_RATE_LABEL "تقييم النقل:"
+    IDS_SAVELOG             "اخزن اللوج"
+    IDS_CMT_COPYCLIPBOARD   "انسخ التعليقات الى الكليب بورد"
+    IDS_ASKDOWNLOADLANG     "اللغة التي اخترتها غير موجودة في نظامك هل تريد لامول ان تحمل ملفات اللغة من الموقع الرسمي لامول؟"
+    IDS_ASKDOWNLOADLANGCAP  "حمل ملفات اللغة"
+    IDS_DELETESELECTED      "احذف"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "فشل في تحمل و تنصيب ملف اللغة المحدد من %s!"
+    IDS_ERR_BADFOLDER       "مجلد غير صالح.\nلا يمكن بناء المجلد الرجاء التأكد من الاسم و المكان."
+    IDS_AUTOREMOVEFD        "ازالة التحميلات المكتملة تلقائيا"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_NODE            "البحث عن العجر"
+    IDS_KAD_STOREFILE       "خزن الملف"
+    IDS_KAD_STOREKW         "خزن الكلمات"
+    IDS_KAD_UNKNOWN         "غير معروف"
+    IDS_SRV_TCPCOMPR        "ضغظ ال TCP"
+    IDS_KADSEARCHLAB        "البحوث الحالية"
+    IDS_SRV_UDPSR           "سرع بروتوكول ال  UDP  لمزيد من المطالب"
+    IDS_SRV_UDPFR           "سرع بروتوكول ال  UDP  لمزيد من المطالب"
+    IDS_MINLENGTH           "دقيقة. طول [hh:mm:ss]"
+    IDS_EM_HELP             "&مساعدة"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "صديق لم يضف.\r\n\r\nهناك صديق متوفر بنفس الاي بي و البورت."
+    IDS_DYNUP               "رفع بحاسة السرعة"
+    IDS_KADOVERHEAD         "Kad راس (Packets): %s (%s)"
+    IDS_FIND                "جد..."
+    IDS_LOG_BANNED_CLIENTS  "عملاء مطرودين"
+    IDS_LOG_RATING_RECV     "الدخول استلم ملف المعلومات و التصويت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "من عملاء معروفين"
+    IDS_KADUDPPORTERR       "بورت Kad UDP  تعارض اما مع بورت ايمول او مع خادم ايمول. البورت تم تغييره الى  %u."
+    IDS_CONFIRM_FILEDELETE  "هل تريد حذف كل الملفات المختار من جهازك؟"
+    IDS_OPENFOLDER          "افتح المجلد"
+    IDS_RUNASUSER           "شغل ايمول بصيغة مستخدم غير مميز"
+    IDS_DELETE              "احذف من الديسك"
+    IDS_BOOTSTRAP           "بوتستراب"
+    IDS_VIAED2KSQ           "خلال  eD2K سيرفر"
+    IDS_EM_KADEMLIA         "&كاد"
+    IDS_VIAKAD              "خلال Kad"
+    IDS_VIASE               "خلال تبادل المصادر"
+    IDS_SELECTTOOLBARBITMAP "اختر الايقونة..."
+    IDS_SELECTTOOLBARBITMAPDIR "اختر مكان الايقونة..."
+    IDS_TOOLBARSKINS        "وجه التول بار"
+    IDS_NOTEXTLABELS        "بدرون نص"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "النص يطبع بجهة اليمين"
+    IDS_TEXTLABELS          "اختيارات نص الطبع"
+    IDS_ENABLETEXTLABELS    "اظهر طبع النص"
+    IDS_CUSTOMIZETOOLBAR    "عدل على التول بار..."
+    IDS_MINBITRATE          "Min. تصويت البايت [kbit/s]"
+    IDS_KAD_RECHECKFW       "اعادة فحص الجدار الناري"
+    IDS_SHAREDTITLE         "مشترك eD2K|Kad"
+    IDS_FIREWALLED          "محمي بجدار ناري"
+    IDS_KADEMLIA            "كاد"
+    IDS_KADCONTACTLAB       "اتصالات"
+    IDS_KADDISTANCE         "مسافة"
+    IDS_KEY                 "مفتاح"
+    IDS_NUMBER              "رقم"
+    IDS_KAD_SEARCHSRC       "مصادر البحث"
+    IDS_KAD_SEARCHKW        "كلمات البحث"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_SECURE_IDENT    "دخول بهوية محمية"
+    IDS_LOG_FILTERED_IPS    "سجل الفلترة و الاي بي المتجاهلة"
+    IDS_LOG_FILE_SAVING     "ملف سجل الاحداث المخزنة"
+    IDS_DELETEIPFILTERS     "هل تريد حذف فلاتر الايبيات المعينة؟"
+    IDS_TOTAL_IPFILTER_LABEL "اجمالة فلاتر الايبي:"
+    IDS_TOTAL_IPS_LABEL     "اجمالي الايبيات:"
+    IDS_RAU_WARNING         "هذا الخيار سوف يعطي ايمول حماية ثانوية ضد الهجمات و تغرات اذالك نحن نصح باستخدام هذا الخيار.\nعلى اي حال نحن ننصح بقرأة المينوال قبل تفعيله!\n\nالتغييرات سوف تفعل بعد اعادة تشغيل ايمول."
+    IDS_APPEND              "أضاف..."
+    IDS_SAVE                "احفط"
+    IDS_IP_START            "ابدأ"
+    IDS_IP_END              "انهي"
+    IDS_IP_LEVEL            "مستوى"
+    IDS_IP_DESC             "تفصيل"
+    IDS_IP_HITS             "ضربات"
+    IDS_IP_RULES            "فلاتر الاي بي:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_A4AF            "سجل A4AF احداث"
+    IDS_A4AF_SAVE_CPU       "الغي تفعيل A4AF لحماية ال  CPU"
+    IDS_SEARCH_DOC          "وثيقة"
+    IDS_INSTALL_SKIN        "نصب شكل ايمول"
+    IDS_INSTALL_SKIN_NODIR  "لا يوجد مكان الشكل او المجلد غير قابل للتصفح!"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "الفشل في محاولة بناء  المكان التالي ""%s"" لاجل شكل ايمول - %s"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "فضل في فتح الضغظ عن الملفات ""%s"" من شكل ايمول الى الملفات المحلية ""%s"" - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "هذا ملف غير صالح."
+    IDS_NEXT_REASK          "السؤال التالي للعميل التالي"
+    IDS_A4AF_FILES          "ملفات A4AF"
+    IDS_FO_TEMPTCP_S        "فتح بورت %u (TCP) داخل ويندوز ايكس بي لاجل ايمول"
+    IDS_FO_TEMPTCP_F        "الفشل في فتحل بورت %u (TCP) داخل ويندوز ايكس بي لاجل ايمول"
+    IDS_FO_TEMPUDP_S        "فتح بورت %u (UDP) داخل ويندوز ايكس بي لاجل ايمول"
+    IDS_FO_TEMPUDP_F        "الفشل في فتحل بورت %u (UDP) داخل ويندوز ايكس بي لاجل ايمول"
+    IDS_FO_PREFBUTTON       "افتح هذه البورتات داخل ويندوز ايكس بي"
+    IDS_FO_PREF_SUCCCEEDED  "النجاح في فتح البورتات المختارة داخل وندوز ايكس بي.\nالرجاء الانتباه الى انه الجدار الناري من جهة ثالثة غير مفعلة بهذا الاختيار!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "ملف مؤقت غير معروف او غير صالح."
+    IDS_SEARCH_INVALIDCHAR  "عبارة البحث تحتوي على حروف غير صالحة اما ادخلت ؟  او حرف لايمكن استعماله في هذه الشبكة."
+    IDS_PORTSCON            "بورتات و الاتصال"
+    IDS_PORTINFO            "ايول يستعمل بوتين للاتصال بالخادم و العميل هذه البورتات يجب ان تكون فارغة و خالية حتى يتسنى التحكم بالعملاء. بورت ال  TCP  يجب ان يكون متوفر لتأمينعمل ايمول بشكل صحيح. بورت ال  UDP مستخدم ل  Kad (serverless network) و لتقليل عمل الشبكة (Overhead).\n\nيمكنك تغيير البورتات هنا خلال عمل الشبكة يبدا."
+    IDS_STARTTEST           "فحص البورتات"
+    IDS_TESTINFO            "هنا تستطيع فحص اذا كان  TCP الخاص بك شغال ام لا. نجاح هذه العملية تتطلب للاتصال بالخادم و ل التحكم بالعملاء المتصلين بك. بورت ال  TCP يجب ان ينجح بالاتصال"
+    IDS_CONNECTIONTEST      "فحص الاتصال"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "تغيير البورتات غير متاح بعد الاتصال ب العملاء او خلال عملية الاتصال بالخادم/Kad!\n\nالرجاء اعادة تشغيل ايمول مع البورتات المتغيرة ."
+    IDS_NETWORK_INFO        "معلومات الشبكة"
+    IDS_SP_TOTALUL          "اجمالي عدد الرفع"
+    IDS_SP_ULFRIENDS        "الرفع الى صديق"
+    IDS_SP_ULSLOTSNOOVERHEAD "الرفع الحالي بدول اضافة (لمداخل اليو ال فقط)"
+    IDS_ST_ACTIVEU_ZZ       "الرفع الشغال"
+    IDS_ST_ULCURRENT        "الرفع"
+    IDS_ST_ULSLOTSNOOVERHEAD "الرفع"
+    IDS_ST_ULFRIEND         "رفع الصديق"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "رفع شغال مطلوب لتكملة البانويدث: %u"
+    IDS_STATS_TOTALUL       "اجمالي الرفع: %u"
+    IDS_CHAT_DOWNLOADED     "حمل:"
+    IDS_CHAT_UPLOADED       "رفع:"
+    IDS_CHAT_IDENT          "كشف الهوية:"
+    IDS_MAXHALFOPENCONS     "الحد الاقصى: نصف الاتصالات المفتوحة"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "فعل هذا الاختيار لبدأ ايمول عند بدأ الويندوز. [معطل تلقائياً]"
+    IDS_KAD_WAITCBK         "انتظر الرد من  Kad "
+    IDS_KAD_TOOMANDYKADLKPS "بحوث Kad كثيرة"
+    IDS_PCDS_CLIENTWAIT     "انتظار العميل"
+    IDS_PCDS_CACHEWAIT      "انتظار الكاتشي"
+    IDS_CACHE               "وhjad"
+    IDS_INDEXED             "جدول"
+    IDS_KADINFO_SRC         "\tمصدر: %u\r\n"
+    IDS_KADINFO_KEYW        "\tمفتاح الكلمة: %u\r\n"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STARTWITHWINDOWS    "ابدأ مع الوندوز"
+    IDS_ADDSRCMANUALLY      "اضف مصادر..."
+    IDS_BUDDY               "صاحب"
+    IDS_BUDDYNONE           "لا احد"
+    IDS_INFO                "معلومات"
+    IDS_HALF                "نصف"
+    IDS_CONCOMPL            "كامل"
+    IDS_KADSTATUS_STOPPING  "توقيف"
+    IDS_KADSTATUS_ACTIVE    "نشط"
+    IDS_FORMAT              "فورمات"
+    IDS_META_COLLECTION     "مجموعة"
+    IDS_META_PARTPATH       "مكان البارت"
+    IDS_META_PARTHASH       "هاش البارت"
+    IDS_META_GAPSTART       "بدا الفجوة"
+    IDS_META_GAPEND         "انهاء الفجوة"
+    IDS_FAIL                "فشل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_META_PREFERENCES    "اّفضلية"
+    IDS_META_VERSION        "اصدار"
+    IDS_META_TEMPFILE       "ملف مؤقت"
+    IDS_META_SERVERPORT     "بورت الخادم"
+    IDS_META_SERVERIP       "ايبي الخادم"
+    IDS_META_SRCUDPPORT     "مصدر UDP بورت"
+    IDS_META_SRCTCPPORT     "مصدر TCP بورت"
+    IDS_META_SRCIP          "ايبي مصدر"
+    IDS_META_SRCTYPE        "نوع مصدر"
+    IDS_SEARCH_UNICODE      "ابحث مع يونيكود"
+    IDS_PF_ADVANCEDCALC     "استعمل حسابات مقدمة لالوقت المتبقي"
+    IDS_LD_ED2KLINK         "وصلة ED2K"
+    IDS_LD_COPYCLIPBOARD    "انسخ ل الكليب بورد"
+    IDS_LD_HOSTNAME         "استخدم اسم الخادم (من الافضل) بدل الاي بي عند عمل مصدر الوصلة"
+    IDS_SAVEACFAILED        "فشل في خزن اي اي سي اتش هاش!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_AICHHASH            "اي اي سي اتش هاش"
+    IDS_BYTESPERSEC         "بايت/ثانية"
+    IDS_KBYTESPERSEC        "كيلو بايت/ثانية"
+    IDS_MBYTESPERSEC        "ميجا بايت/ثانية"
+    IDS_GBYTESPERSEC        "جيجا بايت/ثانية"
+    IDS_TBYTESPERSEC        "تيترا بايت/ثانية"
+    IDS_STATS_MINORCLIENTS  "ثانوي"
+    IDS_AICH_SYNCTOTAL      "وجد %u ملفات بدون AICH Hashset صالح, سوف يتم اعادة تعيين الهاش لهذه الملفات الان"
+    IDS_AICH_CALCFILE       "حساب AICH Hash ل الملف %s"
+    IDS_AICH_WARNUSER       "منذ اصدار 0.44a استعمل ايمول ملف هاش ثانوي لكي يساعد لتقليل فقدان المعلومات عند التعفن. لانك تحدث من اصدار قديم يجب على ايمول اعادة تعيين الهاش لجميع  ملفاتك المشتركة لحساب هاش جديد. هذه العملية قد تستغرق بعض الوقت ولكنها تكون لمرة واحدة فقط.  "
+    IDS_AICH_WORKED         "AICH تم استعادته بنجاح %s من %s من بارت %u for %s"
+    IDS_SOURCECLIENT        "مصدر العميل"
+    IDS_USERSIP             "ايبي المستخدم"
+    IDS_FEATURES            "ميزات"
+    IDS_IRC_NEWNICK         "اختر اسم للدردشة."
+    IDS_IRC_NEWNICKDESC     "يجب ان تكون كلمة واحدة اقل من 20 حرف يتضمن (A-Z, 0-9). يمكن تغييرها لاحقا من  اّفضليات->Irc."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPARSEPARTFILES     "انشأ ملف بارت جديد و ضئيل (فقط ان تي اف اس)"
+    IDS_ASPECTRATIO         "نسبة الوجهة"
+    IDS_NEGATEFILTER        "فاتر الرفض"
+    IDS_SEENCOMPL           "شوهد كامل"
+    IDS_SELSKINPROFILEDIR   "اختر الواجهة"
+    IDS_ASKDLINCOMPLETE     "إمكانية ملف غير مكتمل:\r\n\r\n%s\r\n\r\nهذا الملف المفروض يكون غير مكتمل بالشكبة و لذالك المفضل عدم تحميله هل انت متأكد بانك تريد تحميل الملف؟"
+    IDS_DEADSOURCES         "مصادر ميتة"
+    IDS_LARGEICONS          "ايقونات كبيرة"
+    IDS_SMALLICONS          "ايقونات صغيرة"
+    IDS_SHORTTAGS           "شرائط قصيرة"
+    IDS_THELOAD             "تحميل"
+    IDS_PACKSENT            "تم ارسال الباكيتس"
+    IDS_RESPONSES           "جاوب"
+    IDS_EXTRACT_META_DATA   "استخرج معلومات ال ميتا"
+    IDS_META_DATA_MEDIADET  "ديريكت شو (لكل ملفات الصوت و القيديو)"
+    IDS_META_DATA_ID3LIB    "مكتبة ID3 (لملفات الام بي اي جي)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "مكتبة ملفات ويندوز المشتركة (COMCTL32.DLL) قديمة جدا!\r\n\r\nايمول وجد اصدار جديد لهذه الملفات"" انه قديم جدا لاستخدام ايمول. ل التاكد مب عمل كامل و بدون تصدع ايمول ينصح بتحديث هذه الملفات ""Windows Common Controls library (COMCTL32.DLL)"" لاخر اصدار 5.8.\r\n\r\nحمل و نصب و حدث ملفات ال  ""Windows Common Controls library (COMCTL32.DLL)"" في صفحة ماكيروسوفت. هل تريد بالذهاب مباشرة لتلك الصفحة؟?"
+    IDS_ASREGEXPR           "كضغظ عادي"
+    IDS_STATIC_REGEXP       "ضغط عادي لاظهار الفلتر:"
+    IDS_CARE4ALL            "قيم كل الملفات"
+    IDS_REGEXPRESSION       "ضغط عادي"
+    IDS_SEARCHKAD           "ابحث كاد"
+    IDS_DWL_IPFILTERFILE    "تحميل فلتر الاي بي"
+    IDS_DWLIPFILTERFAILED   "تحميل فلتر الاي بي فشل"
+    IDS_FINDBUDDY           "جد صديق"
+    IDS_ERR_IPFILTERZIPEXTR "فشل في فك الضغط عن الاي بي فلتر ""%s""."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "حمل فلتر الاي بي ""%s"" ملف زيب بمحتوى غير متوقع."
+    IDS_STORENOTES          "مخزن الملاحظات"
+    IDS_NOTES               "ملاحضات"
+    IDS_KADSEARCHALREADY    " بحث اخر في طور البحث الرجاء المحاولة في وقت لاحق!"
+    IDS_WEB_SHUTDOWN        "اغلق ايمول"
+    IDS_WEB_REBOOT          "اعادة تشغيل النظام"
+    IDS_SETPFSLIMIT         "حد المصدر..."
+    IDS_SETPFSLIMITEXPLAINED
+                            "الرجاء ادخال حد المصادر ل اللفات المعينة ! \n(ادخل 0 لاستخدام القيم العالمية)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "هل تريد لمجلدات الوارد متضمنة في مجلد الوارد القديم بالتحديث الان؟"
+    IDS_USESPEECH           "تكلم رسائل التنبيه"
+    IDS_CONDTCPACCEPT       "رفض الاتصال السريع"
+    IDS_TCPIP_CONNS         "اتصالات TCP/IP"
+    IDS_ERR_DELFILE         "فل في حذف ملف ""%s"""
+    IDS_MANUAL_FILENAMECLEANUP "هل تريد تنضيف اسم الملف ل الملفات المختارة؟"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CONFIGCORRUPT   "%s الظاهر انه عفن و سوف يتم تبديله"
+    IDS_UPLOADING           "طور الرفع"
+    IDS_CANCELLED           "الغي"
+    IDS_PW_REMEMBERDOWNLOADED "تذكر الملفات المحملة"
+    IDS_PW_REMEMBERCANCELLED "تذكر الملفات الملغاة"
+    IDS_AVAILABLEPARTS      "بارتات متوفرة"
+    IDS_NOSOUND             "لا صوت"
+    IDS_PW_RECEIVERADDRESS  "عنوان المستلم:"
+    IDS_PW_ENABLEEMAIL      "فعل خاصية التنبيه بالبريد الالكتروني"
+    IDS_EMULENOTIFICATION   "تنبيه ايمول"
+    IDS_PW_EMAILNOTIFICATIONS "تنبيهات البريد الالكتروني"
+    IDS_SMTPSERVER          "SMTP-سيرفر"
+    IDS_PW_SENDERADDRESS    "عنوان المرسل:"
+    IDS_PW_SHOWTRANSTOOLBAR "اظهر مكار ادوات اضافي في شباك النقل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHARED_STATUS       "البارتات المشتركة"
+    IDS_INCOMING_FILES      "الملفات الواردة"
+    IDS_INCOMPLETE_FILES    "الملفات غير الكاملة"
+    IDS_SHARED_DIRECTORIES  "الاماكن المشتركة"
+    IDS_SHAREDIR            "شارك المكان"
+    IDS_SHAREDIRSUB         "شارك بمكانات عدة"
+    IDS_UNSHAREDIR          "الغي مشاركة المكان"
+    IDS_UNSHAREDIRSUB       "الغي مشاركة الاماكن"
+    IDS_ALLSHAREDFILES      "كل الملفات المشتركة"
+    IDS_ALLDIRECTORIES      "كل الاماكن"
+    IDS_SEARCHRELATED       "جد ملفات متشابهة"
+    IDS_RELATED             "متشابهة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLLECTIONLIST      "قائمة المجموعة"
+    IDS_SEARCH_EMULECOLLECTION "المجموعة"
+    IDS_COLL_REPLACEEXISTING "هل تريد تبديل الملف الموجود اصلا؟"
+    IDS_COLL_ERR_DELETING   "خطأ غير معروف في محاولة حذف الملف القديم, خروج دون تخزين؟"
+    IDS_CREATECOLLECTION    "اعمل مجموعة"
+    IDS_COLL_SIGN           "سجل المجموعة بأسم و مفتاح"
+    IDS_AUTHOR              "الكاتب"
+    IDS_AUTHORKEY           "مفتاح الكاتب"
+    IDS_COLL_ADDINCAT       "اضف تحميلات جديدة في قائمة المجموعة"
+    IDS_MODIFYCOLLECTION    "عدل المجموعة"
+    IDS_VIEWCOLLECTION      "اظهر المجموعة"
+    IDS_COLL_TEXTFORMAT     "خزن المجموعة في ملف تيكتست عادي"
+    IDS_SEARCHAUTHORCOLLECTION "ابحث عن مجموعات الكاتب"
+    IDS_ERR_DUPL_FILES      "ضاعف الملفات المشتركة: ""%s"" و ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "حاسة سرعة الرفع: تريس روتنج فشل عدة مرات الغي تفعيل حاسة سرعة الرفع."
+    IDS_USS_STARTING        "حاسة سرعة الرفع: اكمل بتنظيمات. بدأ تحكم سرعة الرفع. (اول 60 ثانية ستكون برد فعل سريع)"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "حاسة سرعة الرفع: زيد حد الرفع في حالة. سوف يكون رد الفعل سريع خلال 60 ثانية."
+    IDS_USS_STATE_PREPARING "طرو التصليح..."
+    IDS_USS_STATE_WAITING   "طور الانتظار..."
+    IDS_USS_STATE_ERROR     "خطأ!"
+    IDS_SHAREWARNING        "(سيتم الاشتراك بالمجلد)"
+    IDS_REMOVEALLSERVERS    "هل انت متأكد انك تريد ازالة كل السيرفرات؟"
+    IDS_SEARCH_UNKATTR      "صفة بحث غير معروفة '%s'"
+    IDS_SEARCH_ATTRERR      "جملة خاطئة في '%s' صفة البحث"
+    IDS_SEARCH_MISSINGANDRIGHT "يفتقد الى الجهو اليمنى من ال و المشغل"
+    IDS_SEARCH_OPRERR       "خطأ في مقارنة العامل '%s'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOAD_LANGFILE   "ملف اللغة قيد التحميل"
+    IDS_DOWNLOADING_SERVERMET_FROM "تحميل server.met من %s"
+    IDS_DOWNLOADING_SERVERMET "قيد التحميل server.met..."
+    IDS_FULLALLOC           "تحديد حجم الملف الكلي للملفات الصغيرة الغير مقسمة"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "الهاش غير متوفر."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "القائمة معطوبة"
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "القائمة غير موجودة"
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "الهاش معطوب"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "الهاش غير موجود"
+    IDS_CONVERTINGKNOWN2MET "تحويل %s الى %s لدعم الملفات الكبيرة"
+    IDS_CONVERTINGKNOWN2FAILED
+                            "...فشل في تحويل known2.met, تجاهل التسجيلات القديمة"
+    IDS_CONVERTINGKNOWN2DONE "... اكمل, التحميل قد تم"
+    IDS_ERR_MET_BAD         "خطأ: الملف %s معطب, فشل في تحميل الملفات المعروفة"
+    IDS_SRV_LARGEFILES      "دعم للملفات الكبيرة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE
+                            "لا تستطيع تحميل هذا الملف لان نظام الملفات عندك لا يدعم الملفات التي هي اكبر من 4 جيجا, فكر في تحويله الى NTFS"
+    IDS_NEWVERSIONAVLBETA   "هذه النسخة التجريبة هي نافذة المفعول. بسبب طبيعة النسخة التجريبية, التي بصورة عامة تحتوي على اخطاء, انه مهم جدا ان تحدث النسخة الى اصدار اكثر ثباتا في عمله بالسرعة الممكنة!"
+    IDS_KADSEARCHACTIVE     "(بحث الكاد قيد العمل...)"
+    IDS_BOLD                "تعيين الخط العريض"
+    IDS_UNDERLINE           "تعيين الخط المسطر"
+    IDS_COLOUR              "اختيار لون الخط الامامي (لون الخلفية الخياري)"
+    IDS_RESETFORMAT         "استعادة كل التعينات السابقة (ارسل اعادة التشغيل)"
+    IDS_RESTORESEARCHPARAMS "استعادة العوامل المتغيرة للبحث"
+    IDS_COMMAND             "امر"
+    IDS_ARGUMENTS           "البراهين"
+    IDS_AP_CREATEPREVCOPY   "انشأ ملف عرض"
+    IDS_ARCHIVEDETAILS      "معلومات الارشيف"
+    IDS_ARCHTYPE            "نوع الارشيف"
+    IDS_ATTRIBUTES          "الصيغ"
+    IDS_LASTMODIFIED        "اخر تحرير"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "الهيدرز معطب - من غير المستطاع قرائة الارشيف."
+    IDS_ARCPARSED           "تم فحص الارشيف"
+    IDS_ARCPREV_LISTMAYBEINCOMPL "قائمة الملف قد تكون غير مكتملة"
+    IDS_ARCPREV_DIRNOTFOUND "لميتم العثور على الفهرست"
+    IDS_ARCPREV_INSUFFDATA  "نقص في الداتا"
+    IDS_PASSWPROT           "حماية كلمة المرور"
+    IDS_ARCPREV_DIRSUCCREAD "تم قراءة الفهرست بنجاح"
+    IDS_ARCPREV_UNKNOWNFORMAT "(غير معروف/غير مدعوم)"
+    IDS_ARCPREV_PLEASEWAIT  "فحص الارشيف قيد العمل"
+    IDS_OBFUSCATION         "تعقيد"
+    IDS_SUPPORTED           "مدعوم"
+    IDS_ESTIMATED           "متبقى"
+    IDS_MEDIAINFO_DLLMISSING
+                            "لا يوجد مكتبة ميديا منصبة. اذا اردت الحصول على معلومات اكثر عن الاوديو والفيديو,\r\nحمل مكتبة الميديا من https://mediaarea.net/en/MediaInfo و انسخ ملف ال MediaInfo.dll الى\r\nمجلد الايمول ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "تحذير: امتداد الملف من ""%s"" لا يتطابق مع امتداد الملف\r\nالمستخدم عامتا لهذا النوع من الملفات. قد تريد اعادة تسمية الملفالى\r\nاستحدم واحد من الامتدادات التالية ""%s""\r\nلاظهار و استخدام الملف بصورة صحيحة.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "تحذير: الملف ""%s"" محمي ب ال حقوق الطبع. \r\nلن تستطيع استعمال الملف بدون تصريح من مصنع الملف.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "ملفات شريط الادوات"
+    IDS_LOADFILTER_EMSKINFILES "ملفات الستايل"
+    IDS_SPLIT_WINDOW        "اقسم النافذة"
+    IDS_OPTIONS             "خيارات"
+    IDS_ERR_FAILEDTOLOAD    "فشل في تحميل %s: %s "
+    IDS_RUNNINGRESTRICTED   "ايمول يشتغل بتراخيص محددة"
+    IDS_ARCHPREV_ATTRIBINFO "صيغ الملف ممكن تحتوي على:\r\n\r\nP\tملف بكلمة مرور محمية\r\nD\tمجلد\r\nC\tComment\r\nLx\tمقارنة المستوياتl x\r\nM\tداتا مضغوطة غير مكملة التحميل الى الان\r\n<\tالملف اكمل من نسخة قديمة\r\n>\tالملف يكمل يكمل في نسخة قادمة\r\n"
+    IDS_CONTENT_INFO        "محتوى"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "ؤسائل و تعليقات"
+    IDS_DISABLEOBFUSCATION  "الغي دعم الاتصالات المعقدة"
+    IDS_ONLYOBFUSCATED      "فعل الاتصالات المعقدة (غير منصوح به)"
+    IDS_ENABLEOBFUSCATION   "فعل تعقيد البروتوكول"
+    IDS_PROTOCOLOBFUSCATION "تعقيد البروتوكول"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "اتصال ب %s (%s:%u - استعمال البروتوكوت المعقد) ..."
+    IDS_CONNECTEDTOOBFUSCATED "الاتصال المعقد اشأ في: %s"
+    IDS_VERIFIED            "مفعل"
+    IDS_OBFUSCATED          "تعقيد"
+    IDS_UNVERIFIED          "غير مفعل"
+    IDS_INVALIDFILEEXT      "امتداد ملف غير مقبول"
+    IDS_UNKNOWNFILEEXT      "امتداد ملف غير معروف"
+    IDS_ENABLEMINIMULE      "فعل ايمول بالشكل المصغر"
+    IDS_DISABLE_AUTOARCHPREV
+                            "عدم تفعيل أظهار الارشيف تلاقائيا بمعلومات الملف"
+    IDS_US_STALLEDW4BR      "بأنتظار طلب البلوك"
+    IDS_US_STALLEDREADINGFDISK "يقرأ من الديسك"
+    IDS_SERVERFEATURE_INTTYPETAGS "الترميز الرقمي"
+    IDS_FILLGRAPHS          "ارسم الجرافات المملوئة"
+    IDS_PARAMETER           "باراميتر"
+    IDS_TEST                "اجربة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "استعمل UPnP لتنصيب البروتات"
+    IDS_UPNPSETUP           "تنصيب البورتات مع UPnP..."
+    IDS_UPNPFAILED          "UPnP فضل في تنصيب البورتات, الرجاء تفعيل هذه البروتات يدويا اذا لزم!"
+    IDS_UPNPSUCCESS         "UPnP نجح في تنصيب البروتات %u (TCP) و %u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "افتح بورتات في WinXP SP1 الجدار الناري"
+    IDS_UPNP_NOSERVICE      "UPnP Device Host service لا يشتغل, اقفز تنصيب UPnP"
+    IDS_DELAYEDBYUPNP       "الاتصال بالشبكة تأخر, لان UPnP في طور اعداد البروتات"
+    IDS_DELAYEDBYUPNP2      "الرجاء الانتظار بعض الدقائق, ايمول سوف يتصل بعد انتهاء UPnP."
+    IDS_UPNP                "يو بي ان بي"
+    IDS_UPNPCLOSEONEXIT     "احذف UPnP بورت في المرة القادمة"
+    IDS_UPNPSKIPWANIP       "اقفز WAN IP تنصيب"
+    IDS_UPNPSKIPWANPPP      "اقفز WAN PPP تنصيب"
+    IDS_SHAREEMULELABEL     "اشترك ايمول مع اجهزة اخرى"
+    IDS_SHAREEMULEMULTI     "كل مستخدم له نفس الاعدادات و نفس التحميلات"
+    IDS_SHAREEMULEPUBLIC    "الكل لديهم نفس الاعدادات و التحميلات"
+    IDS_SHAREEMULEOLD       "اخزن الاعدادت و المفات في مجلد البرنامج"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "تغيير هذا الخياة سوف يدع ايمول يستخدم اعدادات اهرى. اعداداتك الحالية سوف يغض النظر عنها و المبؤة اصلا قد لا تكون موجودة. تستطيع الرجوع الى اعداداتك الحالية بواسطة تغيير هذا الخيار في اي وقت.\n\nيجب اعادة تشغيل ايمول."
+    IDS_SPAM                "سبام"
+    IDS_MARKSPAM            "عينه ك سبام"
+    IDS_MARKNOTSPAM         "لا تعينه ك سبام"
+    IDS_SEARCHSPAMFILTER    "فعل فلتر السبام في نتائج البحث"
+    IDS_SHOWSMILEYS         "أظهر الابتسامات"
+    IDS_CAPTCHAREQUEST      "للحد من رسائل السبام, هذا المستخدم يطلب ان تملأ الفحص قبل ان ترسل له رسالة. الرجاء ادخال الحروف التي تراها في الصورة:"
+    IDS_CAPTCHAFAILED       "اجابتك للفح خاطئة و تم غظ النظر عن رسالتك. تستطيع كلب فحص جديد من خلال ارسال رسالة جديدة."
+    IDS_CAPTCHASOLVED       "لقد تعديت الفحص و المستخدم تسلم رسالتك."
+    IDS_USECAPTCHAS         "يحتاج الى موافقة الوالدين"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat من الرابط:"
+    IDS_DOWNLOADING_NODESDAT_FROM "تحميل nodes.dat من %s"
+    IDS_DOWNLOADING_NODESDAT "تحميل nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "الفشل في تحميل nodes.dat من %s"
+    IDS_PREVENTSTANDBY      "امنع جهازك من الدخول في التاند باي خلال استخدام ايمول"
+    IDS_KADID               "هوية الكاد KadID"
+    IDS_SEARCHINGFRIENDKAD  "البحث في شبكة الكاد عن اصدقاء"
+    IDS_FOUND               "وجد"
+    IDS_EXTERNUDPPORT       "خارجي UDP بورت"
+    IDS_STORESEARCHES       "تذكر فتح البحوثات بين اعادات التشغيل"
+    IDS_WRN_INCFILE_EXISTS  "اذا اخترت مجلد جديد للملفات القادمة يوجد به ملفات سابقة. كل الملفات الموجودة في هذا المجلد  سيتم الاشتراك بها في ايمول."
+    IDS_EDITSPAMFILTER      "حرر السبام فلتر..."
+    IDS_EDITSPAMFILTERCOMMENTS "حرر السبام فلتر الخاص بالتعليقات"
+    IDS_WIZZARDOBFUSCATION  "فعل هذا الخيار اذا اذا اردت تفعيل البروتوكول\n\nاذا حاول مزود الانترنت الخاص بك حجب ايمول, تفعيل هذا الخيار سيساعدك على تعدى و تجنب الحظر."
+    IDS_BETANAG             "هذه نسخة تجريبية لبرنامج ايمول. رجاءا اخبرنا باي مشكلة تواجهك و تابع دائماً التحديثات في منتدانا (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "هل تريد تحميل و استعمال اتصالات الكاد من العنوان التالي:\n%s ?"
+    IDS_AUTOMATIC           "تلثائي"
+    IDS_NOTCONNECTEDANY     "انت غير متصل بالخادم او شبكة الكاد!"
+    IDS_ERR_SHARED_DIR      "فشل في قراءة المجلد المشترك""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "الملف ""%s"" يبدو انه محمي بحقوق الطبع.\r\n\r\nغالباً لا تستطيع فتح الملف بدون ترخيص من الجهة المعنية.. انتبه الى ان فتح الملف سيؤدي الى فتح المتصفح و يوجهك تلقائياً الى الجهة المعنية لشراء الترخيص .\r\n\r\nهل تريد فتح الملف؟"
+    IDS_CHECK_FILE_OPEN     "حذر عند فتح ملفات غير موثوقة"
+    IDS_BOOTABLE            "بوتابل"
+    IDS_UNSUPPORTEDIMAGE    "صورة غير مدعومة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "لا تشارك"
+    IDS_WEBUPNPINCLUDE      "اضف البورت الى يو بي ان بي"
+    IDS_ADDEDON             "اضيف في"
+    IDS_RESOLVELINKS        "عين روابط الشيل في المجلدات المشتركة"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "Download Commands"
+    IDS_CLOSETOOLBAR        "Close Toolbar"
+    IDS_SHOWTOOLBAR         "Show Toolbar"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "You cannot use the first keyword with an OR operator when searching on Kad!\n\nFor example ""Keyword1 OR Keyword2"" is not possible. Try ""Keyword1 AND (Keyword2 OR Keyword3)"" or do multiple searches instead."
+    IDS_DISCOVEREDBY        "Discovered by"
+    IDS_NODES               "Node(s)"
+    IDS_ROUTINGTABLE        "Routing Table"
+    IDS_PROTOCOLVERSION     "Protocol Version"
+    IDS_FOUNDNODESUSEFUL    "Found Nodes (useful)"
+    IDS_NORESPONSE          "No Response"
+    IDS_NOTASKED            "Not Asked"
+    IDS_LOOKUPGRAPH         "Search Details"
+    IDS_AUTOKADLOOKUPGRAPH  "Automatically show active searches"
+    IDS_PAUSEONPREVIEW      "Pause when preview possible"
+    IDS_PREVIEWWITH         "Preview with"
+    IDS_CLOSEEMULE          "Close eMule"
+    IDS_DONOTASKAGAIN       "Don't ask me again"
+    IDS_POPULARITY          "Popularity Rank"
+    IDS_SHOWWIN7TASKBARGOODIES "Enable Windows 7 taskbar effects"
+    IDS_LANMODE             "LAN Mode"
+    IDS_OPENPREFINI         "Open preferences.ini"
+END
+
+#endif    // Arabic (IQ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

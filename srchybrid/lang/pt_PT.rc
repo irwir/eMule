@@ -1,0 +1,2012 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "pt_PT.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Portugal) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTG)
+#ifdef _WIN32
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "pt_PT.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "Erro ao iniciar os sockets do windows."
+    IDS_ABOUTBOX            "&Sobre o eMule..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s de %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "Ligado a %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "A resolver nome: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "Nome resolvido para %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "A ligar a %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "A redireccionar para %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "A obter informação do ficheiro"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR
+                            "Ocorreu um erro ao tentar transferir o ficheiro, Erro: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "Ocorreu um erro ao ligar ao servidor, Erro: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE
+                            "Não foi possível receber uma resposta válida do servidor"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "Não foi possível receber uma reposta HTTP válida do servidor"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE
+                            "Ocorreu um erro na transferência do ficheiro, Erro: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE
+                            "A actualizar a lista de servidores: %s%% de %s Concluído"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "A descarregar o ficheiro"
+    IDS_HTTPDOWNLOAD_OF     "%s de %s"
+    IDS_CANCEL              "Cancelar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTP_CAPTION        "A actualizar a lista de servidores"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s copiado)"
+    IDS_HSAV                "Hashset Disponível"
+    IDS_FD_CORR             "Corrupto"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "O ficheiro '%s' já existe.\nDeseja substituí-lo?"
+    IDS_FD_RECOV            "Recuperado"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "Ocorreu um erro ao abrir o ficheiro a ser transferido, Erro: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "A abortar a transferência"
+    IDS_FD_COMPR            "Compressão"
+    IDS_WIZARD_NETWORK      "Escolha a(s) rede(s) que deseja utilizar."
+    IDS_MAIN_READY          "eMule versão %s pronto"
+    IDS_WIZARD_ED2K         "Definições eD2K"
+    IDS_SEL_SKIN            "Escolher Tema Visual..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_SOCKETERROR    "Erro fatal: Incapaz de criar socket na porta %u"
+    IDS_MAIN_BTN_DISCONNECT "Des&ligar"
+    IDS_ERR_WRONGFILEID     "Foi enviado um ID de ficheiro errado"
+    IDS_ERR_BADHASHSET      "Foi recebido um hashset corrupto ou inválido"
+    IDS_ERR_BADDATABLOCK    "Foi recebido um DataBlock corrupto ou inválido"
+    IDS_ERR_ILLFORMEDHASH   "Hash mal formado"
+    IDS_ERR_BADED2KLINK     "Não é uma ligação eD2K bem formada"
+    IDS_ERR_NOSLLINK        "Não é uma ligação eD2K de ficheiro ou servidor"
+    IDS_ERR_WRONGPACKETSIZE "Tamanho do pacote OP_FILEREQUEST inválido"
+    IDS_ERR_WRONGHPACKETSIZE "Tamanho pacote OP_HASHSETREQUEST inválido"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "Envios a clientes desconhecidos estenderam o pacote do protocolo"
+    IDS_ERR_OPENMET         "Erro: Falha ao abrir o ficheiro part.met! (%s => %s)"
+    IDS_ERR_BADMETVERSION   "Erro: Versão do ficheiro part.met inválida! (%s => %s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION
+                            "A identificação de versão dentro do server.met é inválida (0x%X)!"
+    IDS_SERVERSFOUND        "%u servidores encontrados dentro de server.met"
+    IDS_SERVERSADDED        "%u servidores adicionados, %u excluídos (já listados/inválidos)"
+    IDS_ERR_BADSERVERLIST   "Erro: o ficheiro server.met está corrupto, impossível carregar a lista de servidores"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "Erro de ficheiro inesperado ao ler server.met: %s, impossível carregar a lista de servidores"
+    IDS_ERR_SAVESERVERMET   "Ocorreu uma falha ao guardar server.met!"
+    IDS_PASSIVE             "Passivo"
+    IDS_MAIN_BTN_CANCEL     "&Cancelar"
+    IDS_AVAIL               "Partes: %u , disponíveis: %u (%.1f%%)\n\n"
+    IDS_TYPE                "Tipo"
+    IDS_FILEID              "ID do ficheiro"
+    IDS_FILE                "Ficheiro"
+    IDS_DOWNLOAD            "Download"//!
+    IDS_SL_SERVERNAME       "Nome do servidor"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IP                  "IP"//!
+    IDS_DESCRIPTION         "Descrição"
+    IDS_PING                "Ping"//!
+    IDS_FILES               "Fich."
+    IDS_PREFERENCE          "Preferência"
+    IDS_PRIONOPREF          "Sem Pref"
+    IDS_CONNECTTHIS         "Ligar Ao(s) Servidor(es) Seleccionado(s)"
+    IDS_MAIN_BTN_CONNECT    "&Ligar"
+    IDS_ERR_SAVESERVERMET2  "Falha ao guardar server.met! Talvez seja necessário apagar o ficheiro server.met e renomear o ficheiro server.met.old para server.met!"
+    IDS_NOTCONNECTED        "Desligado"
+    IDS_DISCONNECTED        "Desligado"
+    IDS_USERS               "Utilizador: %u"
+    IDS_UPDOWN              "Envio: %.1f(%.1f) | Recepção: %.1f(%.1f)"
+    IDS_CONNECTED           "Ligado"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_WRITEERROR      "Erro de ficheiro inesperado ao guardar %s : %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "Erro de ficheiro inesperado ao finalizar %s. Ficheiro em pausa, reinicie o eMule para proceder a outra tentativa de finalização"
+    IDS_ERR_DELETEFAILED    "Falha ao apagar %s, terá de o fazer manualmente"
+    IDS_DOWNLOADDONE        "Foi concluído o download de %s :-)"
+    IDS_ERR_DELETE          "Falha ao apagar %s"
+    IDS_ERR_HASHERRORWARNING
+                            "Aviso: Não foi possível calcular hash de parte recebida - hash incompleto (%s)"
+    IDS_ERR_INCOMPLETEHASH  "Erro: Não foi possível calcular hash de parte recebida - hash incompleto (%s). Isto nunca devia acontecer"
+    IDS_DOWNLOADING         "A Receber"
+    IDS_WAITING             "Em Espera"
+    IDS_HASHING             "A Calcular Hash"
+    IDS_COMPLETING          "A Concluir"
+    IDS_COMPLETE            "Concluído"
+    IDS_PAUSED              "Em Pausa"
+    IDS_ERRORLIKE           "Erróneo"
+    IDS_ASSIGNED2K          "O eMule não está atribuído às ligações eD2K. Deseja atribuir agora o eMule às ligações eD2K (recomendado) ?"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "Não foi encontrado o campo serverlistadress no ficheiro 'addresses.dat'. Por favor insira um endereço de serverlist válido dentro deste ficheiro, de forma a actualizar automaticamente a lista de servidores"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LINKNOTADDED        "Não foi possível adicionar ligação"
+    IDS_MAIN_EXIT           "Deseja mesmo sair do eMule?"
+    IDS_MAIN_POPUP_RESTORE  "Restaurar"
+    IDS_CONNECTTOANYSERVER  "Ligar a Qualquer Servidor"
+    IDS_EXIT                "Sair"
+    IDS_CONNECTING          "A Ligar"
+    IDS_FAILED              "Falhou"
+    IDS_ERR_BADSERVERREPLY  "Recebida uma resposta corrupta ou inválida de autenticação no servidor"
+    IDS_NEWCLIENTID         "O novo clientid é %u"
+    IDS_SHAREDFOLDERS       "Pastas partilhadas"
+    IDS_VIEW1               "ver "
+    IDS_VIEW2               " (não está partilhado)"
+    IDS_PRIOLOW             "Baixa"
+    IDS_PRIONORMAL          "Normal"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOHIGH            "Alta"
+    IDS_DOWNLOADMENUTITLE   "Downloads"//!
+    IDS_PRIORITY            "Prioridade"
+    IDS_NEWSERVERS          "Recebidos %u novos servidores"
+    IDS_DL_STOP             "&Parar"
+    IDS_DL_PAUSE            "&Pausa"
+    IDS_DL_RESUME           "&Continuar"
+    IDS_DL_OPEN             "&Abrir Ficheiro"
+    IDS_DL_INFO             "Mostrar &Detalhes do Ficheiro..."
+    IDS_DL_CLEAR            "L&impar Concluídos"
+    IDS_DL_LINK1            "Copiar Ligação &eD2K Para o Clipboard"
+    IDS_DL_LINK2            "Copiar Ligação eD2K Para o Clipboard (&HTML)"
+    IDS_SHOWDETAILS         "Mostrar &Detalhes"
+    IDS_SEND_MSG            "Enviar &Mensagem"
+    IDS_ASKING              "A perguntar"
+    IDS_CONNVIASERVER       "A Ligar via servidor"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ONQUEUE             "Em Fila de Espera"
+    IDS_TRANSFERRING        "A Transferir"
+    IDS_RECHASHSET          "A Receber hashset"
+    IDS_NONEEDEDPARTS       "Sem partes necessárias"
+    IDS_NOCONNECTLOW2LOW    "Não é possível ligar LowID a LowID"
+    IDS_UNKNOWN             "Desconhecido"
+    IDS_ASKED4ANOTHERFILE   "Ocupado Noutro Ficheiro"
+    IDS_Q_CANCELDL          "Tem a certeza de que quer cancelar e apagar estes ficheiros?\n"
+    IDS_Q_CANCELDL2         "Tem a certeza de que quer cancelar e apagar este ficheiro?\n"
+    IDS_DL_FILENAME         "Nome do Ficheiro"
+    IDS_DL_SIZE             "Tamanho"
+    IDS_DL_TRANSF           "Transferido"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_SPEED            "Velocidade"
+    IDS_DL_PROGRESS         "Progresso"
+    IDS_DL_SOURCES          "Fontes"
+    IDS_ERR_BADSERVERLISTRECEIVED
+                            "Foi recebido um pacote inválido da lista de servidores"
+    IDS_STATUS              "Estado"
+    IDS_DL_REMAINS          "Restante"
+    IDS_UPDATEFROM          "Actualizar a partir de URL: (formato filter.dat ou PeerGuardian)"
+    IDS_QL_USERNAME         "Nome do utilizador"
+    IDS_QL_RATING           "Classificação"
+    IDS_CONNECTINGTO        "Ligando a %s (%s:%u)..."
+    IDS_CLIENTS             "Clientes"
+    IDS_SEARCH_ANY          "Qualquer"
+    IDS_SEARCH_AUDIO        "Áudio"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "Imagens"
+    IDS_SEARCH_PRG          "Programas"
+    IDS_SEARCH_VIDEO        "Vídeos"
+    IDS_SEARCH_CDIMG        "Imagens de CD"
+    IDS_SEARCH_ARC          "Arquivos"
+    IDS_ERR_INVALIDLINK     "Esta ligação eD2K é inválida (%s)"
+    IDS_ERR_LINKERROR       "Ligação inválida: %s"
+    IDS_ERR_NOTCONNECTED    "Não está ligado a um servidor!"
+    IDS_REMOVETHIS          "Remover servidor(es) seleccionado(s)"
+    IDS_REMOVEALL           "Remover todos os servidores"
+    IDS_SRV_ADDR            "Por favor insira o endereço de um servidor"
+    IDS_SRV_PORT            "Porta do servidor incompleta: Por favor insira a porta do servidor"
+    IDS_SRV_NOTADDED        "Servidor não adicionado!"
+    IDS_SRV_NOURLAV         "Não há URL disponível."
+    IDS_INVALIDURL          "URL inválido"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET
+                            "Falhou a transferência da lista de servidores a partir de %s"
+    IDS_PERMISSION          "Permissão"
+    IDS_SHAREDFILES         "Partilha"
+    IDS_PRIOVERYLOW         "Muito baixa"
+    IDS_PRIORELEASE         "Lançamento"
+    IDS_TRAYDLG_SPEED       "Velocidade do eMule"
+    IDS_FSTATUS_FRIENDSONLY "Apenas amigos"
+    IDS_ERR_RENAMESF        "Não foi possível renomear\r\n    ""%s""\r\npara\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "disponíveis"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FSTAT_TRANSFER      "Transferência"
+    IDS_CONNECTIONS         "Ligação"
+    IDS_FSTAT_SERVERS       "Servidores"
+    IDS_FSTAT_WAITING       "Em espera..."
+    IDS_TIME                "Tempo"
+    IDS_STATS_DDATA         "Dados recebidos: %s"
+    IDS_STATS_UDATA         "Dados Enviados: %s"
+    IDS_STATS_AVGDL         "Média de Recepção de Dados: %s"
+    IDS_STATS_AVGUL         "Média de Envio de Dados: %s"
+    IDS_STATS_FOUNDSRC      "Fontes Encontradas: %u"
+    IDS_STATS_ACTDL         "Downloads Activos (Blocos): %u"
+    IDS_STATS_ACTUL         "Uploads Activos: %u"
+    IDS_STATS_WAITINGUSERS  "Utilizadores em Espera: %u"
+    IDS_STATS_RECONNECTS    "Religações: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "Desconhecido: %u"
+    IDS_STATS_TOTAL         "Total: %u"//!
+    IDS_DISABLED            "Inactivo"
+    IDS_STOPPED             "Parado"
+    IDS_STATS_UPDATELABEL   "Intervalo de amostragem: %u seg"
+    IDS_ASKEDFAF            "\nOcupado Noutro Ficheiro"
+    IDS_WAITED              "Esperou"
+    IDS_ERR_LOADCREDITFILE  "Falha ao carregar o ficheiro de créditos, um novo ficheiro irá ser criado"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "O ficheiro de créditos está desactualizado e será substituído"
+    IDS_CREDITFILELOADED    "Ficheiro de créditos carregado, %u clientes reconhecidos"
+    IDS_CREDITFILECORRUPT   "Erro: o ficheiro de créditos está corrupto e será substituído!"
+    IDS_ERR_CREDITFILEREAD  "Erro de ficheiro inesperado ao ler o ficheiro de créditos: %s"
+    IDS_ERR_FAILED_CREDITSAVE "Falha ao guardar o ficheiro de créditos"
+    IDS_NOPARTSFOUND        "Não foram encontrados ficheiros .part"
+    IDS_FOUNDPARTS          "Foram encontrados %u ficheiros .part"
+    IDS_NEWDOWNLOAD         "A transferir %s"
+    IDS_ERR_ALREADY_DOWNLOADING "Já está a tentar transferir o ficheiro %s"
+    IDS_ERR_ALREADY_DOWNLOADED "Você já recebeu o ficheiro %s"
+    IDS_ERR_SERVERMET_BAD   "Erro: o ficheiro known.met está corrupto, não foi possível carregar os ficheiros conhecidos"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "Erro de ficheiro inesperado ao ler o ficheiro known.met: %s, não foi possível carregar os ficheiros conhecidos"
+    IDS_ERR_CONNECTIONERROR "Erro ao ligar a %s (%s:%u): %s"
+    IDS_ERR_SOCKET          "Erro no serversocket: %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "Foram encontrados %u ficheiros partilhados conhecidos"
+    IDS_SHAREDFOUNDHASHING  "Foram encontrados %u ficheiros partilhados conhecidos, prestes a calcular hash de %u novos ficheiros"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "pediu um bloco incompleto "
+    IDS_ERR_OPEN            "falha ao abrir o ficheiro pedido"
+    IDS_ERR_CLIENTERRORED   "Cliente '%s' causou erro enquanto criava um pacote (%s) - a desligar o cliente"
+    IDS_ERR_REQ_FNF         "ficheiro pedido não encontrado"
+    IDS_DESC                "Descrição: %s"
+    IDS_PORT                "Porta"
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "Não foram encontrados servidores válidos na lista de servidores"
+    IDS_CONNECTEDTOREQ      "Ligado a %s (%s:%u), a enviar pedido de autenticação"
+    IDS_ERR_FATAL           "Erro fatal ao tentar ligar. A ligação de Internet pode estar em baixo"
+    IDS_ERR_LOSTC           "Ligação a %s (%s:%u) perdida"
+    IDS_ERR_DEAD            "%s (%s:%u) parece estar inanimado."
+    IDS_ERR_FULL            "%s (%s:%u) parece estar cheio"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_METCORRUPT      "Erro: %s (%s) está corrupto, não foi possível carregar ficheiro"
+    IDS_ERR_FILEERROR       "Erro de ficheiro inesperado ao ler %s (%s): %s"
+    IDS_ERR_FILEOPEN        "Falha ao abrir %s (%s)"
+    IDS_SEL_SKINDIR         "Escolher Directoria de Temas Visuais..."
+    IDS_ERR_REHASH          "Aviso: %s pode estar corrompido, a recalcular o hash das partes concluídas"
+    IDS_SKIN_PROF           "Perfis de Temas Visuais"
+    IDS_ERR_PART_FNF        "ficheiro .part não encontrado"
+    IDS_KADOPEN             "Abrir"
+    IDS_ERR_SAVEMET         "ERRO ao guardar ficheiro .part: %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "Foi encontrada parte corrupta (%u) dentro %s"
+    IDS_HASHINGDONE         "Foi finalizado o recálculo do hash de %s, ficheiro parece estar ok"
+    IDS_ERR_PARTCORRUPT     "Parte recebida %u está corrupta :(  (%s)"
+    IDS_ICHWORKED           "RIC: Recuperada parte corrupta %u  (%s), Saved: %s"
+    IDS_ERR_OUTOFSPACE      "Não tem espaço suficiente no disco para receber %s!"
+    IDS_SE                  "Troca de Fonte"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONNECTEDTO         "Ligação estabelecida em: %s"
+    IDS_DL_PREVIEW          "Pré-&Visualizar"
+    IDS_VIEWQUEUE           "Mostrar Fila de Espera"
+    IDS_TW_UPLOADS          "Uploads"//!
+    IDS_TW_DOWNLOADS        "Downloads"//!
+    IDS_TW_QUEUE            "Clientes em Espera:"
+    IDS_SW_SEARCHBOX        "Pesquisa"
+    IDS_SW_NAME             "Nome"
+    IDS_SW_GLOBAL           "Procura &Global"
+    IDS_SW_DIRECTDOWNLOAD   "Download Directo"
+    IDS_SW_LINK             "Ligações eD2K"
+    IDS_SW_START            "Pesquisar"
+    IDS_SCHEDULER           "Temporizador"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC                 "&IRC"//!
+    IDS_SW_RESULT           "Resultados da Pesquisa"
+    IDS_SW_DOWNLOAD         "Transferir Seleccionado(s)"
+    IDS_SV_SERVERLIST       "Lista de Servidores"
+    IDS_SV_SERVERINFO       "Informação do Servidor"
+    IDS_SV_LOG              "Relatório"
+    IDS_SV_NEWSERVER        "Novo Servidor"
+    IDS_SV_ADDRESS          "IP ou Endereço"
+
+    IDS_SV_ADD              "Adicionar à lista"
+    IDS_SV_MET              "Actualizar server.met por URL"
+    IDS_SV_UPDATE           "Actualizar"
+    IDS_SF_FILES            "Partilha"
+    IDS_SF_STATISTICS       "Estatísticas"
+    IDS_SF_RELOAD           "Recarregar"
+    IDS_SF_CURRENT          "Sessão Actual"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPEED_LIMITS        "Limites de Velocidade"
+    IDS_CAPACITY_LIMITS     "Limites da Largura de Banda"
+    IDS_ADMIN               "Administrador"
+    IDS_ACCESSDENIED        "Acesso Negado!"
+    IDS_WEB_LOWUSER         "Convidado"
+    IDS_WEB_ERR_CANTLOAD    "Não foi possível carregar modelo: Ficheiro %s ilegível"
+    IDS_GLOBALSEARCH        "Global (Servidores)"
+    IDS_METHOD              "Método"
+    IDS_UNDO                "Desfazer"
+    IDS_DAYLY               "diariamente"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_MO_FR           "Seg-Sex"
+    IDS_DAY_SA_SO           "Sáb-Dom"
+    IDS_MO                  "Segunda-Feira"
+    IDS_DI                  "Terça-Feira"
+    IDS_MI                  "Quarta-feira"
+    IDS_DO                  "Quinta-feira"
+    IDS_FR                  "Sexta-feira"
+    IDS_SA                  "Sábado"
+    IDS_SO                  "Domingo"
+    IDS_WEB_ADMINLOGIN      "Webserver-Admin-Login"
+    IDS_WEB_GUESTLOGIN      "Webserver-Guest-Login"
+    IDS_WEB_SESSIONEND      "Servidor Web: Desligar"
+    IDS_DETAILS             "Detalhes"
+    IDS_ACTION              "Acção"
+    IDS_REMOVE              "Remover"
+    IDS_NEW                 "Novo"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TOTAL            "Total"//!
+    IDS_SF_TRANS            "Transferido:"
+    IDS_SF_ACCEPTED         "Uploads Aceites:"
+    IDS_SF_REQUESTED        "Pedidos:"
+    IDS_ST_DOWNLOAD         "Velocidade-Download"
+    IDS_ST_UPLOAD           "Velocidade-Upload"
+    IDS_ST_CURRENT          "actual"
+    IDS_ST_SESSION          "média da sessão"
+    IDS_ST_ACTIVED          "downloads activos"
+    IDS_ST_ACTIVEU          "uploads activos"
+    IDS_CW_MESSAGES         "Mensagens"
+    IDS_CW_FRIENDS          "Amigos"
+    IDS_CW_SEND             "Enviar"
+    IDS_CW_CLOSE            "Fechar"
+    IDS_PW_GENERAL          "Gerais"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_DIR              "Pastas"
+    IDS_PW_NICK             "Alcunha"
+    IDS_PW_INCOMING         "Ficheiros recebidos"
+    IDS_PW_TEMP             "Ficheiros temporários"
+    IDS_PW_BROWSE           "Procurar"
+    IDS_PW_SHARED           "Pastas partilhadas (CTRL para incluir subpastas)"
+    IDS_CONNECTION          "Ligação"
+    IDS_PW_DOWNL            "Limite Download"
+    IDS_PW_UPL              "Limite Upload"
+    IDS_PW_MAXC             "Max. de Ligações"
+    IDS_PW_CLIENTPORT       "Portas do Cliente"
+    IDS_PW_AUTOCON          "Ligar automaticamente no arranque"
+    IDS_PW_RECON            "Voltar a ligar se perder a ligação"
+    IDS_PW_SERVER           "Servidor"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_RDEAD            "Remover servidor se falhar"
+    IDS_PW_RETRIES          "vezes"
+    IDS_PW_SCORE            "Usar o sistema de prioridades"
+    IDS_PW_USC              "Actualizar a lista de servidores quando se liga a um servidor"
+    IDS_PW_UCC              "Actualizar a lista de servidores quando um cliente se liga"
+    IDS_PW_FILTER           "Filtrar IPs LAN de servidores e clientes"
+    IDS_PW_USS              "Auto-actualizar lista de servidores no arranque"
+    IDS_PW_MISC             "Opções Várias"
+    IDS_PW_TRAY             "Minimi&zar para a Barra de Sistema"
+    IDS_PW_PROMPT           "Confirmar fecho do programa"
+    IDS_PW_SPLASH           "Mostrar logótipo no arranque"
+    IDS_PW_DBLCLICK         "Clicar 2 vezes mostra lista de fontes"
+    IDS_PW_TOOL             "Atraso da dica (segundos)"
+    IDS_PW_FRONT            "Mostrar eMule ao activar uma ligação eD2K"
+    IDS_PW_LANG             "Linguagem"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_FILES            "Ficheiros"
+    IDS_PW_SHARE            "Ver a minha partilha"
+    IDS_PW_EVER             "Todos"
+    IDS_PW_FRIENDS          "Amigos"
+    IDS_PW_NOONE            "Ninguém"
+    IDS_PW_RESET            "Limpar"
+    IDS_PW_APPLY            "Aplicar"
+    IDS_EM_TRANS            "&Transferências"
+    IDS_EM_SERVER           "Ser&vidores"
+    IDS_EM_SEARCH           "&Pesquisa"
+    IDS_EM_FILES            "&Partilha"
+    IDS_EM_MESSAGES         "&Mensagens"
+    IDS_EM_STATISTIC        "&Estatísticas"
+    IDS_EM_PREFS            "P&referências"
+    IDS_MB_LANGUAGEINFO     "A linguagem padrão foi seleccionada. Pode mudar a linguagem em qualquer altura no painel de preferências."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_GENERAL          "Geral"
+    IDS_FD_MET              "Ficheiro part.met:"
+    IDS_FD_HASH             "Hash:"//!
+    IDS_FD_SIZE             "Tamanho:"
+    IDS_FD_TRANSFER         "Transferência"
+    IDS_FD_PARTS            "Partes:"
+    IDS_FD_TRANS            "Transferido:"
+    IDS_FD_DATARATE         "Velocidade de Dados:"
+    IDS_FD_COMPSIZE         "Concluído:"
+    IDS_FD_CLOSE            "Fechar"
+    IDS_FD_TITLE            "Detalhes do Ficheiro"
+    IDS_CD_GENERAL          "Geral"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "Nome:"
+    IDS_CD_UHASH            "Hash do Utilizador:"
+    IDS_CD_CSOFT            "Software Cliente"
+    IDS_CD_UIP              "IP do Utilizador:"
+    IDS_CD_SIP              "IP do Servidor:"
+    IDS_CD_VERSION          "Versão do Cliente:"
+    IDS_CD_SNAME            "Nome do Servidor:"
+    IDS_CD_CDOWN            "A fazer Download de:"
+    IDS_CD_DOWN             "Fez Download de (esta sessão):"
+    IDS_CD_ADOWN            "Vel. Média de Dnld:"
+    IDS_CD_TDOWN            "Vel. Média de Upld"
+    IDS_CD_UP               "Fez Upload de (esta sessão):"
+    IDS_CD_AUP              "Velocidade Média de Upload:"
+    IDS_CD_TUP              "Upload total:"
+    IDS_CD_TRANS            "Transferência"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_SCORES           "Pontos"
+    IDS_CD_MOD              "Modificador DL/UP:"
+    IDS_CD_RATING           "Classificação (total):"
+    IDS_CD_USCORE           "Pontos na Lista de Espera:"
+    IDS_CD_TITLE            "Detalhes do Cliente"
+    IDS_EMULEW              "Clique"
+    IDS_EMULEW2             "para verificar se está disponível uma nova versão"
+    IDS_EMULEW3             "aqui"
+    IDS_PW_MAXSOURCES       "Máx. Fontes por Ficheiro"
+    IDS_SHAREDFILESCOUNT    "Numero de Ficheiros Partilhados: %u"
+    IDS_SF_SIZE             "Tamanho Total de Ficheiros Partilhados: %s"
+    IDS_ERR_BADPORT         "número da porta defeituosa"
+    IDS_ERR_NOHELLO         "Pede algo sem dizer olá"
+    IDS_ERR_INVALIDPACKET   "Recebido pacote inválido ou corrupto"
+    IDS_ERR_CLIENTERROR     "Cliente '%s' (IP:%s) provocou um erro: %s. A Desligar o cliente!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSIZE         "tamanho inválido (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "Não é uma ligação a um ficheiro"
+    IDS_ERR_CREATEPARTFILE  "ERRO: Falhou a criação de um ficheiro .part)"
+    IDS_CHAT_START          "*** Sessão de Conversa Iniciada : "
+    IDS_FILEPRIO            "Prioridade do Ficheiro"
+    IDS_SCORE               "Pontos"
+    IDS_ASKED               "Pedidos"
+    IDS_LASTSEEN            "Última vez visto"
+    IDS_BANNED              "Banido"
+    IDS_UUSERS              "Util."
+    IDS_UFAILED             "Falhou"
+    IDS_OPENFILE            "&Abrir Ficheiro"
+    IDS_DATE                "Data"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PARTINFOS           "Nome do ficheiro .part:"
+    IDS_PARTINFOS2          "A fazer download (de %u fontes)"
+    IDS_USERID              "ID do Utilizador"
+    IDS_CLIENT              "Cliente"
+    IDS_SERVER              "Servidor"
+    IDS_SOURCEINFO          "Número de Pedidos: %ux - Número de Partes Disponíveis: %u"
+    IDS_CLIENTSOURCENAME    "\nNome do ficheiro do cliente: "
+    IDS_USERINFO            "Alcunha: %s\n"
+    IDS_FILESTATS_SESSION   "Estatísticas do ficheiro para esta sessão: Aceites %u de %u pedidos, %s transferidos\n"
+    IDS_FILESTATS_TOTAL     "Estatísticas do ficheiro para todas as sessões: Aceites %u de %u pedidos, %s transferidos"
+    IDS_REQ_UNKNOWNFILE     "Ficheiro desconhecido pedido"
+    IDS_SF_AVERAGESIZE      "Tamanho médio do ficheiro: %s"
+    IDS_SF_REQUESTS         "Pedidos"
+    IDS_SF_ACCEPTS          "Pedidos Aceites"
+    IDS_SF_TRANSFERRED      "Dados Transferidos"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REMOVESEARCHSTRING  "Fechar Esta Pesquisa"
+    IDS_REMOVESELECTED      "Remover a Pesquisa Seleccionada"
+    IDS_REMOVEALLSEARCH     "Remover Todas as Pesquisas"
+    IDS_ENTERQUEUE          "Entrou na Fila de Espera"
+    IDS_SF_FAIL             "Servidores Falhados"
+    IDS_SF_WUSER            "Utilizadores nos Servidores Activos"
+    IDS_SF_WFILE            "Ficheiros nos Servidores Activos"
+    IDS_SF_USER             "Total de Utilizadores"
+    IDS_SF_FILE             "Total de Ficheiros"
+    IDS_UPLOADTIME          "Tempo de Upload"
+    IDS_LASTSEENCOMPL       "Última vez visto completo:"
+    IDS_YES                 "Sim"
+    IDS_NO                  "Não"
+    IDS_UNBAN               "Remover Ban"
+    IDS_SF_WORKING          "Servidores Activos"
+    IDS_ADDTOSTATIC         "Adicionar à Lista de Servidores Fixos"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDED2SSF           "A adicionar à lista de servidores fixos"
+    IDS_STATICSERVER        "Fixo"
+    IDS_ERROR_SSF           "Falha ao abrir staticservers.dat"
+    IDS_SF_ACTIVECON        "Ligações Activas (estimativa)"
+    IDS_SF_MAXCONLIMITREACHED "Atingido o Número Máximo de Ligações"
+    IDS_SF_AVGCON           "Média de Ligações (estimativa)"
+    IDS_SF_PEAKCON          "Pico de Ligações (estimativa)"
+    IDS_ST_ACTIVEC          "ligações activas"
+    IDS_NETWORK             "Rede"
+    IDS_SF_DELCOUNT         "Servidores Apagados"
+    IDS_QUEUEFULL           "Fila de Espera Cheia"
+    IDS_AVG                 "Média"
+    IDS_BYTES               "Bytes"//!
+    IDS_KBYTES              "KB"//!
+    IDS_MBYTES              "MB"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GBYTES              "GB"//!
+    IDS_TBYTES              "TB"//!
+    IDS_SECS                "segs"
+    IDS_MINS                "mins"//!
+    IDS_HOURS               "h"//!
+    IDS_DAYS                "D"
+    IDS_ED2KLINKFIX         "Ligações eD2K"
+    IDS_RECONNECT           "Ligação automática ao servidor irá ser repetida dentro de %u segundos"
+    IDS_SERVERADDED         "Servidor adicionado: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "Ignorar mensagens de informação 'Join'"
+    IDS_STATS_SUCCUPCOUNT   "Total de Sessões de Upload Bem Sucedidas: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "Ignorar mensagens de informação 'Part'"
+    IDS_STATS_FAILUPCOUNT   "Total de Sessões de Upload Falhadas: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "Tempo Médio de Upload: %s"
+    IDS_SEARCHMINSIZE       "tamanho min."
+    IDS_SEARCHMAXSIZE       "tamanho máx."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PREF_ONLINESIG      "Activar Assinatura Online (OnlineSig)"
+    IDS_ERROR_SAVEFILE      "Falha ao guardar"
+    IDS_REQ_SHAREDFILES     "Utilizador %s (%u) pediu a sua lista de ficheiros partilhados -> %s"
+    IDS_ACCEPTED            "aceite"
+    IDS_DENIED              "recusado"
+    IDS_PW_CON_DOWNLBL      "Download"//!
+    IDS_PW_CON_UPLBL        "Upload"//!
+    IDS_PW_AUTOCONNECTSTATICONLY
+                            "Apenas ligar automaticamente a servidores fixos"
+    IDS_PW_CON_LIMITFRM     "Limites"
+    IDS_STATS_AVGLABEL      "Tempo para gráfico de média: %u mins"
+    IDS_GRAPHS              "Gráficos"
+    IDS_STREE               "Árvore de Estatísticas"
+    IDS_IRC_IGNOREQUITMESSAGE "Ignorar mensagens de informação 'Quit'"
+    IDS_STATSSETUPINFO      "Estatísticas"
+    IDS_IRC_SOUNDEVENTS     "Reproduzir eventos sonoros"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "Tentar receber primeiro o início e o final dos ficheiros"
+    IDS_RECOVER_SINGLE      "1 ficheiro recuperado."
+    IDS_RECOVER_MULTIPLE    "%u ficheiros recuperados."
+    IDS_ATTEMPTING_RECOVERY "A tentar recuperar o arquivo..."
+    IDS_RECOVERY_SUCCESSFUL "Recuperação do arquivo bem sucedida."
+    IDS_RECOVERY_FAILED     "A recuperação do arquivo falhou."
+    IDS_STARTNEXTFILE       "Ao terminar um ficheiro iniciar o próximo em pausa"
+    IDS_FULLCHUNKTRANS      "Tentar enviar partes inteiras nos uploads"
+    IDS_MANUALSERVERHIGHPRIO
+                            "Por ficheiros adicionados manualmente em prioridade alta"
+    IDS_VERBOSE             "Detalhado (informações adicionais sobre o programa)"
+    IDS_FLAT                "plana"
+    IDS_ROUND               "redonda"
+    IDS_SAMEUSERHASH        "Os clientes '%s' e '%s' têm o mesmo hash de utilizador ou o mesmo IP - '%s' Removido"
+    IDS_SEARCHEXTENTION     "Extensão"
+    IDS_SEARCHAVAIL         "Disponibilidade"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDLIMIT           "Limite Máximo"
+    IDS_COL_MORECOLORS      "mais cores..."
+    IDS_TOOMANYCONNS        "Demasiadas ligações"
+    IDS_DOWNLOADRENAMED     "Um ficheiro com esse nome já existe, o ficheiro foi gravado como %s"
+    IDS_TBN_DOWNLOADDONE    "Recebido:"
+    IDS_PW_TBN_USESOUND     "Usar som"
+    IDS_PW_TBN_ONLOG        "Foi adicionada uma nova entrada no relatório"
+    IDS_PW_TBN_ONCHAT       "Sessão de Conversa Iniciada"
+    IDS_PW_TBN_POP_ALWAYS   "Mensagem de Conversa recebida"
+    IDS_PW_TBN_ONDOWNLOAD   "Download concluído"
+    IDS_PW_EKDEV_OPTIONS    "Notificações"
+    IDS_PW_TASKBARNOTIFIER  "Mensagens Pop-Up"
+    IDS_PW_TBN_OPTIONS      "Usar Pop-Up quando"
+    IDS_TBN_NEWCHATMSG      "Mensagem de"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_CON_CAPFRM       "Capacidades"
+    IDS_IRC_PRIVATECHANSTART "* Sessão de Conversa Privada Iniciada"
+    IDS_IRC_SLAPMSG         "* %s esbofeteia %s com uma enorme mula fedorenta!"
+    IDS_IRC_PRIVMESSAGE     "Mensagem Privada"
+    IDS_IRC_KICK            "Kick"//!
+    IDS_IRC_SLAP            "Slap"//!
+    IDS_IRC_JOIN            "Join"//!
+    IDS_IRC_CHANNELLIST     "Lista de Canais"
+    IDS_IRC_CONNECT         "Ligar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_DISCONNECT      "Desligar"
+    IDS_IRC_HASJOINED       "* %s entrou no %s"
+    IDS_IRC_HASPARTED       "* %s saíu do %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s foi kickado por %s (%s)"
+    IDS_IRC_HASQUIT         "* %s saíu (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s é agora conhecido como %s"
+    IDS_IRC_SETSMODE        "* %s estabeleceu modo: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** Alguns modos que foram estabelecidos ainda não estão suportados. Talvez precise de sair e entrar de novo no canal para actualizar a lista de nicks.."
+    IDS_IRC_CHANNEL         "Canal"
+    IDS_IRC_NICK            "Nick"//!
+    IDS_IRC_SEND            "Enviar"
+    IDS_IRC_NAME            "Nome"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION esbofeteia %s com uma enorme mula fedorenta!\001"
+    IDS_IRC_ADDTIMESTAMP    "Adicionar marca temporal às mensagens."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_USEFILTER       "Utilizar filtragem de canais"
+    IDS_IRC_PERFORM         "Executar"
+    IDS_IRC_USEPERFORM      "Executar comandos definidos ao ligar"
+    IDS_IRC_ADDTOFRIENDLIST "Adicionar à Lista de Amigos"
+    IDS_IRC_LOADCHANNELLISTONCON
+                            "Carregar Lista de Canais do Servidor ao ligar."
+    IDS_IRC_ADDASFRIEND     "adicionou-o como amigo!"
+    IDS_PW_WARNING          "O número que seleccionou para ""%s"" é maior que o suportado pelo seu Sistema Operativo:  %u\nIsto pode tornar o seu sistema instável.\n\nTem a certeza de que quer prosseguir?"
+    IDS_TAKEOVER            "Usar nome"
+    IDS_CLEANUP             "Limpar"
+    IDS_RENAME              "Renomear"
+    IDS_IRC_ADDLINKTOIRC    "Adicionar isto ao clipboard IRC para enviar a amigos."
+    IDS_IRC_SENDLINK        "Enviar isto a amigo: "
+    IDS_IRC_RECIEVEDLINK    "%s enviou (%s) para ser auto-iniciado."
+    IDS_IRC_ACCEPTLINKS     "Aceitar ligações eD2K no IRC. (Utilizar com cautela!)"
+    IDS_SHARED              "Partilhado(s)"
+    IDS_DOWNLOADED          "Descarregado(s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCENAMES         "Nome das Fontes"
+    IDS_PREF_STARTMIN       "Iniciar minimizado"
+    IDS_PS_TBN_IMPORTANT    "Urgente: sem espaço no disco, ligação perdida"
+    IDS_COLORS              "Cores"
+    IDS_SP_BACKGROUND       "Fundo"
+    IDS_SP_GRID             "Grelha"
+    IDS_SP_DL1              "Download em curso"
+    IDS_SP_DL2              "Média de Download"
+    IDS_SP_DL3              "Média de Download da Sessão"
+    IDS_SP_UL1              "Upload em curso"
+    IDS_SP_UL2              "Média de Upload"
+    IDS_SP_UL3              "Média de Upload da Sessão"
+    IDS_SP_ACTCON           "Ligações activas"
+    IDS_SP_ACTDL            "Downloads activos"
+    IDS_SP_ACTUL            "Uploads activos"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "Ilimitado"
+    IDS_PW_MINREC           "mínimo recomendado\t%u "
+    IDS_PW_UA               "Definir velocidade total para up/download"
+    IDS_PW_PA               "Acelerar velocidades de up/download"
+    IDS_IRC_IGNOREINFOMESSAGE "Ignorar mensagens de informação."
+    IDS_CONNECTIONLOST      "Ligação Perdida"
+    IDS_WIZ_OS_FRAME        "Sistema Operativo"
+    IDS_HASHINGFILE         "A calcular Hash do ficheiro:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "Largura de banda de Upload"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "Largura de banda de Download"
+    IDS_FRIENDLIST          "Amigos"
+    IDS_CHATDISCONNECTED    "*** Desligado"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZARD              "Assistente"
+    IDS_ADDFRIEND           "Adicionar aos Amigos"
+    IDS_REMOVEFRIEND        "Remover Amigo"
+    IDS_REMOVEFROMSTATIC    "Remover da Lista de Servidores Fixos"
+    IDS_LENGTH              "Duração"
+    IDS_VIDEO               "Vídeo"
+    IDS_AUDIO               "Áudio"
+    IDS_FILEINFO            "&Informação Audiovisual"
+    IDS_CODEC               "Codec"//!
+    IDS_BITRATE             "Bitrate"//!
+    IDS_WIDTH               "Largura"
+    IDS_FPS                 "Fps"
+    IDS_CHANNELS            "Canais"
+    IDS_SAMPLERATE          "Frequência de Amostragem"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HEIGHT              "Altura"
+    IDS_SHAREDFILES_FAILED  "Não foi possível listar os ficheiros partilhados de '%s'"
+    IDS_SHAREDFILES_REQUEST "A pedir lista de ficheiros partilhados de '%s'"
+    IDS_VIEWFILES           "Ver Ficheiros"
+    IDS_FRIENDSLOT          "Estabelecer Ligação de Amigo"
+    IDS_FRIENDDETAIL        "(Ligação de Amigo)"
+    IDS_UDPDISABLED         "desactivar"
+    IDS_WIZ_CTFRAME         "Tipo de Ligação"
+    IDS_CONCURDWL           "Downloads Simultâneos"
+    IDS_WIZARD_CUSTOM       "Manual"
+    IDS_WIZARD_ENTERBELOW   "(em baixo!)"
+    IDS_STATS_MAXAVGDL      "Máxima velocidade média de download: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MAXDL         "Máxima velocidade de download: %s"
+    IDS_PW_FASTSRVCON       "Ligação segura"
+    IDS_SOURCELINKFAILED    "Você precisa de ter HighID para criar uma ligação de fonte válida"
+    IDS_ERR_LOADSERVERMET   "Falhou o carregamento do ficheiro server.met!"
+    IDS_ERR_CORRUPTCOMPRPKG "Recebido pacote comprimido corrompido para o ficheiro %s (erro %u)"
+    IDS_ERR_EMFRIENDSINVALID
+                            "O ficheiro emfriends.met é inválido ou está corrompido!"
+    IDS_ERR_READEMFRIENDS   "Erro desconhecido ao ler emfriends.met: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "Recebida informação desconhecida do servidor!"
+    IDS_WIZ_DOWN            "Down (kbit/s)"
+    IDS_WIZ_UP              "Up (kbit/s)"
+    IDS_SELECT_INCOMINGDIR  "Escolha uma pasta para os ficheiros recebidos"
+    IDS_SELECT_TEMPDIR      "Escolha uma pasta para os ficheiros temporários"
+    IDS_PRIOAUTO            "Auto"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOAUTONORMAL      "Auto [Nor]"
+    IDS_PRIOAUTOHIGH        "Auto [Alt]"
+    IDS_PRIOAUTORELEASE     "Auto [Lan]"
+    IDS_PRIOAUTOLOW         "Auto [Bai]"
+    IDS_ERR_CONTIMEOUT      "A tentativa de ligação a ""%s"" (%s:%u ) expirou"
+    IDS_OUTOFSERVERS        "Falhou a ligação a todos os servidores listados. A proceder a uma nova ronda."
+    IDS_PW_CONLIMITS        "Limites de Ligação"
+    IDS_MAXCON5SECLABEL     "Máximo de novas ligações / 5 segs."
+    IDS_PW_UAP              "Adicionar novos ficheiros partilhados com Auto-Prioridade"
+    IDS_MAXCLIENT           "Máximo de Utilizadores"
+    IDS_PW_TWEAK            "Opções Estendidas"
+    IDS_TWEAKS_WARNING      "Aviso: Não mude estas opções a menos que saiba o que está a fazer. De outra forma poderá facilmente piorar as coisas para si. O eMule correrá perfeitamente sem ajustar qualquer destas opções."
+    IDS_ADDAFRIEND          "Adicionar Amigo"
+    IDS_PAF_REQINFO         "Informação Necessária"
+    IDS_PAF_MOREINFO        "Informação Adicional"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "Tem de inserir um IP e porta válidos!"
+    IDS_ADD                 "Adicionar"
+    IDS_RECOVERED_PARTMET   "Foi recuperado o ficheiro part.met de: %s"
+    IDS_CMT_QUEST           "Comente este ficheiro! (Este texto será mostrado a todos os utilizadores)"
+    IDS_CMT_AIDE            "Para um filme pode referir a sua duração, a história, a língua... e se for falso, pode informar os outros utilizadores do eMule..."
+    IDS_CMT_ADD             "Mude o comentário deste ficheiro..."
+    IDS_CMT_NONE            "Sem comentário"
+    IDS_CMT_READ            "Comentário do ficheiro:"
+    IDS_CMT_SHOWALL         "Mostrar todos os comentários"
+    IDS_CMT_READALL         "Todos os Comentários"
+    IDS_CMT_RATEQUEST       "Qualidade do ficheiro"
+    IDS_CMT_RATEHELP        "Escolha a classificação ou aconselhe outros utilizadores se for inválido"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_FAKE            "Inválido / Corrupto / Falso"
+    IDS_CMT_POOR            "Mau"
+    IDS_CMT_GOOD            "Bom"
+    IDS_CMT_FAIR            "Razoável"
+    IDS_CMT_EXCELLENT       "Excelente"
+    IDS_CMT_NOTRATED        "Não classificado"
+    IDS_KILO                "K"//!
+    IDS_MEGA                "M"//!
+    IDS_GIGA                "G"//!
+    IDS_TERA                "T"//!
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "Ignorar Proto-Mensagens do Emule"
+    IDS_SMARTLOWIDCHECK     "Usar verificação inteligente de LowID ao ligar"
+    IDS_SF_SRVOCC           "Ocupação do Servidor: %.2f%%"
+    IDS_3DDEP               "Estilo da Barra de Progresso"
+    IDS_AUTOTAKEED2KLINKS   "Apenas aceitar ligações eD2K enquanto estiver a correr"
+    IDS_ADDNEWFILESPAUSED   "Adicionar ficheiros aos Downloads em Pausa"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOHELP          "Não foi encontrado o ficheiro de ajuda.\n Por favor visite a nossa página para obter uma cópia do ficheiro de ajuda mais recente! (secção de downloads)\nDeseja em alternativa consultar agora a ajuda online?"
+    IDS_SHOWOVERHEAD        "Mostrar largura de banda adicional"
+    IDS_UPDOWNSMALL         "Envio: %.1f | Recepção: %.1f"
+    IDS_EDITLIST            "Lista"
+    IDS_SP_ICONBAR          "Barra de velocidade no ícone eMule"
+    IDS_RATINGRECV          "Recebida a classificação para o ficheiro '%s': %u"
+    IDS_DESCRIPTIONRECV     "Recebida a descrição para o ficheiro '%s': %s"
+    IDS_WEBSERVICES         "Serviços Web"
+    IDS_WEBSVEDIT           "Editar Serviços Web"
+    IDS_CHECK4UPDATE        "Verificar existência de nova versão"
+    IDS_STARTUP             "Arranque"
+    IDS_NEWVERSIONAVL       "Está disponível uma nova versão do eMule! Venha à nossa página para mais informações."
+    IDS_NEWVERSIONAVLPOPUP  "Está disponível uma nova versão do eMule! Clique aqui para saber mais acerca da nova versão!"
+    IDS_NEWVERSIONFAILED    "Não foi possível verificar a existência de uma nova versão."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "For detectada uma nova versão do eMule"
+    IDS_NONEWERVERSION      "Não foi detectada nenhuma nova versão do eMule."
+    IDS_VERSIONCHECK        "&Verificar Versão"
+    IDS_VISITVERSIONCHECK   "\n\nDeseja visitar a página de informações neste momento?"
+    IDS_PW_VIDEOPLAYER      "Programa de Visualização"
+    IDS_VIDEOBACKUP         "Criar cópia de segurança para pré-visualizar"
+    IDS_MYINFO              "A Minha Informação"
+    IDS_ID                  "ID"//!
+    IDS_IDLOW               "Low ID"//!
+    IDS_IDHIGH              "High ID"//!
+    IDS_UPSTATUS            "Partes Obtidas"
+    IDS_TOVERHEAD           "Overhead Total (Pacotes): %s (%s)"
+    IDS_FROVERHEAD          "Overhead de Pedido de Ficheiros (Pacotes): %s (%s)"
+    IDS_SSOVERHEAD          "Overhead de Troca de Fontes (Pacotes): %s (%s)"
+    IDS_SOVERHEAD           "Overhead do Servidor (Pacotes): %s (%s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD
+                            "Falhou a criação da linha de finalização de ficheiro"
+    IDS_FILEBUFFERSIZE      "Tamanho do Buffer de Ficheiros"
+    IDS_QUEUESIZE           "Tamanho da Fila de Espera"
+    IDS_DAYS2               "dias"
+    IDS_ERR_MAKEBAKCREDITFILE
+                            "Falhou a criação de uma cópia de segurança do ficheiro de créditos"
+    IDS_COMMENT             "Comentário"
+    IDS_IPFILTERED          "IP Filtrado: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "Concluído"
+    IDS_STATS_FILTEREDCLIENTS "Filtrado: %u"
+    IDS_FILTERLABEL         "Filtrar mensagens que contenham: (Separador | )"
+    IDS_ERR_LARGEREQBLOCK   "Cliente pediu um bloco demasiadamente grande."
+    IDS_SHOWRATEONTITLE     "Mostrar velocidades de transferência na barra de título"
+    IDS_TBN_NOMESSAGEHISTORY "Histórico de mensagens não disponível!"
+    IDS_PW_DAP              "Adicionar novos downloads com Auto-Prioridade"
+    IDS_FD_LASTCHANGE       "Última Recepção:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_RUNTIME       "Tempo de operação"
+    IDS_ALL                 "Todos"
+    IDS_CAT_ADD             "Adicionar categoria"
+    IDS_CAT_EDIT            "Editar categoria"
+    IDS_CAT_REMOVE          "Remover categoria"
+    IDS_CAT                 "categoria"
+    IDS_TITLE               "Título"
+    IDS_COLOR               "Cor"
+    IDS_DEFAULT             "Pré-definido"
+    IDS_PW_DISPLAY          "Visualização"
+    IDS_INDICATERATINGS     "Identificar os downloads comentados através de um ícone"
+    IDS_ALLOTHERS           "Não catalogados"
+    IDS_TOCAT               "Atribuir à categoria"
+    IDS_CAT_UNASSIGN        "(sem categoria)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "Adicionar estas ligações de ficheiros eD2K aos Downloads?\n"
+    IDS_PF_WATCHCB          "Monitorizar clipboard por ligações eD2K"
+    IDS_SECURITY            "Segurança"
+    IDS_IPFILTERLOADED      "%u Filtros de IP Carregados"
+    IDS_IPFILTER            "Filtro de IP"
+    IDS_EDIT                "Editar"
+    IDS_FILTERLEVEL         "Nível do Filtro"
+    IDS_FILTERSERVERBYIPFILTER
+                            "Também filtrar servidores"
+    IDS_FILTERCOMMENTSLABEL "Ignorar comentários que contenham: (Separador | )"
+    IDS_CLIENTLIST          "Clientes Conhecidos"
+    IDS_FOLDER              "Pasta"
+    IDS_CL_UPLOADSTATUS     "Estado do Upload"
+    IDS_CL_TRANSFUP         "Enviado"
+    IDS_CL_DOWNLSTATUS      "Estado do Download"
+    IDS_CL_TRANSFDOWN       "Recebido"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CL_PENDING          "Pendente"
+    IDS_CL_LOW2LOW          "IP Low Para Low"
+    IDS_ERROR               "Erro"
+    IDS_OPENINC             "&Abrir pasta de chegada"
+    IDS_HOTMENU             "Hotmenu"//!
+    IDS_DISABLEKNOWNLIST    "Desactivar lista de Clientes Conhecidos"
+    IDS_DISABLEQUEUELIST    "Desactivar Fila de Espera"
+    IDS_USECREDITSYSTEM     "Usar Sistema de Créditos (recompensa quem mais partilha)"
+    IDS_FIRSTAUTODOWN       "Active esta opção se quiser que o eMule faça a gestão da prioridade dos seus downloads.\n\nLigar esta opção fará com que o eMule não deixe que os ficheiros com muitas fontes interfiram com a transferência de ficheiros raros com poucas fontes. Esta opção só terá efeito sobre os downloads futuros."
+    IDS_FIRSTAUTOUP         "Active esta opção se quiser que o eMule faça a gestão da prioridade dos seus uploads.\n\nLigar esta opção fará com que o eMule dê primazia aos ficheiros raros, reduzindo o acesso aos ficheiros populares. Desligar esta opção fará com que o eMule faça upload de ficheiros populares com maior frequência, significando que os ficheiros raros serão cada vez mais raros. Esta opção só terá efeito sobre ficheiros futuramente partilhados."
+    IDS_FIRSTSAFECON        "Active esta opção se desejar que o eMule se ligue com Ligação Segura.\n\nDesligar esta opção permitirá que a ligação aos servidores se efectue mais rapidamente, mas pode levar a que receba ligações LowID indevidas."
+    IDS_FIRSTAUTOCON        "Active esta opção se desejar que o eMule se ligue a um servidor durante o arranque."
+    IDS_FIRSTCOMPLETE       "Terminou o assistente de configuração de primeira utilização.\n\nTodas estas e outras opções poderão ser alteradas carregando no ícone de preferências. Para explicações e assistência, veja a ajuda premindo F1 no eMule!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENTERUSERNAME       "Por favor insira o seu nome de utilizador:"
+    IDS_STATIC_CPUMEM       "Poupar CPU && Memória"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "A palavra-chave é demasiado curta.\r\n\r\nA(s) palavra(s)-chave utilizadas nas expressões de pesquisa Kad têm de ter um mínimo de 3 caracteres."
+    IDS_LOG2DISK            "Guardar relatório no disco"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "Já está a decorrer uma pesquisa Kad para a expressão ""%s"".\r\n\r\nPara pesquisar novamente por essa expressão terá de aguardar que a pesquisa decorrente termine ou fechar o painel da pesquisa correspondente."
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "Palavra-chave Kad inválida.\r\n\r\nUma expressão de pesquisa Kad obedece ao seguinte formato:\r\n\r\n\t<palavra-chave-kad> [ <expressão-de-pesquisa-ed2k> ]\r\n\r\nA <palavra-chave-kad> não pode conter nenhum dos seguintes caracteres:\r\n\r\n\t%s"
+    IDS_EDITCAT             "Editar Propriedades da Categoria"
+    IDS_PW_WS               "Servidor Web"
+    IDS_ENABLED             "Activo"
+    IDS_WEB_LOGIN           "Login"//!
+    IDS_WEB_ENTER_PASSWORD  "Insira aqui a sua palavra-passe"
+    IDS_WEB_LOGIN_NOW       "Ligar Agora"
+    IDS_WEB_CONFIRM_REMOVE_SERVER
+                            "Tem a certeza de que quer remover este servidor da lista?"
+    IDS_WEB_CONTROL         "Painel de Controle Web"
+    IDS_WEB_LOGOUT          "Desligar"
+    IDS_WEB_ACTIONS         "Acções"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "Mostrar Fila de Espera"
+    IDS_WEB_GZIP_COMPRESSION "Compressão Gzip"
+    IDS_WEB_GZIP_COMMENT    "Poupa tráfego, especialmente em gráficos."
+    IDS_WEB_REFRESH_TIME    "Intervalo de reactualização das páginas"
+    IDS_WEB_REFRESH_COMMENT "Tempo em segundos (zero=desactivado):"
+    IDS_SV_URL              "URL"//!
+    IDS_WS_RELOAD_TMPL      "Modelo"
+    IDS_SV_DEBUGLOG         "Relatório de Depuração (Debug Log)"
+    IDS_WS_PASS             "Palavra-passe"
+    IDS_WS_ERR_LOADTEMPLATE "Impossível carregar modelo: substitua o ficheiro %s por uma versão mais recente!"
+    IDS_WEB_CONLIMITS       "Limites de Ligação"
+    IDS_INFLST_USER_TOTALDOWNLOAD "Total recebido"
+    IDS_INFLST_USER_TOTALUPLOAD "Total enviado"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "Servidor Web: Falhou a tentativa de ligação"
+    IDS_ERR_TOOLARGEFILE    "Ficheiro maior que o tamanho suportado pelo protocolo edonkey (>=256GB)"
+    IDS_MSGONLYFRIENDS      "Apenas aceitar de amigos"
+    IDS_DAY_MO_SA           "Seg-Sáb"
+    IDS_LIMITSOURCES        "Limite de fontes"
+    IDS_LIMITCONS5SEC       "Limite de ligações/5secs"
+    IDS_SCHED_CATSTOP       "Cat:Parar Downloads"
+    IDS_SCHED_CATRESUME     "Cat:Continuar Downloads"
+    IDS_S_DAYS              "Dias"
+    IDS_STARTTIME           "Hora de início"
+    IDS_VALUE               "Valor"
+    IDS_SCHED_ENTERDATARATELIMIT "Insira o limite de velocidade:"
+    IDS_SCHED_ENTERVAL      "Por favor insira o novo valor:"
+    IDS_SCHED_ACTCONFIG     "Configurar acção"
+    IDS_SELECTCAT           "Seleccionar categoria"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALLUNASSIGNED       "Todos os sem categoria"
+    IDS_ACTSESSIONS         "Sessões activas"
+    IDS_WEBSRV              "Servidor Web"
+    IDS_SW_REFETCHRES       "Readquirir Resultados"
+    IDS_FILEHASH            "Hash do Ficheiro"
+    IDS_PW_PROXY            "Proxy"//!
+    IDS_PROXY_ENABLE        "Activar Proxy"
+    IDS_PROXY_TYPE          "Tipo de Proxy:"
+    IDS_PROXY_HOST          "Servidor:"
+    IDS_PROXY_PORT          "Porta da Proxy:"
+    IDS_PROXY_AUTH          "Activar autenticação"
+    IDS_AUTH                "autenticação"
+    IDS_SHOWCATINFO         "Mostrar informação de download nos títulos das categorias"
+    IDS_SW_SEARCHINGINFO    "Pesquisa em curso. Readquira os resultados dentro de momentos!"
+    IDS_LOGENTRY            "Entrada de Relatório"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "Copiar"
+    IDS_SELECTALL           "Seleccionar Todos"
+    IDS_AUTOSCROLL          "Auto-Desfilar Texto"
+    IDS_WIZ1_WELCOME_TITLE  "Bem-vindo ao eMule"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "Este assistente irá guiá-lo pelos primeiros passos de configuração do eMule."
+    IDS_WIZ1_WELCOME_BTN_HINT "Para continuar, clique em Seguinte."
+    IDS_WIZ1_END_TITLE      "A finalizar o Assistente"
+    IDS_WIZ1                "Assistente de primeira utilização do eMule"
+    IDS_WIZ1_END_BTN_HINT   "Para fechar este Assistente, clique em Finalizar."
+    IDS_WIZ1_UPLOAD_SUBTITLE "Transferência de parte inteira"
+    IDS_DL_RESUMENEXT       "Começar o próximo em pausa"
+    IDS_STARTPRIO           "Prioridade desta categoria"
+    IDS_PREF_STARTNEXTFILECAT "Preferir a mesma categoria"
+    IDS_SOFTFILES           "Limite de Ficheiros (Soft)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDFILES           "Limite de Ficheiros (Hard)"
+    IDS_FILTER              "Filtro"
+    IDS_LINKS               "Ligações"
+    IDS_HM_SCHED_ON         "Ligar o Temporizador"
+    IDS_HM_SCHED_OFF        "Desligar o Temporizador"
+    IDS_HM_LINKHP           "Página do eMule"
+    IDS_HM_LINKFAQ          "FAQ do eMule"
+    IDS_HM_LINKVC           "Verificação da versão do eMule"
+    IDS_DEBUG_SOURCE_EXCHANGE
+                            "Registar pedidos/respostas de troca de fontes para clientes/servidores"
+    IDS_SHAREDREQ1          "Utilizador %s (%u) pediu a sua lista de pastas partilhadas -> %s"
+    IDS_SHAREDREQ2          "Utilizador %s (%u) pediu a sua lista de ficheiros partilhados para a pasta '%s' -> %s"
+    IDS_SHAREDANSW          "Utilizador %s (%u) partilha a pasta '%s'"
+    IDS_SHAREDANSW2         "Utilizador %s (%u) enviou uma lista de pastas partilhadas não pedida - ignorada"
+    IDS_SHAREDINFO1         "Utilizador %s (%u) enviou lista de ficheiros partilhados para a pasta '%s'"
+    IDS_SHAREDINFO2         "Utilizador %s (%u) terminou o envio da lista de ficheiros partilhados"
+    IDS_SHAREDANSW3         "Utilizador %s (%u) enviou uma lista de ficheiros partilhados não pedida para a pasta '%s' - ignorada"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDREQDENIED     "Utilizador %s (%u) negou o acesso à lista de ficheiros/pastas partilhadas"
+    IDS_AUTOCLEANUPFN       "Limpar nome do ficheiro"
+    IDS_ONNEWDOWNLOAD       "Iniciações"
+    IDS_FILTERFILENAMEWORD  "Insira as palavras a filtrar, separadas por |"
+    IDS_FNFILTERTITLE       "Editar filtro de palavras para limpar nomes de ficheiros"
+    IDS_CHANGECATVIEW       "Seleccione o filtro de visualização"
+    IDS_STATUS_NOTCOMPLETED "Incompleto"
+    IDS_STATS_CUMULATIVE    "Cumulativo"
+    IDS_STATS_OVRHD         "L. de Banda adicional"
+    IDS_STATS_RECORDS       "Registos"
+    IDS_STATS_COMPDL        "Downloads Concluídos"
+    IDS_STATS_SVRECWORKING  "Max. de Servidores Operacionais"
+    IDS_STATS_SVRECUSERS    "Max. de Utilizadores Online"
+    IDS_SEARCH_TEXT         "Pesquisar por"
+    IDS_STATS_SVRECFILES    "Max. de Ficheiros Disponíveis"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SHRECNUM      "Max. de Ficheiros partilhados"
+    IDS_SEARCH_COLUMN       "Pesquisar na coluna"
+    IDS_STATS_SHRECSIZE     "Max. Tamanho de Partilha"
+    IDS_STATS_SHRECASIZE    "Max. Tamanho Médio de Partilha"
+    IDS_STATS_SESSION       "Sessão"
+    IDS_STATS_SRATIO        "Razão UL:DL da Sessão:"
+    IDS_STATS_CRATIO        "Razão UL:DL Cumulativa:"
+    IDS_SEARCH_NORESULT     "Nenhuma entrada correspondente encontrada."
+    IDS_STATS_CURRSRVDUR    "Duração do Servidor Corrente"
+    IDS_LONGSECS            "Segundos"
+    IDS_STATS_DLSES         "Sessões de Download"
+    IDS_LONGMINS            "Minutos"
+    IDS_STATS_SDLSES        "Sessões de Download Bem Sucedidas"
+    IDS_STATS_FDLSES        "Sessões de Download Falhadas"
+    IDS_STATS_AVGDATADLSES  "Média de Download por Sessão"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ULSES         "Sessões de Upload"
+    IDS_STATS_GAINCOMP      "Ganho Devido à Compressão: %s"
+    IDS_STATS_LOSTCORRUPT   "Perdido Devido a Corrupção: %s"
+    IDS_STATS_AVGDATAULSES  "Média de Upload por Sessão"
+    IDS_STATS_ICHSAVED      "Partes Salvas Devido à R.I.C.: %u"
+    IDS_STATS_MBRESET_TXT   "Tem a certeza de que deseja limpar as suas estatísticas acumuladas?\n\nSe mudar de ideias, pode reverter esta medida carregando no botão 'Recuperar Estatísticas'."
+    IDS_STATS_MBRESTORE_TXT "Tem a certeza de que deseja recuperar as suas estatísticas acumuladas a partir do ficheiro de salvaguarda?\n\nCarregar novamente no botão 'Recuperar Estatísticas' irá repor as suas estatísticas correntes."
+    IDS_ERR_NOSTATBKUP      "ERRO: O ficheiro de salvaguarda de estatísticas não foi encontrado..."
+    IDS_STATS_NFOLOADEDBKUP "Carregada a informação estatística salvaguardada..."
+    IDS_STATS_NFORESET      "As estatísticas foram limpas!"
+    IDS_STATS_BNRESET       "Limpar Estatísticas"
+    IDS_STATS_BNRESTORE     "Recuperar Estatísticas"
+    IDS_PPGSTATS_YSCALE     "Escala do Eixo-Y das Estat. de Ligação:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "Razão de Ligações Activas:"
+    IDS_STATS_PROBLEMATIC   "Problemático"
+    IDS_LONGHRS             "Horas"
+    IDS_STATS_LARGESTFILE   "Maior Ficheiro Partilhado"
+    IDS_SPLIT_WINDOW        "Dividir Janela"
+    IDS_STATS_DSPF          "Ficheiro .part"
+    IDS_STATS_DATASOURCE    "Fonte de Dados"
+    IDS_STATS_DSFILE        "Ficheiro Completo"
+    IDS_STATS_GENERAL       "Geral"
+    IDS_STATS_TRANSTIME     "Tempo de Transferência"
+    IDS_STATS_DOWNTIME      "Tempo de Download"
+    IDS_STATS_UPTIME        "Tempo de Upload"
+    IDS_STATS_TOTALSRVDUR   "Duração Total do Servidor"
+    IDS_STATS_MAXAVGUL      "Máx. Velocidade Média de Upload"
+    IDS_STATS_MAXUL         "Máx. Velocidade de Upload"
+    IDS_STATS_AVGDLTIME     "Tempo Médio de Download"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_PRTDEF        "Pré-definido"
+    IDS_STATS_PRTOTHER      "Outros"
+    IDS_STATS_MNUTREETITLE  "Árvore de Estatísticas"
+    IDS_STATS_MNUTREECPYSEL "Copiar Ramo Seleccionado"
+    IDS_STATS_MNUTREECPYALL "Copiar TODAS as Estatísticas"
+    IDS_STATS_MNUTREEHTML   "Funcionalidades HTML"
+    IDS_STATS_EXPORT2HTML   "Exportar TODAS as Estatísticas"
+    IDS_STATS_MNUTREECPYVIS "Copiar Todas as Visíveis"
+    IDS_STATS_MNUTREEEXPANDALL "Expandir Todas as Secções"
+    IDS_STATS_MNUTREECOLLAPSEALL "Recolher Todas as Secções"
+    IDS_STATS_MNUTREEEXPANDMAIN "Expandir Secções Principais"
+    IDS_STATS_LASTRESETSTATIC "Última limpeza das estatísticas: %s"
+    IDS_STATS_MONTHLY       "Mensal"
+    IDS_STATS_YEARLY        "Anual"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_TIMESTATS     "Estatísticas Temporais"
+    IDS_STATS_AVGANDPROJ    "Projecção de Médias"
+    IDS_STATS_TIMESINCERESET "Tempo desde a última limpeza: %s"
+    IDS_CRYPT_INITFAILED    "Falhou a iniciação das cryptokeys - identificação segura inactiva"
+    IDS_CD_IDENT            "Identificação:"
+    IDS_IDENTOK             "Bem Sucedido"
+    IDS_IDENTFAILED         "Inválido"
+    IDS_IDENTNOSUPPORT      "Não suportado ou inactivo"
+    IDS_COMMITFILES         "Escrita segura de ficheiros .met/.dat"
+    IDS_ERR_BADUNC          "Nome-UNC Inválido"
+    IDS_NEVER               "Nunca"
+    IDS_ALWAYS              "Sempre"
+    IDS_ONSHUTDOWN          "Ao fechar"
+    IDS_UNCFOLDERS          "Pastas UNC"
+    IDS_USESECIDENT         "Usar identificação segura"
+    IDS_ADVSPAMFILTER       "Filtro de spam avançado"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CUT                 "Cortar"
+    IDS_STATS_SECUREIDENT   "Identificação Segura (OK : Falhou)"
+    IDS_ONDISK              "Tamanho em disco: "
+    IDS_CLIENTCOL           "Aviso: Encontrado um cliente correspondente a um cliente já ligado: %s (%s) e %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "Entrada indeterminada"
+    IDS_SEARCH_GENERALERROR "Erro Geral"
+    IDS_SEARCH_MISSINGORRIGHT "Lado direito do operador OR em falta"
+    IDS_SEARCH_MISSINGNOTRIGHT "Lado direito do operador NOT em falta"
+    IDS_SEARCH_MISSINGEXPRPARANT "Expressão para '(' ')' em falta"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "Fecho ')' em falta"
+    IDS_SEARCH_EXPRERROR    "Falhou a interpretação da expressão de pesquisa"
+    IDS_SEARCH_TOOCOMPLEX   "Expressão demasiado complexa"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSION             "Versão"
+    IDS_PASTE               "Colar"
+    IDS_A4AF                "Gestão de fontes"
+    IDS_AUTOCAT_LABEL       "Auto-Atribuição de Categoria (padrão, separado por |)"
+    IDS_SHOWEXTSETTINGS     "Mostrar mais controlos (controlos em modo avançado)"
+    IDS_TREEOPTIONS_TRUE    "Verdadeiro"
+    IDS_TREEOPTIONS_FALSE   "Falso"
+    IDS_TREEOPTIONS_OK      "OK"//!
+    IDS_HYPERTEXT_FONT_HINT "Fonte para Janela de Servidores, Mensagem e IRC"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SELECT_FONT         "Escolha a fonte"
+    IDS_SERVER_LIMITS       "Limite de Ficheiros Soft / Hard"
+    IDS_KBITSSEC            "kbit/seg"
+    IDS_KBYTESSEC           "kByte/seg"
+    IDS_ERR_CREATE_DIR      "Falha ao criar %s pasta ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "A directoria de ficheiros recebidos não pode ser definida numa directoria de instalação do eMule."
+    IDS_WRN_TEMPFILES_RESERVED
+                            "A directoria de ficheiros temporários não pode ser definida numa directoria de instalação do eMule."
+    IDS_WRN_INCTEMP_SAME    "As directorias de ficheiros recebidos e temporários não podem ser a mesma."
+    IDS_SHOWDWLPERCENTAGE   "Mostrar percentagem do ficheiro na barra de progresso"
+    IDS_TBN_ONNEWDOWNLOAD   "Download adicionado"
+    IDS_ARTIST              "Artista"
+    IDS_ALBUM               "Album"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UPLOADREQ        "Upload Pedido:"
+    IDS_SETTINGCHANGED_RESTART
+                            "Para que as definições alteradas surtam efeito, por favor reinicie o eMule!"
+    IDS_CREDITSEXPIRED      ", %u clientes apagados (não avistados em 5 meses)"
+    IDS_SOURCESINFO         "%u  (Úteis: %u, NNP: %u, A4AF: %u)"
+    IDS_META_DATA           "Meta-Dados"
+    IDS_TIMEBEFORE          "(há %s)"
+    IDS_FD_TIMEDATE         "Datas"
+    IDS_FILEINFORMATION     "Informação do Ficheiro"
+    IDS_STATS_FREESPACE     "Free Space"//!
+    IDS_IRC_HELPCHANNEL     "Ligar a canais de ajuda."
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-portuguese"
+    IDS_IRC_ACCEPTLINKSFRIENDS "Apenas de amigos."
+    IDS_COMPLSOURCES        "Fontes Completas"
+    IDS_CHECKNOENDTIME      "sem tempo limite"
+    IDS_FD_DOWNLOADSTARTED  "Download adicionado:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FAILEDREOPEN        "Erro Fatal: Falhou a reabertura do Ficheiro .part '%s' (%s)!"
+    IDS_ERR_PREVIEWALREADY  "Já existe um pedido de pré-visualização pendente a partir deste cliente"
+    IDS_ERR_PREVIEWFAILED   "Pré-visualização a partir do Utilizador '%s' falhou"
+    IDS_DWTOT               "Espaço em Disco"
+    IDS_DWTOT_NR            "Número de Downloads: %u"
+    IDS_DWTOT_TSD           "Tamanho Total dos Downloads: %s"
+    IDS_DWTOT_TCS           "Tamanho Total Concluído: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "Tamanho Total por Transferir: %s"
+    IDS_DWTOT_TSN           "Espaço Total Necessário para Downloads: %s"
+    IDS_DWTOT_FS            "Espaço Livre no Disco de Temporários: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (precisa de libertar %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT
+                            "Intervalo de reactualização da ligação ao servidor [min.]"
+    IDS_MORE                "&Mais"
+    IDS_TOOLS               "F&erramentas"
+    IDS_SEARCHPARAMS        "Parâmetros de Pesquisa"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u a calcular hash)"
+    IDS_CHECKDISKSPACE      "Verificar Espaço em Disco"
+    IDS_YOURHOSTNAME        "Hostname para as suas próprias ligações eD2K"
+    IDS_INSUFFICIENT        "Espaço em Disco Insuficiente"
+    IDS_MINFREEDISKSPACE    "Espaço em Disco Min. [MB]"
+    IDS_WARNING             "Aviso"
+    IDS_IMPORTSPLPF         "Importar ficheiros .part (eMule,eDonkey,Overnet)"
+    IDS_IMP_STEPREADPF      "A ler pasta de .part(s)"
+    IDS_IMP_STEPBASICINF    "A recolher informação básica do ficheiro .part"
+    IDS_IMP_STEPCRDESTFILE  "A criar ficheiro .part destino"
+    IDS_IMP_LOADDATA        "A carregar dados a partir do ficheiro .part antigo (%u de %u)"
+    IDS_IMP_SAVEDATA        "A guardar bloco de dados num novo ficheiro .part individual (%u de %u)"
+    IDS_IMP_IOERROR         "Erro de ficheiro ao converter ficheiro .part"
+    IDS_IMP_GETPFINFO       "A recolher informação do ficheiro .part fonte"
+    IDS_IMP_ADDDWL          "A adicionar download e salvar novo ficheiro .part"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_FETCHSTATUS     "A buscar estado..."
+    IDS_IMP_INPROGR         "em progresso"
+    IDS_IMP_ERR_DISKSP      "Erro: Sem espaço em Disco"
+    IDS_IMP_ERR_PARTMETIO   "Erro: Partmet não encontrado"
+    IDS_IMP_ERR_IO          "Erro: Erro de IO!"
+    IDS_IMP_ERR_FAILED      "Erro: Falhou!"
+    IDS_IMP_STATUSQUEUED    "Em Fila de Espera"
+    IDS_IMP_ALRDWL          "Já em download"
+    IDS_IMP_ADDBTN          "&Adicionar importações"
+    IDS_IMP_RETRYBTN        "&Tentar novamente os seleccionados"
+    IDS_IMP_REMOVEBTN       "Re&mover os seleccionados"
+    IDS_IMP_SELFOLDER       "Por favor escolha uma única pasta partmet ou a sua pasta de temporários anterior com todas as sub-pastas partmet!"
+    IDS_IMP_DELSRC          "Deseja que sejam apagados os ficheiros .part fonte dos downloads importados com sucesso?"
+    IDS_IMP_SIZE            "%s (Disco:%s)"
+    IDS_IMP_STATUS          "A importar %s: %s"
+    IDS_DYNUPENABLED        "Ajuste automático da velocidade de upload"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "Tolerância de Ping (% do ping mais baixo)"
+    IDS_DYNUP_GOINGUPDIVIDER "Atraso da reacção ao aumento"
+    IDS_DYNUP_GOINGDOWNDIVIDER "Atraso da reacção à diminuição"
+    IDS_DYNUP_NUMBEROFPINGS "Número Máx. de pings para a média"
+    IDS_DYNUP_MINUPLOAD     "Menor velocidade de upload permitida"
+    IDS_ESTTIMELEFT         "Tempo restante estimado:"
+    IDS_TRANSFER_RATE_LABEL "Taxa de transferência:"
+    IDS_SAVELOG             "Guardar Relatório"
+    IDS_CMT_COPYCLIPBOARD   "Copiar comentário para o clipboard"
+    IDS_ASKDOWNLOADLANG     "A língua que escolheu não se encontra instalada no seu sistema. Deseja que o eMule a vá buscar a www.emule-project.net?"
+    IDS_ASKDOWNLOADLANGCAP  "Download de ficheiros de língua"
+    IDS_DELETESELECTED      "Apagar"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "Falhou a transferência e instalação dos ficheiros dll escolhidos a partir de %s!"
+    IDS_ERR_BADFOLDER       "Pasta Inválida.\nPasta não pode ser criada. Por favor confira o nome e a localização."
+    IDS_AUTOREMOVEFD        "Limpar automaticamente os downloads concluídos"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_NODE            "Descoberta de Nodos"
+    IDS_KAD_STOREFILE       "Armazenar Ficheiro"
+    IDS_KAD_STOREKW         "Armazenar Palavra-chave"
+    IDS_KAD_UNKNOWN         "Desconhecido"
+    IDS_SRV_TCPCOMPR        "Compressão TCP"
+    IDS_KADSEARCHLAB        "Pesquisas em Curso"
+    IDS_SRV_UDPSR           "Protocolo UDP estendido para os pedidos de fontes"
+    IDS_SRV_UDPFR           "Protocolo UDP estendido para os pedidos de ficheiros"
+    IDS_MINLENGTH           "Min. length [hh:mm:ss]"
+    IDS_EM_HELP             "&Ajuda"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "Amigo não adicionado.\r\n\r\nJá existe um amigo registado com o mesmo endereço de IP e Porta."
+    IDS_DYNUP               "Detecção da Velocidade de Upload"
+    IDS_KADOVERHEAD         "Largura de Banda Kad Adicional (Pacotes): %s (%s)"
+    IDS_FIND                "Pesquisar..."
+    IDS_LOG_BANNED_CLIENTS  "Registar clientes banidos"
+    IDS_LOG_RATING_RECV     "Registar descrições e classificações de ficheiros recebidas"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "de clientes conhecidos"
+    IDS_KADUDPPORTERR       "A porta UDP da Kad está em conflito ou com a porta UDP ext. do eMule ou com a porta UDP do servidor eMule. A porta foi alterada para %u."
+    IDS_CONFIRM_FILEDELETE  "Deseja realmente remover todos os ficheiros seleccionados do disco?"
+    IDS_OPENFOLDER          "Abrir Pasta"
+    IDS_RUNASUSER           "Correr o eMule como utilizador sem privilégios"
+    IDS_DELETE              "Apagar do disco"
+    IDS_BOOTSTRAP           "Auxílio Externo"
+    IDS_VIAED2KSQ           "via Servidor/Fila de Espera ED2K"
+    IDS_EM_KADEMLIA         "&Kad"//!
+    IDS_VIAKAD              "via Kad"//!
+    IDS_VIASE               "via Troca de Fontes"
+    IDS_SELECTTOOLBARBITMAP "Escolha o Bitmap para a Barra de Ferramentas"
+    IDS_SELECTTOOLBARBITMAPDIR "Escolha a Directoria de Bitmaps"
+    IDS_TOOLBARSKINS        "Temas visuais da barra de ferramentas"
+    IDS_NOTEXTLABELS        "Sem Etiqueta"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "à direita do ícone"
+    IDS_TEXTLABELS          "Etiquetas de Texto"
+    IDS_ENABLETEXTLABELS    "Por debaixo do ícone"
+    IDS_CUSTOMIZETOOLBAR    "Personalizar Barra de Ferramentas"
+    IDS_MINBITRATE          "Bitrate min. [kbit/s]"
+    IDS_KAD_RECHECKFW       "Reverificar a Firewall"
+    IDS_SHAREDTITLE         "Partilhas ED2K|Kad"
+    IDS_FIREWALLED          "Atrás de Firewall"
+    IDS_KADEMLIA            "Kad"//!
+    IDS_KADCONTACTLAB       "Contactos"
+    IDS_KADDISTANCE         "Distância"
+    IDS_KEY                 "Chave"
+    IDS_NUMBER              "Número"
+    IDS_KAD_SEARCHSRC       "Pesquisa de Fontes"
+    IDS_KAD_SEARCHKW        "Pesquisa de Palavras-chave"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_SECURE_IDENT    "Registar identificações seguras"
+    IDS_LOG_FILTERED_IPS    "Registar IPs filtrados e/ou ignorados"
+    IDS_LOG_FILE_SAVING     "Registar acções de guardar ficheiros"
+    IDS_DELETEIPFILTERS     "Deseja realmente apagar os filtros de IP seleccionados?"
+    IDS_TOTAL_IPFILTER_LABEL "Total de filtros de IP:"
+    IDS_TOTAL_IPS_LABEL     "Total de IPs:"
+    IDS_RAU_WARNING         "Esta opção dará ao eMule um nível de segurança adicional contra possíveis ataques e nós aconselhamos que use esta opção.\nNo entanto é veementemente recomendado que leia o manual antes de a activar!\n\nQuaisquer alterações só entrarão em vigor após reiniciar o eMule."
+    IDS_APPEND              "Juntar..."
+    IDS_SAVE                "Guardar"
+    IDS_IP_START            "Início"
+    IDS_IP_END              "Fim"
+    IDS_IP_LEVEL            "Nível"
+    IDS_IP_DESC             "Descrição"
+    IDS_IP_HITS             "IPs filtrados"
+    IDS_IP_RULES            "Filtros de IP:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "De momento não está ligado à Rede Kad!"
+    IDS_IRC_NOSFS           "Não foram seleccionados ficheiros partilhados"
+    IDS_RESETLABEL          "Auto-completar (função de registo)"
+    IDS_IRC_IGNOREMISCMESSAGE "Ignorar mensagens de informação genérica"
+    IDS_KNOWN               "Conhecidos"
+    IDS_RAU_RUNNING         "eMule a correr como utilizador sem privilégios ""%s"""
+    IDS_RAU_FAILED          "Não foi possível iniciar o eMule como utilizador sem privilégios ""eMule_Secure"". Serão mantidos os privilégios do utilizador corrente (""%s"")."
+    IDS_KADCONTACTSREAD     "Carregados %u contactos a partir do ficheiro."
+    IDS_ERR_KADCONTACTS     "Nenhum contacto encontrado, faça um bootstrap, ou descarregue um ficheiro nodes.dat."
+    IDS_METATAGS            "Número de Meta Tags:"
+    IDS_FILEFORMAT          "Formato do Ficheiro"
+    IDS_UDPREASKS           "Re-pedidos de ficheiros via UDP"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE_MS 			"Tolerância para o Ping (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER 	"Método de tolerância para o Ping"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS 		"Milisegundos (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT 	"Percentagem (%)"
+    IDS_LOG_A4AF            "Registar acções A4AF"
+    IDS_A4AF_SAVE_CPU       "Desactivar verificações A4AF para poupar CPU"
+    IDS_SEARCH_DOC          "Documento"
+    IDS_DOWNLOAD_ALPHABETICAL "Transferir por ordem alfabética"
+    IDS_INSTALL_SKIN        "Instalar Tema Visual do eMule"
+    IDS_INSTALL_SKIN_NODIR  "Não existe uma directoria seleccionada para os perfil de Temas Visuais, ou a directoria seleccionada não se encontra acessível!"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "Não foi possível criar a directoria ""%s"" para o Tema Visual do eMule - %s"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "Ocorreu um erro ao extrair o ficheiro ""%s"" a partir do ficheiro local de Tema Visual do eMule ""%s"" - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "Este não é um ficheiro válido de pacote de Tema Visual do eMule."
+    IDS_NEXT_REASK          "A seguir pedir a este cliente"
+    IDS_A4AF_FILES          "Ficheiros A4AF"
+    IDS_STATS_FRATIO        "Rácio UL:DL da sessão (Excluindo UL para amigos):"
+    IDS_STATS_UDATA_FRIENDS "Dados enviados a ligações de amigo (Sessão): %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FO_PREF_EXISTED     "O eMule detectou que já existem regras para as portas seleccionadas, cujas não foram substituídas ou alteradas. As regras em omissão foram adicionadas com sucesso.\nPor favor tenha em atenção que outras firewalls ou routers não serão afectados por esta medida!"
+    IDS_FO_PREF_FAILED      "Não foi possível configurar as portas seleccionadas na firewall interna do WinXP!"
+    IDS_FO_PREF_STARTUP     "Abrir/fechar as portas na firewall interna do Windows XP durante o arranque/fecho do eMule"
+    IDS_LOG_LEVEL           "Nível do Registo"
+    IDS_FO_TEMPTCP_S        "Foi aberta a porta %u (TCP) na firewall interna do Windows XP, para a duração desta sessão do eMule"
+    IDS_FO_TEMPTCP_F        "Não foi possível abrir a porta %u (TCP) na firewall interna do Windows XP, para a duração desta sessão do eMule"
+    IDS_FO_TEMPUDP_S        "Foi aberta a porta %u (UDP) na firewall interna do Windows XP, para a duração desta sessão do eMule"
+    IDS_FO_TEMPUDP_F        "Não foi possível abrir a porta %u (UDP) na firewall interna do Windows XP, para a duração desta sessão do eMule"
+    IDS_FO_PREFBUTTON       "Abrir estas portas na firewall interna do Windows XP"
+    IDS_FO_PREF_SUCCCEEDED  "Foram abertas as portas na firewall interna do Windows XP.\nPor favor tenha em atenção que outras firewalls ou routers não serão afectados por esta medida!"
+    IDS_SOURCESWAPBLOCKED   "Permuta bloqueada"
+    IDS_A4AF_CHECK_THIS_NOW "Verificar agora esta fonte (depurar)"
+    IDS_NEWMSG              "Nova mensagem de '%s' (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "apenas na mesma categoria"
+    IDS_LOG_ULDL_EVENTS     "Registar eventos de upload/download"
+    IDS_PEERCACHE_ENABLED   "O seu suporta a tecnologia PeerCache, permitindo downloads a partir da cache!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "Permitir que o utilizador o adicione como amigo."
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "Falta ainda descarregar partes para conseguir pré-visualizar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "O formato do ficheiro temporário é desconhecido ou está corrupto."
+    IDS_SEARCH_INVALIDCHAR  "A expressão de pesquisa contém caracteres inválidos. Ou você introduziu um '?' ou introduziu caracteres que não podem ser usados na rede eD2K."
+    IDS_PORTSCON            "Portas e Ligação"
+    IDS_PORTINFO            "O eMule utiliza duas portas para comunicar com os servidores e clientes. Estas portas têm de se encontrar livres e acessíveis para os clientes remotos. A porta TCP tem de estar disponível para assegurar a funcionalidade principal do eMule. A porta UDP é utilizada pela Kad (rede sem servidores) e reduz a carga de tráfego na rede (Overhead).\n\nPode alterar aqui as portas a serem usadas enquanto não forem iniciadas as actividades da rede."
+    IDS_STARTTEST           "Testar portas"
+    IDS_TESTINFO            "Aqui pode testar se as suas portas TCP e UDP podem ser acedidas remotamente. É necessário que este teste tenha sucesso de forma a que os servidores e clientes se possam ligar a si. Sobretudo o teste à porta TCP tem de ter um resultado positivo!"
+    IDS_CONNECTIONTEST      "Testar Ligação"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "A alteração das portas não será possível após ter estabelecido ligações com clientes ou enquanto estiver ligado a um servidor/Kad!\n\nPor favor reinicie o eMule para as portas serem alteradas."
+    IDS_NETWORK_INFO        "Informação da Rede"
+    IDS_SP_TOTALUL          "Número total de uploads"
+    IDS_SP_ULFRIENDS        "Upload de ligações de amigo"
+    IDS_SP_ULSLOTSNOOVERHEAD "Upload corrente (excepto overhead)"
+    IDS_ST_ACTIVEU_ZZ       "Uploads Activos"
+    IDS_ST_ULCURRENT        "Corrente"
+    IDS_ST_ULSLOTSNOOVERHEAD "Corrente (excepto overhead)"
+    IDS_ST_ULFRIEND         "Upload para Amigo"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "Uploads activos/precisos para encher a largura de banda: %u"
+    IDS_STATS_TOTALUL       "Número total de uploads: %u"
+    IDS_CHAT_DOWNLOADED     "Descarregados:"
+    IDS_CHAT_UPLOADED       "Enviados:"
+    IDS_CHAT_IDENT          "Identificação:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAXHALFOPENCONS     "Máximo de Ligações Meio Abertas"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "Active esta opção se quiser que o eMule seja iniciado sempre que arrancar o Windows. (Desactivado por defeito)"
+    IDS_KAD_WAITCBK         "Esperar resposta Kad"
+    IDS_KAD_TOOMANDYKADLKPS "Demasiados pedidos de informação Kad"
+    IDS_PCDS_CLIENTWAIT     "Atraso do Cliente"
+    IDS_PCDS_CACHEWAIT      "Atraso da Cache"
+    IDS_CACHE               "Cache"//!
+    IDS_INDEXED             "Indexado"
+    IDS_KADINFO_SRC         "\tFonte: %u\r\n"
+    IDS_KADINFO_KEYW        "\tPalavra-chave: %u\r\n"
+    IDS_STARTWITHWINDOWS    "Arrancar com o Windows"
+    IDS_ADDSRCMANUALLY      "Adicionar manualmente como fonte"
+    IDS_BUDDY               "Amigo"
+    IDS_BUDDYNONE           "Nenhum"
+    IDS_INFO                "Info"//!
+    IDS_HALF                "Meio"
+    IDS_CONCOMPL            "Compl"//!
+    IDS_KADSTATUS_STOPPING  "A Parar"
+    IDS_KADSTATUS_ACTIVE    "Activo"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FORMAT              "Formato"
+    IDS_META_COLLECTION     "Colecção"
+    IDS_META_PARTPATH       "Caminho do ficheiro .part"
+    IDS_META_PARTHASH       "Hash do ficheiro .part"
+    IDS_META_GAPSTART       "Início de Gap"
+    IDS_META_GAPEND         "Fim de Gap"
+    IDS_FAIL                "Falhou"
+    IDS_META_PREFERENCES    "Preferências"
+    IDS_META_VERSION        "Versão"
+    IDS_META_TEMPFILE       "Ficheiro temporário"
+    IDS_META_SERVERPORT     "Porta do servidor"
+    IDS_META_SERVERIP       "IP do servidor"
+    IDS_META_SRCUDPPORT     "Porta UDP da fonte"
+    IDS_META_SRCTCPPORT     "Porta TCP da fonte"
+    IDS_META_SRCIP          "IP da fonte"
+    IDS_META_SRCTYPE        "Tido de fonte"
+    IDS_SEARCH_UNICODE      "Pesquisar com Unicode"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LD_ED2KLINK         "Ligação ED2K"
+    IDS_LD_COPYCLIPBOARD    "Copiar para o Clipboard"
+    IDS_LD_HOSTNAME         "Usar hostname (estabelecido nas preferências) em vez do IP ao criar uma ligação de fonte"
+    IDS_SAVEACFAILED        "Não foi possível guardar a hashset RIAC!"
+    IDS_AICHHASH            "Hash RIAC"
+    IDS_BYTESPERSEC         "B/s"//!
+    IDS_KBYTESPERSEC        "KB/s"//!
+    IDS_MBYTESPERSEC        "MB/s"//!
+    IDS_GBYTESPERSEC        "GB/s"//!
+    IDS_TBYTESPERSEC        "TB/s"//!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MINORCLIENTS  "Menores"
+    IDS_LD_BASICOPT         "Opções Básicas"
+    IDS_LD_ADDSOURCE        "Adicionar-se como fonte"
+    IDS_LD_EMULEHASH        "Adicionar hash RIAC para gestão avançada de corrupção"
+    IDS_LD_ADVANCEDOPT      "Opções Avançadas"
+    IDS_LD_ADDHTML          "Adicionar etiquetas HTML"
+    IDS_LD_ADDHASHSET       "Adicionar hashset completo"
+    IDS_FILELINK            "Ligação do Ficheiro"
+    IDS_PF_ADVANCEDCALC     "Utilizar o método de cálculo avançado para o tempo restante"
+    IDS_DL_SHOWED2KLINK     "Mostrar ligação eD2K..."
+    IDS_AICH_SYNCTOTAL      "Foram encontrados %u ficheiros sem uma hash RIAC válida, esses ficheiros serão agora recalculados"
+    IDS_AICH_CALCFILE       " A calcular hash RIAC para o ficheiro %s"
+    IDS_AICH_WARNUSER       "Desde a versão 0.44a o eMule usa um filehash adicional que ajuda a reduzir drasticamente as perdas de dados quando uma corrupção é detectada. Porque está a actualizar o eMule a partir de uma versão anterior, o eMule precisa de recalcular todos os seus ficheiros partilhados para obter as novas hashes. Isto pode demorar um pouco mas esta acção só terá lugar uma vez.  "
+    IDS_AICH_WORKED         "RIAC (Recuperação Inteligente Automática de Corrupção) recuperou com sucesso %s de %s do ficheiro .part %u para %s"
+    IDS_TRICKLING           "Em Espera"
+    IDS_SOURCECLIENT        "Cliente Fonte"
+    IDS_USERSIP             "IP do utilizador"
+    IDS_FEATURES            "Funcionalidades"
+    IDS_IRC_NEWNICK         "Seleccione uma alcunha para o IRC."
+    IDS_IRC_NEWNICKDESC     "Tem de ser uma palavra com menos de 20 caracteres contendo (A-Z, 0-9). Pode ser mudada nas Preferências->Irc."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPARSEPARTFILES     "Criar os novos ficheiros .part em estado rarefeito (apenas em NTFS)"
+    IDS_ASPECTRATIO         "Rácio da Imagem"
+    IDS_NEGATEFILTER        "negar filtro"
+    IDS_SEENCOMPL           "Alguma vez visto completo"
+    IDS_SELSKINPROFILEDIR   "Seleccione a directoria de perfis visuais"
+    IDS_ASKDLINCOMPLETE     "Ficheiro potencialmente incompleto:\r\n\r\n%s\r\n\r\nÉ suposto este ficheiro estar incompleto na rede e ser portanto impossível de descarregar correctamente! Tem a certeza de que deseja descarregar este ficheiro?"
+    IDS_DEADSOURCES         "Fontes Inanimadas"
+    IDS_LARGEICONS          "Ícones Grandes"
+    IDS_SMALLICONS          "Ícones Pequenos"
+    IDS_SHORTTAGS           "Etiquetas curtas"
+    IDS_THELOAD             "Carga"
+    IDS_PACKSENT            "Pacotes Enviados"
+    IDS_RESPONSES           "Respostas"
+    IDS_EXTRACT_META_DATA   "Extrair meta dados"
+    IDS_META_DATA_MEDIADET  "DirectShow (Para todos os outros ficheiros audio/video)"
+    IDS_META_DATA_ID3LIB    "Livraria ID3 (apenas para ficheiros áudio MPEG)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "A livraria de Controlos Comuns do Windows (COMCTL32.DLL) é demasiado antiga!\r\n\r\nO eMule detectou uma versão da ""livraria de Controlos Comuns do Windows (COMCTL32.DLL)"" que é demasiado antiga para ser devidamente utilizada pelo eMule. De forma a assegurar o funcionamento total e fiável do eMule, recomendamos vivamente que actualize a ""livraria de Controlos Comuns do Windows (COMCTL32.DLL)"" para a versão 5.8 ou superior.\r\n\r\nDescarregue e instale a actualização da ""livraria de Controlos Comuns do Windows (COMCTL32.DLL)"" no centro de downloads da Microsoft(R). Deseja visitar o URL correspondente?"
+    IDS_ASREGEXPR           "Como Expressão Regular"
+    IDS_STATIC_REGEXP       "Expressão Regular para o filtro de visualização:"
+    IDS_CARE4ALL            "Avaliar Todos os Ficheiros"
+    IDS_REGEXPRESSION       "Expressão Regular"
+    IDS_SEARCHKAD           "Pesquisar a Kad"
+    IDS_DWL_IPFILTERFILE    "A descarregar o ficheiro de filtro de IP"
+    IDS_DWLIPFILTERFAILED   "Falhou o download do filtro de IP"
+    IDS_FINDBUDDY           "Encontrar Amigo"
+    IDS_ERR_IPFILTERZIPEXTR "Falhou a extracção do ficheiro de filtro de IP a partir do ficheiro ZIP de IP ""%s"" descarregado."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "O ficheiro de filtro de IP ""%s"" descarregado é um ficheiro ZIP com conteúdo inesperado."
+    IDS_STORENOTES          "Guardar Notas"
+    IDS_NOTES               "Notas"
+    IDS_KADSEARCHALREADY    "Ainda está em curso uma outra pesquisa. Por favor tente um pouco mais tarde!"
+
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHUTDOWN        "Fechar eMule"
+    IDS_WEB_REBOOT          "Reiniciar computador"
+    IDS_WEB_SHUTDOWNSYSTEM  "Desligar computador"
+    IDS_WEB_ADMINMENU       "Menu de Admin"
+    IDS_WEB_MAIN_CLOSE      "Quer realmente fechar o eMule?"
+    IDS_WEB_MAIN_REBOOT     "Quer realmente reiniciar o computador?"
+    IDS_WEB_MAIN_SHUTDOWN   "Quer realmente desligar o computador?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "Mostrar os clientes banidos na fila de espera"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "Mostrar os amigos na fila de espera"
+    IDS_WEB_SESSIONTIMEOUT  "Tempo limite da sessão"
+    IDS_WEB_ALLOWHILEVFUNC  "Permitir sair do eMule, reiniciar o computador e desligá-lo"
+    IDS_SETPFSLIMIT         "Limite de Fontes..."
+    IDS_SETPFSLIMITEXPLAINED
+                            "Por favor insira o novo limite de fontes para o(s) ficheiro(s) seleccionado(s)! \n(defina 0 para usar a definição global)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "Deseja que as pastas de recepção incluídas na pasta de recepção antiga sejam actualizadas agora?"
+    IDS_USESPEECH           "Falar as mensagens de notificação"
+    IDS_CONDTCPACCEPT       "Rejeição rápida de ligação"
+    IDS_TCPIP_CONNS         "Ligações TCP/IP"
+    IDS_ERR_DELFILE         "Não foi possível apagar o ficheiro ""%s"""
+    IDS_MANUAL_FILENAMECLEANUP "Deseja limpar os nomes dos ficheiros seleccionados?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CONFIGCORRUPT   "%s parece estar corrompido e será substituído"
+    IDS_UPLOADING           "A Enviar"
+    IDS_CANCELLED           "Cancelado"
+    IDS_PW_REMEMBERDOWNLOADED "Memorizar ficheiros recebidos"
+    IDS_PW_REMEMBERCANCELLED "Memorizar ficheiros cancelados"
+    IDS_AVAILABLEPARTS      "Partes Disponíveis"
+    IDS_NOSOUND             "Sem som"
+    IDS_PW_RECEIVERADDRESS  "Destinatário:"
+    IDS_PW_ENABLEEMAIL      "Activar Notificações por email"
+    IDS_EMULENOTIFICATION   "Notificação do eMule"
+    IDS_PW_EMAILNOTIFICATIONS "Notificações do eMule"
+    IDS_SMTPSERVER          "Servidor SMTP"
+    IDS_PW_SENDERADDRESS    "Remetente:"
+    IDS_PW_SHOWTRANSTOOLBAR "Mostrar a barra de ferramentas suplementar do painel de Transferências"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHARED_STATUS       "Partes partilhadas"
+    IDS_INCOMING_FILES      "Ficheiros Recebidos"
+    IDS_INCOMPLETE_FILES    "Ficheiros Incompletos"
+    IDS_SHARED_DIRECTORIES  "Pastas Partilhadas"
+    IDS_SHAREDIR            "Pasta de Partilha"
+    IDS_SHAREDIRSUB         "Partilhar com subpastas"
+    IDS_UNSHAREDIR          "Retirar pasta da partilha"
+    IDS_UNSHAREDIRSUB       "Retirar pasta e subpastas da partilha"
+    IDS_ALLSHAREDFILES      "Todos os Ficheiros Partilhados"
+    IDS_ALLDIRECTORIES      "Todas as Pastas"
+    IDS_SEARCHRELATED       "Procurar por ficheiros relacionados"
+    IDS_RELATED             "Relacionados"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLLECTIONLIST      "Lista de Colecções"
+    IDS_SEARCH_EMULECOLLECTION "Colecção"
+    IDS_COLL_REPLACEEXISTING "Deseja substituir o ficheiro existente?"
+    IDS_COLL_ERR_DELETING   "Ocorreu um erro ao apagar o ficheiro antigo. Sair sem guardar?"
+    IDS_CREATECOLLECTION    "Criar Colecção"
+    IDS_COLL_SIGN           "Assinar a Colecção com Nome e Chave"
+    IDS_AUTHOR              "Autor"
+    IDS_AUTHORKEY           "Chave do Autor"
+    IDS_COLL_ADDINCAT       "Adicionar novas transferências a uma Categoria de Colecção"
+    IDS_MODIFYCOLLECTION    "Modificar Colecção"
+    IDS_VIEWCOLLECTION      "Ver Colecção"
+    IDS_COLL_TEXTFORMAT     "Guardar a Colecção num Formato de Texto Simples"
+    IDS_SEARCHAUTHORCOLLECTION "Procurar Colecções do Autor"
+    IDS_ERR_DUPL_FILES      "Ficheiros partilhados duplicados: ""%s"" e ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "AutoLimiteDeUpload: O pedido de traceroute falhou demasiadas vezes. A desactivar o ajuste automático de upload."
+    IDS_USS_STARTING        "AutoLimiteDeUpload: Preparações concluídas. A iniciar o controlo sobre a velocidade de upload. (Os primeiros 60 segundos decorrerão em modo de reacção rápida)"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "AutoLimiteDeUpload: Foi detectado um aumento do limite de upload nas preferências. A entrar no modo de reacção rápida por 60 segundos."
+    IDS_USS_STATE_PREPARING "A Preparar..."
+    IDS_USS_STATE_WAITING   "Em Espera..."
+    IDS_USS_STATE_ERROR     "Erro!"
+    IDS_SHAREWARNING        "(A pasta será partilhada!)"
+    IDS_REMOVEALLSERVERS    "Deseja realmente remover todos os servidores?"
+    IDS_SEARCH_UNKATTR      "Atributo de pesquisa desconhecido '%s'"
+    IDS_SEARCH_ATTRERR      "Erro de sintaxe no atributo de pesquisa '%s'"
+    IDS_SEARCH_MISSINGANDRIGHT "Falta o lado direito do operador AND"
+    IDS_SEARCH_OPRERR       "Erro de sintaxe no operador comparativo '%s'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOAD_LANGFILE   "A transferir o ficheiro da linguagem"
+    IDS_DOWNLOADING_SERVERMET_FROM "A transferir o server.met a partir de %s"
+    IDS_DOWNLOADING_SERVERMET "A transferir o server.met..."
+    IDS_FULLALLOC           "Reservar o tamanho total para os ficheiros .part não rarefeitos"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "Hash não encontrada."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "Lista Gap corrompida."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "Lista Gap não encontrada."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "Repositório de Hashes corrompido."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "Repositório de Hashes não encontrado."
+    IDS_CONVERTINGKNOWN2MET "A converter %s em %s para suportar ficheiros grandes..."
+    IDS_CONVERTINGKNOWN2FAILED
+                            "...não foi possível converter known2.met, a ignorar registos antigos"
+    IDS_CONVERTINGKNOWN2DONE "... concluído, conversão finalizada"
+    IDS_ERR_MET_BAD         "Erro: o ficheiro %s está corrompido, não foi possível carregar a lista de ficheiros reconhecidos"
+    IDS_SRV_LARGEFILES      "Suporte para ficheiros grandes"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE
+                            "Não pode descarregar este ficheiro porque o seu sistema de ficheiros não suporta ficheiros maiores de 4GB, considere converter o sistema de ficheiros para NTFS"
+    IDS_NEWVERSIONAVLBETA   "Esta versão Beta está desactualizada. Devido à natureza das versões Beta, que costumam vir com bugs, é muito importante que actualize para uma versão estável o mais cedo possível!"
+    IDS_KADSEARCHACTIVE     "(Pesquisa Kad em curso...)"
+    IDS_BOLD                "Alterna o Texto a Negrito"
+    IDS_UNDERLINE           "Alterna o Texto a Sublinhado"
+    IDS_COLOUR              "Escolhe a Cor da Fonte,(Cor de Fundo Opcional)."
+    IDS_RESETFORMAT         "Anula Todas as Formatações Anteriores,(Envia um Comando de Cancelamento)."
+    IDS_RESTORESEARCHPARAMS "Reverter os Parâmetros de Pesquisa"
+    IDS_COMMAND             "Comando"
+    IDS_ARGUMENTS           "Argumentos"
+    IDS_AP_CREATEPREVCOPY   "Criar ficheiro de pré-visualização"
+    IDS_ARCHIVEDETAILS      "Detalhes do Arquivo"
+    IDS_ARCHTYPE            "Tipo de Arquivo"
+    IDS_ATTRIBUTES          "Atributos"
+    IDS_LASTMODIFIED        "Última Modificação"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "Cabeçalhos cifrados - não é possível ler o arquivo"
+    IDS_ARCPARSED           "Arquivo examinado"
+    IDS_ARCPREV_LISTMAYBEINCOMPL "A lista de ficheiros pode estar incompleta."
+    IDS_ARCPREV_DIRNOTFOUND "Tabela de conteúdos não encontrada."
+    IDS_ARCPREV_INSUFFDATA  "Não estão disponíveis dados suficientes."
+    IDS_PASSWPROT           "Proteger com palavra-passe"
+    IDS_ARCPREV_DIRSUCCREAD "Tabela de conteúdos lida com sucesso."
+    IDS_ARCPREV_UNKNOWNFORMAT "(desconhecido/não suportado)"
+    IDS_ARCPREV_PLEASEWAIT  "A examinar Arquivo..."
+    IDS_OBFUSCATION         "Ofuscação"
+    IDS_SUPPORTED           "Suportado"
+    IDS_ESTIMATED           "estimado"
+    IDS_MEDIAINFO_DLLMISSING
+                            "Não existe nenhuma livraria MediaInfo instalada. Se quiser obter mais informação acerca de ficheiros áudio/vídeo nesta mensagem,\r\ndescarregue a livraria MediaInfo no endereço https://mediaarea.net/pt/MediaInfo e copie o ficheiro MediaInfo.dll para\r\na pasta de instalação do eMule ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "Atenção: A extensão do ficheiro ""%s"" não coincide com a extensão\r\nusualmente utilizada num ficheiro desse formato. Talvez queira renomear o ficheiro e\r\nutilizar uma dessas extensões ""%s""\r\nde forma a poder visualizar correctamente o ficheiro desse formato.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "Atenção: O ficheiro ""%s"" parece estar protegido com o Gestor de Direitos Digitais (Digital Rights Management).\r\nMuito provavelmente não conseguirá utilizar esse ficheiro sem uma licença emitida pelo criador do mesmo.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "Ficheiros Bitmap para a Barra de Ferramentas do eMule"
+    IDS_LOADFILTER_EMSKINFILES "Ficheiros de Aspecto do eMule"
+    IDS_LOADURL             "Carregar"
+    IDS_DELETEAFTERALLOC    "O ficheiro '%s' está de momento a ocupar espaço no disco e será apagado de seguida"
+    IDS_VIAPASSIVE          "via Passivo"
+    IDS_WEB_REMOTE_LINK_ADDED "Ligação adicionada: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "Ligação não adicionada. Palavra-passe incorrecta."
+    IDS_OPTIONS             "Opções"
+    IDS_ERR_FAILEDTOLOAD    "Não foi possível carregar %s: %s "
+    IDS_RUNNINGRESTRICTED   "O eMule está a correr com privilégios reduzidos"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "Ignorar as mensagens do protocolo de adição de amigo do eMule"
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "Ignorar as mensagens do protocolo de envio de ligação do eMule"
+    IDS_DL_ACTIVE_TIME      "Tempo de Download"
+    IDS_ARCHPREV_ATTRIBINFO "Os atributos de ficheiro podem conter:\r\n\r\nP\to ficheiro está protegido com palavra-passe\r\nD\té uma pasta\r\nC\tComentário\r\nLx\tNível de compressão x\r\nM\tdados comprimidos ainda não totalmente descarregados\r\n<\tficheiro continuado a partir de um volume anterior\r\n>\tficheiro continua no volume seguinte\r\n"
+    IDS_CONTENT_INFO        "Informação de conteúdo"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "Mensagens e Comentários"
+    IDS_DISABLEOBFUSCATION  "Desactivar suporte para ligações ofuscadas"
+    IDS_ONLYOBFUSCATED      "Apenas permitir ligações ofuscadas (não recomendado)"
+    IDS_ENABLEOBFUSCATION   "Activar Ofuscação do Protocolo"
+    IDS_PROTOCOLOBFUSCATION "Ofuscação do Protocolo"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "A ligar a %s (%s:%u - a utilizar Ofuscação de Protocolo) ..."
+    IDS_CONNECTEDTOOBFUSCATED "Ligação ofuscada estabelecida em: %s"
+    IDS_VERIFIED            "verificado"
+    IDS_OBFUSCATED          "Ofuscado"
+    IDS_UNVERIFIED          "não verificado"
+    IDS_INVALIDFILEEXT      "Extensão de ficheiro inválida"
+    IDS_UNKNOWNFILEEXT      "extensão de ficheiro desconhecida"
+    IDS_ENABLEMINIMULE      "Activar MiniMule"
+    IDS_DISABLE_AUTOARCHPREV
+                            "Desactivar início de pré-visualização automática de arquivos nos detalhes do ficheiro"
+    IDS_US_STALLEDW4BR      "Em espera! A aguardar que o bloco seja pedido."
+    IDS_US_STALLEDREADINGFDISK "Em espera! A ler do disco."
+    IDS_SERVERFEATURE_INTTYPETAGS "Tags do género inteiro"
+    IDS_FILLGRAPHS          "Desenhar gráficos preenchidos"
+    IDS_PARAMETER           "Parâmetro"
+    IDS_TEST                "Testar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "Usar UPnP para configurar as portas"
+    IDS_UPNPSETUP           "A tentar configurar o redireccionamento das portas por UPnP..."
+    IDS_UPNPFAILED          "Não foi possível configurar o redireccionamento das portas por UPnP, se necessário por favor redireccione estas portas manualmente!"
+    IDS_UPNPSUCCESS         "As portas %u (TCP) e %u (UDP) foram correctamente redireccionadas por UPnP"
+    IDS_FO_PREFBUTTON_NEW   "Abrir as portas na firewall do WinXP SP1"
+    IDS_UPNP_NOSERVICE      "Não se encontra activo o serviço de Anfitrião para Dispositivos UPnP, a ignorar a configuração de UPnP"
+    IDS_DELAYEDBYUPNP       "A ligação à rede foi posta em espera, porque o UPnP ainda está ocupado a configurar os redireccionamentos das portas."
+    IDS_DELAYEDBYUPNP2      "Por favor aguarde alguns segundos, o eMule ligar-se-á assim que o UPnP terminar."
+    IDS_UPNP                "UPnP"//!
+    IDS_UPNPCLOSEONEXIT     "Ao sair do eMule remover os redireccionamentos de portas por UPnP"
+    IDS_UPNPSKIPWANIP       "Ignorar a configuração de WAN IP"
+    IDS_UPNPSKIPWANPPP      "Ignorar a configuração de WAN PPP"
+    IDS_SHAREEMULELABEL     "A partilhar o eMule com os outros utilizadores deste computador"
+    IDS_SHAREEMULEMULTI     "Cada utilizador tem a sua própria configuração e downloads"
+    IDS_SHAREEMULEPUBLIC    "Todos os utilizadores têm a mesma configuração e downloads"
+    IDS_SHAREEMULEOLD       "Guardar a configuração e downloads na pasta de instalação do eMule"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "Alterar esta opção fará com que o eMule passe a utilizar outra configuração. As suas definições correntes serão ignoradas e quaisquer downloads já iniciados poderão deixar de estar visíveis. Poderá sempre reverter à sua configuração presente, voltando a alterar esta opção. \n\nPrecisará de reiniciar o eMule para que esta alteração surta efeito."
+    IDS_SPAM                "Spam"//!
+    IDS_MARKSPAM            "Marcar como Spam"
+    IDS_MARKNOTSPAM         "Não marcar como Spam"
+    IDS_SEARCHSPAMFILTER    "Activar o filtro de Spam para os resultados das pesquisas"
+    IDS_SHOWSMILEYS         "Mostrar Smileys"
+    IDS_CAPTCHAREQUEST      "De forma a não receber mensagens spam, este utilizador pede-lhe que solucione um captcha antes que lhe possa enviar uma mensagem. Por favor digite as letras que vê nesta imagem para continuar:"
+    IDS_CAPTCHAFAILED       "A sua resposta ao captcha estava incorrecta e a sua mensagem foi ignorada. Pode pedir um novo captcha enviando uma nova mensagem."
+    IDS_CAPTCHASOLVED       "Você passou a verificação por captcha e o utilizador recebeu a sua mensagem."
+    IDS_USECAPTCHAS         "Pedir verificação captcha"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat a partir do URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "A transferir nodes.dat de %s"
+    IDS_DOWNLOADING_NODESDAT "A transferir nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "Não foi possível descarregar o nodes.dat a partir de %s"
+    IDS_PREVENTSTANDBY      "Não permitir o modo Standby enquanto o eMule estiver a correr"
+    IDS_KADID               "KadID"//!
+    IDS_SEARCHINGFRIENDKAD  "A procurar amigo na Rede Kad"
+    IDS_FOUND               "encontrado"
+    IDS_EXTERNUDPPORT       "Porta UDP Externa"
+    IDS_STORESEARCHES       "Memorizar pesquisas abertas entre reinicializações"
+    IDS_WRN_INCFILE_EXISTS  "Seleccionou uma nova pasta de ficheiros recebidos que não se encontra vazia. Todos os ficheiros lá contidos serão automaticamente partilhados pelo eMule."
+    IDS_EDITSPAMFILTER      "Editar filtro de spam..."
+    IDS_EDITSPAMFILTERCOMMENTS "Editar comentários no filtro de spam"
+    IDS_WIZZARDOBFUSCATION  "Ligue esta opção se desejar activar a obfuscação do protocolo\n\nSe o seu ISP tenta atrasar ou barrar o eMule, activar a obfuscação irá ajudar a contornar essas restrições."
+    IDS_BETANAG             "Esta é uma versão beta do eMule. Por favor informe-nos de problemas e procure actualizações regularmente no nosso fórum (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "Quer descarregar e utilizar os contactos Kad (nodes.dat) a partir deste endereço:\n%s ?"
+    IDS_AUTOMATIC           "Automático"
+    IDS_NOTCONNECTEDANY     "Não está ligado nem a um servidor nem à rede Kad!"
+    IDS_ERR_SHARED_DIR      "Falhou a leitura da pasta partilhada ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "O ficheiro ""%s"" parece estar protegido com Gestão de Direitos Digitais (Digital Rights Management).\r\n\r\nÉ pouco provável que consiga utilizar este ficheiro sem a devida licença. Assim, leve em conta que ao abrir este ficheiro fará com que seja lançada uma janela do seu browser que o redireccionará para o site de licenciamento, onde lhe será pedido que adquira a respectiva licença.\r\n\r\nTem a certeza de que deseja continuar a abrir o ficheiro?"
+    IDS_CHECK_FILE_OPEN     "Avisar ao abrir ficheiros suspeitos"
+    IDS_BOOTABLE            "iniciável (bootable)"
+    IDS_UNSUPPORTEDIMAGE    "imagem não suportada"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "Remover de partilha"
+    IDS_WEBUPNPINCLUDE      "Incluir porta na configuração UPnP"
+    IDS_ADDEDON             "Adicionado em"
+    IDS_RESOLVELINKS        "Resolve shell links in shared directories"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "Download Commands"
+    IDS_CLOSETOOLBAR        "Close Toolbar"
+    IDS_SHOWTOOLBAR         "Show Toolbar"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "You cannot use the first keyword with an OR operator when searching on Kad!\n\nFor example ""Keyword1 OR Keyword2"" is not possible. Try ""Keyword1 AND (Keyword2 OR Keyword3)"" or do multiple searches instead."
+    IDS_DISCOVEREDBY        "Discovered by"
+    IDS_NODES               "Node(s)"
+    IDS_ROUTINGTABLE        "Routing Table"
+    IDS_PROTOCOLVERSION     "Protocol Version"
+    IDS_FOUNDNODESUSEFUL    "Found Nodes (useful)"
+    IDS_NORESPONSE          "No Response"
+    IDS_NOTASKED            "Not Asked"
+    IDS_LOOKUPGRAPH         "Search Details"
+    IDS_AUTOKADLOOKUPGRAPH  "Automatically show active searches"
+    IDS_PAUSEONPREVIEW      "Pause when preview possible"
+    IDS_PREVIEWWITH         "Preview with"
+    IDS_CLOSEEMULE          "Close eMule"
+    IDS_DONOTASKAGAIN       "Don't ask me again"
+    IDS_POPULARITY          "Popularity Rank"
+    IDS_SHOWWIN7TASKBARGOODIES "Enable Windows 7 taskbar effects"
+    IDS_LANMODE             "LAN Mode"
+    IDS_OPENPREFINI         "Open preferences.ini"
+END
+
+#endif    // Portuguese (Portugal) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

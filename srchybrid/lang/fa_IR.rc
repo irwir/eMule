@@ -1,0 +1,1969 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "fa_IR.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Farsi resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FAR)
+#ifdef _WIN32
+LANGUAGE LANG_FARSI, SUBLANG_DEFAULT
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "fa_IR.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "خطاي ورود به سوكت ويندوز"
+    IDS_ABOUTBOX            "&درباره ايمول(قاطر)َ..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s از %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "اتصال به %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "درست كردن نام: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "نام تغيير يافت به %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "در حال اتصال به %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "در حال اتصال دوباره به %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "دريافت اطلاعات فايل"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR
+                            "هنگام دريافت فايل خطايي رخ داد, شناسه خطا: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "هنگام متصل شدن به سرويس دهنده  خطايي رخ داد, شناسه خطا: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE
+                            "ناتواني از دريافت پاسخ درست از سرويس دهنده "
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "ناتواني از دريافت صحيح لينك وب از سرويس دهنده "
+    IDS_HTTPDOWNLOAD_ERROR_READFILE
+                            "در هنگام دريافت فايل خطايي به وقوع پيوست, شناسه خطا: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "در حال دريافت: %s%% از %s تكميل شد"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "درحال دريافت فايل"
+    IDS_HTTPDOWNLOAD_OF     "%s از %s"
+    IDS_FILELINK            "لينك فايل"
+    IDS_LD_BASICOPT         "تنظيمات اصلي"
+    IDS_LD_ADDSOURCE        "من را به عنوان منبع فايل اضافه كن"
+    IDS_LD_EMULEHASH        "شناسه انحصاري و اختصاصي ايمول (کد گذاري)را براي جلوگيري از انحراف ناخواسته (خرابي فايل)اضافه كن"
+    IDS_LD_ADVANCEDOPT      "تنظيمات پيشرفته"
+    IDS_CANCEL              "انصراف"
+    IDS_LD_ADDHTML          "اضافه كن HTML-Tags"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTP_CAPTION        "بروز رساني ليست سرويس دهنده ها"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s كپي شد)"
+    IDS_LD_ADDHASHSET       "كد اطلاعاتي را بطور كامل اضافه كن hashset"
+    IDS_HSAV                "Hashset كد اطلاعاتي موجود است"
+    IDS_DL_SHOWED2KLINK     "eD2K لينكهاي ايدانكي..."
+    IDS_FD_CORR             "خراب شده"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "فايل مورد نظر '%s' پيش از اين موجود بوده.\nآيا ميخواهيد اين فايل جايگزين شود؟"
+    IDS_FD_RECOV            "بهبود و بازيافت شد"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "در هنگام باز كردن فايل دريافت شده خطايي بروز كرد, شناسه خطا: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER " درحال قطع كردن انتقال فايل"
+    IDS_FD_COMPR            "مقدار حجم فشردگي"
+    IDS_WIZARD_NETWORK      "شبكه(هايي) را كه ميخواهي استفاده كني انتخاب كن."
+    IDS_MAIN_READY          "شماره نسخه ايمول است %s در حال حاضر"
+    IDS_WIZARD_ED2K         "eD2K تنظيمات ايدانكي"
+    IDS_SEL_SKIN            "انتخاب پوسته..."
+    IDS_MAIN_SOCKETERROR    "خطاي مهم: ناتواني از ايجاد دريچه اي براي ورود %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_BTN_DISCONNECT "قطع اتصال"
+    IDS_ERR_WRONGFILEID     "شناسه اشتباهي براي فايل فرستاده شد"
+    IDS_ERR_BADHASHSET      "كد خراب يا نادرست دريافت شد"
+    IDS_ERR_BADDATABLOCK    "دسته اي از اطلاعات خراب يا نادرست دريافت شد"
+    IDS_ERR_ILLFORMEDHASH   "كد اختصاصي خراب و ناقص"
+    IDS_ERR_BADED2KLINK     "اين يك لينك ايدانكي سالم نيست "
+    IDS_ERR_NOSLLINK        "اين لينك يا سرويس دهنده  ايدانكي سالم نيست"
+    IDS_ERR_WRONGPACKETSIZE "عمليات ناموفق درخواست نام و حجم بسته داده ها"
+    IDS_ERR_WRONGHPACKETSIZE "عمليات ناموفق درخواست كد رمز و حجم بسته داده ها"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "بسته اي از دستورهاي پيشرفته اطلاعاتي توسط يك يوزر مشتري (كلاينت)فرستاده شده"
+    IDS_ERR_OPENMET         "خطا: ناتواني از باز كردن فايل ذخيره شده part.met (%s => %s)"
+    IDS_ERR_BADMETVERSION   "خطا: ناتواني part.met از تشخيص نسخه ويرايش شده ! (%s => %s)"
+    IDS_ERR_METCORRUPT      "خطا: %s (%s) خراب شده, ناتواني از بارگذاري فايل"
+    IDS_ERR_FILEERROR       "فرايند خواندن فايل با خطاي غير مترقبه اي مواجه شد %s (%s): %s"
+    IDS_ERR_FILEOPEN        "ناتواني از باز كردن فايل %s (%s)"
+    IDS_SEL_SKINDIR         "انتخاب پوشه پوسته ها..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_HASHERRORWARNING
+                            "کد گذاري در: نميتوان روي فايل كد گذاري كرد - كد گذاري ناتمام ماند (%s)"
+    IDS_ERR_INCOMPLETEHASH  "خطا: ناتواني از كد گذاري برروي قسمت دريافت شده فايل - كد گذاري ناتمام ماند (%s). شايد اين خطا تصادفي ايجاد شده باشد"
+    IDS_DOWNLOADING         "در حال دريافت"
+    IDS_WAITING             "در حال انتظار"
+    IDS_HASHING             "در حال كد گذاري"
+    IDS_COMPLETING          "در حال تكميل"
+    IDS_COMPLETE            "كامل شد"
+    IDS_PAUSED              "وقفه"
+    IDS_ERRORLIKE           "نادرست"
+    IDS_ASSIGNED2K          "اتصال ايمول به ايدانكي برقرار نشده. آيا مي خواهيد حالا اتصال ايمول به ايدانكي برقرار شود؟ (پيشنهاد مي شود)َ"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "هيچ آدرس سرويس دهنده ي در اين فايل وجود ندارد 'addresses.dat' پيدا شد. لطفا آدرس سرويس دهنده   درست  را وارد اين فايل كنيد تا بتوان دستور بروز رساني خودكار را بر روي سرويس دهنده هاي شما انجام داد"
+    IDS_ERR_BADSERVERMETVERSION "نسخه ناشناس از فايل server.met (0x%X)!"
+    IDS_SERVERSFOUND        "%u سرويس دهنده ها در فايل server.met پيدا شد"
+    IDS_SERVERSADDED        "%u سرويس دهنده ها اضافه شد, %u اضافه نشد (قبلا وجود داشت/اشتباه بود)َ"
+    IDS_ERR_BADSERVERLIST   "خطا: فايل مورد نظر server.met خراب شده, نميتوان سرويس دهنده ها را بارگذاري كرد "
+    IDS_ERR_FILEERROR_SERVERMET
+                            "خطاي غير منتظره server.met: %s, ناتواني در بارگذاري ليست سرويس دهنده ها"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_SAVESERVERMET   "ناتواني در ذخيره كردن فايل server.met!"
+    IDS_PASSIVE             "غير فعال"
+    IDS_MAIN_BTN_CANCEL     "&لغو كردن"
+    IDS_AVAIL               "قسمتها: %u, موجود است: %u (%.1f%%)\n\n"
+    IDS_TYPE                "نوع"
+    IDS_FILEID              "شناسه فايل"
+    IDS_FILE                "فايل"
+    IDS_DOWNLOAD            "دانلود"
+    IDS_SL_SERVERNAME       "نام سرويس دهنده "
+    IDS_IP                  "IP" //!
+    IDS_DESCRIPTION         "جزئيات سرويس دهنده"
+    IDS_PING                "پينگ"
+    IDS_FILES               "فايلها"
+    IDS_PREFERENCE          "اولويت اتصال"
+    IDS_PRIONOPREF          "بدون اولويت"
+    IDS_CONNECTTHIS         "اتصال به"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_BTN_CONNECT    "&اتصال"
+    IDS_ERR_SAVESERVERMET2  "ناتواني از ذخيره كردن فايل server.met! شما ميتوانيد پاك كنيد فايل server.met و تغيير نام بدهيد فايل server.met.old را به server.met!"
+    IDS_NOTCONNECTED        "وصل نشده"
+    IDS_DISCONNECTED        "اتصال قطع شده"
+    IDS_USERS               "كاربر: %u"
+    IDS_UPDOWN              "فرستاده شده: %.1f(%.1f) | دريافت شده: %.1f(%.1f)"
+    IDS_CONNECTED           "وصل شده"
+    IDS_LINKNOTADDED        "نميتوان لينك را اضافه كرد"
+    IDS_MAIN_EXIT           "آيا واقعا مي خواهيد ايمول را ببنديد!؟"
+    IDS_MAIN_POPUP_RESTORE  "بازآوري"
+    IDS_CONNECTTOANYSERVER  "اتصال به هر سرويس دهنده"
+    IDS_EXIT                "خروج"
+    IDS_CONNECTING          "در حال اتصال"
+    IDS_FAILED              "با شكست مواجه شد"
+    IDS_ERR_BADSERVERREPLY  "خطا يا اشتباهي در در موقع وارد شدن به سرويس دهنده  دريافت شد"
+    IDS_NEWCLIENTID         "شناسه جديد مشتري (كلاينت)دريافت شد %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_REHASH          "کد گذاري در: %s احتمالا خراب شده,درحال كد گذاري مجدد براي قسمتهاي پايان پذيرفته"
+    IDS_SKIN_PROF           "نمايش خصوصيات پوسته"
+    IDS_ERR_PART_FNF        "بخشي از فايل پيدا نشد"
+    IDS_KADOPEN             "بازشده"
+    IDS_ERR_SAVEMET         "در هنگام ذخيره كردن بخشي از فايل خطا رخ داد: %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "قسمت خراب شده فايل پيدا شد (%u) در %s"
+    IDS_HASHINGDONE         "كد گذاري پايان پذيرفت %s, بنظر مياد فايل درست شده"
+    IDS_ERR_PARTCORRUPT     "قسمت از فايل دريافت شده %u خراب است :(  (%s)"
+    IDS_ICHWORKED           "I.C.H.: بازيابي قسمت خراب شده %u (%s), ذخيره شد در: %s"
+    IDS_ERR_OUTOFSPACE      "فضاي كافي براي ذخيره فايل در ديسك سخت نداريد ""%s""!"
+    IDS_SE                  "تبادل منابع فايل"
+    IDS_ERR_WRITEERROR      "خطاي غير منتظره در هنگام نوشتن فايل %s : %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "خطاي غير منتظره در هنگام تكميل فايل %s. توقف موقتي فايل, ايمول را ببنديد و دوباره باز كنيد براي شروع دوباره تكميل فايل"
+    IDS_ERR_DELETEFAILED    "ناتواني در پاك كردن %s, شما بعدا خودتان بصورت دستي فايل را پاك كنيد"
+    IDS_DOWNLOADDONE        "دريافت پايان يافت %s :-)"
+    IDS_ERR_DELETE          "ناتواني در پاك كردن %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDFOLDERS       "پوشه اشتراكي"
+    IDS_VIEW1               "نمايش"
+    IDS_VIEW2               "(اشتراك داده نشده)"
+    IDS_PRIOLOW             "پايين"
+    IDS_PRIONORMAL          "معمولي"
+    IDS_PRIOHIGH            "بالا"
+    IDS_DOWNLOADMENUTITLE   "دانلودها"
+    IDS_PRIORITY            "حق تقدم"
+    IDS_NEWSERVERS          "دريافت شد %u سرويس دهنده  جديد"
+    IDS_DL_STOP             "&توقف"
+    IDS_DL_PAUSE            "&توقف موقتي"
+    IDS_DL_RESUME           "&ادامه دادن"
+    IDS_DL_OPEN             "&باز كردن فايل"
+    IDS_DL_INFO             "&جزئيات..."
+    IDS_DL_CLEAR            "كاملا پاك شد"
+    IDS_DL_LINK1            "كپي كردن eD2K &لينكهاي"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_LINK2            "كپي كردن eD2K لينكهاي (&HTML)"
+    IDS_SHOWDETAILS         "&جزئيات فايل...َ"
+    IDS_SEND_MSG            "فرستادن &پيام"
+    IDS_ASKING              "درحال پرسيدن"
+    IDS_CONNVIASERVER       "درحال اتصال از طريق سرور "
+    IDS_ONQUEUE             "در صف"
+    IDS_TRANSFERRING        "در حال مبادله"
+    IDS_RECHASHSET          "درحال دريافت كد"
+    IDS_NONEEDEDPARTS       "بي نياز"
+    IDS_NOCONNECTLOW2LOW    "كاربر درجه پايين نميتواند به كاربر درجه پايين اتصال پيدا كند"
+    IDS_UNKNOWN             "ناشناس"
+    IDS_ASKED4ANOTHERFILE   "بدنبال فايل ديگر"
+    IDS_Q_CANCELDL          "آيا شما مطمئن هستيد كه ميخواهيد از دريافت اين فايل انصراف بدهيد و همچنين آن را پاك كنيد؟\n"
+    IDS_Q_CANCELDL2         "آيا شما مطمئن هستيد كه ميخواهيد از دريافت اين فايل انصراف بدهيد و همچنين آن را پاك كنيد؟\n"
+    IDS_DL_FILENAME         "نام فايل"
+    IDS_DL_SIZE             "حجم کل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_TRANSF           "حجم مبادله شده"
+    IDS_DL_SPEED            "سرعت"
+    IDS_DL_PROGRESS         "نمايش پيشرفت دانلود"
+    IDS_DL_SOURCES          "منابع فايل"
+    IDS_ERR_BADSERVERLISTRECEIVED "بسته ليست فرستاده شده از سرويس دهنده خراب است"
+    IDS_STATUS              "وضعيت"
+    IDS_DL_REMAINS          "باقيمانده"
+    IDS_UPDATEFROM          "بروز شود از آدرس URL: (filter.dat- or PeerGuardian-format)"
+    IDS_QL_USERNAME         "نام كاربر"
+    IDS_LOADURL             "بارگذاري"
+    IDS_DELETEAFTERALLOC    "فايل '%s' در حال حاظر فضايي از ديسك سخت را اختصاص داده و بعدا پاك خواهد شد"
+    IDS_QL_RATING           "رتبه"
+    IDS_CONNECTINGTO        "در حال اتصال به %s (%s:%u)..."
+    IDS_CLIENTS             "مشتري"
+    IDS_SEARCH_ANY          "همه نوع"
+    IDS_SEARCH_AUDIO        "شنيداري"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "تصوير"
+    IDS_SEARCH_PRG          "نرم افزار"
+    IDS_SEARCH_VIDEO        "ويدئويي"
+    IDS_SEARCH_CDIMG        "بسته لوح فشرده"
+    IDS_SEARCH_ARC          "بسته فشرده"
+    IDS_ERR_INVALIDLINK     "اين لينك ايدانكي اشتباه است (%s)"
+    IDS_ERR_LINKERROR       "لينك نادرست است: %s"
+    IDS_ERR_NOTCONNECTED    "شما به هيچ سرويس دهنده ي متصل نشده ايد"
+    IDS_REMOVETHIS          "حذف كن"
+    IDS_REMOVEALL           "همه را حذف كن"
+    IDS_SRV_ADDR            "لطفا آدرس يك سرويس دهنده  را وارد كنيد"
+    IDS_SRV_PORT            "ورودي سرويس دهنده  پر نشده: لطفا عدد ورودي سرويس دهنده  را وارد كنيد"
+    IDS_SRV_NOTADDED        "سرويس دهنده  اضافه نشده"
+    IDS_SRV_NOURLAV         "هيچ آدرس وبي موجود نيست"
+    IDS_INVALIDURL          "آدرس وب اشتباه"
+    IDS_ERR_FAILEDDOWNLOADMET "نميتوان ليست سرويس دهنده ها را دريافت كرد از %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PERMISSION          "اجازه"
+    IDS_SHAREDFILES         "فايلهاي اشتراكي"
+    IDS_PRIOVERYLOW         "خيلي سطح پايين"
+    IDS_PRIORELEASE         "كاملا آزاد"
+    IDS_TRAYDLG_SPEED       "سرعت ايمول"
+    IDS_FSTATUS_FRIENDSONLY "فقط دوستان"
+    IDS_VIAPASSIVE          "غيرفعال توسط"
+    IDS_ERR_RENAMESF        "ناتواني در عوض كردن نام\r\n    ""%s""\r\nto\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "در دسترس"
+    IDS_FSTAT_TRANSFER      "تبادل"
+    IDS_CONNECTIONS         "اتصال"
+    IDS_FSTAT_SERVERS       "سرويس دهنده ها"
+    IDS_FSTAT_WAITING       "منتظر...َ"
+    IDS_TIME                "زمان"
+    IDS_STATS_DDATA         "اطلاعات دريافت شده: %s"
+    IDS_STATS_UDATA         "اطلاعات فرستاده شده: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_AVGDL         "معدل سرعت دريافتي: %s"
+    IDS_STATS_AVGUL         "معدل سرعت فرستاده شده: %s"
+    IDS_STATS_FOUNDSRC      "منبع پيدا شده: %u"
+    IDS_STATS_ACTDL         "دانلودهاي فعال(مقدار قابل توجه)َ: %u"
+    IDS_STATS_ACTUL         "آپلودهاي فعال: %u"
+    IDS_STATS_WAITINGUSERS  "زمان انتظار براي فرستادن: %u"
+    IDS_STATS_RECONNECTS    "تعداد دفعات اتصال دوباره: %u"
+    IDS_STATS_UNKNOWNCLIENT "نامشخص: %u"
+    IDS_STATS_TOTAL         "مجموعا: %u"
+    IDS_DISABLED            "غير فعال شده"
+    IDS_STOPPED             "متوقف شده"
+    IDS_STATS_UPDATELABEL   "تاخير در بروز شدن: %u ثانيه"
+    IDS_ASKEDFAF            "\nبه دنبال فايلي ديگر"
+    IDS_WAITED              "منتظر مانده"
+    IDS_ERR_LOADCREDITFILE  "نمي شود فايل اعتباري را بار گذاري كرد, يك فايل جديد ساخته خواهد شد"
+    IDS_ERR_CREDITFILEOLD   "فايل اعتباري قديمي شده و دوباره نويسي خواهد شد"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CREDITFILELOADED    "فايل اعتباري بار گذاري شد, %u مشتري ها شناخته شدند"
+    IDS_CREDITFILECORRUPT   "خطا:فايل اعتباري خراب شده و از نو ساخته خواهد شد!"
+    IDS_ERR_CREDITFILEREAD  "خطاي غير منتظره در هنگام خواندن فايل اعتباري: %s"
+    IDS_ERR_FAILED_CREDITSAVE "ناتواني در ذخيره كردن فايل اعتباري"
+    IDS_NOPARTSFOUND        "هيچ قسمتي از فايل پيدا نشد"
+    IDS_FOUNDPARTS          "پيدا شد %u قسمت از فايلها"
+    IDS_NEWDOWNLOAD         "در حال دريافت %s"
+    IDS_ERR_ALREADY_DOWNLOADING
+                            "شما در حال حاضر در حال دريافت اين فايل هستيد %s"
+    IDS_ERR_ALREADY_DOWNLOADED "شما اين فايل را از قبل داشتيد %s"
+    IDS_ERR_SERVERMET_BAD   "خطا:فايل مورد نظر خراب شده است known.met , نميتوان فايلها را شناخت"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "خطاي غير منتظره در هنگام بارگذاري كردن known.met: %s, نمي توان فايلها را شناخت"
+    IDS_ERR_CONNECTIONERROR "خطا هنگام اتصال %s (%s:%u): %s"
+    IDS_ERR_SOCKET          "خطا در  دريچه سرويس دهنده : %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "پيدا شد %u فايلهاي اشتراكي شناخته شده"
+    IDS_SHAREDFOUNDHASHING  "پيدا شد %u فايلهاي اشتراكي شناخته شده, در حال كد گذاري %u فايلهاي جديد"
+    IDS_ERR_INCOMPLETEBLOCK "جستجو به دنبال فايلهاي ناتمام "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSIONCHECK        "&تطبيق دادن نسخه موجود"
+    IDS_VISITVERSIONCHECK   "\n\nآيا مي خواهيد صفحه اطلاعات موجود را ببينيد؟"
+    IDS_PW_VIDEOPLAYER      "نرم افزار نمايش دهنده ويدئويي"
+    IDS_VIDEOBACKUP         "ايجاد نسخه پشتيبان در هنگام نمايش دادن"
+    IDS_MYINFO              "اطلاعات من"
+    IDS_ID                  "شناسه"
+    IDS_IDLOW               "شناسه سطح پايين"
+    IDS_IDHIGH              "شناسه سطح بالا"
+    IDS_UPSTATUS            "قسمتهاي فراهم شده"
+    IDS_TOVERHEAD           "سرجمع همه روي هم (بسته ها)َ: %s (%s)"
+    IDS_FROVERHEAD          "سرجمع فايلهاي درخواستي (بسته ها)َ: %s (%s)"
+    IDS_SSOVERHEAD          "سرجمع مبادله منبع ها (بسته ها)َ: %s (%s)"
+    IDS_SOVERHEAD           "سرجمع سرويس دهنده ها (بسته ها)َ: %s (%s)"
+    IDS_ERR_FILECOMPLETIONTHREAD "در هنگام ايجاد و تكميل فايل رشته اي با خطا مواجه شد"
+    IDS_FILEBUFFERSIZE      "كمترين اندازه فايل دريافتي براي ذخيره "
+    IDS_QUEUESIZE           "اندازه صف"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAYS2               "روز"
+    IDS_ERR_MAKEBAKCREDITFILE "بروز خطا در هنگام ايجاد نسخه پشتيبان براي فايل اعتباري"
+    IDS_COMMENT             "نظرات ديگران"
+    IDS_IPFILTERED          "بسته شده IP: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "تكميل شده"
+    IDS_DL_ACTIVE_TIME      "مدت دانلود"
+    IDS_STATS_FILTEREDCLIENTS "جلوگيري شده: %u"
+    IDS_FILTERLABEL         "اين پيغامها جلوي دريافت آنها گرفته شود:(با اين علامت جدا کنيد|)َ"
+    IDS_ERR_LARGEREQBLOCK   "كاربر مشتري درخواست قطعه بزرگي از فايل را كرده."
+    IDS_SHOWRATEONTITLE     "مقدار سرعت تبادل را بر روي پنجره اصلي ايمول نشان بده"
+    IDS_TBN_NOMESSAGEHISTORY " بدون تاريخچه پيام ها"
+    IDS_PW_DAP              "براي دانلود هاي جديد بصورت خودكار حق تقدم در نظر بگير"
+    IDS_FD_LASTCHANGE       "برخورد قبلي:"
+    IDS_STATS_RUNTIME       "مدت زمان در حال اجرا بودن"
+    IDS_ALL                 "همه"
+    IDS_CAT_ADD             "اضافه كردن قفسه طبقه بندي جديد..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CAT_EDIT            "ويرايش دسته قفسه طبقه بندي..."
+    IDS_CAT_REMOVE          "پاك كردن قفسه طبقه بندي"
+    IDS_CAT                 "قفسه طبقه بندي"
+    IDS_TITLE               "عنوان"
+    IDS_COLOR               "رنگ"
+    IDS_DEFAULT             "پيش فرض"
+    IDS_PW_DISPLAY          "نمايش دادن"
+    IDS_INDICATERATINGS     "دانلودها را همراه با نظرات داده شده نمايش بده/نمايش رتبه توسط شمايل"
+    IDS_ALLOTHERS           "بدون طبقه بندي"
+    IDS_TOCAT               "اختصاص داده شود به اين قفسه"
+    IDS_CAT_UNASSIGN        "(اختصاص داده نشده)"
+    IDS_ADDDOWNLOADSFROMCB  "اين لينك ايدانكي فايل را به دانلود اضافه كن?\n"
+    IDS_PF_WATCHCB          "لينكي كه به كليپ بورد کپي ميشوند بصورت خودكار اضافه كن"
+    IDS_SECURITY            "امنيتي"
+    IDS_IPFILTERLOADED      "%u IP مسدود شده بارگذاري شده"
+    IDS_IPFILTER            "IP مسدود کردن"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_OPEN            "ناتواني در باز كردن فايل خواسته شده"
+    IDS_ERR_CLIENTERRORED   "كاربر مشتري '%s' سبب بروز خطا در ايجاد بسته شد (%s) - قطع اتصال كاربر مشتري"
+    IDS_ERR_REQ_FNF         "فايل درخواست شده پيدا نشد"
+    IDS_DESC                "توضيحات: %s"
+    IDS_PORT                "ورودي"
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "هيچ سرويس دهنده  سالمي براي اتصال پيدا نشد"
+    IDS_CONNECTEDTOREQ      "اتصال انجام شده به %s (%s:%u), فرستادن درخواست ورود به سرويس دهنده "
+    IDS_ERR_FATAL           "خطاي مهم  هنگام تلاش براي اتصال. احتمالا اتصال اينترنت قطع شده است"
+    IDS_ERR_LOSTC           "اتصال ناموفق به %s (%s:%u)"
+    IDS_ERR_DEAD            "%s (%s:%u) اتصال سرويس دهنده  مرده است"
+    IDS_ERR_FULL            "%s (%s:%u) اتصال  به سرويس دهنده  پر شده است"
+    IDS_CONNECTEDTO         "اتصال برقرار شده بر: %s"
+    IDS_DL_PREVIEW          "پيش ديد"
+    IDS_VIEWQUEUE           "نمايش صف"
+    IDS_TW_UPLOADS          "آپلودها"
+    IDS_TW_DOWNLOADS        "دانلودها"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TW_QUEUE            "كاربر مشتري در صف:"
+    IDS_SW_SEARCHBOX        "جستجو"
+    IDS_SW_NAME             "عنوان"
+    IDS_SW_GLOBAL           "جستجو جهاني"
+    IDS_SW_DIRECTDOWNLOAD   "گرفتن لينك ايدانكي"
+    IDS_SW_LINK             "لينكهاي ايدانكي"
+    IDS_SW_START            "شروع"
+    IDS_SCHEDULER           "زمان بندي"
+    IDS_IRC                 "&سرويس چت"
+    IDS_SW_RESULT           "نتيجه جستجو"
+    IDS_SW_DOWNLOAD         "دانلود"
+    IDS_SV_SERVERLIST       "سرويس دهنده ها"
+    IDS_SV_SERVERINFO       "جزئيات سرويس دهنده "
+    IDS_SV_LOG              "گزارشگر"
+    IDS_SV_NEWSERVER        "سرويس دهنده  جديد"
+    IDS_SV_ADDRESS          "آي پي يا آدرس"
+END
+
+STRINGTABLE
+BEGIN
+
+    IDS_SV_ADD              "اضافه شود"
+    IDS_SV_MET              "بروز رساني server.met از آدرس وب"
+    IDS_SV_UPDATE           "بروز كن"
+    IDS_SF_FILES            "فايلهاي اشتراكي"
+    IDS_SF_STATISTICS       "آمار وارقام"
+    IDS_SF_RELOAD           "بارگيري مجدد"
+    IDS_SF_CURRENT          "جلسه جاري"
+    IDS_SF_TOTAL            "سر جمع"
+    IDS_SF_TRANS            "مبادله شده:"
+    IDS_SF_ACCEPTED         "آپلود هاي پذيرفته شده:"
+    IDS_SF_REQUESTED        "درخواست شده:"
+    IDS_ST_DOWNLOAD         "سرعت دريافت"
+    IDS_ST_UPLOAD           "سرعت فرستادن"
+    IDS_ST_CURRENT          "جاري"
+    IDS_ST_SESSION          "معدل جلسه"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WS_PASS             "رمز عبور"
+    IDS_WS_ERR_LOADTEMPLATE "نمي توان قالب ها را بارگذاري كرد: فايل جايگزين شد %s با يك نسخه جديد"
+    IDS_WEB_CONLIMITS       "محدوديت هاي اتصال"
+    IDS_INFLST_USER_TOTALDOWNLOAD "مجموع دانلود شده ها"
+    IDS_INFLST_USER_TOTALUPLOAD "مجموع آپلود شده ها"
+    IDS_SPEED_LIMITS        "محدوديت هاي سرعت"
+    IDS_CAPACITY_LIMITS     "محدوديت هاي پهناي باند"
+    IDS_ADMIN               "مدير"
+    IDS_ACCESSDENIED        "دسترسي ممنوع"
+    IDS_WEB_LOWUSER         "مهمان"
+    IDS_WEB_ERR_CANTLOAD    "نمي توان قالب ها را بارگذاري كرد:فايل را نمي توان باز كرد %s"
+    IDS_GLOBALSEARCH        "همه سرويس دهنده ها"
+    IDS_METHOD              "روش"
+    IDS_UNDO                "برگشت به قبل"
+    IDS_DAYLY               "روزانه"
+    IDS_DAY_MO_FR           "دوشنبه.جمعه"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_SA_SO           "شنبه.يكشنبه"
+    IDS_MO                  "دوشنبه"
+    IDS_DI                  "سه شنبه"
+    IDS_MI                  "چهارشنبه"
+    IDS_DO                  "پنجشنبه"
+    IDS_FR                  "جمعه"
+    IDS_SA                  "شنبه"
+    IDS_SO                  "يكشنبه"
+    IDS_WEB_ADMINLOGIN      "ورودي وب: ورود مدير"
+    IDS_WEB_GUESTLOGIN      "ورودي وب: ورود مهمان"
+    IDS_WEB_SESSIONEND      "ورودي وب: خارج شدن از سيستم"
+    IDS_DETAILS             "جزئيات"
+    IDS_ACTION              "عملياتي"
+    IDS_REMOVE              "از بين رفته"
+    IDS_NEW                 "جديد"
+    IDS_WEB_BADLOGINATTEMPT "ورودي وب: در هنگام ورود خطا رخ داد"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ST_ACTIVED          "دانلود هاي فعال"
+    IDS_ST_ACTIVEU          "آپلودهاي فعال"
+    IDS_CW_MESSAGES         "پيغام ها"
+    IDS_CW_FRIENDS          "دوستان"
+    IDS_CW_SEND             "فرستادن"
+    IDS_CW_CLOSE            "بستن"
+    IDS_PW_GENERAL          "عمومي"
+    IDS_PW_DIR              "پوشه ها"
+    IDS_PW_NICK             "نام مستعار"
+    IDS_PW_INCOMING         "فايل هاي دريافت شده"
+    IDS_PW_TEMP             "فايل هاي موقتي"
+    IDS_PW_BROWSE           "گشتن...َ"
+    IDS_PW_SHARED           "با نگه داشتن كنترل و انتخاب پوشه زير شاخه ها هم انتخاب ميشوند"
+    IDS_CONNECTION          "اتصال"
+    IDS_PW_DOWNL            "محدوديت دانلود"
+    IDS_PW_UPL              "محدوديت آپلود"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_MAXC             "بالاترين تعداد.اتصالات"
+    IDS_PW_CLIENTPORT       "پورت ورودي كاربر"
+    IDS_PW_AUTOCON          "در آغاز اجراي برنامه خودكار به شبكه وصل شود"
+    IDS_PW_RECON            "اتصال دوباره درصورت بروز خطا در اتصال"
+    IDS_PW_SERVER           "سرويس دهنده ها"
+    IDS_PW_RDEAD            "سرورهاي مرده را پاك كن بعد از"
+    IDS_PW_RETRIES          "سعي مجدد"
+    IDS_PW_SCORE            "استفاده از سيستم اولويت بندي"
+    IDS_PW_USC              "وقتي به يك سرور متصل ميشوم ليست سرورها بروز شود"
+    IDS_PW_UCC              "وقتي به يك كاربر مشتري متصل ميشوم سرورها بروز شود"
+    IDS_PW_FILTER           "بر آي پي سرويس دهنده ها و كلاينت ها فيلتر اعمال كن"
+    IDS_PW_USS              "زمان شروع برنامه ليست سرورها خودكار بروز رساني شود"
+    IDS_PW_MISC             "متفرقه"
+    IDS_PW_TRAY             "در هنگام كمينه (مينيمايز)كردن به منو وظيفه (سيستراي)برو"
+    IDS_PW_PROMPT           "در موقع خروج سوال كن"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_SPLASH           "آرم برنامه را در شروع آن نمايش بده"
+    IDS_PW_DBLCLICK         "اگر بر روي ليست دانلود دوبار كليك كردم آن را باز كن"
+    IDS_PW_TOOL             "شروع نمايش متن کمکي به ثانيه"
+    IDS_PW_FRONT            "با کليک بر روي لينک ايدانکي برنامه خودكار بروي صفحه بيايد"
+    IDS_PW_LANG             "زبان"
+    IDS_PW_FILES            "فايل ها"
+    IDS_PW_SHARE            "فايلها و پوشه هاي به اشتراك گذاشته شده من را ببينند"
+    IDS_PW_EVER             "همه افراد"
+    IDS_PW_FRIENDS          "دوستان"
+    IDS_PW_NOONE            "هيچكس"
+    IDS_PW_RESET            "بازيابي"
+    IDS_PW_APPLY            "اجرا"
+    IDS_EM_TRANS            "&تبادلها"
+    IDS_EM_SERVER           "سرورها"
+    IDS_EM_SEARCH           "&جستجو"
+    IDS_EM_FILES            "فايلهاي اشتراكي"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EM_MESSAGES         "&پيغامها"
+    IDS_EM_STATISTIC        "آمار و ارقام"
+    IDS_EM_PREFS            "&تنظيمات"
+    IDS_MB_LANGUAGEINFO     "زبان پيش فرض انتخاب شده.شما ميتوانيد در پنجره تنظيمات هر زماني زبان را تغيير بدهيد "
+    IDS_FD_GENERAL          "عمومي"
+    IDS_FD_MET              "part.met فايل:"
+    IDS_FD_HASH             "كدگذاري:"
+    IDS_FD_SIZE             "حجم:"
+    IDS_FD_TRANSFER         "تبادل"
+    IDS_FD_PARTS            "قسمت ها"
+    IDS_FD_TRANS            "مبادله شده:"
+    IDS_FD_DATARATE         "سرعت داده:"
+    IDS_FD_COMPSIZE         "تكميل شده:"
+    IDS_FD_CLOSE            "بستن"
+    IDS_FD_TITLE            "جزئيات فايل"
+    IDS_CD_GENERAL          "عمومي"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "عنوان:"
+    IDS_CD_UHASH            "كد فايل:"
+    IDS_CD_CSOFT            "نرم افزار"
+    IDS_CD_UIP              "آدرس آي پي :"
+    IDS_CD_SIP              "آي پي سرويس دهنده :"
+    IDS_CD_VERSION          "نسخه كاربر مشتري:"
+    IDS_CD_SNAME            "نام سرويس دهنده :"
+    IDS_CD_CDOWN            "در حال دريافت:"
+    IDS_CD_DOWN             "دريافت شده (اين بخش)َ:"
+    IDS_CD_ADOWN            "معدل سرعت دريافت شده:"
+    IDS_CD_TDOWN            "مجموع دريافت شده:"
+    IDS_CD_UP               "مجموع فرستاده شده (اين بخش)َ:"
+    IDS_CD_AUP              "معدل سرعت فرستادن:"
+    IDS_CD_TUP              "مجموع فرستاده شده:"
+    IDS_CD_TRANS            "تبادل"
+    IDS_CD_SCORES           "رتبه"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_MOD              "دانلود/آپلود متغيير:"
+    IDS_CD_RATING           "رتبه (جمعا)َ:"
+    IDS_CD_USCORE           "رتبه در صف آپلود:"
+    IDS_CD_TITLE            "جزئيات كاربر مشتري"
+    IDS_EMULEW              "كليك"
+    IDS_EMULEW2             "براي چك كردن نسخه جديد اگر وجود داشته باشد"
+    IDS_EMULEW3             "اينجا"
+    IDS_PW_MAXSOURCES       "تعداد بيشترين منبع/فايل"
+    IDS_SHAREDFILESCOUNT    "تعداد فايل هاي به اشتراك گذاشته شده: %u"
+    IDS_SF_SIZE             "حجم كلي فايلهاي به اشتراك گذاشته شده: %s"
+    IDS_ERR_BADPORT         "عدد غلط در پورت ورودي"
+    IDS_ERR_NOHELLO         "به دنبال هر چيزي بگرد بدون گفتن سلام"
+    IDS_ERR_INVALIDPACKET   "بسته خراب يا اشتباه دريافت شده"
+    IDS_ERR_CLIENTERROR     "كاربر مشتري '%s' (IP:%s) منجر به خطا: %s. قطع اتصال از كاربر مشتري!َ"
+    IDS_ERR_BADSIZE         "حجم اشتباه (OP_رتبه در صف)"
+    IDS_ERR_NOTAFILELINK    "اين يك لينك فايل نيست"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREATEPARTFILE  "خطا: نمي توان قسمتي از فايل را ايجاد كرد"
+    IDS_CHAT_START          "*** گپ و گفتگو شروع شد : "
+    IDS_FILEPRIO            "اولويت فايل"
+    IDS_SCORE               "رتبه"
+    IDS_ASKED               "پاسخ گرفته شد"
+    IDS_LASTSEEN            "'رتبه آخر استفاده"
+    IDS_BANNED              "جلوگيري شد"
+    IDS_UUSERS              "كاربر ها"
+    IDS_UFAILED             "شكست خورد"
+    IDS_OPENFILE            "&باز كردن فايل"
+    IDS_DATE                "تاريخ"
+    IDS_PARTINFOS           "نام قسمت فايل:"
+    IDS_PARTINFOS2          "در حال دريافت(از منبع ها)َ %u "
+    IDS_USERID              "شناسه كاربر"
+    IDS_CLIENT              "كاربر مشتري"
+    IDS_SERVER              "سرويس دهنده "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCEINFO          "پاسخ داده شد: %u بار; قسمتهاي موجود: %u"
+    IDS_CLIENTSOURCENAME    "\nبراي كاربران نام فايل: "
+    IDS_USERINFO            "نام كاربر: %s\n"
+    IDS_FILESTATS_SESSION   "آمار فايلها براي اين دوره: قبول شده %u of %u درخواست ها, %s ارسال شده\n"
+    IDS_FILESTATS_TOTAL     "آمار فايلها براي اين دوره: قبول شده %u of %u درخواست ها, %s ارسال شده"
+    IDS_REQ_UNKNOWNFILE     "فايل نامشخص درخواست شده"
+    IDS_SF_AVERAGESIZE      "معدل حجم فايل ها: %s"
+    IDS_SF_REQUESTS         "درخواست ها"
+    IDS_SF_ACCEPTS          "در خواست هاي مورد قبول واقع شده"
+    IDS_SF_TRANSFERRED      "اطلاعات ارسال شده"
+    IDS_REMOVESEARCHSTRING  "بستن پنجره نتايج جستجو"
+    IDS_REMOVESELECTED      "حذف كردن"
+    IDS_REMOVEALLSEARCH     "بستن همه پنجرهاي نتايج جستجوها"
+    IDS_ENTERQUEUE          "وارد شده به صف"
+    IDS_SF_FAIL             "خطاي سرويس دهنده ها"
+    IDS_SF_WUSER            "كاربراني كه به سرويس دهنده ها وصل هستند"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_WFILE            "فايلهايي كه در سرويس دهنده ها هست"
+    IDS_SF_USER             "جمع كاربران"
+    IDS_SF_FILE             "جمع فايلها"
+    IDS_UPLOADTIME          "مدت آپلود"
+    IDS_LASTSEENCOMPL       "زمان كامل شدن:"
+    IDS_YES                 "بله"
+    IDS_NO                  "خير"
+    IDS_UNBAN               "شهري"
+    IDS_SF_WORKING          "سرويس دهنده هاي مشغول كار"
+    IDS_ADDTOSTATIC         "به سرويس دهنده هاي ثابت دائمي اضافه شود"
+    IDS_ADDED2SSF           "به ليست ثابت دائمي اضافه شود"
+    IDS_STATICSERVER        "دائمي"
+    IDS_ERROR_SSF           "نمي توان باز كرد 'staticservers.dat' اين فايل را"
+    IDS_SF_ACTIVECON        "اتصال هاي فعال (برآورد)َ"
+    IDS_SF_MAXCONLIMITREACHED "به محدوده بيشترين تعداد اتصال ها رسيد"
+    IDS_SF_AVGCON           "معدل اتصال ها (برآورد)َ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_PEAKCON          "حدااكثر اتصال ها (برآورد)َ"
+    IDS_ST_ACTIVEC          "اتصال هاي فعال"
+    IDS_NETWORK             "شبكه"
+    IDS_SF_DELCOUNT         "سرورهاي حذف شده"
+    IDS_QUEUEFULL           "صف پر شده"
+    IDS_AVG                 "ميانگين"
+    IDS_BYTES               "بايت"
+    IDS_KBYTES              "KB" //!
+    IDS_MBYTES              "MB" //!
+    IDS_GBYTES              "GB" //!
+    IDS_TBYTES              "TB" //!
+    IDS_SECS                "s" //!
+    IDS_MINS                "m" //!
+    IDS_HOURS               "h" //!
+    IDS_DAYS                "day" //!
+    IDS_ED2KLINKFIX         "eD2K لينك"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RECONNECT           "بطور خودكار به سرويس دهنده  وصل ميشود و سعي دوباره ميكند در %u ثانيه ديگر"
+    IDS_SERVERADDED         "سرويس دهنده  اضافه شد: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "پيغام هاي دعوت را ناديده بگير"
+    IDS_STATS_SUCCUPCOUNT   "مجموع آپلود هاي موفقيت آميز اين دوره: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "پيغام هاي درباره اطلاعات قسمتها را ناديده بگير"
+    IDS_STATS_FAILUPCOUNT   "مجموع خطاهاي آپلودهاي اين دوره: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "ميانگين مدت زمان آپلود: %s"
+    IDS_SEARCHMINSIZE       "كمترين. حجم [MB]"
+    IDS_SEARCHMAXSIZE       "بيشترين. حجم [MB]"
+    IDS_PREF_ONLINESIG      "از مشخصات امضاي آنلاين خود استفاده كن"
+    IDS_ERROR_SAVEFILE      "ناتواني در ذخيره فايل"
+    IDS_REQ_SHAREDFILES     "كاربر %s (%u) ليست فايلهاي اشتراكي شما را درخواست كرده -> %s"
+    IDS_ACCEPTED            "پذيرفته شد "
+    IDS_DENIED              "اجازه نداد"
+    IDS_PW_CON_DOWNLBL      "دريافت"
+    IDS_PW_CON_UPLBL        "فرستادن"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_AUTOCONNECTSTATICONLY "در موقع اتصال خودکار فقط به سرورهاي انتخابي ثابت شده وصل شو"
+    IDS_PW_CON_LIMITFRM     "محدوديت ها"
+    IDS_STATS_AVGLABEL      "مدت زمان براي ميانگين گرفتن نمودارها: %u دقيقه"
+    IDS_GRAPHS              "نمودارها"
+    IDS_STREE               "شاخه هاي آمار و ارقام"
+    IDS_IRC_IGNOREQUITMESSAGE "پيغام هاي اطلاعاتي رها شده را ناديده بگير"
+    IDS_STATSSETUPINFO      "آمارها"
+    IDS_IRC_SOUNDEVENTS     "پخش صدا بر روي اتفاقات"
+    IDS_HARDLIMIT           "بيشترين حد منبع"
+    IDS_COL_MORECOLORS      "بيشتر..."
+    IDS_TOOMANYCONNS        "اتصالات  خيلي بيشتر از حد رفته  "
+    IDS_DOWNLOADRENAMED     "يك فايل با همين نام وجود دارد, فايل موجود ذخيره ميشود با نام %s"
+    IDS_TBN_DOWNLOADDONE    "دريافت شد:"
+    IDS_PW_TBN_USESOUND     "پخش صدا"
+    IDS_PW_TBN_ONLOG        "گزارشگر اطلاعات جديدي اضافه كرد"
+    IDS_PW_TBN_ONCHAT       "قسمت چت و گفتگو شروع شد"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_FILE_SAVING     "عمليات ذخيره اطلاعات گزارشگر"
+    IDS_DELETEIPFILTERS     "آيا شما واقعا مي خواهيد آي پي فيلتر مورد نظر را پاك كنيد?"
+    IDS_TOTAL_IPFILTER_LABEL "'مجموع آي پي هاي فيلتر شده:"
+    IDS_TOTAL_IPS_LABEL     "مجموع آي پي ها:"
+    IDS_RAU_WARNING         "اين تنظيمات امنيتي به ايمول اجازه دفاع در برابر حملات و خرابكاري هاي هكرها را ميدهد\nلطفا قبل از اينكه كاري بكنيد حتما اطلاعاتي درباره اين گزينه را در راهنما مطالعه كنيد\n\nتغييرات بعد از  راه اندازي دوباره ايمول به كار مي افتد"
+    IDS_APPEND              "پيوست..."
+    IDS_SAVE                "ذخيره"
+    IDS_IP_START            "شروع"
+    IDS_IP_END              "پايان"
+    IDS_IP_LEVEL            "مرحله"
+    IDS_IP_DESC             "توضيحات"
+    IDS_IP_HITS             "برخوردها"
+    IDS_IP_RULES            "IP فيلتر:"
+    IDS_ERR_NOTCONNECTEDKAD "شما به شبكه اتصال كاربر به كاربر(كد)متصل نشديد Kad!"
+    IDS_IRC_NOSFS           "هيچ فايل اشتراكي انتخاب نشده"
+    IDS_RESETLABEL          "بصورت خودكار كلمات جستجو شده قبلي را بياد آور (عمليات استفاده از تاريخچه)َ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_IGNOREMISCMESSAGE "پيغام هاي مخلوط شده را ناديده بگير"
+    IDS_KNOWN               "آشنا"
+    IDS_RAU_RUNNING         "ايمول به عنوان يك كاربر غير ممتاز اجرا شود  ""%s"""
+    IDS_RAU_FAILED          "خطا نمي توان ايمول را به عنوان يك كاربر غير ممتاز اجرا كرد ""ايمول امن"". ممتاز بودن اين كاربر را نگاه دار (""%s"")"
+    IDS_KADCONTACTSREAD     "بخوان %u تماس ها را از فايل"
+    IDS_ERR_KADCONTACTS     "تماسي پيدا نشد, لطفا بصورت خودكار راه اندازي را فعال كنيد, يا دانلود كنيد nodes.dat اين فايل را"
+    IDS_METATAGS            "به حساب آوردن برچسب هاي اطلاعاتي فايلها:"
+    IDS_FILEFORMAT          "پسوند فايل"
+    IDS_UDPREASKS           "فايلهاي يو دي پي دوباره جواب داده شد"
+    IDS_DYNUP_PINGTOLERANCE_MS "Ping سرعت (ميلي ثانيه)َ"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER "روش براي سرعت پينگ"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS "ميلي ثانيه (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT "درصد (%)"
+    IDS_LOG_A4AF            "گزارش كن A4AF عمليات"
+    IDS_A4AF_SAVE_CPU       "کدگذاري را غير فعال كن براي کاهش در عمليات سي پي يو(A4AF)"
+    IDS_SEARCH_DOC          "نوشته ها"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_POOR            "بد"
+    IDS_CMT_GOOD            "خوب"
+    IDS_CMT_FAIR            "نسبتا خوب"
+    IDS_CMT_EXCELLENT       "عالي"
+    IDS_CMT_NOTRATED        "بدون راي"
+    IDS_KILO                "k" //!
+    IDS_MEGA                "M" //!
+    IDS_GIGA                "G" //!
+    IDS_TERA                "T" //!
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "پيغامهاي دستوري ايمول را ناديده بگير"
+    IDS_SMARTLOWIDCHECK     "از عمليات تست کاربر سطح پايين براي اتصال به سرور استفاده كن"
+    IDS_SF_SRVOCC           "اشغال بودن سرويس دهنده : %.2f%%"
+    IDS_3DDEP               "تغيير رنگ نمودار وضعيت"
+    IDS_AUTOTAKEED2KLINKS   "دريافت خودكار لينكها فقط زماني كه برنامه در حال اجرا است"
+    IDS_ADDNEWFILESPAUSED   "فايلها را به ليست دانلود در وضعيت توقف موقتي اضافه كن"
+    IDS_DOWNLOADMOVIECHUNKS "سعي كن اول قسمتهاي اوليه براي نمايش پيش ديد را دانلود کني"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RECOVER_SINGLE      "بازيافت آرشيو: 1 فايل بازيافت شد."
+    IDS_RECOVER_MULTIPLE    "بازيافت آرشيو: %u فايل بازيافت شد"
+    IDS_ATTEMPTING_RECOVERY "بازيافت آرشيو: شروع شد"
+    IDS_RECOVERY_SUCCESSFUL "بازيافت آرشيو: با موفقيت"
+    IDS_RECOVERY_FAILED     "بازيافت آرشيو: با شكست مواجه شد"
+    IDS_STARTNEXTFILE       "پس از اتمام دانلود شروع به دانلود فايل متوقف شده بعدي كن"
+    IDS_FULLCHUNKTRANS      "سعي كن فايلها در بسته هاي بزرگ و بهم پيوسته آپلود شود"
+    IDS_MANUALSERVERHIGHPRIO "سرورهاي اضافه شده دستي را در اولويت بالا قرار بده"
+    IDS_VERBOSE             "مورخ (عملياتي براي بازخورد اطلاعات اضافي)َ"
+    IDS_FLAT                "هموار"
+    IDS_ROUND               "برجسته"
+    IDS_SAMEUSERHASH        "كاربر مشتري '%s' و '%s' يك كد رمز يا آي پي يكسان دارند - حذف شدند '%s'"
+    IDS_SEARCHEXTENTION     "پسوند"
+    IDS_SEARCHAVAIL         "مقدار دسترسي"
+    IDS_ERR_NOHELP          "لطفا به بخش دانلود صفحه خانگي ايمول مراجعه كنيد براي گرفتن كتاب راهناي جديد\n\nآيا شما ميخواهيد بصورت آنلاين در وب بدنبال راهنماي مورد نظرتان بگرديد؟"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_TBN_POP_ALWAYS   "پيغام جديد دريافت شد"
+    IDS_PW_TBN_ONDOWNLOAD   "دانلود فايل به اتمام رسيد"
+    IDS_PW_EKDEV_OPTIONS    "سيستم اطلاع رسان"
+    IDS_PW_TASKBARNOTIFIER  "پيغام پاپ آپ"
+    IDS_PW_TBN_OPTIONS      "زمان پايين رفتن پاپ آپ"
+    IDS_TBN_NEWCHATMSG      "پيغام از طرف"
+    IDS_PW_CON_CAPFRM       "مقدار پهناي باند"
+    IDS_IRC_PRIVATECHANSTART "* گفتگوي خصوصي آغاز شد"
+    IDS_IRC_SLAPMSG         "* %s در زدن %s كسي هست!َ"
+    IDS_IRC_PRIVMESSAGE     "پيغام خصوصي"
+    IDS_WEB_REMOTE_LINK_ADDED "لينك اضافه شد: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "لينك اضافه نشد.رمز عبور اشتباه است."
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "در ابتدا قسمتهايي از فايل را كه براي پيش نمايش لازم است دانلود كن"
+    IDS_IRC_KICK            "بيرون انداختن"
+    IDS_IRC_SLAP            "چَك ميخواي!؟"
+    IDS_IRC_JOIN            "پيوستن"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_CHANNELLIST     "ليست كانال ها"
+    IDS_IRC_CONNECT         "اتصال"
+    IDS_IRC_DISCONNECT      "قطع اتصال"
+    IDS_IRC_HASJOINED       "* %s پيوست %s"
+    IDS_IRC_HASPARTED       "* %s جدا شد %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s بيرون انداخته شد توسط %s (%s)"
+    IDS_DOWNLOAD_ALPHABETICAL "دانلود ها را به ترتيب الفبا بچين"
+    IDS_IRC_HASQUIT         "* %s خارج شد (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s الان با اين نام شناخته مي شود %s"
+    IDS_IRC_SETSMODE        "* %s تنظيم حالت: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** بعضي از حالتهاي تنظيم هنوز پشتيباني نمي شوند. شما براي گرفتن نام هاي مستعار جديد بايد اين ليست را ترك كنيد  و دوباره وارد شويد ..َ"
+    IDS_IRC_CHANNEL         "كانال"
+    IDS_IRC_NICK            "نام مستعار"
+    IDS_IRC_SEND            "فرستادن"
+    IDS_IRC_NAME            "نام"
+    IDS_IRC_SLAPMSGSEND     "كسي كه پيغام شخصي فرستاد %s :\001ACTION چك خورد %s خارج شد بخاطر فرا قانوني عمل كردن!\001"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_INSTALL_SKIN        "نصب پوسته هاي ايمول"
+    IDS_INSTALL_SKIN_NODIR  "هيچ اطلاعاتي براي باز كردن پوشه پوسته هاي ايمول وجود ندارد يا اجازه وارد شدن نيست!َ"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "شكست خوردن در ايجاد پوشه جديد ""%s"" براي پوسته ايمول - %s"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "شكست خوردن در تخليه كردن  ""%s"" از پوسته ايمول به پوشه محلي ""%s"" - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "اين يك پوسته مخصوص!براي ايمول نيست"
+    IDS_NEXT_REASK          "بعدا دوباره بپرس"
+    IDS_A4AF_FILES          "A4AF فايلهاي"
+    IDS_FO_TEMPTCP_S        "پورت ورودي باز شده %u (TCP) در ديواره آتش دروني (فايروال)ويندوز اكس پي براي اين دوره از اجراي ايمول"
+    IDS_FO_TEMPTCP_F        "ناتواني از باز كردن پورت ورودي %u (TCP) در ديواره آتش دروني (فايروال)ويندوز اكس پي براي اين دوره از اجراي ايمول"
+    IDS_FO_TEMPUDP_S        "پورت ورودي باز شده %u (UDP) در ديواره آتش دروني (فايروال)ويندوز اكس پي براي اين دوره از اجراي ايمول"
+    IDS_FO_TEMPUDP_F        "ناتواني از باز كردن پورت ورودي %u (UDP) در ديواره آتش دروني (فايروال)ويندوز اكس پي براي اين دوره از اجراي ايمول"
+    IDS_FO_PREFBUTTON       "در اين دوره اجرا پورتهاي ورودي در ديواره آتش ويندوز را باز كن"
+    IDS_FO_PREF_SUCCCEEDED  "با موفقيت توانست ديواره آتش دروني (فايروال)ويندوز اكس پي را براي اين دوره از اجراي ايمول باز كند.\nلطفا توجه كنيد كه ديوار آتش (فايروال) ديگري يا يك روتر كه بر روي پورت اثر گذار باشد در كار نباشد "
+    IDS_FO_PREF_EXISTED     "ايمول قوانين و اطلاعات موجود براي پورت ورودي انتخاب شده را پيدا كرد, كه نمي تواند روباره نويسي يا بر روي قبلي نوشته شود. قوانين مفقود شده با موفقيت اضافه شد.\nلطفا توجه كنيد كه ديوار آتش (فايروال) ديگري يا يك روتر كه بر روي پورت اثر گذار باشد در كار نباشد"
+    IDS_FO_PREF_FAILED      "ناتواني از پيكره بندي و تنظيم ديواره آتش دروني (فايروال)ويندوز اكس پي براي اين دوره از اجراي ايمول"
+    IDS_FO_PREF_STARTUP     "باز يا بسته كن پورت هاي ويندوز اكس پي را هر وقت ايمول باز يا بسته ميشود"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_LEVEL           "مقدار توضيحات گزارشگر"
+    IDS_NEWMSG              "پيغام جديد از '%s' (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "فقط در قفسه دسته بندي شده يكسان"
+    IDS_LOG_ULDL_EVENTS     "گزارش  آپلود/دانلود تغييرات"
+    IDS_PEERCACHE_ENABLED   "آي اس پي شما فضاي نگهداري موقت در سرويس دهنده ها را پشتيباني ميكند, در حال فعال كردن فضاي موقتي سرويس دهنده ها!َ"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "به كاربران ديگر اجازه بده كه تو را به عنوان دوست به ليست خود اضافه كنند."
+    IDS_SOURCESWAPBLOCKED   "از مبادله جلوگيري شد"
+    IDS_TRICKLING           "آماده باش"
+    IDS_A4AF_CHECK_THIS_NOW "اين منبع را همين الان چك كن (رفع اشكال)َ"
+    IDS_STATS_FRATIO        "مقدار آپلود:دانلود به سهم (دوستاني كه آپلود كردن حساب نميشود)َ:"
+    IDS_STATS_UDATA_FRIENDS "اطلاعات فرستاده شده به سمت دريچه هاي ورودي دوستان (اين مرحله)َ: %s"
+    IDS_IMP_ERR_BADFORMAT   "نوع خراب يا ناشناخته اي از فايلهاي موقتي يافت شد"
+    IDS_SEARCH_INVALIDCHAR  "كلمه جستجو شده داراي حروف غير استاندارد مي باشد. شما اگر مثل اين '?' حروف را استفاده كرده باشيد شبكه نمي تواند با آنها ارتباط برقرار كند"
+    IDS_PORTSCON            "پورت ورودي و اتصال"
+    IDS_PORTINFO            "ايمول  براي وصل شدن به سرويس دهنده ها و كاربران مشتري از دو پورت استفاده مي كند. اين پورت ورودي بايد باز باشد و براي كاربران متصل شده فعال باشد.پورت ورودي تي سي پي ايمول بايد فعال باشد و براي درست عمل كردن همه عمليات ايمول وجود داشته باشد.پورت ورودي يو دي پي براي اتصال مستقيم كاربران يا اتصال بدون سرويس دهنده به نام كد استفاده ميشود و براي افزايش كارايي شبكه لازم است\n\nشما ميتوانيد پورتهاي ورودي را اينجا عوض كنيد در صورتي كه هيچ اتصالي با سرويس دهنده يا كاربران برقرار نكرده باشيد"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_ADDTIMESTAMP    "بر چسب تعيين زمان را به پيغام بزن"
+    IDS_IRC_USEFILTER       " در ليست كانال ها از فيلتر استفاده كن "
+    IDS_IRC_PERFORM         "اجرا كردن"
+    IDS_IRC_USEPERFORM      "از رشته هاي اجرايي براي اتصال استفاده كن"
+    IDS_IRC_ADDTOFRIENDLIST "به ليست دوستانم اضافه كن"
+    IDS_IRC_LOADCHANNELLISTONCON "ليست كانال هاي سرويس دهنده(سرور)را هنگام اتصال بارگذاري كن"
+    IDS_IRC_ADDASFRIEND     "شما به عنوان دوست انتخاب شديد!"
+    IDS_PW_WARNING          "عددي كه شما انتخاب كرديد ""%s"" بزرگ تر از آن هست كه سيستم عامل شما پشتيباني ميكند:  %u\nاين باعث ميشود كه سيستم شما بي ثبات شود.\n\nآيا شما مي خواهيد اين كار را انجام دهيد؟"
+    IDS_TAKEOVER            "بيشتر برو"
+    IDS_CLEANUP             "پاك كردن"
+    IDS_RENAME              "نام گذاري مجدد"
+    IDS_IRC_ADDLINKTOIRC    "به پنجره اعلانات (کليپ بورد)صفحه گپ و گفتگو اضافه شود"
+    IDS_IRC_SENDLINK        "اينو بفرست براي دوستت: "
+    IDS_IRC_RECIEVEDLINK    "%s فرستاده شد (%s) تا اينكه دوباره آغاز بشه."
+    IDS_IRC_ACCEPTLINKS     "پذيرفتن لينكهاي ايدانكي در  چت عمومي (با احتياط استفاده كنيد!)َ"
+    IDS_SHARED              "اشتراكي"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADED          "دانلود شده"
+    IDS_SOURCENAMES         "نام هاي منابع"
+    IDS_PREF_STARTMIN       "در آغاز كمينه شده باشد"
+    IDS_PS_TBN_IMPORTANT    "ضروري: بيش از ظرفيت فضاي ديسك سخت , اتصال به سرويس دهنده قطع شد"
+    IDS_COLORS              "رنگها"
+    IDS_SP_BACKGROUND       "پس زمينه ها"
+    IDS_SP_GRID             "خطوط مقياسي"
+    IDS_SP_DL1              "دانلود در حال حاضر"
+    IDS_SP_DL2              "دانلود روي هم رفته"
+    IDS_SP_DL3              "معدل دانلود اين مرحله اجرا"
+    IDS_SP_UL1              "آپلود در حال حاضر"
+    IDS_SP_UL2              "آپلود روي هم رفته"
+    IDS_SP_UL3              "معدل آپلود اين مرحله اجرا"
+    IDS_SP_ACTCON           "اتصالات فعال"
+    IDS_SP_ACTDL            "دانلود هاي فعال"
+    IDS_SP_ACTUL            "آپلودهاي فعال"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "نامحدود"
+    IDS_PW_MINREC           "كمترين تنظيم پيشنهادي\t%u "
+    IDS_PW_UA               "بطور كامل  آپلود/دانلود-سرعت"
+    IDS_PW_PA               "بطور متوسط  آپلود/دانلود-سرعت"
+    IDS_IRC_IGNOREINFOMESSAGE "پيغام هاي حاوي اطلاعات بي اهميت را ناديده بگير"
+    IDS_CONNECTIONLOST      "اتصال قطع شد"
+    IDS_WIZ_OS_FRAME        "سيستم عامل"
+    IDS_HASHINGFILE         "فايل در حال كد گذاري:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "پهناي باند حقيقي آپلود"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "پهناي باند حقيقي دانلود"
+    IDS_FRIENDLIST          "دوستان"
+    IDS_CHATDISCONNECTED    "*** ارتباط قطع شده"
+    IDS_WIZARD              "تنظيم ساده"
+    IDS_ADDFRIEND           "&به دوستهايم اضافه شود"
+    IDS_REMOVEFRIEND        "حذف شود"
+    IDS_REMOVEFROMSTATIC    "از ليست سرويس دهنده هاي هميشگي خارج شود"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LENGTH              "مدت"
+    IDS_VIDEO               "ويدئو"
+    IDS_AUDIO               "شنيداري"
+    IDS_FILEINFO            "توضيحات ديگر"
+    IDS_CODEC               "باز كننده كد پخش"
+    IDS_BITRATE             "كيفيت طول تصوير"
+    IDS_WIDTH               "كيفيت عرض تصوير"
+    IDS_FPS                 "تعداد فريم در ثانيه"
+    IDS_CHANNELS            "كانالها"
+    IDS_SAMPLERATE          "مقدار حجمي پخش در ثانيه"
+    IDS_HEIGHT              "كيفيت پخش"
+    IDS_SHAREDFILES_FAILED  "نتوانستم چيزي بگيرم از فايلهاي اشتراكي  '%s'"
+    IDS_SHAREDFILES_REQUEST "درخواست دريافت ليست فايلهاي اشتراكي از '%s'"
+    IDS_VIEWFILES           "&فايلهاي به اشتراك گذاشته شده را نمايش بده"
+    IDS_FRIENDSLOT          "برقرار كردن اتصال مجزا با دوست"
+    IDS_FRIENDDETAIL        "(اتصال مجزا با دوست)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UDPDISABLED         "غير فعال شده"
+    IDS_WIZ_CTFRAME         "نوع ارتباط"
+    IDS_CONCURDWL           "دانلودهاي همزمان"
+    IDS_WIZARD_CUSTOM       "سفارشي"
+    IDS_WIZARD_ENTERBELOW   "(ورودي كمتر از)"
+    IDS_STATS_MAXAVGDL      "ميانگين بالاترين سرعت دريافتي: %s"
+    IDS_STATS_MAXDL         "بالاترين سرعت دريافتي: %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "ايمول پيغام هاي درخواست دوستي را ناديده بگيرد "
+    IDS_PW_FASTSRVCON       "اتصال مطمئن"
+    IDS_SOURCELINKFAILED    "شما براي ساختن يك منبع لينك صحيح بايد يك كاربر سطح بالا (هاي آي دي)باشيد"
+    IDS_ERR_LOADSERVERMET   "نمي توان اين فايل را بارگذاري كرد server.met!"
+    IDS_ERR_CORRUPTCOMPRPKG "اين مقدار بسته هاي فشرده شده خراب %s دريافت شد (خطا %u)"
+    IDS_ERR_EMFRIENDSINVALID
+                            "اين فايل 'emfriends.met' خراب يا اشتباه است!َ"
+    IDS_ERR_READEMFRIENDS   "هنگام خواندن اين فايل با خطايي ناشناخته روبرو شدم emfriends.met: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "اطلاعاتي از يك سرويس دهنده ناشناس دريافت شد"
+    IDS_WIZ_DOWN            "دريافت (كيلوبيت در ثانيه)َ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZ_UP              "ارسال (كيلوبيت در ثانيه)َ"
+    IDS_SELECT_INCOMINGDIR  "يك پوشه را براي ذخيره فايلهاي دريافتي انتخاب كنيد"
+    IDS_SELECT_TEMPDIR      "يك پوشه را براي استقاده فايلهاي موقتي انتخاب كنيد"
+    IDS_PRIOAUTO            "هوشمند"
+    IDS_PRIOAUTONORMAL      "هوشمند [عادي]َ"
+    IDS_PRIOAUTOHIGH        "هوشمند [بالا]َ"
+    IDS_PRIOAUTORELEASE     "هوشمند [آزاد]َ"
+    IDS_PRIOAUTOLOW         "هوشمند [پايين]َ"
+    IDS_ERR_CONTIMEOUT      "تلاش براي اتصال ""%s"" (%s:%u) بي نتيجه"
+    IDS_OUTOFSERVERS        "ناتواني از اتصال به تمامي سروريس دهنده هاي موجود در ليست.رفتن به مرحله بعد از اين"
+    IDS_PW_CONLIMITS        "محدوديت هاي اتصال"
+    IDS_MAXCON5SECLABEL     "بيشترين مقدار. ايجاد اتصال هاي جديد / 5 secs"
+    IDS_PW_UAP              "فايلهاي اشتراكي جديد را بصورت خودكار اولويت بندي كن"
+    IDS_MAXCLIENT           "بيشترين تعداد كاربر"
+    IDS_PW_TWEAK            "تنظيمات تكميلي"
+    IDS_TWEAKS_WARNING      "کد گذاري در: هيچ تغييري اعمال نكنيد مگر اينكه اطلاعات كافي درباره آن را داشته باشيد. در غير اين صورت ممكن است به وضعيت نامطلوبي دچار شويد. ايمول بدون اعمال اين تغييرات هم بخوبي كار مي كند.َ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDAFRIEND          "اضافه...َ"
+    IDS_PAF_REQINFO         "نيازمند اطلاعات"
+    IDS_PAF_MOREINFO        "اطلاعات اضافي"
+    IDS_ERR_NOVALIDFRIENDINFO "شما داريد يك آي پي و پورت ورودي صحيح وارد مي كنيد"
+    IDS_ADD                 "اضافه"
+    IDS_RECOVERED_PARTMET   "بازيابي شده part.met اين فايل به: %s"
+    IDS_CMT_QUEST           "نظر خود را درباره فايل بنويسيد (اين نوشته براي تمام كاربران نمايش داده خواهد شد)َ"
+    IDS_CMT_AIDE            "مثلا براي يك فيلم, درباره مدت زمان آن, داستان آن, زبان آن... و اگر اين فايل جعلي باشد, شما مي توانيد به ديگر كاربران ايمول اطلاع بدهيد...َ"
+    IDS_CMT_ADD             "نظر دهي...َ"
+    IDS_CMT_NONE            "بدون هيچ نظري"
+    IDS_CMT_READ            "نظر درباره فايل:"
+    IDS_CMT_SHOWALL         "توضيحات...َ"
+    IDS_CMT_READALL         "توضيحات"
+    IDS_CMT_RATEQUEST       "چگونگي كيفيت فايل"
+    IDS_CMT_RATEHELP        "رتبه فايل را انتخاب كنيد و اگر فايل خراب است به ديگران اطلاع بدهيد"
+    IDS_CMT_FAKE            "پوچ / خراب / جعلي"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHOWOVERHEAD        "سرجمع پهناي باند را نمايش بده"
+    IDS_UPDOWNSMALL         "ارسال: %.1f | دريافت: %.1f"
+    IDS_EDITLIST            "ليست...َ"
+    IDS_SP_ICONBAR          "نمايش سرعت در شمايل سيس تراي"
+    IDS_RATINGRECV          "رتبه براي فايل داده شده'%s' دريافت شده: %u"
+    IDS_DESCRIPTIONRECV     "توضيحات درباره فايل '%s' دريافت شده: %s"
+    IDS_WEBSERVICES         "&سرويس وب"
+    IDS_WEBSVEDIT           "ويرايش سرويس وب...َ"
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "ايمول پيغام هاي دستوري كه در آنها لينك فرستاده شده را ناديده بگيرد"
+    IDS_CHECK4UPDATE        "چک کردن براي نسخه جديد"
+    IDS_STARTUP             "شروع به كار"
+    IDS_NEWVERSIONAVL       "يك نسخه جديد از ايمول موجود است! به سايت اصلي ايمول براي جزئيات بيشتر مراجعه كنيد.َ"
+    IDS_NEWVERSIONAVLPOPUP  "يك نسخه جديد از ايمول موجود است. براي گرفتن اطلاعات درباره آن اينجا كليك كنيد!َ"
+    IDS_NEWVERSIONFAILED    "نمي توان نسخه جديد را چك كرد.َ"
+    IDS_CB_TBN_ONNEWVERSION "نسخه جديد ايمول پيدا شد"
+    IDS_NONEWERVERSION      "نسخه جديدي از ايمول پيدا نشده.َ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EDIT                "ويرايش...َ"
+    IDS_FILTERLEVEL         "مقدار فيلتر"
+    IDS_FILTERSERVERBYIPFILTER "سرويس دهنده ها هم فيلتر كن"
+    IDS_FILTERCOMMENTSLABEL "ناديده بگير پيغام هايي كه شامل كلمات پايين باشند: (جدا کننده |)َ"
+    IDS_CLIENTLIST          "كاربران مشتري آشنا"
+    IDS_FOLDER              "پوشه"
+    IDS_CL_UPLOADSTATUS     "وضعيت آپلود"
+    IDS_CL_TRANSFUP         "تحويل و فرستاده شده"
+    IDS_CL_DOWNLSTATUS      "وضعيت دانلود"
+    IDS_CL_TRANSFDOWN       "تحويل و دريافت شده"
+    IDS_CL_PENDING          "در مدت"
+    IDS_CL_LOW2LOW          "ارتباط آي پي دو سطح پايين"
+    IDS_ERROR               "خطا"
+    IDS_OPENINC             "&پوشه فايلهاي دريافتي را باز كن"
+    IDS_HOTMENU             "منوي مهم"
+    IDS_DISABLEKNOWNLIST    "ليست كاربران مشتري آشنا را غير فعال كن"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DISABLEQUEUELIST    "ليست افراد در صف را غير فعال كن"
+    IDS_USECREDITSYSTEM     "از سيستم اعتباري استفاده كن (كه به افرادي كه بيشتر آپلود كنند اعتبار پاداش  مي دهد)َ"
+    IDS_FIRSTAUTODOWN       "اگر مي خواهيد ايمول كنترل اولويتهاي فايلهاي دانلودي شما را بر عهده بگيرد اين گزينه را فعال كنيد.َ\n\nاگر اين گزينه را فعال كنيد به ايمول اجازه ميدهيد كه  در اولويت فايلهايي كه با تعداد بالاي منبع مواجه هستند مداخله كند و در مقابل فايلهايي كه با تعداد منابع كم روبرو هستند از اولويت پايينتري برخوردار شوند. اين گزينه فقط به دانلود هايي كه بعدا اضافه مي كنيد اعمال ميشود.َ"
+    IDS_FIRSTAUTOUP         "اگر مي خواهيد ايمول كنترل اولويتهاي فايلهاي آپلودي شما را بر عهده بگيرد اين گزينه را فعال كنيد.َ\n\n اگر اين گزينه را فعال كنيد سرعت دريافت  فايل زياد مي شود ولي  فايلهايي كه با تعداد بالاي درخواست مواجه هستند با مشكل صف طولاني مواجه مي شوند و جابجايي در صف كند ميشود  . پس فايلهايي كه با تعداد منابع كم روبرو هستند با اين گزينه بهتر كار ميكنند. اين گزينه فقط به فايلهاي اشتراكي كه بعدا اضافه مي كنيد اعمال ميشود.َ"
+    IDS_FIRSTSAFECON        "اگر مي خواهيد كه ايمول در حالت امن و مطمئن اتصال پيدا كند اين گزينه را فعال كنيد.َ\n\nفعال كردن اين گزينه باعث ميشود كه با سرعت بيشتري به سرويس دهنده وصل شويد , ولي ممكن است باعث شود سرويس دهنده به اشتباه شما را كاربر سطح پايين شناسايي كند."
+    IDS_FIRSTAUTOCON        "اگر مي خواهيد در هنگام شروع به كار ايمول به طور خود كار اتصال برقرار شود اين گزينه را فعال كنيد.َ"
+    IDS_FIRSTCOMPLETE       "شما تنظيمات سريع اوليه را با موفقيت به اتمام رسانديد.\n\nتمام اين تنظيمات وگزينه هاي بيشتر را مي توانيد در تنظيمات اصلي ايمول پيدا كنيد. براي آموزش و تشريح بيشتر و ديدن كتاب راهنما كليد اف يك را فشار دهيد!َ"
+    IDS_ENTERUSERNAME       "لطفا نام كاربري خود را وارد كنيد:"
+    IDS_STATIC_CPUMEM       "آزاد كردن سي پي يو && و حافظه از تحليل هاي پيشرفته "
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "واژه كليدي خيلي كوتاه است.\r\n\r\nحداقل تعداد حروف يك كلمه براي جستجو در شبكه اتصال كاربر به كاربر (كد) 3 حرف مي باشد .َ"
+    IDS_LOG2DISK            "توضيحات گزارشگر را در ديسك سخت ذخيره كن"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "در حال حاظر يك واژه كليدي در شبكه كاربر به كاربر (كد ) در حال جستجو ميباشد ""%s"".\r\n\r\nبراي جستجو دوباره صبر كنيد تا جستجو بطور كامل تمام شود سپس پنجره جستجو را ببنديد و دوباره جستجو انجام دهيد.َ"
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "واژه كليدي اشتباه در كد نوشته شده.َ\r\n\r\nواژه هاي جستجوي كد بايد يكي از اين حالتها را در بر بگيرد:\r\n\r\n\t<kad-keyword> [ <ed2k-search-expression> ]\r\n\r\nThe <kad-keyword> نبايد شامل هيچ يك از حروف يا كلمات روبرو باشد:\r\n\r\n\t%s"
+    IDS_EDITCAT             "ويرايش خصوصيات قفسه هاي دسته بندي شده"
+    IDS_PW_WS               "نماي ورودي وب"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENABLED             "فعال شده"
+    IDS_WEB_LOGIN           "ورودي"
+    IDS_WEB_ENTER_PASSWORD  "رمز عبور را وارد كنيد"
+    IDS_WEB_LOGIN_NOW       "حالا وارد شود"
+    IDS_WEB_CONFIRM_REMOVE_SERVER
+                            "آيا اطمينان داريد كه ميخواهيد اين سرويس دهنده را از ليست پاك كنيد؟"
+    IDS_WEB_CONTROL         "ورودي وب"
+    IDS_WEB_LOGOUT          "خارج شدن"
+    IDS_WEB_ACTIONS         "فعاليت ها"
+    IDS_WEB_SHOW_UPLOAD_QUEUE "نمايش صف"
+    IDS_WEB_GZIP_COMPRESSION "Gzip استفاده از فشرده كننده"
+    IDS_WEB_GZIP_COMMENT    "ذخيره داد و ستد اطلاعات, بخصوص در نمودارها.َ"
+    IDS_WEB_REFRESH_TIME    "زمان بازآوري صفحه ها"
+    IDS_WEB_REFRESH_COMMENT "زمان به ثانيه (صفر=غيرفعال)َ:"
+    IDS_SV_URL              "URL" //!
+    IDS_WS_RELOAD_TMPL      "قالب"
+    IDS_SV_DEBUGLOG         "گزارش اشكال زدايي"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_TOOLARGEFILE    "فايل بزرگ تر از اندازه اي است كه طبق پروتكل هاي ايدانكي مي شود پشتيباني كرد (>=256GB)"
+    IDS_MSGONLYFRIENDS      "فقط از طرف دوستان قبول كن"
+    IDS_DAY_MO_SA           "دوشنبه-شنبه"
+    IDS_LIMITSOURCES        "منابع محدود"
+    IDS_LIMITCONS5SEC       "محدوديت اتصالات/5ثانيه"
+    IDS_SCHED_CATSTOP       "بخش:دانلود هاي متوقف شده"
+    IDS_SCHED_CATRESUME     "بخش:دانلودهاي درحال اجرا"
+    IDS_S_DAYS              "روز"
+    IDS_STARTTIME           "زمان شروع"
+    IDS_VALUE               "مقدار"
+    IDS_SCHED_ENTERDATARATELIMIT "مقدار محدوديت سرعت اطلاعات را وارد كنيد:"
+    IDS_SCHED_ENTERVAL      "لطفا مقدار جديدي وارد كنيد:"
+    IDS_SCHED_ACTCONFIG     "تنظيم عملكرد"
+    IDS_SELECTCAT           "انتخاب قفسه طبقه بندي"
+    IDS_ALLUNASSIGNED       "همه طبقه بندي نشده ها"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ACTSESSIONS         "دوره هاي فعال(s)"
+    IDS_WEBSRV              "نماي ورودي وب"
+    IDS_SW_REFETCHRES       "گرفتن دوباره نتيجه ها"
+    IDS_FILEHASH            "كد اطلاعاتي فايل"
+    IDS_PW_PROXY            "پروكسي"
+    IDS_PROXY_ENABLE        "فعال شدن پروكسي"
+    IDS_PROXY_TYPE          "نوع پروكسي:"
+    IDS_PROXY_HOST          "آدرس پروكسي ميزبان:"
+    IDS_PROXY_PORT          "پورت ورودي ميزبان:"
+    IDS_PROXY_AUTH          "فعال كردن اعتبار نامه"
+    IDS_AUTH                "اعتبارنامه ورود"
+    IDS_SHOWCATINFO         "اطلاعات دانلود ها را روي سر تيتر هر قفسه نشان بده"
+    IDS_SW_SEARCHINGINFO    "جستجو درحال انجام است. تا چند لحضه ديگر نتايج ديده ميشود!َ"
+    IDS_LOGENTRY            "ورودي گزارش"
+    IDS_COPY                "كپي"
+    IDS_SELECTALL           "انتخاب همه"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_AUTOSCROLL          "اسكرول هوشمند"
+    IDS_WIZ1_WELCOME_TITLE  " هموطن ايراني عزيز به  نرم افزار زبان فارسي ايمول خوش آمديد"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "اين پنجره جادويي به شما کمک مي کند تا تنظيمات مهم و اوليه را به سادگي تغيير دهيد"
+    IDS_WIZ1_WELCOME_BTN_HINT "براي ادامه, با کليک بر روي بعدي به پنجره بعد برويد"
+    IDS_WIZ1_END_TITLE      "در حال تكميل كردن تنظيمات اوليه ايمول "
+    IDS_WIZ1                "تنظيمات مهم و اوليه اجرايي ايمول"
+    IDS_WIZ1_END_BTN_HINT   "براي بستن پنجره تنظيمات راهنما, روي كليد پايان كليك كنيد.َ"
+    IDS_WIZ1_UPLOAD_SUBTITLE "مبادله بسته هاي كامل"
+    IDS_DL_RESUMENEXT       "شروع به دانلود دانلود نيمه متوقف شده بعدي بكن"
+    IDS_STARTPRIO           "اولويت براي اين قفسه"
+    IDS_PREF_STARTNEXTFILECAT "ترجيحا در قفسه مشابه"
+    IDS_SOFTFILES           "محدوديت كمترين تعداد موجود فايلهاي اشتراكي"
+    IDS_HARDFILES           "محدوديت بيشترين تعداد موجود فايلهاي اشتراكي"
+    IDS_FILTER              "فيلتر"
+    IDS_LINKS               "لينكها"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HM_SCHED_ON         "فعال كردن عمليات زمان بندي"
+    IDS_HM_SCHED_OFF        "غير فعال كردن عمليات زمان بندي"
+    IDS_HM_LINKHP           "صفحه وب خانگي ايمول"
+    IDS_HM_LINKFAQ          "سوالاتي كه اغلب درباره ايمول پرسيده مي شود"
+    IDS_HM_LINKVC           "چك كردن بروز بودن نسخه نرم افزار ايمول شما"
+    IDS_DEBUG_SOURCE_EXCHANGE
+                            "گزارش ردوبدل كردن منابع واندازه صف ها  و درخواست هاي كاربران/و جواب ها"
+    IDS_SHAREDREQ1          "كاربر %s (%u) درخواست گرفتن ليست فايلهاي به اشتراك گذاشته شده شما را كرد -> %s"
+    IDS_SHAREDREQ2          "كاربر %s (%u) درخواست گرفتن ليست فايلها و پوشه هاي به اشتراك گذاشته شده شما را كرد '%s' -> %s"
+    IDS_SHAREDANSW          "كاربر %s (%u) پوشه ها را به اشتراك گذاشت '%s'"
+    IDS_SHAREDANSW2         "كاربر %s (%u) درخواست گرفتن ليست فايلهاي به اشتراك گذاشته شده شما را رد كرد"
+    IDS_SHAREDINFO1         "كاربر %s (%u) ليست فايلها و پوشه هاي به اشتراك گذاشته شده را بفرست '%s'"
+    IDS_SHAREDINFO2         "كاربر %s (%u) فرستادن ليست فايلها و پوشه هاي به اشتراك گذاشته شده پايان يافت"
+    IDS_SHAREDANSW3         "كاربر %s (%u) درخواست گرفتن ليست فايلها و پوشه هاي به اشتراك گذاشته شده شما را رد كرد '%s' -رد شد"
+    IDS_SHAREDREQDENIED     "كاربر %s (%u) اجازه دسترسي شما به ليست فايل ها و پوشه هاي اشتراكي خود را نداد"
+    IDS_AUTOCLEANUPFN       "کلمات اضافي را از نام فايلهاي دانلودي پاک كن"
+    IDS_ONNEWDOWNLOAD       "تنظيمات اوليه"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FILTERFILENAMEWORD  "كلمه اي كه ميخواهيد فيلتر شود را وارد كنيد, و با اين علامت از هم مجزا كنيد |"
+    IDS_FNFILTERTITLE       "ويرايش نام فايلها براي فيلتر كردن و پاك كردن"
+    IDS_CHANGECATVIEW       "انتخاب نمايش فيلتر"
+    IDS_STATUS_NOTCOMPLETED "ناتمام"
+    IDS_STATS_CUMULATIVE    "مجموع كل تا حال"
+    IDS_STATS_OVRHD         "سر جمع"
+    IDS_STATS_RECORDS       "بايگاني"
+    IDS_STATS_COMPDL        "دانلود هاي تكميل شده"
+    IDS_STATS_SVRECWORKING  "بيشترين. سرويس دهنده هاي درحال كار"
+    IDS_STATS_SVRECUSERS    "بيشترين تعداد كاربر آنلاين"
+    IDS_SEARCH_TEXT         "جستجو براي"
+    IDS_STATS_SVRECFILES    "بيشترين مقدار فايلهاي موجود"
+    IDS_STATS_SHRECNUM      "بيشترين مقدار فايلهاي به اشتراك گذاشته شده"
+    IDS_SEARCH_COLUMN       "جستجوي ستوني"
+    IDS_STATS_SHRECSIZE     "بيشترين حجم فايل اشتراك گذاشته شده"
+    IDS_STATS_SHRECASIZE    "ميانگين بيشترين حجم فايل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SESSION       "اين دوره"
+    IDS_STATS_SRATIO        "مجموع كل آپلود:دانلود نسبت:"
+    IDS_STATS_CRATIO        "مجموع كل آپلود:دانلود نسبت:"
+    IDS_SEARCH_NORESULT     "اين داده اي براي ورود پيدا نشد."
+    IDS_STATS_CURRSRVDUR    "مدت زمان طي شده روي سرويس دهنده"
+    IDS_LONGSECS            "ثانيه"
+    IDS_STATS_DLSES         "دانلود اين دوره"
+    IDS_LONGMINS            "دقيقه"
+    IDS_STATS_SDLSES        "دانلودهاي موفق  دوره ها"
+    IDS_STATS_FDLSES        "دانلودهاي ناموفق دوره ها"
+    IDS_STATS_AVGDATADLSES  "ميانگين دانلود در هر دوره"
+    IDS_STATS_ULSES         "آپلود اين دوره"
+    IDS_STATS_GAINCOMP      "از فشرده كردن حجم فايل بدست آمد : %s"
+    IDS_STATS_LOSTCORRUPT   "از خرابي فايل از دست رفت: %s"
+    IDS_STATS_AVGDATAULSES  "ميانگين آپلود هر دوره"
+    IDS_STATS_ICHSAVED      "قسمتهايي كه از بازيافت مجدد كد بدست آمد I.C.H: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MBRESET_TXT   "آيا شما مي خواهيد اطلاعات نموداري شما پاك گردد؟\n\nاگر نظر شما بعدا عوض شد با كليك كردن بر كليد 'باز آوري نمودار' به حالت قبل باز ميگرديد.َ"
+    IDS_STATS_MBRESTORE_TXT "آيا شما مي خواهيد كه اطلاعات كامل نمودار ها را از فايل پشتيبان باز آوري كنيد؟\n\nكليك كنيد بر روي 'باز آوري نمودار' تا دوباره اطلاعات نموداري شما بازآوري شود.َ"
+    IDS_ERR_NOSTATBKUP      "خطا: نسخه پشتيباني از نمودارها يافت نشد...َ"
+    IDS_STATS_NFOLOADEDBKUP "بار گذاري اطلاعات پشتيبان گرفته شده نمودارها...َ"
+    IDS_STATS_NFORESET      "آمار ها و نمودارها به حالت آغازين بازگشت!َ"
+    IDS_STATS_BNRESET       "پاك كردن آمارها و نمودارها"
+    IDS_STATS_BNRESTORE     "بازآوري نمودار ها"
+    IDS_PPGSTATS_YSCALE     "نمودار اتصالات حول محور ايكس:"
+    IDS_PPGSTATS_ACRATIO    "نسبت اتصالات فعال:"
+    IDS_STATS_PROBLEMATIC   "مشكل دار"
+    IDS_LONGHRS             "ساعت"
+    IDS_STATS_LARGESTFILE   "بزرگترين فايل اشتراك گذاشته شده"
+    IDS_SPLIT_WINDOW        "جدا كردن پنجره"
+    IDS_STATS_DSPF          "قسمت فايل"
+    IDS_STATS_DATASOURCE    "منبع داده"
+    IDS_STATS_DSFILE        "فايل كامل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_GENERAL       "عمومي"
+    IDS_STATS_TRANSTIME     "مدت زمان مبادله"
+    IDS_STATS_DOWNTIME      "مدت زمان دانلود"
+    IDS_STATS_UPTIME        "مدت زمان آپلود"
+    IDS_STATS_TOTALSRVDUR   "كل مدت زمان اتصال به سرويس دهنده"
+    IDS_STATS_MAXAVGUL      "ميانگين بالاترين سرعت آپلود"
+    IDS_STATS_MAXUL         "بالاترين سرعت آپلود"
+    IDS_STATS_AVGDLTIME     "ميانگين مدت زمان دانلود"
+    IDS_STATS_PRTDEF        "پيش فرض"
+    IDS_STATS_PRTOTHER      "ديگر"
+    IDS_STATS_MNUTREETITLE  "نمودار هاي درختي"
+    IDS_STATS_MNUTREECPYSEL "كپي شاخه ها"
+    IDS_STATS_MNUTREECPYALL "كپي تمام نمودارها"
+    IDS_STATS_MNUTREEHTML   "HTML نمايش دادن"
+    IDS_STATS_EXPORT2HTML   "صدور نمودارها...َ"
+    IDS_CONDTCPACCEPT       "رد كردن اتصالات سريع"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MNUTREECPYVIS "همه چيزهايي كه ديده ميشود را كپي كن"
+    IDS_STATS_MNUTREEEXPANDALL "همه سطرهاي آماري را باز كن"
+    IDS_STATS_MNUTREECOLLAPSEALL "همه سطرهاي آماري را ببند"
+    IDS_STATS_MNUTREEEXPANDMAIN "سطرهاي اصلي را باز كن"
+    IDS_STATS_LASTRESETSTATIC "زمان  پاك شدن قبلي نمودار: %s"
+    IDS_STATS_MONTHLY       "ماهانه"
+    IDS_STATS_YEARLY        "سالانه"
+    IDS_STATS_TIMESTATS     "نمودار زمان"
+    IDS_STATS_AVGANDPROJ    "ميانگين پروژه اي"
+    IDS_STATS_TIMESINCERESET "زمان بعد از پاك شدن نمودار: %s"
+    IDS_CRYPT_INITFAILED    "ناتواني از تحليل اطلاعات شخصي ذخيره شده - حالت امنيت شناسايي غير فعال شد"
+    IDS_CD_IDENT            "تعيين هويت:"
+    IDS_IDENTOK             "موفق"
+    IDS_IDENTFAILED         "ناموفق"
+    IDS_IDENTNOSUPPORT      "پشتيباني نمي شود يا غير فعال شده"
+    IDS_COMMITFILES         "حالت امن .met/.dat نوشتن بر روي فايل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DWL_IPFILTERFILE    "در حال دانلود ليست آي پي هاي فيلتري"
+    IDS_DWLIPFILTERFAILED   "ناتواني از دانلود ليست آي پي هاي فيلتري"
+    IDS_FINDBUDDY           "دوست پيدا شد"
+    IDS_ERR_IPFILTERZIPEXTR "ناتواني از خروج اطلاعات آي پي فيلتر از فايل فشرده شده آي پي فيلتر ""%s""."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "آي پي فيلتر دانلود شده ""%s"" اين فايل فشرده شده محتوي اطلاعات ناشناخته است.َ"
+    IDS_STORENOTES          "انبار ثبت شده ها"
+    IDS_NOTES               "ثبت شده ها"
+    IDS_KADSEARCHALREADY    "در حال حاظر شما در حال جستجو كليد واژه قبلي مي باشيد. لطفا بعدا دوباره سعي كنيد"
+    IDS_WEB_SHUTDOWN        "خاموش كردن ايمول"
+    IDS_WEB_REBOOT          "خاموش و روشن كردن دستگاه"
+    IDS_WEB_SHUTDOWNSYSTEM  "خاموش كردن دستگاه"
+    IDS_WEB_ADMINMENU       "تنظيمات مدير"
+    IDS_WEB_MAIN_CLOSE      "آيا شما واقعا مي خواهيد از ايمول خارج شويد؟"
+    IDS_WEB_MAIN_REBOOT     "آيا شما واقعا ميخواهيد دستگاه دوباره راه اندازي شود؟"
+    IDS_WEB_MAIN_SHUTDOWN   "آيا شما واقعا ميخواهيد دستگاه خاموش شود؟"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "كاربران مشتري مسدود شده را در صف نمايش بده"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "دوستان را در صف نمايش بده"
+    IDS_WEB_SESSIONTIMEOUT  "زمان اين دوره تمام شد"
+    IDS_WEB_ALLOWHILEVFUNC  "اجازه خروج از ايمول,راه اندازي مجدد يا خاموش كردن"
+    IDS_SETPFSLIMIT         "محدويديت منبع...َ"
+    IDS_SETPFSLIMITEXPLAINED
+                            "لطفا براي فايلهاي انتخاب شده محدوديت مقدار منابع جديدي را وارد كنيد ! \n(براي تنظيمات كلي عدد را به صفر تغيير دهيد)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "آيا مايل هستيد اطلاعات وارد شده در پوشه جديد دانلود فايلها در قفسه با پوشه قبلي دانلود بروز شود؟"
+    IDS_USESPEECH           "پيغام هاي اطلاع داده شده را بخواند"
+    IDS_ERR_FAILEDTOLOAD    "ناتواني از بار گذاري %s: %s "
+    IDS_TCPIP_CONNS         "TCP/IP اتصالات"
+    IDS_MANUAL_FILENAMECLEANUP
+                            "آيا شما مي خواهيد كه نام هاي اضافي فايلهاي انتخاب شده را پاك كنيد؟"
+    IDS_ERR_DELFILE         "ناتواني از پاك كردن اين فايل ""%s"""
+    IDS_ERR_CONFIGCORRUPT   "%s به نظر مي آيد كه خراب شده و جايگزين مي شود"
+    IDS_UPLOADING           "در حال آپلود"
+    IDS_CANCELLED           "انصراف داده  شده"
+    IDS_PW_REMEMBERDOWNLOADED "فايلهاي دانلود شده را به ياد داشته باش"
+    IDS_PW_REMEMBERCANCELLED "فايلهاي انصراف داده شده را به ياد داشته باش"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADUNC          "اشتباه UNC-نام"
+    IDS_NEVER               "هرگز"
+    IDS_ALWAYS              "هميشه"
+    IDS_ONSHUTDOWN          "درموقع خاموش شدن"
+    IDS_UNCFOLDERS          "UNC مسيرهاي"
+    IDS_USESECIDENT         "از اطلاعات شخصي شناسايي امن استفاده كن"
+    IDS_ADVSPAMFILTER       "فيلتر كردن پيشرفته پيغام هاي ناخواسته"
+    IDS_CUT                 "قطع كن"
+    IDS_STATS_SECUREIDENT   "شناسايي امن (OK : خطا)"
+    IDS_ONDISK              "حجم ديسك سخت: "
+    IDS_CLIENTCOL           "کد گذاريدار: كاربر مشتري مشابه پيدا شد, در حالي كه به يك كاربر مشتري وصل شده ايم: %s (%s) و %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "كد رشته اي پايان نيافته"
+    IDS_SEARCH_GENERALERROR "خطاي كلي"
+    IDS_SEARCH_MISSINGORRIGHT "خطا در پيدا كردن مسير درست عملگر OR"
+    IDS_SEARCH_MISSINGNOTRIGHT "خطا در پيدا كردن مسير درست غير عملگر NOT"
+    IDS_SEARCH_MISSINGEXPRPARANT "خطا در كلمه بندي '(' ')'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_MISSINGCLOSINGPARANT "خطاي متوقف کننده ')'"
+    IDS_SEARCH_EXPRERROR    "موفق به تحليل توضيحات جستجو نشد"
+    IDS_SEARCH_TOOCOMPLEX   "توضيحات بسيار پيچيده هستند"
+    IDS_VERSION             "نگارش"
+    IDS_OPTIONS             "تنظيمات"
+    IDS_PASTE               "چسباندن"
+    IDS_SEARCHAUTHORCOLLECTION "جستجوي مجموعه سازنده"
+    IDS_ERR_DUPL_FILES      "همانند فايل هاي به اشتراک گذاشته شده ""%s"" و ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "کنترل هوشمند آپلود: دنبال کردن مسير دفعات زيادي با شکست مواجه شد. از کار انداختن آپلود SpeedSense."
+    IDS_USS_STARTING        "کنترل هوشمند آپلود: اقدامات مقدماتي انجام شد. کنترل کردن سرعت آپلود آغاز مي شود (60 ثانيه اول در حالت واکنش سريع خواهد بود)َ"
+    IDS_A4AF                "به کار گرفتن منبع"
+    IDS_AUTOCAT_LABEL       "دسته بندي خودکار (نمونه,جدا شده توسط |)َ"
+    IDS_SHOWEXTSETTINGS     "«نمايش کنترل هاي بيشتر (حالت کنترل هاي پيشرفته)َ"
+    IDS_TREEOPTIONS_TRUE    "درست"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TREEOPTIONS_FALSE   "نادرست"
+    IDS_TREEOPTIONS_OK      "درست"
+    IDS_HYPERTEXT_FONT_HINT "فونت براي سرور-, پيغام- و IRC-پنجره"
+    IDS_SELECT_FONT         "انتخاب فونت"
+    IDS_SERVER_LIMITS       "Soft- / Hard-File محدوده"
+    IDS_KBITSSEC            "کيلوبيت در ثانيه"
+    IDS_KBYTESSEC           "کيلوبايت در ثانيه"
+    IDS_ERR_CREATE_DIR      "خطا در ساختن %s پوشه ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "پوشه فايل هاي در حال ايجاد نبايد در پوشه نصب ايمول قرار بگيرد.َ"
+    IDS_WRN_TEMPFILES_RESERVED
+                            "پوشه موقتي (تمپوري)نبايد در پوشه نصب ايمول قرار بگيرد.َ"
+    IDS_WRN_INCTEMP_SAME    "پوشه فايل هاي در حال ايجاد و پوشه فايل هاي موقتي(تمپوري)نبايد مثل هم باشند"
+    IDS_SHOWDWLPERCENTAGE   "نمايش مقدار دريافت شده در قسمت ثبت پيشروي "
+    IDS_TBN_ONNEWDOWNLOAD   "براي دريافت شدن اضافه شد"
+    IDS_ARTIST              "هنرمند"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALBUM               "آلبوم"
+    IDS_CD_UPLOADREQ        "درخواست شده براي آپلود:"
+    IDS_SETTINGCHANGED_RESTART
+                            "براي مشاهده تغييرات انجام شده, لطفا ايمول را مجددا راه اندازي کنيد"
+    IDS_CREDITSEXPIRED      ", %u کلاينت ها پاک شده اند(مشاهده نشده در 5 ماه گذشته)َ"
+    IDS_SOURCESINFO         "%u  (مفيد: %u, NNP: %u);  A4AF: %u"
+    IDS_META_DATA           "اطلاعات ضميمه"
+    IDS_TIMEBEFORE          "(%s قبل)"
+    IDS_FD_TIMEDATE         "تاريخ ها"
+    IDS_FILEINFORMATION     "اطلاعات فايل"
+    IDS_STATS_FREESPACE     "فضاي آزاد"
+    IDS_IRC_HELPCHANNEL     "متصل شدن به پنل راهنما"
+    IDS_IRC_HELPCHANNELPERFORM "/پيوستن #ايمول | /پيوستن #ايمول-انگليسي"
+    IDS_IRC_ACCEPTLINKSFRIENDS "فقط از دوستان"
+    IDS_COMPLSOURCES        "منابع کامل شده"
+    IDS_CHECKNOENDTIME      "بدون محدوديت"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_DOWNLOADSTARTED  "براي دريافت شدن اضافه شد:"
+    IDS_FAILEDREOPEN        "خطاي مخرب: شکست در باز کردن مجدد قسمتي از فايل '%s' (%s)!"
+    IDS_ERR_PREVIEWALREADY  "درخواست پيش نمايش ازسوي اين کلاينت که در حالت تعليق به سر مي برد از قبل وجود دارد"
+    IDS_ERR_PREVIEWFAILED   "در خواست پيش نمايش از طرف کاربر '%s' با خطا مواجه شد"
+    IDS_DWTOT               "فضاي ديسک"
+    IDS_DWTOT_NR            ":تعداد دريافت ها %u"
+    IDS_DWTOT_TSD           "حجم کل دريافت ها: %s"
+    IDS_DWTOT_TCS           ":حجم کل فايل هاي دريافت شده %s (%.0f%%)"
+    IDS_DWTOT_TSL           "کل حجم باقي مانده براي انتقال: %s"
+    IDS_DWTOT_TSN           "مقدار فضاي اضافي لازم براي دريافت ها %s"
+    IDS_DWTOT_FS            "فضاي خالي درايو فايل هاي موقتي:  %s"
+    IDS_NEEDFREEDISKSPACE   "%s (لازم است ديسک را خالي کنيد %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT "مدت زمان بازآوري اتصالات سرور [دقيقه]َ"
+    IDS_MORE                "&بيشتر"
+    IDS_TOOLS               "ابزارها"
+    IDS_SEARCHPARAMS        "شاخص هاي جستجو"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u در حال کد گذاري کردن)"
+    IDS_CHECKDISKSPACE      "فضاي ديسک را چک کنيد"
+    IDS_YOURHOSTNAME        "خود نام ميزبان براي eD2K لينک ها"
+    IDS_INSUFFICIENT        "فضاي ديسک  کافي نيست"
+    IDS_MINFREEDISKSPACE    "کمترين حد(مينيموم). فضاي ديسک در حالت [MB]"
+    IDS_WARNING             "اخطار"
+    IDS_IMPORTSPLPF         "وارد کردن دانلودها(eM,eD,ON)"
+    IDS_IMP_STEPREADPF      "در حال خواندن فولدر موقت (تمپ)َ"
+    IDS_IMP_STEPBASICINF    "بازيابي اطلاعات اساسي از فايل اطلاعاتي دانلود"
+    IDS_IMP_STEPCRDESTFILE  "ايجاد کردن فايل مقصد"
+    IDS_IMP_LOADDATA        "بار گذاري اطلاعات از فايل قديمي دانلود (%u از %u)"
+    IDS_IMP_SAVEDATA        "ذخيره کردن قطعه اطلاعات به صورت فايل جديد و جداگانه دانلود(%u از %u)"
+    IDS_IMP_IOERROR         "خطاي فايل هنگام تغيير دادن دانلود"
+    IDS_IMP_GETPFINFO       "باز يافتن منبع فايل اطلاعاتي دانلود"
+    IDS_IMP_ADDDWL          "اضافه کردن دانلود و ذخيره کردن فايل بخش جديد"
+    IDS_IMP_FETCHSTATUS     "جستجو و آوردن حالت...َ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_INPROGR         "در حال پردازش"
+    IDS_IMP_ERR_DISKSP      "خطا: خارج از فضاي ديسک"
+    IDS_IMP_ERR_PARTMETIO   "خطا:يافت نشد Partmet"
+    IDS_IMP_ERR_IO          "خطا: IO خطاي!َ"
+    IDS_IMP_ERR_FAILED      "خطا: با شکست مواجه شد!َ"
+    IDS_IMP_STATUSQUEUED    "در صف"
+    IDS_IMP_ALRDWL          "از قبل در حالت دريافت کردن"
+    IDS_IMP_ADDBTN          "&وارد شده ها را اضافه کنيد"
+    IDS_IMP_RETRYBTN        "&انتخاب شده ها را دوباره امتحان کنيد"
+    IDS_IMP_REMOVEBTN       "حذف کردن انتخاب شده ها"
+    IDS_IMP_SELFOLDER       "لطفا براي جستجوي دانلود هاي موقتي يک پوشه را انتخاب کنيد  (زير مجموعه ها را شامل مي شود)َ"
+    IDS_IMP_DELSRC          "آيا مي خواهيد فايل هاي اصلي دانلود هايي که با موفقيت وارد شده اند حذف شوند؟"
+    IDS_IMP_SIZE            "%s (ديسک:%s)"
+    IDS_IMP_STATUS          "در حال وادر کردن %s: %s"
+    IDS_DYNUPENABLED        "بهترين حد آپلود را به صورت خودکار جستجو کن"
+    IDS_DYNUP_PINGTOLERANCE "قدرت پينگ (%)از کمترين پينگ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_GOINGUPDIVIDER "به آهستگي بالا رفتن"
+    IDS_DYNUP_GOINGDOWNDIVIDER "به آهستگي پايين رفتن"
+    IDS_DYNUP_NUMBEROFPINGS "بالا رفتن حد پينگ ها براي رسيدن به حد متوسط"
+    IDS_DYNUP_MINUPLOAD     "پايين ترين ميزان سرعت مجاز براي آپلود کردن"
+    IDS_ESTTIMELEFT         "زمان تخميني باقي مانده:"
+    IDS_TRANSFER_RATE_LABEL "سرعت انتقال"
+    IDS_SAVELOG             "ذخيره کردن گزارش"
+    IDS_CMT_COPYCLIPBOARD   "کپي کردن نظرات"
+    IDS_ASKDOWNLOADLANG     "زباني را که انتخاب کرده ايده در سيستم شما نصب نشده است.آيا مايليد ايمول آنرا دانلود کند؟"
+    IDS_ASKDOWNLOADLANGCAP  "دريافت فايل هاي زبان"
+    IDS_DELETESELECTED      "حذف"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "و نصب زبان انتخابي نشد از dllموفق به دانلود کردنِ %s!"
+    IDS_ERR_BADFOLDER       "پوشه بي اعتبار.\ساختن فولدر جديد امکان ندارد. لطفا نام و محل ان را چک کنيد.َ"
+    IDS_AUTOREMOVEFD        "دانلود هاي کامل شده بصورت خودکار حذف شوند"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELS          "تنظيمات نوع متن"
+    IDS_ENABLETEXTLABELS    "نمايش انواع متن"
+    IDS_CUSTOMIZETOOLBAR    "تنظيمات نوار ابزار"
+    IDS_MINBITRATE          "کمترين. سرعت انتقال داده [kbit/s]"
+    IDS_KAD_RECHECKFW       "چک کردن مجدد ديوار آتش"
+    IDS_SHAREDTITLE         "به اشتراک گذاشته شده eD2K|Kad"
+    IDS_FIREWALLED          "حفاظت شده توسط ديوار آتش يا فايروال"
+    IDS_KADEMLIA            "Kad" //!
+    IDS_KADCONTACTLAB       "تماس ها"
+    IDS_KADDISTANCE         "فاصله"
+    IDS_KEY                 "کليد"
+    IDS_NUMBER              "شماره"
+    IDS_KAD_SEARCHSRC       "جستجوي منابع"
+    IDS_KAD_SEARCHKW        "جستجوي کلمات کليدي"
+    IDS_KAD_NODE            "چک کردن مشکل"
+    IDS_KAD_STOREFILE       "ذخيره کردن فايل"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_STOREKW         "ذخيره سازي کلمه کليدي"
+    IDS_KAD_UNKNOWN         "نامعلوم"
+    IDS_SRV_TCPCOMPR        "TCP فشردگي داده"
+    IDS_KADSEARCHLAB        "جستجو هاي فعلي"
+    IDS_SRV_UDPSR           "پيش نويس يو دي پي تمديد شده براي درخواست منبع"
+    IDS_SRV_UDPFR           "پيش نويش يو دي پي تمديد شده براي درخواست فايل ها "
+    IDS_MINLENGTH           "کمترين.مدت [hh:mm:ss]"
+    IDS_EM_HELP             "&راهنما"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "دوست اضافه نشد.\r\n\r\nيک دوست از قبل با آدرس آي پي و پورت مشابه در دسترس است.َ"
+    IDS_DYNUP               "تعيين سرعت آپلود"
+    IDS_KADOVERHEAD         "Kad سربار (بسته هاي اطلاعاتي)َ: %s (%s)"
+    IDS_FIND                "يافتن...َ"
+    IDS_LOG_BANNED_CLIENTS  "مشتري هايي با ممنوعيت ورود"
+    IDS_LOG_RATING_RECV     "تعريف و درجه بندي فايلي که قابليت ورود يافته"
+    IDS_LOG_SECURE_IDENT    "با ورودي حفاظت شده ID"
+    IDS_LOG_FILTERED_IPS    "هايي با ورودي فيلتر شده يا ناديده گرفته شدهIp"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "از مشتري هاي شناخته شده"
+    IDS_KADUDPPORTERR       "سرور UDP يا ورودي eMule's Ext UDP يا با ورودي Kad's UDPناسازگاري ورودي. ورودي تبديل شده به%u."
+    IDS_CONFIRM_FILEDELETE  "آيا واقعا مي خواهيد تمام فايل هاي انتخاب شده را از روي ديسک پاک کنيد؟"
+    IDS_OPENFOLDER          "پوشه را باز کنيد"
+    IDS_RUNASUSER           "ايمول را به عنوان کاربر بدون امتياز اجرا کن"
+    IDS_DELETE              "حذف کردن از ديسک"
+    IDS_BOOTSTRAP           "بازآوري بي واسطه"
+    IDS_VIAED2KSQ           "توسط eD2K سرور"
+    IDS_EM_KADEMLIA         "&Kad" //!
+    IDS_VIAKAD              "توسط Kad"
+    IDS_VIASE               "از طريق مبادله منبع"
+    IDS_SELECTTOOLBARBITMAP "راانتخاب کنيد Bitmap جعبه ابزار"
+    IDS_SELECTTOOLBARBITMAPDIR " ...را انتخاب کنيد BItmap پوشه جعبه ابزار"
+    IDS_TOOLBARSKINS        "پوسته هاي نوار ابزار"
+    IDS_NOTEXTLABELS        "بودن انواع متن"
+    IDS_TEXTLABELSONRIGHT   "انواع متن در سمت راست"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STARTTEST           "آزمايش ورودي ها"
+    IDS_TESTINFO            "مي توانند از دوراتصال پيدا کنند TCP و UDPدر اينجا مي توانيد امتحان کنيد که آيا ورودي . موفقيت اين آزمايش براي سرويس دهنده ها و مراجعين براي اتصال به شما لازم است.با موفقيت روبرو شود! TCP  ورودي "
+    IDS_CONNECTIONTEST      "آزمايش اتصال"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "لطفاً ايمول با تنظيمات تغيير کرده ي پورت را دوباره راه اندازي کنيد امکان پذير نيستKad/n/nتغيير پورت پس از اتصال شما به کلاينت ها يا هنگام ارتباط با سرور"
+    IDS_NETWORK_INFO        "اطلاعات شبکه"
+    IDS_SP_TOTALUL          "همه آپلود ها"
+    IDS_SP_ULFRIENDS        "ها را آپلود کنيد friend slots"
+    IDS_SP_ULSLOTSNOOVERHEAD "آپلود هاي جاري (excl. overhead)"
+    IDS_ST_ACTIVEU_ZZ       "آپلود هاي فعال"
+    IDS_ST_ULCURRENT        "در حال حاضر"
+    IDS_ST_ULSLOTSNOOVERHEAD "در حال حاضر (excl. overhead)"
+    IDS_ST_ULFRIEND         "آپلود هاي دوست"
+    IDS_STATS_ACTUL_ZZ      "آپلود هاي فعال/مورد نياز براي پر کردن پهناي باند: %u"
+    IDS_STATS_TOTALUL       "همه آپلودها: %u"
+    IDS_CHAT_DOWNLOADED     "دريافت شده:"
+    IDS_CHAT_UPLOADED       "آپلود شده:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CHAT_IDENT          "هويت"
+    IDS_MAXHALFOPENCONS     "بيشترين.اتصالات نيمه باز"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "فعال کردن اين گزينه موجب مي شود که با آغاز ويندوز ايمول اجرا شود"
+    IDS_KAD_WAITCBK         "باشيد Kad منتظر تماس مجدد"
+    IDS_KAD_TOOMANDYKADLKPS "ها Kad مراجعات بيش از اندازه "
+    IDS_PCDS_CLIENTWAIT     "مشتري(کلاينت) در حال انتظار"
+    IDS_PCDS_CACHEWAIT      "انتظار براي ايجاد کش"
+    IDS_CACHE               "فضاي موقت"
+    IDS_INDEXED             "فهرست شده"
+    IDS_KADINFO_SRC         "\tمنبع: %u\r\n"
+    IDS_KADINFO_KEYW        "\tکلمات کليدي: %u\r\n"
+    IDS_STARTWITHWINDOWS    "آغاز به کار همراه ويندوز"
+    IDS_ADDSRCMANUALLY      "اضافه کردن منابع..."
+    IDS_BUDDY               "دوست"
+    IDS_BUDDYNONE           "هيچ"
+    IDS_INFO                "اطلاعات"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HALF                "نيمه"
+    IDS_CONCOMPL            "کامل"
+    IDS_KADSTATUS_STOPPING  "در حال متوقف شدن"
+    IDS_KADSTATUS_ACTIVE    "فعال"
+    IDS_FORMAT              "نوع"
+    IDS_META_COLLECTION     "مجموعه"
+    IDS_META_PARTPATH       "بخش مسير"
+    IDS_META_PARTHASH       "بخش کدگذاري"
+    IDS_META_GAPSTART       "شروع کار دريچه اتصال"
+    IDS_META_GAPEND         "پايان کار دريچه اتصال"
+    IDS_FAIL                "ناموفق"
+    IDS_META_PREFERENCES    "اولويت ها"
+    IDS_META_VERSION        "نگارش"
+    IDS_META_TEMPFILE       "فايل موقتي"
+    IDS_META_SERVERPORT     "ورودي سرور"
+    IDS_META_SERVERIP       "سرور IP"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_META_SRCUDPPORT     "منبع UDP ورودي"
+    IDS_META_SRCTCPPORT     "منبع TCP ورودي"
+    IDS_META_SRCIP          "منبع IP"
+    IDS_META_SRCTYPE        "منبع نوع"
+    IDS_SEARCH_UNICODE      "جستجو به شکل Unicode"
+    IDS_PF_ADVANCEDCALC     "استفاده از محاسبه پيشرفته براي تخمين زمان باقي مانده"
+    IDS_LD_ED2KLINK         "eD2K لينک"
+    IDS_LD_COPYCLIPBOARD    "کپي"
+    IDS_LD_HOSTNAME         "از اولويت ها در هنگام ايجاد کردن منبع لينک به جاي آي پي از نام ميزبان استفاده کنيد"
+    IDS_SAVEACFAILED        "!AICHخطا در ذخيره کردن کد گذاري"
+    IDS_AICHHASH            "AICH کدگذاري"
+    IDS_BYTESPERSEC         "B/s" //!
+    IDS_KBYTESPERSEC        "KB/s" //!
+    IDS_MBYTESPERSEC        "MB/s" //!
+    IDS_GBYTESPERSEC        "GB/s" //!
+    IDS_TBYTESPERSEC        "TB/s" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MINORCLIENTS  "کمتر"
+    IDS_AICH_SYNCTOTAL      "در حال کد گذاري کردن مجدد فايل ها معتبر پيدا شدند AICH فايل هاي بدون کد گذاري %u"
+    IDS_AICH_CALCFILE       "براي فايل AICH محاسبه کد گذاري %s"
+    IDS_AICH_WARNUSER       "اما اين عمل فقط يک بار صورت ميگيرد. استفاده ميکند که به ميزان زيادي به کاکد گذاري اتلاف اطلاعات در هنگام رد يابي يک خرابي کمک ميکند به اين دليل که شمااز يک نسخه قديمي تر استفاده مي کنيد لازم است ايمول فايل هاي اشتراکي شما را ترميم کند تا کد گذاري جديد را محاسبه کند.اين مسئله ممکن است مقداري طول بکشد از يک فايل کد گذاري اضافي 0.44a ايمول به دليل اينکه"
+    IDS_AICH_WORKED         " بازيافت شد با موفقيت AICH %s از %s بخش%u براي %s"
+    IDS_SOURCECLIENT        "منبع کلاينت"
+    IDS_USERSIP             "کاربران IP"
+    IDS_FEATURES            "خصوصيات"
+    IDS_IRC_NEWNICK         "انتخاب کنيد. IRC  يک اسم مستعار "
+    IDS_IRC_NEWNICKDESC     " باشد.(A-Z, 0-9)بايد يک کلمه کمتر از 20 کاراکتر شامل.تغيير کند Preferences->Irc ميتواند در"
+    IDS_SPARSEPARTFILES     "('sparse')فايل هاي جديد قسمتي به صورت پراکنده ايجاد کنيد(NTFS فقط)"
+    IDS_ASPECTRATIO         "نسبت اندازه تصوير"
+    IDS_NEGATEFILTER        "فيلتر معکوس"
+    IDS_SEENCOMPL           "همه کامل شدند"
+    IDS_SELSKINPROFILEDIR   "را انتخاب کنيد Skin پوشه پروفايل پوسته"
+    IDS_ASKDLINCOMPLETE     "فايل ناقص به صورت پنهاني:\r\n\r\n%s\r\n\r\nگمان مي رود اين فايل در شبکه ناقص باشد و در اين صورت احتمالا موفق به دانلود نمي شويد! آيا شما واقعا مايل به دانلود آن هستيد؟ "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DEADSOURCES         "منابع مرده"
+    IDS_LARGEICONS          "شمايل بزرگ"
+    IDS_SMALLICONS          "شمايل کوچک"
+    IDS_SHORTTAGS           "برچسب هاي اطلاعاتي کوچک"
+    IDS_THELOAD             "بارگذاري"
+    IDS_PACKSENT            "بسته هاي فرستاده شده"
+    IDS_RESPONSES           "پاسخ ها"
+    IDS_EXTRACT_META_DATA   "خارج کردن اطلاعات جانبي"
+    IDS_META_DATA_MEDIADET  "نمايش مستقيم (براي تمام موارد ديگر audio/video files)"
+    IDS_META_DATA_ID3LIB    "ID3 Library ( MPEG audio files فقط براي)"
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "بيش از حد قديمي است!(COMCTL32.DLL)کتابخانه معمولي ويندوز \r\n\r\nرا پيدا کرده که آنقدر قديمي است که ايمول نمي تواند به درستي از آن استفاده کند""Windows Common Controls library (COMCTL32.DLL)""ايمول نسخه اي از. را حداقل به نسخه5.8 آپدين کنيد ""Windows Common Controls library (COMCTL32.DLL)""براي اطمينان يافتن از عملکرد کامل و بي نقص ايمول اکيدا توصيه ميکنيم که \r\n\r\nدانلود و نصب کنيد آيا ميخواهيد آدرس وب مربوطه را ببينيد؟  Microsoft (R) Download Center را از سايت ""Windows Common Controls library (COMCTL32.DLL)"" آپديت"
+    IDS_ASREGEXPR           "به عنوان توضيحات متداول"
+    IDS_STATIC_REGEXP       "توضيحات متداول براي مشاهده فيلتر"
+    IDS_CARE4ALL            "ارزيابي کردن همه فايل ها"
+    IDS_REGEXPRESSION       "توضيحات متداول"
+    IDS_SEARCHKAD           "جستجوي Kad"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_EMAILNOTIFICATIONS "آگاه کردن از طريق پست الکترونيک"
+    IDS_SMTPSERVER          "سرور-SMTP"
+    IDS_PW_SENDERADDRESS    "آدرس ارسال کننده:"
+    IDS_AVAILABLEPARTS      "قسمت هاي موجود"
+    IDS_NOSOUND             "بدون صدا"
+    IDS_PW_RECEIVERADDRESS  "آدرس دريافت کننده"
+    IDS_PW_ENABLEEMAIL      "فعال کردن آگاه سازي توسط پست الکترونيکي"
+    IDS_EMULENOTIFICATION   "آگاه سازي ايمول"
+    IDS_PW_SHOWTRANSTOOLBAR "اضافه کردن نوار ابزار به پنجره دريافت ها"
+    IDS_SHARED_STATUS       "قسمت هاي به اشتراک گذاشته شده"
+    IDS_SEARCH_EMULECOLLECTION "مجموعه"
+    IDS_INCOMING_FILES      "فايل هاي دريافت شده"
+    IDS_INCOMPLETE_FILES    "فايل هاي ناتمام"
+    IDS_SHARED_DIRECTORIES  "پوشه هاي به اشتراک گذاشته شده"
+    IDS_COLLECTIONLIST      "ليست مجموعه"
+    IDS_SHAREDIR            "پوشه مشترک"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDIRSUB         "به اشتراک گذاشتن با زير مجموعه ها"
+    IDS_UNSHAREDIR          "پوشه به اشتراک گذاشته نشده"
+    IDS_UNSHAREDIRSUB       "لغو اشتراک گذاري با زير مجموعه ها"
+    IDS_ALLSHAREDFILES      "همه فايل هاي به اشتراک گذاشته شده"
+    IDS_ALLDIRECTORIES      "همه پوشه ها"
+    IDS_SEARCHRELATED       "جستجو در فايلهاي مرتبط"
+    IDS_RELATED             "مرتبط"
+    IDS_COLL_REPLACEEXISTING "آيا مي خواهيد جانشين فايل موجود شود؟"
+    IDS_COLL_ERR_DELETING   "چند خطاي ناشناخته در زمان پاک کردن فايل هاي قديمي پيش آمده است.خروج بدون ذخيره کردن؟ "
+    IDS_CREATECOLLECTION    "ايجاد کردن مجموعه"
+    IDS_MODIFYCOLLECTION    "اصلاح کردن مجموعه"
+    IDS_COLL_SIGN           "علامت گذاري مجموعه با عنوان و کليد"
+    IDS_AUTHOR              "سازنده"
+    IDS_AUTHORKEY           "کليد واژه سازنده"
+    IDS_COLL_ADDINCAT       "اضافه کردن دانلودهاي جديد به مجموعه"
+    IDS_VIEWCOLLECTION      "نمايش مجموعه"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLL_TEXTFORMAT     "ذخيره کردن مجموعه در يک پسوند نوشتاري ساده"
+    IDS_RUNNINGRESTRICTED   "ايمول با امتيازات کد گذاري يافته در حال اجرا است"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "کنترل هوشمند آپلود: حد آپلود افزايش يافته در قسمت اولويت ها پيدا شد. به مدت 60 ثانيه به حالت واکنش سريع مي رود"
+    IDS_USS_STATE_PREPARING "درحال آماده سازي...َ"
+    IDS_USS_STATE_WAITING   "صبر کنيد...َ"
+    IDS_USS_STATE_ERROR     "خطا!َ"
+    IDS_SHAREWARNING        "(فولدر به اشتراک گذاشته خواهد شد!َ)"
+    IDS_REMOVEALLSERVERS    "آيا واقعاً قصد داريد تمام سرورها را حذف نماييد؟"
+    IDS_SEARCH_UNKATTR      "جزء جستجو نا معلوم'%s'"
+    IDS_SEARCH_ATTRERR      "در خطاي نحوي '%s' جزء جستجو"
+    IDS_SEARCH_MISSINGANDRIGHT "ANDفقدان قسمت راست براي اپراتور "
+    IDS_SEARCH_OPRERR       "خطاي نحوي در اپراتور مقايسه اي '%s'"
+    IDS_DOWNLOAD_LANGFILE   "در حال دريافت کردن فايل زبان"
+    IDS_DOWNLOADING_SERVERMET_FROM ".met در حال دريافت کردن از سرور %s"
+    IDS_DOWNLOADING_SERVERMET ".metدر حال دريافت کردن سرور...َ"
+    IDS_FULLALLOC           " اندازه فايلي کامل به فايل هاي غير پراکنده اختصاص دهيد"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "کد گذاري پيدا نشد"
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "دريچه اتصال خراب است.َ"
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "دريچه اتصال موجود نيست"
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "خراب است Hash Set"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "پيدا نشد Hash set"
+    IDS_CONVERTINGKNOWN2MET "در حال تبديل کردن  %s به %s فايل هاي بزرگ پشتيباني شده"
+    IDS_CONVERTINGKNOWN2FAILED
+                            "...نا موفق در تبديل known2.met, ناديده گرفتن ثبت شده هاي قبلي"
+    IDS_CONVERTINGKNOWN2DONE "... انجام شد, تبديل کردن به پايان رسيده است"
+    IDS_ERR_MET_BAD         "خطا: فايل %s خراب است, فايل هاي شناخته شده قابل بار گذاري نيستند"
+    IDS_SRV_LARGEFILES      "پشتيباني از فايل هاي بزرگ"
+    IDS_ERR_FSCANTHANDLEFILE
+                            "شما نمي توانيد اين فايل را دانلود کنيد چون سيستم فايل شما فايل هايي را که بزرگتر از 4 گيگا بايت هستند تاييد نمي کند,فکر کنيد NTFSبراي تبديل کردن آن به"
+    IDS_NEWVERSIONAVLBETA   "اين نسخه بتا، تاريخ گذشته هست.با نسخه معتبري آپديت کنيد به علت طبيعت نسخه هاي بتا که غالبا داراي باگ هستند اين مسئله بسيار مهم است که شما هر چه سريعتر آن را "
+    IDS_BOLD                "سوييچ کردن نوشته ضخيم شده"
+    IDS_UNDERLINE           "سوييچ کردن نوشته هايي که زير آنها خط کشيده شده"
+    IDS_COLOUR              "انتخاب کردن رنگ پيش زمينه متن (رنگ پس زمينه انتخابي)"
+    IDS_RESETFORMAT         "تمام فرمت هاي قبلي را دوباره باز مي نشاند ( reset tagارسال کردن )"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RESTORESEARCHPARAMS "بازآوري شاخص هاي جستجو"
+    IDS_COMMAND             "دستور"
+    IDS_ARGUMENTS           "کد دستوري"
+    IDS_ARCPREV_PLEASEWAIT  "در حال بررسي کردن آرشيو"
+    IDS_AP_CREATEPREVCOPY   "ايجاد فايل پيش نمايش"
+    IDS_ARCHIVEDETAILS      "جزئيات-آرشيو"
+    IDS_ARCHTYPE            "نوع آرشيو"
+    IDS_ATTRIBUTES          "ويژگي ها"
+    IDS_LASTMODIFIED        "آخرين تغيير"
+    IDS_RARFULLENCR         "سرآغاز ها تغيير زبان داده شدند-قادر به خواندن آرشيو نيست.َ"
+    IDS_ARCPARSED           "آرشيو بررسي شده است.َ"
+    IDS_ARCPREV_LISTMAYBEINCOMPL "ممکن است ليست فايل ناقص باشد.َ"
+    IDS_ARCPREV_DIRNOTFOUND "فهرست مطالب پيدا نشد.َ"
+    IDS_ARCPREV_INSUFFDATA  "اطلاعات ناکافي موجود است"
+    IDS_PASSWPROT           "حفاظت از کلمه عبور"
+    IDS_ARCPREV_DIRSUCCREAD "فهرست مطالب با موفقيت خوانده شد.َ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ARCPREV_UNKNOWNFORMAT "(نامعلوم/حمايت نشده)"
+    IDS_KADSEARCHACTIVE     "(در حال انجام... Kad جستجو)"
+    IDS_OBFUSCATION         "نامعلوم"
+    IDS_SUPPORTED           "پشتيباني شده"
+    IDS_ESTIMATED           "تخمين زده شده"
+    IDS_MEDIAINFO_DLLMISSING
+                            "نصب نشده است MediaInfo libraryهيچ گونه. اگر شما مايليد که اطلاعات بيشتري در مورد فايل هاي شنيداري/تصويري در اين مباحث به دست اوريد,\r\ راکپي کنيدMediaInfo.dll  از  دريافت کرده و  https://mediaarea.net/fa/MediaInfoرا از MediaInfo library\r\n ايمول installationدر فولدر""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "اخطار: حدود فايل ""%s"" با حدود فايلي که عموما براي اندازه فايل به کار مي رود همخواني ندارد.\r\ممکن است شما مايل باشيد فايل را نام گذاري کنيد \r\يکي از اندازه فايل ها ""%s""\r\nبراي مشاهده يا استفاده مناسب فايل .\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "اخطار: فايل  به نظر مي رسد""%s""توسط اداره حقوق ديجيتال محافظت مي شود. توسط\r\nشما احتمالا قادر نخواهيد بود که بدون مجوزي از طرف سازنده آن فايل از آن استفاده کنيد..\r\n"
+    IDS_ARCHPREV_ATTRIBINFO "اجزاي فايل مي تواند حاوي اين مطالب باشد:\r\n\r\nP\tفايل با پسوورد محافظت مي شود\r\nD\tيک پوشه است\r\nC\tنظرات\r\nLx\tدرجه فشرده سازي x\r\nM\tاطلاعات فشرده شده هنوز به صورت کامل دانلود نشده اند\r\n<\tادامه فايل از قسمت قبلي\r\n>\tادامه فايل از قسمت بعدي\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "جعبه ابزار ايمول Bitmap فايل هاي"
+    IDS_LOADFILTER_EMSKINFILES "ايمول Skin فايل هاي"
+    IDS_CONTENT_INFO        "شامل"
+    IDS_MESSAGESCOMMENTS    "پيغام ها و نظرات"
+    IDS_PROTOCOLOBFUSCATION "عمليات عبور مخفي"
+    IDS_ONLYOBFUSCATED      "فقط به افراد مخفي(مبهم)اجازه دهيد(توصيه نمي شود)َ"
+    IDS_DISABLEOBFUSCATION  "غير فعال کردن حمايت از ارتباطات نا شناخته"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENABLEOBFUSCATION   "براي عبورمخفي از ورودي اينترنت Obfuscationفعال کردن"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "اتصال به%s (%s:%u - دستورالعمل Obfuscation با استفاده از) ..."
+    IDS_CONNECTEDTOOBFUSCATED "ايجاد شد Obfuscated connection اتصال شناخته نشده %s"
+    IDS_VERIFIED            "تاييد شده"
+    IDS_OBFUSCATED          "Obfuscatedعمليات مخفي سازي يا"
+    IDS_UNVERIFIED          "Unverified تاييد نشده"
+    IDS_INVALIDFILEEXT      "پسوند فايل نادرست است"
+    IDS_UNKNOWNFILEEXT      "پسوند فايل ناشناخته است"
+    IDS_ENABLEMINIMULE      "فعال کردن ايمول کوچک"
+    IDS_DISABLE_AUTOARCHPREV
+                            "غير فعال کردن شروع پيش نمايش خودکار آرشيو در پنجره جزئيات فايل"
+    IDS_US_STALLEDW4BR      "متوقف شد!در انتظار در خواست قسمت از فايل"
+    IDS_US_STALLEDREADINGFDISK "متوقف شد!در حال خواندن از روي ديسک"
+    IDS_SERVERFEATURE_INTTYPETAGS "نوع برچسب کامل"
+    IDS_FILLGRAPHS          "نمودار هاي پرشده را رسم کن"
+    IDS_PARAMETER           "شاخص"
+    IDS_TEST                "آزمايش"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "استفاده کن UPnP براي ايجاد پورت از عمليات خودکار"
+    IDS_UPNPSETUP           "استفاده کني UPnP براي ايجاد پورت فرستنده سعي کن از عمليات خودکار"
+    IDS_UPNPFAILED          "اگر لازم بود لطفا خودتان بصورت دستي تنظيمات پورتها را انچام دهيد UPnP شکست در ايجاد پورت فرستنده توسط "
+    IDS_UPNPSUCCESS         "UPnP با موفقيت توانست اين پورت ها را ايجاد کند %u (TCP) و %u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "پورت هاي ديوارآتش ويندوز اکس پي سرويس پک يک را باز کن"
+    IDS_UPNP_NOSERVICE      "UPnP دستگاه سرويس ميزبان در حال اجرا نيست, ناديده گرفتن تنظيمات UPnP"
+    IDS_DELAYEDBYUPNP       "تنظيمات پورت فرستاده شده بي جواب مانده UPnP اتصال به شبکه به تاخير افتاد  بدليل اينکه"
+    IDS_DELAYEDBYUPNP2      "پايان يابد ايمول متصل خواهد شد UPnP لطفا چند ثانيه صبر کنيد هر زمان که عمليات "
+    IDS_UPNP                "UPnP" //!
+    IDS_UPNPCLOSEONEXIT     "را پاک کن UPnP در زمان خروج پورت فرستاده شده"
+    IDS_UPNPSKIPWANIP       "را ناديده بگير WAN IP تنظيمات"
+    IDS_UPNPSKIPWANPPP      "را ناديده بگير WAN PPP تنظيمات"
+    IDS_SHAREEMULELABEL     "اشتراک گذاشتن ايمول با کاربران کامپيوترهاي ديگر"
+    IDS_SHAREEMULEMULTI     "هر کاربر سيستم تنظيمات و دانلودهاي اختصاصي خود را داراست"
+    IDS_SHAREEMULEPUBLIC    "همه کاربران تنظيمات و دانلود هاي مشابه و يکسان دارند"
+    IDS_SHAREEMULEOLD       "تنظيمات و دانلود ها را در پوشه اصلي نرم افزار ذخيره کن"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "تغيير اين انتخاب به ايمول اجازه مي دهد تا تنظيمات ديگري را داشته باشد.  با تغيير دادن اين انتخاب در آينده شما ميتوانيد برگرديد به تنظيمات حال حاظر  براي اثرگذاري اين تنظيمات شما بايد ايمول را دوباره راه اندازي کنيد. \n\n"
+    IDS_SPAM                "پيغام مزاحم"
+    IDS_MARKSPAM            "بعنوان پيغام مزاحم علامت بزن"
+    IDS_MARKNOTSPAM         "بعنوان غير مزاحم علامت بزن"
+    IDS_SEARCHSPAMFILTER    "فعال سازي فيلتر پيغام هاي مزاحم در نتايج جستجو"
+    IDS_SHOWSMILEYS         "نمايش شکلک ها"
+    IDS_CAPTCHAREQUEST      "براي جلوگيري از دريافت پيغام ناخواسته براي فرستادن پيغام بايد کد کپچا را وارد کنيد. لطفا به عنوان پاسخ حروفي که در تصوير ميبينيد وارد کنيد:"
+    IDS_CAPTCHAFAILED       "کد فرستاده شده توسط شما اشتباه بود و پيغام فرستاده نشد. شما ميتوانيد با فرستادن پيغام دوباره کد کپچا را دوباره وارد کنيد."
+    IDS_CAPTCHASOLVED       "کد وارد شده صحيح بود و پيغام شما براي کاربر فرستاده شد."
+    IDS_USECAPTCHAS         "نياز به تاييد کد کپچا"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat از URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "دانلود nodes.dat from %s"
+    IDS_DOWNLOADING_NODESDAT "دريافت nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "دانلود نا موفق nodes.dat from %s"
+    IDS_PREVENTSTANDBY      "وقتي ايمول در حال اجرا هست سيستم به حالت خاموشي موقت نرود"
+    IDS_KADID               "KadID" //!
+    IDS_SEARCHINGFRIENDKAD  "جستجو براي يافتن دوست در شبکه کد"
+    IDS_FOUND               "پيدا شد"
+    IDS_EXTERNUDPPORT       " UDP پورت خروجي"
+    IDS_STORESEARCHES       "ياد آوري جستجو هاي باز در هنگام راه اندازي دوباره"
+    IDS_WRN_INCFILE_EXISTS  "فولدر جديدي که براي دريافت فايل انتخاب کرده ايد خالي نيست. تمام فايل هايي که در اين فولدر وجود دارند به صورت خودکار به اشتراک گذاشته خواهند شد."
+    IDS_EDITSPAMFILTER      "ويرايش فيلتر اسپم..."
+    IDS_EDITSPAMFILTERCOMMENTS ",ويرايش فيلتر اسپم براي نظرات"
+    IDS_WIZZARDOBFUSCATION  " اگر شرکت سرويس دهنده اينترنت شما جلوي ارتباط ايمول با سرور را گرفته باشد گزينهobfuscation را فعال کنيد \n\n, فعال کردن obfuscation باعث ميشود شما بتوانيد فيلتر شرکت سرويس دهنده اينترنت را گول بزنيد."
+    IDS_BETANAG             "اين يک نسخه آزمايشي - بتا - ايمول ميباشد. لطفا مشکلاتت نرم افزار را گزارش بدهيد و همچنين براي چک کردن نسخه جديد از اين آدرس استفاده کنيد (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "آيا ميخواهيد فايل تماس کد را از اين آدرس دانلود کنيد (nodes.dat):\n%s ?"
+    IDS_AUTOMATIC           "خودکار"
+    IDS_NOTCONNECTEDANY     "شما به سرور و يا شبکه کد متصل نشده ايد"
+    IDS_ERR_SHARED_DIR      "ناتواني در خواندن پوشه هاي اشتراکي ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "فايل ""%s"" به نظر ميرسد که از نظر نمايش محافظت شده ميباشد.\r\n\r\nودر بيشتر مواقع شما نميتوانيد اين فايل را به نمايش در آوريد. شما بهتر از از باز کردن اين فايل اجتناب کنيد زيار در موقع نمايش نرم افزار از شما ميخواهد وارد صفحه وب شده و مجوز نمايش آن را تاييد کنيد که معمولا از طريق آن صفحه کد هاي مخرب سيستم شما را آلوده ميکند.\r\n\r\nآيا شما هنوز ميخواهيد اين فايل را دانلود کنيد ?"
+    IDS_CHECK_FILE_OPEN     "اخطار در موقع باز کردن فايل هاي نامطمئن"
+    IDS_BOOTABLE            "راه انداز"
+    IDS_UNSUPPORTEDIMAGE    "تصوير غير قابل استفاده"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "بدون اشتراک"
+    IDS_WEBUPNPINCLUDE      "در پورت هاي اضافه کن UPnP"
+    IDS_ADDEDON             "اضافه شده در"
+    IDS_RESOLVELINKS        "رفع مشکل توده لينک هاي موجود در پوشه اشتراکي"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "فرامين دانلود"
+    IDS_CLOSETOOLBAR        "بستن نوارابزار"
+    IDS_SHOWTOOLBAR         "نمايش نوارابزار"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "شما مجوز استفاده از عملگر هاي (يا) و (و) را در جستجوي شبکه کد نداريد!\n\nبراي مثال واژه کليدي 1 or واژه کليدي 2 قابل استفاده نيست.  ""بهتر است واژه هاي مورد نظر را در يک پرانتز جستجو کنيد يا در پنجره جداگانه اي مجزا جستجو کنيد."
+    IDS_DISCOVEREDBY        "پيدا شده توسط"
+    IDS_NODES               "گره (ها)"
+    IDS_ROUTINGTABLE        "جدول مسيريابي"
+    IDS_PROTOCOLVERSION     "نسخه پروتکل"
+    IDS_FOUNDNODESUSEFUL    "گره هاي پيدا شده (قابل استفاده)"
+    IDS_NORESPONSE          "بدون واکنش"
+    IDS_NOTASKED            "پاسخ داده نشده"
+    IDS_LOOKUPGRAPH         "جستجوي جزئيات"
+    IDS_AUTOKADLOOKUPGRAPH  "بصورت خودکار جستجو هاي فعال را نمايش بده"
+    IDS_PAUSEONPREVIEW      "مکث در حالتي که پيش نمايش ممکن است"
+    IDS_PREVIEWWITH         "پيش نمايش با"
+    IDS_CLOSEEMULE          "بستن ايميول"
+    IDS_DONOTASKAGAIN       "ديگر از من نپرس"
+    IDS_POPULARITY          "رتبه محبوبيت"
+    IDS_SHOWWIN7TASKBARGOODIES "فعال کردن جلوه شيشه اي تسک بار ويندوز 7"
+    IDS_LANMODE             "در حالت شبکه اتصال محلي LAN"
+    IDS_OPENPREFINI         "باز کردن preferences.ini"
+END
+
+#endif
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

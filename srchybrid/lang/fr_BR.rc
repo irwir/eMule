@@ -1,0 +1,1967 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "fr_BR.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Breton (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+	"fr_FR.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+	"#include ""afxres.h""\r\n"
+	"#include ""..\\resource.h""\r\n"
+	"\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+	"#include ""..\\version.h""\r\n"
+	"#include ""lang.rc2""\r\n"
+	"\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_SOCKETS_INIT_FAILED	"Fazi p'eo bet deraouekaet ar Socket Windows"
+	IDS_ABOUTBOX	"&A-zivout eMule..."
+	IDS_HTTPDOWNLOAD_FILESTATUS	"%s eus %s"
+	IDS_HTTPDOWNLOAD_CONNECTED	"Kennasket ouzh %s"
+	IDS_HTTPDOWNLOAD_RESOLVING_NAME	"Klask an anv : %s"
+	IDS_HTTPDOWNLOAD_RESOLVED_NAME	"Anv kavet : %s"
+	IDS_HTTPDOWNLOAD_CONNECTING	"Kennaskañ ouzh %s"
+	IDS_HTTPDOWNLOAD_REDIRECTING	"Dilec'hiañ diwar %s"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION	"Klask titouroù restroù"
+	IDS_HTTPDOWNLOAD_GENERIC_ERROR	"Fazi e-pad an taol-esae pellgargañ, Fazi : %s"
+	IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER	"Fazi e-pad ar c'hennaskañ ouzh ar servijer, Fazi : %s"
+	IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE	"Respont ar servijer direizh"
+	IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE	"Respont HTTP ar servijer direizh"
+	IDS_HTTPDOWNLOAD_ERROR_READFILE	"Fazi p'eo bet pellgarget ar restr, Fazi : %s"
+	IDS_HTTPDOWNLOAD_PERCENTAGE	"Nevesaat roll ar servijerioù : %s%% eus %s graet"
+	IDS_HTTPDOWNLOAD_RETREIVEING_FILE	"Dastum ar restr"
+	IDS_HTTPDOWNLOAD_OF	"%s eus %s"
+	IDS_FILELINK	"Ere restr"
+	IDS_LD_BASICOPT	"Dibaboù kentañ"
+	IDS_LD_ADDSOURCE	"Klokaat an ere gant hoc'h IP"
+	IDS_LD_EMULEHASH	"Ouzhpennañ an drailherezh AICH evit merañ resisoc'h ar gwastadur"
+	IDS_LD_ADVANCEDOPT	"Dibaboù kempleshoc'h"
+	IDS_CANCEL	"Leuskel"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_LD_ADDHTML	"Ouzhpennañ ar balizennoù HTML"
+	IDS_HTTP_CAPTION	"Nevesaat roll ar servijerioù"
+	IDS_HTTPDOWNLOAD_TIMELEFT	"%s (%s kopiet)"
+	IDS_LD_ADDHASHSET	"Ouzhpennañ an daolenn zrailhañ klokaet"
+	IDS_HSAV	"Taolenn zrailhañ"
+	IDS_DL_SHOWED2KLINK	"Diskouez an ereoù eD2K..."
+	IDS_FD_CORR	"Gwastet"
+	IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE	"Amañ eo dija ar restr '%s'.\nFlastrañ anezhañ ?"
+	IDS_FD_RECOV	"Dastumet"
+	IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN	"Fazi p'eo bet digoret ar restr da bellgargañ, Fazi: %s"
+	IDS_HTTPDOWNLOAD_ABORTING_TRANSFER	"Dilezel an treuzkas"
+	IDS_FD_COMPR	"Gwaskañ"
+	IDS_WIZARD_NETWORK	"Dibabit pe rouedad(où) a fell deoc'h implijout."
+	IDS_MAIN_READY	"Prest eo eMule stumm %s"
+	IDS_WIZARD_ED2K	"Perzhioù ED2k"
+	IDS_SEL_SKIN	"Dibab ur gwiskadur..."
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_MAIN_SOCKETERROR	"Fazi dibare: n'haller ket krouiñ ar socket war ar porzh %u"
+	IDS_MAIN_BTN_DISCONNECT	"Di&gennaskañ"
+	IDS_ERR_WRONGFILEID	"Gwall ID restr kaset"
+	IDS_ERR_BADHASHSET	"Gwastet pe direizh eo an daolenn zrailhañ resevet"
+	IDS_ERR_BADDATABLOCK	"Gwastet pe direizh eo ar bloc'had stlennoù resevet"
+	IDS_ERR_ILLFORMEDHASH	"Drailherezh direizh"
+	IDS_ERR_BADED2KLINK	"Ere ed2k direizh"
+	IDS_ERR_NOSLLINK	"Ere ed2k direizh"
+	IDS_ERR_WRONGPACKETSIZE	"Ment ar pakad direizh"
+	IDS_ERR_WRONGHPACKETSIZE	"Ment ar pakad direizh"
+	IDS_ERR_UNKNOWNCLIENTACTION	"Kas a ra ostizien zianav pakadoù IP"
+	IDS_ERR_OPENMET	"N'haller ket digeriñ part.met ! (%s => %s)"
+	IDS_ERR_BADMETVERSION	"Stumm part.met zo direizh ! (%s => %s)"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ERR_METCORRUPT	" %s (%s) zo direizh, n'haller ket pellgargañ ar restr"
+	IDS_ERR_FILEERROR	"Fazi lenn dianav war %s (%s) : %s"
+	IDS_ERR_FILEOPEN	"Fazi o tigeriñ %s (%s)"
+	IDS_SEL_SKINDIR	"Lec'hiadur ar gwiskadurioù..."
+	IDS_ERR_REHASH	"Diwallit : %s a c'hell bezañ gwastet, drailherezh red"
+	IDS_SKIN_PROF	"Gwiskadurioù etrefas"
+	IDS_ERR_PART_FNF	"N'eo ket bet kavet ar restr .part"
+	IDS_KADOPEN	"Digor"
+	IDS_ERR_SAVEMET	"Fazi enrollañ: %s (%s)"
+	IDS_ERR_FOUNDCORRUPTION	"Lodenn direizh kavet (%u) e-barzh %s"
+	IDS_HASHINGDONE	"Drailherezh kaset a-benn %s, reizh eo ar restr war ar seblant"
+	IDS_ERR_PARTCORRUPT	"Lodenn bellgarget %u direizh (%s)"
+	IDS_ICHWORKED	"Lodenn direizh erlec'hiet %u  (%s), Dastumet: %s"
+	IDS_ERR_OUTOFSPACE	"Egor kantenn re vihan a-benn pellgargañ %s!"
+	IDS_SE	"Eskemm orinoù"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ERR_WRITEERROR	"Fazi skrivañ dianav gant %s : %s"
+	IDS_ERR_COMPLETIONFAILED	"Fazi echuiñ dianav gant %s. Restr war ehan, adloc'hit eMule evit kregiñ en-dro"
+	IDS_ERR_DELETEFAILED	"N'haller ket diverkañ %s, ret e vo deoc'h ober anezhañ dre-zorn"
+	IDS_DOWNLOADDONE	"Pellgargañ %s kaset a-benn"
+	IDS_ERR_DELETE	"N'haller ket dilemel %s"
+	IDS_ERR_HASHERRORWARNING	"N'haller ket drailhañ al lodenn bellgarget : taolenn zrailhañ diglok (%s)."
+	IDS_ERR_INCOMPLETEHASH	"N'haller ket drailhañ al lodenn bellgarget : taolenn zrailhañ diglok (%s)."
+	IDS_DOWNLOADING	"Degemer"
+	IDS_WAITING	"O c'hortoz"
+	IDS_HASHING	"Drailherezh"
+	IDS_COMPLETING	"O kas a-benn"
+	IDS_COMPLETE	"Kaset a-benn"
+	IDS_PAUSED	"Ehanet"
+	IDS_ERRORLIKE	"Faziet"
+	IDS_ASSIGNED2K	"N'eo ket staget eMule ouzh an ereoù ED2K. Ha fellout a ra deoc'h stagañ eMule ouzh an ereoù ED2K diouzhtu (ali) ?"
+	IDS_ERR_EMPTYADDRESSESDAT	"Servijer ebet zo enrollet e-barzh 'addresses.dat'. Lakait e-barzh ur roll servijeroù gant o chomlec'hioù evit asuriñ o nevesaat emgefre."
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ERR_BADSERVERMETVERSION	"Niver stumm direizh e-barzh server.met (0x%X)!"
+	IDS_SERVERSFOUND	"%u servijer kavet war server.met"
+	IDS_SERVERSADDED	"%u servijer ouzhpennet, %u dilamet"
+	IDS_ERR_BADSERVERLIST	"Direizh eo ar restr server.met, n'haller ket kargañ ar rollad servijeroù"
+	IDS_ERR_FILEERROR_SERVERMET	"Fazi lenn gant ar restr server.met : %s, n'haller ket kargañ ar rollad servijeroù"
+	IDS_ERR_SAVESERVERMET	"Fazi enrollañ server.met!"
+	IDS_PASSIVE	"Gouzañvat"
+	IDS_MAIN_BTN_CANCEL	"&Nullañ"
+	IDS_AVAIL	"Lodennoù: %u , vak: %u (%.1f%%)\n\n"
+	IDS_TYPE	"Rizh"
+	IDS_FILEID	"ID Restr"
+	IDS_FILE	"Restr"
+	IDS_DOWNLOAD	"Degemer"
+	IDS_SL_SERVERNAME	"Anv servijer"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_IP	"IP"
+	IDS_DESCRIPTION	"Deskrivadenn"
+	IDS_PING	"Ping"
+	IDS_FILES	"Restr"
+	IDS_PREFERENCE	"Dibaboù gwellañ"
+	IDS_PRIONOPREF	"Dibaboù gwellañ ebet"
+	IDS_CONNECTTHIS	"Kennaskañ ouzh ar servijer-mañ"
+	IDS_MAIN_BTN_CONNECT	"&Kennaskañ"
+	IDS_ERR_SAVESERVERMET2		"Fazi enrollañ ar server.met ! Gallout a rit diverkañ server.met hag adenvel server.met.old e server.met !"
+	IDS_NOTCONNECTED	"Ket kennasket"
+	IDS_DISCONNECTED	"Digennasket"
+	IDS_USERS	"Impl. : %u"
+	IDS_UPDOWN	"E : %.1f(%.1f) | R : %.1f(%.1f)"
+	IDS_CONNECTED	"Kennasket"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_LINKNOTADDED	"N'haller ket ouzhpennañ an ere"
+	IDS_MAIN_EXIT	"Ha fellout a ra deoc'h kuitaat eMule ?"
+	IDS_MAIN_POPUP_RESTORE	"Brasaat"
+	IDS_CONNECTTOANYSERVER	"Kennaskañ ouzh un servijer"
+	IDS_EXIT	"Kuitaat"
+	IDS_CONNECTING	"O kennaskañ..."
+	IDS_FAILED	"Fazi"
+	IDS_ERR_BADSERVERREPLY	"Respont kennaskañ direizh"
+	IDS_NEWCLIENTID	"ID ostiz nevez : %u"
+	IDS_SHAREDFOLDERS	"Teuliadoù eskemmet"
+	IDS_VIEW1	"Gwelout "
+	IDS_VIEW2	" (ket eskemmet)"
+	IDS_PRIOLOW	"Izel"
+	IDS_PRIONORMAL	"Reizh"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_PRIOHIGH	"Uhel"
+	IDS_DOWNLOADMENUTITLE	"Degemerioù"
+	IDS_PRIORITY	"Tevet"
+	IDS_NEWSERVERS	"O resev %u servijer nevez"
+	IDS_DL_STOP	"&Paouez"
+	IDS_DL_PAUSE	"&Ehan"
+	IDS_DL_RESUME	"&Kenderc'hel"
+	IDS_DL_OPEN	"&Digeriñ ar restr"
+	IDS_DL_INFO	"Gwelout &munudoù ar restr"
+	IDS_DL_CLEAR	"Di&verkañ ar re gaset a-benn"
+	IDS_DL_LINK1	"Kopiañ &ere ED2k"
+	IDS_DL_LINK2	"Kopiañ ere ED2k (&HTML)"
+	IDS_SHOWDETAILS	"Gwelout &munudoù"
+	IDS_SEND_MSG	"Kas &kemennadenn"
+	IDS_ASKING	"Goulenn"
+	IDS_CONNVIASERVER	"Kennaskañ dre ar servijer"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ONQUEUE	"O c'hortoz"
+	IDS_TRANSFERRING	"Treuzkas"
+	IDS_RECHASHSET	"O tegemer an daolenn zrailhañ"
+	IDS_NONEEDEDPARTS	"Lodenn ebet da gargañ"
+	IDS_NOCONNECTLOW2LOW	"Kennaskañ dibosupl etre daou LowID"
+	IDS_UNKNOWN	"Dianav"
+	IDS_ASKED4ANOTHERFILE	"Restr all goulennet"
+	IDS_Q_CANCELDL	"Ha fellout a ra deoc'h nullañ pe diverkañ ar restroù-mañ ?\n"
+	IDS_Q_CANCELDL2	"Ha fellout a ra deoc'h nullañ pe diverkañ ar restr-mañ ?\n"
+	IDS_DL_FILENAME	"Anv restr"
+	IDS_DL_SIZE	"Ment"
+	IDS_DL_TRANSF	"Treuzkaset"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_DL_SPEED	"Tizh"
+	IDS_DL_PROGRESS	"Araokadenn"
+	IDS_DL_SOURCES	"Orinoù"
+	IDS_ERR_BADSERVERLISTRECEIVED	"Rollad servijeroù resevet direizh"
+	IDS_STATUS	"Stad"
+	IDS_DL_REMAINS	"Amzer o chom"
+	IDS_UPDATEFROM	"Nevesaat adalek al lec'hienn : (filter.dat/PeerGuardian)"
+	IDS_QL_USERNAME	"Anv implijour"
+	IDS_LOADURL	"Fazi ket keweriet e-pad keweriañ ar pakadoù (%s)"
+	IDS_DELETEAFTERALLOC	"Prizadur"
+	IDS_CLIENTS 		"Ostizien"
+	IDS_QL_RATING	"O prizañ"
+	IDS_CONNECTINGTO	"O kennaskañ ouzh %s (%s:%u)..."
+	IDS_SEARCH_ANY	"Pep tra"
+	IDS_SEARCH_AUDIO	"Son/Odio"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_SEARCH_PICS	"Skeudennoù"
+	IDS_SEARCH_PRG	"Goulevioù"
+	IDS_SEARCH_VIDEO	"Videoioù"
+	IDS_SEARCH_CDIMG	"Luniennoù-CD"
+	IDS_SEARCH_ARC	"Dielloù"
+	IDS_ERR_INVALIDLINK	"Ere ed2k direizh (%s)"
+	IDS_ERR_LINKERROR	"Ere direizh : %s"
+	IDS_ERR_NOTCONNECTED	"N'oc'h ket kennasket ouzh ar servijer-mañ !"
+	IDS_REMOVETHIS	"Dilemel ar servijer-mañ"
+	IDS_REMOVEALL	"Dilemel pep servijer"
+	IDS_SRV_ADDR	"Roit ur chomlec'h servijer"
+	IDS_SRV_PORT	"Roit porzh ar servijer nevez da ouzhpennañ"
+	IDS_SRV_NOTADDED	"Servijer ket ouzhpennet !"
+	IDS_SRV_NOURLAV	"URL ebet vak."
+	IDS_INVALIDURL	"URL direizh"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ERR_FAILEDDOWNLOADMET	"Fazi degemer ar rollad servijeroù adalek %s"
+	IDS_PERMISSION	"Aotreoù"
+	IDS_SHAREDFILES	"Eskemmoù"
+	IDS_PRIOVERYLOW	"Izel-tre"
+	IDS_PRIORELEASE	"Leuskel"
+		IDS_TRAYDLG_SPEED			"Tizh eMule"
+	IDS_FSTATUS_FRIENDSONLY	"Nemet mignoned"
+		IDS_VIAPASSIVE			"Dre c'houzañv"
+	IDS_ERR_RENAMESF	"N'haller ket adenvel\r\n	""%s""\r\ne\r\n	""%s""\r\n\r\n%s"
+	IDS_AVAILABLE	"vak"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_FSTAT_TRANSFER	"Treuzkas"
+	IDS_CONNECTIONS     	"Kennaskañ"
+	IDS_FSTAT_SERVERS	"Servijeroù"
+	IDS_FSTAT_WAITING	"O c'hortoz..."
+	IDS_TIME	"Amzer"
+	IDS_STATS_DDATA	"Stlennoù resevet : %s"
+	IDS_STATS_UDATA	"Stlennoù kaset : %s"
+	IDS_STATS_AVGDL	"Tizh keitad o tegemer : %s"
+	IDS_STATS_AVGUL	"Tizh keitad o kas : %s"
+	IDS_STATS_FOUNDSRC	"Orinoù kavet : %u"
+	IDS_STATS_ACTDL	"Degemerioù oberiant (lodennoù) : %u"
+	IDS_STATS_ACTUL	"Kasoù oberiant : %u"
+	IDS_STATS_WAITINGUSERS	"Kasoù o c'hortoz : %u"
+	IDS_STATS_RECONNECTS	"Niver adkennsakañ : %u"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_STATS_UNKNOWNCLIENT	"Dianav : %u"
+	IDS_STATS_TOTAL	"Hollad : %u"
+	IDS_DISABLED	"Diweredekaet"
+	IDS_STOPPED	"Paouezet"
+	IDS_STATS_UPDATELABEL	"Amzer nevesaat : %u eil"
+	IDS_ASKEDFAF	"\nGoulenn ur restr all"
+	IDS_WAITED	"Gortozet"
+	IDS_ERR_LOADCREDITFILE	"Fazi o kargañ ar restr-dleoù, restr nevez krouet"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ERR_CREDITFILEOLD	"N'eo ket ar restr-dleoù an hini neveshañ : erlec'hiet e vo"
+	IDS_CREDITFILELOADED	"Restr-dleoù garget, %u ostiz a zo anavezet"
+	IDS_CREDITFILECORRUPT	"Restr-dleoù faziet : erlec'hiet e vo !"
+	IDS_ERR_CREDITFILEREAD	"Fazi lenn dianav eus ar restr-deloù : %s"
+	IDS_ERR_FAILED_CREDITSAVE	"Fazi skrivañ eus ar restr-dleoù"
+	IDS_NOPARTSFOUND	"Restr .part ebet zo bet kavet"
+	IDS_FOUNDPARTS	"%u restr .part kavet"
+	IDS_NEWDOWNLOAD	"Pellgargañ %s"
+	IDS_ERR_ALREADY_DOWNLOADING	"Emaoc'h o pellgargañ ar restr-mañ dija : %s"
+	IDS_ERR_ALREADY_DOWNLOADED	"Pellgarget eo bet ganeoc'h dija ar restr : %s"
+	IDS_ERR_SERVERMET_BAD	"Faziet eo ar restr known.met, n'haller ket he c'hargañ"
+	IDS_ERR_SERVERMET_UNKNOWN	"Fazi lenn dianav gant known.met : %s, n'haller ket e gargañ"
+	IDS_ERR_CONNECTIONERROR	"Fazi e-pad ar c'hennaksañ ouzh %s (%s:%u) : %u"
+	IDS_ERR_SOCKET	"Fazi e-barzh serversocket : %s (%s:%u) : %u"
+	IDS_SHAREDFOUND	"%u restr eskemmet anavezet zo bet kavet"
+	IDS_SHAREDFOUNDHASHING	"%u restr eskemmet anavezet zo bet kavet, hachage %u nouveaux fichiers"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ERR_INCOMPLETEBLOCK	"Goulenn ur bloc'had diglok"
+	IDS_ERR_OPEN	"Fazi o tigeriñ ar restr c'houlennet"
+	IDS_ERR_CLIENTERRORED	"Savet ez eus bet ur fazi (%s) gant an ostiz '%s'. Ostiz digennasket"
+	IDS_ERR_REQ_FNF	"Restr c'houlennet ket kavet"
+	IDS_DESC	"Diskrivadenn : %s"
+	IDS_PORT	"Porzh"
+	IDS_ERR_NOVALIDSERVERSFOUND	"Servijer reizh ebet kavet er rollad"
+	IDS_CONNECTEDTOREQ	"Ur respont zo bet resevet adalek ar servijer %s, taol-arnod kennaskañ. (%s:%u)"
+	IDS_ERR_FATAL	"Fazi dibare e-pad ar c'hennaskañ. Sur a-walc'h eo bet kollet ar c'hennaskañ Internet."
+	IDS_ERR_LOSTC	"Kennaskañ ouzh %s (%s:%u) kollet"
+	IDS_ERR_DEAD	"%s (%s:%u) a zo disoberiant war ar seblant"
+	IDS_ERR_FULL	"%s (%s:%u) a zo peurintret war ar seblant"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_CONNECTEDTO	"Kennaskañ bev war : %s"
+	IDS_DL_PREVIEW	"Alberz"
+	IDS_VIEWQUEUE	"Diskouez al lostennad"
+	IDS_TW_UPLOADS	"Kas"
+	IDS_TW_DOWNLOADS	"Degemer"
+	IDS_TW_QUEUE	"Ostizien o c'hortoz : "
+	IDS_SW_SEARCHBOX	"Klask"
+	IDS_SW_NAME	"Anv"
+	IDS_SW_GLOBAL	"Klask hollek"
+	IDS_SW_DIRECTDOWNLOAD	"Pellgargañ eeun"
+	IDS_SW_LINK	"Ere(où) ED2K"
+	IDS_SW_START	"Loc'hañ"
+	IDS_SCHEDULER	"Raktresañ"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_IRC	"IRC"
+	IDS_SW_RESULT	"Disoc'hoù ar c'hlask"
+	IDS_SW_DOWNLOAD	"Pellgargañ an diuzad"
+	IDS_SV_SERVERLIST	"Roll ar servijerioù"
+	IDS_SV_SERVERINFO	"Titouroù diwar-benn ar servijerioù"
+	IDS_SV_LOG	"Kerzh-levr"
+	IDS_SV_NEWSERVER	"Servijer nevez"
+	IDS_SV_ADDRESS	"IP pe Lec'hienn"
+
+	IDS_SV_ADD	"Ouzhpennañ"
+	IDS_SV_MET	"Nevesaat server.met adal. an URL"
+	IDS_SV_UPDATE	"Nevesaat"
+	IDS_SF_FILES	"Restroù eskemmet"
+	IDS_SF_STATISTICS	"Feurioù"
+	IDS_SF_RELOAD	"Adkargañ"
+	IDS_SF_CURRENT	"Estez red"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_SF_TOTAL	"Hollad"
+	IDS_SF_TRANS	"Treuzkaset : "
+	IDS_SF_ACCEPTED	"Resevet : "
+	IDS_SF_REQUESTED	"Goulennoù : "
+	IDS_ST_DOWNLOAD	"Tizh resev"
+	IDS_ST_UPLOAD	"Tizh kas"
+	IDS_ST_CURRENT	"Red"
+	IDS_ST_SESSION	"Estez geitad"
+	IDS_ST_ACTIVED	"Degemer oberiant"
+	IDS_ST_ACTIVEU	"Kas oberiant"
+	IDS_CW_MESSAGES	"Kemennadoù"
+	IDS_CW_FRIENDS	"Mignoned"
+	IDS_CW_SEND	"Kas"
+	IDS_CW_CLOSE	"Serriñ"
+	IDS_PW_GENERAL	"Hollek"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_PW_DIR	"Teuliadoù"
+	IDS_PW_NICK	"Moranv"
+	IDS_PW_INCOMING	"Restroù resevet"
+	IDS_PW_TEMP	"Restroù dibadus"
+	IDS_PW_BROWSE	"Furchal"
+	IDS_PW_SHARED	"Teuliadoù eskemmet (Ctrl-klik evit kemer an is-teuliadoù)"
+	IDS_CONNECTION   	"Kennaskañ"
+	IDS_PW_DOWNL	"Harz R"
+	IDS_PW_UPL	"Harz E"
+	IDS_PW_MAXC	"N° kennaskañ uhelañ"
+	IDS_PW_CLIENTPORT	"Porzh ostiz"
+	IDS_PW_AUTOCON	"Kennaskañ pa vez loc'hañ"
+	IDS_PW_RECON	"Kennaskañ en-dro emgefre"
+	IDS_PW_SERVER	"Servijer"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_PW_RDEAD	"Dilemel ar servijerioù disoberiant"
+	IDS_PW_RETRIES	"taol-esae"
+	IDS_PW_SCORE	"Ober gant an tevet"
+	IDS_PW_USC	"Nevesaat ar servijerioù dre gennaskañ ouzh ar servijer"
+	IDS_PW_UCC	"Nevesaat rollad ar servijerioù dre gennaskañ ostiz"
+	IDS_PW_FILTER	"Silañ an IPoù lec'hel servijer ha ostiz"
+	IDS_PW_USS	"Nevesaat emgefre eus rollad ar servijerioù pa vez loc'hañ "
+	IDS_PW_MISC	"Dibaboù a-bep seurt"
+	IDS_PW_TRAY	"Bihanaat en &arlun"
+	IDS_PW_PROMPT	"Kadarnañ a-raok kuitaat"
+	IDS_PW_SPLASH	"Diskouez ar skramm loc'hañ"
+	IDS_PW_DBLCLICK	"Daou-glik evit gwelout an orinoù"
+	IDS_PW_TOOL	"Amzer o tiskouez an titouroù (eil)"
+	IDS_PW_FRONT	"Rakleur goude klikañ war an ere ED2K"
+	IDS_PW_LANG	"Yezh"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_PW_FILES	"Restroù"
+	IDS_PW_SHARE	"Restroù eskemmet gwelet gant"
+	IDS_PW_EVER	"Tout an dud"
+	IDS_PW_FRIENDS	"Mignoned"
+	IDS_PW_NOONE	"Den ebet"
+	IDS_PW_RESET	"Deraouekaat"
+	IDS_PW_APPLY	"Seveniñ"
+	IDS_EM_TRANS	"&Treuzkasadennoù"
+	IDS_EM_SERVER	"&Servijeroù"
+	IDS_EM_SEARCH	"&Klaskoù"
+	IDS_EM_FILES	"&Eskemmoù"
+	IDS_EM_MESSAGES	"Ke&mennadoù"
+	IDS_EM_STATISTIC	"&Feurioù"
+	IDS_EM_PREFS	"&Dibaboù"
+	IDS_MB_LANGUAGEINFO	"Dibabet eo bet ar yezh dre-ziouer. Gallout a rit dibab unan all en ivinenn "" Dibaboù gwellañ ""."
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_FD_GENERAL	"Hollek"
+	IDS_FD_MET	"Restr .met : "
+	IDS_FD_HASH	"Drailherezh : "
+	IDS_FD_SIZE	"Ment : "
+	IDS_FD_TRANSFER	"Treuzkas"
+	IDS_FD_PARTS	"Lodennoù:"
+	IDS_FD_TRANS	"Treuzkaset : "
+	IDS_FD_DATARATE	"Dibun : "
+	IDS_FD_COMPSIZE	"Ment oberiataet : "
+	IDS_FD_CLOSE	"Serriñ"
+	IDS_FD_TITLE	"Munudoù ar restr"
+	IDS_CD_GENERAL	"Hollek"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_CD_UNAME	"Anv implijour : "
+	IDS_CD_UHASH	"Drailherezh ostiz : "
+	IDS_CD_CSOFT	"Meziant ostiz"
+	IDS_CD_UIP	"Chomlec'h IP : "
+	IDS_CD_SIP	"Servijer IP : "
+	IDS_CD_VERSION	"Stumm ostiz : "
+	IDS_CD_SNAME	"Anv servijer : "
+	IDS_CD_CDOWN	"Goulenn a ra an ostiz : "
+	IDS_CD_DOWN	"Bet en deus an ostiz (estez): "
+	IDS_CD_ADOWN	"Keitad degemer : "
+	IDS_CD_TDOWN	"Hollad degemer : "
+	IDS_CD_UP	"Kaset en deus an ostiz (estez): "
+	IDS_CD_AUP	"Keitad kas : "
+	IDS_CD_TUP	"Hollad kas : "
+	IDS_CD_TRANS	"Treuzkas"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_CD_SCORES	"Sammad an ostiz"
+	IDS_CD_MOD	"Gwerzhiad kemmañ R/E : "
+	IDS_CD_RATING	"Taol-arnodiñ (hollad) : "
+	IDS_CD_USCORE	"Sammad al lostennad : "
+	IDS_CD_TITLE	"Munudoù an ostiz"
+	IDS_EMULEW	"Klikit"
+	IDS_EMULEW2	"a-benn gwiriañ mard e c'hell bezañ nevesaet ar goulev-mañ"
+	IDS_EMULEW3	"amañ"
+	IDS_PW_MAXSOURCES	"Orinoù uhelañ dre restr"
+	IDS_SHAREDFILESCOUNT	"Niver a restroù eskemmet : %u"
+	IDS_SF_SIZE	"Hollad ment ar restroù eskemmet: %s"
+	IDS_ERR_BADPORT	"Niverenn borzh direizh"
+	IDS_ERR_NOHELLO	"Goulenn a ra un dra bennak hep lârout Demat"
+	IDS_ERR_INVALIDPACKET 	"Direizh pe gwastet eo ar pakad resevet"
+	IDS_ERR_CLIENTERROR	"An ostiz '%s' (IP:%s) en deus degaset ur fazi gantañ: %u. Digennaskañ an ostiz !"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ERR_BADSIZE	"Ment direizh"
+	IDS_ERR_NOTAFILELINK	"N'eo ket un ere diwar ur restr"
+	IDS_ERR_CREATEPARTFILE	"N'haller ket krouiñ ar restr .part"
+	IDS_CHAT_START	"*** Loc'hañ un estez Chat : "
+	IDS_FILEPRIO	"Tevet ar restroù"
+	IDS_SCORE	"Kont"
+	IDS_ASKED	"Goulennet"
+	IDS_LASTSEEN	"Tremen diwezhañ da"
+	IDS_BANNED	"Forbannet"
+	IDS_UUSERS	"Impl."
+	IDS_UFAILED	"Fazi"
+	IDS_OPENFILE	"Digeriñ ar restr"
+	IDS_DATE	"Deiziad"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_PARTINFOS	"Anv ar restr part :"
+	IDS_PARTINFOS2	"Degemer (adalek %u orin)"
+	IDS_USERID	"ID an implijour"
+	IDS_CLIENT	"Ostiz"
+	IDS_SERVER	"Servijer"
+	IDS_SOURCEINFO	"Niver goulennoù : %ux - Niver lodennoù hegerz : %u"
+	IDS_CLIENTSOURCENAME	"\nAnv restr : "
+	IDS_USERINFO	"Moranv : %s\n"
+	IDS_FILESTATS_SESSION	"Restr statik evit an estez-mañ : %u reked degemeret war %u, %s treuzkaset\n"
+	IDS_FILESTATS_TOTAL	"Restr statik evit an holl estezioù : %u reked degemeret war %u, %s treuzkaset"
+	IDS_REQ_UNKNOWNFILE	"Restr c'houlennet dianav"
+	IDS_SF_AVERAGESIZE	"Ment geitad ar restr : %s"
+	IDS_SF_REQUESTS	"Goulennoù "
+	IDS_SF_ACCEPTS	"Degemeret"
+	IDS_SF_TRANSFERRED	"Treuzkaset"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_REMOVESEARCHSTRING	"Dilemel klask(où) diuzet"
+	IDS_REMOVESELECTED	"Dilemel diuzad"
+	IDS_REMOVEALLSEARCH	"Dilemel pep tra"
+	IDS_ENTERQUEUE	"Lakaet el lostennad"
+	IDS_SF_FAIL	"Servijeroù n'hallont ket bezañ juntet"
+	IDS_SF_WUSER	"Implijourien war ar servijer oberiant"
+	IDS_SF_WFILE	"Restroù war ar servijerioù oberiant"
+	IDS_SF_USER	"Hollad implijourien"
+	IDS_SF_FILE	"Hollad restroù"
+	IDS_UPLOADTIME	"Amzer gas"
+	IDS_LASTSEENCOMPL	"Gwelet klok : "
+	IDS_YES	"Ya"
+	IDS_NO	"Ket"
+	IDS_UNBAN	"Diforbannañ"
+	IDS_SF_WORKING	"Servijeroù oberiant"
+	IDS_ADDTOSTATIC	"Ouzhpennañ d'ar roll statik servijeroù"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ADDED2SSF	"Ouzhpennañ d'ar roll statik servijeroù"
+	IDS_STATICSERVER	"Statik"
+	IDS_ERROR_SSF	"Fazi o tigeriñ staticservers.dat"
+	IDS_SF_ACTIVECON	"Kennaskañ oberiant (tro-dro...)"
+	IDS_SF_MAXCONLIMITREACHED	"Niver uhelañ a gennaskañ graet"
+	IDS_SF_AVGCON	"Keitad kennaskañ (tro-dro...)"
+	IDS_SF_PEAKCON	"Pikern kennaskañ (tro-dro...)"
+	IDS_ST_ACTIVEC	"Kennaskañ oberiant"
+	IDS_NETWORK	"Rouedad"
+	IDS_SF_DELCOUNT	"Servijeroù dilamet"
+	IDS_QUEUEFULL	"Lostennad leun"
+	IDS_AVG	"Keitad"
+	IDS_BYTES	"Eizhtet"
+	IDS_KBYTES	"Ke"
+	IDS_MBYTES	"Me"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_GBYTES	"Ge"
+	IDS_TBYTES	"Da"
+	IDS_SECS	"eil"
+	IDS_MINS	"mun"
+	IDS_HOURS	"e"
+	IDS_DAYS	"D"
+	IDS_ED2KLINKFIX	"Ereoù ED2K"
+	IDS_RECONNECT	"Adc'hraet e vo ar c'hennaskañ diouzh ar servijer a-benn %u eilenn"
+	IDS_SERVERADDED	"Servijer ouzhpennet : %s"
+	IDS_IRC_IGNOREJOINMESSAGE	"Leuskel a-gostez ar c'hemennadoù Join"
+	IDS_STATS_SUCCUPCOUNT	"Hollad an estezioù kaset a-benn mat : %u (%.2f%%)"
+	IDS_IRC_IGNOREPARTMESSAGE	"Leuskel a-gostez ar c'hemennadoù Part"
+	IDS_STATS_FAILUPCOUNT	"Hollad an estezioù faziet : %u (%.2f%%)"
+	IDS_STATS_AVEUPTIME	"Amzer geitad ur c'has : %s"
+	IDS_SEARCHMINSIZE	"Ment izelañ"
+	IDS_SEARCHMAXSIZE	"Ment uhelañ"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_PREF_ONLINESIG	"Gweredekaat Online-Signature"
+	IDS_ERROR_SAVEFILE	"Fazi oc'h enrollañ"
+	IDS_REQ_SHAREDFILES	"Goulennet en deus an implijour %s (%u) ganeoc'h ho rollad restroù eskemmet -> %s"
+	IDS_ACCEPTED	"degemeret"
+	IDS_DENIED	"nac'het"
+	IDS_PW_CON_DOWNLBL	"Degemer"
+	IDS_PW_CON_UPLBL	"Kas"
+	IDS_PW_AUTOCONNECTSTATICONLY	"Kennaskañ emgefre nemet ouzh ar servijerioù statik"
+	IDS_PW_CON_LIMITFRM	"Harzoù"
+	IDS_STATS_AVGLABEL	"Amzer evit ar gevregenn eus keitad : %u mun"
+	IDS_GRAPHS	"Kevregañ"
+	IDS_STREE	"Gwezenn feurioù"
+	IDS_IRC_IGNOREQUITMESSAGE	"Leuskel a-gostez ar gemennadennoù Kuitaat"
+	IDS_STATSSETUPINFO	"Feurioù"
+	IDS_IRC_SOUNDEVENTS	"Darvoudoù son"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_HARDLIMIT	"Harz kreñv"
+	IDS_COL_MORECOLORS	"muioc'h ..."
+	IDS_TOOMANYCONNS	"Re a gennaskañ"
+	IDS_DOWNLOADRENAMED	"Kavet e vez ur restr gant ar memes anv amañ dija, gwaredet eo bet ar restr dindan %s"
+	IDS_TBN_DOWNLOADDONE	"Pellgarget : "
+	IDS_PW_TBN_USESOUND	"Implijout ur son"
+	IDS_PW_TBN_ONLOG	"Ul linenn nevez er c'herzh-levr"
+	IDS_PW_TBN_ONCHAT	"Derou un estez Chat"
+	IDS_PW_TBN_POP_ALWAYS	"Degouezhet eo ur gemennadenn nevez"
+	IDS_PW_TBN_ONDOWNLOAD	"Kaset ez eus bet a-benn ur pellgargañ"
+	IDS_PW_EKDEV_OPTIONS	"Galvadennoù"
+	IDS_PW_TASKBARNOTIFIER	"Reizhiad galvadennoù"
+	IDS_PW_TBN_OPTIONS	"Diskouez ur c'halvadenn evit"
+	IDS_TBN_NEWCHATMSG	"Kemennadenn a-berzh"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_PW_CON_CAPFRM	"Stlennvarr"
+	IDS_IRC_PRIVATECHANSTART	"*** Loc'hañ un estez brivez Chat : "
+	IDS_IRC_SLAPMSG	"* %s slaps %s around with a large Babelfish!"
+	IDS_IRC_PRIVMESSAGE	"Kemennadenn brevez"
+	IDS_WEB_REMOTE_LINK_ADDED			"Ere ouzhpennet"
+	IDS_WEB_REMOTE_LINK_NOT_ADDED			"Ere ket ouzhpennet. Ger tremen direizh"
+	IDS_DL_TRY_TO_GET_PREVIEW_PARTS	"Tevet war al lodennoù rekis evit an alberz"
+	IDS_IRC_KICK	"Kick"
+	IDS_IRC_SLAP	"Slap"
+	IDS_IRC_JOIN	"Join"
+	IDS_IRC_CHANNELLIST	"Roll ar saloñsoù"
+	IDS_IRC_CONNECT	"Kennaskañ"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_IRC_DISCONNECT	"Digennaskañ"
+	IDS_IRC_HASJOINED	"* %s a zo deuet war %s"
+	IDS_IRC_HASPARTED	"* %s a zo deuet er-maez eus %s (%s)"
+	IDS_IRC_WASKICKEDBY	"* %s a zo bet lakaet er-maez gant %s (%s)"
+	IDS_DOWNLOAD_ALPHABETICAL	"Pellgargañ diouzh an urzh lizherenneg"
+	IDS_IRC_HASQUIT 				"* %s a zo aet"
+	IDS_IRC_NOWKNOWNAS	"* %s a zo graet %s anezhañ bremañ"
+	IDS_IRC_SETSMODE	"* %s en deus kemmet ar mod gantañ : %s %s"
+	IDS_IRC_NOTSUPPORTED	"** Modoù zo a zo bet kemmet ha n'int ket skoret. Ret eo deoc'h mont er-maez ha dont en-dro er saloñs a-benn nevesaat ho rollad moranvioù.."
+	IDS_IRC_CHANNEL	"Saloñs"
+	IDS_IRC_NICK	"Moranv"
+	IDS_IRC_SEND	"Kas"
+	IDS_IRC_NAME	"Anv"
+	IDS_IRC_SLAPMSGSEND	"PRIVMSG %s :\001ACTION slaps %s around with a large Babelfish!\001"
+	IDS_IRC_ADDTIMESTAMP	"Stagañ an eur ouzh ar c'hemennadennoù"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_IRC_USEFILTER	"Implijout ur sil evit rollad ar saloñs"
+	IDS_IRC_PERFORM	"Erounit"
+	IDS_IRC_USEPERFORM	"Erounit ur skrid pa vez kennasket."
+	IDS_IRC_ADDTOFRIENDLIST	"Ouzhpennañ d'ar roll mignoned"
+	IDS_IRC_LOADCHANNELLISTONCON	"Kargañ ar rollad saloñsoù pa vez kennasket"
+	IDS_IRC_ADDASFRIEND	"en deus ouzhpennet ac'hanoc'h evel mignon !"
+	IDS_PW_WARNING	"Re vras eo ar werzhiad ho peus dibabet ""%s"" evit bezañ skoret gant ho reizhiad korvoiñ : %u\nGallout a ra lakaat ho   \nreizhiad da vezañ distabil.\n\nHa fellout a ra deoc'h ober an dra-mañ evelkent ?"
+	IDS_TAKEOVER	"Adgolloiñ"
+	IDS_CLEANUP	"Naetaat"
+	IDS_RENAME	"Adenvel"
+	IDS_IRC_ADDLINKTOIRC	"Kopiañ er glover IRC."
+	IDS_IRC_SENDLINK	"Kas d'ur mignon : "
+	IDS_IRC_RECIEVEDLINK	"%s en deus kaset (%s), emañ o paouez da vezañ kaset ent-emgefre."
+	IDS_IRC_ACCEPTLINKS	"Degemer ereoù ED2K e-barzh IRC (Diwallit gant ec'h implij !)"
+	IDS_SHARED	"Eskemmet"
+	IDS_DOWNLOADED	"Pellgarget"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_SOURCENAMES	"Anvioù ar restr"
+	IDS_PREF_STARTMIN	"Bihanaat pa vez loc'het"
+	IDS_PS_TBN_IMPORTANT	"Mallus : Egor kantenn re vihan, kennaskañ ouzh ar servijer kollet"
+	IDS_COLORS	"Livioù"
+	IDS_SP_BACKGROUND	"Drekleur"
+	IDS_SP_GRID	"Kael"
+	IDS_SP_DL1	"Degemer red"
+	IDS_SP_DL2	"Keitad degemer war an amzer ziuzet"
+	IDS_SP_DL3	"Estez : keitad degemer"
+	IDS_SP_UL1	"Kas red"
+	IDS_SP_UL2	"Keitad kas war an amzer ziuzet"
+	IDS_SP_UL3	"Estez : keitad kas"
+	IDS_SP_ACTCON	"Kennaskañ oberiant"
+	IDS_SP_ACTDL	"Degemer oberiant"
+	IDS_SP_ACTUL	"Kas oberiant"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_PW_UNLIMITED	"Diharz"
+	IDS_PW_MINREC	"Gwerzhiad bihanañ erbediet\t%u "
+	IDS_PW_UA	"Spisaat harz E/R d'an uhelañ"
+	IDS_PW_PA	"Reoliñ tizh E/R"
+	IDS_IRC_IGNOREINFOMESSAGE	"Leuskel a-gostez ar c'hemennadennoù titouroù"
+	IDS_CONNECTIONLOST	"Kennaskañ kollet"
+	IDS_WIZ_OS_FRAME	"Reizhiad korvoiñ"
+	IDS_HASHINGFILE	"Drailherezh ar restr :"
+	IDS_WIZ_TRUEUPLOAD_TEXT	"Bann tremen gwir o Kas"
+	IDS_WIZ_TRUEDOWNLOAD_TEXT	"Bann tremen gwir o Resev"
+	IDS_FRIENDLIST	"Mignoned"
+	IDS_CHATDISCONNECTED	"*** Digennasket"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_WIZARD	"Skoazeller"
+	IDS_ADDFRIEND	"Ouzhpennañ d'ar vignoned"
+	IDS_REMOVEFRIEND	"Dilemel mignon"
+	IDS_REMOVEFROMSTATIC	"Dilemel diouzh ar rollad statik servijeroù"
+	IDS_LENGTH	"Amzer"
+	IDS_VIDEO	"Video"
+	IDS_AUDIO	"Odio"
+	IDS_FILEINFO	"&Titouroù restr"
+	IDS_CODEC	"Codec"
+	IDS_BITRATE	"Dibun"
+	IDS_WIDTH	"Ledander"
+	IDS_FPS	"Fps"
+	IDS_CHANNELS	"Kanolioù"
+	IDS_SAMPLERATE	"Standilhonoù/s"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_HEIGHT	"Uhelder"
+	IDS_SHAREDFILES_FAILED	"N'haller ket tapout rollad ar restroù eskemmet '%s'"
+	IDS_SHAREDFILES_REQUEST	"Goulenn rollad ar restroù eskemmet '%s'"
+	IDS_VIEWFILES	"Gwelout ar restroù"
+	IDS_FRIENDSLOT	"O sevel ur slot Mignon"
+	IDS_FRIENDDETAIL	"(Haeziñ Mignon)"
+	IDS_UDPDISABLED	"Diweredekaet"
+	IDS_WIZ_CTFRAME	"Rizh kennaskañ"
+	IDS_CONCURDWL	"Niver a bellgargañ"
+	IDS_WIZARD_CUSTOM	"Personelaat"
+	IDS_WIZARD_ENTERBELOW	"gwerzhiad da heul"
+	IDS_STATS_MAXAVGDL	"Tizh keitad gwellañ o tegemer : %s"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_STATS_MAXDL	"Tizh degemer gwellañ : %s"
+	IDS_IRC_EMULEPROTO_IGNOREADDFRIEND	"Leuskel a-gostez ar c'hemennadennoù ouzhpennañ a-berzh mignoned"
+	IDS_PW_FASTSRVCON	"Kennaskañ doujus ouzh ar servijer"
+	IDS_SOURCELINKFAILED	"Dav eo deoc'h kaout un HighID a-benn sevel un ere gant un orin IP reizh"
+	IDS_ERR_LOADSERVERMET	"Fazi o kargañ server.met !"
+	IDS_ERR_CORRUPTCOMPRPKG	"Pakad gwasket gwastet evit %s resevet (fazi %u)"
+	IDS_ERR_EMFRIENDSINVALID	"Direizh pe gwastet eo ar restr emfriends.met !"
+	IDS_ERR_READEMFRIENDS	"Fazi dianav o lenn emfriends.met : %s"
+	IDS_ERR_KNOWNSERVERINFOREC	"Titour servijer resevet zo dianav !"
+	IDS_WIZ_DOWN	"Degemer (Ke/s)"
+	IDS_WIZ_UP	"Kas (Ke/s)"
+	IDS_SELECT_INCOMINGDIR	"Dibab ur c'havlec'h evit ar restroù resevet"
+	IDS_SELECT_TEMPDIR	"Dibab ur c'havlec'h evit ar restroù dibadus"
+	IDS_PRIOAUTO	"Emgefre"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_PRIOAUTONORMAL	"Emgefre [Reizh]"
+	IDS_PRIOAUTOHIGH	"Emgefre [Uhel]"
+	IDS_PRIOAUTORELEASE	"Emgefre [Krenn]"
+	IDS_PRIOAUTOLOW	"Emgefre [Izel]"
+	IDS_ERR_CONTIMEOUT	"Oc'h esaeañ kennaskañ ouzh ""%s"" : re hir"
+	IDS_OUTOFSERVERS	"N'eus servijer vak ken evit kennaskañ."
+	IDS_PW_CONLIMITS	"Harzoù kennaskañ "
+	IDS_MAXCON5SECLABEL	"Uhel. kennaskañ nevez / 5 eil"
+	IDS_PW_UAP	"Lakaat ar restroù nevez da vezañ eskemmet gant un tevet Emgefre"
+	IDS_MAXCLIENT	"Niv. implijourien uhelañ"
+	IDS_PW_TWEAK	"Perzhioù kempleshoc'h"
+	IDS_TWEAKS_WARNING	"Diwall: Na gemmit ket ar perzhioù-mañ hep bezañ sur eus ar pezh a rit. Gallout a rafec'h faziañ ganto. Mont a raio en-dro ent-reizh eMule hep ouzhpennañ ar perzhioù-mañ."
+	IDS_ADDAFRIEND	"Ouzhpennañ ur mignon"
+	IDS_PAF_REQINFO	"Titouroù ret"
+	IDS_PAF_MOREINFO	"Titouroù diret"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ERR_NOVALIDFRIENDINFO	"Dav eo deoc'h reiñ un IP pe N° porzh reizh !"
+	IDS_ADD	"Ouzhpennañ"
+	IDS_RECOVERED_PARTMET	"Restr part.met dastumet evit : %s"
+	IDS_CMT_QUEST	"Reiñ un evezhiadenn d'ar restr-mañ (Gwelet e vo an destenn-mañ gant an holl implijourien)"
+	IDS_CMT_AIDE			"Evit ur film e c'hellit reiñ e ditl, e zeiziad embann, e galite (a-zivout ar film pe e enbonegañ memestra), e yezh ...\nHa mard eo ar restr-mañ un drevezadenn anezhi e c'hellit kemenn implijourien eMule diwar he fenn."
+	IDS_CMT_ADD	"Kemmañ evezhiadenn ar restr..."
+	IDS_CMT_NONE	"Hep evezhiadenn"
+	IDS_CMT_READ	"Evezhiadenn ar restr :"
+	IDS_CMT_SHOWALL	"Diskouez an evezhiadennoù"
+	IDS_CMT_READALL	"Pep evezhiadenn"
+	IDS_CMT_RATEQUEST	"Kalite ar restr :"
+	IDS_CMT_RATEHELP	"Servijout a ra an notenn-mañ d'anavezout kalite ar restr ha da ziguzhat an drevezadennoù..."
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_CMT_FAKE	"Gwastet / direizh / drevezadenn (fake)"
+	IDS_CMT_POOR	"Gwall"
+	IDS_CMT_GOOD	"Mat"
+	IDS_CMT_FAIR	"Mat-tre"
+	IDS_CMT_EXCELLENT	"Dispar"
+	IDS_CMT_NOTRATED	"Diistimet"
+	IDS_KILO	"K"
+	IDS_MEGA	"M"
+	IDS_GIGA	"G"
+	IDS_TERA 	"T"
+	IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE	"Leuskel a-gostez ar c'hemennadennoù eMule Proto"
+	IDS_SMARTLOWIDCHECK	"Reoliñ speredek al LowId e-pad ar c'hennaskañ"
+	IDS_SF_SRVOCC	"Trevell ar servijer : %.2f%%"
+	IDS_3DDEP	"Barrenn greskaat"
+	IDS_AUTOTAKEED2KLINKS	"Ereoù ED2K oberiant p'emañ eMule o vont en-dro"
+	IDS_ADDNEWFILESPAUSED	"Ouzhpennañ ar restroù da bellgargañ dindan ar mod ehan"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_DOWNLOADMOVIECHUNKS	"Tevet war lodennoù ret d'an alberz"
+	IDS_RECOVER_SINGLE	"1 restr dastumet."
+	IDS_RECOVER_MULTIPLE	"%u restr dastumet."
+	IDS_ATTEMPTING_RECOVERY	"Oc'h arnodiñ da zastum dielloù..."
+	IDS_RECOVERY_SUCCESSFUL	"Dastum an dielloù klokaet."
+	IDS_RECOVERY_FAILED	"Dastum an dielloù faziet."
+	IDS_STARTNEXTFILE	"Lañsañ ar restr ehanet da heul pa unan a echu"
+	IDS_FULLCHUNKTRANS	"Klask kas lodennoù klok da bep ostiz"
+	IDS_MANUALSERVERHIGHPRIO	"Servijeroù ouzhpennet dre-zorn : Lakaet e tevet uhel"
+	IDS_VERBOSE	"Prenestr dilastezañ"
+	IDS_FLAT	"plad"
+	IDS_ROUND	"krommaet"
+	IDS_SAMEUSERHASH	"An ostizien '%s' ha '%s' o deus ar memes drailherezh pe IP - '%s' dilamet"
+	IDS_SEARCHEXTENTION	"Astenn"
+	IDS_SEARCHAVAIL	"Vakted"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ERR_NOHELP	"Trugarez da vont war hor bajenn zegemer evit dastum ar stumm diwezhañ ! (kevrenn Pellgargañ)\nHa fellout a ra deoc'h furchal er skoazell en-linenn a-hend-all ?"
+	IDS_SHOWOVERHEAD	"Diskouez ar bann tremen dreistniverel"
+	IDS_UPDOWNSMALL	"E : %.1f | R : %.1f"
+	IDS_EDITLIST	"Aozañ"
+	IDS_SP_ICONBAR	"Arlun ar varrenn boelladoù"
+	IDS_RATINGRECV	"Ment ar restr '%s' : %u"
+	IDS_DESCRIPTIONRECV	"Evezhiadenn ar restr '%s' : %s"
+	IDS_WEBSERVICES	"WebServices"
+	IDS_WEBSVEDIT	"Aozañ WebServices"
+	IDS_IRC_EMULEPROTO_IGNORESENDLINK	"Leuskel a-gostez ar c'hemennadennoù kas eus ereoù"
+	IDS_CHECK4UPDATE	"Gwiriañ stumm nevez"
+	IDS_STARTUP	"Loc'hañ"
+	IDS_NEWVERSIONAVL	"Prest eo ur stumm nevez eus eMule da vezañ pellgarget. Sellit ouzh https://emule-project.net evit lenn muioc'h a ditouroù."
+	IDS_NEWVERSIONAVLPOPUP 	"Prest eo stumm nevez eus eMule da vezañ staliet. Klikit amañ evit lenn muioc'h a ditouroù."
+	IDS_NEWVERSIONFAILED 	"N'haller ket gwiriañ mard ez eus ur stumm nevez da bellgargañ."
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_CB_TBN_ONNEWVERSION	"Dizoloet ez eus bet ur stumm nevez eus eMule"
+	IDS_NONEWERVERSION	"Stumm nevez eus eMule ebet kavet."
+	IDS_VERSIONCHECK	"&Gwiriañ stumm"
+	IDS_VISITVERSIONCHECK	"\n\nHa fellout a ra deoc'h gweladenniñ ar bajenn ditouroù diouzhtu ?"
+	IDS_PW_VIDEOPLAYER	"Lenner video"
+	IDS_VIDEOBACKUP	"Gwarediñ ar stlennoù evit rakgwelout"
+	IDS_MYINFO	"Ma zitouroù"
+	IDS_ID	"ID"
+	IDS_IDLOW	"Low ID"
+	IDS_IDHIGH	"High ID"
+	IDS_UPSTATUS	"Lodennoù tapet"
+	IDS_TOVERHEAD	"Hollad bann tremen dreistniverel (Pakadoù): %s (%s)"
+	IDS_FROVERHEAD	"Goulenn restroù gant ur bann tremen dreistniverel (Pakadoù): %s (%s)"
+	IDS_SSOVERHEAD	"Eskemm orinoù gant ur bann tremen dreistniverel (Pakadoù): %s (%s)"
+	IDS_SOVERHEAD	"Servijer gant ur bann tremen dreistniverel (Pakadoù): %s (%s)"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ERR_FILECOMPLETIONTHREAD	"Faziet eo bet lañs un argerz a-benn echuiñ ur restr"
+	IDS_FILEBUFFERSIZE	"Ment ar restr skurzer"
+	IDS_QUEUESIZE	"Ment al lostennad"
+	IDS_DAYS2	"deiziad"
+	IDS_ERR_MAKEBAKCREDITFILE	"Faziet eo bet enrollañ ar restr-dleoù"
+	IDS_COMMENT	"Evezhiadenn"
+	IDS_IPFILTERED	"IP silet : %s (%s)"
+	IDS_DL_TRANSFCOMPL	"Graet"
+	IDS_DL_ACTIVE_TIME	"Amzer o tegemer"
+	IDS_STATS_FILTEREDCLIENTS	"Silet : %u"
+	IDS_FILTERLABEL	"Enderc'hel a ra ar c'hemennadennoù silet : (Kefarz | )"
+	IDS_ERR_LARGEREQBLOCK	"Goulenn a ra an ostiz ur bloc'had re vras."
+	IDS_SHOWRATEONTITLE	"Diskouez ar feurioù treuzkas en titl"
+	IDS_TBN_NOMESSAGEHISTORY	"Rollad istor kemennadennoù ebet !"
+	IDS_PW_DAP	"Lakaat ar pellgargañ nevez e tevet emgefre"
+	IDS_FD_LASTCHANGE	"Resevet ar wech diwezhañ :"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_STATS_RUNTIME	"Amzer o vont en-dro"
+	IDS_ALL	"Pep tra"
+	IDS_CAT_ADD	"Ouzhpennañ ur rummad"
+	IDS_CAT_EDIT	"Aozañ ar rummad-mañ"
+	IDS_CAT_REMOVE	"Dilemel ar rummad-mañ"
+	IDS_CAT	"Rummad"
+	IDS_TITLE	"Titl"
+	IDS_COLOR	"Liv"
+	IDS_DEFAULT	"Diouer"
+	IDS_PW_DISPLAY	"Gwereañ"
+	IDS_INDICATERATINGS	"Arlunioù evit ar restroù gant evezhiadennoù/feurioù"
+	IDS_ALLOTHERS	"An holl re all"
+	IDS_TOCAT	"Merkañ d'ar rummad"
+	IDS_CAT_UNASSIGN	"(merket ebet)"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ADDDOWNLOADSFROMCB	"Ouzhpennañ an ereoù ED2k-mañ d'ar pellgargañ ?\n"
+	IDS_PF_WATCHCB	"Gwelout ar skurzer evit an ereoù ED2k"
+	IDS_SECURITY	"Surentez"
+	IDS_IPFILTERLOADED	"%u siloù IP karget"
+	IDS_IPFILTER	"Siloù IP"
+	IDS_EDIT	"Aozañ"
+	IDS_FILTERLEVEL	"Silerezh nevez"
+	IDS_FILTERSERVERBYIPFILTER	"Siloù servijer"
+	IDS_FILTERCOMMENTSLABEL	"Leuskel a-gostez an evezhiadennoù o deus enno : (Kefarz | )"
+	IDS_CLIENTLIST	"Ostizien anavezet"
+	IDS_FOLDER	"Teuliad"
+	IDS_CL_UPLOADSTATUS	"Stad kas"
+	IDS_CL_TRANSFUP	"Kaset"
+	IDS_CL_DOWNLSTATUS	"Stad degemer"
+	IDS_CL_TRANSFDOWN	"Resevet"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_CL_PENDING	"E-pign"
+	IDS_CL_LOW2LOW	"Kennaskañ etre daou LowID"
+	IDS_ERROR	"Fazi"
+	IDS_OPENINC	"&Digeriñ ar restr "" incoming """
+	IDS_HOTMENU	"Hotmenu"
+	IDS_DISABLEKNOWNLIST	"Dilemel rollad an ostizien anavezet"
+	IDS_DISABLEQUEUELIST	"Dilemel al lostennad"
+	IDS_USECREDITSYSTEM	"Implijout ar reizhiad dleoù (Goprañ ar c'hasadennoù)"
+    IDS_FIRSTAUTODOWN	"Aotreañ an dibab-mañ ma fell deoc’h ma vefe meret gant eMule an tevetoù pellgargañ.\n\nTurning this on will allow eMule to make sure downloads with a lot of sources do not interfere with downloads that have few sources. This option will only affect future downloads."
+    IDS_FIRSTAUTOUP	"Aotreañ an dibab-mañ ma fell deoc’h ma vefe meret gant eMule an tevetoù diskargañ.\n\nTurning this on will allow eMule to boost rare files meaning popular files will be harder for other people to get. Turning this off will allow eMule to upload popular files more often meaning rare files will be harder for other people to get. This option will only affect future shared files."
+    IDS_FIRSTSAFECON	"Aotreañ an dibab-mañ ma fell deoc’h ma vefe kennasket eMule en ur implijout ur c’hennaskañ sur.\n\nGant an dibab-mañ e vo herrekoc’h kennaskañ eMule ouzh ar servijerioù, met muioc’h a LowIDoù fals a c’hell bezañ dastumet ivez."
+    IDS_FIRSTAUTOCON	"Aotreañ an dibab-mañ ma fell deoc’h ma vefe kennasket ent-emgefreek eMule e penn-kentañ."
+	IDS_FIRSTCOMPLETE	"Echu eo gant ar skoazeller-mañ.\r\rGallout a reer kemmañ an holl zibaboù-mañ ha lod all er voest Dibaboù Gwellañ. Evit lenn muioc'h a zisplegadennoù, sellit ouzh ar skoazell en ur bouezañ war F1 e-barzh eMule !"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ENTERUSERNAME	"Roit hoc'h anv implijour mar plij :"
+	IDS_STATIC_CPUMEM	"Enrollañ CPU && Implij ar memor"
+	IDS_KAD_SEARCH_KEYWORD_TOO_SHORT	"Ger-alc'hwez re verr.\r\n\r\nDav eo d'ar gerioù-alc'hwez implijet ganeoc'h er riñvennoù klask Kad kaout muioc'h a 3 arouezenn enno."
+	IDS_LOG2DISK	"Enrollañ ar c'herzh-levr war ar gantenn"
+	IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING	"Emañ ur c'hlask o vont en-dro endeo war Kad gant ar ger-alc'hwez ""%s"".\r\n\r\nGallout a rit pe gortoz dibenn ar c'hlask o vont  en-dro pe serriñ an ivinenn glask a genglot evit lañsañ ur c'hlask nevez."
+	IDS_KAD_SEARCH_KEYWORD_INVALID	"Ger-alc'hwez Kad direizh.\r\n\r\nMentrezh ur riñvenn glask Kad a zo evel da heul:\r\n\r\n\t<ger-alc'hwez-kad> [ <riñvenn glask-ed2k> ]\r\n\r\nDav eo d'ar riñvenn glask <ger-alc'hwez-kad> na gaout unan eus an arouezennoù da heul enni :\r\n\r\n\t%s"
+	IDS_EDITCAT	"Aozañ perzhioù ar rummadoù"
+	IDS_PW_WS	"Servijer Web"
+	IDS_ENABLED	"Gweredekaet"
+	IDS_WEB_LOGIN	"Kennaskañ"
+	IDS_WEB_ENTER_PASSWORD	"Ger-tremen"
+	IDS_WEB_LOGIN_NOW	"Kennaskañ"
+	IDS_WEB_CONFIRM_REMOVE_SERVER	"Ha fellout a ra deoc'h e vefe dilamet ar servijer-mañ diouzh ar roll ?"
+	IDS_WEB_CONTROL	"Penel reoliñ Web"
+	IDS_WEB_LOGOUT	"Kuitaat"
+	IDS_WEB_ACTIONS	"Oberiadennoù"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_WEB_SHOW_UPLOAD_QUEUE	"Gwelout al lostennad"
+	IDS_WEB_GZIP_COMPRESSION	"Gwaskerezh Gzip"
+	IDS_WEB_GZIP_COMMENT	"Espern ar bann tremen, er grafoù dreist pep tra."
+	IDS_WEB_REFRESH_TIME	"Amzer freskaat ar pajennadoù"
+	IDS_WEB_REFRESH_COMMENT	"Amzer en eilennoù (0=Diweredekaet) : "
+	IDS_SV_URL	"URL"
+	IDS_WS_RELOAD_TMPL	"Gwiskadur"
+	IDS_SV_DEBUGLOG	"Kerzh-levr dilastezañ"
+	IDS_WS_PASS	"Ger-tremen"
+	IDS_WS_ERR_LOADTEMPLATE	"N'haller ket pellgargañ ar gwiskadurioù : Lakaat ur restr all nevesoc'h e-lec'h %s !"
+	IDS_WEB_CONLIMITS	"Harzoù kennaskañ"
+	IDS_INFLST_USER_TOTALDOWNLOAD	"Hollad degemer"
+	IDS_INFLST_USER_TOTALUPLOAD	"Hollad kas"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_SPEED_LIMITS	"Harzoù tizh"
+	IDS_CAPACITY_LIMITS	"Harzoù"
+	IDS_ADMIN	"Merour"
+	IDS_ACCESSDENIED	"Haeziñ nac'het !"
+	IDS_WEB_LOWUSER	"Kouviad"
+	IDS_WEB_ERR_CANTLOAD	"N'haller ket pellgargañ patromoù : n'haller ket digeriñ ar restr %s"
+	IDS_GLOBALSEARCH	"Hollek (Servijer)"
+	IDS_METHOD	"Hentenn"
+	IDS_UNDO	"Nullañ"
+	IDS_DAYLY	"Bemdeziek"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_DAY_MO_FR	"Lun-Gwe"
+	IDS_DAY_SA_SO	"Sad-Sul"
+	IDS_MO	"Lun"
+	IDS_DI	"Meurzh"
+	IDS_MI	"Merc'her"
+	IDS_DO	"Yaou"
+	IDS_FR	"Gwener"
+	IDS_SA	"Sadorn"
+	IDS_SO	"Sul"
+	IDS_WEB_ADMINLOGIN	"Servijer Web : Kennaskañ merour"
+	IDS_WEB_GUESTLOGIN	"Servijer Web : Kennaskañ kouviad"
+	IDS_WEB_SESSIONEND	"Servijer Web : Digennaskañ"
+	IDS_DETAILS	"Munudoù"
+	IDS_ACTION	"Oberiadenn"
+	IDS_REMOVE	"Dilemel"
+	IDS_NEW	"Nevez"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_WEB_BADLOGINATTEMPT	"Servijer Web : Fazi o klask kennaskañ"
+	IDS_ERR_TOOLARGEFILE	"Re vras eo ment ar restr. N'eo ket skoret gant ar protokol war ar rouedad eDonkey (>=4 Ge)"
+	IDS_MSGONLYFRIENDS	"Nemet aotreañ ar vignoned"
+	IDS_DAY_MO_SA	"Lun-Sul"
+	IDS_LIMITSOURCES	"Harz an orinoù"
+	IDS_LIMITCONS5SEC	"Harz ar c'hennaskañ/5eil"
+	IDS_SCHED_CATSTOP	"Cat:Paouez degemer"
+	IDS_SCHED_CATRESUME	"Cat:Kenderc'hel degemer"
+	IDS_S_DAYS	"Deiziadoù"
+	IDS_STARTTIME	"Derou"
+	IDS_VALUE	"Gwerzhiad"
+	IDS_SCHED_ENTERDATARATELIMIT	"Roit feur harz ar stlennoù : "
+	IDS_SCHED_ENTERVAL	"Roit ar gwerzhiad nevez :"
+	IDS_SCHED_ACTCONFIG	"Kefluniañ Oberiadenn"
+	IDS_SELECTCAT	"Diuz ur rummad"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ALLUNASSIGNED	"An holl re n'int ket merket"
+	IDS_ACTSESSIONS	"Estezioù oberiant"
+	IDS_WEBSRV	"WebSrv."
+	IDS_SW_REFETCHRES	"Disoc'hoù ar c'hlask"
+	IDS_FILEHASH	"Drailherezh ar restr"
+	IDS_PW_PROXY	"Proksi"
+	IDS_PROXY_ENABLE	"Gweredekaat Proksi"
+	IDS_PROXY_TYPE	"Rizh ar proksi :"
+	IDS_PROXY_HOST	"Proksi ostiz :"
+	IDS_PROXY_PORT	"Porzh ar proksi :"
+	IDS_PROXY_AUTH	"Gweredekaat an dilesa"
+	IDS_AUTH	"Dilesa"
+	IDS_SHOWCATINFO	"Diskouez titouroù pellgargañ war an ivinennoù rummadoù"
+	IDS_SW_SEARCHINGINFO	"Klask red. Disoc'hoù a-benn nebeut !"
+	IDS_LOGENTRY	"Tres"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_COPY	"Kopiañ"
+	IDS_SELECTALL	"Diuz pep tra"
+	IDS_AUTOSCROLL	"Dibunañ emgefre"
+	IDS_WIZ1_WELCOME_TITLE	"Degemer mat e-barzh eMule"
+	IDS_WIZ1_WELCOME_ACTIONS	"Emañ o vont d'ho sturiañ ar skoazeller-mañ gant pazennoù kentañ ar c'hefluniañ eMule."
+	IDS_WIZ1_WELCOME_BTN_HINT	"Evit mont pelloc'h, klikit war War-lerc'h."
+	IDS_WIZ1_END_TITLE	"Echu eo ar skoazeller"
+	IDS_WIZ1	"Skoazeller evit implij kentañ eMule"
+	IDS_WIZ1_END_BTN_HINT	"Evit serriñ ar skoazeller-mañ, klikit war Echuiñ."
+	IDS_WIZ1_UPLOAD_SUBTITLE	"Treuzkas al lodennoù klok"
+	IDS_DL_RESUMENEXT	"Kenderc'hel gant an hini o tont a zo ehanet"
+	IDS_STARTPRIO	"Tevet evit ar rummad-mañ"
+	IDS_PREF_STARTNEXTFILECAT	"Kavout gwelloc'h ar memes rummad"
+	IDS_SOFTFILES	"Harz gwan ar restroù"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_HARDFILES	"Harz kreñv ar restroù"
+	IDS_FILTER	"Sil"
+	IDS_LINKS	"Ereoù"
+	IDS_HM_SCHED_ON	"Gweredekaat ar Raktreser"
+	IDS_HM_SCHED_OFF	"Diweredekaat ar Raktreser"
+	IDS_HM_LINKHP	"Lec'hienn ofisiel eMule"
+	IDS_HM_LINKFAQ	"FAG eMule"
+	IDS_HM_LINKVC	"Gwiriañ stummoù nevez eMule"
+	IDS_DEBUG_SOURCE_EXCHANGE	"Diskouez ar gemennadennoù diwar eskemm an orinoù"
+	IDS_SHAREDREQ1	"Goulennet en deus an implijour %s (%u) ganeoc'h ho roll restroù eskemmet -> %s"
+	IDS_SHAREDREQ2	"Goulennet en deus an implijour %s (%u) ganeoc'h ho roll restroù eskemmet evit ar c'havlec'h '%s' -> %s"
+	IDS_SHAREDANSW	"Eskemm a ra an implijour %s (%u) ar c'havlec'h '%s'"
+	IDS_SHAREDANSW2	"Kaset en deus an implijour %s (%u) ur rollad kavlec'hioù eskemmet ha n'eo ket bet goulennet - laosket a-gostez"
+	IDS_SHAREDINFO1	"Kaset en deus an implijour %s (%u) rollad ar restroù eskemmet evit ar c'havlec'h '%s'"
+	IDS_SHAREDINFO2	"Echu eo gant an implijour %s (%u) kas rollad e restroù eskemmet"
+	IDS_SHAREDANSW3	"Kaset en deus an implijour %s (%u) ur rollad restroù eskemmet evit ar c'havlec'h '%s' ha n'eo ket be goulennet - laosket   \na-gostez"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_SHAREDREQDENIED	"Nac'het en deus an implijour %s (%u) haeziñ e roll restroù/kavlec'hioù eskemmet"
+	IDS_AUTOCLEANUPFN	"Naetaat an anv"
+	IDS_ONNEWDOWNLOAD	"Gwerzhiadoù deraouekaat"
+	IDS_FILTERFILENAMEWORD	"Roit ar gerioù da silañ, dispartiet gant |"
+	IDS_FNFILTERTITLE	"Aozañ ar siloù evit naetaat an anv restr"
+	IDS_CHANGECATVIEW	"Silañ ar gwereañ"
+	IDS_STATUS_NOTCOMPLETED	"Diglok"
+	IDS_STATS_CUMULATIVE	"Dassammad"
+	IDS_STATS_OVRHD	"Bann tremen dreistniverel"
+	IDS_STATS_RECORDS	"Taolioù-dreist"
+	IDS_STATS_COMPDL	"Degemer kaset a-benn"
+	IDS_STATS_SVRECWORKING	"Niv. servijeroù uhelañ en-linenn"
+	IDS_STATS_SVRECUSERS	"Niv. implijourien en-linenn"
+	IDS_SEARCH_TEXT	"Klask"
+	IDS_STATS_SVRECFILES	"Niv. restroù uhelañ vak"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_STATS_SHRECNUM	"Niv. restroù eskemmet"
+	IDS_SEARCH_COLUMN	"Klask er bann"
+	IDS_STATS_SHRECSIZE	"Ment uhelañ eskemm"
+	IDS_STATS_SHRECASIZE	"Keitad brasañ eus ment restr"
+	IDS_STATS_SESSION	"Estez"
+	IDS_STATS_SRATIO	"Feur E:R evit an estez :"
+	IDS_STATS_CRATIO	"Feur E:R sammet :"
+	IDS_SEARCH_NORESULT	"Disoc'h ebet kavet."
+	IDS_STATS_CURRSRVDUR	"Amzer war ar servijer red"
+	IDS_LONGSECS	"Eilenn"
+	IDS_STATS_DLSES	"Estezioù degemer"
+	IDS_LONGMINS	"Munutenn"
+	IDS_STATS_SDLSES	"Estezioù degemer kaset a-benn"
+	IDS_STATS_FDLSES	"Estezioù degemer faziet"
+	IDS_STATS_AVGDATADLSES	"Keitad degemer dre estez"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_STATS_ULSES	"Estezioù kas"
+	IDS_STATS_GAINCOMP	"Gounezet a-drugarez d'ar waskerezh : %s"
+	IDS_STATS_LOSTCORRUPT	"Kollet en abeg d'ar wasterezh : %s"
+	IDS_STATS_AVGDATAULSES	"Keitad kas dre estez"
+	IDS_STATS_ICHSAVED	"Lodennoù enrollet a-drugarez d'an I.C.H: %u"
+	IDS_STATS_MBRESET_TXT	"Ha fellout a ra deoc'h adderaouekaat da 0 ho feurioù dassammus ? \n\nMa deuit en-dro diwezhatoc'h war ho choaz e c'hellot kemmañ an dibab-mañ en ur glikañ war an afell 'Adlakaat Feurioù'."
+	IDS_STATS_MBRESTORE_TXT	"Ha fellout a ra deoc'h adlakaat ho feurioù dassammus diwar ar restr gwarediñ ? \n\nDre glikañ war 'Restaurer Stats' en-dro ec'h adkargot ho feurioù a-vremañ."
+	IDS_ERR_NOSTATBKUP	"FAZI: n'eo ket be kavet ar restr gwarediñ ar feurioù..."
+	IDS_STATS_NFOLOADEDBKUP	"Stlennadoù feurioù gwaredet karget..."
+	IDS_STATS_NFORESET	"Adderaouekaet da 0 eo bet ar feurioù !"
+	IDS_STATS_BNRESET	"Adderaouekaat ar feurioù"
+	IDS_STATS_BNRESTORE	"Adlakaat ar feurioù"
+	IDS_PPGSTATS_YSCALE	"Skeul an ahel Y evit ar feurioù kennaskañ:"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_PPGSTATS_ACRATIO	"Feur kennaskañ oberiant:"
+	IDS_STATS_PROBLEMATIC	"Kudennoù"
+	IDS_LONGHRS	"eurvezhioù"
+	IDS_STATS_LARGESTFILE	"Restr vrasañ eskemmet"
+    IDS_SPLIT_WINDOW	"Dispartiañ ar prenestr"
+	IDS_STATS_DSPF	"Restr ziglok"
+	IDS_STATS_DATASOURCE	"Orin ar stlennoù"
+	IDS_STATS_DSFILE	"Restr klok"
+	IDS_STATS_GENERAL	"Hollek"
+	IDS_STATS_TRANSTIME	"Amzer treuzkas"
+	IDS_STATS_DOWNTIME	"Amzer degemer"
+	IDS_STATS_UPTIME	"Amzer kas"
+	IDS_STATS_TOTALSRVDUR	"Hollad amzer ar servijer"
+	IDS_STATS_MAXAVGUL	"Tizh keitad gwelloc'h o kas"
+	IDS_STATS_MAXUL	"Tizh gwelloc'h o kas"
+	IDS_STATS_AVGDLTIME	"Amzer keitad o tegemer"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_STATS_PRTDEF	"Diouer"
+	IDS_STATS_PRTOTHER	"Lod all"
+	IDS_STATS_MNUTREETITLE	"Gwezenn feurioù"
+	IDS_STATS_MNUTREECPYSEL	"Kopiañ ar skourr diuzet"
+	IDS_STATS_MNUTREECPYALL	"Kopiañ an holl feurioù"
+	IDS_STATS_MNUTREEHTML	"Arc'hwelioù HTML"
+	IDS_STATS_EXPORT2HTML	"Ezporzhiañ an holl feurioù"
+	IDS_STATS_MNUTREECPYVIS	"Kopiañ an holl re hewelus"
+	IDS_STATS_MNUTREEEXPANDALL	"Digeriñ an holl ziuzadoù"
+	IDS_STATS_MNUTREECOLLAPSEALL	"Serriñ an holl ziuzadoù"
+	IDS_STATS_MNUTREEEXPANDMAIN	"Digeriñ an estezioù pennañ"
+	IDS_STATS_LASTRESETSTATIC	"Feurioù adderaouekaet da 0 evit ar wech gentañ : %s"
+	IDS_STATS_MONTHLY	"Miziek"
+	IDS_STATS_YEARLY	"Bloavezhiek"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_STATS_TIMESTATS	"Feurioù amzerel"
+	IDS_STATS_AVGANDPROJ	"Keitadoù raktreset"
+	IDS_STATS_TIMESINCERESET	"Amzer adal an adderaouekaat diwezhañ da 0: %s"
+	IDS_CRYPT_INITFAILED	"N'haller ket deraouekaat an alc'hwezioù ennodiñ - dilesa surentezet diweredekaet"
+	IDS_CD_IDENT	"Identelezh :"
+	IDS_IDENTOK	"Deuet a-benn"
+	IDS_IDENTFAILED	"Direizh"
+	IDS_IDENTNOSUPPORT	"Diskoret pe diweredekaouet"
+	IDS_COMMITFILES	"Skrivañ diarvar ar restroù .met/.dat"
+	IDS_ERR_BADUNC	"Anv UNC direizh"
+	IDS_NEVER	"Morse"
+	IDS_ALWAYS	"Bepred"
+	IDS_ONSHUTDOWN	"D'ar c'hlozadur"
+	IDS_UNCFOLDERS	"Kavlec'hioù UNC"
+	IDS_USESECIDENT	"Ober gant an dilesa surentezet"
+	IDS_ADVSPAMFILTER	"Sil enep-lastez kempleshoc'h"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_CUT	"Troc'hañ"
+	IDS_STATS_SECUREIDENT	"Identelezh surentezet (Mat eo : Fazi )"
+	IDS_ONDISK	"Ment war ar gantenn : "
+	IDS_CLIENTCOL	"Diwall: Kavet ez eus bet un ostiz heñvel diouzh unan all kennasket bremañ : %s (%s) ha %s (%s)"
+	IDS_SEARCH_UNTERMSTRING	"Hedad dianav"
+	IDS_SEARCH_GENERALERROR	"Fazi hollek"
+	IDS_SEARCH_MISSINGORRIGHT	"Lodenn zehou diank evit an niñvader OR"
+	IDS_SEARCH_MISSINGNOTRIGHT	"Lodenn zehou diank evit an niñvader NOT"
+	IDS_SEARCH_MISSINGEXPRPARANT	"Riñvenn diankevit '(' ')'"
+	IDS_SEARCH_MISSINGCLOSINGPARANT	"Krommell serriñ ')' diank "
+	IDS_SEARCH_EXPRERROR	"Fazi o tielfennañ ar riñvenn glask"
+	IDS_SEARCH_TOOCOMPLEX	"Riñvenn re gemplezh"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_VERSION	"Stumm"
+	IDS_PASTE	"Pegañ"
+	IDS_A4AF	"Merañs an orinoù"
+	IDS_AUTOCAT_LABEL	"Merkañ emgfre d'ur rummad (dispartiañ ar gwiskadurioù gant |)"
+	IDS_SHOWEXTSETTINGS	"Diskouez muioc'h a reoliñ (Reoliñ eeun kempleshoc'h)"
+	IDS_TREEOPTIONS_TRUE	"Gwir"
+	IDS_TREEOPTIONS_FALSE	"Gaou"
+	IDS_TREEOPTIONS_OK	"Mat eo"
+	IDS_HYPERTEXT_FONT_HINT	"Nodrezh evit ar prenestroù Servijer, Kemennad hag IRC"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_SELECT_FONT	"Dibab un nodrezh"
+	IDS_SERVER_LIMITS	"Harz restroù gwan/kreñv"
+	IDS_KBITSSEC	"kbit/eil"
+	IDS_KBYTESSEC	"keizhtet/eil"
+	IDS_ERR_CREATE_DIR	"Fazi p'eo bet savet %s ar c'havlec'h ""%s"" - %s"
+	IDS_WRN_INCFILE_RESERVED	"Ret eo bezañ lec'hiet an teuliad evit ar restroù pellgarget e-barzh ur c'havlec'h disheñvel diouzh hini staliañ eMule."
+	IDS_WRN_TEMPFILES_RESERVED	"Ret eo bezañ lec'hiet an teuliad evit ar restroù dibadus e-barzh ur c'havlec'h disheñvel diouzh hini staliañ eMule."
+	IDS_WRN_INCTEMP_SAME	"Ret eo bezañ disheñvel an teuliad evit ar restroù dibadus diouzh hini ar restroù pellgarget."
+	IDS_SHOWDWLPERCENTAGE	"Diskouez an % eus an araokadenn er varrenn greskaat"
+	IDS_TBN_ONNEWDOWNLOAD	"Pellgargañ ouzhpennet"
+	IDS_ARTIST	"Aozer"
+	IDS_ALBUM	"Albom"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_CD_UPLOADREQ	"Goulenn gant an ostiz:"
+	IDS_SETTINGCHANGED_RESTART	"Evit ma vefe enrollet ho kemmoù, trugarez da loc'hañ eMule en-dro !"
+	IDS_CREDITSEXPIRED	", %u ostiz dilamet (ket gwelet abaoe 5 mizvezh)"
+	IDS_SOURCESINFO	"%u (Talvoudus : %u, NNP: %u, A4AF: %u)"
+	IDS_META_DATA	"Gour Stlennoù"
+	IDS_TIMEBEFORE	"(bez ez eus %s)"
+	IDS_FD_TIMEDATE	"Deiziadoù"
+	IDS_FILEINFORMATION	"Titouroù restr"
+	IDS_STATS_FREESPACE	"Egor vak"
+	IDS_IRC_HELPCHANNEL	"Kennaskañ ouzh ar c'hanolioù skoazell."
+	IDS_IRC_HELPCHANNELPERFORM	"/join #emule-french"
+	IDS_IRC_ACCEPTLINKSFRIENDS	"Nemet o tont deus mignoned."
+	IDS_COMPLSOURCES	"Klok"
+	IDS_CHECKNOENDTIME	"dibenn ebet"
+	IDS_FD_DOWNLOADSTARTED	"Pellgargañ ouzhpennet :"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_FAILEDREOPEN	"Fazi dibare: Fazi oc'h addigeriñ ar restr '%s' (%s)!"
+	IDS_ERR_PREVIEWALREADY	"Bez ez eus dija ur reked rakwelout o c'hortoz gant an ostiz-mañ"
+	IDS_ERR_PREVIEWFAILED	"Faziet eo bet ar rakwelout adalek an implijour '%s'"
+	IDS_DWTOT	"Egor kantenn"
+	IDS_DWTOT_NR	"Niver a zegemerioù: %u"
+	IDS_DWTOT_TSD	"Ment hollad an degemerioù: %s"
+	IDS_DWTOT_TCS	"Ment hollad resevet endeo: %s (%.0f%%)"
+	IDS_DWTOT_TSL	"Ment hollad a chom da vezañ treuzkaset: %s"
+	IDS_DWTOT_TSN	"Egor hollad rekis d'an degemerioù: %s"
+	IDS_DWTOT_FS	"Egor kantenn vak war ar gantenn Temp: %s"
+	IDS_NEEDFREEDISKSPACE	"%s (ret eo deoc'h dieubiñ %s!)"
+	IDS_SERVERKEEPALIVETIMEOUT	"Amzer o nevesaat ar c'hennaskañ ouzh ar servijer [mun.]"
+	IDS_MORE	"&Ouzhpenn"
+	IDS_TOOLS	"&Ostilhoù"
+	IDS_SEARCHPARAMS	"Perzhioù klask"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_HASHINGFILESCOUNT	" (%u drailherezh)"
+	IDS_CHECKDISKSPACE	"Gwiriañ an egor kantenn"
+	IDS_YOURHOSTNAME	"Anv ostiz evit ma ereoù ed2k din"
+	IDS_INSUFFICIENT	"N'eus egor kantenn a-walc'h"
+	IDS_MINFREEDISKSPACE	"Egor kantenn izel. [Me]"
+	IDS_WARNING	"Kemenn"
+	IDS_IMPORTSPLPF	"Enporzhiañ ar restroù "" part "" (eMule, eDonkey, Overnet)"
+	IDS_IMP_STEPREADPF	"O lenn kavlec'h part"
+	IDS_IMP_STEPBASICINF	"O tastum stlennoù eeun adalek ar restr part"
+	IDS_IMP_STEPCRDESTFILE	"O sevel ar restr part eus termen"
+	IDS_IMP_LOADDATA	"O kargañ stlennoù adalek ar restr part kozh (%u eus %u)"
+	IDS_IMP_SAVEDATA	"Oc'h enrollañ ar bloc'had stlennoù en ur restr part nemetañ (%u eus %u)"
+	IDS_IMP_IOERROR	"Fazi restr p'eo bet troet ar restr part"
+	IDS_IMP_GETPFINFO	"O tastum stlennoù ar restr part orin"
+	IDS_IMP_ADDDWL	"Oc'h ouzhpennañ ar pellgargañ hag enrollañ ar restr part nevez"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_IMP_FETCHSTATUS	"Klask ar stad..."
+	IDS_IMP_INPROGR	"red"
+	IDS_IMP_ERR_DISKSP	"Fazi: N'eus egor kantenn a-walc'h"
+	IDS_IMP_ERR_PARTMETIO	"Fazi: N'haller ket kavet ar restr partmet"
+	IDS_IMP_ERR_IO	"Fazi: Fazi ES!"
+	IDS_IMP_ERR_FAILED	"Fazi: Fazi !"
+	IDS_IMP_STATUSQUEUED	"Lakaet el lostennad"
+	IDS_IMP_ALRDWL	"O pellgargañ emañ dija"
+	IDS_IMP_ADDBTN	"&Ouzhpennañ an enporzhiañ"
+	IDS_IMP_RETRYBTN	"&Esaeañ an diuzad en-dro"
+	IDS_IMP_REMOVEBTN	"&Dilemel an diuzad"
+	IDS_IMP_SELFOLDER	"Dibabit un teuliad partmet nemetañ pe ho kavlec'h temp kozh gant an holl is-teuliadoù partmet!"
+	IDS_IMP_DELSRC	"Ha fellout a ra deoc'h dilemel ar restroù part orin diouzh ar pellgargañ a zo bet kaset a-benn o enporzhiañ ?"
+	IDS_IMP_SIZE	"%s (Kantenn :%s)"
+	IDS_IMP_STATUS	"Enporzhiañ %s: %s"
+	IDS_DYNUPENABLED	"Kavout ent-emgefre an harz kas gwelloc'h"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_DYNUP_PINGTOLERANCE	"Gouzañvusted ar ping (% eus ar ping bihanañ)"
+	IDS_DYNUP_GOINGUPDIVIDER	"Amzer oc'h ersaviñ d'an digreskaat"
+	IDS_DYNUP_GOINGDOWNDIVIDER	"Amzer oc'h ersaviñ d'ar greskaat"
+	IDS_DYNUP_NUMBEROFPINGS	"Niver ping uhelañ evit ar c'heitad"
+	IDS_DYNUP_MINUPLOAD	"Tizh bihanañ aotreet o kas"
+	IDS_ESTTIMELEFT	"Amzer o chom istimet :"
+	IDS_TRANSFER_RATE_LABEL	"Feur kas :"
+	IDS_SAVELOG	"Enrollañ ar c'herzh-levr"
+	IDS_CMT_COPYCLIPBOARD	"Kopiañ an evezhiadenn er skurzer"
+	IDS_ASKDOWNLOADLANG	"N'eo ket staliet en hor reizhiad ar yezh ho peus dibabet. Ha fellout a ra deoc'h e vefe pellgarget gant eMule an droidigezh adalek emule-project.net ?"
+	IDS_ASKDOWNLOADLANGCAP	"Pellgargañ an droidigezh"
+	IDS_DELETESELECTED	"Dilemel"
+	IDS_ERR_FAILEDDOWNLOADLANG	"Fazi o pellgargañ ha fazi o staliañ ar yezh dibabet adalek %s!"
+	IDS_ERR_BADFOLDER	"Kavlec'h direizh.\nN'haller ket sevel ar c'havlec'h. Gwiriit e anv hag e lec'hiadur."
+	IDS_AUTOREMOVEFD	"Diverkañ ar pellgargañ kaset a-benn ent-emgefre"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_RADCLIENTS	"adalek an ostizien anavezet"
+	IDS_KADUDPPORTERR			 "Ur c'henniñv a zo etre porzh UDP Kad ha porzh UDP eMule pe porzh UDP Servijeroù. Kemmet eo bet ar porzh e %u."
+	IDS_CONFIRM_FILEDELETE	"Ha fellout a ra deoc'h dilamet diouzh ar gantenn pep restr diuzet ?"
+	IDS_OPENFOLDER	"Digeriñ an teuliad"
+	IDS_RUNASUSER	"Erounit eMule gant aotreoù strizh"
+	IDS_DELETE	"Dilemel diouzh ar gantenn"
+	IDS_BOOTSTRAP	"Loc'hañ"
+	IDS_VIAED2KSQ	"a-dreuz ED2K Servijer/Lostenn"
+	IDS_EM_KADEMLIA	"&Kad"
+	IDS_VIAKAD	"a-dreuz Kad"
+	IDS_VIASE	"a-dreuz Eskemm Orinoù"
+	IDS_SELECTTOOLBARBITMAP	"Dibab ur varrenn ostilhoù"
+	IDS_SELECTTOOLBARBITMAPDIR	"Lec'hiadur ar barrennoù ostilhoù"
+	IDS_TOOLBARSKINS	"Gwiskadurioù ar varrenn ostilhoù"
+	IDS_NOTEXTLABELS	"Skritellig ebet"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_TEXTLABELSONRIGHT	"An arlun a-zehoù"
+	IDS_TEXTLABELS	"Skritelligoù testenn"
+	IDS_ENABLETEXTLABELS	"dindan an arlun"
+	IDS_CUSTOMIZETOOLBAR	"Personelaat ar varrenn ostilhoù"
+	IDS_MINBITRATE	"Dibun izel. [kbit/e]"
+	IDS_KAD_RECHECKFW	"Gwiriañ an harz-tan en-dro"
+	IDS_SHAREDTITLE	"Eskemmoù ED2K|Kad"
+	IDS_FIREWALLED	"A-dreñv d'an harz-tan"
+	IDS_KADEMLIA	"Kad"
+	IDS_KADCONTACTLAB	"Stokoù"
+	IDS_KADDISTANCE	"Pellder"
+	IDS_KEY	"Alc'hwez"
+	IDS_NUMBER	"Niver"
+	IDS_KAD_SEARCHSRC	"Klask orinoù (%u:%u)"
+	IDS_KAD_SEARCHKW	"Klask gerioù-tremen (%u:%u)"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_KAD_NODE	"Dizoleiñ un neudennad (%u:%u)"
+	IDS_KAD_STOREFILE	"Enrollañ restr (%u:%u)"
+	IDS_KAD_STOREKW	"Enrollañ ger alc'hwez (%u:%u)"
+	IDS_KAD_UNKNOWN	"Dianav (%u:%u)"
+	IDS_SRV_TCPCOMPR	"Gwaskerezh TCP"
+	IDS_KADSEARCHLAB	"Klaskoù red"
+	IDS_SRV_UDPSR	"Protokol UDP astennet evit ar rekedoù orin"
+	IDS_SRV_UDPFR	"Protokol UDP astennet evit ar rekedoù restroù"
+	IDS_MINLENGTH	"Padelezh izel. [hh:mm:ss]"
+	IDS_EM_HELP	"&Skoazell"
+	IDS_WRN_FRIENDDUPLIPPORT	"Mignon ket ouzhpennet.\r\n\r\nUr mignon all a zo dija enrollet gant ar memes chomlec'h IP ha porzh."
+	IDS_DYNUP	"Dizoloiñ an tizh kas"
+	IDS_KADOVERHEAD	"Bann tremen dreistniverel Kad (Pakadoù): %s (%s)"
+	IDS_FIND	"Kavout..."
+	IDS_LOG_BANNED_CLIENTS	"Enskrivañ an ostizien forbannet"
+	IDS_LOG_RATING_RECV	"Enskrivañ an diskrivadennoù hag an arnodennoù restroù"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_LOG_SECURE_IDENT	"Enskrivañ an dilesa surentezet"
+	IDS_LOG_FILTERED_IPS	"Enskrivañ an IPoù silet pe/ha laosket a-gostez"
+	IDS_LOG_FILE_SAVING	"Enskrivañ an oberiadennoù enrollañ restr"
+	IDS_DELETEIPFILTERS	"Ha fellout a ra deoc'h dilemel ar siloù IP diuzet ?"
+	IDS_TOTAL_IPFILTER_LABEL	"Niver a siloù IP:"
+	IDS_TOTAL_IPS_LABEL	"Niver a IP:"
+	IDS_RAU_WARNING	"Gant ar c'hempenn-mañ e vo pourchaset d'eMule muioc'h a surentez a-enep ar stourmoù pe korvoiñ ar frailhoù, ha kuzuliañ a reomp deoc'h ober gant an dibab-mañ.\nKuzuliañ a reomp ingal gant pouez da lenn ar skoazell kent ma vo gweredekaet !\n\nDav eo deoc'h adloc'hañ eMule evit ma vefe dalc'het kont eus ar c'hemmoù."
+	IDS_APPEND	"Ouzhpennañ..."
+	IDS_SAVE	"Enrollañ"
+	IDS_IP_START	"Derou"
+	IDS_IP_END	"Dibenn"
+	IDS_IP_LEVEL	"Live"
+	IDS_IP_DESC	"Diskrivadenn"
+	IDS_IP_HITS	"Stokoù"
+	IDS_IP_RULES	"Siloù IP:"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_ERR_NOTCONNECTEDKAD	"N'oc'h ket kennasket ouzh ar rouedad Kad !"
+	IDS_IRC_NOSFS	"N'eus restr eskemmet ebet a zo diuzet"
+	IDS_RESETLABEL	"Euvriñ hanter-emgefre (istorel)"
+	IDS_IRC_IGNOREMISCMESSAGE	"Leuskel a-gostez ar c'hemennadennoù titouroù a-bep seurt"
+	IDS_KNOWN	"Anav"
+	IDS_RAU_RUNNING	"Emañ eMule o vont en-dro gant aotreoù strizh ""%s"""
+	IDS_RAU_FAILED		"Fazi o lañsañ eMule gant aotreoù strizh ""eMule_Secure"". Kendalc'h gwirioù-dreist an implijour red (""%s"")."
+	IDS_KADCONTACTSREAD	"lennet %u stok adalek ar restr."
+	IDS_ERR_KADCONTACTS	"Stok ebet kavet, trugarez da loc'hañ pe pellgargañ ar restr nodes.dat."
+	IDS_METATAGS	"Hollad Gour Balizenn:"
+	IDS_FILEFORMAT	"Mentrezh restr"
+	IDS_UDPREASKS	"Adc'houlennata UDP restr"
+	IDS_DYNUP_PINGTOLERANCE_MS	"Gouzañvusted ar ping (ms)"
+	IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER	"Hentenn gouzañvusted ar ping"
+	IDS_DYNUP_RADIO_PINGTOLERANCE_MS	"Mili-eilennoù (ms)"
+	IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT	"Dregantad (%)"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_LOG_A4AF	"Enskrivañ an oberiadennoù a-zivout an A4AF"
+	IDS_A4AF_SAVE_CPU	"Diweredekaat reoliñ an A4AF evit espern ar CPU"
+	IDS_SEARCH_DOC	"Teul"
+	IDS_INSTALL_SKIN	"Staliañ ur gwiskadur eMule"
+    		IDS_INSTALL_SKIN_NODIR	"Teuliad ebet a zo bet diuzet evit gwiskadurioù an etrefas eMule, pe n'eo ket haezus an teuliad-mañ c'hoazh!"
+	IDS_INSTALL_SKIN_DIR_ERROR	"Fazi o sevel an teuliad ""%s"" evit gwiskadur an etrefas eMule - %s."
+	IDS_INSTALL_SKIN_FILE_ERROR "Fazi oc'h eztennañ ar restr ""%s"" adalek gwiskadur an etrefas eMule diwar ar restr lec'hel ""%s""."
+	IDS_INSTALL_SKIN_PKG_ERROR	"N'eo ket ar restr-mañ ur gwiskadur reizh evit an etrefas eMule."
+	IDS_NEXT_REASK	"Goulenn o tont gant an ostiz-mañ"
+	IDS_A4AF_FILES	"Restroù A4AF"
+	IDS_FO_TEMPTCP_S	"Porzh %u (TCP) digor en harz-tan XP evit an estez eMule-mañ"
+	IDS_FO_TEMPTCP_F	"Fazi o tigeriñ ar porzh %u (TCP) en harz-tan XP evit an estez eMule-mañ"
+	IDS_FO_TEMPUDP_S	"Porzh %u (UDP) digor en harz-tan XP evit an estez eMule-mañ"
+	IDS_FO_TEMPUDP_F	"Fazi o tigeriñ ar porzh %u (UDP) en harz-tan XP evit an estez eMule-mañ"
+	IDS_FO_PREFBUTTON	"Digeriñ ar porzhioù-mañ en harz-tan XP"
+	IDS_FO_PREF_SUCCCEEDED	"Kaset eo bet a-benn digoradur ar porzhioù diuzet evit an harz-tan XP.\nDiwall: ne zalc'h ket kont an harzoù-tan hag ar proksioù staliet eus ar c'hemmoù-mañ"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_FO_PREF_EXISTED	"Dizoloet eo bet gant eMule reolennoù oberiant en harz-tan Windows XP evit ar porzh diuzet, ha n'int ket bet kemmet gantañ. Ouzhpennet eo bet digudenn ar reolennoù o vankañ.\nHa dalc'hit soñj ha ne zalc'h ket kont an harzoù-tan pe ar routeurioù staliet eus ar c'hemmoù-mañ !"
+	IDS_FO_PREF_FAILED	"Fazi gant kefluniañ an harz-tan XP evit ar porzhioù diuzet!"
+	IDS_FO_PREF_STARTUP	"Digeriñ/Serriñ porzhioù an harz-tan XP e-ser loc'hañ/serriñ eMule"
+	IDS_LOG_LEVEL	"Live enskrivañ"
+	IDS_NEWMSG	"Kemennadenn nevez a-berzh '%s' (IP:%s)"
+	IDS_PREF_STARTNEXTFILECATONLY	"Nemet er memes rummad"
+	IDS_LOG_ULDL_EVENTS	"Enskrivañ an darvoudoù kas/degemer"
+	IDS_PEERCACHE_ENABLED	"Skorañ a ra ho pourchaser Internet an deknologiezh PeerCache, krubuilh gweredekaet !"
+	IDS_IRC_EMULEPROTO_ALLOWADDFRIEND	"Aotreañ an implijour d'ho lakaat en e roll mignoned."
+	IDS_SOURCESWAPBLOCKED	"Eskemm harpet"
+	IDS_TRICKLING	"A-gostez"
+	IDS_A4AF_CHECK_THIS_NOW	"Gwiriañ an orin-mañ diouzhtu (dilastezañ)"
+	IDS_STATS_FRATIO	"Feur estez E:R (slotoù mignoned er-maez):"
+	IDS_STATS_UDATA_FRIENDS "Stlennoù kaset d'ar slotoù mignoned (Estez): %s"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_IMP_ERR_BADFORMAT	"Mentrezh restr dianav pe gwall."
+	IDS_SEARCH_INVALIDCHAR	"Klask termoù o deus arouezennoù direizh enno. Lakaet ho peus pe ur '?' pe un arouezenn ha n'hall ket bezañ implijet gant eD2K."
+	IDS_PORTSCON	"Porzhioù ha kennaskañ"
+	IDS_PORTINFO	"Implijout a ra eMule daou borzh evit kehentiñ gant ar servijerioù hag an ostizoù. Dav eo d'ar porzhioù-mañ bezañ digoret. Dav eo d'ar porzh TCP bezañ vak evit gwarant keweriusterioù pennañ eMule. Implijet eo ar porzh UDP gant KAD (rouedad hep routeur) hag evit lakaat implij ar rouedad war zigresk (bann tremen dreistniverel).\n\nGallout a rit kemmañ ar porzhioù gant ma na vo ket kroget gant implij ar rouedad."
+	IDS_STARTTEST	"Gwiriañ ar porzhioù"
+	IDS_TESTINFO	"Gallout a rit arnodiñ digeriñ ar porzhioù UDP ha TCP d'ar c'hennaskañ arbell. Dav eo d'an arnodenn-mañ da vezañ kaset a-benn  evit ar c'hennaskañ etre ar servijerioù hag an ostizien. Ret eo dizoloiñ ar porzh TCP digudenn !"
+	IDS_CONNECTIONTEST	"Gwiriañ ar c'hennaskañ"
+	IDS_NOPORTCHANGEPOSSIBLE	"N'haller ket kemmañ ar porzh p'oc'h kennasket ouzh ar rouedad, war KAD pe war un ostiz all !\n\nTrugarez da adloc'hañ eMule evit ma vefe dalc'het kont eus ar c'hemmoù porzhioù."
+	IDS_NETWORK_INFO	"Titouroù ar rouedad"
+	IDS_SP_TOTALUL	"Niver hollad ar c'hasadennoù"
+	IDS_SP_ULFRIENDS	"Haeziñ mignoned (kas)"
+	IDS_SP_ULSLOTSNOOVERHEAD	"Kas red hep bann tremen dreistniverel (nemet haeziñ mignon)"
+	IDS_ST_ACTIVEU_ZZ	"Kas oberiant"
+	IDS_ST_ULCURRENT	"Kas + bann tremen dreistniverel"
+	IDS_ST_ULSLOTSNOOVERHEAD	"Kas"
+	IDS_ST_ULFRIEND	"Kas ar vignoned war-du"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_STATS_ACTUL_ZZ	"Niver a gasoù rekis evit leuniañ ar bann tremen: %u"
+	IDS_STATS_TOTALUL	"Niver hollad a gasoù: %u"
+	IDS_CHAT_DOWNLOADED	"Resevet :"
+	IDS_CHAT_UPLOADED	"Kaset :"
+	IDS_CHAT_IDENT	"Dilesa :"
+	IDS_MAXHALFOPENCONS	"Niver. arnodennoù kennaskañ uhelañ en ur ser"
+	IDS_WIZ_STARTWITHWINDOWS	"Loc'hañ eMule gant Windows en ur ser (diweredekaet dre ziouer)"
+	IDS_KAD_WAITCBK	"O c'hortoz PCV Kad"
+	IDS_KAD_TOOMANDYKADLKPS	"Re a weladennoù Kad"
+	IDS_PCDS_CLIENTWAIT	"O c'hortoz ostiz"
+	IDS_PCDS_CACHEWAIT	"O c'hortoz krubuilh"
+	IDS_CACHE	"Kuzhet"
+	IDS_INDEXED	"Merket"
+	IDS_KADINFO_SRC	"\tOrin : %u\r\n"
+	IDS_KADINFO_KEYW	"\tGer-alc'hwez : %u\r\n"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_STARTWITHWINDOWS	"Loc'hañ gant Windows en ur ser"
+	IDS_ADDSRCMANUALLY	"Ouzhpennañ un orin dre zorn"
+	IDS_BUDDY	"Mignon"
+	IDS_BUDDYNONE	"Dibab ebet"
+	IDS_INFO	"Titour"
+	IDS_HALF	"Hanter"
+	IDS_CONCOMPL	"Klok"
+	IDS_KADSTATUS_STOPPING	"Paouez"
+	IDS_KADSTATUS_ACTIVE	"Oberiant"
+	IDS_FORMAT	"Mentrezh"
+	IDS_META_COLLECTION	"Dastumadenn"
+	IDS_META_PARTPATH	"Treug ar .part"
+	IDS_META_PARTHASH	"Drailherezh ar .part"
+	IDS_META_GAPSTART	"Derou eus tachenn c'houllo"
+	IDS_META_GAPEND	"Dibenn eus tachenn c'houllo"
+	IDS_FAIL	"Fazi"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_META_PREFERENCES	"Dibaboù gwellañ"
+	IDS_META_VERSION	"Stumm"
+	IDS_META_TEMPFILE	"Restr zibadelus"
+	IDS_META_SERVERPORT	"Porzh servijer"
+	IDS_META_SERVERIP	"IP ar servijer"
+	IDS_META_SRCUDPPORT	"Porzh UDP orin"
+	IDS_META_SRCTCPPORT	"Porzh TCP orin"
+	IDS_META_SRCIP	"Orin IP"
+	IDS_META_SRCTYPE	"Rizh orin"
+	IDS_SEARCH_UNICODE	"Klask gant Unicode"
+	IDS_PF_ADVANCEDCALC	"Ober gant an hentenn jediñ kempleshoc'h evit an amzer o chom"
+	IDS_LD_ED2KLINK	"Ere eD2K"
+	IDS_LD_COPYCLIPBOARD	"Kopiañ e-barzh ar golver"
+	IDS_LD_HOSTNAME	"Ober gant an anv ostiz (o tont d'an dibaboù gwellañ) e-lec'h an IP pa vez savet un ere gant orin"
+	IDS_SAVEACFAILED	"Fazi p'eo bet gwaredet an daolenn zrailhañ AICH!"
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_AICHHASH	"Drailherezh AICH"
+	IDS_BYTESPERSEC	"e/s"
+	IDS_KBYTESPERSEC	"Ke/s"
+	IDS_MBYTESPERSEC	"Me/s"
+	IDS_GBYTESPERSEC	"Ge/s"
+	IDS_TBYTESPERSEC	"Te/s"
+	IDS_STATS_MINORCLIENTS	"Bihanik"
+	IDS_AICH_SYNCTOTAL	"Kavet eo bet %u restr hep taolenn zrailhañ AICH reizh, addrailhet e vo ar restroù-mañ"
+	IDS_AICH_CALCFILE	"O jediñ Can drailherezh AICH evit ar restr %s"
+	IDS_AICH_WARNUSER	"Ober a ra eMule adalek e stumm 0.44a gant un drailherezh war restr ouzhpenn hag a sikour a-benn digreskiñ ar c'holloù stlennoù p'eo bet dizoloet ur wasterezh. Addrailhet e vo ho restroù a-benn jediñ an drailherezh nevez peogwir e nevesait eMule adalek ur stumm koshoc'h. Gallout a ra kemer un tamm amzer met graet e vo nemet ur wech."
+	IDS_AICH_WORKED	"Dastumet eo bet gant AICH %s war %s eus ar restr part %u evit %s"
+	IDS_SOURCECLIENT	"Ostiz orin"
+	IDS_USERSIP	"IP implijourien"
+	IDS_FEATURES	"Arc'hwelioù"
+	IDS_IRC_NEWNICK	"Dibab ur moranv IRC."
+	IDS_IRC_NEWNICKDESC	"Hennezh a zlefe bezañ ur ger gant neubeutoc'h a 20 arouezenn (A-Z, 0-9) ennañ. Gallout a rit e gemmañ er voest Dibaboù gwellañ->IRC."
+END
+
+STRINGTABLE FIXED IMPURE
+BEGIN
+	IDS_SPARSEPARTFILES	"Sevel ar restroù nevez darnel en ur espern an egor kantenn (nemet war lodenn NTFS)"
+	IDS_ASPECTRATIO	"Feur neuz"
+	IDS_NEGATEFILTER	"Lakaat ar sil war an tu gin"
+	IDS_SEENCOMPL	"Gwelet endeo klok"
+	IDS_SELSKINPROFILEDIR	"Dibab lec'hiadur ar gwiskadurioù etrefas"
+	IDS_ASKDLINCOMPLETE	"Restr diglok ent-gwirheñvel:\r\n\r\n%s\r\n\r\nSSanset eo bezañ diglok ar restr-mañ war ar rouedad ha n'hallot ket hi fellgargañ a dra-sur a-walc'h eta ! Ha fellout a ra deoc'h pellgargañ ar restr-mañ evelkent ?"
+	IDS_DEADSOURCES	"Orinoù marv"
+	IDS_LARGEICONS	"Arlunioù ledan"
+	IDS_SMALLICONS	"Arlunioù bihan"
+	IDS_SHORTTAGS	"Merkoù berr"
+	IDS_THELOAD	"Kargañ"
+	IDS_PACKSENT	"Pakadoù kaset"
+	IDS_RESPONSES	"Respontoù"
+	IDS_EXTRACT_META_DATA	"Eztennañ meta stlennoù"
+	IDS_META_DATA_MEDIADET	"DirectShow (evit pep restr odio/video all)"
+	IDS_META_DATA_ID3LIB	"Levraoueg ID3 (nemet evit restroù MPEG odio)"
+END
+
+STRINGTABLE
+BEGIN
+	IDS_COMCTRL32_DLL_TOOOLD
+	"Windows Common Controls library (COMCTL32.DLL) is too old!\r\n\r\neMule detected a version of the ""Windows Common Controls library (COMCTL32.DLL)"" which is too old to be properly used by eMule. To ensure full and flawless functionality of eMule we strongly recommend to update the ""Windows Common Controls library (COMCTL32.DLL)"" to at least version 5.8.\r\n\r\nDownload and install an update of the ""Windows Common Controls library (COMCTL32.DLL)"" at Microsoft (R) Download Center. Do you want to visit the corresponding URL?"
+	IDS_ASREGEXPR	"Evel riñvenn reizh"
+	IDS_STATIC_REGEXP	"Riñvenn reizh evit sil gwereañ :"
+	IDS_CARE4ALL	"Jediñ pep restr"
+	IDS_REGEXPRESSION	"Regular Expression"
+	IDS_SEARCHKAD	"Klask Kad"
+	IDS_DWL_IPFILTERFILE	"O pellgargañ ar restr silerezh IP"
+	IDS_DWLIPFILTERFAILED	"Pellgargañ ar restr silerezh IP faziet"
+	IDS_FINDBUDDY	"Kavout Buddy"
+	IDS_ERR_IPFILTERZIPEXTR "Fazi en ur eztennañ ar restr sil IP adalek ar restr sil IP zippet ""%s""."
+	IDS_ERR_IPFILTERCONTENTERR
+	"Restr sil IP pellgarget ""%s"" a zo un endalc'h dianav ganti."
+	IDS_STORENOTES	"Berniañ notennoù"
+	IDS_NOTES	"Notennoù"
+	IDS_KADSEARCHALREADY	"Ur c'hlask all a zo endeo. Esait en-dro diwezhatoc'h mar plij !"
+
+END
+
+STRINGTABLE
+BEGIN
+	IDS_WEB_SHUTDOWN	"Paouez eMule"
+	IDS_WEB_REBOOT	"Adloc'hañ system"
+	IDS_WEB_SHUTDOWNSYSTEM	"Paouez reizhiad"
+	IDS_WEB_ADMINMENU	"Lañser merour"
+	IDS_WEB_MAIN_CLOSE	"Ha fellout a ra deoc'h ma vez echuet eMule ?"
+	IDS_WEB_MAIN_REBOOT	"Ha fellout a ra deoc'h ma vez adloc'het ar reizhiad ?"
+	IDS_WEB_MAIN_SHUTDOWN	"Ha fellout a ra deoc'h ma vez paouezet ar reizhiad ?"
+	IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "Diskouez ostizoù forbanet war al lostennad"
+	IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "Diksouez mignoned war al lostennad"
+	IDS_WEB_SESSIONTIMEOUT	"Amzer respont an estez"
+	IDS_WEB_ALLOWHILEVFUNC	"Aotren kuitaat eMule, adloc'hañ ha paouez"
+	IDS_SETPFSLIMIT	"Harz an tarzh..."
+	IDS_SETPFSLIMITEXPLAINED
+	"Roit an harz tarzh nevez evit ar restroù diuzet ! \n(nullet da 0 evit arverañ arventennoù hollek)"
+	IDS_UPDATECATINCOMINGDIRS
+	"Ha fellout a ra deoc'h ma vez endalc'het ar c'havlec'hioù degemer er c'havlec'h kozh da vezañ nevesaet bremañ ?"
+	IDS_USESPEECH	"Seniñ ar c'hemenn"
+	IDS_CONDTCPACCEPT	"Tizh kennaskañ nac'het"
+	IDS_TCPIP_CONNS	"Kennaskañ TCP/IP"
+    IDS_ERR_DELFILE	"Faziet o tilemel ar restr ""%s"""
+    IDS_MANUAL_FILENAMECLEANUP "Ha fellout a ra deoc'h naetaat an anvioù restroù eus ar restroù diuzet  ?"
+END
+
+STRINGTABLE
+BEGIN
+
+    IDS_ERR_CONFIGCORRUPT	"%s a zo gwastet war ar seblant hag e vo erlec'hiet"
+    IDS_UPLOADING	"O kargañ"
+    IDS_CANCELLED	"Nullet"
+    IDS_PW_REMEMBERDOWNLOADED "Derc'hel soñj eus restroù pellgarget"
+    IDS_PW_REMEMBERCANCELLED "Derc'hel soñj eus restroù nullet"
+    IDS_AVAILABLEPARTS	"Lodennoù hegerz"
+    IDS_NOSOUND	"Son ebet"
+    IDS_PW_RECEIVERADDRESS	"Chomlec'h degemer:"
+    IDS_PW_ENABLEEMAIL	"Aotren kemmenn dre bostel"
+    IDS_EMULENOTIFICATION	"Kemenn eMule"
+    IDS_PW_EMAILNOTIFICATIONS "Kemenn dre bostel"
+    IDS_SMTPSERVER   	"Servijer SMTP"
+    IDS_PW_SENDERADDRESS	"Chomlec'h ar servijer :"
+    IDS_PW_SHOWTRANSTOOLBAR "Diskouez barrenn-ostilhoù war ar prenestrtreuzkas"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHARED_STATUS	"Lodennoù eskemmet"
+    IDS_INCOMING_FILES	"Restroù enankañ"
+    IDS_INCOMPLETE_FILES	"Restroù diglok"
+    IDS_SHARED_DIRECTORIES	"Kavlec'hioù eskemmet"
+    IDS_SHAREDIR	"Eskemm kavlec'h"
+    IDS_SHAREDIRSUB	"Eskemm gant iskavlec'hioù"
+    IDS_UNSHAREDIR	"Paouez eskemm kavlec'h"
+    IDS_UNSHAREDIRSUB	"Paouez eskemm gant iskavlec'hioù"
+    IDS_ALLSHAREDFILES	"An holl restroù eskemmet"
+    IDS_ALLDIRECTORIES	"An holl gavlec'hioù"
+    IDS_SEARCHRELATED	"Kavout restroù liammet"
+    IDS_RELATED	"Liammet"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLLECTIONLIST	"Rollad dastumadennoù"
+    IDS_SEARCH_EMULECOLLECTION "Dastumadennoù"
+    IDS_COLL_REPLACEEXISTING "Ha fellout a ra deoc'h erlec'hiañ restroù a zo anezho ?"
+    IDS_COLL_ERR_DELETING	"Fazioù dianav zo c'hoarvezet en ur zilemel ar restr gozh. Kuitaat hep enrollañ ?"
+    IDS_CREATECOLLECTION	"Krouiñ Dastumadenn"
+    IDS_COLL_SIGN	"Sinañ Dastumadenn gant Anv hag Alc'hwez"
+    IDS_AUTHOR	"Aozer"
+    IDS_AUTHORKEY	"Alc'hwez aozer"
+    IDS_COLL_ADDINCAT	"Ouzhpennañ pellgargadoù nevez en ur rummad dastummadennoù"
+    IDS_MODIFYCOLLECTION	"Daskemmañ dastumadenn"
+    IDS_VIEWCOLLECTION	"Gwelout dastumadenn"
+    IDS_COLL_TEXTFORMAT	"Enrollañ dastumadenn dindan ur restr a ventrezh eeun"
+    IDS_SEARCHAUTHORCOLLECTION "Klask dastumadennoù a aozerien"
+    IDS_ERR_DUPL_FILES	"Eilet restroù eskemmet : ""%s"" ha ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+	"UploadSpeedSense: Tracerouting faziet re a wezhioù. Disaotren Upload SpeedSense."
+    IDS_USS_STARTING	"UploadSpeedSense: Echu eo gant ar prientiñ. O loc'hañ ar reoliñ eus an tizh treuzkas (an 60 eilenn kentañ a vo er mod reaktion trumm)"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+	"UploadSpeedSense: harz treuzkas en dibaboù dizoloet. Aet d'ar mod respont trumm evit 60 eilenn."
+    IDS_USS_STATE_PREPARING "O prientiñ..."
+    IDS_USS_STATE_WAITING	"O c'hortoz..."
+    IDS_USS_STATE_ERROR	"Fazi !"
+    IDS_SHAREWARNING	"(ingalet e vo an teuliad !)"
+    IDS_REMOVEALLSERVERS	"Ha fellout a ra deoc’h dilemel an holl servijerioù ?"
+    IDS_SEARCH_UNKATTR	"Doareenn glask dianav '%s'"
+    IDS_SEARCH_ATTRERR	"Fazi kevreañ en doareenn glask '%s'"
+    IDS_SEARCH_MISSINGANDRIGHT "Tu dehou evit an oberiadenn AND a vank"
+    IDS_SEARCH_OPRERR	"Fazi kevreañ en oberiadenn geñveriañ '%s'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOAD_LANGFILE	"O pellgargañ restr yezh"
+    IDS_DOWNLOADING_SERVERMET_FROM "O pellgargañ server.met adalek %s"
+    IDS_DOWNLOADING_SERVERMET "O pellgargañ server.met..."
+    IDS_FULLALLOC	"Mirout memor a-bezh evit lodennoù ar restroù non-sparse"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "N'haller ket kavout an drailherezh."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "Roll Gap gwastet."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "N'haller ket kavout ar roll Gap."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "Keloù drailherezh gwastet."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "N'haller ket kavout ar c’heloù drailherezh."
+    IDS_CONVERTINGKNOWN2MET "O treiñ %s davet %s evit skorañ restroù brasoc’h..."
+    IDS_CONVERTINGKNOWN2FAILED
+	"...fazi en ur zreiñ known2.met, laosket an enrolladennoù kozh a-gostez"
+    IDS_CONVERTINGKNOWN2DONE "... graet, treiñ echu"
+    IDS_ERR_MET_BAD	"Fazi: ar restr %s a zo gwastet, n'haller ket kargañ restroù anavezet"
+    IDS_SRV_LARGEFILES	"Skor evit restroù brasoc’h"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE
+	"N'hallit ket pellgargañ ar restr-mañ abalamour ma ne skor ket ar reizhiad-restroù restroù az a o ment dreist 4Ge. Posubl e vefe implijout NTFS"
+    IDS_NEWVERSIONAVLBETA	"Diamzeret eo ar stumm Beta-mañ. Abalamour ez eus kudennoù atav gant stummoù Beta e vefe mat ma vez staliet ur stumm stabiloc’h war hoc’h urzhiataer an abretañ ar gwellañ !"
+    IDS_KADSEARCHACTIVE     "(Kad search in progress...)"
+    IDS_BOLD                "Toggles bold text"
+    IDS_UNDERLINE           "Toggles underlined text"
+    IDS_COLOUR              "Selects foreground text colour (optional background colour)"
+    IDS_RESETFORMAT         "Resets all previous formatting (sends a reset tag)"
+    IDS_RESTORESEARCHPARAMS "Restore Search Parameters"
+    IDS_COMMAND             "Command"
+    IDS_ARGUMENTS           "Arguments"
+    IDS_AP_CREATEPREVCOPY   "Create preview file"
+    IDS_ARCHIVEDETAILS      "Archive-Details"
+    IDS_ARCHTYPE            "Archive type"
+    IDS_ATTRIBUTES          "Attributes"
+    IDS_LASTMODIFIED        "Last Modified"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "Headers encrypted - unable to read archive."
+    IDS_ARCPARSED           "Archive scanned."
+    IDS_ARCPREV_LISTMAYBEINCOMPL "File list may be incomplete."
+    IDS_ARCPREV_DIRNOTFOUND "Table of contents not found."
+    IDS_ARCPREV_INSUFFDATA  "Insufficent data available."
+    IDS_PASSWPROT           "Password protection"
+    IDS_ARCPREV_DIRSUCCREAD "Table of contents successfully read."
+    IDS_ARCPREV_UNKNOWNFORMAT "(unknown/unsupported)"
+    IDS_ARCPREV_PLEASEWAIT  "Scanning archive..."
+    IDS_OBFUSCATION         "Obfuscation"
+    IDS_SUPPORTED           "Supported"
+    IDS_ESTIMATED           "estimated"
+    IDS_MEDIAINFO_DLLMISSING
+                            "There is no MediaInfo library installed. If you want to get more information about audio/video files in this dialog,\r\ndownload the MediaInfo library from https://mediaarea.net/fr/MediaInfo and copy the MediaInfo.dll file into\r\neMule's installation folder ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "Warning: The file extension of ""%s"" does not match the file extension\r\ntypically used for that file format. You may want to rename the file to\r\nuse one of those file extensions ""%s""\r\nfor properly using or viewing that file format.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "Warning: The file ""%s"" seems to be protected with Digital Rights Management.\r\nYou will most likely not be able to use that file without a license from the originator of that file.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "eMule Toolbar Bitmap Files"
+    IDS_LOADFILTER_EMSKINFILES "eMule Skin Files"
+    IDS_OPTIONS             "Options"
+    IDS_ERR_FAILEDTOLOAD    "Failed to load %s: %s "
+    IDS_RUNNINGRESTRICTED   "eMule is running with reduced privileges"
+    IDS_ARCHPREV_ATTRIBINFO "File attributes can contain:\r\n\r\nP\tfile is password protected\r\nD\tis a directory\r\nC\tComment\r\nLx\tCompression level x\r\nM\tcompressed data not completely downloaded yet\r\n<\tfile continued from previous volume\r\n>\tfile continues in next volume\r\n"
+    IDS_CONTENT_INFO        "Content"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "Messages and Comments"
+    IDS_DISABLEOBFUSCATION  "Disable support for obfuscated connections"
+    IDS_ONLYOBFUSCATED      "Allow obfuscated connections only (not recommended)"
+    IDS_ENABLEOBFUSCATION   "Enable Protocol Obfuscation"
+    IDS_PROTOCOLOBFUSCATION "Protocol Obfuscation"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "Connecting to %s (%s:%u - using Protocol Obfuscation) ..."
+    IDS_CONNECTEDTOOBFUSCATED "Obfuscated connection established on: %s"
+    IDS_VERIFIED            "Verified"
+    IDS_OBFUSCATED          "Obfuscated"
+    IDS_UNVERIFIED          "Unverified"
+    IDS_INVALIDFILEEXT      "Invalid file extension"
+    IDS_UNKNOWNFILEEXT      "unknown file extension"
+    IDS_ENABLEMINIMULE      "Enable MiniMule"
+    IDS_DISABLE_AUTOARCHPREV
+                            "Disable automatic archive preview start in file details"
+    IDS_US_STALLEDW4BR      "Stalled! Waiting for block request."
+    IDS_US_STALLEDREADINGFDISK "Stalled! Reading from disk."
+    IDS_SERVERFEATURE_INTTYPETAGS "Integer type tags"
+    IDS_FILLGRAPHS          "Draw filled graphs"
+    IDS_PARAMETER           "Parameter"
+    IDS_TEST                "Test"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "Use UPnP to setup ports"
+    IDS_UPNPSETUP           "Trying to setup port forwardings with UPnP..."
+    IDS_UPNPFAILED          "UPnP failed to setup port forwardings, please forward those ports manually if necessary!"
+    IDS_UPNPSUCCESS         "UPnP successfully set up forwardings for ports %u (TCP) and %u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "Open ports on WinXP SP1 firewall"
+    IDS_UPNP_NOSERVICE      "UPnP Device Host service is not running, skipping UPnP setup"
+    IDS_DELAYEDBYUPNP       "Connecting to the network is delayed, because UPnP is still busy configuring the port forwardings."
+    IDS_DELAYEDBYUPNP2      "Please wait some seconds, eMule will connect as soon as UPnP finished."
+    IDS_UPNP                "UPnP"
+    IDS_UPNPCLOSEONEXIT     "Remove UPnP port forwardings on exit"
+    IDS_UPNPSKIPWANIP       "Skip WAN IP setup"
+    IDS_UPNPSKIPWANPPP      "Skip WAN PPP setup"
+    IDS_SHAREEMULELABEL     "Sharing eMule with other computer users"
+    IDS_SHAREEMULEMULTI     "Each user has its own configuration and downloads"
+    IDS_SHAREEMULEPUBLIC    "Everyone has the same configuration and downloads"
+    IDS_SHAREEMULEOLD       "Store config and downloads in the program directory"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "Changing this option will let eMule use another configuration. You current settings will be ignored and already started downloads might not be visible anymore. You can switch back to your current configuration by changing this option again anytime.\n\nYou need to restart eMule for this change to take effect."
+    IDS_SPAM                "Spam"
+    IDS_MARKSPAM            "Mark as Spam"
+    IDS_MARKNOTSPAM         "Mark as not Spam"
+    IDS_SEARCHSPAMFILTER    "Enable Spam Filter for search results"
+    IDS_SHOWSMILEYS         "Show Smileys"
+    IDS_CAPTCHAREQUEST      "In order to avoid spam messages, this user requires you to solve a captcha before you can send him a message. Please enter the letters you see on this image as response:"
+    IDS_CAPTCHAFAILED       "Your response to the captcha was wrong and your message has been ignored. You can request a new captcha by sending a new message."
+    IDS_CAPTCHASOLVED       "You have passed the captcha check and the user has received your message."
+    IDS_USECAPTCHAS         "Require captcha authentication"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat from URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "Downloading nodes.dat from %s"
+    IDS_DOWNLOADING_NODESDAT "Downloading nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "Failed to download nodes.dat from %s"
+    IDS_PREVENTSTANDBY      "Prevent Standby mode while eMule is running"
+    IDS_KADID               "KadID"
+    IDS_SEARCHINGFRIENDKAD  "Searching in Kad Network for friend"
+    IDS_FOUND               "found"
+    IDS_EXTERNUDPPORT       "Extern UDP Port"
+    IDS_STORESEARCHES       "Remember open searches between restarts"
+    IDS_WRN_INCFILE_EXISTS  "You have selected a new directory for your incoming files which is not empty. All existing files in this directory will be automatically shared by eMule."
+    IDS_EDITSPAMFILTER      "Edit spam filter..."
+    IDS_EDITSPAMFILTERCOMMENTS "Edit spam filter for comments"
+    IDS_WIZZARDOBFUSCATION  "Enable this option if you want to enable protocol obfuscation\n\nIf your ISP tries throttle or block eMule, enabling obfuscation will help to circumvent such restrictions."
+    IDS_BETANAG             "This is a beta version of eMule. Please report problems and check regulary for updates in our forum (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "Do you want to download and use Kad contacts (nodes.dat) from this address:\n%s ?"
+    IDS_AUTOMATIC           "Automatic"
+    IDS_NOTCONNECTEDANY     "You are not connected to a server or the Kad network!"
+    IDS_ERR_SHARED_DIR      "Failed to read shared directory ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "The file ""%s"" seems to be protected with Digital Rights Management.\r\n\r\nYou will most likely not be able to use that file without a license from the originator. You should be aware that opening this file will most likely cause your media player to open a web browser which will transfer you automatically to the site of the originator of that file where you will get asked to acquire a license.\r\n\r\nDo you really want to continue opening the file?"
+    IDS_CHECK_FILE_OPEN     "Warn when opening untrusted files"
+    IDS_BOOTABLE            "bootable"
+    IDS_UNSUPPORTEDIMAGE    "unsupported image"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "Unshare"
+    IDS_WEBUPNPINCLUDE      "Include port into UPnP setup"
+    IDS_ADDEDON             "Added On"
+    IDS_RESOLVELINKS        "Resolve shell links in shared directories"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "Download Commands"
+    IDS_CLOSETOOLBAR        "Close Toolbar"
+    IDS_SHOWTOOLBAR         "Show Toolbar"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "You cannot use the first keyword with an OR operator when searching on Kad!\n\nFor example ""Keyword1 OR Keyword2"" is not possible. Try ""Keyword1 AND (Keyword2 OR Keyword3)"" or do multiple searches instead."
+    IDS_DISCOVEREDBY        "Discovered by"
+    IDS_NODES               "Node(s)"
+    IDS_ROUTINGTABLE        "Routing Table"
+    IDS_PROTOCOLVERSION     "Protocol Version"
+    IDS_FOUNDNODESUSEFUL    "Found Nodes (useful)"
+    IDS_NORESPONSE          "No Response"
+    IDS_NOTASKED            "Not Asked"
+    IDS_LOOKUPGRAPH         "Search Details"
+    IDS_AUTOKADLOOKUPGRAPH  "Automatically show active searches"
+    IDS_PAUSEONPREVIEW      "Pause when preview possible"
+    IDS_PREVIEWWITH         "Preview with"
+    IDS_CLOSEEMULE          "Close eMule"
+    IDS_DONOTASKAGAIN       "Don't ask me again"
+    IDS_POPULARITY          "Popularity Rank"
+    IDS_SHOWWIN7TASKBARGOODIES "Enable Windows 7 taskbar effects"
+    IDS_LANMODE             "LAN Mode"
+    IDS_OPENPREFINI         "Open preferences.ini"
+END
+
+#endif    // Breton (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

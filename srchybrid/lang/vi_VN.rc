@@ -1,0 +1,2001 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "vi_VN.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Vietnamese resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_VIT)
+#ifdef _WIN32
+LANGUAGE LANG_VIETNAMESE, SUBLANG_DEFAULT
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "vi_VN.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "Không thể khởi tạo Windows sockets."
+    IDS_ABOUTBOX            "&Giới thiệu eMule..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s từ %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "Đã kết nối đến %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "Đang chuyển tên: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "Đã chuyển tên sang %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "Đang kết nối đến %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "Đang chuyển đến %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "Đang lấy thông tin về Tập tin"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR
+                            "Lỗi khi cố gắng tải xuống tập tin, Lỗi: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "Lỗi kết nối đến máy chủ, Lỗi: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE
+                            "Lỗi khi nhận trả lời từ máy chủ"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "Lỗi khi nhận trả lời HTTP từ máy chủ"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE
+                            "Lỗi khi tải tập tin xuống, Lỗi: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "Đang tải xuống: %s%% trong %s hoàn tất"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "Đang tìm tập tin"
+    IDS_HTTPDOWNLOAD_OF     "%s trong %s"
+    IDS_FILELINK            "Liên kết Tập tin"
+    IDS_LD_BASICOPT         "Tùy chọn cơ bản"
+    IDS_LD_ADDSOURCE        "Thêm chính bạn là nguồn"
+    IDS_LD_EMULEHASH        "Thêm mã eMule AICH Hash cho Hệ thống xử lý hư hỏng thông minh"
+    IDS_LD_ADVANCEDOPT      "Tùy chọn nâng cao"
+    IDS_CANCEL              "Hủy bỏ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LD_ADDHTML          "Thêm Thẻ-HTML"
+    IDS_HTTP_CAPTION        "Đang cập nhật danh sách máy chủ"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s đã chép)"
+    IDS_LD_ADDHASHSET       "Thêm bộ mã hash hoàn tất"
+    IDS_HSAV                "Bộ mã Hash có thể dùng được"
+    IDS_DL_SHOWED2KLINK     "&Liên kết eD2K..."
+    IDS_FD_CORR             "Đã bị hỏng"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "Tập tin '%s' đã tồn tại.\nBạn có muốn ghi đè lên không?"
+    IDS_FD_RECOV            "Đã phục hồi"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "Có lỗi xày ra khi đang mở tập tin được tải xuống, Lỗi: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "Đang bỏ truyền tải"
+    IDS_FD_COMPR            "Nén"
+    IDS_WIZARD_NETWORK      "Chọn Mạng lưới bạn muốn sử dụng."
+    IDS_MAIN_READY          "Phiên bản eMule %s sẵn sàng"
+    IDS_WIZARD_ED2K         "Thiết lập eD2K"
+    IDS_SEL_SKIN            "Chọn Giao diện..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_SOCKETERROR    "Lỗi: Không thể tạo Socket trên cổng %u"
+    IDS_MAIN_BTN_DISCONNECT "Ngắt &kết nối"
+    IDS_ERR_WRONGFILEID     "Đã gởi IDTậpTin sai"
+    IDS_ERR_BADHASHSET      "Bộ mã Hash nhận được bị hư hay không hợp lệ"
+    IDS_ERR_BADDATABLOCK    "Khối dữ liệu nhận được bị hư hay không hợp lệ"
+    IDS_ERR_ILLFORMEDHASH   "Định dạng mã Hash không đúng"
+    IDS_ERR_BADED2KLINK     "Không phải là liên kết eD2K đúng"
+    IDS_ERR_NOSLLINK        "không phải là máy chủ eD2K hay liên kết tập tin"
+    IDS_ERR_WRONGPACKETSIZE "Kích thước gói OP_REQUESTFILENAME không hợp lệ"
+    IDS_ERR_WRONGHPACKETSIZE "Kích thước gói OP_HASHSETREQUEST không hợp lệ"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "Máy khách (không biết) gởi gói giao thức mở rộng"
+    IDS_ERR_OPENMET         "Lỗi: Không thể mở tập tin part.met! (%s => %s)"
+    IDS_ERR_BADMETVERSION   "Lỗi: Phiên bản tập tin part.met không hợp lệ! (%s => %s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION "Thẻ (Tag) phiên bản không hợp lệ trong tập tin server.met (0x%X)!"
+    IDS_SERVERSFOUND        "Tìm thấy %u máy chủ trong tập tin server.met"
+    IDS_SERVERSADDED        "%u máy chủ được thêm vào, %u không được thêm vào (đã có/không đúng)"
+    IDS_ERR_BADSERVERLIST   "Lỗi: tập tin server.met bị hỏng, không thể nạp danh sách máy chủ"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "Có lỗi khi đọc tập tin server.met: %s, không thể nạp danh sách máy chủ"
+    IDS_ERR_SAVESERVERMET   "Không thể lưu tập tin server.met!"
+    IDS_PASSIVE             "Thụ động"
+    IDS_MAIN_BTN_CANCEL     "&Hủy bỏ"
+    IDS_AVAIL               "Cổng: %u, Dùng được: %u (%.1f%%)\n\n"
+    IDS_TYPE                "Loại"
+    IDS_FILEID              "IDTậpTin"
+    IDS_FILE                "Tập tin"
+    IDS_DOWNLOAD            "Tải xuống"
+    IDS_SL_SERVERNAME       "Tên máy chủ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IP                  "IP"  //!
+    IDS_DESCRIPTION         "Ghi chú" //description
+    IDS_PING                "Ping"  //!
+    IDS_FILES               "Tập tin"
+    IDS_PREFERENCE          "Ưu tiên"
+    IDS_PRIONOPREF          "Không Ưu tiên"
+    IDS_CONNECTTHIS         "Kết nối Đến"
+    IDS_MAIN_BTN_CONNECT    "&Kết Nối"
+    IDS_ERR_SAVESERVERMET2  "Không thể lưu tập tin server.met! Bạn có thể xóa tập tin server.met và đổi tên server.met.old thành server.met!"
+    IDS_NOTCONNECTED        "Không kết nối"
+    IDS_DISCONNECTED        "Không kết nối"
+    IDS_USERS               "Người dùng: %u"
+    IDS_UPDOWN              "Lên: %.1f(%.1f) | Xuống: %.1f(%.1f)"
+    IDS_CONNECTED           "Đã kết nối"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_WRITEERROR      "Có lỗi khi ghi vào %s : %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "Lỗi tập tin đột xuất khi hoàn tất %s. Tập tin bị dừng lại, khởi động lại eMule để thử lại lần nữa."
+    IDS_ERR_DELETEFAILED    "Không thể xóa %s, bạn phải tự xóa"
+    IDS_DOWNLOADDONE        "Hoàn tất tải xuống tập tin %s :-)"
+    IDS_ERR_DELETE          "Không thể xóa %s"
+    IDS_ERR_HASHERRORWARNING
+                            "Cảnh báo: Không thể lấy mã Hash phần tải về - bộ mã Hash không đầy đủ (%s)"
+    IDS_ERR_INCOMPLETEHASH  "Lỗi: Không thể lấy mã Hash phần tải về - bộ mã Hash không đầy đủ (%s). Điều này không (bao giờ) nên xảy ra"
+    IDS_DOWNLOADING         "Đang tải xuống"
+    IDS_WAITING             "Đang đợi"
+    IDS_HASHING             "Đang lấy mã Hash" //Hasing
+    IDS_COMPLETING          "Đang hoàn tất" //Completing
+    IDS_COMPLETE            "Hoàn tất"
+    IDS_PAUSED              "Tạm dừng" //Paused
+    IDS_ERRORLIKE           "Sai sót"
+    IDS_ASSIGNED2K          "eMule không được chỉ định một liên kết eD2K nào. Bạn có muốn chỉ định eMule một liện kết eD2K bây giờ không (khuyên dùng) ?"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "Không có ghi chép địa chỉ danh sách máy chủ trong 'addresses.dat' được tìm thấy. Vui lòng dán danh sách địa chỉ máy chủ vào tập tin này để tự động cập nhật danh sách máy chủ của bạn"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LINKNOTADDED        "Không thể thêm Liên kết"
+    IDS_MAIN_EXIT           "Bạn có chắc chắn muốn thoát khỏi eMule không?"
+    IDS_MAIN_POPUP_RESTORE  "Mở cửa sổ chính"
+    IDS_CONNECTTOANYSERVER  "Kết nối đến Máy chủ Bất kỳ"
+    IDS_EXIT                "T&hoát"
+    IDS_CONNECTING          "Đang kết nối"
+    IDS_FAILED              "thất bại"
+    IDS_ERR_BADSERVERREPLY  "Nhận được trả lời đăng nhập từ máy chủ bị hư hay không hợp lệ"
+    IDS_NEWCLIENTID         "ID Máy khách mới là %u"
+    IDS_SHAREDFOLDERS       "Thư mục Chia sẻ"
+    IDS_VIEW1               "Khung nhìn "
+    IDS_VIEW2               " (Không chia sẻ)"
+    IDS_PRIOLOW             "Thấp"
+    IDS_PRIONORMAL          "Thường"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOHIGH            "Cao"
+    IDS_DOWNLOADMENUTITLE   "Tải về"
+    IDS_PRIORITY            "Ưu tiên"
+    IDS_NEWSERVERS          "Đã nhận được %u máy chủ mới"
+    IDS_DL_STOP             "&Dừng"
+    IDS_DL_PAUSE            "Tạm &dừng"
+    IDS_DL_RESUME           "&Tải xuống"
+    IDS_DL_OPEN             "&Mở Tập tin"
+    IDS_DL_INFO             "&Chi tiết..."
+    IDS_DL_CLEAR            "Xóa Liên kết Đã hoàn tất"
+    IDS_DL_LINK1            "Chép &Liên kết eD2K"
+    IDS_DL_LINK2            "Chép Liên kết eD2K (dạng &HTML)"
+    IDS_SHOWDETAILS         "&Chi tiết..."
+    IDS_SEND_MSG            "Gởi &Thông điệp"
+    IDS_ASKING              "Đang gởi yêu cầu"
+    IDS_CONNVIASERVER       "Đang kết nối thông qua máy chủ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ONQUEUE             "Đang đợi"
+    IDS_TRANSFERRING        "Đang tải"
+    IDS_RECHASHSET          "Đang nhận bộ mã hash"
+    IDS_NONEEDEDPARTS       "Không cần"
+    IDS_NOCONNECTLOW2LOW    "Không thể kết nối LowID đến LowID"
+    IDS_UNKNOWN             "Không Biết"
+    IDS_ASKED4ANOTHERFILE   "Đã yêu cầu tập tin khác"
+    IDS_Q_CANCELDL          "Bạn có chắc hủy bỏ và xóa các tập tin này không?\n"
+    IDS_Q_CANCELDL2         "Bạn có chắc hủy bỏ và xóa tập tin này không?\n"
+    IDS_DL_FILENAME         "Tên tập tin"
+    IDS_DL_SIZE             "Kích thước"
+    IDS_DL_TRANSF           "Đã truyền tải"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_SPEED            "Tốc độ"
+    IDS_DL_PROGRESS         "Tiến trình"
+    IDS_DL_SOURCES          "Nguồn"
+    IDS_ERR_BADSERVERLISTRECEIVED "Đã nhận Gói danh sách máy chủ không phù hợp"
+    IDS_STATUS              "Trạng thái"
+    IDS_DL_REMAINS          "Còn lại"
+    IDS_UPDATEFROM          "Cập nhật từ URL: (filter.dat- hay ĐịnhDạng-PeerGuardian)"
+    IDS_QL_USERNAME         "Tên người dùng"
+    IDS_LOADURL             "Nạp"
+    IDS_DELETEAFTERALLOC    "Tập tin '%s' đang được cấp phát dung lượng đĩa và sẽ được xóa sau."
+    IDS_QL_RATING           "Đánh giá"
+    IDS_CONNECTINGTO        "Đang kết nối tới %s (%s:%u)..."
+    IDS_CLIENTS             "Máy khách"
+    IDS_SEARCH_ANY          "Tất cả"
+    IDS_SEARCH_AUDIO        "Âm thanh"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "Hình ảnh"
+    IDS_SEARCH_PRG          "Chương trình"
+    IDS_SEARCH_VIDEO        "Video" //!
+    IDS_SEARCH_CDIMG        "Ảnh-CD"
+    IDS_SEARCH_ARC          "Tập tin nén"
+    IDS_ERR_INVALIDLINK     "Liên kết eD2K này không hợp lệ (%s)"
+    IDS_ERR_LINKERROR       "Liên kết không hợp lệ: %s"
+    IDS_ERR_NOTCONNECTED    "Bạn chưa kết nối đến máy chủ nào!"
+    IDS_REMOVETHIS          "Xóa"
+    IDS_REMOVEALL           "Xóa tất cả"
+    IDS_SRV_ADDR            "Nhập vào địa chỉ máy chủ"
+    IDS_SRV_PORT            "Cổng máy chủ không đúng: Nhập vào cổng khác"
+    IDS_SRV_NOTADDED        "Máy chủ không được thêm vào!"
+    IDS_SRV_NOURLAV         "Không có URL dùng được."
+    IDS_INVALIDURL          "URL không đúng"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET "Không thể tải danh sách máy chủ về từ %s"
+    IDS_PERMISSION          "Quyền hạn"
+    IDS_SHAREDFILES         "Tập Tin"
+    IDS_PRIOVERYLOW         "Rất thấp"
+    IDS_PRIORELEASE         "Thả nổi"
+    IDS_TRAYDLG_SPEED       "Tốc độ eMule"
+    IDS_FSTATUS_FRIENDSONLY "chỉ Bạn bè"
+    IDS_VIAPASSIVE          "qua Máy khách Thụ động"
+    IDS_ERR_RENAMESF        "Không thể đổi tên\r\n    ""%s""\r\nthành\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "dùng được"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FSTAT_TRANSFER      "Truyền tải"
+    IDS_CONNECTIONS         "Kết Nối"
+    IDS_FSTAT_SERVERS       "Máy Chủ"
+    IDS_FSTAT_WAITING       "Đang đợi..."
+    IDS_TIME                "Thời gian"
+    IDS_STATS_DDATA         "Dữ liệu tải xuống: %s"
+    IDS_STATS_UDATA         "Dữ liệu tải lên: %s"
+    IDS_STATS_AVGDL         "Tốc độ Tải Xuống Trung Bình: %s"
+    IDS_STATS_AVGUL         "Tốc độ Tải Lên Trung Bình: %s"
+    IDS_STATS_FOUNDSRC      "Tìm thấy nguồn: %u"
+    IDS_STATS_ACTDL         "Đang tải xuống (các mảnh): %u"
+    IDS_STATS_ACTUL         "Đang tải lên: %u"
+    IDS_STATS_WAITINGUSERS  "Đang đợi tải lên: %u"
+    IDS_STATS_RECONNECTS    "Kết nối lại: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "Không biết: %u"
+    IDS_STATS_TOTAL         "Tổng cộng: %u"
+    IDS_DISABLED            "Không dùng"
+    IDS_STOPPED             "Dừng"
+    IDS_STATS_UPDATELABEL   "Cập nhật lại trong: %u giây"
+    IDS_ASKEDFAF            "\nYêu cầu tập tin khác"
+    IDS_WAITED              "Đã đợi"
+    IDS_ERR_LOADCREDITFILE  "Không thể nạp Tập tin TínNhiệm (credit), một tập tin mới sẽ được tạo ra"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "Tập tin TínNhiệm (credit) đã hết hạn và sẽ được thay thế"
+    IDS_CREDITFILELOADED    "Tập tin TínNhiệm (credit) đã nạp, %u máy khách được biết"
+    IDS_CREDITFILECORRUPT   "Lỗi: Tập tin TínNhiệm (credit) bị hư và sẽ được thay thế"
+    IDS_ERR_CREDITFILEREAD  "Lỗi tập tin bất ngờ khi đọc tập tin TínNhiệm: %s"
+    IDS_ERR_FAILED_CREDITSAVE "không thể lưu Tập tin TínNhiệm (credit)"
+    IDS_NOPARTSFOUND        "Không tìm thấy tập tin tạm nào"
+    IDS_FOUNDPARTS          "Tìm thấy %u tập tin tạm"
+    IDS_NEWDOWNLOAD         "Đang tải xuống %s"
+    IDS_ERR_ALREADY_DOWNLOADING
+                            "Bạn đang tải %s xuống"
+    IDS_ERR_ALREADY_DOWNLOADED "Bạn đã tải xuống tập tin %s"
+    IDS_ERR_SERVERMET_BAD   "Lỗi: tập tin known.met đã bị hư, không thể nạp danh sách tập tin đã biết"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "Lỗi tập tin bất ngờ khi đọc known.met: %s, không thể nạp danh sách tập tin đã biết"
+    IDS_ERR_CONNECTIONERROR "Lỗi kết nối đến %s (%s:%u): %s"
+    IDS_ERR_SOCKET          "Lỗi Server socket: %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "Tìm thấy %u tập tin chia sẻ đã biết"
+    IDS_SHAREDFOUNDHASHING  "Tìm thấy %u tập tin chia sẻ đã biết, đang lấy mã Hash %u tập tin mới"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD "Tạo luồng hoàn tất tập tin thất bại"
+    IDS_FILEBUFFERSIZE      "Kích thước bộ đệm"
+    IDS_QUEUESIZE           "Kích thước hàng đợi"
+    IDS_DAYS2               "Ngày"
+    IDS_ERR_MAKEBAKCREDITFILE "Không thể tạo bản sao Tập tin TínNhiệm (credit)"
+    IDS_COMMENT             "Chú thích"
+    IDS_IPFILTERED          "IP đã bị lọc: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "Đã hoàn tất"
+    IDS_DL_ACTIVE_TIME      "Thời gian tải xuống"
+    IDS_STATS_FILTEREDCLIENTS "Đã lọc: %u"
+    IDS_FILTERLABEL         "Lọc thông điệp có chứa: (cách nhau bởi | )"
+    IDS_ERR_LARGEREQBLOCK   "Máy khách yêu cầu khối quá lớn."
+    IDS_SHOWRATEONTITLE     "Hiển thị tỉ lệ truyền tải trên tựa đề"
+    IDS_TBN_NOMESSAGEHISTORY "Không có thông điệp lược sử!"
+    IDS_PW_DAP              "Thêm tác vụ mới với ưu tiên tự động"
+    IDS_FD_LASTCHANGE       "Nhận gói lần cuối:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_RUNTIME       "Thời gian chạy"
+    IDS_ALL                 "Tất cả"
+    IDS_CAT_ADD             "Thêm Danh mục..."
+    IDS_CAT_EDIT            "Sửa Danh mục..."
+    IDS_CAT_REMOVE          "Xóa Danh mục"
+    IDS_CAT                 "Danh mục"
+    IDS_TITLE               "Tên"
+    IDS_COLOR               "Màu sắc"
+    IDS_DEFAULT             "Mặc định"
+    IDS_PW_DISPLAY          "Hiển Thị"
+    IDS_INDICATERATINGS     "Hiển thị Các tác vụ với chú thích/đánh giá bằng biểu tượng"
+    IDS_ALLOTHERS           "Chưa phân loại"
+    IDS_TOCAT               "Chuyển vào Danh mục"
+    IDS_CAT_UNASSIGN        "(Chưa phân loại)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "Đã yêu cầu các khối chưa hoàn tất"
+    IDS_ERR_OPEN            "Không thể mở tập tin được yêu cầu"
+    IDS_ERR_CLIENTERRORED   "Máy khách '%s' bị lỗi khi tạo gói (%s) - ngắt kết nối đến máy này"
+    IDS_ERR_REQ_FNF         "Tập tin được yêu cầu không tìm thấy"
+    IDS_DESC                "Ghi chú: %s"
+    IDS_PORT                "Cổng"
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "Không có máy chủ hợp lệ để kết nối trong danh sách máy chủ tìm thấy"
+    IDS_CONNECTEDTOREQ      "Đã kết nối đến %s (%s:%u), đang gởi yêu cầu đăng nhập"
+    IDS_ERR_FATAL           "Có lỗi khi kết nối. Kết nối Internet có thể bị lỗi"
+    IDS_ERR_LOSTC           "Mất kết nối đến %s (%s:%u)"
+    IDS_ERR_DEAD            "%s (%s:%u) đã bị chết."
+    IDS_ERR_FULL            "%s (%s:%u) đã đầy"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_METCORRUPT      "Lỗi: %s (%s) bị hư hỏng, không thể nạp tập tin"
+    IDS_ERR_FILEERROR       "Lỗi bất ngờ khi đọc tập tin %s (%s): %s"
+    IDS_ERR_FILEOPEN        "Không thể mở %s (%s)"
+    IDS_SEL_SKINDIR         "Chọn Thư mục chứa Giao diện..."
+    IDS_ERR_REHASH          "Cảnh báo: %s có lẽ bị hư, đang thực hiện lấy mã Hash lại của những phần đã hoàn tất"
+    IDS_SKIN_PROF           "Thông tin Giao diện"
+    IDS_ERR_PART_FNF        "Tập tin tạm không tìm thấy"
+    IDS_KADOPEN             "Mở"
+    IDS_ERR_SAVEMET         "Lỗi khi lưu tập tin tạm : %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "Tìm thấy phần bị hư (%u) trong %s"
+    IDS_HASHINGDONE         "Hoàn tất lấy mã Hash lại %s, tập tin có vẻ ổn"
+    IDS_ERR_PARTCORRUPT     "Phần đã tải xuống %u đã bị hư :(  (%s)"
+    IDS_ICHWORKED           "I.C.H.: Phần bị hỏng được phục hồi %u (%s), Đã lưu: %s"
+    IDS_ERR_OUTOFSPACE      "Bạn không đủ dung lượng đĩa trống để tải xuống tập tin ""%s""!"
+    IDS_SE                  "Trao đổi Nguồn"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONNECTEDTO         "Kết nối được thiết lập đến: %s"
+    IDS_DL_PREVIEW          "Xem Thử"
+    IDS_VIEWQUEUE           "Hiển thị hàng đợi"
+    IDS_TW_UPLOADS          "Tải lên"
+    IDS_TW_DOWNLOADS        "Tải xuống"
+    IDS_TW_QUEUE            "Máy khách đang đợi:"
+    IDS_SW_SEARCHBOX        "Tìm Kiếm"
+    IDS_SW_NAME             "Tên"
+    IDS_SW_GLOBAL           "Tìm toàn cục"
+    IDS_SW_DIRECTDOWNLOAD   "Dán Liên kết eD2K"
+    IDS_SW_LINK             "Liên kết eD2K"
+    IDS_SW_START            "Bắt đầu"
+    IDS_SCHEDULER           "Thời Gian Biểu"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC                 "Tán &Gẫu"
+    IDS_SW_RESULT           "Kết quả Tìm kiếm"
+    IDS_SW_DOWNLOAD         "Tải xuống"
+    IDS_SV_SERVERLIST       "Máy chủ"
+    IDS_SV_SERVERINFO       "Máy chủ"
+    IDS_SV_LOG              "Bản ghi"
+    IDS_SV_NEWSERVER        "Máy chủ mới"
+    IDS_SV_ADDRESS          "IP hay Địa chỉ"
+
+    IDS_SV_ADD              "Thêm vào Dsách"
+    IDS_SV_MET              "Cập nhật server.met từ URL"
+    IDS_SV_UPDATE           "Cập nhật"
+    IDS_SF_FILES            "Thư mục Chia sẻ"
+    IDS_SF_STATISTICS       "Thống Kê"
+    IDS_SF_RELOAD           "Nạp lại DSách"
+    IDS_SF_CURRENT          "Phiên hiện tại"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPEED_LIMITS        "Giới hạn tốc độ"
+    IDS_CAPACITY_LIMITS     "Giới hạn băng thông"
+    IDS_ADMIN               "Quản lý"
+    IDS_ACCESSDENIED        "Từ chối truy xuất!"
+    IDS_WEB_LOWUSER         "Khách"
+    IDS_WEB_ERR_CANTLOAD    "Không thể nạp mẫu-templates: Không thể mở tập tin %s"
+    IDS_GLOBALSEARCH        "Toàn cục (Các máy chủ)"
+    IDS_METHOD              "Phương pháp"
+    IDS_UNDO                "Làm lại"
+    IDS_DAYLY               "Hàng ngày"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_MO_FR           "Hai-Sáu"
+    IDS_DAY_SA_SO           "Bảy-CN"
+    IDS_MO                  "Thứ 2"
+    IDS_DI                  "Thứ 3"
+    IDS_MI                  "Thứ 4"
+    IDS_DO                  "Thứ 5"
+    IDS_FR                  "Thứ 6"
+    IDS_SA                  "Thứ 7"
+    IDS_SO                  "Chủ Nhật"
+    IDS_WEB_ADMINLOGIN      "Giao diện Web: Đăng nhập-Quản Lý"
+    IDS_WEB_GUESTLOGIN      "Giao diện Web: Đăng nhập-Khách"
+    IDS_WEB_SESSIONEND      "Giao diện Web: Thoát"
+    IDS_DETAILS             "Chi tiết"
+    IDS_ACTION              "Hành động"
+    IDS_REMOVE              "Xóa"
+    IDS_NEW                 "Tạo mới"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TOTAL            "Tất cả"
+    IDS_SF_TRANS            "Truyền tải:"
+    IDS_SF_ACCEPTED         "Tải lên đã chấp nhận:"
+    IDS_SF_REQUESTED        "Các yêu cầu:"
+    IDS_ST_DOWNLOAD         "Tốc độ-Tải xuống"
+    IDS_ST_UPLOAD           "Tốc độ-Tải lên"
+    IDS_ST_CURRENT          "Hiện tại"
+    IDS_ST_SESSION          "Trung bình Phiên"
+    IDS_ST_ACTIVED          "Tải xuống hoạt động"
+    IDS_ST_ACTIVEU          "Tải lên hoạt động"
+    IDS_CW_MESSAGES         "Thông điệp"
+    IDS_CW_FRIENDS          "Bạn Bè"
+    IDS_CW_SEND             "Gởi"
+    IDS_CW_CLOSE            "Đóng"
+    IDS_PW_GENERAL          "Tổng Quát"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_DIR              "Thư Mục"
+    IDS_PW_NICK             "Biệt danh"
+    IDS_PW_INCOMING         "Thư mục Tải xuống"
+    IDS_PW_TEMP             "Thư mục tạm"
+    IDS_PW_BROWSE           "Chọn..."
+    IDS_PW_SHARED           "Thư mục chia sẻ (Ctrl-Click bao gồm thư mục con)"
+    IDS_CONNECTION          "Kết Nối"
+    IDS_PW_DOWNL            "GHạn Tải xuống"
+    IDS_PW_UPL              "GHạn Tải lên"
+    IDS_PW_MAXC             "Số kết nối tối đa"
+    IDS_PW_CLIENTPORT       "Cổng kết nối"
+    IDS_PW_AUTOCON          "Tự động kết nối khi khởi động"
+    IDS_PW_RECON            "Kết nối lại khi bị ngắt"
+    IDS_PW_SERVER           "Máy Chủ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_RDEAD            "Xóa máy chủ không hoạt động"
+    IDS_PW_RETRIES          "thử lại"
+    IDS_PW_SCORE            "Sử dụng hệ thống ưu tiên"
+    IDS_PW_USC              "Cập nhật danh sách máy chủ khi kết nối"
+    IDS_PW_UCC              "Cập nhật danh sách máy chủ khi một máy khách kết nối"
+    IDS_PW_FILTER           "Lọc IP máy chủ và máy khách nội bộ"
+    IDS_PW_USS              "Tự động cập nhật danh sách máy chủ khi khởi động"
+    IDS_PW_MISC             "Tùy chọn khác"
+    IDS_PW_TRAY             "Thu nhỏ vào Khay hệ thống"
+    IDS_PW_PROMPT           "Hỏi lại khi Thoát eMule"
+    IDS_PW_SPLASH           "Hiển thị Splashscreen"
+    IDS_PW_DBLCLICK         "Nhấn đúp vào Danh sách Tải xuống để mở rộng"
+    IDS_PW_TOOL             "Chú thích hiện ra trong [giây]"
+    IDS_PW_FRONT            "Mang cửa sổ chính lên trên khi nhấn vào liên kết eD2k"
+    IDS_PW_LANG             "Ngôn ngữ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_FILES            "Tập Tin"
+    IDS_PW_SHARE            "Hiển thị thư mục, tập tin chia sẻ cho"
+    IDS_PW_EVER             "Mọi người"
+    IDS_PW_FRIENDS          "Bạn bè"
+    IDS_PW_NOONE            "Không"
+    IDS_PW_RESET            "Xóa hết"
+    IDS_PW_APPLY            "Áp dụng"
+    IDS_EM_TRANS            "Tác &Vụ"
+    IDS_EM_SERVER           "&Máy Chủ"
+    IDS_EM_SEARCH           "Tìm &Kiếm"
+    IDS_EM_FILES            "Tậ&p Tin"
+    IDS_EM_MESSAGES         "&Thông Điệp"
+    IDS_EM_STATISTIC        "T&hống Kê"
+    IDS_EM_PREFS            "Tùy &Chọn"
+    IDS_MB_LANGUAGEINFO     "Ngôn ngữ mặc định đã được chọn. Bạn có thể chọn lại ngôn ngữ bất cứ lúc nào trong cửa sổ Tùy Chọn."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_GENERAL          "Tổng quát"
+    IDS_FD_MET              "tập tin part.met:"
+    IDS_FD_HASH             "Mã Hash:"
+    IDS_FD_SIZE             "Kích thước:"
+    IDS_FD_TRANSFER         "Truyền tải"
+    IDS_FD_PARTS            "Các phần"
+    IDS_FD_TRANS            "Đã truyền tải:"
+    IDS_FD_DATARATE         "Tỉ lệ dữ liệu:"
+    IDS_FD_COMPSIZE         "Hoàn thành:"
+    IDS_FD_CLOSE            "Đóng"
+    IDS_FD_TITLE            "Chi tiết Tập tin"
+    IDS_CD_GENERAL          "Tổng quát"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "Tên:"
+    IDS_CD_UHASH            "Mã Hash:"
+    IDS_CD_CSOFT            "Ứng dụng"
+    IDS_CD_UIP              "Địa chỉ IP:"
+    IDS_CD_SIP              "IP Máy chủ:"
+    IDS_CD_VERSION          "Phiên bản Máy khách:"
+    IDS_CD_SNAME            "Tên Máy chủ:"
+    IDS_CD_CDOWN            "Hiện đang tải xuống:"
+    IDS_CD_DOWN             "Đã tải xuống (phiên này):"
+    IDS_CD_ADOWN            "Tỉ lệ tải xuống trung bình:"
+    IDS_CD_TDOWN            "Tổng tải xuống:"
+    IDS_CD_UP               "Đã tải lên (phiên này):"
+    IDS_CD_AUP              "Tỉ lệ tải lên trung bình:"
+    IDS_CD_TUP              "Tổng tải lên:"
+    IDS_CD_TRANS            "Tác Vụ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_SCORES           "Điểm"
+    IDS_CD_MOD              "Độ thay đổi DL/UL:"
+    IDS_CD_RATING           "Đánh giá (tổng):"
+    IDS_CD_USCORE           "Điểm hàng đợi tải lên:"
+    IDS_CD_TITLE            "Chi tiết Máy khách"
+    IDS_EMULEW              "Nhấn"
+    IDS_EMULEW2             "để kiểm tra phiên bản mới"
+    IDS_EMULEW3             "vào đây"
+    IDS_PW_MAXSOURCES       "Số nguồn tối đa/tập tin"
+    IDS_SHAREDFILESCOUNT    "Tổng số tập tin chia sẻ: %u"
+    IDS_SF_SIZE             "Tổng dung lượng tập tin chia sẻ: %s"
+    IDS_ERR_BADPORT         "Cổng không đúng"
+    IDS_ERR_NOHELLO         "Yêu cầu không cần chào hỏi"
+    IDS_ERR_INVALIDPACKET   "Nhận được gói tin không hợp lệ hay bị hư hỏng"
+    IDS_ERR_CLIENTERROR     "Máy khách '%s' (IP:%s) bị lỗi: %s. Ngắt kết nối đến máy này!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSIZE         "kích thước không hợp lệ (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "Không phải là liên kết tập tin"
+    IDS_ERR_CREATEPARTFILE  "Lỗi: Không thể tạo tập tin tạm"
+    IDS_CHAT_START          "*** Phiên tán gẫu bắt đầu : "
+    IDS_FILEPRIO            "Độ ưu tiên Tập tin"
+    IDS_SCORE               "Điểm"
+    IDS_ASKED               "Đã yêu cầu"
+    IDS_LASTSEEN            "Nhận ra lần cuối"
+    IDS_BANNED              "Bị cấm"
+    IDS_UUSERS              "Người dùng"
+    IDS_UFAILED             "Thất bại"
+    IDS_OPENFILE            "&Mở Tập tin"
+    IDS_DATE                "Ngày"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PARTINFOS           "Tên tập tin tạm:"
+    IDS_PARTINFOS2          "Đang tải (từ %u nguồn)"
+    IDS_USERID              "ID Người dùng"
+    IDS_CLIENT              "Máy khách"
+    IDS_SERVER              "Máy chủ"
+    IDS_SOURCEINFO          "Đã yêu cầu: %u lần; Các phần dùng được: %u"
+    IDS_CLIENTSOURCENAME    "\nTên tập tin của máy khách: "
+    IDS_USERINFO            "Tên người dùng: %s\n"
+    IDS_FILESTATS_SESSION   "Thống kê Tập tin cho phiên này: Đã chấp nhận %u trong %u yêu cầu, %s truyền tải\n"
+    IDS_FILESTATS_TOTAL     "Thống kê Tập tin cho tất cả các phiên: Đã chấp nhận %u trong %u yêu cầu, %s truyền tải"
+    IDS_REQ_UNKNOWNFILE     "Yêu cầu tập tin không biết"
+    IDS_SF_AVERAGESIZE      "Kích thước tập tin trung bình: %s"
+    IDS_SF_REQUESTS         "Yêu cầu"
+    IDS_SF_ACCEPTS          "Yêu cầu đã chấp nhận"
+    IDS_SF_TRANSFERRED      "Dữ liệu đã truyền tải"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REMOVESEARCHSTRING  "Đóng Cửa sổ"
+    IDS_REMOVESELECTED      "Xóa"
+    IDS_REMOVEALLSEARCH     "Đóng tất cả"
+    IDS_ENTERQUEUE          "Đã vào hàng đợi"
+    IDS_SF_FAIL             "Các máy chủ không kết nối được"
+    IDS_SF_WUSER            "Số người dùng trên các máy chủ hoạt động"
+    IDS_SF_WFILE            "Số tập tin trên máy chủ hoạt động"
+    IDS_SF_USER             "Tổng cộng người dùng"
+    IDS_SF_FILE             "Tổng cộng tập tin"
+    IDS_UPLOADTIME          "Thời gian tải lên"
+    IDS_LASTSEENCOMPL       "Thấy đầy đủ:"
+    IDS_YES                 "Có"
+    IDS_NO                  "Không"
+    IDS_UNBAN               "Không cấm"
+    IDS_SF_WORKING          "Các máy chủ hoạt động"
+    IDS_ADDTOSTATIC         "Thêm vào Danh sách Tĩnh"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDED2SSF           "Đã thêm vào Danh sách Tĩnh"
+    IDS_STATICSERVER        "Tĩnh"
+    IDS_ERROR_SSF           "Không thể mở tập tin 'staticservers.dat'"
+    IDS_SF_ACTIVECON        "Các kết nối hoạt động (ước tính)"
+    IDS_SF_MAXCONLIMITREACHED "Đạt tới Giới hạn kết nối tối đa"
+    IDS_SF_AVGCON           "Các kết nối trung bình (ước tính)"
+    IDS_SF_PEAKCON          "Các kết nối cao nhất (ước tính)"
+    IDS_ST_ACTIVEC          "Các kết nối hoạt động"
+    IDS_NETWORK             "Mạng lưới"
+    IDS_SF_DELCOUNT         "Các Máy chủ đã bị xóa"
+    IDS_QUEUEFULL           "Hàng đợi đã đầy"
+    IDS_AVG                 "Trung bình"
+    IDS_BYTES               "Bytes" //!
+    IDS_KBYTES              "KB" //!
+    IDS_MBYTES              "MB" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GBYTES              "GB" //!
+    IDS_TBYTES              "TB" //!
+    IDS_SECS                "giây"
+    IDS_MINS                "phút"
+    IDS_HOURS               "giờ"
+    IDS_DAYS                "ngày"
+    IDS_ED2KLINKFIX         "Liên kết eD2K"
+    IDS_RECONNECT           "Tự động kết nối đến máy chủ trong %u giây"
+    IDS_SERVERADDED         "Máy chủ đã được thêm vào: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "Bỏ qua thông điệp Gia nhập"
+    IDS_STATS_SUCCUPCOUNT   "Tổng các phiên tải lên thành công: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "Bỏ qua thông điệp thông tin đứt kết nối"
+    IDS_STATS_FAILUPCOUNT   "Tổng các phiên tải lên bị lỗi: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "Thời gian tải lên trung bình: %s"
+    IDS_SEARCHMINSIZE       "Kthước Nnhất [MB]"
+    IDS_SEARCHMAXSIZE       "Kthước Lnhất [MB]"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PREF_ONLINESIG      "Sử dụng chữ ký trực tuyến - Online Signature"
+    IDS_ERROR_SAVEFILE      "Không thể lưu trữ"
+    IDS_REQ_SHAREDFILES     "Người dùng %s (%u) yêu cầu danh sách các tập tin chia sẻ của bạn -> %s"
+    IDS_ACCEPTED            "đã chấp nhận"
+    IDS_DENIED              "đã từ chối"
+    IDS_PW_CON_DOWNLBL      "Tải xuống"
+    IDS_PW_CON_UPLBL        "Tải lên"
+    IDS_PW_AUTOCONNECTSTATICONLY "Chỉ Tự động kết nối đến các máy chủ trong danh sách tĩnh"
+    IDS_PW_CON_LIMITFRM     "Giới hạn"
+    IDS_STATS_AVGLABEL      "Thời gian cho Đồ thị trung bình: %u phút"
+    IDS_GRAPHS              "Đồ Thị"
+    IDS_STREE               "Thống Kê"
+    IDS_IRC_IGNOREQUITMESSAGE "Bỏ qua thông tin Thoát"
+    IDS_STATSSETUPINFO      "Thống Kê"
+    IDS_IRC_SOUNDEVENTS     "Phát âm thanh sự kiện"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "Bạn chưa kết nối đến Mạng lưới Kad!"
+    IDS_IRC_NOSFS           "Không có Tập tin chia sẻ được chọn"
+    IDS_RESETLABEL          "Tự động hoàn tất (chức năng lược sử)"
+    IDS_IRC_IGNOREMISCMESSAGE "Bỏ qua Thông điệp Linh tinh"
+    IDS_KNOWN               "Đã biết"
+    IDS_RAU_RUNNING         "eMule đang chạy bằng người dùng không có quyền ""%s"""
+    IDS_RAU_FAILED          "Không thể chạy eMule bằng người dùng không có quyền ""eMule_Secure"". Đang giữ quyền của người dùng hiện tại (""%s"")."
+    IDS_KADCONTACTSREAD     "Đã đọc được %u nút từ tập tin."
+    IDS_ERR_KADCONTACTS     "Không có nút nào được tìm thấy, vui lòng bootstrap, hoặc tải một tập tin nodes.dat."
+    IDS_METATAGS            "Tổng các Thẻ Meta:"
+    IDS_FILEFORMAT          "Định dạng"
+    IDS_UDPREASKS           "Yêu cầu lại tập tin UDP"
+    IDS_DYNUP_PINGTOLERANCE_MS "Cố gắng PING (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER "Phương pháp cố gắng PING"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS "Milli giây (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT "Phần trăm (%)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "Cố gắng tải xuống các mảnh để xem thử trước"
+    IDS_RECOVER_SINGLE      "Phục hồi Tập tin lưu trữ: 1 tập tin được phục hồi."
+    IDS_RECOVER_MULTIPLE    "Phục hồi Tập tin lưu trữ: %u tập tin được phục hồi."
+    IDS_ATTEMPTING_RECOVERY "Phục hồi Tập tin lưu trữ: Bắt đầu"
+    IDS_RECOVERY_SUCCESSFUL "Phục hồi Tập tin lưu trữ: Thành công"
+    IDS_RECOVERY_FAILED     "Phục hồi Tập tin lưu trữ: Thất bại"
+    IDS_STARTNEXTFILE       "Bắt đầu tập tin tạm dừng tiếp theo khi một tập tin hoàn tất"
+    IDS_FULLCHUNKTRANS      "Cố gắng truyền tải các mảnh đầy đủ tới tất cả tải lên"
+    IDS_MANUALSERVERHIGHPRIO "Đặt các máy chủ tự thêm vào ở mức ưu tiên cao"
+    IDS_VERBOSE             "Verbose (Phản hồi nâng cao từ chương trình)"
+    IDS_FLAT                "phẳng"
+    IDS_ROUND               "nổi"
+    IDS_SAMEUSERHASH        "Máy khách '%s' và '%s' có cùng mã hash hay IP - đã loại bỏ '%s'"
+    IDS_SEARCHEXTENTION     "Đuôi mở rộng"
+    IDS_SEARCHAVAIL         "Nguồn có giá trị"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDLIMIT           "Giới hạn cứng"
+    IDS_COL_MORECOLORS      "khác..."
+    IDS_TOOMANYCONNS        "Quá nhiều Kết nối"
+    IDS_DOWNLOADRENAMED     "Tập tin với tên này đã tồn tại, tập tin này đã được lưu với tên %s"
+    IDS_TBN_DOWNLOADDONE    "Đã tải xuống:"
+    IDS_PW_TBN_USESOUND     "Phát ra âm thanh"
+    IDS_PW_TBN_ONLOG        "Dòng bản ghi mới thêm vào"
+    IDS_PW_TBN_ONCHAT       "Phiên tán gẫu bắt đầu"
+    IDS_PW_TBN_POP_ALWAYS   "Nhận được Thông điệp Tán gẫu"
+    IDS_PW_TBN_ONDOWNLOAD   "Tải xuống xong"
+    IDS_PW_EKDEV_OPTIONS    "Thông Báo"
+    IDS_PW_TASKBARNOTIFIER  "Thông điệp thông báo"
+    IDS_PW_TBN_OPTIONS      "Xuất hiện cửa sổ mới khi"
+    IDS_TBN_NEWCHATMSG      "Thông điệp từ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_CON_CAPFRM       "Băng thông"
+    IDS_IRC_PRIVATECHANSTART "* Phiên tán gẫu riêng bắt đầu"
+    IDS_IRC_SLAPMSG         "* %s vỗ tay %s xung quanh đám đông ồn ào!"
+    IDS_IRC_PRIVMESSAGE     "Thông điệp riêng"
+    IDS_WEB_REMOTE_LINK_ADDED "Liên kết đã thêm vào: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "Liên kết không thêm vào. Sai mật mã."
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "Tải về những phần cần để xem thử trước"
+    IDS_IRC_KICK            "Đá ra"
+    IDS_IRC_SLAP            "Vỗ tay"
+    IDS_IRC_JOIN            "Gia nhập"
+    IDS_IRC_CHANNELLIST     "Danh sách Kênh"
+    IDS_IRC_CONNECT         "Kết nối"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FO_PREF_EXISTED     "eMule phát hiện đã có quy tắc cho cổng này, không thể đè lên hay thay thế. Quy tắc thất lạc này đã được thêm vào thành công.\nTường lửa và bộ định tuyến không bị ảnh hưởng bởi điều này!"
+    IDS_FO_PREF_FAILED      "Không thể cấu hình tường lửa WinXP cho các cổng được chọn!"
+    IDS_FO_PREF_STARTUP     "Mở/đóng cổng trên tường lửa WinXP khi mở/tắt eMule"
+    IDS_LOG_LEVEL           "Mức Bản ghi"
+    IDS_NEWMSG              "Tin nhắn mới từ '%s' (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "Chỉ các Tập tin cùng Danh mục"
+    IDS_LOG_ULDL_EVENTS     "Ghi lại sự kiện tải lên/xuống"
+    IDS_PEERCACHE_ENABLED   "Nhà cung cấp Mạng của bạn hỗ trợ công nghệ PeerCache, kích hoạt tải về từ bộ nhớ truy xuất nhanh - cache!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "Cho phép người dùng thêm bạn là Bạn bè."
+    IDS_SOURCESWAPBLOCKED   "Trao đổi bị khóa"
+    IDS_TRICKLING           "Đang đợi"
+    IDS_A4AF_CHECK_THIS_NOW "Kiểm tra nguồn này bây giờ (gỡ rối)"
+    IDS_STATS_FRATIO        "Tỉ lệ Lên:Xng trong phiên này (bỏ qua bạn bè):"
+    IDS_STATS_UDATA_FRIENDS "Dữ liệu tải lên cho Bạn bè: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_DISCONNECT      "Ngắt kết nối"
+    IDS_IRC_HASJOINED       "* %s đã gia nhập %s"
+    IDS_IRC_HASPARTED       "* %s đã đứt kết nối %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s bị đá ra bởi %s (%s)"
+    IDS_DOWNLOAD_ALPHABETICAL "Tải về theo thứ tự chữ cái"
+    IDS_IRC_HASQUIT         "* %s đã thoát (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s đổi biệt danh thành %s"
+    IDS_IRC_SETSMODE        "* %s đặt chế độ: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** Một số chế độ chưa được hỗ trợ. Bạn nên thoát và vào lại Kênh để cập nhật danh sách Biệt danh.."
+    IDS_IRC_CHANNEL         "Kênh"
+    IDS_IRC_NICK            "Biệt danh"
+    IDS_IRC_SEND            "Gởi"
+    IDS_IRC_NAME            "Tên"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION vỗ tay %s xung quanh đám đông ồn ào!\001"
+    IDS_IRC_ADDTIMESTAMP    "Thêm thời gian vào thông điệp"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_USEFILTER       "Sử dụng bộ lọc danh sách Kênh"
+    IDS_IRC_PERFORM         "Thực hiện lệnh"
+    IDS_IRC_USEPERFORM      "Thực hiện lệnh này khi kết nối"
+    IDS_IRC_ADDTOFRIENDLIST "Thêm vào Danh sách Bạn bè"
+    IDS_IRC_LOADCHANNELLISTONCON "Nạp danh sách Kênh khi kết nối"
+    IDS_IRC_ADDASFRIEND     "đã thêm bạn như là Bạn bè!"
+    IDS_PW_WARNING          "Con số bạn chọn cho ""%s"" lớn hơn hỗ trợ của HĐH:  %u\nĐiều này làm cho hệ thống của bạn không ổn định.\n\nBạn có chắc chắn muốn làm điều này không?"
+    IDS_TAKEOVER            "Tiếp tục"
+    IDS_CLEANUP             "Làm sạch"
+    IDS_RENAME              "Đổi tên"
+    IDS_IRC_ADDLINKTOIRC    "Thêm vào Bảng ghi tạm IRC Clipboard"
+    IDS_IRC_SENDLINK        "Gởi cho Bạn bè: "
+    IDS_IRC_RECIEVEDLINK    "%s đã gởi (%s) đang được tự động bắt đầu."
+    IDS_IRC_ACCEPTLINKS     "Chấp nhận Liên kết eD2K trong IRC (Sử dụng thận trọng!)"
+    IDS_SHARED              "Đã chia sẻ"
+    IDS_DOWNLOADED          "Đã tải xuống"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCENAMES         "Tên Nguồn"
+    IDS_PREF_STARTMIN       "Thu nhỏ khi Khởi động"
+    IDS_PS_TBN_IMPORTANT    "Khẩn: hết ổ cứng, kết nối đến máy chủ không được"
+    IDS_COLORS              "Màu sắc"
+    IDS_SP_BACKGROUND       "Nền"
+    IDS_SP_GRID             "Đường kẻ ô"
+    IDS_SP_DL1              "Tải xuống Hiện tại"
+    IDS_SP_DL2              "Tải xuống Trung bình"
+    IDS_SP_DL3              "Phiên Tải xuống Trung bình"
+    IDS_SP_UL1              "Tải lên Hiện tại"
+    IDS_SP_UL2              "Tải lên Trung bình"
+    IDS_SP_UL3              "Phiên Tải lên Trung bình"
+    IDS_SP_ACTCON           "Các Kết nối Hoạt động"
+    IDS_SP_ACTDL            "Các Tải xuống Hoạt động"
+    IDS_SP_ACTUL            "Các Tải lên Hoạt động"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "Không giới hạn"
+    IDS_PW_MINREC           "Khuyến khích tối thiểu\t%u "
+    IDS_PW_UA               "Đặt Tốc độ Lên/Xng cao nhất"
+    IDS_PW_PA               "Đặt Tốc độ Lên/Xng thấp nhất"
+    IDS_IRC_IGNOREINFOMESSAGE "Bỏ qua Các thông điệp thông tin"
+    IDS_CONNECTIONLOST      "Mất kết nối"
+    IDS_WIZ_OS_FRAME        "Hệ điều hành"
+    IDS_HASHINGFILE         "Đang lấy mã Hash tập tin:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "Băng thông tải lên thực sự"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "Băng thông thực tải xuống thực sự"
+    IDS_FRIENDLIST          "Bạn bè"
+    IDS_CHATDISCONNECTED    "*** Ngắt kết nối"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZARD              "ThiếtLậpNhanh"
+    IDS_ADDFRIEND           "&Thêm vào dsách bạn bè"
+    IDS_REMOVEFRIEND        "Loại bỏ"
+    IDS_REMOVEFROMSTATIC    "Loại bỏ trong danh dách tĩnh"
+    IDS_LENGTH              "Dài"
+    IDS_VIDEO               "Video" //!
+    IDS_AUDIO               "Âm Thanh"
+    IDS_FILEINFO            "Thông tin"
+    IDS_CODEC               "Mã"
+    IDS_BITRATE             "Tỷ lệ bit"
+    IDS_WIDTH               "Ch.Dài"
+    IDS_FPS                 "Khung/s"
+    IDS_CHANNELS            "Kênh"
+    IDS_SAMPLERATE          "Tỷ lệ mẫu"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HEIGHT              "Ch.Rộng"
+    IDS_SHAREDFILES_FAILED  "Không thể lấy tập tin chia sẻ từ '%s'"
+    IDS_SHAREDFILES_REQUEST "Đang yêu cầu tập tin chia sẻ từ '%s'"
+    IDS_VIEWFILES           "&Xem Tập tin Chia sẻ"
+    IDS_FRIENDSLOT          "Thiết lập phiên Bạn bè"
+    IDS_FRIENDDETAIL        "(Phiên Bạn bè)"
+    IDS_UDPDISABLED         "Không dùng"
+    IDS_WIZ_CTFRAME         "Loại kết nối"
+    IDS_CONCURDWL           "Các tác vụ tải xuống đồng thời"
+    IDS_WIZARD_CUSTOM       "Tùy chỉnh"
+    IDS_WIZARD_ENTERBELOW   "(bên dưới)"
+    IDS_STATS_MAXAVGDL      "Tỉ lên tải xuống trung bình cao nhất: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MAXDL         "Tỉ lên tải xuống cao nhất: %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "Bỏ qua thông điệp thêm Bạn bè mới"
+    IDS_PW_FASTSRVCON       "Kết nối an toàn"
+    IDS_SOURCELINKFAILED    "Bạn cần một HighID để tạo một liên kết nguồn hợp lệ"
+    IDS_ERR_LOADSERVERMET   "Không thể nạp server.met!"
+    IDS_ERR_CORRUPTCOMPRPKG "Gói nén bị hư cho %s nhận được (lỗi %u)"
+    IDS_ERR_EMFRIENDSINVALID
+                            "Tập tin 'emfriends.met' không đúng hay bị hư!"
+    IDS_ERR_READEMFRIENDS   "Lỗi không xác định khi đọc emfriends.met: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "Nhận được thông tin máy chủ không xác định!"
+    IDS_WIZ_DOWN            "Xuống (kBit/s)"
+    IDS_WIZ_UP              "Lên (kBit/s)"
+    IDS_SELECT_INCOMINGDIR  "Chọn Thư mục Tải xuống"
+    IDS_SELECT_TEMPDIR      "Chọn Thư mục Tạm"
+    IDS_PRIOAUTO            "Tư động"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOAUTONORMAL      "Tư động [Thường]"
+    IDS_PRIOAUTOHIGH        "Tư động [Cao]"
+    IDS_PRIOAUTORELEASE     "Tư động [Thả]"
+    IDS_PRIOAUTOLOW         "Tư động [Thấp]"
+    IDS_ERR_CONTIMEOUT      "Cố gắng kết nối đến ""%s"" (%s:%u) hết thời gian"
+    IDS_OUTOFSERVERS        "Không thể kết nối đến tất các máy chủ trong danh sách. Đang thử lại."
+    IDS_PW_CONLIMITS        "Giới hạn Kết nối"
+    IDS_MAXCON5SECLABEL     "Kết nối mới tối đa / 5giây."
+    IDS_PW_UAP              "Thêm tập tin chia sẻ mới ở mức ưu tiên tự động"
+    IDS_MAXCLIENT           "Người dùng Tối đa"
+    IDS_PW_TWEAK            "Mở Rộng"
+    IDS_TWEAKS_WARNING      "Cảnh báo: Đừng thay đổi các thiết lập này nếu bạn không biết bạn đang đang làm gì. Nếu không bạn có thể làm mọi thứ tồi tệ cho chính bạn. eMule sẽ chạy tốt, không cần chỉnh sửa bất kỳ thiết lập nào bên dưới."
+    IDS_ADDAFRIEND          "Thêm..."
+    IDS_PAF_REQINFO         "Thông tin Đòi hỏi"
+    IDS_PAF_MOREINFO        "Thông tin Thêm vào"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "Bạn phải nhập vào IP và Cổng hợp lệ!"
+    IDS_ADD                 "Thêm"
+    IDS_RECOVERED_PARTMET   "Phục hồi tập tin part.met: %s"
+    IDS_CMT_QUEST           "Chú thích tập tin này! (Chú thích sẽ hiển thị cho tất cả người dùng)"
+    IDS_CMT_AIDE            "Đối với phim ảnh, bạn có thể cho biết độ dài, cốt truyện, ngôn ngữ... Và nếu đây là thông tin giả, bạn có thể nói cho người dùng eMule khác biết..."
+    IDS_CMT_ADD             "Chú Thích..."
+    IDS_CMT_NONE            "Không có Chú thích"
+    IDS_CMT_READ            "Chú thích Tập tin:"
+    IDS_CMT_SHOWALL         "Ghi chú..."
+    IDS_CMT_READALL         "Chú thích"
+    IDS_CMT_RATEQUEST       "Chất lượng Tập tin"
+    IDS_CMT_RATEHELP        "Chọn đánh giá tập tin hay cho người dùng biết là tập tin không hợp lệ!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_FAKE            "Kg hợp lệ / Hư hỏng / Giả"
+    IDS_CMT_POOR            "Kém"
+    IDS_CMT_GOOD            "Tốt"
+    IDS_CMT_FAIR            "Khá"
+    IDS_CMT_EXCELLENT       "Xuất sắc"
+    IDS_CMT_NOTRATED        "Không đánh giá"
+    IDS_KILO                "k" //!
+    IDS_MEGA                "M" //!
+    IDS_GIGA                "G" //!
+    IDS_TERA                "T" //!
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "Bỏ qua Thông điệp thông tin"
+    IDS_SMARTLOWIDCHECK     "Sử dụng chức năng kiểm tra LowID thông minh khi kết nối"
+    IDS_SF_SRVOCC           "Chiếm giữ máy chủ: %.2f%%"
+    IDS_3DDEP               "Kiểu của Thanh tiến trình"
+    IDS_AUTOTAKEED2KLINKS   "Tự động lấy liên kiết eD2K chỉ trong quá trình chạy eMule."
+    IDS_ADDNEWFILESPAUSED   "Thêm tập tin tải xuống ở chế độ tạp dừng"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOHELP          "Vui lòng truy cập trang Tải Xuống của eMule để lấy tập tin Trợ Giúp mới nhất!\n\nBạn có muốn truy cập Trợ Giúp trực tuyến bây giờ không?"
+    IDS_SHOWOVERHEAD        "Hiển thị lượng băng thông đã sử dụng"
+    IDS_UPDOWNSMALL         "Lên: %.1f | Xuống: %.1f"
+    IDS_EDITLIST            "DSách..."
+    IDS_SP_ICONBAR          "Thanh tốc độ ở Khay hệ thống"
+    IDS_RATINGRECV          "Nhận được Đánh giá cho tập tin '%s': %u"
+    IDS_DESCRIPTIONRECV     "Nhận được Ghi chú cho tập tin '%s': %s"
+    IDS_WEBSERVICES         "&Dịch vụ Web"
+    IDS_WEBSVEDIT           "Chỉnh sửa Dịch-vụ-Web..."
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "Bỏ qua Thông điệp gởi Liên kết"
+    IDS_CHECK4UPDATE        "Kiểm tra Phiên bản mới"
+    IDS_STARTUP             "Khởi động"
+    IDS_NEWVERSIONAVL       "Đã có Phiên bản eMule mới! Truy cập trang chủ eMule để biết thêm thông tin."
+    IDS_NEWVERSIONAVLPOPUP  "Đã có Phiên bản eMule mới! Nhấn vào đây để xem chi tiết!"
+    IDS_NEWVERSIONFAILED    "Không thể kiểm tra phiên bản mới"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "Đã có Phiên bản eMule mới"
+    IDS_NONEWERVERSION      "Không có phiên bản eMule mới."
+    IDS_VERSIONCHECK        "&Kiểm tra Phiên bản"
+    IDS_VISITVERSIONCHECK   "\n\nBạn có muốn truy cập trang thông tin Phiên bản bây giờ không?"
+    IDS_PW_VIDEOPLAYER      "Chương trình xem Video"
+    IDS_VIDEOBACKUP         "Tạo bản sao cho xem thử"
+    IDS_MYINFO              "Thông tin"
+    IDS_ID                  "ID" //!
+    IDS_IDLOW               "IDThấp"
+    IDS_IDHIGH              "IDCao"
+    IDS_UPSTATUS            "Các phần thu được"
+    IDS_TOVERHEAD           "Tổng phần dư (Các gói): %s (%s)"
+    IDS_FROVERHEAD          "Phần dư tập tin yêu cầu (Các gói): %s (%s)"
+    IDS_SSOVERHEAD          "Phần dư trao đổi nguồn (Các gói): %s (%s)"
+    IDS_SOVERHEAD           "Phần dư qua Máy chủ (Các gói): %s (%s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "Thêm các liên kết eD2K này vào Tác vụ?\n"
+    IDS_PF_WATCHCB          "Tìm trong bảng ghi tạm - clipboard các liên kết tập tin eD2K"
+    IDS_SECURITY            "Bảo mật"
+    IDS_IPFILTERLOADED      "Đã nạp %u bộ lọc IP"
+    IDS_IPFILTER            "Bộ Lọc IP"
+    IDS_EDIT                "Sửa..."
+    IDS_FILTERLEVEL         "Độ lọc"
+    IDS_FILTERSERVERBYIPFILTER "Cũng lọc Máy chủ"
+    IDS_FILTERCOMMENTSLABEL "Bỏ qua chú thích có chứa: (cách nhau bởi | )"
+    IDS_CLIENTLIST          "DSách Máy khách"
+    IDS_FOLDER              "Thư mục"
+    IDS_CL_UPLOADSTATUS     "Trạng thái Tải lên"
+    IDS_CL_TRANSFUP         "Đã tải Lên"
+    IDS_CL_DOWNLSTATUS      "Trạng thái Tải xuống"
+    IDS_CL_TRANSFDOWN       "Đã tải Xuống"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CL_PENDING          "Đang treo"
+    IDS_CL_LOW2LOW          "IPThấp tới IPThấp"
+    IDS_ERROR               "Lỗi"
+    IDS_OPENINC             "&Mở thư mục Tải xuống"
+    IDS_HOTMENU             "Bảng chọn nóng"
+    IDS_DISABLEKNOWNLIST    "Không hiển thị danh sách Máy khách"
+    IDS_DISABLEQUEUELIST    "Không hiển thị danh sách Hàng đợi"
+    IDS_USECREDITSYSTEM     "Sử dụng Hệ thống TínNhiệm - Credit System"
+    IDS_FIRSTAUTODOWN       "Kích hoạt tùy chọn này nếu bạn muốn eMule quản lý độ ưu tiên tải xuống.\n\nBật tùy chọn này lên sẽ cho phép eMule làm cho tác vụ có nhiều nguồn không ảnh hưởng đến tác vụ có ít nguồn. Tùy chọn này chỉ có hiệu lực đến các tải xuống sau này."
+    IDS_FIRSTAUTOUP         "Kích hoạt tùy chọn này nếu bạn muốn eMule quản lý độ ưu tiên tải lên.\n\nBật tùy chọn này lên sẽ cho phép eMule nâng các tập tin ít được biết đến lên, các tập tin phổ biến sẽ khó lấy hơn. Tắt tùy chọn này sẽ cho phép eMule tải lên các tập tin phổ biến thường hơn, các tập tin ít biết đến sẽ khó lấy hơn. Tùy chọn này chỉ có hiệu lực với các tập tin chia sẻ sau này."
+    IDS_FIRSTSAFECON        "Kích hoạt tùy chọn này nếu bạn muốn eMule kết nối sử dụng Kết Nối An Toàn.\n\nTắt chức năng này cho phép eMule kết nối đến máy chủ nhanh hơn một chút, nhưng có thể làm cho bạn gặp nhiều lỗi kết nối đến LowID hơn."
+    IDS_FIRSTAUTOCON        "eMule sẽ tự động kết nối khi khởi động."
+    IDS_FIRSTCOMPLETE       "Bạn đã hoàn tất Thiết-Lập-Nhanh.\n\nTất cả các thiết lập có thể được thay đổi trong cửa sổ Tùy Chọn. Nhấn F1 trong của sổ eMule để được giải thích và hỗ trợ!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENTERUSERNAME       "Vui lòng nhập vào biệt danh của bạn:"
+    IDS_STATIC_CPUMEM       "Tiết kiệm CPU && Bộ nhớ"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "Từ khóa quá ngắn.\r\n\r\nTừ khóa sử dụng trong Tìm kiếm Kad phải có độ dài ít nhất là 3 ký tự."
+    IDS_LOG2DISK            "Lưu Bản ghi vào đĩa"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "Đã có một luồng tìm kiếm Kad đang thực hiện cho từ khóa ""%s"".\r\n\r\nĐể tìm từ khóa này lần nữa, đợi cho thực hiện xong hay là đóng tìm kiếm đang thực hiện."
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "Từ khóa không hợp lệ.\r\n\r\nBiểu thức tìm kiếm Kad phải có định dạng sau:\r\n\r\n\t<kad-keyword> [ <ed2k-search-expression> ]\r\n\r\n<kad-keyword> không được phép chứa các kự tự sau:\r\n\r\n\t%s"
+    IDS_EDITCAT             "Sửa ThuộcTính-DanhMục"
+    IDS_PW_WS               "Giao Diện Web"
+    IDS_ENABLED             "Kích hoạt"
+    IDS_WEB_LOGIN           "Đăng Nhập"
+    IDS_WEB_ENTER_PASSWORD  "Nhập vào mật mã"
+    IDS_WEB_LOGIN_NOW       "Đăng nhập"
+    IDS_WEB_CONFIRM_REMOVE_SERVER
+                            "Bạn có chắc chắn xóa máy chủ này từ danh sách không?"
+    IDS_WEB_CONTROL         "Giao Diện Web"
+    IDS_WEB_LOGOUT          "Thoát"
+    IDS_WEB_ACTIONS         "Các hoạt động"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "Hiển thị Hàng đợi"
+    IDS_WEB_GZIP_COMPRESSION "Nén Gzip"
+    IDS_WEB_GZIP_COMMENT    "Tiết kiệm lưu lượng, đặc biệt trong hiển thị biểu đồ."
+    IDS_WEB_REFRESH_TIME    "Thời gian nạp lại (refresh) của các trang Web"
+    IDS_WEB_REFRESH_COMMENT "Thời gian tính bằng giây (0=không kích hoạt):"
+    IDS_SV_URL              "URL" //!
+    IDS_WS_RELOAD_TMPL      "Mẫu"
+    IDS_SV_DEBUGLOG         "Gỡ rối"
+    IDS_WS_PASS             "Mật mã"
+    IDS_WS_ERR_LOADTEMPLATE "Không thể nạp mẫu: thay thế tập tin %s bằng một phiên bản mới hơn!"
+    IDS_WEB_CONLIMITS       "Giới hạn Kết nối"
+    IDS_INFLST_USER_TOTALDOWNLOAD "Tải xuống tổng cộng"
+    IDS_INFLST_USER_TOTALUPLOAD "Tải lên tổng cộng"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "Giao diện Web: Cố gắng kết nối thất bại"
+    IDS_ERR_TOOLARGEFILE    "Tập tin lớn hơn kích thước hỗ trợ của eMule (>=4GB)"
+    IDS_MSGONLYFRIENDS      "Chỉ chấp nhận từ Bạn bè"
+    IDS_DAY_MO_SA           "Hai-Bảy"
+    IDS_LIMITSOURCES        "Nguồn giới hạn"
+    IDS_LIMITCONS5SEC       "Kết nối hạn chế/5giây"
+    IDS_SCHED_CATSTOP       "DMục:Dừng tải xuống"
+    IDS_SCHED_CATRESUME     "DMục:Tiếp tục tải xuống"
+    IDS_S_DAYS              "Ngày"
+    IDS_STARTTIME           "Bắt đầu"
+    IDS_VALUE               "Giá trị"
+    IDS_SCHED_ENTERDATARATELIMIT "Nhập vào giới hạn tỉ lệ dữ liệu:"
+    IDS_SCHED_ENTERVAL      "Vui lòng nhập vào giá trị mới:"
+    IDS_SCHED_ACTCONFIG     "Hoạt động cấu hình"
+    IDS_SELECTCAT           "Chọn danh mục"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALLUNASSIGNED       "Tất cả chưa phân loại"
+    IDS_ACTSESSIONS         "Phiên hoạt động"
+    IDS_WEBSRV              "Giao Diện Web"
+    IDS_SW_REFETCHRES       "Lấy lại Kết quả"
+    IDS_FILEHASH            "Mã hash Tập tin"
+    IDS_PW_PROXY            "Proxy" //!
+    IDS_PROXY_ENABLE        "Kích hoạt proxy"
+    IDS_PROXY_TYPE          "Loại Proxy:"
+    IDS_PROXY_HOST          "Máy chủ Proxy:"
+    IDS_PROXY_PORT          "Cổng Proxy:"
+    IDS_PROXY_AUTH          "Kích hoạt xác nhận"
+    IDS_AUTH                "Xác nhận Quyền"
+    IDS_SHOWCATINFO         "Hiển thị thông tin tác vụ trên thẻ Danh mục"
+    IDS_SW_SEARCHINGINFO    "Đang tìm kiếm. Sẽ trả về kết quả trong một chút nữa!"
+    IDS_LOGENTRY            "Bản Ghi"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "Sao chép"
+    IDS_SELECTALL           "Chọn Tất cả"
+    IDS_AUTOSCROLL          "Tự động Cuộn"
+    IDS_WIZ1_WELCOME_TITLE  "Chào mừng bạn đến với eMule"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "Bảng Thiết Lập Nhanh sẽ hướng dẫn bạn suốt quá trình thiết lập lần đầu cấu hình eMule."
+    IDS_WIZ1_WELCOME_BTN_HINT "Để tiếp tục, nhấn Next."
+    IDS_WIZ1_END_TITLE      "Hoàn tất Thiết Lập Nhanh"
+    IDS_WIZ1                "eMule Thiết-Lập-Nhanh"
+    IDS_WIZ1_END_BTN_HINT   "Để đóng bảng Thiết-Lập-Nhanh này, nhấn Finish."
+    IDS_WIZ1_UPLOAD_SUBTITLE "Truyền tải Mảnh đầy đủ"
+    IDS_DL_RESUMENEXT       "Tải xuống tập tin tạm dừng kế tiếp"
+    IDS_STARTPRIO           "Mức ưu tiên cho Danh mục này"
+    IDS_PREF_STARTNEXTFILECAT "Ưu tiên các tập tin cùng Danh mục"
+    IDS_SOFTFILES           "Giới hạn tập tin mềm"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDFILES           "Giới hạn tập tin cứng"
+    IDS_FILTER              "Lọc"
+    IDS_LINKS               "Liên kết"
+    IDS_HM_SCHED_ON         "Bật Thời gian biểu"
+    IDS_HM_SCHED_OFF        "Tắt Thời gian biểu"
+    IDS_HM_LINKHP           "Trang chủ eMule"
+    IDS_HM_LINKFAQ          "Câu hỏi thường gặp eMule"
+    IDS_HM_LINKVC           "Kiểm tra phiên bản eMule"
+    IDS_DEBUG_SOURCE_EXCHANGE
+                            "Ghi lại Trao đổi nguồn máy khách và Yêu cầu/trả lời máy chủ"
+    IDS_SHAREDREQ1          "Người dùng %s (%u) yêu cầu danh sách thư mục chia sẻ của bạn -> %s"
+    IDS_SHAREDREQ2          "Người dùng %s (%u) yêu cầu danh sách tập tin chia sẻ của bạn cho thư mục '%s' -> %s"
+    IDS_SHAREDANSW          "Người dùng %s (%u) chia sẻ các thư mục '%s'"
+    IDS_SHAREDANSW2         "Người dùng %s (%u) gởi danh sách thư mục chia sẻ không yêu cầu - đã bỏ qua"
+    IDS_SHAREDINFO1         "Người dùng %s (%u) gởi danh sách tập tin chia sẻ cho thư mục '%s'"
+    IDS_SHAREDINFO2         "Người dùng %s (%u) hoàn tất gởi danh sách các tập tin chia sẻ"
+    IDS_SHAREDANSW3         "Người dùng %s (%u) gởi danh sách tập tin chia sẻ không yêu cầu cho thư mục '%s' - đã bỏ qua"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDREQDENIED     "Người dùng %s (%u) từ chối truy xuất danh sách thư mục và tập tin chia sẻ"
+    IDS_AUTOCLEANUPFN       "Tự động làm gọn tên tập tin của Tác vụ mới"
+    IDS_ONNEWDOWNLOAD       "Khởi tạo"
+    IDS_FILTERFILENAMEWORD  "Nhập các từ để lọc, cách nhau bởi |"
+    IDS_FNFILTERTITLE       "Chỉnh sửa Bộ lọc tên tập tin để làm gọn"
+    IDS_CHANGECATVIEW       "Chọn Bộ lọc Khung nhìn"
+    IDS_STATUS_NOTCOMPLETED "Chưa xong"
+    IDS_STATS_CUMULATIVE    "Tích luỹ"
+    IDS_STATS_OVRHD         "Phần dư"
+    IDS_STATS_RECORDS       "Kỷ lục"
+    IDS_STATS_COMPDL        "Đã tải xuống xong"
+    IDS_STATS_SVRECWORKING  "Máy chủ hoạt động cao nhất"
+    IDS_STATS_SVRECUSERS    "Người dùng trực tuyến tối đa"
+    IDS_SEARCH_TEXT         "Tìm kiếm"
+    IDS_STATS_SVRECFILES    "Tập tin có giá trị tối đa"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SHRECNUM      "Tổng cao nhất các tập tin từng chia sẻ"
+    IDS_SEARCH_COLUMN       "Tìm theo cột"
+    IDS_STATS_SHRECSIZE     "Kích thước chia sẻ lớn nhất"
+    IDS_STATS_SHRECASIZE    "Kích thước tập tin trung bình lớn nhất"
+    IDS_STATS_SESSION       "Phiên làm việc"
+    IDS_STATS_SRATIO        "Tỉ lệ Lên:Xng trong phiên này:"
+    IDS_STATS_CRATIO        "Tỉ lệ Lên:Xng tích luỹ:"
+    IDS_SEARCH_NORESULT     "Không tìm thấy."
+    IDS_STATS_CURRSRVDUR    "Thời gian máy chủ hiện tại"
+    IDS_LONGSECS            "Giây"
+    IDS_STATS_DLSES         "Các phiên tải xuống"
+    IDS_LONGMINS            "Phút"
+    IDS_STATS_SDLSES        "Các phiên tải xuống thành công"
+    IDS_STATS_FDLSES        "Các phiên tải xuống thất bại"
+    IDS_STATS_AVGDATADLSES  "Lượng tải xuống trung bình / phiên"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ULSES         "Các phiên tải lên"
+    IDS_STATS_GAINCOMP      "Tăng lên vì nén: %s"
+    IDS_STATS_LOSTCORRUPT   "Mất vì sai lạc: %s"
+    IDS_STATS_AVGDATAULSES  "Lượng tải lên trung bình / phiên"
+    IDS_STATS_ICHSAVED      "Các phần đã lưu vì I.C.H: %u"
+    IDS_STATS_MBRESET_TXT   "Bạn có chắc chắn muốn xác lập lại Thống kê tích lũy của bạn không?\n\nNếu bạn thay đổi quyết định, bạn có thể quay lại bằng cách nhấn vào nút 'Phục hồi Thống kê'."
+    IDS_STATS_MBRESTORE_TXT "Bạn có chắc chắn khôi phục lại Thống kê tích lũy từ tập tin sao lưu không?\n\nNhấn vào 'Phục hồi Thống Kê' lần nữa sẽ nạp lai thống kê hiện tại của bạn."
+    IDS_ERR_NOSTATBKUP      "Lỗi: Tập tin thống kê sao lưu không tìm thấy..."
+    IDS_STATS_NFOLOADEDBKUP "Đã nạp dữ liệu thống kê sao lưu..."
+    IDS_STATS_NFORESET      "Thống kê đã được xác lập lại - reset!"
+    IDS_STATS_BNRESET       "Xác lập lại Thống kê"
+    IDS_STATS_BNRESTORE     "Phục hồi Thống kê"
+    IDS_PPGSTATS_YSCALE     "Thống kê Kết nối - Tỷ lệ Trục đứng(Y):"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "Tỉ lệ Kết nối Hoạt động:"
+    IDS_STATS_PROBLEMATIC   "Có vấn đề"
+    IDS_LONGHRS             "Giờ"
+    IDS_STATS_LARGESTFILE   "Tập tin chia sẻ lớn nhất"
+    IDS_SPLIT_WINDOW        "Tách Cửa sổ"
+    IDS_STATS_DSPF          "Tập tin chưa hoàn tất"
+    IDS_STATS_DATASOURCE    "Nguồn dữ liệu"
+    IDS_STATS_DSFILE        "Tập tin hoàn tất"
+    IDS_STATS_GENERAL       "Tổng quát"
+    IDS_STATS_TRANSTIME     "Thời gian truyền tải"
+    IDS_STATS_DOWNTIME      "Thời gian tải xuống"
+    IDS_STATS_UPTIME        "Thời gian tải lên"
+    IDS_STATS_TOTALSRVDUR   "Tổng thời gian máy chủ"
+    IDS_STATS_MAXAVGUL      "Tỉ lên tải lên cao nhất trung bình"
+    IDS_STATS_MAXUL         "Tỉ lệ tải lên cao nhất"
+    IDS_STATS_AVGDLTIME     "Thời gian Tải xuống Trung bình"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_PRTDEF        "Mặc định"
+    IDS_STATS_PRTOTHER      "Khác"
+    IDS_STATS_MNUTREETITLE  "Cây thống kê"
+    IDS_STATS_MNUTREECPYSEL "Chép Nhánh đang chọn"
+    IDS_STATS_MNUTREECPYALL "Chép tất cả Thống kê"
+    IDS_STATS_MNUTREEHTML   "Tính năng HTML"
+    IDS_STATS_EXPORT2HTML   "Xuất Thống kê ra tập tin..."
+    IDS_CONDTCPACCEPT       "Từ chối Kết nối nhanh"
+    IDS_STATS_MNUTREECPYVIS "Chép tất cả Thông tin nhìn thấy"
+    IDS_STATS_MNUTREEEXPANDALL "Mở rộng Tất cả"
+    IDS_STATS_MNUTREECOLLAPSEALL "Thu hẹp Tất cả"
+    IDS_STATS_MNUTREEEXPANDMAIN "Mở rộng các nhánh chính"
+    IDS_STATS_LASTRESETSTATIC "Thống kê lần xác lập lại trước: %s"
+    IDS_STATS_MONTHLY       "Hàng tháng"
+    IDS_STATS_YEARLY        "Hàng năm"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHUTDOWNSYSTEM  "Tắt máy tính"
+    IDS_WEB_ADMINMENU       "BảngChọn QuảnLý"
+    IDS_WEB_MAIN_CLOSE      "Bạn có thực sự muốn thoát khỏi eMule không?"
+    IDS_WEB_MAIN_REBOOT     "Bạn có thực sự muốn khởi động lại máy tính không?"
+    IDS_WEB_MAIN_SHUTDOWN   "Bạn có thực sự muốn tắt máy không?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "Hiển thị máy khách bị cấm trong hàng đợi"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "Hiển thị bạn bè trong hàng đợi"
+    IDS_WEB_SESSIONTIMEOUT  "Phiên hết hiệu lực trong"
+    IDS_WEB_ALLOWHILEVFUNC  "Cho phép thoát eMule, khởi động lại và tắt máy"
+    IDS_SETPFSLIMIT         "Giới hạn nguồn..."
+    IDS_SETPFSLIMITEXPLAINED
+                            "Vui lòng nhập vào giới hạn nguồn mới cho các tập tin đã chọn ! \n(nhập vào 0 để sử dụng thiết lập chung)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "Bạn có muốn thư mục tải xuống của Danh mục được cập nhật đến vị trí mới không? (bao gồm thư mục tải xuống cũ)"
+    IDS_USESPEECH           "Đọc thông điệp thông báo"
+    IDS_ERR_FAILEDTOLOAD    "Không thể nap %s: %s "
+    IDS_TCPIP_CONNS         "Kết nối TCP/IP"
+    IDS_MANUAL_FILENAMECLEANUP
+                            "Bạn có muốn làm gọn tên tập tin của các tập tin đã chọn không?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_TIMESTATS     "Thống kê thời gian"
+    IDS_STATS_AVGANDPROJ    "Mức trung bình dự kiến"
+    IDS_STATS_TIMESINCERESET "Thời gian từ lần xác lập lại (reset) trước: %s"
+    IDS_CRYPT_INITFAILED    "Không thể khởi tạo khóa crypto - Xác minh bảo mật không kích hoạt"
+    IDS_CD_IDENT            "Xác minh:"
+    IDS_IDENTOK             "Thành công"
+    IDS_IDENTFAILED         "Không hợp lệ"
+    IDS_IDENTNOSUPPORT      "Không hỗ trợ hay Không kích hoạt"
+    IDS_COMMITFILES         "Ghi tập tin .met/.dat an toàn"
+    IDS_ERR_BADUNC          "Tên-UNC không hợp lệ"
+    IDS_NEVER               "Không bao giờ"
+    IDS_ALWAYS              "Luôn luôn"
+    IDS_ONSHUTDOWN          "Khi thoát eMule"
+    IDS_UNCFOLDERS          "Đường dẫn Mạng cục bộ"
+    IDS_USESECIDENT         "Sử dụng hệ thống xác minh cao cấp"
+    IDS_ADVSPAMFILTER       "Bộ lọc Rác-Spam cao cấp"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CUT                 "Cắt"
+    IDS_STATS_SECUREIDENT   "Xác minh bảo mật (OK : Thất bại)"
+    IDS_ONDISK              "Kích thước trên Đĩa: "
+    IDS_CLIENTCOL           "Cảnh báo: Tìm thấy máy khách trùng khớp với máy khách đã kết nối hiện tại: %s (%s) và %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "Chuỗi không giới hạn"
+    IDS_SEARCH_GENERALERROR "Lỗi thông thường"
+    IDS_SEARCH_MISSINGORRIGHT "Thiếu vế phải của phép toán OR"
+    IDS_SEARCH_MISSINGNOTRIGHT "Thiếu vế phải của phép toán NOT"
+    IDS_SEARCH_MISSINGEXPRPARANT "Thiếu biểu thức trong dấu ngoặc '(' ')'"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "Không đóng ngoặc ')'"
+    IDS_SEARCH_EXPRERROR    "Không thể phân tích biểu thức tìm kiếm"
+    IDS_SEARCH_TOOCOMPLEX   "Biểu thức quá phức tạp"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSION             "Phiên bản"
+    IDS_OPTIONS             "Tùy chọn"
+    IDS_PASTE               "Dán"
+    IDS_SEARCHAUTHORCOLLECTION "Tìm Bộ sưu tập của Tác giả này"
+    IDS_ERR_DUPL_FILES      "Tập tin chia sẻ trùng lập: ""%s"" và ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "ĐoánTốcĐộ-TảiLên: ĐịnhTuyến-tracerouting thất bại nhiều lần. Đã hủy bỏ ĐoánTốcĐộ-TảiLên."
+    IDS_USS_STARTING        "ĐoánTốcĐộ-TảiLên: Chuẩn bị xong. Bắt đầu điều khiển tốc độ tải lên. (60 giây đầu sẽ ở chế độ phản ứng nhanh)"
+    IDS_A4AF                "Xử lý Nguồn"
+    IDS_AUTOCAT_LABEL       "Tự động cho vào DMục (mẫu, cách nhau bởi |)"
+    IDS_SHOWEXTSETTINGS     "Hiển thị Bộ điều khiển Nâng cao"
+    IDS_TREEOPTIONS_TRUE    "Đúng"
+    IDS_TREEOPTIONS_FALSE   "Sai"
+    IDS_TREEOPTIONS_OK      "OK" //!
+    IDS_HYPERTEXT_FONT_HINT "Phông cho khung Máy chủ, Thông điệp và IRC"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SELECT_FONT         "Chọn Phông chữ"
+    IDS_SERVER_LIMITS       "Giới hạn cứng / mềm"
+    IDS_KBITSSEC            "kBit/s" //!
+    IDS_KBYTESSEC           "kByte/s" //!
+    IDS_ERR_CREATE_DIR      "Không thể tạo thư mục %s ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "Thư mục Tải xuống không được đặt trùng với thư mục cài đặt eMule."
+    IDS_WRN_TEMPFILES_RESERVED
+                            "Thư mục Tạm không được đặt trùng với thư mục cài đặt eMule."
+    IDS_WRN_INCTEMP_SAME    "Thư mục Tải xuống và thư mục Tạm không được trùng nhau."
+    IDS_SHOWDWLPERCENTAGE   "Hiển thị phần trăm đã tải xong trên thanh tiến trình"
+    IDS_TBN_ONNEWDOWNLOAD   "Tác vụ mới thêm vào"
+    IDS_ARTIST              "Nghệ sĩ"
+    IDS_ALBUM               "Đĩa hát"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UPLOADREQ        "Đã yêu cầu tải lên:"
+    IDS_SETTINGCHANGED_RESTART
+                            "Để các thay đổi có hiệu lực, vui lòng khởi động lại eMule!"
+    IDS_CREDITSEXPIRED      ", %u máy khách bị xóa (không thấy trong 5 tháng)"
+    IDS_SOURCESINFO         "%u  (CóÍch: %u, NNP: %u);  A4AF: %u"
+    IDS_META_DATA           "ThôngTin Meta"
+    IDS_TIMEBEFORE          "(các đây %s)"
+    IDS_FD_TIMEDATE         "Ngày"
+    IDS_FILEINFORMATION     "Thông tin Tập tin"
+    IDS_STATS_FREESPACE     "Dung lượng trống"
+    IDS_IRC_HELPCHANNEL     "Kết nối đến Kênh Giúp đỡ"
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-english" //!
+    IDS_IRC_ACCEPTLINKSFRIENDS "Chỉ từ Bạn bè"
+    IDS_COMPLSOURCES        "Các Nguồn đầy đủ"
+    IDS_CHECKNOENDTIME      "Không kết thúc"
+    IDS_FD_DOWNLOADSTARTED  "Tải xuống được thêm:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FAILEDREOPEN        "Lỗi nghiêm trọng: Không thể mở lại tập tin tạm '%s' (%s)!"
+    IDS_ERR_PREVIEWALREADY  "Đã có một yêu cầu xem trước đang chờ từ máy khách này"
+    IDS_ERR_PREVIEWFAILED   "Xem trước từ Người dùng '%s' thất bại"
+    IDS_DWTOT               "Không gian Ổ đĩa"
+    IDS_DWTOT_NR            "Tải xuống: %u"
+    IDS_DWTOT_TSD           "Tổng kích thước tải xuống: %s"
+    IDS_DWTOT_TCS           "Tổng kích thước Tải xong: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "Tổng kích thước đang tải: %s"
+    IDS_DWTOT_TSN           "Chỗ trống cần thiết cho các Tác vụ đang tải: %s"
+    IDS_DWTOT_FS            "Dung lượng còn trống trên ổ đĩa chứa thư mục tạm: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (bạn cần phải giải phóng %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT "Khoảng kết nối máy chủ lại [phút]"
+    IDS_MORE                "&Thêm"
+    IDS_TOOLS               "Công Cụ"
+    IDS_SEARCHPARAMS        "Tìm Tham số"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u đang lấy mã Hash)"
+    IDS_CHECKDISKSPACE      "Kiểm ta Dung lượng đĩa"
+    IDS_YOURHOSTNAME        "Sử dụng tên máy cho liên kết eD2K của chính bạn"
+    IDS_INSUFFICIENT        "Dung lượng Đĩa không đủ"
+    IDS_MINFREEDISKSPACE    "Dung lượng đĩa trống ít nhất [MB]"
+    IDS_WARNING             "Cảnh báo"
+    IDS_IMPORTSPLPF         "Thêm Tác vụ Tải xuống (eM,eD,ON)"
+    IDS_IMP_STEPREADPF      "Đang đọc thư mục tạm"
+    IDS_IMP_STEPBASICINF    "Đang lấy thông tin cơ bản từ tập tin thông tin tải xuống"
+    IDS_IMP_STEPCRDESTFILE  "Đang tạo tập tin đích"
+    IDS_IMP_LOADDATA        "Đang nạp dữ liệu từ các tập tin tải xuống cũ (%u trong %u)"
+    IDS_IMP_SAVEDATA        "Đang lưu khối dữ liệu và tập tin tải về đơn lẻ (%u trong %u)"
+    IDS_IMP_IOERROR         "Lỗi tập tin khi chuyển đổi tải xuống"
+    IDS_IMP_GETPFINFO       "Đang lấy thông tin tập tin tải về từ nguồn"
+    IDS_IMP_ADDDWL          "Đang thêm Tải xuống và lưu tập tin tạm mới"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_FETCHSTATUS     "Đang tìm trạng thái ..."
+    IDS_IMP_INPROGR         "đang tiến hành"
+    IDS_IMP_ERR_DISKSP      "Lỗi: Hết dung lượng đĩa"
+    IDS_IMP_ERR_PARTMETIO   "Lỗi: Partmet không tìm thấy"
+    IDS_IMP_ERR_IO          "Lỗi: Lỗi Nhập/Xuất - IO!"
+    IDS_IMP_ERR_FAILED      "Lỗi: Thất bại!"
+    IDS_IMP_STATUSQUEUED    "Đã xếp hàng"
+    IDS_IMP_ALRDWL          "Đã hoặc đang tải về"
+    IDS_IMP_ADDBTN          "&Thêm tác vụ"
+    IDS_IMP_RETRYBTN        "Thử &lại cái đã chọn"
+    IDS_IMP_REMOVEBTN       "Xó&a cái đã chọn"
+    IDS_IMP_SELFOLDER       "Vui lòng chọn thư mục để tìm các Tải về tạm thời! (bao gồm thư mục con)"
+    IDS_IMP_DELSRC          "Bạn có muốn xóa tập tin nguồn của các tác vụ đã thêm vào không?"
+    IDS_IMP_SIZE            "%s (Đĩa:%s)"
+    IDS_IMP_STATUS          "Đang thêm vào %s: %s"
+    IDS_DYNUPENABLED        "Tự động tìm Giới hạn tải lên tốt nhất"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "Cố gắng PING (% PING thấp nhất)"
+    IDS_DYNUP_GOINGUPDIVIDER "Lên chậm"
+    IDS_DYNUP_GOINGDOWNDIVIDER "Xuống chậm"
+    IDS_DYNUP_NUMBEROFPINGS "Số lần PING trung bình lớn nhất"
+    IDS_DYNUP_MINUPLOAD     "Tốc độ tải lên nhỏ nhất cho phép"
+    IDS_ESTTIMELEFT         "Thời gian còn lại dự kiến:"
+    IDS_TRANSFER_RATE_LABEL "Tỉ lệ truyền tải:"
+    IDS_SAVELOG             "Lưu bản ghi"
+    IDS_CMT_COPYCLIPBOARD   "Chép chú thích"
+    IDS_ASKDOWNLOADLANG     "Ngôn ngữ này chưa có trong hệ thống. Bạn có muốn tải xuống từ emule-project.net không?"
+    IDS_ASKDOWNLOADLANGCAP  "Tải xuống tập tin Ngôn ngữ"
+    IDS_DELETESELECTED      "Xóa"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "Không thể tải xuống và cài đặt tập tin ngôn ngữ dll từ %s!"
+    IDS_ERR_BADFOLDER       "Thư mục không hợp lệ.\nKhông thể tạo thư mục. Vui lòng kiểm tra tên và vị trí."
+    IDS_AUTOREMOVEFD        "Tự động xóa các tác vụ đã thực hiện xong."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_NODE            "Tìm kiếm nút"
+    IDS_KAD_STOREFILE       "Lưu Tập tin"
+    IDS_KAD_STOREKW         "Lưu Từ khóa"
+    IDS_KAD_UNKNOWN         "Không biết"
+    IDS_SRV_TCPCOMPR        "Nén TCP"
+    IDS_KADSEARCHLAB        "Đang tìm kiếm"
+    IDS_SRV_UDPSR           "Giao thức UDP mở động cho các yêu cầu nguồn"
+    IDS_SRV_UDPFR           "Giao thức UDP mở động cho các yêu cầu tập tin"
+    IDS_MINLENGTH           "Dài ít nhất [hh:mm:ss]"
+    IDS_EM_HELP             "&Trợ Giúp"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "Bạn bè không được thêm vào.\r\n\r\nĐã có bạn với cùng địa chỉ IP và cổng này rồi."
+    IDS_DYNUP               "ĐoánTốcĐộ-TảiLên"
+    IDS_KADOVERHEAD         "Phần dư Kad (Gói): %s (%s)"
+    IDS_FIND                "Tìm..."
+    IDS_LOG_BANNED_CLIENTS  "Ghi lại các máy khách bị cấm"
+    IDS_LOG_RATING_RECV     "Ghi lại đánh giá và ghi chú các tập tin đã nhận được"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "Từ máy khách đã kết nối"
+    IDS_KADUDPPORTERR       "Cổng UDP cho Kad xung đột với cổng Ext UDP của eMule hay cổng UDP máy chủ của eMule. Cổng được đổi sang %u."
+    IDS_CONFIRM_FILEDELETE  "Bạn có chắc xóa tất cả các tập tin đã chọn trên dĩa không?"
+    IDS_OPENFOLDER          "Mở Thư mục"
+    IDS_RUNASUSER           "Chạy eMule bằng người dùng không có quyền."
+    IDS_DELETE              "Xóa trên Đĩa"
+    IDS_BOOTSTRAP           "Bootstrap" //!
+    IDS_VIAED2KSQ           "thông qua Máy chủ eD2K"
+    IDS_EM_KADEMLIA         "&Kad" //!
+    IDS_VIAKAD              "thông qua Kad"
+    IDS_VIASE               "thông qua Trao đổi Nguồn"
+    IDS_SELECTTOOLBARBITMAP "Chọn Ảnh bitmap Thanh công cụ..."
+    IDS_SELECTTOOLBARBITMAPDIR "Chọn Thư mục Ảnh bitmap Thanh công cụ..."
+    IDS_TOOLBARSKINS        "Giao diện"
+    IDS_NOTEXTLABELS        "Không hiển thị Nhãn chữ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "Chữ nằm bên phải biểu tượng"
+    IDS_TEXTLABELS          "Tùy chọn Nhãn chữ"
+    IDS_ENABLETEXTLABELS    "Hiển thị Nhãn chữ"
+    IDS_CUSTOMIZETOOLBAR    "Tùy chọn Thanh công cụ..."
+    IDS_MINBITRATE          "Tỷ lệ bit tối thiểu [kBit/s]"
+    IDS_KAD_RECHECKFW       "Kiểm tra lại Tường lửa"
+    IDS_SHAREDTITLE         "Chia sẻ eD2K|Kad"
+    IDS_FIREWALLED          "Tường lửa"
+    IDS_KADEMLIA            "Kad" //!
+    IDS_KADCONTACTLAB       "Nút"
+    IDS_KADDISTANCE         "Khoảng cách"
+    IDS_KEY                 "Khóa"
+    IDS_NUMBER              "Số"
+    IDS_KAD_SEARCHSRC       "Tìm Nguồn"
+    IDS_KAD_SEARCHKW        "Tìm Từ khóa"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_SECURE_IDENT    "Ghi lại thông tin Xác minh Bảo mật"
+    IDS_LOG_FILTERED_IPS    "Ghi lại hoạt động lọc và/hay bỏ qua IP"
+    IDS_LOG_FILE_SAVING     "Ghi lại hoạt động lưu tập tin"
+    IDS_DELETEIPFILTERS     "Bạn có thực sự muốn xóa những IP bị lọc đã chọn không?"
+    IDS_TOTAL_IPFILTER_LABEL "Tổng IP bị lọc:"
+    IDS_TOTAL_IPS_LABEL     "Tổng IP:"
+    IDS_RAU_WARNING         "Thiết lập này sẽ tăng tính bảo mật cho eMule chống lại tấn công và khai thác. Chúng tôi khuyến khích dùng chức năng này.\nTuy nhiên, cần đọc kỹ tài liệu hướng dẩn trước khi kích hoạt!\n\nCác thay đổi sẽ có hiệu lực sau khi khởi động lại eMule."
+    IDS_APPEND              "Nối vào..."
+    IDS_SAVE                "Lưu"
+    IDS_IP_START            "Bắt đầu"
+    IDS_IP_END              "Kết thúc"
+    IDS_IP_LEVEL            "Mức độ"
+    IDS_IP_DESC             "Khi chú"
+    IDS_IP_HITS             "Đánh"
+    IDS_IP_RULES            "Bộ lọc IP:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_A4AF            "Ghi lại hoạt động A4AF"
+    IDS_A4AF_SAVE_CPU       "Loại bỏ kiểm tra A4AF để tiết kiệm CPU"
+    IDS_SEARCH_DOC          "Văn bản"
+    IDS_INSTALL_SKIN        "Cài Giao diện eMule"
+    IDS_INSTALL_SKIN_NODIR  "Không có Thư mục Giao diện eMule được chọn hoặc Thư mục không truy xuất được!"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "Không thể tạo thư mục ""%s"" cho Giao diện eMule - %s"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "Không thể xuất tập tin ""%s"" từ Giao diện eMule sang tập tin nội bộ ""%s"" - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "Đây không phải là tập tin gói Giao diện eMule hợp lệ."
+    IDS_NEXT_REASK          "Các yêu cầu lại tiếp theo"
+    IDS_A4AF_FILES          "tập tin A4AF"
+    IDS_FO_TEMPTCP_S        "Đã mở cổng %u (TCP) trong hệ thống tường lửa WinXP cho phiên eMule này"
+    IDS_FO_TEMPTCP_F        "Không thể mở cổng %u (TCP) trong hệ thống tường lửa WinXP cho phiên eMule này"
+    IDS_FO_TEMPUDP_S        "Đã mở cổng %u (UDP) trong hệ thống tường lửa WinXP cho phiên eMule này"
+    IDS_FO_TEMPUDP_F        "Không thể mở cổng %u (UDP) trong hệ thống tường lửa WinXP cho phiên eMule này"
+    IDS_FO_PREFBUTTON       "Mở các cổng này trong Hệ thống tường lửa WinXP"
+    IDS_FO_PREF_SUCCCEEDED  "Thành công mở các cổng đã chọn trong hệ thống tường lửa WinXP.\nCác hệ thống tường lửa và bộ định tuyến khác không bị ảnh hưởng!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "Tập tin tạm có định dạng không đúng hay không xác định."
+    IDS_SEARCH_INVALIDCHAR  "Biểu thức tìm kiếm chứa các ký tự không hợp lệ. Bạn không thể dùng '?' hay các từ không được dùng trong mạng lưới này."
+    IDS_PORTSCON            "Cổng và Kết nối"
+    IDS_PORTINFO            "eMule sử dụng 2 cổng để liên lạc với các máy chủ và máy khách khác. Những cổng này phải thông suốt và chưa được dùng bởi các ứng dụng khác. Cổng TCP là cổng phải dùng được để đảm bảo chức năng chính eMule. Cổng UDP được dùng cho Kad (mạng lưới không máy chủ) và để giảm tải mạng lưới (phần dư).\n\nBạn có thể thay đổi các cổng này ở đây khi chưa có kết nối nào được thiết lập."
+    IDS_STARTTEST           "Kiểm tra"
+    IDS_TESTINFO            "Bạn có thể kiểm tra cổng TCP và UDP có thể kết nối đến và tới máy khác không tại đây. Kiểm tra này đòi hỏi máy chủ và máy khách kết nối đến máy bạn. Cổng TCP nhất thiết phải thành công!"
+    IDS_CONNECTIONTEST      "Kiểm tra Kết nối"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "Không thể thay đổi cổng sau khi bạn kết nối với các máy khách hay khi kết nối với MáyChủ/Kad!\n\nVui lòng khởi động lại eMule."
+    IDS_NETWORK_INFO        "Thông tin Mạng lưới"
+    IDS_SP_TOTALUL          "Tổng tải lên"
+    IDS_SP_ULFRIENDS        "Tải lên Bạn bè"
+    IDS_SP_ULSLOTSNOOVERHEAD "Tải lên Hiện tại (bỏ phần dư)"
+    IDS_ST_ACTIVEU_ZZ       "Tải lên Hoạt động"
+    IDS_ST_ULCURRENT        "Hiện tại"
+    IDS_ST_ULSLOTSNOOVERHEAD "Hiện tại (bỏ phần dư)"
+    IDS_ST_ULFRIEND         "Bạn bè tải lên"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "Tải lên Hoạt động/Cần lắp đầy Băng thông: %u"
+    IDS_STATS_TOTALUL       "Tổng tải lên: %u"
+    IDS_CHAT_DOWNLOADED     "Tải xuống:"
+    IDS_CHAT_UPLOADED       "Tải lên:"
+    IDS_CHAT_IDENT          "Nhận diện:"
+    IDS_MAXHALFOPENCONS     "Kết nối mở-nửa (half-open) tối đa"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "eMule sẽ tự chạy khi khởi động windows."
+    IDS_KAD_WAITCBK         "Đợi yêu cầu thông qua Kad" //Wait Callback Kad
+    IDS_KAD_TOOMANDYKADLKPS "Quá nhiều Tìm kiếm Kad"
+    IDS_PCDS_CLIENTWAIT     "Máykhách-Đợi"
+    IDS_PCDS_CACHEWAIT      "Cache-Đợi"
+    IDS_CACHE               "Cache" //!
+    IDS_INDEXED             "Số chỉ mục"
+    IDS_KADINFO_SRC         "\tNguồn: %u\r\n"
+    IDS_KADINFO_KEYW        "\từKhóa: %u\r\n"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STARTWITHWINDOWS    "Khởi động cùng Windows"
+    IDS_ADDSRCMANUALLY      "Thêm Nguồn..."
+    IDS_BUDDY               "Bạn bè"
+    IDS_BUDDYNONE           "Không"
+    IDS_INFO                "Thông Tin"
+    IDS_HALF                "Nửa"
+    IDS_CONCOMPL            "Xong"
+    IDS_KADSTATUS_STOPPING  "Dừng"
+    IDS_KADSTATUS_ACTIVE    "Hoạt động"
+    IDS_FORMAT              "Định dạng"
+    IDS_META_COLLECTION     "Bộ sưu tập"
+    IDS_META_PARTPATH       "Đường dẫn tạm"
+    IDS_META_PARTHASH       "Mã Hash tạm"
+    IDS_META_GAPSTART       "Phân cách-Gap bắt đầu"
+    IDS_META_GAPEND         "Phân cách-Gap kết thúc"
+    IDS_FAIL                "Thất bại"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_META_PREFERENCES    "Tùy Chọn"
+    IDS_META_VERSION        "Phiên bản"
+    IDS_META_TEMPFILE       "Tập tin tạm"
+    IDS_META_SERVERPORT     "Cổng Máy chủ"
+    IDS_META_SERVERIP       "IP Máy chủ"
+    IDS_META_SRCUDPPORT     "Cổng UDP Nguồn"
+    IDS_META_SRCTCPPORT     "Cổng TCP Nguồn"
+    IDS_META_SRCIP          "IP Nguồn"
+    IDS_META_SRCTYPE        "Loại Nguồn"
+    IDS_SEARCH_UNICODE      "Tìm kiếm với Unicode"
+    IDS_PF_ADVANCEDCALC     "Sử dụng p.p tính toán nâng cao để tính thời gian còn lại"
+    IDS_LD_ED2KLINK         "Liên kết eD2K"
+    IDS_LD_COPYCLIPBOARD    "Chép vào BảngGhiTạm-Clipboard"
+    IDS_LD_HOSTNAME         "Sử dụng tên máy (từ Tùy chọn) thay vì IP khi tạo liên kết nguồn"
+    IDS_SAVEACFAILED        "Không thể lưu bộ mã Hash AICH!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_AICHHASH            "Mã Hash AICH"
+    IDS_BYTESPERSEC         "B/s" //!
+    IDS_KBYTESPERSEC        "KB/s" //!
+    IDS_MBYTESPERSEC        "MB/s" //!
+    IDS_GBYTESPERSEC        "GB/s" //!
+    IDS_TBYTESPERSEC        "TB/s" //!
+    IDS_STATS_MINORCLIENTS  "Yếu"
+    IDS_AICH_SYNCTOTAL      "Tìm thấy %u tập tin không có bộ mã Hash AICH hợp lệ, đang lấy mã Hash lại cho các tập tin này"
+    IDS_AICH_CALCFILE       "Đang tính toán mã Hash AICH cho tập tin %s"
+    IDS_AICH_WARNUSER       "Từ phiên bản 0.44a eMule sử dụng mã Hash tập tin thêm vào giúp bạn tránh được mất dữ liệu khi phát hiện lỗi tập tin. Bởi vì bạn đang cập nhật từ phiên bản cũ hơn, eMule cần lấy mã Hash lại cho tất cả các tập tin chia sẻ để tính toán mã Hash mới. Hãy đợi một chút vì việc này chỉ làm một lần. Hãy Kiên Nhẫn. "
+    IDS_AICH_WORKED         "AICH phục hồi thành công %s trong %s từ phần %u cho %s"
+    IDS_SOURCECLIENT        "Máy khách Nguồn"
+    IDS_USERSIP             "IP Người dùng"
+    IDS_FEATURES            "Tính năng"
+    IDS_IRC_NEWNICK         "Chọn biệt danh IRC."
+    IDS_IRC_NEWNICKDESC     "Một từ có 20 ký tự chứa các ký tự (A-Z, 0-9). Có thể thay đổi bằng cách vào Tùy chọn->Irc."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPARSEPARTFILES     "Tạo tập tin tạm rải rác - 'sparse' (chỉ dùng cho NTFS)"
+    IDS_ASPECTRATIO         "Tỉ lệ co"
+    IDS_NEGATEFILTER        "Bộ lọc phủ định"
+    IDS_SEENCOMPL           "Đã từng thấy đầy đủ"
+    IDS_SELSKINPROFILEDIR   "Chọn Thư mục Thông tin Giao diện"
+    IDS_ASKDLINCOMPLETE     "Tập tin file:\r\n\r\n%s\r\n\r\nThis có khả năng không thể hoàn tất trong mạng lưới và vì thế không thể nào tải xuống xong! Bạn có thực sự muốn tải xuống tập tin này không?"
+    IDS_DEADSOURCES         "Các nguồn bị chết"
+    IDS_LARGEICONS          "Biểu tượng lớn"
+    IDS_SMALLICONS          "Biểu tượng nhỏ"
+    IDS_SHORTTAGS           "Các thẻ ngắn"
+    IDS_THELOAD             "Nạp"
+    IDS_PACKSENT            "Gói tin đã gởi"
+    IDS_RESPONSES           "Đã trả lời"
+    IDS_EXTRACT_META_DATA   "Sao chép meta data"
+    IDS_META_DATA_MEDIADET  "DirectShow (cho tất cả tập tin audio/video khác)"
+    IDS_META_DATA_ID3LIB    "Thẻ Thư viện ID3 (tập tin âm thanh dạng MPEG)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "Thư viện (COMCTL32.DLL) quá cũ!\r\n\r\neMule phát hiện phiên bản ""Thư viện Các điều khiển chung của Windows (COMCTL32.DLL)"" quá cũ và không thể dùng được. Để chắc chắn eMule hoạt động đầy đủ chức năng và không có lỗ hổng, bạn nên cập nhật ""Thư viện Các điều khiển chung của Windows (COMCTL32.DLL)"" lên phiên bản tối thiểu là 5.8.\r\n\r\nTải xuống và cài đặt cập nhật ""Thư viện Các điều khiển chung của Windows (COMCTL32.DLL)"" tại Trung âm Tải xuống Microsoft (R). Bạn có muốn truy cập trang mạng này không?"
+    IDS_ASREGEXPR           "Là biểu thức hợp lệ - Regular Expression"
+    IDS_STATIC_REGEXP       "Biểu thức hợp lệ - Regular Expression cho bộ lọc khung nhìn:"
+    IDS_CARE4ALL            "Đánh giá Tất cả Tập tin"
+    IDS_REGEXPRESSION       "Biểu thức hợp lệ - Regular Expression"
+    IDS_SEARCHKAD           "Tìm kiếm Kad"
+    IDS_DWL_IPFILTERFILE    "Đang tải xuống tập tin bộ lọc IP"
+    IDS_DWLIPFILTERFAILED   "Không thể tải xuống tập tin chứa bộ lọc IP"
+    IDS_FINDBUDDY           "Tìm Bạn bè"
+    IDS_ERR_IPFILTERZIPEXTR "Không thể trích xuất tập tin bộ lọc IP từ tập tin bộ lọc IP nén tải xuống, tập tin ""%s""."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "Đã tải xuống tập tin bộ lọc IP ""%s"" là một tập tin ZIP với nội dung không phù hợp."
+    IDS_STORENOTES          "Lưu Ghi Chú"
+    IDS_NOTES               "Ghi Chú"
+    IDS_KADSEARCHALREADY    "Một tìm kiếm khác đang được thực hiện. Vui lòng thử lần nữa!"
+    IDS_WEB_SHUTDOWN        "Thoát Emule"
+    IDS_WEB_REBOOT          "Khởi động lại Máy tính"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_DELFILE         "Không thể xóa tập tin ""%s"""
+    IDS_ERR_CONFIGCORRUPT   "%s đã bị hư hỏng và sẽ được thay thế"
+    IDS_UPLOADING           "Đang tải lên"
+    IDS_CANCELLED           "Đã hủy bỏ"
+    IDS_PW_REMEMBERDOWNLOADED "Ghi nhớ các Tập tin đã tải xuống"
+    IDS_PW_REMEMBERCANCELLED "Ghi nhớ các Tập tin đã hủy bỏ"
+    IDS_PW_EMAILNOTIFICATIONS "Thông báo qua Thư điện tử"
+    IDS_SMTPSERVER          "Máy chủ-SMTP"
+    IDS_PW_SENDERADDRESS    "Địa chỉ Người gởi:"
+    IDS_AVAILABLEPARTS      "Các phần dùng được"
+    IDS_NOSOUND             "Im lặng"
+    IDS_PW_RECEIVERADDRESS  "Địa chỉ Người nhận:"
+    IDS_PW_ENABLEEMAIL      "Sử dụng Thông báo qua Thư điện tử"
+    IDS_EMULENOTIFICATION   "Thông báo của eMule"
+    IDS_PW_SHOWTRANSTOOLBAR "Hiển thị thanh công cụ mở rộng trong khung Tác Vụ"
+    IDS_SHARED_STATUS       "Các phần chia sẻ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_EMULECOLLECTION "Bộ sưu tập"
+    IDS_INCOMING_FILES      "Tập tin đã hoàn tất"
+    IDS_INCOMPLETE_FILES    "Tập tin chưa hoàn tất"
+    IDS_SHARED_DIRECTORIES  "Thư mục chia sẻ"
+    IDS_COLLECTIONLIST      "Danh sách bộ sưu tập"
+    IDS_SHAREDIR            "Chia sẻ thư mục"
+    IDS_SHAREDIRSUB         "Chia sẻ thư mục & thư mục con"
+    IDS_UNSHAREDIR          "Không chia sẻ thư mục"
+    IDS_UNSHAREDIRSUB       "Không chia sẻ thư mục & thư mục con"
+    IDS_ALLSHAREDFILES      "Tất cả tập tin chia sẻ"
+    IDS_ALLDIRECTORIES      "Tất cả thư mục riêng"
+    IDS_SEARCHRELATED       "Tìm tập tin có liên quan"
+    IDS_RELATED             "Có liên quan"
+    IDS_COLL_REPLACEEXISTING "Bạn có chắc thay thế tập tin đã có không?"
+    IDS_COLL_ERR_DELETING   "Một vài lỗi không xác định khi xóa các tập tin cũ. Thoát không lưu?"
+    IDS_CREATECOLLECTION    "Tạo bộ sưu tập"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MODIFYCOLLECTION    "Sửa đổi Bộ sưu tập"
+    IDS_COLL_SIGN           "Đánh dấu (Sign) Bộ sưu tập bằng Tên và Khóa"
+    IDS_AUTHOR              "Tác giả"
+    IDS_AUTHORKEY           "Khóa Tác giả"
+    IDS_COLL_ADDINCAT       "Thêm Tác vụ mới vào một Danh mục sưu tập"
+    IDS_VIEWCOLLECTION      "Xem Bộ sưu tập"
+    IDS_COLL_TEXTFORMAT     "Lưu bộ sưu tập ở định dạng văn bản đơn giản"
+    IDS_RUNNINGRESTRICTED   "eMule đang chạy với quyền hạn chế"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "ĐoánTốcĐộTảiLên: Phát hiện đã nâng giới hạn tải lên trong Tùy Chọn. Chuyển sang chế độ phản ứng nhanh trong 60 giây."
+    IDS_USS_STATE_PREPARING "Đang chuẩn bị..."
+    IDS_USS_STATE_WAITING   "Đang đợi..."
+    IDS_USS_STATE_ERROR     "Bị lỗi!"
+    IDS_SHAREWARNING        "(Thư mục sẽ được chia sẻ!)"
+    IDS_REMOVEALLSERVERS    "Bạn chắn chắn xóa tất cả máy chủ?"
+    IDS_SEARCH_UNKATTR      "Thuộc tính tìm kiếm '%s' không xác định"
+    IDS_SEARCH_ATTRERR      "Lỗi cú pháp trong Thuộc tính tìm kiếm '%s'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_MISSINGANDRIGHT "Thiếu vế phải của phép toán AND"
+    IDS_SEARCH_OPRERR       "Lỗi cú pháp ở phép toán so sánh '%s'"
+    IDS_DOWNLOAD_LANGFILE   "Đang tải xuống Tập tin Ngôn ngữ"
+    IDS_DOWNLOADING_SERVERMET_FROM "Đang tải server.met xuống từ %s"
+    IDS_DOWNLOADING_SERVERMET "Đang tải server.met xuống..."
+    IDS_FULLALLOC           "Cấp phát toàn bộ kích thước cho các tập tin tạm không rải rác - 'non-sparse'"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "Mã Hash không tìm thấy."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "Danh sách phân cách-Gap bị hư."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "Danh sách phân cách-Gap không tìm thấy."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "Bộ mã Hash bị hư."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "Bộ mã Hash không tìm thấy."
+    IDS_CONVERTINGKNOWN2MET "Đang chuyển đổi %s sang %s để hỗ trợ tập tin dung lượng lớn..."
+    IDS_CONVERTINGKNOWN2FAILED
+                            "...chuyển đổi thất bại known2.met, bỏ qua các thông tin cũ"
+    IDS_CONVERTINGKNOWN2DONE "... xong, hoàn tất chuyển đổi"
+    IDS_ERR_MET_BAD         "Lỗi: tập tin %s bị hư, không thể nạp các tập tin đã biết"
+    IDS_SRV_LARGEFILES      "Hỗ trợ tập tin dung lượng lớn"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE
+                            "Bạn không thể tải tập tin này về vì hệ thống không hỗ trợ tập tin lớn hơn 4GB, bạn nên chuyển hệ thống tập tin sang NTFS"
+    IDS_NEWVERSIONAVLBETA   "Phiên bản thử nghiệm này đã quá hạn. Vì phiên bản thử nghiệm thường có lỗi, bạn nên nâng cấp lên phiên bản chính thức, ổn định hơn càng sớm càng tốt!"
+    IDS_KADSEARCHACTIVE     "(Tìm kiếm Kad đang tiến hành...)"
+    IDS_BOLD                "Bật chữ đậm"
+    IDS_UNDERLINE           "Bật chữ gạch dưới"
+    IDS_COLOUR              "Chọn màu chữ (màu nền tùy chọn)"
+    IDS_RESETFORMAT         "Xác lập lại tất cả định dạng trước đây (gởi một thẻ xác lập lại)"
+    IDS_RESTORESEARCHPARAMS "Khôi phục lại các Đối số Tìm kiếm"
+    IDS_COMMAND             "Lệnh"
+    IDS_ARGUMENTS           "Đối số"
+    IDS_AP_CREATEPREVCOPY   "Tạo tập tin xem thử"
+    IDS_ARCHIVEDETAILS      "Chitiết-TậpTinLưuTrữ"
+    IDS_ARCHTYPE            "Loại tập tin lưu trữ"
+    IDS_ATTRIBUTES          "Thuộc tính"
+    IDS_LASTMODIFIED        "Sửa đổi lần cuối"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "Thông tin đầu-Headers đã mã hóa - không thể đọc tập tin lưu trữ."
+    IDS_ARCPARSED           "Tập tin lưu trữ đã được xem lướt qua."
+    IDS_ARCPREV_LISTMAYBEINCOMPL "Danh sách tập tin không hoàn chỉnh."
+    IDS_ARCPREV_DIRNOTFOUND "Không tìm thấy Bảng nội dung."
+    IDS_ARCPREV_INSUFFDATA  "Dữ liệu không đủ."
+    IDS_PASSWPROT           "Bảo vệ bằng mật mã"
+    IDS_ARCPREV_DIRSUCCREAD "Bảng nội dung được đọc thành công."
+    IDS_ARCPREV_UNKNOWNFORMAT "(ko biết/không hỗ trợ)"
+    IDS_ARCPREV_PLEASEWAIT  "Đang xem lướt qua tập tin lưu trữ..."
+    IDS_OBFUSCATION         "Ẩn"
+    IDS_SUPPORTED           "Hỗ trợ"
+    IDS_ESTIMATED           "ước tính"
+    IDS_MEDIAINFO_DLLMISSING
+                            "Không có cài đặt thư viện MediaInfo. Nếu bạn muốn có thêm thông tin về tập tin audio/video trong khung này,\r\ntải thư viện MediaInfo xuống từ https://mediaarea.net/en/MediaInfo và chép tập tin MediaInfo.dll vào\r\nthư mục cài đặt eMule ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "Cảnh báo: Phần mở rộng tập tin ""%s"" không trùng khớp với phần mở rộng\r\nthường dùng bởi định dạng tập tin này. Bạn cần đổi tên tập tin sang\r\nmột trong những phần mở rộng sau ""%s""\r\nđể cho việc sử dụng và xem được hiệu quả.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "Cảnh báo: Tập tin ""%s"" dường như bị bảo vệ bởi Hệ Thống Quản Lý Bản Quyền Số.\r\nBạn hầu như không thể sử dụng tập tin này nếu không có bản quyền từ nhà cung cấp.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "Tập tin Ảnh bitmap Thanh công cụ eMule"
+    IDS_LOADFILTER_EMSKINFILES "Tập tin giao diện eMule"
+    IDS_ARCHPREV_ATTRIBINFO "Thuộc tính tập tin có thể chứa:\r\n\r\nP\ttập tin được mật mã bảo vệ\r\nD\tlà một thư mục\r\nC\tChú thích\r\nLx\tMức độ nén x\r\nM\tdữ liệu nén chưa được tải xuống hoàn chỉnh\r\n<\ttập tin được tiếp tục từ tập tin trước\r\n>\ttập tin được tiếp tục từ tập tin tiếp theo\r\n"
+    IDS_CONTENT_INFO        "Nội dung"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "Thông điệp và Chú thích"
+    IDS_DISABLEOBFUSCATION  "Hủy kích hoạt hỗ trợ kết nối Ẩn"
+    IDS_ONLYOBFUSCATED      "Chỉ cho phép kết nối kết nối Ẩn (không khuyến khích)"
+    IDS_ENABLEOBFUSCATION   "Kích hoạt Giao thức Ẩn"
+    IDS_PROTOCOLOBFUSCATION "Giao thức Ẩn"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "Đang kết nối đến %s (%s:%u - sử dụng Giao thức Ẩn) ..."
+    IDS_CONNECTEDTOOBFUSCATED "Kết nối Ẩn được thiết lập trên: %s"
+    IDS_VERIFIED            "đã kiểm tra"
+    IDS_OBFUSCATED          "Đã ẩn"
+    IDS_UNVERIFIED          "chưa kiểm tra"
+    IDS_INVALIDFILEEXT      "phần mở rộng tập tin không hợp lệ"
+    IDS_UNKNOWNFILEEXT      "phần mở rộng tập tin chưa biết"
+    IDS_ENABLEMINIMULE      "Kích hoạt MiniMule"
+    IDS_DISABLE_AUTOARCHPREV
+                            "Hủy kích hoạt tự động xem thử tập tin lưu trữ-nén khi xem chi tiết"
+    IDS_US_STALLEDW4BR      "Đã bị ngừng! Đang đợi yêu cầu khối."
+    IDS_US_STALLEDREADINGFDISK "Đã bị ngừng! Đang đọc đĩa."
+    IDS_SERVERFEATURE_INTTYPETAGS "Các thẻ kiểu Nguyên"
+    IDS_FILLGRAPHS          "Vẽ đồ thi tô -  filled graphs"
+    IDS_PARAMETER           "Tham số"
+    IDS_TEST                "Kiểm tra"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "Sử dụng UPnP để thiết lập cổng"
+    IDS_UPNPSETUP           "Cố gắng thiết lập cổng chuyển tiếp với UPnP..."
+    IDS_UPNPFAILED          "UPnP không thể thiết lập cổng chuyển tiếp, vui lòng tự chuyển tiếp các cổng này nếu cần!"
+    IDS_UPNPSUCCESS         "UPnP đã thiết lập cổng chuyển tiếp thành công cho các cổng %u (TCP) và %u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "Mở các cổng trên tường lửa WinXP SP1"
+    IDS_UPNP_NOSERVICE      "Dịch vụ - UPnP Device Host - không chạy, bỏ qua thiết lập UPnP"
+    IDS_DELAYEDBYUPNP       "Kết nối bị hoãn lại, vì UPnP đang thiết lập cổng chuyển tiếp."
+    IDS_DELAYEDBYUPNP2      "Vui lòng đợi, eMule sẽ kết nối ngay khi UPnP hoàn tất."
+    IDS_UPNP                "UPnP" //!
+    IDS_UPNPCLOSEONEXIT     "Loại bỏ cổng chuyển tiếp UPnP khi thoát"
+    IDS_UPNPSKIPWANIP       "Bỏ qua thiết lập WAN IP"
+    IDS_UPNPSKIPWANPPP      "Bỏ qua thiết lập WAN PPP"
+	IDS_SHAREEMULELABEL     "Chia sẻ eMule với các người dùng khác"
+	IDS_SHAREEMULEMULTI     "Mỗi người dùng có tập tin cấu hình và tải xuống riêng"
+	IDS_SHAREEMULEPUBLIC    "Mọi người có cùng tập tin cấu hình và tải xuống"
+    IDS_SHAREEMULEOLD       "Lưu tập tin cấu hình và tải xuống trong thư mục cài đặt"
+END
+
+STRINGTABLE
+BEGIN
+	IDS_SHAREEMULEWARNING   "Nếu thay đổi tùy chọn này, eMule sẽ sử dụng cấu hình khác. Thiết lập hiện tại của bạn sẽ bị bỏ qua và các tác vụ đang tải xuống có thể sẽ không được hiển thị. Bạn có thể chuyển lại thiết lập cũ bằng cách thay đổi tùy chọn này.\n\nBạn cần phải khởi động lại eMule để thay đổi này có hiệu lực."
+    IDS_SPAM                "Rác" //!
+    IDS_MARKSPAM            "Đánh dấu là Rác"
+    IDS_MARKNOTSPAM         "Đánh dấu không là Rác"
+    IDS_SEARCHSPAMFILTER    "Kích hoạt bộ lọc Rác cho kết quả tìm kiếm"
+    IDS_SHOWSMILEYS         "Hiển thị biểu tượng - Smileys"
+    IDS_CAPTCHAREQUEST      "Để tránh tin nhắn Rác, người dùng này đòi hỏi bạn phải điền vào mã bảo vệ trước khi bạn gởi tin nhắn. Vui lòng điền các ký tự bạn thấy trên hình để trả lời:"
+    IDS_CAPTCHAFAILED       "Mã bảo vệ bạn nhập vào đã sai nên bạn không thể gởi tin nhắn. Bạn có thể thử lại bằng cách gởi tin nhắn khác."
+    IDS_CAPTCHASOLVED       "Bạn đã vượt qua được mã bảo vệ và người dùng đã nhận được tin nhắn của bạn."
+    IDS_USECAPTCHAS         "Đòi hỏi xác minh mã bảo vệ - captcha"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat từ URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "Đang tải nodes.dat xuống từ %s"
+    IDS_DOWNLOADING_NODESDAT "Đang tải nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "Tải nodes.dat xuống từ %s thất bạn"
+    IDS_PREVENTSTANDBY      "Chống chế độ Standby khi eMule đang chạy"
+    IDS_KADID               "KadID" //!
+    IDS_SEARCHINGFRIENDKAD  "Đang tìm kiếm bạn bè trong mạng Kad"
+    IDS_FOUND               "tìm thấy"
+    IDS_EXTERNUDPPORT       "Cổng UDP bên ngoài"
+    IDS_STORESEARCHES       "Nhớ các kết quả tìm kiếm trong các lần khởi động tới"
+    IDS_WRN_INCFILE_EXISTS  "Bạn vừa chọn thư mục không rỗng mới cho các tập tin tải xuống. Tất cả các tập tin trong thư mục sẽ được eMule chia sẻ."
+    IDS_EDITSPAMFILTER      "Chỉnh sửa bộ lọc rác ..."
+    IDS_EDITSPAMFILTERCOMMENTS "Chỉnh sửa bộ lọc rác cho các chú thích"
+    IDS_WIZZARDOBFUSCATION  "Chọn mục này nếu như bạn muốn dùng giao thức ẩn\n\nNếu ISP của bạn chặn eMule, chọn phương thức ảo giúp bạn có thể dùng eMule với ISP này."
+    IDS_BETANAG             "Đây là phiên bản thử nghiệm của eMule. Vui lòng gởi lỗi về cho chúng tôi và nhớ là luôn luôn cập nhật phiên bản mới (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "Bạn có muốn tải và sử dụng các liên lạc Kad (nodes.dat) từ địa chỉ:\n%s ?"
+    IDS_AUTOMATIC           "Tự động"
+    IDS_NOTCONNECTEDANY     "Bạn chưa được kết nối tới máy chủ hay mạng Kad nào!"
+    IDS_ERR_SHARED_DIR      "Không thể đọc thự mục chia sẻ ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "Tập tin ""%s"" có vẻ được bảo vệ bởi Cục Bản Quyền Số DRM.\r\n\r\nBạn sẽ không thể dùng tập tin này nếu không có bản quyền từ nhà cung cấp. Bạn nên biết rằng, nếu bạn mở tập tin này, có thể trình phát nhạc của bạn sẽ mở trình duyệt tới trang mạng của nhà cung cấp yêu cầu bạn xác nhận bản quyền.\r\n\r\nBạn có chắc chắn muốn mở tập tin này không?"
+    IDS_CHECK_FILE_OPEN     "Cảnh báo khi mở những tập tin chưa xác thực"
+    IDS_BOOTABLE            "có thể khởi động"
+    IDS_UNSUPPORTEDIMAGE    "hình ảnh không hỗ trợ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "Không chia sẻ"
+    IDS_WEBUPNPINCLUDE      "Thêm cổng này trong cài đặt UPnP"
+    IDS_ADDEDON             "Được thêm vào"
+    IDS_RESOLVELINKS        "Phân giải liên kết đường dẫn trong thư mục chia sẻ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "Các lệnh Tải xuống"
+    IDS_CLOSETOOLBAR        "Ẩn Thanh công cụ"
+    IDS_SHOWTOOLBAR         "Hiện Thanh công cụ"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "Bạn không thể dùng từ khóa đầu tiên với toán tử OR khi tìm kiếm với Kad!\n\nVí dụ ""Từkhóa1 OR Từkhóa2"" là không thể được. Bạn có thể dùng ""Từkhóa1 AND (Từkhóa2 OR Từkhóa3)"" hoặc tìm kiếm từng từ khóa riêng rẽ."
+    IDS_DISCOVEREDBY        "Phát hiện bởi"
+    IDS_NODES               "Nút"
+    IDS_ROUTINGTABLE        "Bảng định hướng"
+    IDS_PROTOCOLVERSION     "Phiên bản Giao thức"
+    IDS_FOUNDNODESUSEFUL    "Nút được thấy (có ích)"
+    IDS_NORESPONSE          "Không Phản hồi"
+    IDS_NOTASKED            "Chưa Yêu cầu"
+    IDS_LOOKUPGRAPH         "Chi tiết Tìm kiếm"
+    IDS_AUTOKADLOOKUPGRAPH  "Tự động hiển thị các tìm kiếm đang hoạt động"
+    IDS_PAUSEONPREVIEW      "Tạm dừng khi có thể xem trước"
+    IDS_PREVIEWWITH         "Xem trước với"
+    IDS_CLOSEEMULE          "Đóng eMule"
+    IDS_DONOTASKAGAIN       "Không hiển thị nữa"
+    IDS_POPULARITY          "Xếp hạng Thông dụng"
+    IDS_SHOWWIN7TASKBARGOODIES "Cho phép hiệu ứng thanh công cụ Windows 7"
+    IDS_LANMODE             "Chế độ Mạng nội bộ"
+    IDS_OPENPREFINI         "Mở preferences.ini"
+END
+
+#endif    // Vietnamese resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+﻿

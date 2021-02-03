@@ -1,0 +1,1957 @@
+#include "nn_NO.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Norwegian (Nynorsk) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NOR)
+#ifdef _WIN32
+LANGUAGE LANG_NORWEGIAN, SUBLANG_NORWEGIAN_NYNORSK
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "nn_NO.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "Feil med oppstart av windowssoklar"
+    IDS_ABOUTBOX            "Om eMule..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s frå %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "Tilkopla %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "Finn namn: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "Funne namn til %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "Kople til %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "Omdirigerer til %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "Hentar filinformasjon"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR "Feil i freisting på nedlasting av fila. Feil: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER "Feil ved oppretting av oppkopling til tenar. Feil: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE "Feil. Tenaren svara ikkje."
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE "Feil. Tenaren sende eit ugangbart HTTP svar"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE "Det oppstod ein feil i nedlastinga av fila. Feil: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "Oppdaterer tenarliste: %s%% av %s fullført"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "Mottek fila"
+    IDS_HTTPDOWNLOAD_OF     "%s av %s"
+    IDS_CANCEL              "Avbryt"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTP_CAPTION        "Oppdaterer tenarliste"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s kopiert)"
+    IDS_HSAV                "Hashsett tilgjengeleg"
+    IDS_FD_CORR             "Korrupt"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE "Fila '%s' finst allereie.\nVil du skrive over ho?"
+    IDS_FD_RECOV            "Gjenoppretta"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN "Feil i opning av fila som skal lastast ned. Feil: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "Avbryt overføring"
+    IDS_FD_COMPR            "Komprimering"
+    IDS_WIZARD_NETWORK      "Vel kva slag nettverk du vil nytte"
+    IDS_MAIN_READY          "eMule utgåve %s klar"
+    IDS_WIZARD_ED2K         "ED2k-innstillingar"
+    IDS_SEL_SKIN            "Vel hud..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_SOCKETERROR    "Fatal Feil: Kunne ikkje knyte socket til port %u"
+    IDS_MAIN_BTN_DISCONNECT "Kople frå"
+    IDS_ERR_WRONGFILEID     "Feil fil-ID send"
+    IDS_ERR_BADHASHSET      "Feil eller ikkje gyldig hashsett motteke"
+    IDS_ERR_BADDATABLOCK    "Feil eller ikkje gyldig del motteken"
+    IDS_ERR_ILLFORMEDHASH   "Ikkje rett utforma hash"
+    IDS_ERR_BADED2KLINK     "Feil ed2k-lenke"
+    IDS_ERR_NOSLLINK        "Ikkje ein ED2K-tenar eller fillenke"
+    IDS_ERR_WRONGPACKETSIZE "Ugyldig OP_FILEREQUEST pakkestorleik"
+    IDS_ERR_WRONGHPACKETSIZE "Ugyldig OP_HASHSETREQUEST pakkestorleik"
+    IDS_ERR_UNKNOWNCLIENTACTION "Ukjende klientar sender utvida protokollpakkar"
+    IDS_ERR_OPENMET         "Feil: Mislukka opning av part.met fil! (%s => %s)"
+    IDS_ERR_BADMETVERSION   "Feil: Feil part.met filutgåve! (%s => %s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION "Feil versionstag i server.met (0x%X)!"
+    IDS_SERVERSFOUND        "%u tenarar i server.met"
+    IDS_SERVERSADDED        "%u tenarar lagt til, %u ikkje lagt til (allereie lagt til/ugyldige)"
+    IDS_ERR_BADSERVERLIST   "Feil: Fila server.met er feil, kunne ikkje lese inn tenarliste"
+    IDS_ERR_FILEERROR_SERVERMET "Uventea filfeil ved innlesing av server.met: %s, kunne ikkje lese inn tenarliste"
+    IDS_ERR_SAVESERVERMET   "Greidde ikkje å lagre server.met!"
+    IDS_PASSIVE             "Passiv"
+    IDS_MAIN_BTN_CANCEL     "Annuller"
+    IDS_AVAIL               "Dele: %u , tilgjengelege: %u (%.1f%%)\n\n"
+    IDS_TYPE                "Type"
+    IDS_FILEID              "Fil-ID"
+    IDS_FILE                "Fil"
+    IDS_DOWNLOAD            "Last ned"
+    IDS_SL_SERVERNAME       "namn"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IP                  "IP"
+    IDS_DESCRIPTION         "Skildring"
+    IDS_PING                "Ping"
+    IDS_FILES               "Filer"
+    IDS_PREFERENCE          "Prioritering"
+    IDS_PRIONOPREF          "Ingen preferansar"
+    IDS_CONNECTTHIS         "Kople til tenar"
+    IDS_MAIN_BTN_CONNECT    "Kople til"
+    IDS_ERR_SAVESERVERMET2  "Greidde ikkje å lagre server.met! Prøv å slette server.met og endre namn på server.met.old til server.met!"
+    IDS_NOTCONNECTED        "Ikkje tilkopla"
+    IDS_DISCONNECTED        "Kople frå"
+    IDS_USERS               "Brukarar: %u"
+    IDS_UPDOWN              "Opp: %.1f(%.1f) | Ned: %.1f(%.1f)"
+    IDS_CONNECTED           "Tilkopla"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_WRITEERROR      "Uventa filfeil ved freisting på å lagre %s : %s"
+    IDS_ERR_COMPLETIONFAILED "Uventa filfeil i freisting på å gjere fila %s ferdig. Fila er sett på vent; start opp att eMule for å prøve igjen"
+    IDS_ERR_DELETEFAILED    "Kunne ikkje slette %s, slett fila ved hjelp av operativsystemet"
+    IDS_DOWNLOADDONE        "Nedlasting ferdig %s :-)"
+    IDS_ERR_DELETE          "Kunne ikkje slette %s"
+    IDS_ERR_HASHERRORWARNING "Åtvaring: Greidde ikkje å hashe nedlasta del - hashsett ikkje komplett (%s)"
+    IDS_ERR_INCOMPLETEHASH  "Feil: Greidde ikkje å hashe nedlasta del - hashsett ikkje komplett (%s). Dette burde aldri skje..."
+    IDS_DOWNLOADING         "Lastar ned"
+    IDS_WAITING             "Ventar"
+    IDS_HASHING             "Hashar"
+    IDS_COMPLETING          "Gjer klar"
+    IDS_COMPLETE            "Ferdig"
+    IDS_PAUSED              "Pause"
+    IDS_ERRORLIKE           "Feil"
+    IDS_ASSIGNED2K          "eMule vert ikkje nytta til å handtere ED2K lenker. Vil du nytte Emule til å handtere ED2K lenker (tilrådd) ?"
+    IDS_ERR_EMPTYADDRESSESDAT "Fann inga tenarliste i 'addresses.dat'. Kopier ei tenarlisteadresse inn i fila for å oppdatere tenarlista di automatisk"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LINKNOTADDED        "Greidde ikkje å leggje til lenke"
+    IDS_MAIN_EXIT           "Er du sikker på at du vil avslutte eMule?"
+    IDS_MAIN_POPUP_RESTORE  "Restituere"
+    IDS_CONNECTTOANYSERVER  "Kople til ein tenar"
+    IDS_EXIT                "Avslutt"
+    IDS_CONNECTING          "Koplar til"
+    IDS_FAILED              "Feila"
+    IDS_ERR_BADSERVERREPLY  "Motteke feil eller ugyldig loginsvar frå tenar"
+    IDS_NEWCLIENTID         "Ny klientID er %u"
+    IDS_SHAREDFOLDERS       "Delte mapper"
+    IDS_VIEW1               "Sjå "
+    IDS_VIEW2               " (ikkje delt)"
+    IDS_PRIOLOW             "Låg"
+    IDS_PRIONORMAL          "Normal"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOHIGH            "Høg"
+    IDS_DOWNLOADMENUTITLE   "Nedlastingar"
+    IDS_PRIORITY            "Prioritet"
+    IDS_NEWSERVERS          "Motteke %u nye tenarar"
+    IDS_DL_STOP             "Stopp"
+    IDS_DL_PAUSE            "Pause"
+    IDS_DL_RESUME           "Hald fram"
+    IDS_DL_OPEN             "Opne fila"
+    IDS_DL_INFO             "Syn fildetaljar"
+    IDS_DL_CLEAR            "Fjern ferdige"
+    IDS_DL_LINK1            "Kopier ED2k link til utklippstavle"
+    IDS_DL_LINK2            "Kopier ED2k link til utklippstavle (HTML)"
+    IDS_SHOWDETAILS         "Syn detaljar"
+    IDS_SEND_MSG            "Send melding"
+    IDS_ASKING              "Spør"
+    IDS_CONNVIASERVER       "Koplar til via tenar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ONQUEUE             "I kø"
+    IDS_TRANSFERRING        "Overfører"
+    IDS_RECHASHSET          "Mottek hashsett"
+    IDS_NONEEDEDPARTS       "Ingen naudsynte delar"
+    IDS_NOCONNECTLOW2LOW    "Kan ikkje kople til (låg ID til låg ID)"
+    IDS_UNKNOWN             "Ukjend"
+    IDS_ASKED4ANOTHERFILE   "Dobbel filspurnad"
+    IDS_Q_CANCELDL          "Vil du annullere og slette desse filene?\n"
+    IDS_Q_CANCELDL2         "Vil du annullere og slette denne fila?\n"
+    IDS_DL_FILENAME         "Filnamn"
+    IDS_DL_SIZE             "Storleik"
+    IDS_DL_TRANSF           "Overført"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_SPEED            "Fart"
+    IDS_DL_PROGRESS         "Framdrift"
+    IDS_DL_SOURCES          "Kjelder"
+    IDS_ERR_BADSERVERLISTRECEIVED "Feil i motteken tenarlistepakke"
+    IDS_STATUS              "Status"
+    IDS_DL_REMAINS          "Manglar"
+    IDS_UPDATEFROM          "Oppdater frå URL: (filter.dat- eller PeerGuardian-format)"
+    IDS_QL_USERNAME         "Brukarnamn"
+    IDS_QL_RATING           "Gradering"
+    IDS_CONNECTINGTO        "Koplar til %s (%s:%u)..."
+    IDS_CLIENTS             "Klientar"
+    IDS_SEARCH_ANY          "Alle"
+    IDS_SEARCH_AUDIO        "Lyd/musikk"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "Bilete"
+    IDS_SEARCH_PRG          "Program"
+    IDS_SEARCH_VIDEO        "Video"
+    IDS_SEARCH_CDIMG        "CD-bilete"
+    IDS_SEARCH_ARC          "Arkiv"
+    IDS_ERR_INVALIDLINK     "Denne ed2k-lenka er feil (%s)"
+    IDS_ERR_LINKERROR       "Feil lenke: %s"
+    IDS_ERR_NOTCONNECTED    "Du er ikkje tilkopla ein tenar!"
+    IDS_REMOVETHIS          "Fjern valte tenarar"
+    IDS_REMOVEALL           "Fjern alle tenarar"
+    IDS_SRV_ADDR            "Skriv inn ei tenaradresse"
+    IDS_SRV_PORT            "Ikkje komplett tenarport: Skriv inn ein tenarport"
+    IDS_SRV_NOTADDED        "tenar ikkje lagt til!"
+    IDS_SRV_NOURLAV         "Ingen URL tilgjengeleg"
+    IDS_INVALIDURL          "Feil URL"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET "Kunne ikkje laste ned tenarliste frå %s"
+    IDS_PERMISSION          "Løyve"
+    IDS_SHAREDFILES         "Delte filer"
+    IDS_PRIOVERYLOW         "Svært låg"
+    IDS_PRIORELEASE         "Utgiving"
+    IDS_FSTATUS_FRIENDSONLY "Berre venar"
+    IDS_ERR_RENAMESF        "Klarte ikkje å døype om\r\n    ""%s""\r\nto\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "Tilgjengelege"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FSTAT_TRANSFER      "Overfører"
+    IDS_CONNECTIONS         "Kopling"
+    IDS_FSTAT_SERVERS       "Tenarar"
+    IDS_FSTAT_WAITING       "Avventar..."
+    IDS_TIME                "Tid"
+    IDS_STATS_DDATA         "Nedlasta data: %s"
+    IDS_STATS_UDATA         "Opplasta data: %s"
+    IDS_STATS_AVGDL         "Gjenomsnittleg nedlasta: %s"
+    IDS_STATS_AVGUL         "Gjenomsnittleg opplasta: %s"
+    IDS_STATS_FOUNDSRC      "Kjelder funne: %u"
+    IDS_STATS_ACTDL         "Aktive nedlastingar (delar): %u"
+    IDS_STATS_ACTUL         "Aktive opplastingar: %u"
+    IDS_STATS_WAITINGUSERS  "Ventande opplastingar: %u"
+    IDS_STATS_RECONNECTS    "Restituerer kopling: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "Ukjend: %u"
+    IDS_STATS_TOTAL         "Totalt: %u"
+    IDS_DISABLED            "Deaktivert"
+    IDS_STOPPED             "Stoppa"
+    IDS_STATS_UPDATELABEL   "Oppdateringsfart: %u sek"
+    IDS_ASKEDFAF            "\nEtterspurt andre filer"
+    IDS_WAITED              "Ventar"
+    IDS_ERR_LOADCREDITFILE  "Greidde ikkje å laste inn kredittfila; lagar ei ny"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "Kredittfila er ikkje oppdatert og vert restituert"
+    IDS_CREDITFILELOADED    "Kredittfila lasta inn, %u kjende "
+    IDS_CREDITFILECORRUPT   "Feil: Kredittfila inneheld ein feil og vert restituert!"
+    IDS_ERR_CREDITFILEREAD  "Uventa filfeil ved innlesing av kredittfila: %s"
+    IDS_ERR_FAILED_CREDITSAVE "Kunne ikkje lagre kredittfila"
+    IDS_NOPARTSFOUND        "Ingen delar av fila funnen"
+    IDS_FOUNDPARTS          "Funne %u delfiler"
+    IDS_NEWDOWNLOAD         "Lastar ned %s"
+    IDS_ERR_ALREADY_DOWNLOADING "Du lastar allereie ned denne fila %s"
+    IDS_ERR_ALREADY_DOWNLOADED "Du har allerie lasta ned denne fila %s"
+    IDS_ERR_SERVERMET_BAD   "Feil: fila known.met er feil, kunne ikkje lese inn kjende filer"
+    IDS_ERR_SERVERMET_UNKNOWN "Uventa filfeil ved innlesing av known.met: %s, kunne ikkje lese inn kjende filer"
+    IDS_ERR_CONNECTIONERROR "Feil ved kopling til %s (%s:%u): %s"
+    IDS_ERR_SOCKET          "Feil i tenarsokkel: %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "Funne %u kjende delte filer"
+    IDS_SHAREDFOUNDHASHING  "Funne %u kjende delte filer, hashar %u nye filer no"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "Førespurnad på ikkje ferdig del"
+    IDS_ERR_OPEN            "Kunne ikkje opne ønska fil"
+    IDS_ERR_CLIENTERRORED   "Klient '%s' forårsaka ein feil i oppretting av pakke (%s) - avbryt kopling til klient"
+    IDS_ERR_REQ_FNF         "Ønska fil ikkje funnen"
+    IDS_DESC                "Skildring: %s"
+    IDS_PORT                "Port"
+    IDS_ERR_NOVALIDSERVERSFOUND "Ingen gyldige tenarar funne i tenarlista"
+    IDS_CONNECTEDTOREQ      "Tilkopla %s (%s:%u), sender loginførespurnad"
+    IDS_ERR_FATAL           "Fatal feil i koplingsfreisting. Internett er kanskje nede"
+    IDS_ERR_LOSTC           "Tilkoplinga til %s (%s:%u) mista"
+    IDS_ERR_DEAD            "%s (%s:%u) ser ut til å vere daud"
+    IDS_ERR_FULL            "%s (%s:%u) ser ut til å vere full"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_METCORRUPT      "Feil: %s (%s) er feil. Kunne ikkje lese inn fil"
+    IDS_ERR_FILEERROR       "Uventa filfeil ved innlesing av %s (%s): %s"
+    IDS_ERR_FILEOPEN        "Kunne ikkje åpne %s (%s)"
+    IDS_SEL_SKINDIR         "Velje katalog for skinn..."
+    IDS_ERR_REHASH          "Åtvaring: %s kan vere feil, utfører rehashing av ferdige delar"
+    IDS_SKIN_PROF           "Skinnprofilar"
+    IDS_ERR_PART_FNF        ".part fil ikkje funne"
+    IDS_KADOPEN             "Opne"
+    IDS_ERR_SAVEMET         "Mislukka freisting på å lagre delfil: %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "Funne korrupt del (%u) in %s"
+    IDS_HASHINGDONE         "Omhashing ferdig %s. Fila ser ut til å vere ok"
+    IDS_ERR_PARTCORRUPT     "Nedlasta del %u er feil:(  (%s)"
+    IDS_ICHWORKED           "AICH: Restituerte del %u (%s), lagra: %s"
+    IDS_ERR_OUTOFSPACE      "Du har ikkje nok diskplass til å laste ned %s!"
+    IDS_SE                  "Kjeldeutveksling"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONNECTEDTO         "Tilkopla: %s"
+    IDS_DL_PREVIEW          "Førehandssyning"
+    IDS_VIEWQUEUE           "Syn kø"
+    IDS_TW_UPLOADS          "Opplastingar"
+    IDS_TW_DOWNLOADS        "Nedlastingar"
+    IDS_TW_QUEUE            "Klientar i kø:"
+    IDS_SW_SEARCHBOX        "Søk"
+    IDS_SW_NAME             "Namn"
+    IDS_SW_GLOBAL           "Søk globalt"
+    IDS_SW_DIRECTDOWNLOAD   "Direkte nedlasting"
+    IDS_SW_LINK             "ED2K-lenke(r)"
+    IDS_SW_START            "Start"
+    IDS_SCHEDULER           "Tidsplanleggjar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC                 "IRC"
+    IDS_SW_RESULT           "Søkjeresultat"
+    IDS_SW_DOWNLOAD         "Nedlasting valt"
+    IDS_SV_SERVERLIST       "Tenarliste"
+    IDS_SV_SERVERINFO       "Tenarinfo"
+    IDS_SV_LOG              "Logg"
+    IDS_SV_NEWSERVER        "Ny tenar"
+    IDS_SV_ADDRESS          "IP eller adresse"
+
+    IDS_SV_ADD              "Legg til liste"
+    IDS_SV_MET              "Oppdater server.met frå URL"
+    IDS_SV_UPDATE           "Oppdater"
+    IDS_SF_FILES            "Delte filer"
+    IDS_SF_STATISTICS       "Statistikk"
+    IDS_SF_RELOAD           "Oppdater"
+    IDS_SF_CURRENT          "Noverande økt"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPEED_LIMITS        "Fartsbegrensingar"
+    IDS_CAPACITY_LIMITS     "Bandbreiddebegrensing"
+    IDS_ADMIN               "Administrator"
+    IDS_ACCESSDENIED        "Tilgang nekta!"
+    IDS_WEB_LOWUSER         "Gjest"
+    IDS_WEB_ERR_CANTLOAD    "Kan ikkje laste inn: Kan ikke opne fila %s"
+    IDS_GLOBALSEARCH        "Global (tenar)"
+    IDS_METHOD              "Metode"
+    IDS_UNDO                "Angre"
+    IDS_DAYLY               "dagleg"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_MO_FR           "Mån-Fre"
+    IDS_DAY_SA_SO           "Lau-Sun"
+    IDS_MO                  "Måndag"
+    IDS_DI                  "Tysdag"
+    IDS_MI                  "Onsdag"
+    IDS_DO                  "Torsdag"
+    IDS_FR                  "Fredag"
+    IDS_SA                  "Laurdag"
+    IDS_SO                  "Sundag"
+    IDS_WEB_ADMINLOGIN      "Vevtenar admin logg inn"
+    IDS_WEB_GUESTLOGIN      "Vevtenar gjest logg inn"
+    IDS_WEB_SESSIONEND      "Vevtenar: Logg ut"
+    IDS_DETAILS             "Detaljar"
+    IDS_ACTION              "Handling"
+    IDS_REMOVE              "Fjern"
+    IDS_NEW                 "Ny"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TOTAL            "Total"
+    IDS_SF_TRANS            "Overført:"
+    IDS_SF_ACCEPTED         "Aksepterte oppl.:"
+    IDS_SF_REQUESTED        "Førespurde:"
+    IDS_ST_DOWNLOAD         "Nedlastingsfart"
+    IDS_ST_UPLOAD           "Opplastingsfart"
+    IDS_ST_CURRENT          "Noverande"
+    IDS_ST_SESSION          "Sesjonsgjennomsnitt"
+    IDS_ST_ACTIVED          "Aktive nedlastingar"
+    IDS_ST_ACTIVEU          "Aktive opplastingar"
+    IDS_CW_MESSAGES         "Meldingar"
+    IDS_CW_FRIENDS          "Venar"
+    IDS_CW_SEND             "Send"
+    IDS_CW_CLOSE            "Lukk"
+    IDS_PW_GENERAL          "Generelt"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_DIR              "Mapper"
+    IDS_PW_NICK             "Kallenamn"
+    IDS_PW_INCOMING         "Innkomande filer"
+    IDS_PW_TEMP             "Mellombels filer"
+    IDS_PW_BROWSE           "Liste"
+    IDS_PW_SHARED           "Delte mapper (Ctrl+klikk inkluderer undermapper)"
+    IDS_CONNECTION          "Kopling"
+    IDS_PW_DOWNL            "Nedlastingsbegr."
+    IDS_PW_UPL              "Opplastingsbegr."
+    IDS_PW_MAXC             "Maks. koplingar"
+    IDS_PW_CLIENTPORT       "Klientport"
+    IDS_PW_AUTOCON          "Automatisk tilkopling ved oppstart"
+    IDS_PW_RECON            "Kople til på nytt ved tapt kopling"
+    IDS_PW_SERVER           "tenar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_RDEAD            "Fjern daude tenarar etter"
+    IDS_PW_RETRIES          "Freistingar"
+    IDS_PW_SCORE            "Bruk prioriteringssystem"
+    IDS_PW_USC              "Oppdater tenarliste ved oppkopling til ein tenar"
+    IDS_PW_UCC              "Oppdater tenarliste når ein klient er tilkopla"
+    IDS_PW_FILTER           "Filtrer tenarar og klient IP"
+    IDS_PW_USS              "Autooppdater tenarliste ved oppstart"
+    IDS_PW_MISC             "Ymse innstillingar"
+    IDS_PW_TRAY             "Minimer til systemikon"
+    IDS_PW_PROMPT           "Tryggingsspørsmål ved avslutning"
+    IDS_PW_SPLASH           "Syn oppstartsbilete"
+    IDS_PW_DBLCLICK         "Nedlastingsliste opnast ved dobbeltklikk"
+    IDS_PW_TOOL             "Tips forseinkingstid (sekund)"
+    IDS_PW_FRONT            "Bring til front ved klikk på link"
+    IDS_PW_LANG             "Språk"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_FILES            "Filer"
+    IDS_PW_SHARE            "Sjå mine delte filer"
+    IDS_PW_EVER             "Alle"
+    IDS_PW_FRIENDS          "Venar"
+    IDS_PW_NOONE            "Ingen"
+    IDS_PW_RESET            "Nullstill"
+    IDS_PW_APPLY            "Bruk"
+    IDS_EM_TRANS            "Trafikk"
+    IDS_EM_SERVER           "Tenarar"
+    IDS_EM_SEARCH           "Søk"
+    IDS_EM_FILES            "Delte filer"
+    IDS_EM_MESSAGES         "Meldingar"
+    IDS_EM_STATISTIC        "Statistikk"
+    IDS_EM_PREFS            "Innstillingar"
+    IDS_MB_LANGUAGEINFO     "Standardspråk valt. Du kan skifte språk under innstillingar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_GENERAL          "Generelt"
+    IDS_FD_MET              "Part.met fil:"
+    IDS_FD_HASH             "Hash:"
+    IDS_FD_SIZE             "Filstorleik:"
+    IDS_FD_TRANSFER         "Overfør"
+    IDS_FD_PARTS            "Deler:"
+    IDS_FD_TRANS            "Overført:"
+    IDS_FD_DATARATE         "Datarate:"
+    IDS_FD_COMPSIZE         "Ferdig storleik:"
+    IDS_FD_CLOSE            "Lukk"
+    IDS_FD_TITLE            "Fildetaljar"
+    IDS_CD_GENERAL          "Generelt"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "Brukarnamn:"
+    IDS_CD_UHASH            "Brukarhash:"
+    IDS_CD_CSOFT            "Klientdatavare:"
+    IDS_CD_UIP              "IP-adresse:"
+    IDS_CD_SIP              "tenar IP:"
+    IDS_CD_VERSION          "Klientutgåve:"
+    IDS_CD_SNAME            "tenarnamn:"
+    IDS_CD_CDOWN            "Lastar ned:"
+    IDS_CD_DOWN             "Lasta ned (denne økta):"
+    IDS_CD_ADOWN            "Gjennomsnittleg nedlastingsrate:"
+    IDS_CD_TDOWN            "Lasta ned totalt:"
+    IDS_CD_UP               "Lasta opp (denne økta):"
+    IDS_CD_AUP              "Gjennomsnittleg nedlastingsrate:"
+    IDS_CD_TUP              "Lasta opp totalt:"
+    IDS_CD_TRANS            "Overføring"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_SCORES           "Poeng"
+    IDS_CD_MOD              "NL/OL:"
+    IDS_CD_RATING           "Gradering (total):"
+    IDS_CD_USCORE           "Opplastingskøpoeng:"
+    IDS_CD_TITLE            "Klientdetaljar"
+    IDS_EMULEW              "Klikk"
+    IDS_EMULEW2             "for å sjå om ei ny utgåve av emule er tilgjengeleg"
+    IDS_EMULEW3             "her"
+    IDS_PW_MAXSOURCES       "Maks kjelder per fil"
+    IDS_SHAREDFILESCOUNT    "Tal på delte filer: %u"
+    IDS_SF_SIZE             "Samla storleik på delte filer: %s"
+    IDS_ERR_BADPORT         "Feil portnummer"
+    IDS_ERR_NOHELLO         "Spør etter noko utan å helse"
+    IDS_ERR_INVALIDPACKET   "Ugyldig eller korrupt pakke motteke"
+    IDS_ERR_CLIENTERROR     "Klienten '%s' (IP:%s) forårsaka ein feil: %s. Avbryt!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSIZE         "Ikkje gyldig storleik (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "Ugyldig fillenke"
+    IDS_ERR_CREATEPARTFILE  "FEIL: Greidde ikkje opprette delfil)"
+    IDS_CHAT_START          "*** Start meldingsøkt : "
+    IDS_FILEPRIO            "Filprioritet"
+    IDS_SCORE               "Poeng"
+    IDS_ASKED               "Førespurt"
+    IDS_LASTSEEN            "Sist sett"
+    IDS_BANNED              "Nekta"
+    IDS_UUSERS              "Brukarar"
+    IDS_UFAILED             "Feila"
+    IDS_OPENFILE            "Opne fila"
+    IDS_DATE                "Dato"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PARTINFOS           "Delfilnamn:"
+    IDS_PARTINFOS2          "Lastar ned (frå %u kjelder)"
+    IDS_USERID              "BrukarID"
+    IDS_CLIENT              "Klient"
+    IDS_SERVER              "tenar"
+    IDS_SOURCEINFO          "Tal på spurde: %ux - Tilgjengelege delar: %u"
+    IDS_CLIENTSOURCENAME    "\nKlienten sitt filnamn: "
+    IDS_USERINFO            "Kallenamn: %s\n"
+    IDS_FILESTATS_SESSION   "Filstatistikkar for økta: Akseptert %u av %u førespurnader, %s overført\n"
+    IDS_FILESTATS_TOTAL     "Filstatistikkar for alle økter: Akseptert %u av %u førespurnader, %s overført"
+    IDS_REQ_UNKNOWNFILE     "Spurt etter ukjend fil"
+    IDS_SF_AVERAGESIZE      "Gjennomsnittleg filstorleik: %s"
+    IDS_SF_REQUESTS         "Førespurnader"
+    IDS_SF_ACCEPTS          "Aksepterte førespurnader"
+    IDS_SF_TRANSFERRED      "Overført data"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REMOVESEARCHSTRING  "Fjern valde søk"
+    IDS_REMOVESELECTED      "Fjern valde"
+    IDS_REMOVEALLSEARCH     "Fjern alt"
+    IDS_ENTERQUEUE          "Sett i kø"
+    IDS_SF_FAIL             "Daude tenarar"
+    IDS_SF_WUSER            "Brukarar på aktive tenarar"
+    IDS_SF_WFILE            "Filer på aktive tenarar"
+    IDS_SF_USER             "Samla tal på brukarar"
+    IDS_SF_FILE             "Samla tal på filer"
+    IDS_UPLOADTIME          "Opplastingstid"
+    IDS_LASTSEENCOMPL       "Sist sett komplett:"
+    IDS_YES                 "Ja"
+    IDS_NO                  "Nei"
+    IDS_UNBAN               "Fjern frå utestengingslista"
+    IDS_SF_WORKING          "Aktive tenarar"
+    IDS_ADDTOSTATIC         "Legg til i lista over statiske tenarar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDED2SSF           "Legg til i lista over statiske tenarar"
+    IDS_STATICSERVER        "Statisk"
+    IDS_ERROR_SSF           "Kunne ikkje opne staticservers.dat"
+    IDS_SF_ACTIVECON        "Aktive koplingar"
+    IDS_SF_MAXCONLIMITREACHED "Grense for tal på koplingar nådd"
+    IDS_SF_AVGCON           "Gjennomsnittleg tal på kopingar"
+    IDS_SF_PEAKCON          "Høgste tal på koplingar"
+    IDS_ST_ACTIVEC          "Aktive koplingar"
+    IDS_NETWORK             "Nettverk"
+    IDS_SF_DELCOUNT         "Sletta tenarar"
+    IDS_QUEUEFULL           "Kø full"
+    IDS_AVG                 "Gjennomsnitt"
+    IDS_BYTES               "Bytes"
+    IDS_KBYTES              "KB"
+    IDS_MBYTES              "MB"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GBYTES              "GB"
+    IDS_TBYTES              "TB"
+    IDS_SECS                "sek"
+    IDS_MINS                "min"
+    IDS_HOURS               "t"
+    IDS_DAYS                "D"
+    IDS_ED2KLINKFIX         "ED2K-lenker"
+    IDS_RECONNECT           "Automatisk kopling til tenarar vert freista om %u sekund"
+    IDS_SERVERADDED         "Tenarar lagt til: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "Ignorer velkomstmeldingar"
+    IDS_STATS_SUCCUPCOUNT   "Totalt tal på vellukka opplastingssesjonar: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "Ignorer delmeldingar"
+    IDS_STATS_FAILUPCOUNT   "Totalt tal på feila opplastingssesjonar: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "Gjennomsnittleg opplastingstid: %s"
+    IDS_SEARCHMINSIZE       "Min. storleik [MB]"
+    IDS_SEARCHMAXSIZE       "Maks. storleik [MB]"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PREF_ONLINESIG      "Bruk onlinesignatur"
+    IDS_ERROR_SAVEFILE      "Kunne ikkje lagre"
+    IDS_REQ_SHAREDFILES     "Brukaren %s (%u) ville sjå dine delte filer -> %s"
+    IDS_ACCEPTED            "akseptert"
+    IDS_DENIED              "nekta"
+    IDS_PW_CON_DOWNLBL      "Last ned"
+    IDS_PW_CON_UPLBL        "Last opp"
+    IDS_PW_AUTOCONNECTSTATICONLY "Berre automatisk kopling til statiske tenarar"
+    IDS_PW_CON_LIMITFRM     "Begrensing"
+    IDS_STATS_AVGLABEL      "Tid for gjennomsnittleg graf: %u min"
+    IDS_GRAPHS              "Graf"
+    IDS_STREE               "Statistikk tre"
+    IDS_IRC_IGNOREQUITMESSAGE "Ignorer avsluttingsmeldingar"
+    IDS_STATSSETUPINFO      "Statistikksyning"
+    IDS_IRC_SOUNDEVENTS     "Spel lyd ved hendingar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "Freistar å laste ned første og siste del først"
+    IDS_RECOVER_SINGLE      "1 fil gjenoppretta"
+    IDS_RECOVER_MULTIPLE    "%u filer gjenoppretta"
+    IDS_ATTEMPTING_RECOVERY "Freistar arkivgjenoppretting..."
+    IDS_RECOVERY_SUCCESSFUL "Arkivgjenoppretting vellukka"
+    IDS_RECOVERY_FAILED     "Arkivgjenoppretting feila"
+    IDS_STARTNEXTFILE       "Start neste fil når ei fil er ferdig"
+    IDS_FULLCHUNKTRANS      "Freistar å overføre komplette delar ved alle opplastingar"
+    IDS_MANUALSERVERHIGHPRIO "Sett manuelt tillagde tenarar til høg prioritet"
+    IDS_VERBOSE             "Meir (ytterlegare programinformasjon)"
+    IDS_FLAT                "Flat"
+    IDS_ROUND               "Rund"
+    IDS_SAMEUSERHASH        "Klientane '%s' og '%s' har same brukarhash eller IP - fjerna '%s'"
+    IDS_SEARCHEXTENTION     "Filending"
+    IDS_SEARCHAVAIL         "Tilgjenge"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDLIMIT           "Streng begrensing"
+    IDS_COL_MORECOLORS      "fleire..."
+    IDS_TOOMANYCONNS        "For mange koplingar"
+    IDS_DOWNLOADRENAMED     "Det finst allereie ei fil med dette namnet, og fila er lagra som %s"
+    IDS_TBN_DOWNLOADDONE    "Lasta ned:"
+    IDS_PW_TBN_USESOUND     "Bruk lyd"
+    IDS_PW_TBN_ONLOG        "Ny linje i logg"
+    IDS_PW_TBN_ONCHAT       "Startar ein ny meldingsøkt"
+    IDS_PW_TBN_POP_ALWAYS   "Ei ny melding er motteken"
+    IDS_PW_TBN_ONDOWNLOAD   "Ei nedlasting er ferdig"
+    IDS_PW_EKDEV_OPTIONS    "Meldingar"
+    IDS_PW_TASKBARNOTIFIER  "Besk. oppsprett"
+    IDS_PW_TBN_OPTIONS      "Oppsprett når"
+    IDS_TBN_NEWCHATMSG      "Melding frå"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_CON_CAPFRM       "Kapasitet"
+    IDS_IRC_PRIVATECHANSTART "* Privat meldingsøkt starta"
+    IDS_IRC_SLAPMSG         "* %s slår %s med ein stor, feit laks!"
+    IDS_IRC_PRIVMESSAGE     "Privat melding"
+    IDS_IRC_KICK            "Spark"
+    IDS_IRC_SLAP            "Slå"
+    IDS_IRC_JOIN            "Ta del"
+    IDS_IRC_CHANNELLIST     "Kanalliste"
+    IDS_IRC_CONNECT         "Kople til"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FO_PREF_EXISTED     "eMule har oppdaga eksisterande reglar for portane. Difor er dei ikkje overskrivne eller skifta ut. Manglande reglar vart med hell lagd til.\nMerk at andre sine brannmurar eller ruterar ikkje er omfatta av dette!"
+    IDS_FO_PREF_FAILED      "Kunne ikkje konfigurere den interne WinXP brannmuren for dei valte portane!"
+    IDS_FO_PREF_STARTUP     "Opne/stenge portane på WinXP brannmuren ved start/avslutting av eMule"
+    IDS_LOG_LEVEL           "Loggnivå"
+    IDS_NEWMSG              "Ny melding frå '%s' (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "berre i same kategori"
+    IDS_LOG_ULDL_EVENTS     "Logg opplasting/nedlastingshendingar"
+    IDS_PEERCACHE_ENABLED   "Internettleverandøren din støttar PeerCache teknologien; aktiverer cachenedlastingar!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "Tillat brukarar å leggje deg til som ven"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_DISCONNECT      "Kople frå"
+    IDS_IRC_HASJOINED       "* %s har kome inn i %s"
+    IDS_IRC_HASPARTED       "* %s har reist frå %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s vart kasta ut av %s (%s)"
+    IDS_IRC_HASQUIT         "* %s har avslutta (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s har endra namn til %s"
+    IDS_IRC_SETSMODE        "* %s set modus: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** Nokre innstillingar er lagra, men vert enno ikkje støtta. Kanskje må du gå ut av og deretter inn i kanalen att for å oppdatere kallenamnlista."
+    IDS_IRC_CHANNEL         "Kanal"
+    IDS_IRC_NICK            "Kallenamn"
+    IDS_IRC_SEND            "Send"
+    IDS_IRC_NAME            "Namn"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION slår %s med ein stor, feit laks!\001"
+    IDS_IRC_ADDTIMESTAMP    "Legg tidsstempel til meldingar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_USEFILTER       "Bruk kanallistefilter"
+    IDS_IRC_PERFORM         "Iverksetje"
+    IDS_IRC_USEPERFORM      "Iverksetje ved oppstart"
+    IDS_IRC_ADDTOFRIENDLIST "Leggje til i venelista"
+    IDS_IRC_LOADCHANNELLISTONCON "Last inn tenarkanalliste ved oppstart"
+    IDS_IRC_ADDASFRIEND     "la deg til som ven!"
+    IDS_PW_WARNING          "Talet du har valt for ""%s"" er høgare enn operativsystemet ditt støttar: %u\nDette kan føre til at systemet ditt vert ustabilt.\n\nVil du halde fram?"
+    IDS_TAKEOVER            "Ta over"
+    IDS_CLEANUP             "Rydd opp"
+    IDS_RENAME              "Døype om"
+    IDS_IRC_ADDLINKTOIRC    "Legg til IRC utklippstavle for å sende til ein ven"
+    IDS_IRC_SENDLINK        "Send dette til ein ven: "
+    IDS_IRC_RECIEVEDLINK    "%s send (%s) for å verte starta automatisk"
+    IDS_IRC_ACCEPTLINKS     "Ta imot ED2K-lenker i IRC. (Ver varsam med dette!)"
+    IDS_SHARED              "Delt"
+    IDS_DOWNLOADED          "Lasta ned"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCENAMES         "Kjeldenamn"
+    IDS_PREF_STARTMIN       "Start minimert"
+    IDS_PS_TBN_IMPORTANT    "Viktig: Tom for diskplass; tapt tenarkopling"
+    IDS_COLORS              "Fargar"
+    IDS_SP_BACKGROUND       "Bakgrunn"
+    IDS_SP_GRID             "Rutenett"
+    IDS_SP_DL1              "Nedlasting, pågåande"
+    IDS_SP_DL2              "Nedlasting, gjennomsnitt"
+    IDS_SP_DL3              "Nedlasting, gjenomsnitt (økt)"
+    IDS_SP_UL1              "Opplasting, pågåande"
+    IDS_SP_UL2              "Opplastaing, gjennomsnitt"
+    IDS_SP_UL3              "Opplasting, gjennomsnitt (økt)"
+    IDS_SP_ACTCON           "Aktive koplingar"
+    IDS_SP_ACTDL            "Aktive nedlastingar"
+    IDS_SP_ACTUL            "Aktive opplastingar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "Uavgrensa"
+    IDS_PW_MINREC           "Minimum tilrådd\t%u "
+    IDS_PW_UA               "Full opp/ned fart"
+    IDS_PW_PA               "Opp/ned fart på 1kB/s"
+    IDS_IRC_IGNOREINFOMESSAGE "Ignorer infomeldingar"
+    IDS_CONNECTIONLOST      "Tapt kopling"
+    IDS_WIZ_OS_FRAME        "Operativsystem"
+    IDS_HASHINGFILE         "Hashar fil:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "Rett opplastningabandbreidde"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "Rett nedlastingsbandbreidde"
+    IDS_FRIENDLIST          "Venar"
+    IDS_CHATDISCONNECTED    "*** Fråkopla meldingssesjon"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZARD              "Gaid"
+    IDS_ADDFRIEND           "Legg til venar"
+    IDS_REMOVEFRIEND        "Fjern ven"
+    IDS_REMOVEFROMSTATIC    "Fjern frå statisk tenarliste"
+    IDS_LENGTH              "Lengde"
+    IDS_VIDEO               "Video"
+    IDS_AUDIO               "Lyd/musikk"
+    IDS_FILEINFO            "Filinfo"
+    IDS_CODEC               "Kodek"
+    IDS_BITRATE             "Bitrate"
+    IDS_WIDTH               "Breidde"
+    IDS_FPS                 "Fps"
+    IDS_CHANNELS            "Kanalar"
+    IDS_SAMPLERATE          "Samplerate"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HEIGHT              "Høgde"
+    IDS_SHAREDFILES_FAILED  "Kunne ikkje sjå delte filer hos '%s'"
+    IDS_SHAREDFILES_REQUEST "Spør etter delte filer hos '%s'"
+    IDS_VIEWFILES           "Sjå filer"
+    IDS_FRIENDSLOT          "Gje ekstra kopling til ven"
+    IDS_FRIENDDETAIL        "(venekopling)"
+    IDS_UDPDISABLED         "deaktivert"
+    IDS_WIZ_CTFRAME         "Koplingstype"
+    IDS_CONCURDWL           "Parallelle nedlastingar"
+    IDS_WIZARD_CUSTOM       "Særskild"
+    IDS_WIZARD_ENTERBELOW   "(tast inn under!)"
+    IDS_STATS_MAXAVGDL      "Gjennomsnitt maks. nedlastingsrate: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MAXDL         "Maks. nedlastingsfart: %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND "Ignorer ´legg-til-ven´ protokollmelding i emule"
+    IDS_PW_FASTSRVCON       "Snøggtilkopling til tenarar"
+    IDS_SOURCELINKFAILED    "Du treng ein høg ID for å lage ei ED2K-lenke (kjelde)"
+    IDS_ERR_LOADSERVERMET   "Kunne ikkje lese inn server.met!"
+    IDS_ERR_CORRUPTCOMPRPKG "Korrupt komprimert pakke for %s motteke (feil %u)"
+    IDS_ERR_EMFRIENDSINVALID "Fila emfriends.met er ikkje lovleg eller korrupt!"
+    IDS_ERR_READEMFRIENDS   "Ukjend feil i lesing av fila emfriends.met: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "Ukjend tenarinformasjon motteke!"
+    IDS_WIZ_DOWN            "Ned (kbit/s)"
+    IDS_WIZ_UP              "Opp (kbit/s)"
+    IDS_SELECT_INCOMINGDIR  "Vel ei mappe til innkomande filer"
+    IDS_SELECT_TEMPDIR      "Vel ei mappe til mellombels filer"
+    IDS_PRIOAUTO            "Auto"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOAUTONORMAL      "Auto [No]"
+    IDS_PRIOAUTOHIGH        "Auto [Hø]"
+    IDS_PRIOAUTORELEASE     "Auto [Re]"
+    IDS_PRIOAUTOLOW         "Auto [Lå]"
+    IDS_ERR_CONTIMEOUT      "Koplingsfreisting til ""%s"" (%s:%u ) er gått ut på tid"
+    IDS_OUTOFSERVERS        "Det finst ikkje fleire tenarar å kople til"
+    IDS_PW_CONLIMITS        "Koplingsavgrensingar"
+    IDS_MAXCON5SECLABEL     "Maks. nye koplingar / 5 sek."
+    IDS_PW_UAP              "Legg til nye delte filer med autoprioritet"
+    IDS_MAXCLIENT           "Maks brukarar"
+    IDS_PW_TWEAK            "Avansert"
+    IDS_TWEAKS_WARNING      "Åtvaring: Endre ikkje på desse innstillingane dersom du ikkje veit kva du gjer. eMule fungerer fint utan endring av desse innstillingane."
+    IDS_ADDAFRIEND          "Legg til ein ven"
+    IDS_PAF_REQINFO         "Naudsynt informasjon"
+    IDS_PAF_MOREINFO        "Meir informasjon"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "Tast inn ein gangbar IP og port!"
+    IDS_ADD                 "Legg til"
+    IDS_RECOVERED_PARTMET   "Gjenoppretta part.met fil for: %s"
+    IDS_CMT_QUEST           "Kommenter denne fila! (Teksten vil verte synleg for alle brukarar, så skriv helst på engelsk)"
+    IDS_CMT_AIDE            "Du kan nytte dette til å skildre ein film (lengda, historien o.l.), og du kan opplyse andre eMule brukarar om falske filer... "
+    IDS_CMT_ADD             "Rediger filkommentar"
+    IDS_CMT_NONE            "Ingen kommentarar tasta inn..."
+    IDS_CMT_READ            "Filkommentar:"
+    IDS_CMT_SHOWALL         "Syn alle kommentarar"
+    IDS_CMT_READALL         "Alle kommentarar"
+    IDS_CMT_RATEQUEST       "Filkvalitet"
+    IDS_CMT_RATEHELP        "Vurder filkvalitet"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_FAKE            "Ikkje gyldig / feil / falsk"
+    IDS_CMT_POOR            "Dårleg"
+    IDS_CMT_GOOD            "God"
+    IDS_CMT_FAIR            "Grei nok"
+    IDS_CMT_EXCELLENT       "Perfekt"
+    IDS_CMT_NOTRATED        "Ikkje vurdert"
+    IDS_KILO                "k"
+    IDS_MEGA                "M"
+    IDS_GIGA                "G"
+    IDS_TERA                "T"
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "Ignorer eMule protomeldingar"
+    IDS_SMARTLOWIDCHECK     "Bruk smart låg-id kontroll ved kopling"
+    IDS_SF_SRVOCC           "Tenarbelasting: %.2f%%"
+    IDS_3DDEP               "Framdriftsbar stil"
+    IDS_AUTOTAKEED2KLINKS   "ED2K-lenker vert kun tekne over medan eMule køyrer"
+    IDS_ADDNEWFILESPAUSED   "Legg til filer til nedlasting i pausetilstand"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOHELP          "Ver venleg å vitje heimesida vår, download kategorien, for å få ein kopi av den nyaste hjelpefila!\n\nVil du i staden sjå hjelpefila på nettet?"
+    IDS_SHOWOVERHEAD        "Syn dataoverskotbandbreidde"
+    IDS_UPDOWNSMALL         "Opp: %.1f | Ned: %.1f"
+    IDS_EDITLIST            "Liste"
+    IDS_SP_ICONBAR          "Fartsmålar i trauikon"
+    IDS_RATINGRECV          "Filvurdering av '%s' motteken: %u"
+    IDS_DESCRIPTIONRECV     "Filskildring av '%s' motteken: %s"
+    IDS_WEBSERVICES         "Vevtenester"
+    IDS_WEBSVEDIT           "Rediger vevtenester"
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK "Ignorer eMule protokollmelding om send lenke "
+    IDS_CHECK4UPDATE        "Sjå etter ny utgåve"
+    IDS_STARTUP             "Oppstart"
+    IDS_NEWVERSIONAVL       "Det er ei ny utgåve av eMule tilgjengeleg! Sjå eMule si heimeside for meir informasjon."
+    IDS_NEWVERSIONAVLPOPUP  "Det er ei ny utgåve av eMule tilgjengeleg! Klikk her for å lese meir om ho!"
+    IDS_NEWVERSIONFAILED    "Ikkje i stand til å sjå etter ny version"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "Ny utgåve av eMule funne"
+    IDS_NONEWERVERSION      "Ikkje funne ny utgåve av eMule"
+    IDS_VERSIONCHECK        "Utgåvekontroll"
+    IDS_VISITVERSIONCHECK   "\n\nVil du vitje informasjonssida no?"
+    IDS_PW_VIDEOPLAYER      "Videoavspelar"
+    IDS_VIDEOBACKUP         "Opprett tryggingskopi før førehandssyning"
+    IDS_MYINFO              "Min info"
+    IDS_ID                  "ID"
+    IDS_IDLOW               "Låg ID"
+    IDS_IDHIGH              "Høg ID"
+    IDS_UPSTATUS            "Skaffa delar"
+    IDS_TOVERHEAD           "Totalt dataoverskot (pakkar): %s (%s)"
+    IDS_FROVERHEAD          "Filførespurnad dataoverskot (pakkar): %s (%s)"
+    IDS_SSOVERHEAD          "Kjeldeutveksling dataoverskot (pakkar): %s (%s)"
+    IDS_SOVERHEAD           "Tenar dataoverskot (pakkar): %s (%s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD "Kunne ikkje opprette tråd til ferdig fil"
+    IDS_FILEBUFFERSIZE      "Filbufferstorleik"
+    IDS_QUEUESIZE           "Køstorleik"
+    IDS_DAYS2               "dagar"
+    IDS_ERR_MAKEBAKCREDITFILE "Kunne ikkje oprette tryggingskopi av kredittfil"
+    IDS_COMMENT             "Kommentar"
+    IDS_IPFILTERED          "Filtrert IP: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "Ferdig"
+    IDS_DL_ACTIVE_TIME      "Nedlastingstid"
+    IDS_STATS_FILTEREDCLIENTS "Filtrert: %u"
+    IDS_FILTERLABEL         "Filtrer meldingar som inneheld: (separator | )"
+    IDS_ERR_LARGEREQBLOCK   "Klienten etterspurde for stor del"
+    IDS_SHOWRATEONTITLE     "Syn overføringsfart i tittellinja"
+    IDS_TBN_NOMESSAGEHISTORY "Ingen lagra meldingar!"
+    IDS_PW_DAP              "Legg til nye nedlastingar med autoprioritet"
+    IDS_FD_LASTCHANGE       "Siste overføring:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_RUNTIME       "Programkøyretid"
+    IDS_ALL                 "Alle"
+    IDS_CAT_ADD             "Legg til kategori"
+    IDS_CAT_EDIT            "Rediger kategori"
+    IDS_CAT_REMOVE          "Fjern kategori"
+    IDS_CAT                 "Kategori"
+    IDS_TITLE               "Tittel"
+    IDS_COLOR               "Farge"
+    IDS_DEFAULT             "Standard"
+    IDS_PW_DISPLAY          "Display"
+    IDS_INDICATERATINGS     "Syn at nedlastningar har kommentar/vurdering med ikon"
+    IDS_ALLOTHERS           "ikkje kategorisert"
+    IDS_TOCAT               "Tildel kategori"
+    IDS_CAT_UNASSIGN        "(ikkje-kategorisert)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "Legg til desse ED2k-fillenkene til nedlasting?\n"
+    IDS_PF_WATCHCB          "Overvak utklippstavle for ED2k-fillenker"
+    IDS_SECURITY            "Trygging"
+    IDS_IPFILTERLOADED      "%u IP filters loaded"
+    IDS_IPFILTER            "IP-filter"
+    IDS_EDIT                "Rediger"
+    IDS_FILTERLEVEL         "Filternivå"
+    IDS_FILTERSERVERBYIPFILTER "Filtrer tenarar med IP-filter"
+    IDS_FILTERCOMMENTSLABEL "Ignorer kommentarar som inneheld: (Separator | )"
+    IDS_CLIENTLIST          "Kjende klientar"
+    IDS_FOLDER              "Mappe"
+    IDS_CL_UPLOADSTATUS     "Opplasting status"
+    IDS_CL_TRANSFUP         "Lasta opp"
+    IDS_CL_DOWNLSTATUS      "Nedlasting status"
+    IDS_CL_TRANSFDOWN       "Lasta ned"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CL_PENDING          "Ventar"
+    IDS_CL_LOW2LOW          "Låg til låg ID"
+    IDS_ERROR               "Feil"
+    IDS_OPENINC             "Opne innkomande mappe"
+    IDS_HOTMENU             "Snøggmeny"
+    IDS_DISABLEKNOWNLIST    "Deaktiver liste med kjende klientar"
+    IDS_DISABLEQUEUELIST    "Deaktiver køliste"
+    IDS_USECREDITSYSTEM     "Bruk kredittsystem (gje meir til opplastarar)"
+    IDS_FIRSTAUTODOWN       "Skal eMule handtere nedlastingsprioritetar?\n\nDersom du aktiverer dette vil eMule kunne syte for at nedlastingar med mange kjelder ikkje forstyrrer nedlastingar med få kjelder. Dersom du har utgåve 0.26 og lågare vil alle noverande nedlastinger verte sett til autoprioritet. Denne innstillinga vil kun ha betydning for framtidige nedlastingar. (Standard)"
+    IDS_FIRSTAUTOUP         "Skal eMule handtere dine opplastingsprioritetar?\n\nDersom du aktiverer dette vil eMule automatisk syte for å gjere sjeldne filer meir tilgjengeleg enn populære filer. Dersom du ikkje aktiverer dette vil sjeldne filer verte vanskelege å få tak i. Dersom du har utgåve 0.26 og lågare vil alle noverande delte filer verte sett til autoprioritet. Denne innstillinga vil kun ha betydning for framtidige delte filer. (Standard)"
+    IDS_FIRSTSAFECON        "Vil du at eMule skal kople til tenarar ved å nytte smart låg-id sjekk?\n\nDersom du deaktiverer dette kan eMule kople til tenarar litt raskare, men samstundes kan du risikere å få en låg id. (Ikkje valt som standard)"
+    IDS_FIRSTAUTOCON        "Vil du at eMule skal kople til ved oppstart? (Ikkje valt som standard)"
+    IDS_FIRSTCOMPLETE       "Du har no fullført installasjonsrettleiinga.\n\nAlle valte innstillingar kan endrast ved å klikke på ikonet for innstillingar. Dersom du treng hjelp eller forklaringar til innstillingane kan du trykkje på F1 i eMule!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENTERUSERNAME       "Tast inn brukarnamn:"
+    IDS_STATIC_CPUMEM       "Spar CPU og minne"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT "Søkjeordet er for kort.\r\n\r\nSøkjeord som skal nyttast i Kad-søk må vere minst 3 karakterar lange."
+    IDS_LOG2DISK            "Lagre logg til disk"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING "Det er allereie eit Kad søk i gong for dette søkjeordet ""%s"".\r\n\r\nVent til det noverande søket er avslutta eller For å søkje etter dette ordet må du anten vente til det noverande søket er over, eller stenge vindauget med søkjeresultat."
+    IDS_KAD_SEARCH_KEYWORD_INVALID "Ugyldig Kad-søk.\r\n\r\nA Kad søk må ha følgjande format: \r\n\r\n\t<kad-søkjeord> [ <ed2k-søkjeord> ]\r\n\r\nKad søkjeordet <kad-søkjeord> må ikkje innehalde nokon av dei følgjande teikna:\r\n\r\n\t%s"
+    IDS_EDITCAT             "Rediger kategorieigenskapar"
+    IDS_PW_WS               "Vev"
+    IDS_ENABLED             "Aktivert"
+    IDS_WEB_LOGIN           "Logg inn"
+    IDS_WEB_ENTER_PASSWORD  "Tast inn passordet ditt"
+    IDS_WEB_LOGIN_NOW       "Logg inn no"
+    IDS_WEB_CONFIRM_REMOVE_SERVER "Er du sikker på at du vil fjerne denne tenaren frå lista?"
+    IDS_WEB_CONTROL         "Vevkontrollpanel"
+    IDS_WEB_LOGOUT          "Logg ut"
+    IDS_WEB_ACTIONS         "Handling"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "Syn kø"
+    IDS_WEB_GZIP_COMPRESSION "Gzip-komprimering"
+    IDS_WEB_GZIP_COMMENT    "Spar på bandbreidde"
+    IDS_WEB_REFRESH_TIME    "Tid for oppdatering av sider"
+    IDS_WEB_REFRESH_COMMENT "Tid i sekund (null=deaktivert):"
+    IDS_SV_URL              "URL"
+    IDS_WS_RELOAD_TMPL      "Oppdater mal"
+    IDS_SV_DEBUGLOG         "Reparasjonslogg"
+    IDS_WS_PASS             "Passord"
+    IDS_WS_ERR_LOADTEMPLATE "Kan ikkje lese inn malar: Skift ut fila %s med ei nyare utgåve!"
+    IDS_WEB_CONLIMITS       "Koplingsavgrensingar"
+    IDS_INFLST_USER_TOTALDOWNLOAD "Lasta ned totalt"
+    IDS_INFLST_USER_TOTALUPLOAD "Lasta opp totalt"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "Vevtenar: Innlogging feila"
+    IDS_ERR_TOOLARGEFILE    "Fila er større enn edonkeyprotokollen kan handsame (>=256GB)"
+    IDS_MSGONLYFRIENDS      "Aksepter kun fra venar"
+    IDS_DAY_MO_SA           "Mån-Lau"
+    IDS_LIMITSOURCES        "Øvre kjeldegrense"
+    IDS_LIMITCONS5SEC       "Øvre koplingsgrense / 5 sek."
+    IDS_SCHED_CATSTOP       "Kat:Stopp nedlastingar"
+    IDS_SCHED_CATRESUME     "Kat:Hald fram med nedlastingar"
+    IDS_S_DAYS              "Dagar"
+    IDS_STARTTIME           "Starttid"
+    IDS_VALUE               "Verdi"
+    IDS_SCHED_ENTERDATARATELIMIT "Tast inn datarategrense:"
+    IDS_SCHED_ENTERVAL      "Tast inn ny verdi:"
+    IDS_SCHED_ACTCONFIG     "Konfigurer handling"
+    IDS_SELECTCAT           "Vel kategori"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALLUNASSIGNED       "Alle ukategoriserte"
+    IDS_ACTSESSIONS         "Aktive økter"
+    IDS_WEBSRV              "Vevgrensesnitt"
+    IDS_SW_REFETCHRES       "Last inn resultat"
+    IDS_FILEHASH            "Filhash"
+    IDS_PW_PROXY            "Vikar"
+    IDS_PROXY_ENABLE        "Aktiver vikar"
+    IDS_PROXY_TYPE          "Vikartype:"
+    IDS_PROXY_HOST          "Vikarvert:"
+    IDS_PROXY_PORT          "Vikarport:"
+    IDS_PROXY_AUTH          "Aktiver godkjenning"
+    IDS_AUTH                "Godkjenning"
+    IDS_SHOWCATINFO         "Syn nedlastingsinfo på kategorifaneblad"
+    IDS_SW_SEARCHINGINFO    "Søkjer. Les inn resultat om ein augneblink!"
+    IDS_LOGENTRY            "Logg innføring"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "Kopier"
+    IDS_SELECTALL           "Velje alle"
+    IDS_AUTOSCROLL          "Autorulling"
+    IDS_WIZ1_WELCOME_TITLE  "Velkomen til eMule"
+    IDS_WIZ1_WELCOME_ACTIONS "Denne rettleiinga vil gaide deg gjennom dei første trinna i oppsettet av eMule."
+    IDS_WIZ1_WELCOME_BTN_HINT "For å halde fram, klikk neste"
+    IDS_WIZ1_END_TITLE      "Rettleiinga er fullført"
+    IDS_WIZ1                "eMule førstegongsrettleiing"
+    IDS_WIZ1_END_BTN_HINT   "Klikk ferdig for å avslutte denne rettleiinga"
+    IDS_WIZ1_UPLOAD_SUBTITLE "Overføring av full pakke"
+    IDS_DL_RESUMENEXT       "Hald fram med neste pausa fil"
+    IDS_STARTPRIO           "Prioritet for denne kategorien"
+    IDS_PREF_STARTNEXTFILECAT "Favoriser same kategori"
+    IDS_SOFTFILES           "Mjuk filgrense"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDFILES           "Hard filgrense"
+    IDS_FILTER              "Filter"
+    IDS_LINKS               "Lenker"
+    IDS_HM_SCHED_ON         "Aktiver tidsplanleggjar"
+    IDS_HM_SCHED_OFF        "Deaktiver tidsplanleggjar"
+    IDS_HM_LINKHP           "eMule heimeside"
+    IDS_HM_LINKFAQ          "eMule FAQ"
+    IDS_HM_LINKVC           "eMule utgåvekontroll"
+    IDS_DEBUG_SOURCE_EXCHANGE "Syn kjeldeutvekslingsmeldingar"
+    IDS_SHAREDREQ1          "Brukar %s (%u) førespurt liste over dine delte mapper -> %s"
+    IDS_SHAREDREQ2          "Brukar %s (%u) førespurt liste over delte filer for mappe '%s' -> %s"
+    IDS_SHAREDANSW          "Brukar %s (%u) deler mappe '%s'"
+    IDS_SHAREDANSW2         "Brukar %s (%u) sende ikkje førespurt liste over delte mapper - ignorert"
+    IDS_SHAREDINFO1         "Brukar %s (%u) sende liste over delte filer for mappe '%s'"
+    IDS_SHAREDINFO2         "Brukar %s (%u) ferdig med å sende lister over delte filer"
+    IDS_SHAREDANSW3         "Brukar %s (%u) sende ikkje førespurt liste over delte filer for mappe '%s' - ignorert"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDREQDENIED     "Brukar %s (%u) gjev ikkje tilgang til delte mapper/filer"
+    IDS_AUTOCLEANUPFN       "Rydd opp i  filnamn"
+    IDS_ONNEWDOWNLOAD       "Klargjer"
+    IDS_FILTERFILENAMEWORD  "Tast inn ord som skal filtrerast, delt med |"
+    IDS_FNFILTERTITLE       "Rediger filordfilter for namneopprydding"
+    IDS_CHANGECATVIEW       "Syn filter"
+    IDS_STATUS_NOTCOMPLETED "Ikkje ferdig"
+    IDS_STATS_CUMULATIVE    "Kumulativ"
+    IDS_STATS_OVRHD         "Dataoverskot"
+    IDS_STATS_RECORDS       "Rekordar"
+    IDS_STATS_COMPDL        "Ferdige nedlastingar"
+    IDS_STATS_SVRECWORKING  "Maks tenarar i drift"
+    IDS_STATS_SVRECUSERS    "Maks brukarar pålogga"
+    IDS_SEARCH_TEXT         "Søk etter"
+    IDS_STATS_SVRECFILES    "Maks filer tilgjengeleg"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SHRECNUM      "Maks filer delt"
+    IDS_SEARCH_COLUMN       "Søk i kolonne"
+    IDS_STATS_SHRECSIZE     "Storleik største deling"
+    IDS_STATS_SHRECASIZE    "Største gjennomsnittlege filstorleik"
+    IDS_STATS_SESSION       "Sesjon"
+    IDS_STATS_SRATIO        "Sesjon OL:NL rate:"
+    IDS_STATS_CRATIO        "Kumulativ OL:NL rate:"
+    IDS_SEARCH_NORESULT     "Ingen resultat funne"
+    IDS_STATS_CURRSRVDUR    "Varigskap noverande tenarar"
+    IDS_LONGSECS            "Sekund"
+    IDS_STATS_DLSES         "Nedlastingsøkter"
+    IDS_LONGMINS            "Minutt"
+    IDS_STATS_SDLSES        "Fullførde nedlastingsøkter"
+    IDS_STATS_FDLSES        "Feila nedlastingsøkter"
+    IDS_STATS_AVGDATADLSES  "Gjenomsnitt nedlasta per økt"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ULSES         "Opplasta (økter)"
+    IDS_STATS_GAINCOMP      "Vunne gjennom komprimering: %s"
+    IDS_STATS_LOSTCORRUPT   "Tapt gjennom korrupsjon: %s"
+    IDS_STATS_AVGDATAULSES  "Gjenomsnitt opplasta per sesjon"
+    IDS_STATS_ICHSAVED      "Deler lagra med AICH: %u"
+    IDS_STATS_MBRESET_TXT   "Er du viss på at du vil slette den samla statistikken?\n\nDersom du held fram kan du restituere den ved å klikke på 'Restituer statistikkar' knappen."
+    IDS_STATS_MBRESTORE_TXT "Er du viss på at du vil restituere den kumulative statistikken frå lagra fil?\n\nDersom du klikkar på 'Restituer statistikkar' vil din noverande statistikk verte lasta inn på nytt."
+    IDS_ERR_NOSTATBKUP      "FEIL: Lagra statistikkfil vart ikkje funnen..."
+    IDS_STATS_NFOLOADEDBKUP "Lasta inn statistiske data frå lagra fil..."
+    IDS_STATS_NFORESET      "Statistikken har vorte nullstilt!"
+    IDS_STATS_BNRESET       "Nullstill statistikk"
+    IDS_STATS_BNRESTORE     "Restituer statistikkar"
+    IDS_PPGSTATS_YSCALE     "Koplingsstatistikk y-akseskala:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "Aktiv koplingsrate:"
+    IDS_STATS_PROBLEMATIC   "Problematisk"
+    IDS_LONGHRS             "Timar"
+    IDS_STATS_LARGESTFILE   "Største delte fil"
+    IDS_STATS_DSPF          "Delfil"
+    IDS_STATS_DATASOURCE    "Datakjelde"
+    IDS_STATS_DSFILE        "Komplett fil"
+    IDS_STATS_GENERAL       "Generelt"
+    IDS_STATS_TRANSTIME     "Overføringstid"
+    IDS_STATS_DOWNTIME      "Nedlastingstid"
+    IDS_STATS_UPTIME        "Opplastingstid"
+    IDS_STATS_TOTALSRVDUR   "Total tenarvarigskap"
+    IDS_STATS_MAXAVGUL      "Maks gjennomsnittleg opplastingsrate"
+    IDS_STATS_MAXUL         "Maks opplastingsrate"
+    IDS_STATS_AVGDLTIME     "Gjenomsnittleg nedlastingstid"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_PRTDEF        "Standard"
+    IDS_STATS_PRTOTHER      "Andre"
+    IDS_STATS_MNUTREETITLE  "Statistikktre"
+    IDS_STATS_MNUTREECPYSEL "Kopier valt grein"
+    IDS_STATS_MNUTREECPYALL "Kopier all statistikk"
+    IDS_STATS_MNUTREEHTML   "HTML-eigenskapar"
+    IDS_STATS_EXPORT2HTML   "Eksporter all statistikk"
+    IDS_STATS_MNUTREECPYVIS "Kopier alt synleg"
+    IDS_STATS_MNUTREEEXPANDALL "Utvid alle seksjonar"
+    IDS_STATS_MNUTREECOLLAPSEALL "Trekk saman alle seksjonar"
+    IDS_STATS_MNUTREEEXPANDMAIN "Vid ut hovudseksjonar"
+    IDS_STATS_LASTRESETSTATIC "Statistikk sist nullstild: %s"
+    IDS_STATS_MONTHLY       "Månadleg"
+    IDS_STATS_YEARLY        "Årleg"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_TIMESTATS     "Tidsstatistikk"
+    IDS_STATS_AVGANDPROJ    "Beregna gjenomsnitt"
+    IDS_STATS_TIMESINCERESET "Tid sidan siste nullstilling: %s"
+    IDS_CRYPT_INITFAILED    "Klarte ikkje å starte krypteringslykel - sikker identifikasjon deaktivert"
+    IDS_CD_IDENT            "Ident:"
+    IDS_IDENTOK             "Vellukka"
+    IDS_IDENTFAILED         "ident OK"
+    IDS_IDENTNOSUPPORT      "Ikkje støtta eller deaktivert"
+    IDS_COMMITFILES         "Sikker .met/.dat fil skriving"
+    IDS_ERR_BADUNC          "Feil UNC-namn"
+    IDS_NEVER               "Aldri"
+    IDS_ALWAYS              "Alltid"
+    IDS_ONSHUTDOWN          "Ved avslutting"
+    IDS_UNCFOLDERS          "UNC-mapper"
+    IDS_USESECIDENT         "Bruke sikker identifikasjon"
+    IDS_ADVSPAMFILTER       "Avansert søppelfilter"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CUT                 "Klipp"
+    IDS_STATS_SECUREIDENT   "Sikker identifikasjon (OK : FEILA )"
+    IDS_ONDISK              "Storleik på disk: "
+    IDS_CLIENTCOL           "Åtvaring: Identisk klient til ein allereie tilkopla klient: %s (%s) og %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "Uavslutta streng"
+    IDS_SEARCH_GENERALERROR "Generell feil"
+    IDS_SEARCH_MISSINGORRIGHT "Manglar høgre side til OR operatøren"
+    IDS_SEARCH_MISSINGNOTRIGHT "Manglar høgre side til NOT operatøren"
+    IDS_SEARCH_MISSINGEXPRPARANT "Manglar uttrykk for '(' ')'"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "Manglar avslutta ')'"
+    IDS_SEARCH_EXPRERROR    "Klarte ikkje overføre søkjeuttrykk"
+    IDS_SEARCH_TOOCOMPLEX   "Søkjeuttrykket er for komplekst"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSION             "Utgåve"
+    IDS_PASTE               "Sett inn"
+    IDS_A4AF                "Kjeldehandsaming (A4AF)"
+    IDS_AUTOCAT_LABEL       "Automatisk kategoritildeling (mønster, skild av |)"
+    IDS_SHOWEXTSETTINGS     "Syn fleire innstillingar (avanserte innstillingar)"
+    IDS_TREEOPTIONS_TRUE    "Sant"
+    IDS_TREEOPTIONS_FALSE   "Feil"
+    IDS_TREEOPTIONS_OK      "OK"
+    IDS_HYPERTEXT_FONT_HINT "Skrifttype for tenar-, meldings- og IRC-vindauget"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SELECT_FONT         "Velje skrifttype"
+    IDS_SERVER_LIMITS       "Mjuk/hard filgrense"
+    IDS_KBITSSEC            "kbit/sek"
+    IDS_KBYTESSEC           "kByte/sek"
+    IDS_ERR_CREATE_DIR      "Klarte ikkje å opprette %s mappe ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED "Innkomande mappe må ikkje settast til ei eMule installasjonsmappe"
+    IDS_WRN_TEMPFILES_RESERVED "Den mellombelse mappa må ikkje settast til ei eMule installasjonsmappe"
+    IDS_WRN_INCTEMP_SAME    "Innkommende mappe og mellombels mappe må ikkje vere den same"
+    IDS_SHOWDWLPERCENTAGE   "Syn prosentdel nedlasta i framdriftslinja"
+    IDS_TBN_ONNEWDOWNLOAD   "Nedlasting lagt til"
+    IDS_ARTIST              "Artist"
+    IDS_ALBUM               "Album"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UPLOADREQ        "Etterspurt opplasta:"
+    IDS_SETTINGCHANGED_RESTART "Start opp att eMule for å aktivere dei endra innstillingane!"
+    IDS_CREDITSEXPIRED      ", %u klientar sletta (ikkje sett siste 5 månadane)"
+    IDS_SOURCESINFO         "%u  (Nyttig: %u, NNP: %u, A4AF: %u)"
+    IDS_META_DATA           "Metadata"
+    IDS_TIMEBEFORE          "(%s sidan)"
+    IDS_FD_TIMEDATE         "Datoar"
+    IDS_FILEINFORMATION     "Filinformasjon"
+    IDS_STATS_FREESPACE     "Friplass"
+    IDS_IRC_HELPCHANNEL     "Kople til hjelpekanalane"
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-norwegian"
+    IDS_IRC_ACCEPTLINKSFRIENDS "Kun fra venar"
+    IDS_COMPLSOURCES        "Komplette kjelder"
+    IDS_CHECKNOENDTIME      "Inga slutttid"
+    IDS_FD_DOWNLOADSTARTED  "Nedlasting lagt til: "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FAILEDREOPEN        "Fatal feil: Klarte ikkje å opne delfila '%s' (%s)!"
+    IDS_ERR_PREVIEWALREADY  "Det er allereie ein førespurnad om førehandssyning frå denne klienten"
+    IDS_ERR_PREVIEWFAILED   "Førehandssyning frå brukar '%s' mislukka"
+    IDS_DWTOT               "Diskplass"
+    IDS_DWTOT_NR            "Tal på nedlastingar: %u"
+    IDS_DWTOT_TSD           "Total storleik på nedlastingar: %s"
+    IDS_DWTOT_TCS           "Total komplettert storleik: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "Total attståande storleik for nedlasting: %s"
+    IDS_DWTOT_TSN           "Total naudsynt plass for nedlasting: %s"
+    IDS_DWTOT_FS            "Fri plass på mellombels disk: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (du må frigjere %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT "Oppdateringsintervall for tenarkopling [min.]"
+    IDS_MORE                "Meir"
+    IDS_TOOLS               "Verkty"
+    IDS_SEARCHPARAMS        "parameter"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u hashar)"
+    IDS_CHECKDISKSPACE      "Kontroller diskplass"
+    IDS_YOURHOSTNAME        "Vertsnamn til eigne eD2K-lenker"
+    IDS_INSUFFICIENT        "Ikkje nok diskplass"
+    IDS_MINFREEDISKSPACE    "Min. fri diskplass [MB]"
+    IDS_WARNING             "Åtvaring"
+    IDS_IMPORTSPLPF         "Importer delfiler (eMule,eDonkey,Overnet)"
+    IDS_IMP_STEPREADPF      "Les frå mellombels mappe"
+    IDS_IMP_STEPBASICINF    "Leser informasjon frå delfil"
+    IDS_IMP_STEPCRDESTFILE  "Opprettar destinasjonsfil"
+    IDS_IMP_LOADDATA        "Les inn data frå gamal delfil (%u av %u)"
+    IDS_IMP_SAVEDATA        "Lagrar delane i ny fil (%u av %u)"
+    IDS_IMP_IOERROR         "Konverteringsfeil i delfil"
+    IDS_IMP_GETPFINFO       "Hentar kjeldeinformasjon for nedlastingsfil"
+    IDS_IMP_ADDDWL          "Legg til ny nedlasting og lagrar ny delfil"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_FETCHSTATUS     "Finn status..."
+    IDS_IMP_INPROGR         "Undervegs"
+    IDS_IMP_ERR_DISKSP      "Feil: Ikkje meir plass på disk!"
+    IDS_IMP_ERR_PARTMETIO   "Feil: Part.met ikkje funne"
+    IDS_IMP_ERR_IO          "Feil: IO feil!"
+    IDS_IMP_ERR_FAILED      "Feil: Mislukka!"
+    IDS_IMP_STATUSQUEUED    "Ventar i kø"
+    IDS_IMP_ALRDWL          "Vert allereie nedlasta"
+    IDS_IMP_ADDBTN          "Legg til importerte"
+    IDS_IMP_RETRYBTN        "Prøv igjen"
+    IDS_IMP_REMOVEBTN       "Fjern"
+    IDS_IMP_SELFOLDER       "Vel ei part.met mappe eller di gamle mellombels mappe med alle part.met undermapper!"
+    IDS_IMP_DELSRC          "Vil du slette kjeldefilene frå ferdige nedlastingar?"
+    IDS_IMP_SIZE            "%s (Disk:%s)"
+    IDS_IMP_STATUS          "Importerer %s: %s"
+    IDS_DYNUPENABLED        "Finn beste opplastingsgrense automatisk"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "Pingtoleranse (% av lågaste ping)"
+    IDS_DYNUP_GOINGUPDIVIDER "Gå opp sakte"
+    IDS_DYNUP_GOINGDOWNDIVIDER "Gå ned sakte"
+    IDS_DYNUP_NUMBEROFPINGS "Maks gjennomsnittleg pingtal"
+    IDS_DYNUP_MINUPLOAD     "Lågast lovlege opplastingsfart"
+    IDS_ESTTIMELEFT         "Beregna attståande tid:"
+    IDS_TRANSFER_RATE_LABEL "Overføringsrate:"
+    IDS_SAVELOG             "Lagre logg"
+    IDS_CMT_COPYCLIPBOARD   "Kopier kommentar til utklippstavla"
+    IDS_ASKDOWNLOADLANG     "Det valde språket er ikkje installert på PCen din. Vil du laste det ned frå emule-project.net?"
+    IDS_ASKDOWNLOADLANGCAP  "Last ned språkfiler"
+    IDS_DELETESELECTED      "Slett"
+    IDS_ERR_FAILEDDOWNLOADLANG "Klarte ikkje å laste ned og installere den valde språk-dll fila frå %s!"
+    IDS_ERR_BADFOLDER       "Ugyldig mappe.\nMappe kunne ikkje verte oppretta. Kontroller namn og plasering."
+    IDS_AUTOREMOVEFD        "Ta bort ferdige nedlastingar automatisk"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_NODE            "Nodeoppslag"
+    IDS_KAD_STOREFILE       "Lagre fil"
+    IDS_KAD_STOREKW         "Lagre lykelord"
+    IDS_KAD_UNKNOWN         "Ukjend"
+    IDS_SRV_TCPCOMPR        "TCP-kompresjon"
+    IDS_KADSEARCHLAB        "Noverande søk"
+    IDS_SRV_UDPSR           "Utvida UDP-protokoll for kjeldespurnadar"
+    IDS_SRV_UDPFR           "Utvida UDP-protokoll for filspurnadar"
+    IDS_MINLENGTH           "Min. lengde [tt:mm:ss]"
+    IDS_EM_HELP             "Hjelp"
+    IDS_WRN_FRIENDDUPLIPPORT "Ven ikke lagd til.\r\n\r\nDet finst allereie ein ven med same IP og port tilgjengeleg."
+    IDS_DYNUP               "Opplastingsfartsmålar"
+    IDS_KADOVERHEAD         "Kad-dataoverskot (pakkar): %s (%s)"
+    IDS_FIND                "Finn..."
+    IDS_LOG_BANNED_CLIENTS  "Logg nekta klientar"
+    IDS_LOG_RATING_RECV     "Logg mottekne filskildringar og graderingar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "Frå kjende klientar"
+    IDS_KADUDPPORTERR       "Kad sin UDP-port er i konflikt med anten eMule sin eksterne UDP port eller eMuletenaren sin UDP-port. Porten er endra til %u."
+    IDS_CONFIRM_FILEDELETE  "Vil du verkeleg slette alle valde filer fra disken?"
+    IDS_OPENFOLDER          "Opne mappe"
+    IDS_RUNASUSER           "Køyre eMule som uprivilegert brukar"
+    IDS_DELETE              "Slett frå disk"
+    IDS_BOOTSTRAP           "Eigenoppstart"
+    IDS_VIAED2KSQ           "via ED2K-tenar"
+    IDS_EM_KADEMLIA         "Kad"
+    IDS_VIAKAD              "via Kad"
+    IDS_VIASE               "via kjeldeutveksling"
+    IDS_SELECTTOOLBARBITMAP "Velje bitmap til verktylinje"
+    IDS_SELECTTOOLBARBITMAPDIR "Velje bitmapmappe"
+    IDS_TOOLBARSKINS        "skinn til Verktyslinje"
+    IDS_NOTEXTLABELS        "Ingen merkelappar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "Tekstmerkelappar til høgre"
+    IDS_TEXTLABELS          "Tekstmerkelappar"
+    IDS_ENABLETEXTLABELS    "Syn tekstmerkelappar"
+    IDS_CUSTOMIZETOOLBAR    "Spesialbygg Verktylinje"
+    IDS_MINBITRATE          "Min. bitrate [kbit/s]"
+    IDS_KAD_RECHECKFW       "Kontroller brannmur"
+    IDS_SHAREDTITLE         "Delt ED2K|Kad"
+    IDS_FIREWALLED          "Brannmur er aktiv"
+    IDS_KADEMLIA            "Kad"
+    IDS_KADCONTACTLAB       "Kontaktar"
+    IDS_KADDISTANCE         "Distanse"
+    IDS_KEY                 "Lykel"
+    IDS_NUMBER              "Nummer"
+    IDS_KAD_SEARCHSRC       "Søkjekjelder"
+    IDS_KAD_SEARCHKW        "Søkjelykelord"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_SECURE_IDENT    "Logg sikker identifikasjon"
+    IDS_LOG_FILTERED_IPS    "Logg filtrerte og/eller ignorerte IP`ar"
+    IDS_LOG_FILE_SAVING     "Logg filskrivingshendingar"
+    IDS_DELETEIPFILTERS     "Vil du verkeleg slette alle valde IP-filter?"
+    IDS_TOTAL_IPFILTER_LABEL "Totalt antal IP-filter:"
+    IDS_TOTAL_IPS_LABEL     "Totalt antal IPar:"
+    IDS_RAU_WARNING         "Denne innstillinga vil gje eMule ytterlegare trygging mot åtak og utnytting og vi tilrår bruken av denne.\nDet vert sterkt tilrådd å lese manualen før du aktiverer!\n\nEndringane vil gjelde etter omstart av eMule."
+    IDS_APPEND              "Vedlegg..."
+    IDS_SAVE                "Lagre"
+    IDS_IP_START            "Start"
+    IDS_IP_END              "Slutt"
+    IDS_IP_LEVEL            "Nivå"
+    IDS_IP_DESC             "Skildring"
+    IDS_IP_HITS             "Treff"
+    IDS_IP_RULES            "IP-filter:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "Du er i augneblinken ikkje tilkopla Kad-nettverket!"
+    IDS_IRC_NOSFS           "Ingen delte filer Valt"
+    IDS_RESETLABEL          "Autokomplettering"
+    IDS_IRC_IGNOREMISCMESSAGE "Ignorer ymse infomeldingar"
+    IDS_KNOWN               "Kjende"
+    IDS_RAU_RUNNING         "eMule køyrer som uprivilegert brukar ""%s"""
+    IDS_RAU_FAILED          "klarte ikkje å starte eMule som uprivilegert brukar ""eMule_Secure"". Held fast på privilegia for noverande brukar (""%s"")."
+    IDS_KADCONTACTSREAD     "Les %u kontaktar frå fil"
+    IDS_ERR_KADCONTACTS     "Ingen kontaktar funne; køyr oppstart, eller last ned ei nodes.dat fil."
+    IDS_METATAGS            "Metataggtelling:"
+    IDS_FILEFORMAT          "Filformat"
+    IDS_UDPREASKS           "UDP filspurnader"
+    IDS_DYNUP_PINGTOLERANCE_MS "Pingtoleranse (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER "Metode til pingtoleranse"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS "Millisekund (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT "Prosent (%)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_A4AF            "Logg A4AF handlingar"
+    IDS_A4AF_SAVE_CPU       "Avslutt A4AF kontroll for å spare CPU"
+    IDS_SEARCH_DOC          "Dokument"
+    IDS_INSTALL_SKIN        "Installer eMuleskinn"
+    IDS_INSTALL_SKIN_NODIR  "Ikkje noko lager for eMuleskinnprofil valt eller lageret ikkje tilgjengeleg!"
+    IDS_INSTALL_SKIN_DIR_ERROR "Klarte ikkje å opprette lager ""%s"" til eMuleskinn - %s"
+    IDS_INSTALL_SKIN_FILE_ERROR "Klarte ikkje å pakke ut ""%s"" frå eMuleskinn til lokal fil ""%s"" - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "Dette er ikkje ei gyldig eMuleskinnfil."
+    IDS_NEXT_REASK          "Neste førespurnad til denne klienten"
+    IDS_A4AF_FILES          "A4AF filer"
+    IDS_FO_TEMPTCP_S        "Opne portane %u (TCP) på den interne WinXP brannmuren for denne eMulesesjonen"
+    IDS_FO_TEMPTCP_F        "Klarte ikkje å opne port %u (TCP) på den interne WinXP brannmuren for denne eMulesesjonen"
+    IDS_FO_TEMPUDP_S        "Opna port %u (UDP) på den interne WinXP brannmuren for denne eMule sesjonen"
+    IDS_FO_TEMPUDP_F        "Klarte ikkje å opne port %u (UDP) på den interne WinXP brannmuren for denne eMulesesjonen"
+    IDS_FO_PREFBUTTON       "Opne desse portane på den interne WinXP brannmuren"
+    IDS_FO_PREF_SUCCCEEDED  "Klarte å opne valte port på den interne WinXP brannmuren.\nMerk at tredjepartar sine brannmurar eller ruterar ikkje er omfatta av dette!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_FRATIO        "Sesjon OL:NL rate (OL til venar utelete):"
+    IDS_STATS_UDATA_FRIENDS "Opplasta data til venekoplingar (sesjon): %s"
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "Last ned delar for førehandssyning først"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "Ukjend eller feil filformat"
+    IDS_SEARCH_INVALIDCHAR  "Søkjeordet inneheld ugyldige teikn. Du har anten tasta inn eit '?' teikn eller teikn som ikke kan nyttast i dette nettverket."
+    IDS_PORTSCON            "Portar og koplingar"
+    IDS_PORTINFO            "eMule nyttar to portar til koplingar med tenarar og klientar. Desse portene skal vere frie og tilgjengelege for andre klientar. TCP-porten skal vere tilgjengeleg for å tryggje grunnleggjande funksjon av eMule. UDP porten vert nytta til Kad (tenarfritt nettverk) og for å redusere nettverksbelasting (dataoverskot).\n\nDu kan endre portane her når det ikkje er nettverksaktivitet."
+    IDS_STARTTEST           "Test portar"
+    IDS_TESTINFO            "Her kan du teste om TCP- og UDP-portane dine kan kontaktast frå ei anna maskin. Vellukka test er naudsynt for at tenarar og klientar kan kople til denne maskina. TCP-porten skal vere tilgjengeleg!"
+    IDS_CONNECTIONTEST      "Tilkoplingstest"
+    IDS_NOPORTCHANGEPOSSIBLE "Endring av portar er ikke mogleg etter du har kopla til klientar eller medan du er tilkopla ein tenar eller Kad!\n\nStart opp att eMule etter endring av portinnstillingar."
+    IDS_NETWORK_INFO        "Nettverksinformasjon"
+    IDS_SP_TOTALUL          "Totalt tal på opplastingar"
+    IDS_SP_ULFRIENDS        "Opplasting til venekoplingar"
+    IDS_SP_ULSLOTSNOOVERHEAD "Andre opplastingar ekskl. dataoverskot"
+    IDS_ST_ACTIVEU_ZZ       "Aktive opplastingar"
+    IDS_ST_ULCURRENT        "Oppasting pluss dataoverskot"
+    IDS_ST_ULSLOTSNOOVERHEAD "Opplasting ekskl. dataoverskot"
+    IDS_ST_ULFRIEND         "Veneopplasting"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "Aktive opplastingar/Naudsynt for å utnytte bandbreidde: %u"
+    IDS_STATS_TOTALUL       "Totalt tal på opplastingar: %u"
+    IDS_CHAT_DOWNLOADED     "Nedlastingar:"
+    IDS_CHAT_UPLOADED       "Opplasta:"
+    IDS_CHAT_IDENT          "Identifikasjon:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAXHALFOPENCONS     "Maks. opne koplingar"
+    IDS_WIZ_STARTWITHWINDOWS "Aktiver dette så eMule vil starte saman med Windows. [Deaktivert som standard]"
+    IDS_KAD_WAITCBK         "Avventar tilbakering Kad"
+    IDS_KAD_TOOMANDYKADLKPS "For mange Kad-oppslag"
+    IDS_PCDS_CLIENTWAIT     "Klient Vent"
+    IDS_PCDS_CACHEWAIT      "Cache Vent"
+    IDS_CACHE               "Cache"
+    IDS_INDEXED             "Indeksert"
+    IDS_KADINFO_SRC         "\tKjelde: %u\r\n"
+    IDS_KADINFO_KEYW        "\tSøkjeord: %u\r\n"
+    IDS_STARTWITHWINDOWS    "Start med Windows"
+    IDS_ADDSRCMANUALLY      "Manuelt leggje til ei kjelde"
+    IDS_BUDDY               "Ven"
+    IDS_BUDDYNONE           "Ingen"
+    IDS_INFO                "Info"
+    IDS_HALF                "Halv"
+    IDS_CONCOMPL            "Komplett"
+    IDS_KADSTATUS_STOPPING  "Stoppar"
+    IDS_KADSTATUS_ACTIVE    "Aktiv"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FORMAT              "Format"
+    IDS_META_COLLECTION     "Samling"
+    IDS_META_PARTPATH       "Delsti"
+    IDS_META_PARTHASH       "Delhash"
+    IDS_META_GAPSTART       "Gap start"
+    IDS_META_GAPEND         "Gap slutt"
+    IDS_FAIL                "Mislukka"
+    IDS_META_PREFERENCES    "Innstillingar"
+    IDS_META_VERSION        "Utgåve"
+    IDS_META_TEMPFILE       "Mellombels fil"
+    IDS_META_SERVERPORT     "Tenarport"
+    IDS_META_SERVERIP       "Tenar-IP"
+    IDS_META_SRCUDPPORT     "Kjelde UDP-port"
+    IDS_META_SRCTCPPORT     "Kjelde TCP-port"
+    IDS_META_SRCIP          "Kjelde IP"
+    IDS_META_SRCTYPE        "Kjeldetype"
+    IDS_SEARCH_UNICODE      "Søk med Unicode"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LD_ED2KLINK         "ED2K-lenke"
+    IDS_LD_COPYCLIPBOARD    "Kopier til utklippstavle"
+    IDS_LD_HOSTNAME         "Bruk vertsnnamn (fra innstillingar) når det skal skapast kjeldelenke"
+    IDS_SAVEACFAILED        "Klarte ikkje å lagre AICH hashsett!"
+    IDS_AICHHASH            "AICH hash"
+    IDS_BYTESPERSEC         "B/s"
+    IDS_KBYTESPERSEC        "KB/s"
+    IDS_MBYTESPERSEC        "MB/s"
+    IDS_GBYTESPERSEC        "GB/s"
+    IDS_TBYTESPERSEC        "TB/s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MINORCLIENTS  "Mindre"
+    IDS_LD_BASICOPT         "Grunnleggjande innstillingar"
+    IDS_LD_ADDSOURCE        "Legg til deg sjølv som kjelde"
+    IDS_LD_EMULEHASH        "Legg til eMule AICH hash til avansert korrupsjonshandsaming"
+    IDS_LD_ADVANCEDOPT      "Avanserte innstillingar"
+    IDS_LD_ADDHTML          "Legg til HTML-merkelappar"
+    IDS_LD_ADDHASHSET       "Legg til Komplett hashsett"
+    IDS_FILELINK            "Fillenke"
+    IDS_PF_ADVANCEDCALC     "Bruk avansert utrekningsmetode for attståande tid"
+    IDS_DL_SHOWED2KLINK     "Syn eD2K-lenke..."
+    IDS_AICH_SYNCTOTAL      "Funne %u filer utan gyldig AICH hashsett. Rehashar dei filene no"
+    IDS_AICH_CALCFILE       "Reknar ut AICH hash for fil %s"
+    IDS_AICH_WARNUSER       "Etter version 0.44a brukar eMule eit filhash, som i stor grad hjelp med å redusere datatapet når ein feil vert oppdaga. Ettersom du oppgraderer frå ei tidligare utgåve av eMule er det naudsynt å rehashe alle dei delte filene dine for å rekne ut det nye hashet. Dette kan ta litt tid, men er er berre naudsynt ein gong."
+    IDS_AICH_WORKED         "AICH har redda %s av %s frå del %u for %s"
+    IDS_TRICKLING           "Innsatsklar"
+    IDS_SOURCECLIENT        "Kjeldeklient"
+    IDS_USERSIP             "Brukerane sin IP"
+    IDS_FEATURES            "Eigenskapar"
+    IDS_IRC_NEWNICK         "Oppgje eit IRC kallenamn"
+    IDS_IRC_NEWNICKDESC     "Skal være eit ord på færre enn 20 karakterar innehaldande (A-Z, 0-9). Det kan endrast att i eMule sine innstillingar - Irc."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPARSEPARTFILES     "Opprett nye delfiler filer som 'spreidde' (berre NTFS)"
+    IDS_ASPECTRATIO         "Aspektrate"
+    IDS_NEGATEFILTER        "Negasjonsfilter"
+    IDS_SEENCOMPL           "Sett komplett"
+    IDS_SELSKINPROFILEDIR   "Vel skinnprofilmappe"
+    IDS_ASKDLINCOMPLETE     "Mogleg ufullstendig fil:\r\n\r\n%s\r\n\r\nDenne fila vert anteken å være ufullstendig på nettverket og kan difor ikkje verte komplett nedlasta! Vil du verkeleg å laste ned denne fila?"
+    IDS_DEADSOURCES         "Daude kjelder"
+    IDS_LARGEICONS          "Store ikon"
+    IDS_SMALLICONS          "Små ikon"
+    IDS_SHORTTAGS           "Korte merkelappar"
+    IDS_THELOAD             "Lastar"
+    IDS_PACKSENT            "Pakkar sende"
+    IDS_RESPONSES           "Svar"
+    IDS_EXTRACT_META_DATA   "Les ut metadata"
+    IDS_META_DATA_MEDIADET  "DirectShow (for alle andre lyd/video filer)"
+    IDS_META_DATA_ID3LIB    "ID3-bibliotek (kun for MPEG lyd filer)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD "Windows Common Controls library (COMCTL32.DLL) er for gamal!\r\n\r\neMule har oppdaga ei utgåve av ""Windows Common Controls library (COMCTL32.DLL)"", som er for gamal til å verte nytta rett av eMule. For å sikre full og feilfri bruk av eMule tilrår vi å oppdatere ""Windows Common Controls library (COMCTL32.DLL)"" til seinaste utgåve 5.8.\r\n\r\nLast ned og installer ei oppdatering av ""Windows Common Controls library (COMCTL32.DLL)"" frå Microsoft (R) Download Center. Vil du vitje den heimesida no?"
+    IDS_ASREGEXPR           "Som standarduttrykk"
+    IDS_STATIC_REGEXP       "Standarduttrykk for synsfilter:"
+    IDS_CARE4ALL            "Evaluer alle filer"
+    IDS_REGEXPRESSION       "Standarduttrykk"
+    IDS_SEARCHKAD           "Søk Kad"
+    IDS_DWL_IPFILTERFILE    "Lastar ned IP-filterfil"
+    IDS_DWLIPFILTERFAILED   "IP-filter nedlasting var mislukka"
+    IDS_FINDBUDDY           "Finn ven"
+    IDS_ERR_IPFILTERZIPEXTR "Klarte ikkje å lese ut IP-filterfil frå nedlasta IP-filter (ZIP) ""%s""."
+    IDS_ERR_IPFILTERCONTENTERR "Nedlasta IP-filterfil ""%s"" er ei zipfil med uventa innhald."
+    IDS_STORENOTES          "Lagre notat"
+    IDS_NOTES               "Notat"
+    IDS_KADSEARCHALREADY    "Eit anna søk er allereie i gong. Prøv igjen seinare!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHUTDOWN        "Avslutt eMule"
+    IDS_WEB_REBOOT          "Start opp att operativsystemet"
+    IDS_WEB_SHUTDOWNSYSTEM  "Avslutt operativsystemet"
+    IDS_WEB_ADMINMENU       "Adminmeny"
+    IDS_WEB_MAIN_CLOSE      "Vil du avslutte eMule?"
+    IDS_WEB_MAIN_REBOOT     "Vil du starte opp att operativsystemet?"
+    IDS_WEB_MAIN_SHUTDOWN   "Vil du avslutte operativsystemet?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "Syn nekta klientar i kø"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "Syn venar i kø"
+    IDS_WEB_SESSIONTIMEOUT  "Sesjonstimeout"
+    IDS_WEB_ALLOWHILEVFUNC  "Tillat avslutting av eMule, oppattstart og avslutting"
+    IDS_SETPFSLIMIT         "Kjeldegrense..."
+    IDS_SETPFSLIMITEXPLAINED "Sett inn ny kjeldegrense for valte fil(er)! \n(Bruk 0 for globale verdiar)"
+    IDS_UPDATECATINCOMINGDIRS "Vil du at innkomande mapper frå den gamle innkomande mappa skal oppdaterast no?"
+    IDS_USESPEECH           "Talemelding"
+    IDS_CONDTCPACCEPT       "Avvis raske koplingar"
+    IDS_TCPIP_CONNS         "TCP/IP koplingar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_DELFILE         "Klarte ikkje å slette fila ""%s"""
+    IDS_ERR_CONFIGCORRUPT   "%s ser ut til å vere korrupt og vert erstatta"
+    IDS_UPLOADING           "Lastar opp"
+    IDS_CANCELLED           "Avbroten"
+    IDS_PW_REMEMBERDOWNLOADED "Hugs nedlasta filer"
+    IDS_PW_REMEMBERCANCELLED "Hugs kansellerte filer"
+    IDS_PW_EMAILNOTIFICATIONS "Epostvarsling"
+    IDS_SMTPSERVER          "SMTP-tenar"
+    IDS_PW_SENDERADDRESS    "Sendaradresse:"
+    IDS_AVAILABLEPARTS      "Tilgjengelege delar"
+    IDS_NOSOUND             "Ingen lyd"
+    IDS_PW_RECEIVERADDRESS  "Mottakaradresse:"
+    IDS_PW_ENABLEEMAIL      "Aktiver epostvarsling"
+    IDS_EMULENOTIFICATION   "eMulevarsling"
+    IDS_PW_SHOWTRANSTOOLBAR "Syn ekstra verktylinje i trafikkvindauget"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHARED_STATUS       "Delte delar"
+    IDS_INCOMING_FILES      "Innkomande filer"
+    IDS_INCOMPLETE_FILES    "Ufullstendige filer"
+    IDS_SHARED_DIRECTORIES  "Delte katalogar"
+    IDS_SHAREDIR            "Del katalog"
+    IDS_SHAREDIRSUB         "Del med underkatalogar"
+    IDS_UNSHAREDIR          "Ordele katalog"
+    IDS_UNSHAREDIRSUB       "Ordele med underkatalogar"
+    IDS_ALLSHAREDFILES      "Alle delte filer"
+    IDS_ALLDIRECTORIES      "Alle katalogar"
+    IDS_SEARCHRELATED       "Finn beslekta filer"
+    IDS_RELATED             "Beslekta"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLLECTIONLIST      "Samlingsliste"
+    IDS_SEARCH_EMULECOLLECTION "Samling"
+    IDS_COLL_REPLACEEXISTING "Vil du erstatte eksisterande fil?"
+    IDS_COLL_ERR_DELETING   "Ukjend feil under sletting av gamal fil. Avslutt utan lagring?"
+    IDS_CREATECOLLECTION    "Opprett samling"
+    IDS_COLL_SIGN           "Signer samling med namn og nykel"
+    IDS_AUTHOR              "Opphavsperson"
+    IDS_AUTHORKEY           "Opphavspersonnykel"
+    IDS_COLL_ADDINCAT       "Legg til nedlastingar i ein samlingskategori"
+    IDS_MODIFYCOLLECTION    "Endre samling"
+    IDS_VIEWCOLLECTION      "Syn samling"
+    IDS_COLL_TEXTFORMAT     "Lagre samling i eit enkelt tekstformat"
+    IDS_SEARCHAUTHORCOLLECTION "Søk i opphavspersonens samlingar"
+    IDS_ERR_DUPL_FILES      "Like filer delt: ""%s"" og ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED "Opplastingsfartsfølar: Sporruting feila for mange gonger. Avsluttar USS."
+    IDS_USS_STARTING        "Opplastingsfartsfølar: Ferdig med førebuingar. Startar kontroll av opplastingsfart. (Første 60 sekund vert i snøggreaksjonsmodus)"
+    IDS_USS_MANUALUPLOADLIMITDETECTED "Opplastingsfartsfølar: Auka opplastingsgrense i innstillingar oppdaga. Går til snøggreaksjonsmodus i 60 sekund."
+    IDS_USS_STATE_PREPARING "Gjer klar..."
+    IDS_USS_STATE_WAITING   "Ventar..."
+    IDS_USS_STATE_ERROR     "Feil!"
+    IDS_SHAREWARNING        "(Mappe vil verte delt!)"
+    IDS_REMOVEALLSERVERS    "Vil du verkeleg fjerne alle tenarar?"
+    IDS_SEARCH_UNKATTR      "Ukjend søkjeattributt '%s'"
+    IDS_SEARCH_ATTRERR      "Syntaksfeil i '%s' søkjeattributt"
+    IDS_SEARCH_MISSINGANDRIGHT "Manglar høgre side for AND operator"
+    IDS_SEARCH_OPRERR       "Syntaksfeil i jamføringsoperator '%s'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOAD_LANGFILE   "Lastar ned språkfil"
+    IDS_DOWNLOADING_SERVERMET_FROM "Lastar ned server.met frå %s"
+    IDS_DOWNLOADING_SERVERMET "Lastar ned server.met..."
+    IDS_FULLALLOC           "Set til side full filstorleik for spreidde delfiler"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "Hash ikkje funne."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "Gapliste korrupt."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "Gapliste ikkje funne."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "Hashsett korrupt."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "Hashsett ikkje funne."
+    IDS_CONVERTINGKNOWN2MET "Konverterer %s til %s for å støtte store filer..."
+    IDS_CONVERTINGKNOWN2FAILED "...feila i å konvertere known2.met; ignorerer gamal liste"
+    IDS_CONVERTINGKNOWN2DONE "... ferdig med å konvertere"
+    IDS_ERR_MET_BAD         "Feil: fila %s er korrupt; ikkje i stand til å laste inn kjende filer"
+    IDS_SRV_LARGEFILES      "Støtte for store filer"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE "Du kan ikkje laste ned denne fila fordi filsystemet ditt ikkje stør filer større enn 4GB. Problemet kan løysast ved å konvertere til NTFS!"
+    IDS_NEWVERSIONAVLBETA   "Denne Beta-utgåva er utdatert. Ettersom Beta-utgåver ofte inneheld feil, vert det tilrådd å oppgradere til ei stabil utgåve så raskt som mogleg!"
+    IDS_KADSEARCHACTIVE     "(Kadsøk aktivt...)"
+    IDS_BOLD                "Set feit tekst på/av"
+    IDS_UNDERLINE           "Set underlina tekst på/av"
+    IDS_COLOUR              "Vel farge på framgrunnen (valfri bakgrunnsfarge)."
+    IDS_RESETFORMAT         "Nullstiller all tidlegare formattering (sender nullstillingskode)."
+    IDS_RESTORESEARCHPARAMS "Gjenopprettar søkjeparameter"
+    IDS_COMMAND             "Kommando"
+    IDS_ARGUMENTS           "Argument"
+    IDS_AP_CREATEPREVCOPY   "Lag førehandssyningsfil"
+    IDS_ARCHIVEDETAILS      "Arkivdetaljar"
+    IDS_ARCHTYPE            "Arkivtype"
+    IDS_ATTRIBUTES          "Attributtar"
+    IDS_LASTMODIFIED        "Sist modifisert"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "Innhaldstabell kryptert. Klarer ikkje å lese arkivet."
+    IDS_ARCPARSED           "Arkiv skanna."
+    IDS_ARCPREV_LISTMAYBEINCOMPL "Filliste er moglegens ikkje komplett."
+    IDS_ARCPREV_DIRNOTFOUND "Filliste ikkje funnen."
+    IDS_ARCPREV_INSUFFDATA  "Ikkje nok data tilgjengeleg."
+    IDS_PASSWPROT           "Passordbeskytting"
+    IDS_ARCPREV_DIRSUCCREAD "Vellukka lesing av filliste."
+    IDS_ARCPREV_UNKNOWNFORMAT "(ukjend/ikkje støtta)"
+    IDS_ARCPREV_PLEASEWAIT  "Skannar arkiv..."
+    IDS_OBFUSCATION         "Tåkeleggjing"
+    IDS_SUPPORTED           "Støtta"
+    IDS_ESTIMATED           "berekna"
+    IDS_MEDIAINFO_DLLMISSING "Det er ikkje installert MediaInfo-samling. Dersom du vil ha meir informasjon om audio-/videofiler her,\r\nlast ned MediaInfosamlinga frå https://mediaarea.net/en/MediaInfo og kopier MediaInfo.dll fila til\r\neMule si installasjonsmappe ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION "Åtvaring: Filetternamnet til ""%s"" stemmer ikkje med filetternamnet \r\nsom vanlegvis vert nytta for det filformatet. Du bør kalle om fila for å\r\nnytte eit av desse filetternamna ""%s""\r\nfor å nytte eller sjå det filformatet.\r\n"
+    IDS_MEDIAINFO_DRMWARNING "Åtvaring: Fila ""%s"" ser ut til å vere kopibeskytta.\r\nDu vil mest sannsynleg ikkje vere i stand til å nytte den fila utan lisens frå opphavspersonen.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "eMule bitmap verktylinjefiler"
+    IDS_LOADFILTER_EMSKINFILES "eMule hudfiler"
+    IDS_LOADURL             "Last URL"
+    IDS_DELETEAFTERALLOC    "Fila '%s' vert tildelt diskplass og vil verte sletta etterpå"
+    IDS_TRAYDLG_SPEED       "eMule fart"
+    IDS_VIAPASSIVE          "via passiv"
+    IDS_WEB_REMOTE_LINK_ADDED "Lenke lagd til: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "Lenke ikkje lagd til. Feil passord."
+    IDS_OPTIONS             "Alternativ"
+    IDS_ERR_FAILEDTOLOAD    "Klarte ikkje å laste %s: %s "
+    IDS_RUNNINGRESTRICTED   "eMule køyrer med reduserte privilegiar"
+    IDS_DOWNLOAD_ALPHABETICAL "Last ned i alfabetisk rekkjefølgje"
+    IDS_SPLIT_WINDOW        "Del vindauge"
+    IDS_SOURCESWAPBLOCKED   "Byt blokkert"
+    IDS_A4AF_CHECK_THIS_NOW "Sjekk denne kjelda no (fjern feil)"
+    IDS_MANUAL_FILENAMECLEANUP "Vil du rydde opp i filnamna til dei valde filene?"
+    IDS_ARCHPREV_ATTRIBINFO "Filattributtar kan innehalde:\r\n\r\nP\tfila er passordbeskytta\r\nD\ter ei katalog\r\nC\tKommentar\r\nLx\tKompresjonsgrad x\r\nM\tKomprimert data er ikkje ferdig nedlasta enno\r\n<\tfila framhalden frå forrige del\r\n>\tfila held fram i neste del\r\n"
+    IDS_CONTENT_INFO        "Innhaldsinformasjon"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "Meldingar og kommentarar"
+    IDS_DISABLEOBFUSCATION  "Deaktiver støtte for tåkelagde koplingar"
+    IDS_ONLYOBFUSCATED      "Berre tillat tåkelagde koplingar (ikkje tilrådd)"
+    IDS_ENABLEOBFUSCATION   "Aktiver protokolltåkelegging"
+    IDS_PROTOCOLOBFUSCATION "Protokolltåkelegging"
+    IDS_CONNECTINGTOOBFUSCATED "Koplar til %s (%s:%u - nyttar protokolltåkelegging) ..."
+    IDS_CONNECTEDTOOBFUSCATED "Tåkelagd kopling oppretta på: %s"
+    IDS_VERIFIED            "godkjend"
+    IDS_OBFUSCATED          "Tåkelagd"
+    IDS_UNVERIFIED          "manglar godkjenning"
+    IDS_INVALIDFILEEXT      "Ikkje gangbart filetternamn"
+    IDS_UNKNOWNFILEEXT      "ukjend filetternamn"
+    IDS_ENABLEMINIMULE      "Aktiver MiniMule"
+    IDS_DISABLE_AUTOARCHPREV "Deaktiver automatisk arkivførehandssyning i fildetaljar"
+    IDS_US_STALLEDW4BR      "Avventar! Etterspurt del."
+    IDS_US_STALLEDREADINGFDISK "Avventar! Les frå harddisken."
+    IDS_SERVERFEATURE_INTTYPETAGS "Integermerkelappar"
+    IDS_FILLGRAPHS          "Teikne fylde grafar"
+    IDS_PARAMETER           "Parameter"
+    IDS_TEST                "Test"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "Nytte UPnP til å sette opp portar"
+    IDS_UPNPSETUP           "Freistar å sette opp portar med UPnP..."
+    IDS_UPNPFAILED          "UPnP feila i å sette opp portane; set opp portane manuelt dersom naudsynt!"
+    IDS_UPNPSUCCESS         "UPnP greidde å sette opp portane %u (TCP) og %u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "Opne portar i WinXP SP1 brannmur"
+    IDS_UPNP_NOSERVICE      "UPnP Device Host tenesta køyrer ikkje; hoppar over UPnP oppsett"
+    IDS_DELAYEDBYUPNP       "Tilkopling til nettverket er forseinka fordi UPnP framleis er oppteke med å sette opp portane."
+    IDS_DELAYEDBYUPNP2      "Vent nokre sekund; eMule koplar til så snart UPnP er ferdig."
+    IDS_UPNP                "UPnP"
+    IDS_UPNPCLOSEONEXIT     "Fjerne UPnP-portane når programmet vert avslutta"
+    IDS_UPNPSKIPWANIP       "Hoppe over WAN IP oppsett"
+    IDS_UPNPSKIPWANPPP      "Hoppe over WAN PPP oppsett"
+    IDS_SHAREEMULELABEL     "Dele eMule med andre brukarar"
+    IDS_SHAREEMULEMULTI     "Kvar brukar har eigne innstillingar og nedlastingar"
+    IDS_SHAREEMULEPUBLIC    "Alle har same innstillingar og nedlastingar"
+    IDS_SHAREEMULEOLD       "Lagre innstillingar og nedlastingar i programfiler-katalogen"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "eMule vil nytte ein annan konfigurasjon dersom du vel denne innstillinga. Dine noverande innstillingar vil verte ignorerte og allereie eksisterande nedlastingar kan kanskje ikkje vere synlege lenger. Du kan snu attende til din noverande konfigurasjon når som helst ved å endre denne innstillinga.\n\nDu må starte opp att eMule for at endringane skal verte synlege."
+    IDS_SPAM                "Søppel"
+    IDS_MARKSPAM            "Merk søppel"
+    IDS_MARKNOTSPAM         "Merk som ikkje søppel"
+    IDS_SEARCHSPAMFILTER    "Aktivér spamfilter for søkjeresultat"
+    IDS_SHOWSMILEYS         "Syne smilefjes"
+    IDS_CAPTCHAREQUEST      "Denne brukaren krev biletgodkjenning før du kan sende han ei melding. Skriv inn orda du ser på dette biletet som svar:"
+    IDS_CAPTCHAFAILED       "Svaret på biletgodkjenninga var feil og meldinga vart ignorert. Ny biletgodkjenning vert motteken ved å sende ei ny melding."
+    IDS_CAPTCHASOLVED       "Biletgodkjenninga var vellukka, og brukaren har motteke meldinga."
+    IDS_USECAPTCHAS         "Krev biletgodkjenning"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat frå URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "Lastar ned nodes.dat frå %s"
+    IDS_DOWNLOADING_NODESDAT "Lastar ned nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "Mislukka nedlasting av nodes.dat frå %s"
+    IDS_PREVENTSTANDBY      "Stopp ventemodus når eMule køyrer"
+    IDS_KADID               "KadID"
+    IDS_SEARCHINGFRIENDKAD  "Søker etter ven i kadnettverket"
+    IDS_FOUND               "funne"
+    IDS_EXTERNUDPPORT       "Ekstern UDP port"
+    IDS_STORESEARCHES       "Hugs opne søkjeresultat mellom omstartar"
+    IDS_WRN_INCFILE_EXISTS  "You have selected a new directory for your incoming files which is not empty. All existing files in this directory will be automatically shared by eMule."
+    IDS_EDITSPAMFILTER      "Edit spam filter..."
+    IDS_EDITSPAMFILTERCOMMENTS "Edit spam filter for comments"
+    IDS_WIZZARDOBFUSCATION  "Enable this option if you want to use protocol obfuscation\n\nIf your ISP tries throttle or block eMule, enabling obfuscation will help to circumvent such restrictions."
+    IDS_BETANAG             "This is a beta version of eMule. Please report problems and check regulary for updates in our forum (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "Do you want to download and use Kad contacts (nodes.dat) from this address:\n%s ?"
+    IDS_AUTOMATIC           "Automatic"
+    IDS_NOTCONNECTEDANY     "You are not connected to a server or the Kad network!"
+    IDS_ERR_SHARED_DIR      "Failed to read shared directory ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "The file ""%s"" seems to be protected with Digital Rights Management.\r\n\r\nYou will most likely not be able to use that file without a license from the originator. You should be aware that opening this file will most likely cause your media player to open a web browser which will transfer you automatically to the site of the originator of that file where you will get asked to acquire a license.\r\n\r\nDo you really want to continue opening the file?"
+    IDS_CHECK_FILE_OPEN     "Warn when opening untrusted files"
+    IDS_BOOTABLE            "bootable"
+    IDS_UNSUPPORTEDIMAGE    "unsupported image"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "Unshare"
+    IDS_WEBUPNPINCLUDE      "Include port into UPnP setup"
+    IDS_ADDEDON             "Added On"
+    IDS_RESOLVELINKS        "Resolve shell links in shared directories"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "Download Commands"
+    IDS_CLOSETOOLBAR        "Close Toolbar"
+    IDS_SHOWTOOLBAR         "Show Toolbar"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "You cannot use the first keyword with an OR operator when searching on Kad!\n\nFor example ""Keyword1 OR Keyword2"" is not possible. Try ""Keyword1 AND (Keyword2 OR Keyword3)"" or do multiple searches instead."
+    IDS_DISCOVEREDBY        "Discovered by"
+    IDS_NODES               "Node(s)"
+    IDS_ROUTINGTABLE        "Routing Table"
+    IDS_PROTOCOLVERSION     "Protocol Version"
+    IDS_FOUNDNODESUSEFUL    "Found Nodes (useful)"
+    IDS_NORESPONSE          "No Response"
+    IDS_NOTASKED            "Not Asked"
+    IDS_LOOKUPGRAPH         "Search Details"
+    IDS_AUTOKADLOOKUPGRAPH  "Automatically show active searches"
+    IDS_PAUSEONPREVIEW      "Pause when preview possible"
+    IDS_PREVIEWWITH         "Preview with"
+    IDS_CLOSEEMULE          "Close eMule"
+    IDS_DONOTASKAGAIN       "Don't ask me again"
+    IDS_POPULARITY          "Popularity Rank"
+    IDS_SHOWWIN7TASKBARGOODIES "Enable Windows 7 taskbar effects"
+    IDS_LANMODE             "LAN Mode"
+    IDS_OPENPREFINI         "Open preferences.ini"
+END
+
+#endif    // Norwegian (Nynorsk) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

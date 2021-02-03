@@ -1,0 +1,2007 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "ro_RO.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Romanian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ROM)
+#ifdef _WIN32
+LANGUAGE LANG_ROMANIAN, SUBLANG_DEFAULT
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "ro_RO.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "Eroare la deschiderea socket-urilor Windows."
+    IDS_ABOUTBOX            "&Despre eMule..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s de la %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "Conectat la %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "Interpretez numele %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "Nume interpretat ca %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "Mă conectez la %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "Redirecţionez spre %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION
+                            "Primesc informaţii despre fişier"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR
+                            "Încercînd să descarc fişierul, a apărut eroarea: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "Conectîndu-mă la server, a apărut eroarea: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE "Răspuns incorect de la server"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "Răspuns HTTP incorect de la server"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE
+                            "Descărcînd fişierul, a apărut eroarea: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE
+                            "Descarc lista de servere: %s%% din %s completat"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "Aduc fişierul"
+    IDS_HTTPDOWNLOAD_OF     "%s din %s"
+    IDS_CANCEL              "Renunţă"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTP_CAPTION        "Actualizez lista de servere"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s copiat)"
+    IDS_HSAV                "Hashset disponibil"
+    IDS_FD_CORR             "Corupt"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "Fişierul '%s' deja există.\nVrei să-l suprascriu?"
+    IDS_FD_RECOV            "Recuperat"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "La deschiderea fişierului de descărcat a apărut eroarea: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "Anulez descărcarea"
+    IDS_FD_COMPR            "Comprimare"
+    IDS_WIZARD_NETWORK      "Alege ce reţea foloseşti."
+    IDS_MAIN_READY          "eMule versiunea %s e pregătit"
+    IDS_WIZARD_ED2K         "Setări ED2k"
+    IDS_SEL_SKIN            "Alege un Skin..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_SOCKETERROR    "Eroare fatală: Nu pot crea socket pe portul %u"
+    IDS_MAIN_BTN_DISCONNECT "De&conectare"
+    IDS_ERR_WRONGFILEID     "trimis nume greşit fişier"
+    IDS_ERR_BADHASHSET      "Hashset-ul primit e corupt sau invalid"
+    IDS_ERR_BADDATABLOCK    "Blocul de date primit e corupt sau invalid"
+    IDS_ERR_ILLFORMEDHASH   "Hash format greşit"
+    IDS_ERR_BADED2KLINK     "Link ed2k eronat"
+    IDS_ERR_NOSLLINK        "nu e un link eD2k de server/fişier"
+    IDS_ERR_WRONGPACKETSIZE "dimensiune greşită pachet OP_FILEREQUEST"
+    IDS_ERR_WRONGHPACKETSIZE "dimensiune greşită pachet OP_HASHSETREQUEST"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "Un client necunoscut a trimis un pachet de protocol extins"
+    IDS_ERR_OPENMET         "Eroare: Nu pot deschide fişierul part.met! (%s => %s)"
+    IDS_ERR_BADMETVERSION   "Eroare: Versiune fişier part.met incorectă! (%s => %s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_METCORRUPT      "Eroare:  %s (%s) e corupt, nu pot încărca fişierul"
+    IDS_ERR_FILEERROR       "Eroare neaşteptată în fişier, citind %s (%s): %s"
+    IDS_ERR_FILEOPEN        "Nu pot deschide %s (%s)"
+    IDS_SEL_SKINDIR         "Alege dosarul Skin..."
+    IDS_ERR_REHASH          "Atenţie: %s ar putea fi corupt, fac re-hash părţilor descărcate"
+    IDS_SKIN_PROF           "Profile Skin"
+    IDS_ERR_PART_FNF        "Fişierul .part negăsit"
+    IDS_KADOPEN             "Deschisă"
+    IDS_ERR_SAVEMET         "EROARE la salvarea fişierului .part: %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "Am găsit coruptă partea (%u) în %s"
+    IDS_HASHINGDONE         "Re-hash-ul %s terminat. Fişierul pare OK"
+    IDS_ERR_PARTCORRUPT     "Partea %u descărcată e coruptă :(  (%s)"
+    IDS_ICHWORKED           "G.I.C.: Am recuperat partea coruptă %u (%s), Salvat: %s"
+    IDS_ERR_OUTOFSPACE      "Spaţiu insuficient pentru descărcarea %s!"
+    IDS_SE                  "Schimb surse"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION
+                            "Versiune incorectă a fişierului server.met (0x%X)!"
+    IDS_SERVERSFOUND        "Am găsit %u servere în fişierul server.met"
+    IDS_SERVERSADDED        "%u servere adăugate, %u deja în listă/inutilizabile"
+    IDS_ERR_BADSERVERLIST   "Eroare: fişierul server.met e corupt, nu pot încărca lista de servere"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "Eroare neaşteptată la citirea server.met: %s, nu pot încărca lista de servere"
+    IDS_ERR_SAVESERVERMET   "Nu pot salva fişierul server.met!"
+    IDS_PASSIVE             "Pasiv"
+    IDS_MAIN_BTN_CANCEL     "&Anulează"
+    IDS_AVAIL               "Părţi: %u , disponibile: %u (%.1f%%)\n\n"
+    IDS_TYPE                "Tip"
+    IDS_FILEID              "ID fişier"
+    IDS_FILE                "Fişier"
+    IDS_DOWNLOAD            "Descărcare"
+    IDS_SL_SERVERNAME       "Nume server"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IP                  "IP" //!
+    IDS_DESCRIPTION         "Descriere"
+    IDS_PING                "Ping" //!
+    IDS_FILES               "Fişiere"
+    IDS_PREFERENCE          "Prioritate"
+    IDS_PRIONOPREF          "Fără preferinţe"
+    IDS_CONNECTTHIS         "Conectează-te la serverul selectat"
+    IDS_MAIN_BTN_CONNECT    "&Conectare"
+    IDS_ERR_SAVESERVERMET2  "Nu pot salva server.met! Va trebui să ştergi fişierul server.met şi să redenumeşti server.met.old ca server.met!"
+    IDS_NOTCONNECTED        "Neconectat"
+    IDS_DISCONNECTED        "Deconectat"
+    IDS_USERS               "Utilizator: %u"
+    IDS_UPDOWN              "Up: %.1f (%.1f) | Down: %.1f (%.1f)"
+    IDS_CONNECTED           "Conectat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_WRITEERROR      "Eroare neaşteptată în fişier la scrierea %s : %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "Eroare neaşteptată în fişier în timpul completării %s. Download în pauză; reporneşte eMule ptr. a reîncerca"
+    IDS_ERR_DELETEFAILED    "Nu pot şterge %s, şterge-l manual"
+    IDS_DOWNLOADDONE        "Am terminat de descărcat %s :)"
+    IDS_ERR_DELETE          "Nu pot şterge %s"
+    IDS_ERR_HASHERRORWARNING
+                            "Atenţie: Nu pot face hash părţii descărcate - hashset incomplet (%s)"
+    IDS_ERR_INCOMPLETEHASH  "Eroare: Nu pot face hash părţii descărcate - hashset incomplet (%s). N-ar trebui să se întîmple asta!"
+    IDS_DOWNLOADING         "Descarcă"
+    IDS_WAITING             "Aşteaptă"
+    IDS_HASHING             "Fac hash:"
+    IDS_COMPLETING          "Completez"
+    IDS_COMPLETE            "Complet"
+    IDS_PAUSED              "În pauză"
+    IDS_ERRORLIKE           "Eronat"
+    IDS_ASSIGNED2K          "eMule nu e asociat implicit cu link-urile eD2k. Vrei să le asociezi cu eMule (recomandat) ?"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "N-am găsit nici o adresă către o listă de servere în fişierul 'addresses.dat'. Introdu, te rog, o adresă validă a unei liste de servere pentru a o actualiza pe a ta."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LINKNOTADDED        "Nu pot adăuga link-ul"
+    IDS_MAIN_EXIT           "Chiar vrei să ieşi din eMule?"
+    IDS_MAIN_POPUP_RESTORE  "Restaurează"
+    IDS_CONNECTTOANYSERVER  "Conectare la orice server"
+    IDS_EXIT                "Ieşi"
+    IDS_CONNECTING          "Mă conectez"
+    IDS_FAILED              "eşuată"
+    IDS_ERR_BADSERVERREPLY  "Răspunsul serverului la login, corupt sau greşit"
+    IDS_NEWCLIENTID         "ID-ul noului client este %u"
+    IDS_SHAREDFOLDERS       "Dosare share"
+    IDS_VIEW1               "vezi "
+    IDS_VIEW2               " (nu e share)"
+    IDS_PRIOLOW             "Mică"
+    IDS_PRIONORMAL          "Normală"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOHIGH            "Mare"
+    IDS_DOWNLOADMENUTITLE   "Descărcări"
+    IDS_PRIORITY            "Prioritate"
+    IDS_NEWSERVERS          "Am primit %u servere noi"
+    IDS_DL_STOP             "&Opreşte"
+    IDS_DL_PAUSE            "În &pauză"
+    IDS_DL_RESUME           "&Reluare"
+    IDS_DL_OPEN             "&Deschide fişierul"
+    IDS_DL_INFO             "&Informaţii despre fişier"
+    IDS_DL_CLEAR            "Şterge descărcările completate"
+    IDS_DL_LINK1            "Copiază &link eD2k în Agendă"
+    IDS_DL_LINK2            "Copiază link eD2k în Agendă (&HTML)"
+    IDS_SHOWDETAILS         "Arată &detalii"
+    IDS_SEND_MSG            "Trimite &mesaj"
+    IDS_ASKING              "Cer fişier"
+    IDS_CONNVIASERVER       "Conectare prin server"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ONQUEUE             "La rînd"
+    IDS_TRANSFERRING        "Transfer"
+    IDS_RECHASHSET          "Primesc hashset"
+    IDS_NONEEDEDPARTS       "Părţi inutile"
+    IDS_NOCONNECTLOW2LOW    "Nu pot IDmic cu IDmic"
+    IDS_UNKNOWN             "Necunoscut"
+    IDS_ASKED4ANOTHERFILE   "Deja contactat"
+    IDS_Q_CANCELDL          "Chiar vrei să ştergi fişierele\n"
+    IDS_Q_CANCELDL2         "Chiar vrei să ştergi fişierul\n"
+    IDS_DL_FILENAME         "Nume fişier"
+    IDS_DL_SIZE             "Mărime"
+    IDS_DL_TRANSF           "Transferaţi"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_SPEED            "Viteză"
+    IDS_DL_PROGRESS         "Progres"
+    IDS_DL_SOURCES          "Surse"
+    IDS_ERR_BADSERVERLISTRECEIVED
+                            "Am primit un pachet invalid cu lista de servere"
+    IDS_STATUS              "Stare"
+    IDS_DL_REMAINS          "Au rămas"
+    IDS_UPDATEFROM          "URL pt. actualizare: (format filter.dat sau PeerGuardian)"
+    IDS_QL_USERNAME         "Nume utilizator"
+    IDS_LOADURL             "Încarcă"
+    IDS_DELETEAFTERALLOC    "Fişierul '%s' momentan ocupă spaţiu pe disc şi va fi şters după aceea"
+    IDS_QL_RATING           "Vot"
+    IDS_CONNECTINGTO        "Mă conectez la %s (%s : %u)..."
+    IDS_CLIENTS             "Clienţi"
+    IDS_SEARCH_ANY          "Oricare"
+    IDS_SEARCH_AUDIO        "Audio" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "Imagini"
+    IDS_SEARCH_PRG          "Programe"
+    IDS_SEARCH_VIDEO        "Video" //!
+    IDS_SEARCH_CDIMG        "Imagini CD"
+    IDS_SEARCH_ARC          "Arhive"
+    IDS_ERR_INVALIDLINK     "Acest link eD2k nu e valid (%s)"
+    IDS_ERR_LINKERROR       "Link incorect: %s"
+    IDS_ERR_NOTCONNECTED    "Nu eşti conectat la nici un server!"
+    IDS_REMOVETHIS          "Şterge server(ele) selectat(e)"
+    IDS_REMOVEALL           "Şterge toate serverele"
+    IDS_SRV_ADDR            "Introdu, te rog, adresa unui server"
+    IDS_SRV_PORT            "Port server incomplet; introdu unul corect"
+    IDS_SRV_NOTADDED        "Server neadăugat !"
+    IDS_SRV_NOURLAV         "Nici o adresă disponibilă."
+    IDS_INVALIDURL          "Adresă incorectă"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET "Nu pot descărca lista de servere de la %s"
+    IDS_PERMISSION          "Permisiune"
+    IDS_SHAREDFILES         "Fişiere share"
+    IDS_PRIOVERYLOW         "Foarte mică"
+    IDS_PRIORELEASE         "Generală"
+    IDS_TRAYDLG_SPEED       "Viteza eMule"
+    IDS_FSTATUS_FRIENDSONLY "Doar prietenilor"
+    IDS_VIAPASSIVE          "ca Pasiv"
+    IDS_ERR_RENAMESF        "Nu pot redenumi\r\n    ""%s""\r\nca\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "disponibile"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FSTAT_TRANSFER      "Transfer" //!
+    IDS_CONNECTIONS         "Conexiune"
+    IDS_FSTAT_SERVERS       "Servere"
+    IDS_FSTAT_WAITING       "În aşteptare..."
+    IDS_TIME                "Timp"
+    IDS_STATS_DDATA         "Date descărcate: %s"
+    IDS_STATS_UDATA         "Date trimise: %s"
+    IDS_STATS_AVGDL         "Viteză medie de descărcare: %s"
+    IDS_STATS_AVGUL         "Viteză medie de trimitere: %s"
+    IDS_STATS_FOUNDSRC      "Surse găsite: %u"
+    IDS_STATS_ACTDL         "Descărcări active: %u"
+    IDS_STATS_ACTUL         "Trimiteri active: %u"
+    IDS_STATS_WAITINGUSERS  "Trimiteri aşteptînd: %u"
+    IDS_STATS_RECONNECTS    "Reconectări: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "Necunoscuţi: %u"
+    IDS_STATS_TOTAL         "Total: %u" //!
+    IDS_DISABLED            "Dezactivat"
+    IDS_STOPPED             "Oprit"
+    IDS_STATS_UPDATELABEL   "Interval actualizare: %u sec"
+    IDS_ASKEDFAF            "\nAşteaptă alt fişier"
+    IDS_WAITED              "Aşteptat"
+    IDS_ERR_LOADCREDITFILE  "Nu pot încărca fişierul cu credite, creez un alt fişier"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "Fişierul cu credite e vechi şi va fi înlocuit"
+    IDS_CREDITFILELOADED    "Fişierul cu credite încărcat:  %u clienţi cunoscuţi"
+    IDS_CREDITFILECORRUPT   "Eroare: fişierul cu credite e corupt şi va fi înlocuit!"
+    IDS_ERR_CREDITFILEREAD  "Eroare neaşteptată la citirea fişierului cu credite: %s"
+    IDS_ERR_FAILED_CREDITSAVE "Nu pot salva fişierul cu credite"
+    IDS_NOPARTSFOUND        "N-am găsit fişiere part"
+    IDS_FOUNDPARTS          "Am găsit %u fişiere part"
+    IDS_NEWDOWNLOAD         "Adaug la descărcări %s"
+    IDS_ERR_ALREADY_DOWNLOADING "Deja ai la descărcare %s"
+    IDS_ERR_ALREADY_DOWNLOADED "Fişierul %s a fost deja descărcat"
+    IDS_ERR_SERVERMET_BAD   "Eroare: fişierul known.met e corupt, nu pot încărca fişierele cunoscute"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "Eroare neaşteptată la citirea fişierului known.met: %s, nu pot încărca fişierele cunoscute"
+    IDS_ERR_CONNECTIONERROR "Eroare la conectarea la %s (%s : %u): %s"
+    IDS_ERR_SOCKET          "Eroare în socketul serverului: %s (%s : %u): %s"
+    IDS_SHAREDFOUND         "Am găsit %u fişiere share cunoscute"
+    IDS_SHAREDFOUNDHASHING  "Am găsit %u fişiere share cunoscute, fac hash la %u fişiere noi"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD "Completare fişier eşuată!!!"
+    IDS_FILEBUFFERSIZE      "Mărime buffer fişiere"
+    IDS_QUEUESIZE           "Mărimea Rîndului"
+    IDS_DAYS2               "zile"
+    IDS_ERR_MAKEBAKCREDITFILE "Nu pot face copie fişierului cu credite"
+    IDS_COMMENT             "Comentarii"
+    IDS_IPFILTERED          "IP filtrat: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "Completat"
+    IDS_DL_ACTIVE_TIME      "Timp de descărcare"
+    IDS_STATS_FILTEREDCLIENTS "Filtrat: %u"
+    IDS_FILTERLABEL         "Filtrez mesajele conţinînd: (Separator | )"
+    IDS_ERR_LARGEREQBLOCK   "Un client a cerut o porţiune prea mare."
+    IDS_SHOWRATEONTITLE     "Arată ratele de transfer în titlu"
+    IDS_TBN_NOMESSAGEHISTORY "Nici un mesaj prezent în Istoric!"
+    IDS_PW_DAP              "Dă prioritate Automată descărcărilor noi"
+    IDS_FD_LASTCHANGE       "Ultima primire:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_RUNTIME       "eMule e pornit de"
+    IDS_ALL                 "Toate"
+    IDS_CAT_ADD             "Adaugă o categorie"
+    IDS_CAT_EDIT            "Modifică categoria"
+    IDS_CAT_REMOVE          "Şterge categoria"
+    IDS_CAT                 "Categorie"
+    IDS_TITLE               "Titlu"
+    IDS_COLOR               "Culoare"
+    IDS_DEFAULT             "Implicită"
+    IDS_PW_DISPLAY          "Aspect"
+    IDS_INDICATERATINGS     "Indică descărcările comentate/votate, cu un icon"
+    IDS_ALLOTHERS           "Fără categorie"
+    IDS_TOCAT               "Pune într-o categorie"
+    IDS_CAT_UNASSIGN        "(scoate din categorie)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "a cerut blocuri incomplete "
+    IDS_ERR_OPEN            "nu pot deschide fişierul cerut"
+    IDS_ERR_CLIENTERRORED   "Clientul '%s' a cauzat o eroare la crearea pachetului (%s) - client deconectat"
+    IDS_ERR_REQ_FNF         "n-am găsit fişierul cerut"
+    IDS_DESC                "Descriere: %s"
+    IDS_PORT                "Port" //!
+    IDS_ERR_NOVALIDSERVERSFOUND "N-am găsit servere valide în listă"
+    IDS_CONNECTEDTOREQ      "M-am conectat la %s (%s:%u), trimit cerere de logare"
+    IDS_ERR_FATAL           "Eroare fatală încercînd conectarea. Conexiunea Internet ar putea fi inactivă"
+    IDS_ERR_LOSTC           "Am pierdut legătura cu %s (%s:%u)"
+    IDS_ERR_DEAD            "%s (%s:%u) pare a fi inactiv."
+    IDS_ERR_FULL            "%s (%s:%u) pare a fi plin"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONNECTEDTO         "Am făcut legătura cu %s"
+    IDS_DL_PREVIEW          "Pre-&vizualizare"
+    IDS_VIEWQUEUE           "Arată rîndul"
+    IDS_TW_UPLOADS          "Trimiteri"
+    IDS_TW_DOWNLOADS        "Descărcări"
+    IDS_TW_QUEUE            "Clienţi la rînd:"
+    IDS_SW_SEARCHBOX        "Caută"
+    IDS_SW_NAME             "Nume"
+    IDS_SW_GLOBAL           "Caută &global"
+    IDS_SW_DIRECTDOWNLOAD   "Adaugă link eD2k"
+    IDS_SW_LINK             "link eD2k"
+    IDS_SW_START            "Start" //!
+    IDS_SCHEDULER           "Programare"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC                 "IRC"
+    IDS_SW_RESULT           "Rezultate căutare"
+    IDS_SW_DOWNLOAD         "Descarcă selecţia"
+    IDS_SV_SERVERLIST       "Servere"
+    IDS_SV_SERVERINFO       "Info server"
+    IDS_SV_LOG              "Raport"
+    IDS_SV_NEWSERVER        "Server nou"
+    IDS_SV_ADDRESS          "IP sau adresă"
+
+    IDS_SV_ADD              "Adaugă server"
+    IDS_SV_MET              "Actualizare server.met din URL"
+    IDS_SV_UPDATE           "Actualizează"
+    IDS_SF_FILES            "Fişiere share"
+    IDS_SF_STATISTICS       "Statistici"
+    IDS_SF_RELOAD           "Actualizează"
+    IDS_SF_CURRENT          "Sesiune curentă"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPEED_LIMITS        "Limite de viteză"
+    IDS_CAPACITY_LIMITS     "Limite de bandă"
+    IDS_ADMIN               "Administrator" //!
+    IDS_ACCESSDENIED        "Acces interzis!"
+    IDS_WEB_LOWUSER         "Client"
+    IDS_WEB_ERR_CANTLOAD    "Nu pot încărca template-uri: nu pot deschide fişierul %s"
+    IDS_GLOBALSEARCH        "Global (Server)"
+    IDS_METHOD              "Tipul căutării"
+    IDS_UNDO                "Anulează"
+    IDS_DAYLY               "zilnic"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_MO_FR           "Luni-Vineri"
+    IDS_DAY_SA_SO           "Sâmbăta-Duminica"
+    IDS_MO                  "Luni"
+    IDS_DI                  "Marţi"
+    IDS_MI                  "Miercuri"
+    IDS_DO                  "Joi"
+    IDS_FR                  "Vineri"
+    IDS_SA                  "Sâmbătă"
+    IDS_SO                  "Duminică"
+    IDS_WEB_ADMINLOGIN      "Interfaţa Web: logare Administrator"
+    IDS_WEB_GUESTLOGIN      "Interfaţa Web: logare Client"
+    IDS_WEB_SESSIONEND      "Interfaţa Web: ieşire"
+    IDS_DETAILS             "Detalii"
+    IDS_ACTION              "Acţiune"
+    IDS_REMOVE              "Şterge"
+    IDS_NEW                 "Nou"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TOTAL            "Total" //!
+    IDS_SF_TRANS            "Transferat:"
+    IDS_SF_ACCEPTED         "Trimiteri acceptate:"
+    IDS_SF_REQUESTED        "Cereri:"
+    IDS_ST_DOWNLOAD         "Viteză descărcare"
+    IDS_ST_UPLOAD           "Viteză trimitere"
+    IDS_ST_CURRENT          "Curent"
+    IDS_ST_SESSION          "Media sesiunii"
+    IDS_ST_ACTIVED          "Descărcări active"
+    IDS_ST_ACTIVEU          "Trimiteri active"
+    IDS_CW_MESSAGES         "Mesaje"
+    IDS_CW_FRIENDS          "Prieteni"
+    IDS_CW_SEND             "Trimite"
+    IDS_CW_CLOSE            "Închide"
+    IDS_PW_GENERAL          "General" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_DIR              "Dosare"
+    IDS_PW_NICK             "Poreclă (Max 49 caractere)"
+    IDS_PW_INCOMING         "Fişiere descărcate"
+    IDS_PW_TEMP             "Fişiere temporare"
+    IDS_PW_BROWSE           "Caută..."
+    IDS_PW_SHARED           "Dosare share (Ctrl+Click include subdosarele)"
+    IDS_CONNECTION          "Conectare"
+    IDS_PW_DOWNL            "Limită descărcare"
+    IDS_PW_UPL              "Limită trimitere"
+    IDS_PW_MAXC             "Conexiuni maxime"
+    IDS_PW_CLIENTPORT       "Port client"
+    IDS_PW_AUTOCON          "Conectare automată la pornire"
+    IDS_PW_RECON            "Reconectare dacă s-a deconectat"
+    IDS_PW_SERVER           "Server" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_RDEAD            "Şterg serverele inactive după"
+    IDS_PW_RETRIES          "încercări eşuate"
+    IDS_PW_SCORE            "Folosesc sistemul de priorităţi"
+    IDS_PW_USC              "Actualizez lista de servere după conectarea la server"
+    IDS_PW_UCC              "Actualizez lista de servere la contactarea unui client"
+    IDS_PW_FILTER           "Filtrez IP servere şi clienţi LAN"
+    IDS_PW_USS              "Actualizez automat lista de servere la pornire"
+    IDS_PW_MISC             "Opţiuni diverse"
+    IDS_PW_TRAY             "Micşorare ca icon în colţ pe bară"
+    IDS_PW_PROMPT           "Cer confirmare la ieşire"
+    IDS_PW_SPLASH           "Arăt Splashscreen"
+    IDS_PW_DBLCLICK         "Dublu-click deschide detaliile descărcării"
+    IDS_PW_TOOL             "Întîrziere tooltip (sec.):"
+    IDS_PW_FRONT            "Readu fereastra programului la click pe link eD2k."
+    IDS_PW_LANG             "Limba"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_FILES            "Fişiere"
+    IDS_PW_SHARE            "Arată fişierele mele share"
+    IDS_PW_EVER             "Tuturor"
+    IDS_PW_FRIENDS          "Prietenilor"
+    IDS_PW_NOONE            "Nimănui"
+    IDS_PW_RESET            "Reset" //!
+    IDS_PW_APPLY            "Aplică"
+    IDS_EM_TRANS            "&Transferuri"
+    IDS_EM_SERVER           "Ser&vere"
+    IDS_EM_SEARCH           "Căutare"
+    IDS_EM_FILES            "&Fişiere share"
+    IDS_EM_MESSAGES         "&Mesaje"
+    IDS_EM_STATISTIC        "St&atistici"
+    IDS_EM_PREFS            "&Preferinţe"
+    IDS_MB_LANGUAGEINFO     "A fost selectată limba implicită. Poate fi schimbată oricînd din Preferinţe -> General."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_GENERAL          "General" //!
+    IDS_FD_MET              "Fişier part.met:"
+    IDS_FD_HASH             "Hash:" //!
+    IDS_FD_SIZE             "Mărime fişier:"
+    IDS_FD_TRANSFER         "Transfer" //!
+    IDS_FD_PARTS            "Părţi:"
+    IDS_FD_TRANS            "Transferaţi:"
+    IDS_FD_DATARATE         "Viteză:"
+    IDS_FD_COMPSIZE         "Completat:"
+    IDS_FD_CLOSE            "Închide"
+    IDS_FD_TITLE            "Detalii fişier"
+    IDS_CD_GENERAL          "General" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "Nume utilizator:"
+    IDS_CD_UHASH            "Userhash:" //!
+    IDS_CD_CSOFT            "Soft client"
+    IDS_CD_UIP              "Adresă IP:"
+    IDS_CD_SIP              "IP server:"
+    IDS_CD_VERSION          "Versiune client:"
+    IDS_CD_SNAME            "Nume server:"
+    IDS_CD_CDOWN            "Momentan în descărcare:"
+    IDS_CD_DOWN             "Descărcaţi (sesiunea asta):"
+    IDS_CD_ADOWN            "Viteză medie descărcare:"
+    IDS_CD_TDOWN            "Descărcaţi total:"
+    IDS_CD_UP               "Trimişi (sesiunea asta):"
+    IDS_CD_AUP              "Viteză medie trimitere:"
+    IDS_CD_TUP              "Trimişi în total:"
+    IDS_CD_TRANS            "Transfer" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_SCORES           "Punctaje"
+    IDS_CD_MOD              "Modificator desc/trim:"
+    IDS_CD_RATING           "Punctaj (total):"
+    IDS_CD_USCORE           "Punctaj rînd:"
+    IDS_CD_TITLE            "Detalii client"
+    IDS_EMULEW              "Click" //!
+    IDS_EMULEW2             "pentru a verifica dacă a apărut o versiune nouă"
+    IDS_EMULEW3             "AICI"
+    IDS_PW_MAXSOURCES       "Maxim surse/fişier"
+    IDS_SHAREDFILESCOUNT    "Număr fişiere share: %u"
+    IDS_SF_SIZE             "Dimensiune totală fişiere share: %s"
+    IDS_ERR_BADPORT         "număr port greşit"
+    IDS_ERR_NOHELLO         "Cere ceva fără a se identifica"
+    IDS_ERR_INVALIDPACKET   "Am primit un pachet invalid sau corupt"
+    IDS_ERR_CLIENTERROR     "Clientul '%s' (IP:%s) a cauzat o eroare: %s. Clientul va fi deconectat!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSIZE         "Dimensiune greşită (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "Nu e link către un fişier"
+    IDS_ERR_CREATEPARTFILE  "EROARE: Nu pot crea fişierul part"
+    IDS_CHAT_START          "*** A început sesiunea de chat: "
+    IDS_FILEPRIO            "Prioritate fişier"
+    IDS_SCORE               "Punctaj"
+    IDS_ASKED               "Cereri"
+    IDS_LASTSEEN            "Ultimul contact"
+    IDS_BANNED              "Alungaţi"
+    IDS_UUSERS              "Useri"
+    IDS_UFAILED             "Eşuări"
+    IDS_OPENFILE            "Deschide fişier"
+    IDS_DATE                "Data"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PARTINFOS           "Nume fişier .part: "
+    IDS_PARTINFOS2          "Descarc (de la %u surse)"
+    IDS_USERID              "ID utilizator"
+    IDS_CLIENT              "Client"
+    IDS_SERVER              "Server"
+    IDS_SOURCEINFO          "Număr de cereri: %u - Număr de părţi disponibile: %u"
+    IDS_CLIENTSOURCENAME    "\nNume fişier la client: "
+    IDS_USERINFO            "Poreclă: %s\n"
+    IDS_FILESTATS_SESSION   "Statistici fişier în sesiunea curentă: Acceptate %u din %u cereri, %s bytes transferaţi\n"
+    IDS_FILESTATS_TOTAL     "Statistici fişier în toate sesiunile: Acceptate %u din %u cereri, %s bytes transferaţi"
+    IDS_REQ_UNKNOWNFILE     "Cerut fişier necunoscut"
+    IDS_SF_AVERAGESIZE      "Mărime medie fişier: %s"
+    IDS_SF_REQUESTS         "Cereri"
+    IDS_SF_ACCEPTS          "Cereri acceptate"
+    IDS_SF_TRANSFERRED      "Date trimise"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REMOVESEARCHSTRING  "Închide acest tab"
+    IDS_REMOVESELECTED      "Şterge rezultatele selectate"
+    IDS_REMOVEALLSEARCH     "Şterge tot"
+    IDS_ENTERQUEUE          "La rînd de"
+    IDS_SF_FAIL             "Servere invalide"
+    IDS_SF_WUSER            "Utilizatori în serverele active"
+    IDS_SF_WFILE            "Fişiere în serverele active"
+    IDS_SF_USER             "Total utilizatori"
+    IDS_SF_FILE             "Total fişiere"
+    IDS_UPLOADTIME          "Durată upload"
+    IDS_LASTSEENCOMPL       "Ultima oară a primit date:"
+    IDS_YES                 "Da"
+    IDS_NO                  "Nu"
+    IDS_UNBAN               "Scoate penalizarea"
+    IDS_SF_WORKING          "Servere active"
+    IDS_ADDTOSTATIC         "Adaugă la lista de servere statice"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDED2SSF           "Adăugat la lista de servere statice"
+    IDS_STATICSERVER        "Static" //!
+    IDS_ERROR_SSF           "Nu pot deschide fişierul 'staticservers.dat'"
+    IDS_SF_ACTIVECON        "Conexiuni active (circa)"
+    IDS_SF_MAXCONLIMITREACHED "Limita maximă conexiuni atinsă"
+    IDS_SF_AVGCON           "Medie conexiuni (circa)"
+    IDS_SF_PEAKCON          "Maxim conexiuni (circa)"
+    IDS_ST_ACTIVEC          "Conexiuni active"
+    IDS_NETWORK             "Reţea"
+    IDS_SF_DELCOUNT         "Servere şterse"
+    IDS_QUEUEFULL           "Rînd plin"
+    IDS_AVG                 "Medie"
+    IDS_BYTES               "Bytes" //!
+    IDS_KBYTES              "KB" //!
+    IDS_MBYTES              "MB" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GBYTES              "GB" //!
+    IDS_TBYTES              "TB" //!
+    IDS_SECS                "sec"
+    IDS_MINS                "min"
+    IDS_HOURS               "h" //!
+    IDS_DAYS                "Z"
+    IDS_ED2KLINKFIX         "link-uri eD2k"
+    IDS_RECONNECT           "Conectarea automată la server se va repeta în %u secunde"
+    IDS_SERVERADDED         "Servere adăugate: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "Ignoră mesaje informative Join"
+    IDS_STATS_SUCCUPCOUNT   "Total trimiteri reuşite: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "Ignoră mesaje informative Part"
+    IDS_STATS_FAILUPCOUNT   "Total trimiteri eşuate: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "Durată medie trimitere: %s"
+    IDS_SEARCHMINSIZE       "Minim Mb"
+    IDS_SEARCHMAXSIZE       "Maxim Mb"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PREF_ONLINESIG      "Activează Semnătura on-line"
+    IDS_ERROR_SAVEFILE      "Nu pot salva"
+    IDS_REQ_SHAREDFILES     "Utilizatorul %s (%u) a cerut lista cu fişierele tale share -> %s"
+    IDS_ACCEPTED            "acceptată"
+    IDS_DENIED              "refuzată"
+    IDS_PW_CON_DOWNLBL      "Descărcare"
+    IDS_PW_CON_UPLBL        "Trimitere"
+    IDS_PW_AUTOCONNECTSTATICONLY
+                            "Auto-conectare doar la servere din lista statice"
+    IDS_PW_CON_LIMITFRM     "Limite"
+    IDS_STATS_AVGLABEL      "Durată grafic medie: %u min"
+    IDS_GRAPHS              "Grafice"
+    IDS_STREE               "Statistici"
+    IDS_IRC_IGNOREQUITMESSAGE "Ignoră mesaje informative Quit"
+    IDS_STATSSETUPINFO      "Aspect statistici"
+    IDS_IRC_SOUNDEVENTS     "Redă sunete la evenimente"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "Momentan nu eşti conectat la reţeaua Kad!"
+    IDS_IRC_NOSFS           "Nici un fişier share selectat"
+    IDS_RESETLABEL          "Completare automată (funcţia Istoric)"
+    IDS_IRC_IGNOREMISCMESSAGE "Ignoră mesajele de informaţii Diverse"
+    IDS_KNOWN               "Cunoscut"
+    IDS_RAU_RUNNING         "eMule pornit ca utilizator fără privilegii ""%s"""
+    IDS_RAU_FAILED          "Nu pot porni eMule ca utilizator fără privilegii ""eMule_Securizat"". Păstrez privilegiile utilizatorului curent (""%s"")."
+    IDS_KADCONTACTSREAD     "Citesc %u contacte din fişier."
+    IDS_ERR_KADCONTACTS     "N-am găsit contacte; execută bootstrap, sau descarcă un nodes.dat."
+    IDS_METATAGS            "Număr Meta Tag:"
+    IDS_FILEFORMAT          "Format fişier"
+    IDS_UDPREASKS           "Cereri repetate fişiere UDP"
+    IDS_DYNUP_PINGTOLERANCE_MS "Toleranţă Ping (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER "Metoda toleranţei Ping"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS "Milisecunde (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT "Procent (%)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "La început,încerc să descarc întîi primul şi ultimul chunk"
+    IDS_RECOVER_SINGLE      "1 fişier recuperat."
+    IDS_RECOVER_MULTIPLE    "%u fişiere recuperate."
+    IDS_ATTEMPTING_RECOVERY "Încerc să recuperez arhiva..."
+    IDS_RECOVERY_SUCCESSFUL "Recuperarea arhivei reuşită."
+    IDS_RECOVERY_FAILED     "Recuperarea arhivei eşuată."
+    IDS_STARTNEXTFILE       "La terminarea descărcării, descarcă următorul fişier din pauză"
+    IDS_FULLCHUNKTRANS      "încearcă să trimiţi tuturor părţi complete"
+    IDS_MANUALSERVERHIGHPRIO "Dă prioritate mare serverelor adăugate manual"
+    IDS_VERBOSE             "Volubil (informaţii adiţionale)"
+    IDS_FLAT                "plată"
+    IDS_ROUND               "rotunjită"
+    IDS_SAMEUSERHASH        "Clienţii '%s' şi '%s' au acelaşi userhash sau IP - '%s' eliminat"
+    IDS_SEARCHEXTENTION     "Extensie"
+    IDS_SEARCHAVAIL         "Disponibilitate"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDLIMIT           "Limită 'hard'"
+    IDS_COL_MORECOLORS      "altele..."
+    IDS_TOOMANYCONNS        "Prea multe conexiuni"
+    IDS_DOWNLOADRENAMED     "Există deja un fişier cu acest nume, am salvat cu numele %s"
+    IDS_TBN_DOWNLOADDONE    "Descărcate:"
+    IDS_PW_TBN_USESOUND     "Redă un sunet"
+    IDS_PW_TBN_ONLOG        "Actualizez log-ul"
+    IDS_PW_TBN_ONCHAT       "Începe o sesiune nouă de chat"
+    IDS_PW_TBN_POP_ALWAYS   "A sosit un mesaj nou"
+    IDS_PW_TBN_ONDOWNLOAD   "S-a terminat o descărcare"
+    IDS_PW_EKDEV_OPTIONS    "Anunţuri"
+    IDS_PW_TASKBARNOTIFIER  "Mesaj popup"
+    IDS_PW_TBN_OPTIONS      "Anunţă-mă cînd"
+    IDS_TBN_NEWCHATMSG      "Mesaj de la"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_CON_CAPFRM       "Capacităţi"
+    IDS_IRC_PRIVATECHANSTART "* Am început un chat privat"
+    IDS_IRC_SLAPMSG         "* %s îl face din vorbe pe %s!"
+    IDS_IRC_PRIVMESSAGE     "Mesaj privat"
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS
+                            "Descarc întîi părţi necesare pre-vizualizării"
+    IDS_IRC_KICK            "Alungă"
+    IDS_IRC_SLAP            "Slap" //!
+    IDS_IRC_JOIN            "Intră"
+    IDS_IRC_CHANNELLIST     "Listă canale"
+    IDS_IRC_CONNECT         "Conectare"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_DISCONNECT      "Deconectare"
+    IDS_IRC_HASJOINED       "* %s a intrat în %s"
+    IDS_IRC_HASPARTED       "* %s a ieşit din %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s a fost alungat din %s (%s)"
+    IDS_DOWNLOAD_ALPHABETICAL "Descarcă în ordine alfabetică"
+    IDS_IRC_HASQUIT         "* %s a ieşit din (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s şi-a schimbat numele în %s"
+    IDS_IRC_SETSMODE        "* %s a impus modul: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** Anumite moduri puse nu sînt încă prezente. Ieşi şi reintră pe canal pentru actualizare listă utilizatori..."
+    IDS_IRC_CHANNEL         "Canal"
+    IDS_IRC_NICK            "Poreclă"
+    IDS_IRC_SEND            "Trimite"
+    IDS_IRC_NAME            "Nume"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION îl face din vorbe pe %s!\001"
+    IDS_IRC_ADDTIMESTAMP    "Adaugă ora la mesaje."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_USEFILTER       "Foloseşte filtrul ptr. lista de canale"
+    IDS_IRC_PERFORM         "Execuţie"
+    IDS_IRC_USEPERFORM      "Execută comanda la conectare."
+    IDS_IRC_ADDTOFRIENDLIST "Adaugă la prieteni"
+    IDS_IRC_LOADCHANNELLISTONCON "Încarcă lista de canale la conectare."
+    IDS_IRC_ADDASFRIEND     "te-a adăugat la prieteni!"
+    IDS_PW_WARNING          "Numărul ales de ""%s"" e mai mare decît suportă sistemul tău de operare:  %u\nComputerul ar putea deveni instabil.\n\nSigur vrei să faci asta?"
+    IDS_TAKEOVER            "Modifică"
+    IDS_CLEANUP             "Curăţă"
+    IDS_RENAME              "Redenumeşte"
+    IDS_IRC_ADDLINKTOIRC    "Adaugă în agenda IRC."
+    IDS_IRC_SENDLINK        "Trimite-l prietenului: "
+    IDS_IRC_RECIEVEDLINK    "%s a trimis (%s) pentru pornire automată."
+    IDS_IRC_ACCEPTLINKS     "Acceptă link-uri eD2k în IRC. (Ai grijă ce faci!)"
+    IDS_SHARED              "Partajat(e)"
+    IDS_DOWNLOADED          "Descărcat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCENAMES         "Nume surse"
+    IDS_PREF_STARTMIN       "Porneşte minimizat"
+    IDS_PS_TBN_IMPORTANT    "Urgenţe: lipsă spaţiu pe disc, deconectat de la server"
+    IDS_COLORS              "Culori"
+    IDS_SP_BACKGROUND       "Fundal"
+    IDS_SP_GRID             "Grilă"
+    IDS_SP_DL1              "Descărcări curente"
+    IDS_SP_DL2              "Medie descărcări"
+    IDS_SP_DL3              "Medie descărcări/sesiune"
+    IDS_SP_UL1              "Trimiteri curente"
+    IDS_SP_UL2              "Medie trimiteri"
+    IDS_SP_UL3              "Medie trimiteri/sesiune"
+    IDS_SP_ACTCON           "Connexiuni active"
+    IDS_SP_ACTDL            "Descărcări active"
+    IDS_SP_ACTUL            "Trimiteri active"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "Nelimitată"
+    IDS_PW_MINREC           "minimă recomandată\t%u "
+    IDS_PW_UA               "Dă viteza max. Up/Down"
+    IDS_PW_PA               "Micşorează viteza Up/Down"
+    IDS_IRC_IGNOREINFOMESSAGE "Ignoră mesajele de informare"
+    IDS_CONNECTIONLOST      "Am pierdut conexiunea"
+    IDS_WIZ_OS_FRAME        "Sistem de operare"
+    IDS_HASHINGFILE         "Fac hash la fişierul:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "Bandă la trimitere"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "Bandă la descărcare"
+    IDS_FRIENDLIST          "Prieteni"
+    IDS_CHATDISCONNECTED    "*** Deconectat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZARD              "Îndrumător"
+    IDS_ADDFRIEND           "Adaugă la prieteni"
+    IDS_REMOVEFRIEND        "Şterge prieten"
+    IDS_REMOVEFROMSTATIC    "Şterge din lista de servere statice"
+    IDS_LENGTH              "Durată"
+    IDS_VIDEO               "Video" //!
+    IDS_AUDIO               "Audio" //!
+    IDS_FILEINFO            "Date &tehnice fişier"
+    IDS_CODEC               "Codec" //!
+    IDS_BITRATE             "Bitrate" //!
+    IDS_WIDTH               "Lăţime"
+    IDS_FPS                 "Cadre/sec"
+    IDS_CHANNELS            "Canale"
+    IDS_SAMPLERATE          "Samplerate" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HEIGHT              "Înălţime"
+    IDS_SHAREDFILES_FAILED  "Nu pot lua lista de fişiere share a lui '%s'"
+    IDS_SHAREDFILES_REQUEST "Cer lista de share a lui '%s'"
+    IDS_VIEWFILES           "&Vezi fişierele share"
+    IDS_FRIENDSLOT          "Dă slot la prieten"
+    IDS_FRIENDDETAIL        "(Slot prieten)"
+    IDS_UDPDISABLED         "dezactivat"
+    IDS_WIZ_CTFRAME         "Tip conexiune"
+    IDS_CONCURDWL           "Descărcări simultane"
+    IDS_WIZARD_CUSTOM       "Personalizată"
+    IDS_WIZARD_ENTERBELOW   "(scrie-o jos!)"
+    IDS_STATS_MAXAVGDL      "Media max. viteză descărcare: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MAXDL         "Viteză maximă descărcare: %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "Ignoră mesajele protocol eMule Adăugare prieten"
+    IDS_PW_FASTSRVCON       "Safe Connect (conectare sigură la server)"
+    IDS_SOURCELINKFAILED    "E necesar IDmare pentru a crea link sursă"
+    IDS_ERR_LOADSERVERMET   "Nu pot încărca fişierul 'server.met'!"
+    IDS_ERR_CORRUPTCOMPRPKG "Am primit un pachet comprimat corupt ptr. %s (eroare %u)"
+    IDS_ERR_EMFRIENDSINVALID "Fişierul 'emfriends.met' e invalid sau corupt!"
+    IDS_ERR_READEMFRIENDS   "Eroare necunoscută în timpul citirii fişierului 'emfriends.met': %s"
+    IDS_ERR_KNOWNSERVERINFOREC
+                            "Am primit informaţii necunoscute despre server!"
+    IDS_WIZ_DOWN            "Down (kbit/s)"
+    IDS_WIZ_UP              "Up (kbit/s)"
+    IDS_SELECT_INCOMINGDIR  "Alege dosarul pentru fişierele descărcate (completate)"
+    IDS_SELECT_TEMPDIR      "Alege dosarul pentru fişierele temporare (incomplete)"
+    IDS_PRIOAUTO            "Automată"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOAUTONORMAL      "Auto [No]" //!
+    IDS_PRIOAUTOHIGH        "Auto [Ma]"
+    IDS_PRIOAUTORELEASE     "Auto [Ge]"
+    IDS_PRIOAUTOLOW         "Auto [Mi]"
+    IDS_ERR_CONTIMEOUT      "Tentativă de conectare la ""%s"" (%s:%u) expirată"
+    IDS_OUTOFSERVERS        "Nu m-am putut conecta la nici un server. Încerc iar."
+    IDS_PW_CONLIMITS        "Limite conectare"
+    IDS_MAXCON5SECLABEL     "Maxim conexiuni noi la 5 secunde"
+    IDS_PW_UAP              "Dă prioritate Automată fişierelor share noi"
+    IDS_MAXCLIENT           "Maxim utilizatori"
+    IDS_PW_TWEAK            "Opţiuni avansate"
+    IDS_TWEAKS_WARNING      "Atenţie: Nu schimba aceste setări dacă nu ştii ce faci. Ai putea înrăutăţi situaţia. eMule va merge foarte bine fără a modifica aceste valori."
+    IDS_ADDAFRIEND          "Adaugă la Prieteni"
+    IDS_PAF_REQINFO         "Informaţii necesare"
+    IDS_PAF_MOREINFO        "Informaţii adiţionale"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "Alege un IP şi un port valid !"
+    IDS_ADD                 "Adaugă"
+    IDS_RECOVERED_PARTMET   "Fişierul part.met al fişierului '%s' recuperat!"
+    IDS_CMT_QUEST           "Comentează acest fişier! (Acest text va fi văzut de toţi utilizatorii)"
+    IDS_CMT_AIDE            "Prin această funcţie poţi vota/comenta fişierele din reţeaua eMule. Dacă e un film, poţi indica durata, nr. cadre, limba... dacă e un fals, poţi avertiza ceilalţi utilizatori... "
+    IDS_CMT_ADD             "&Modifică comentariul fişierului..."
+    IDS_CMT_NONE            "Fără comentariu"
+    IDS_CMT_READ            "Comentariu fişier:"
+    IDS_CMT_SHOWALL         "Vezi toate come&ntariile"
+    IDS_CMT_READALL         "Comentarii"
+    IDS_CMT_RATEQUEST       "Calitate fişier"
+    IDS_CMT_RATEHELP        "Votează fişierul sau anunţă-i pe ceilalţi că e invalid."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_FAKE            "Incorect / Corupt / Fals"
+    IDS_CMT_POOR            "Slăbuţ"
+    IDS_CMT_GOOD            "Bun"
+    IDS_CMT_FAIR            "Suficient"
+    IDS_CMT_EXCELLENT       "Excelent"
+    IDS_CMT_NOTRATED        "Necotat"
+    IDS_KILO                "K"
+    IDS_MEGA                "M" //!
+    IDS_GIGA                "G" //!
+    IDS_TERA                "T" //!
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "Ignoră mesajele de protocol eMule"
+    IDS_SMARTLOWIDCHECK     "Verific atent IDmic la conectare"
+    IDS_SF_SRVOCC           "Ocupare server: %.2f%%"
+    IDS_3DDEP               "Stilul barei de progres"
+    IDS_AUTOTAKEED2KLINKS   "Adaugă link eD2k automat numai cînd rulează eMule"
+    IDS_ADDNEWFILESPAUSED   "Adaugă fişierele noi 'în pauză'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOHELP          "Vino, te rog, în secţia de Download a paginii noastre de Net ptr. un nou fişier de Ajutor!\n\nVrei să răsfoieşti ajutorul online acum, în schimb?"
+    IDS_SHOWOVERHEAD        "Arată consum adiţional bandă"
+    IDS_UPDOWNSMALL         "Tr: %.1f | Desc: %.1f"
+    IDS_EDITLIST            "Lista..."
+    IDS_SP_ICONBAR          "Bara de viteză icon din SysTray"
+    IDS_RATINGRECV          "Votul fişierului '%s' primit: %u"
+    IDS_DESCRIPTIONRECV     "Descrierea fişierului '%s' primit: %s"
+    IDS_WEBSERVICES         "Servicii Web"
+    IDS_WEBSVEDIT           "Modifică serviciile Web"
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "Ignoră mesaje protocol eMule Trimitere link"
+    IDS_CHECK4UPDATE        "Caută o nouă versiune"
+    IDS_STARTUP             "La pornire"
+    IDS_NEWVERSIONAVL       "E disponibilă o nouă versiune de eMule! Pentru alte informaţii intră pe site-ul eMule."
+    IDS_NEWVERSIONAVLPOPUP  "E disponibilă o nouă versiune de eMule. Pentru informaţii dă click aici!"
+    IDS_NEWVERSIONFAILED    "Nu pot verifica actualizarea."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "E disponibilă o nouă versiune de eMule"
+    IDS_NONEWERVERSION      "Ai deja ultima versiune de eMule."
+    IDS_VERSIONCHECK        "Control &Versiune"
+    IDS_VISITVERSIONCHECK   "\n\nVrei să vezi acum pagina de noutăţi?"
+    IDS_PW_VIDEOPLAYER      "Player pentru pre-vizualizare:"
+    IDS_VIDEOBACKUP         "Creează copie de pre-vizualizare"
+    IDS_MYINFO              "Datele mele"
+    IDS_ID                  "ID" //!
+    IDS_IDLOW               "IDmic"
+    IDS_IDHIGH              "IDmare"
+    IDS_UPSTATUS            "Părţi obţinute"
+    IDS_TOVERHEAD           "Adiţional total (Pachete): %s (%s)"
+    IDS_FROVERHEAD          "Adiţional cerere fişiere (Pachete): %s (%s)"
+    IDS_SSOVERHEAD          "Adiţional schimb surse (Pachete): %s (%s)"
+    IDS_SOVERHEAD           "Adiţional server (Pachete): %s (%s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "Adaugi următoarele link-uri la descărcări?\n"
+    IDS_PF_WATCHCB          "Caută link-uri eD2k în Agendă"
+    IDS_SECURITY            "Securitate"
+    IDS_IPFILTERLOADED      "Am încărcat %u filtre-IP"
+    IDS_IPFILTER            "Filtre-IP"
+    IDS_EDIT                "Modifică"
+    IDS_FILTERLEVEL         "Nivel filtraj"
+    IDS_FILTERSERVERBYIPFILTER
+                            "Filtrez şi servere"
+    IDS_FILTERCOMMENTSLABEL "Ignoră comentariile conţinînd: (Separator | )"
+    IDS_CLIENTLIST          "Clienţi cunoscuţi"
+    IDS_FOLDER              "Dosar"
+    IDS_CL_UPLOADSTATUS     "Stare Upload"
+    IDS_CL_TRANSFUP         "Trimis"
+    IDS_CL_DOWNLSTATUS      "Stare Download"
+    IDS_CL_TRANSFDOWN       "Descărcat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CL_PENDING          "Aştept"
+    IDS_CL_LOW2LOW          "IDmic cu IDmic"
+    IDS_ERROR               "Eroare"
+    IDS_OPENINC             "&Deschide dosarul Descărcate"
+    IDS_HOTMENU             "HotMeniu"
+    IDS_DISABLEKNOWNLIST    "Dezactivare listă Clienţi cunoscuţi"
+    IDS_DISABLEQUEUELIST    "Dezactivare listă Clienţi la rînd"
+    IDS_USECREDITSYSTEM     "Folosesc sistemul de credite (Favorizezi clienţii ce oferă)"
+    IDS_FIRSTAUTODOWN       "Activează dacă vrei ca eMule să gestioneze prioritatea fişierelor la descărcare.\n\nActivarea acestei opţiuni permite ca eMule să verifice ca fişierele cu multe surse să nu interfereze cu cele cu surse puţine. Opţiunea va opera numai asupra viitoarelor descărcări. (Implicit: Activat)"
+    IDS_FIRSTAUTOUP         "Activează dacă vrei ca eMule să gestioneze prioritatea fişierelor la trimitere.\n\nActivarea acestei opţiuni permite ca eMule să accelereze difuzarea fişierelor rare, cele populare devenind mai greu accesibile. Dezactivarea acestei opţiuni permite ca eMule să trimită fişierele populare mai des, în detrimentul celor rare. Opţiunea va opera numai asupra viitoarelor fişiere share. (Implicit: Activat)"
+    IDS_FIRSTSAFECON        "Activează dacă vrei ca eMule să se conecteze prin metoda 'Safe Connect'?\n\nDezactivarea acestei opţiuni permite conectarea eMule mai rapidă la servere, dar creşte posibilitatea de a primi un fals ID mic.(Implicit: Dezactivat)"
+    IDS_FIRSTAUTOCON        "Activează dacă vrei ca eMule să se conecteze la pornirea sistemului? (Implicit: Dezactivat)"
+    IDS_FIRSTCOMPLETE       "Ai încheiat procesul de setare pas cu pas.\n\nAceste opţiuni şi altele vor putea fi ulterior modificate apăsînd butonul 'Preferinţe'. Pentru explicaţii şi suport vezi Ajutorul, apăsînd  F1 în eMule!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENTERUSERNAME       "Introdu-ţi porecla pentru eMule (max 33 caractere):"
+    IDS_STATIC_CPUMEM       "Economie CPU şi memorie"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "Keyword prea scurt.\r\n\r\nUn keyword folosit în căutarea Kad trebuie să aibă minim 3 caractere."
+    IDS_LOG2DISK            "Salvare log pe disc"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "Deja Kad caută acest keyword ""%s"".\r\n\r\nPentru a căuta iar acest keyword, aşteaptă terminarea actualei căutări sau închide panoul respectiv cu rezultatele căutării."
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "Keyword Kad incorect.\r\n\r\nFormatul expresiei de căutare Kad este:\r\n\r\n\t<kad-keyword> [ <ed2k-search-expression> ]\r\n\r\n<kad-keyword> nu trebuie să conţină nici unul din caracterele:\r\n\r\n\t%s"
+    IDS_EDITCAT             "Modifică proprietăţile categoriei"
+    IDS_PW_WS               "Interfaţă Web"
+    IDS_ENABLED             "Activă"
+    IDS_WEB_LOGIN           "Logare"
+    IDS_WEB_ENTER_PASSWORD  "Introdu parola ta aici"
+    IDS_WEB_LOGIN_NOW       "Intră acum!"
+    IDS_WEB_CONFIRM_REMOVE_SERVER "Sigur vrei să ştergi acest server?"
+    IDS_WEB_CONTROL         "Panou de control Web"
+    IDS_WEB_LOGOUT          "Ieşi"
+    IDS_WEB_ACTIONS         "Acţiuni"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "Arată rîndul"
+    IDS_WEB_GZIP_COMPRESSION "Comprimare GZip"
+    IDS_WEB_GZIP_COMMENT    "Economie de trafic,mai ales la grafică."
+    IDS_WEB_REFRESH_TIME    "Actualizare ferestre la"
+    IDS_WEB_REFRESH_COMMENT "Timp în secunde (zero = dezactivat):"
+    IDS_SV_URL              "URL" //!
+    IDS_WS_RELOAD_TMPL      "Stil interfaţă Web"
+    IDS_SV_DEBUGLOG         "Log de depanare"
+    IDS_WS_PASS             "Parolă"
+    IDS_WS_ERR_LOADTEMPLATE "Nu pot încărca stilul: înlocuieşte fişierul %s cu o versiune nouă!"
+    IDS_WEB_CONLIMITS       "Limite conexiuni"
+    IDS_INFLST_USER_TOTALDOWNLOAD "Total descărcat"
+    IDS_INFLST_USER_TOTALUPLOAD "Total trimis"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "Interfaţă Web: Tentativă de logare eşuată"
+    IDS_ERR_TOOLARGEFILE    "Dimensiune fişier prea mare ptr. protocolul eDonkey (>= 4Gb)"
+    IDS_MSGONLYFRIENDS      "Doar de la prieteni"
+    IDS_DAY_MO_SA           "Luni-Sâmbătă"
+    IDS_LIMITSOURCES        "Limită surse"
+    IDS_LIMITCONS5SEC       "Maxim conexiuni în 5 secunde"
+    IDS_SCHED_CATSTOP       "Opreşte descărcările din categorie"
+    IDS_SCHED_CATRESUME     "Reia descărcările din categorie"
+    IDS_S_DAYS              "Zile"
+    IDS_STARTTIME           "Ora pornire"
+    IDS_VALUE               "Valoare"
+    IDS_SCHED_ENTERDATARATELIMIT "Introdu noua viteză maximă:"
+    IDS_SCHED_ENTERVAL      "Introdu noua valoare:"
+    IDS_SCHED_ACTCONFIG     "Configurează acţiunea"
+    IDS_SELECTCAT           "Alege categoria"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALLUNASSIGNED       "Toate necategorisite"
+    IDS_ACTSESSIONS         "sesiuni active"
+    IDS_WEBSRV              "Interfaţa Web"
+    IDS_SW_REFETCHRES       "Adu rezultatele"
+    IDS_FILEHASH            "Hash fişier"
+    IDS_PW_PROXY            "Proxy" //!
+    IDS_PROXY_ENABLE        "Activare Proxy"
+    IDS_PROXY_TYPE          "Tip Proxy:"
+    IDS_PROXY_HOST          "Adresă Proxy:"
+    IDS_PROXY_PORT          "Port Proxy:"
+    IDS_PROXY_AUTH          "Activare identificare"
+    IDS_AUTH                "Identificare"
+    IDS_SHOWCATINFO         "Arată informaţii descărcare în tab-ul categoriilor"
+    IDS_SW_SEARCHINGINFO    "Căutare în curs. Aştept rezultatele!"
+    IDS_LOGENTRY            "Info Log"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "Copiază"
+    IDS_SELECTALL           "Selectează tot"
+    IDS_AUTOSCROLL          "Auto-derulare"
+    IDS_WIZ1_WELCOME_TITLE  "Bine ai venit la eMule"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "Acest îndrumar te va ajuta să faci primii paşi în setarea eMule."
+    IDS_WIZ1_WELCOME_BTN_HINT "Apasă pe <Next>, pentru continuare."
+    IDS_WIZ1_END_TITLE      "Completare îndrumar"
+    IDS_WIZ1                "Îndrumar de început la eMule"
+    IDS_WIZ1_END_BTN_HINT   "Apasă pe <Finish> pentru a închide îndrumarul."
+    IDS_WIZ1_UPLOAD_SUBTITLE "Transfer de părţi complete"
+    IDS_DL_RESUMENEXT       "Descarcă următorul fişier din pauză"
+    IDS_STARTPRIO           "Schimbă prioritatea noilor fişiere"
+    IDS_PREF_STARTNEXTFILECAT "Prefer aceeaşi categorie"
+    IDS_SOFTFILES           "Limită 'Soft' fişiere"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDFILES           "Limită 'Hard' fişiere"
+    IDS_FILTER              "Filtru"
+    IDS_LINKS               "Link-uri"
+    IDS_HM_SCHED_ON         "Activare acţiuni programate"
+    IDS_HM_SCHED_OFF        "Dezactivare acţiuni programate"
+    IDS_HM_LINKHP           "Homepage eMule"
+    IDS_HM_LINKFAQ          "F.A.Q. eMule"
+    IDS_HM_LINKVC           "Control versiune eMule"
+    IDS_DEBUG_SOURCE_EXCHANGE
+                            "Log mesaje de schimb de surse client şi cereri/răspunsuri server"
+    IDS_SHAREDREQ1          "Utilizatorul %s (%u) a cerut lista dosarelor tale share -> %s"
+    IDS_SHAREDREQ2          "Utilizatorul %s (%u) a cerut lista fişierelor din dosarele tale share '%s' -> %s"
+    IDS_SHAREDANSW          "Utilizatorul %s (%u) are share dosarul '%s'"
+    IDS_SHAREDANSW2         "Utilizatorul %s (%u) a trimis o lista necerută de dosare share - am ignorat-o"
+    IDS_SHAREDINFO1         "Utilizatorul %s (%u) a trimis lista fişierelor share din dosarul '%s'"
+    IDS_SHAREDINFO2         "Utilizatorul %s (%u) a terminat de trimis lista de fişiere share"
+    IDS_SHAREDANSW3         "Utilizatorul %s (%u) a trimis lista necerută de fişiere share din dosarul '%s' - am ignorat-o"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDREQDENIED     "Utilizatorul %s (%u) nu permite accesul la lista de dosare/fişiere share"
+    IDS_AUTOCLEANUPFN       "Curăţă nume fişier"
+    IDS_ONNEWDOWNLOAD       "Iniţializări"
+    IDS_FILTERFILENAMEWORD  "Introdu cuvintele de filtrat, separate de |"
+    IDS_FNFILTERTITLE       "Modifică filtrul de cuvinte pentru curăţire nume fişiere"
+    IDS_CHANGECATVIEW       "Alege filtru afişare"
+    IDS_STATUS_NOTCOMPLETED "Incomplet"
+    IDS_STATS_CUMULATIVE    "Cumulat"
+    IDS_STATS_OVRHD         "Adiţional"
+    IDS_STATS_RECORDS       "Recorduri"
+    IDS_STATS_COMPDL        "Descărcări completate"
+    IDS_STATS_SVRECWORKING  "Maxim servere active"
+    IDS_STATS_SVRECUSERS    "Maxim utilizatori online"
+    IDS_SEARCH_TEXT         "Caută"
+    IDS_STATS_SVRECFILES    "Maxim fişiere disponibile"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SHRECNUM      "Maxim fişiere share vreodată"
+    IDS_SEARCH_COLUMN       "Coloana de căutare"
+    IDS_STATS_SHRECSIZE     "Cel mai mare share"
+    IDS_STATS_SHRECASIZE    "Cel mai mare fişier mediu"
+    IDS_STATS_SESSION       "Sesiune"
+    IDS_STATS_SRATIO        "Raport UP:DOWN sesiune:"
+    IDS_STATS_CRATIO        "Raport UP:DOWN cumulat:"
+    IDS_SEARCH_NORESULT     "N-am găsit nimic asemănător."
+    IDS_STATS_CURRSRVDUR    "Durată server curent"
+    IDS_LONGSECS            "Secunde"
+    IDS_STATS_DLSES         "Sesiuni de descărcare"
+    IDS_LONGMINS            "Minute"
+    IDS_STATS_SDLSES        "Sesiuni de descărcare reuşite"
+    IDS_STATS_FDLSES        "Sesiuni de descărcare eşuate"
+    IDS_STATS_AVGDATADLSES  "Medie date descărcate pe sesiune"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ULSES         "Sesiuni de trimitere"
+    IDS_STATS_GAINCOMP      "Date cîştigate prin comprimare: %s"
+    IDS_STATS_LOSTCORRUPT   "Date pierdute din corupere: %s"
+    IDS_STATS_AVGDATAULSES  "Medie date trimise pe sesiune"
+    IDS_STATS_ICHSAVED      "Părţi salvate de G.I.F.C.: %u"
+    IDS_STATS_MBRESET_TXT   "Sigur aduci la zero statisticile totale?\n\nDacă te răzgîndeşti, poţi apăsa pe butonul 'Refacere statistici'"
+    IDS_STATS_MBRESTORE_TXT "Sigur vrei să refaci statisticile, din fişierul de backup?\n\nApăsînd pe 'Refacere statistici' vei reîncărca statisticile curente."
+    IDS_ERR_NOSTATBKUP      "EROARE: Nu găsesc backup-ul de la statistici..."
+    IDS_STATS_NFOLOADEDBKUP "Statistici încărcate din fişierul de backup..."
+    IDS_STATS_NFORESET      "Statisticile au fost aduse la zero!"
+    IDS_STATS_BNRESET       "Resetare statistici"
+    IDS_STATS_BNRESTORE     "Refacere statistici"
+    IDS_PPGSTATS_YSCALE     "Statisticile conexiunilor: Scară axa-Y:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "Raport conexiuni active:"
+    IDS_STATS_PROBLEMATIC   "Problematici"
+    IDS_LONGHRS             "ore"
+    IDS_STATS_LARGESTFILE   "Cel mai mare fişier share"
+    IDS_SPLIT_WINDOW        "Ferestre separate"
+    IDS_STATS_DSPF          "Fişier part"
+    IDS_STATS_DATASOURCE    "Sursă date"
+    IDS_STATS_DSFILE        "Fişier complet"
+    IDS_STATS_GENERAL       "General" //!
+    IDS_STATS_TRANSTIME     "Durată transfer"
+    IDS_STATS_DOWNTIME      "Durată descărcare"
+    IDS_STATS_UPTIME        "Durată trimitere"
+    IDS_STATS_TOTALSRVDUR   "Durată activitate server"
+    IDS_STATS_MAXAVGUL      "Maximul mediei vitezei trimitere"
+    IDS_STATS_MAXUL         "Viteza maximă de trimitere"
+    IDS_STATS_AVGDLTIME     "Durată medie descărcare"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_PRTDEF        "Implicit"
+    IDS_STATS_PRTOTHER      "Altele"
+    IDS_STATS_MNUTREETITLE  "Listă statistici"
+    IDS_STATS_MNUTREECPYSEL "Copiază ramura selectată"
+    IDS_STATS_MNUTREECPYALL "Copiază toate statisticile"
+    IDS_STATS_MNUTREEHTML   "Funcţii HTML"
+    IDS_STATS_EXPORT2HTML   "Exportă toate statisticile..."
+    IDS_STATS_MNUTREECPYVIS "Copiază toate statisticile vizibile"
+    IDS_STATS_MNUTREEEXPANDALL "Deschide toate secţiunile"
+    IDS_STATS_MNUTREECOLLAPSEALL "Închide toate secţiunile"
+    IDS_STATS_MNUTREEEXPANDMAIN "Deschide secţiunile principale"
+    IDS_STATS_LASTRESETSTATIC "Ultima resetare statistici: %s"
+    IDS_STATS_MONTHLY       "Lunar"
+    IDS_STATS_YEARLY        "Anual"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_TIMESTATS     "Statistici durată"
+    IDS_STATS_AVGANDPROJ    "Medii programate"
+    IDS_STATS_TIMESINCERESET "A trecut de la ultima resetare: %s"
+    IDS_CRYPT_INITFAILED    "Nu pot iniţializa cheile de criptare - identificare securizată dezactivată"
+    IDS_CD_IDENT            "Identificare:"
+    IDS_IDENTOK             "Corectă"
+    IDS_IDENTFAILED         "Incorectă"
+    IDS_IDENTNOSUPPORT      "Nesuportată sau dezactivată"
+    IDS_COMMITFILES         "Scriere sigură fişiere .met/.dat"
+    IDS_ERR_BADUNC          "Nume UNC incorect"
+    IDS_NEVER               "Niciodată"
+    IDS_ALWAYS              "Mereu"
+    IDS_ONSHUTDOWN          "La închidere"
+    IDS_UNCFOLDERS          "Căi UNC"
+    IDS_USESECIDENT         "Foloseşte identificare securizată"
+    IDS_ADVSPAMFILTER       "Filtru avansat Spam"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CUT                 "Taie"
+    IDS_STATS_SECUREIDENT   "Identificare securizată (OK : eşuată )"
+    IDS_ONDISK              "Ocupă pe disc: "
+    IDS_CLIENTCOL           "Atenţie:  Am găsit dublura unui client deja conectat: %s (%s) şi %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "String neterminat"
+    IDS_SEARCH_GENERALERROR "Eroare generală"
+    IDS_SEARCH_MISSINGORRIGHT "Lipseşte dreapta operatorului OR"
+    IDS_SEARCH_MISSINGNOTRIGHT "Lipseşte dreapta operatorului NOT"
+    IDS_SEARCH_MISSINGEXPRPARANT "Lipsă expresie pentru '(' ')'"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "Lipsă paranteză închisă ')'"
+    IDS_SEARCH_EXPRERROR    "Nu pot coda expresia de căutare"
+    IDS_SEARCH_TOOCOMPLEX   "Expresie prea complexă"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSION             "Versiune"
+    IDS_PASTE               "Adaugă"
+    IDS_A4AF                "Gestionare"
+    IDS_AUTOCAT_LABEL       "Recunoaştere automată categorie (exemple separate cu |)"
+    IDS_SHOWEXTSETTINGS     "Mai multe controale (mod avansat)"
+    IDS_TREEOPTIONS_TRUE    "Adevărat"
+    IDS_TREEOPTIONS_FALSE   "Fals"
+    IDS_TREEOPTIONS_OK      "OK" //!
+    IDS_HYPERTEXT_FONT_HINT "Caracterele ferestrei server, mesaje şi IRC"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SELECT_FONT         "Selectare caractere"
+    IDS_SERVER_LIMITS       "Limite Soft şi Hard"
+    IDS_KBITSSEC            "kbit/sec"
+    IDS_KBYTESSEC           "kByte/sec"
+    IDS_ERR_CREATE_DIR      "Nu pot crea dosarul %s ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "Dosarul fişiere descărcate nu poate corespunde cu unul din dosarele de instalare eMule."
+    IDS_WRN_TEMPFILES_RESERVED
+                            "Dosarul fişiere temporare nu poate corespunde cu unul din dosarele de instalare eMule."
+    IDS_WRN_INCTEMP_SAME    "Dosarele fişiere descărcate şi fişiere temporare nu pot coincide."
+    IDS_SHOWDWLPERCENTAGE   "Arată procentul completat în bara de progres"
+    IDS_TBN_ONNEWDOWNLOAD   "S-a adăugat o descărcare"
+    IDS_ARTIST              "Artist" //!
+    IDS_ALBUM               "Album" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UPLOADREQ        "Cerere trimitere:"
+    IDS_SETTINGCHANGED_RESTART
+                            "Reporneşte eMule pentru ca modificările să fie operative!"
+    IDS_CREDITSEXPIRED      ", %u clienţi şterşi (n-au fost contactaţi de 5 luni)"
+    IDS_SOURCESINFO         "%u  (Utile: %u, Inutile: %u, A4AF: %u)"
+    IDS_META_DATA           "Meta-data"
+    IDS_TIMEBEFORE          "(%s în urmă)"
+    IDS_FD_TIMEDATE         "Date"
+    IDS_FILEINFORMATION     "Informaţii fişier"
+    IDS_STATS_FREESPACE     "Spaţiu liber"
+    IDS_IRC_HELPCHANNEL     "Conectare la canalele de Help."
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-romanian"
+    IDS_IRC_ACCEPTLINKSFRIENDS "Doar de la prieteni."
+    IDS_COMPLSOURCES        "Surse complete"
+    IDS_CHECKNOENDTIME      "fără oră sfîrşit"
+    IDS_FD_DOWNLOADSTARTED  "Descărcare adăugată:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FAILEDREOPEN        "Eroare fatală: nu pot redeschide fişierul part '%s' (%s)!"
+    IDS_ERR_PREVIEWALREADY  "Deja e o cerere de pre-vizualizare de la acest client"
+    IDS_ERR_PREVIEWFAILED   "Pre-vizualizarea de la '%s' eşuată"
+    IDS_DWTOT               "Spaţiu pe disc"
+    IDS_DWTOT_NR            "Număr de descărcări: %u"
+    IDS_DWTOT_TSD           "Dimensiune totală descărcări: %s"
+    IDS_DWTOT_TCS           "Dimensiune totală completată: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "Total rămas de descărcat: %s"
+    IDS_DWTOT_TSN           "Spaţiu total cerut de descărcări: %s"
+    IDS_DWTOT_FS            "Spaţiu liber pe disc: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (eliberează încă %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT
+                            "Interval actualizare conexiune la server [min.]"
+    IDS_MORE                "&Mai caută"
+    IDS_TOOLS               "Ins&trumente"
+    IDS_SEARCHPARAMS        "Parametri căutare"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u în proces de hashing)"
+    IDS_CHECKDISKSPACE      "Verificare spaţiu pe disc"
+    IDS_YOURHOSTNAME        "Hostname pentru propriile link-uri eD2k"
+    IDS_INSUFFICIENT        "Spaţiu pe disc insuficient"
+    IDS_MINFREEDISKSPACE    "Spaţiu pe disc minim [MB]"
+    IDS_WARNING             "Atenţie"
+    IDS_IMPORTSPLPF         "Importă fişiere Part (eMule, eDonkey, OverNet)"
+    IDS_IMP_STEPREADPF      "Citire dosar fişiere Part..."
+    IDS_IMP_STEPBASICINF    "Primesc informaţii de bază din fişierele Part..."
+    IDS_IMP_STEPCRDESTFILE  "Creez fişierul Part destinaţie..."
+    IDS_IMP_LOADDATA        "Încarc date din fişierul Part original (%u din %u)..."
+    IDS_IMP_SAVEDATA        "Salvez datele în noul fişier Part unic (%u din %u)..."
+    IDS_IMP_IOERROR         "Eroare în fişier la conversia fişierului Part..."
+    IDS_IMP_GETPFINFO       "Primesc informaţii din fişierul Part original..."
+    IDS_IMP_ADDDWL          "Adaug descărcare şi salvez noul fişier Part..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_FETCHSTATUS     "Stare conversie"
+    IDS_IMP_INPROGR         "în curs"
+    IDS_IMP_ERR_DISKSP      "Eroare: spaţiul pe disc terminat"
+    IDS_IMP_ERR_PARTMETIO   "Eroare: fişierul part.met negăsit"
+    IDS_IMP_ERR_IO          "Eroare: eroare IO!"
+    IDS_IMP_ERR_FAILED      "Eroare: conversie eşuată!"
+    IDS_IMP_STATUSQUEUED    "La rînd"
+    IDS_IMP_ALRDWL          "Deja e în descărcare"
+    IDS_IMP_ADDBTN          "&Adaugă import"
+    IDS_IMP_RETRYBTN        "&Reîncearcă selecţia"
+    IDS_IMP_REMOVEBTN       "El&imină selecţia"
+    IDS_IMP_SELFOLDER       "Alege un singur dosar cu fişiere part.met, sau vechiul dosar temporar cu subdosarele conţinînd fişierele part.met!"
+    IDS_IMP_DELSRC          "Vrei să ştergi fişierul Part original al descărcărilor importate corect?"
+    IDS_IMP_SIZE            "%s (discul: %s)"
+    IDS_IMP_STATUS          "Importez %s: %s"
+    IDS_DYNUPENABLED        "Găseşte automat limita optimă de upload"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "Toleranţa ping (% din ping-ul minim)"
+    IDS_DYNUP_GOINGUPDIVIDER "Viteză de creştere"
+    IDS_DYNUP_GOINGDOWNDIVIDER "Viteză de scădere"
+    IDS_DYNUP_NUMBEROFPINGS "Număr maxim de ping pe medie"
+    IDS_DYNUP_MINUPLOAD     "Viteza de trimitere minimă acceptată"
+    IDS_ESTTIMELEFT         "Timp rămas estimat:"
+    IDS_TRANSFER_RATE_LABEL "Viteză de transfer:"
+    IDS_SAVELOG             "Salvare log"
+    IDS_CMT_COPYCLIPBOARD   "Copiază comentariu în Agendă"
+    IDS_ASKDOWNLOADLANG     "Limba selectată nu e instalată pe sistemul tău. Vrei ca eMule s-o descarce de la emule-project.net?"
+    IDS_ASKDOWNLOADLANGCAP  "Descarc fişiere limbaj"
+    IDS_DELETESELECTED      "Şterge"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "Nu pot descărca şi instala dll-ul limbii selectate de la %s!"
+    IDS_ERR_BADFOLDER       "Dosar incorect.\nDosarul nu poate fi creat. Verifică numele şi calea."
+    IDS_AUTOREMOVEFD        "Şterge automat din listă fişierele descărcate"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_NODE            "Căutare nod"
+    IDS_KAD_STOREFILE       "Memorează fişierul"
+    IDS_KAD_STOREKW         "Memorează keyword"
+    IDS_KAD_UNKNOWN         "Necunoscut"
+    IDS_SRV_TCPCOMPR        "Comprimare TCP"
+    IDS_KADSEARCHLAB        "Căutări curente"
+    IDS_SRV_UDPSR           "Protocol UDP extins ptr. cereri surse"
+    IDS_SRV_UDPFR           "Protocol UDP extins ptr. cereri fişiere"
+    IDS_MINLENGTH           "Lung. min.[hh:mm:ss]"
+    IDS_EM_HELP             "&Ajutor"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "Slot prieten neadăugat.\r\n\r\nExistă deja un prieten cu acelaşi IP şi port."
+    IDS_DYNUP               "Upload dinamic"
+    IDS_KADOVERHEAD         "Adiţional Kad (Pachete): %s (%s)"
+    IDS_FIND                "Caută..."
+    IDS_LOG_BANNED_CLIENTS  "Loghează clienţii alungaţi"
+    IDS_LOG_RATING_RECV     "Loghează descrierile şi voturile primite"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "din clienţii cunoscuţi"
+    IDS_KADUDPPORTERR       "Portul UDP ptr. Kad e în conflict cu cel al eMule pentru Protocol Extins sau UDP server. Am trecut pe portul %u."
+    IDS_CONFIRM_FILEDELETE  "Chiar vrei să ştergi de pe disc toate fişierele selectate?"
+    IDS_OPENFOLDER          "Deschide dosar"
+    IDS_RUNASUSER           "Porneşte eMule ca utilizator fără privilegii"
+    IDS_DELETE              "Şterge de pe disc"
+    IDS_BOOTSTRAP           "Bootstrap" //!
+    IDS_VIAED2KSQ           "prin server eD2k"
+    IDS_EM_KADEMLIA         "&Kad" //!
+    IDS_VIAKAD              "prin Kad"
+    IDS_VIASE               "prin Schimb de surse"
+    IDS_SELECTTOOLBARBITMAP "Selectează bitmap pentru bara de unelte"
+    IDS_SELECTTOOLBARBITMAPDIR "Selectează dosarul cu bitmap-uri"
+    IDS_TOOLBARSKINS        "Skin ptr. bara de unelte"
+    IDS_NOTEXTLABELS        "Fără etichete"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "în dreapta icon-ului"
+    IDS_TEXTLABELS          "Eticheta"
+    IDS_ENABLETEXTLABELS    "sub icon"
+    IDS_CUSTOMIZETOOLBAR    "Personalizare bară de unelte"
+    IDS_MINBITRATE          "Min. bitrate [kbit/s]"
+    IDS_KAD_RECHECKFW       "Reverifică Firewall"
+    IDS_SHAREDTITLE         "Share eD2k|Kad"
+    IDS_FIREWALLED          "cu Firewall"
+    IDS_KADEMLIA            "Kad" //!
+    IDS_KADCONTACTLAB       "Contacte"
+    IDS_KADDISTANCE         "Distanţă"
+    IDS_KEY                 "Cheie"
+    IDS_NUMBER              "Număr"
+    IDS_KAD_SEARCHSRC       "Căutare surse"
+    IDS_KAD_SEARCHKW        "Căutare keywords"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_SECURE_IDENT    "Loghează identitate securizată"
+    IDS_LOG_FILTERED_IPS    "Loghează IP-uri filtrate/ignorate"
+    IDS_LOG_FILE_SAVING     "Loghează salvările de fişiere"
+    IDS_DELETEIPFILTERS     "Chiar vrei să ştergi filtrele IP selectate?"
+    IDS_TOTAL_IPFILTER_LABEL "Filtre IP totale:"
+    IDS_TOTAL_IPS_LABEL     "Total IP-uri:"
+    IDS_RAU_WARNING         "Această setare garantează o mai mare siguranţă împotriva atacurilor, aşadar încurajăm utilizatorii s-o folosească.\nRecomandăm, oricum, citirea manualului!\n\nModificările vor avea efect la repornirea eMule."
+    IDS_APPEND              "Adaugă..."
+    IDS_SAVE                "Salvare"
+    IDS_IP_START            "Început"
+    IDS_IP_END              "Sfîrşit"
+    IDS_IP_LEVEL            "Nivel"
+    IDS_IP_DESC             "Descriere"
+    IDS_IP_HITS             "Treceri"
+    IDS_IP_RULES            "Filtre IP:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_A4AF            "Loghează acţiunile A4AF"
+    IDS_A4AF_SAVE_CPU       "Dezactivez verificările A4AF ptr. economie CPU"
+    IDS_SEARCH_DOC          "Document" //!
+    IDS_INSTALL_SKIN        "Instalare Skin eMule"
+    IDS_INSTALL_SKIN_NODIR  "Dosar Skin neselectat sau inaccesibil!"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "Nu pot crea dosarul ""%s"" ptr. Skin eMule - %s"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "Nu pot extrage fişierul ""%s"" din Skin eMule ca fişier local ""%s"" - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "Acesta nu e un pachet valid de Skin eMule."
+    IDS_NEXT_REASK          "Cererea următoare către acest client"
+    IDS_A4AF_FILES          "Fişiere A4AF"
+    IDS_FO_TEMPTCP_S        "Am deschis portul %u (TCP) în firewall-ul intern al WinXP pentru această sesiune eMule"
+    IDS_FO_TEMPTCP_F        "Nu pot deschide portul %u (TCP) în firewall-ul intern al WinXP pentru această sesiune eMule"
+    IDS_FO_TEMPUDP_S        "Am deschis portul %u (UDP) în firewall-ul intern al WinXP pentru această sesiune eMule"
+    IDS_FO_TEMPUDP_F        "Nu pot deschide portul %u (UDP) în firewall-ul intern al WinXP pentru această sesiune eMule"
+    IDS_FO_PREFBUTTON       "Deschide aceste porturi în firewall-ul intern al WinXP"
+    IDS_FO_PREF_SUCCCEEDED  "Am deschis porturile selectate, în firewall-ul intern al WinXP.\nReţine că firewall-urile adiţionale sau router-ele nu sînt afectate de asta!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FO_PREF_EXISTED     "eMule a detectat reguli existente ptr. porturile selectate, care n-au fost înlocuite/modificate. Regulile lipsă au fost adăugate.\nReţine că firewall-urile adiţionale sau router-ele nu sînt afectate de asta!"
+    IDS_FO_PREF_FAILED      "Nu pot configura firewall-ul intern al WinXP pentru porturile selectate!"
+    IDS_FO_PREF_STARTUP     "Deschid/închid porturile din firewall-ul WinXP la pornirea/oprirea eMule"
+    IDS_LOG_LEVEL           "Nivel Log"
+    IDS_NEWMSG              "Mesaj nou de la '%s' (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "doar din aceeaşi categorie"
+    IDS_LOG_ULDL_EVENTS     "Loghez evenimentele upload/download"
+    IDS_PEERCACHE_ENABLED   "ISP-ul tău permite tehnologia PeerCache, activez descărcarea cache!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND
+                            "Permit utilizatorului să te adauge la Prieteni."
+    IDS_SOURCESWAPBLOCKED   "Swap blocat"
+    IDS_A4AF_CHECK_THIS_NOW "Verifică sursa asta acum (depanare)"
+    IDS_STATS_FRATIO        "Raport UL:DL al sesiunii (fără UL Prieteni):"
+    IDS_STATS_UDATA_FRIENDS "Date trimise la Prieteni (Sesiune): %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "Format fişier temp incorect."
+    IDS_SEARCH_INVALIDCHAR  "Expresia de căutare conţine caractere invalide. Ai introdus un '?' sau alte caractere nefolosibile în această reţea."
+    IDS_PORTSCON            "Porturi şi Conectare"
+    IDS_PORTINFO            "eMule foloseşte 2 porturi pentru a comunica cu serverele şi clienţii. Aceste porturi trebuie să fie libere şi disponibile celorlalţi clienţi. Portul TCP este principal în funcţionarea eMule. Portul UDP este pentru Kad (reţea fără servere) şi pentru a reduce încărcarea reţelei (Overhead).\n\nPoţi schimba porturile aici, înainte de a începe activitatea pe reţea."
+    IDS_STARTTEST           "Testare porturi"
+    IDS_TESTINFO            "Aici poţi verifica dacă porturile TCP şi UDP pot fi contactate din exterior. Succesul acestui test este necesar pentru ca serverele şi clienţii să te poată contacta. Portul TCP trebuie să meargă!"
+    IDS_CONNECTIONTEST      "Test conectare"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "Nu poţi schimba porturile dacă eşti conectat la clienţi sau la server/Kad!\n\nReporneşte, te rog, eMule după schimbarea porturilor."
+    IDS_NETWORK_INFO        "Informaţii reţea"
+    IDS_SP_TOTALUL          "Total trimiteri"
+    IDS_SP_ULFRIENDS        "Sloturi trimitere prieteni"
+    IDS_SP_ULSLOTSNOOVERHEAD "Trimiteri curente (fără adiţional)"
+    IDS_ST_ACTIVEU_ZZ       "Trimiteri active"
+    IDS_ST_ULCURRENT        "Curent"
+    IDS_ST_ULSLOTSNOOVERHEAD "Curent (fără adiţional)"
+    IDS_ST_ULFRIEND         "Trimitere prieten"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "Trimiteri necesare pt. a umple banda: %u"
+    IDS_STATS_TOTALUL       "Număr total trimiteri: %u"
+    IDS_CHAT_DOWNLOADED     "Descărcaţi:"
+    IDS_CHAT_UPLOADED       "Trimişi:"
+    IDS_CHAT_IDENT          "Identificare:"
+    IDS_MAXHALFOPENCONS     "Maxim semi-conexiuni"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "Activează pentru ca eMule să pornească odată cu Windows. (Implicit: dezactivat)"
+    IDS_KAD_WAITCBK         "Aştept răspuns Kad"
+    IDS_KAD_TOOMANDYKADLKPS "Prea multe căutări Kad"
+    IDS_PCDS_CLIENTWAIT     "Aştept Client"
+    IDS_PCDS_CACHEWAIT      "Aştept Cache"
+    IDS_CACHE               "Cache" //!
+    IDS_INDEXED             "Indexat"
+    IDS_KADINFO_SRC         "\tSursă: %u\r\n"
+    IDS_KADINFO_KEYW        "\tKeyword: %u\r\n" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STARTWITHWINDOWS    "Pornesc cu Windows"
+    IDS_ADDSRCMANUALLY      "Adaugă sursă manual"
+    IDS_BUDDY               "Partener"
+    IDS_BUDDYNONE           "Fără"
+    IDS_INFO                "Info" //!
+    IDS_HALF                "Semi"
+    IDS_CONCOMPL            "Compl" //!
+    IDS_KADSTATUS_STOPPING  "Opresc"
+    IDS_KADSTATUS_ACTIVE    "Activă"
+    IDS_FORMAT              "Format" //!
+    IDS_META_COLLECTION     "Colecţie"
+    IDS_META_PARTPATH       "Cale Part"
+    IDS_META_PARTHASH       "Hash Part"
+    IDS_META_GAPSTART       "Început Gap"
+    IDS_META_GAPEND         "Sfîrşit Gap"
+    IDS_FAIL                "Eşuare"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_META_PREFERENCES    "Preferinţe"
+    IDS_META_VERSION        "Versiune"
+    IDS_META_TEMPFILE       "Fişier temporar"
+    IDS_META_SERVERPORT     "Port server"
+    IDS_META_SERVERIP       "IP Server"
+    IDS_META_SRCUDPPORT     "Port UDP sursă"
+    IDS_META_SRCTCPPORT     "Port TCP sursă"
+    IDS_META_SRCIP          "IP sursă"
+    IDS_META_SRCTYPE        "Tip sursă"
+    IDS_SEARCH_UNICODE      "Caută în Unicode"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LD_ED2KLINK         "Link ED2K"
+    IDS_LD_COPYCLIPBOARD    "Copiază în Agendă"
+    IDS_LD_HOSTNAME         "Foloseşte hostname (din preferinţe) în loc de IP la crearea unui link sursă"
+    IDS_SAVEACFAILED        "Nu pot salva AICH Hashset!"
+    IDS_AICHHASH            "AICH Hash" //!
+    IDS_BYTESPERSEC         "B/s" //!
+    IDS_KBYTESPERSEC        "KB/s" //!
+    IDS_MBYTESPERSEC        "MB/s" //!
+    IDS_GBYTESPERSEC        "GB/s" //!
+    IDS_TBYTESPERSEC        "TB/s" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MINORCLIENTS  "Minor" //!
+    IDS_LD_BASICOPT         "Opţiuni de bază"
+    IDS_LD_ADDSOURCE        "Adaugă-te ca sursă"
+    IDS_LD_EMULEHASH        "Adaugă eMule AICH Hash pentru gestionarea avansată a coruperilor"
+    IDS_LD_ADVANCEDOPT      "Opţiuni avansate"
+    IDS_LD_ADDHTML          "Adaugă tag-uri HTML"
+    IDS_LD_ADDHASHSET       "Adaugă hashset complet"
+    IDS_FILELINK            "Link fişier"
+    IDS_PF_ADVANCEDCALC     "Calculează timpul rămas prin metoda avansată"
+    IDS_DL_SHOWED2KLINK     "Arată link eD2K..."
+    IDS_AICH_SYNCTOTAL      "Am găsit %u fişiere fără AICH Hashset valid, fac rehash acestor fişiere acum"
+    IDS_AICH_CALCFILE       "Calculez AICH Hash fişierului %s"
+    IDS_AICH_WARNUSER       "Începînd cu versiunea 0.44a, eMule foloseşte un filehash adiţional care ajută la reducerea drastică a pierderilor de date în caz de corupere. Făcînd update de la o versiune anterioară, eMule va face rehash tuturor fişierelor shared pentru a calcula noul hash. Va dura ceva, dar se face doar o dată.  "
+    IDS_AICH_WORKED         "AICH a recuperat cu succes %s din %s a părţii %u din %s"
+    IDS_TRICKLING           "Standby" //!
+    IDS_SOURCECLIENT        "Client sursă"
+    IDS_USERSIP             "IP useri"
+    IDS_FEATURES            "Opţiuni"
+    IDS_IRC_NEWNICK         "Alege o poreclă  ptr. IRC."
+    IDS_IRC_NEWNICKDESC     "Trebuie să fie un cuvînt pînă în 20 de caractere, conţinînd (A-Z, 0-9). Poate fi oricînd schimbat din Preferinţe->IRC."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPARSEPARTFILES     "Creează noi fişiere part 'sparse' (numai NTFS)"
+    IDS_ASPECTRATIO         "Raport aspect"
+    IDS_NEGATEFILTER        "Inversare filtru"
+    IDS_SEENCOMPL           "Prima oară văzut complet"
+    IDS_SELSKINPROFILEDIR   "Selectează dosarul cu profile skin-uri"
+    IDS_ASKDLINCOMPLETE     "Posibil fişier incomplet:\r\n\r\n%s\r\n\r\nAcest fişier se presupune a fi incomplet în reţea şi de aceea mai mult ca sigur nu se va descărca cu succes! Chiar vrei să descarci acest fişier?"
+    IDS_DEADSOURCES         "Surse moarte"
+    IDS_LARGEICONS          "Icon-uri mari"
+    IDS_SMALLICONS          "Icon-uri mici"
+    IDS_SHORTTAGS           "Tag-uri scurte"
+    IDS_THELOAD             "Încărcare"
+    IDS_PACKSENT            "Pachete trimise"
+    IDS_RESPONSES           "Răspunsuri"
+    IDS_EXTRACT_META_DATA   "Extrage meta data"
+    IDS_META_DATA_MEDIADET  "DirectShow (pentru toate celelalte fişiere audio/video)"
+    IDS_META_DATA_ID3LIB    "Bibliotecă ID3 (doar pentru fişierele MPEG audio)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "Biblioteca Windows Common Controls (COMCTL32.DLL) e prea veche!\r\n\r\neMule a detectat o versiune a ""bibliotecii Windows Common Controls (COMCTL32.DLL)"" prea veche pentru buna funcţionare a eMule. Pentru ca eMule să funcţioneze perfect la întreaga capacitate, îţi recomandăm insistent să updatezi ""biblioteca Windows Common Controls (COMCTL32.DLL)"" minim la versiunea 5.8.\r\n\r\nDescarcă şi instalează un update la ""biblioteca Windows Common Controls (COMCTL32.DLL)"" de la Microsoft (R) Download Center. Vrei să vizitezi adresa URL respectivă?"
+    IDS_ASREGEXPR           "Ca Expresie Obişnuită"
+    IDS_STATIC_REGEXP       "Expresia Obişnuită pentru filtrul de afişare:"
+    IDS_CARE4ALL            "Evaluează toate fişierele"
+    IDS_REGEXPRESSION       "Expresie Obişnuită"
+    IDS_SEARCHKAD           "Caută Kad"
+    IDS_DWL_IPFILTERFILE    "Descarc fişier filtre IP"
+    IDS_DWLIPFILTERFAILED   "Descărcare eşuată filtre IP"
+    IDS_FINDBUDDY           "Găseşte partener"
+    IDS_ERR_IPFILTERZIPEXTR "Nu pot extrage fişierul cu filtre IP din ZIP-ul descărcat: ""%s""."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "Fişierul cu filtre IP descărcat ""%s"" e un ZIP cu un conţinut necunoscut."
+    IDS_STORENOTES          "Stochează Notiţe"
+    IDS_NOTES               "Notiţe"
+    IDS_KADSEARCHALREADY    "Deja se efectuează o căutare. Încearcă, te rog, mai tîrziu!"
+
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHUTDOWN        "Închide eMule"
+    IDS_WEB_REBOOT          "Restart sistem"
+    IDS_WEB_SHUTDOWNSYSTEM  "Închide sistem"
+    IDS_WEB_ADMINMENU       "Meniu Admin."
+    IDS_WEB_MAIN_CLOSE      "Chiar vrei să închizi eMule?"
+    IDS_WEB_MAIN_REBOOT     "Chiar vrei să restartezi sistemul?"
+    IDS_WEB_MAIN_SHUTDOWN   "Chiar vrei să închizi sistemul?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "Arată clienţii alungaţi la rînd"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "Arată prietenii la rînd"
+    IDS_WEB_SESSIONTIMEOUT  "Sesiune expirată"
+    IDS_WEB_ALLOWHILEVFUNC  "Permite închidere eMule, restart şi închidere Windows"
+    IDS_SETPFSLIMIT         "Limită surse..."
+    IDS_SETPFSLIMITEXPLAINED
+                            "Introdu te rog noua limită de surse pentru fişierul(e) selectat(e) ! \n(pune 0 pentru a folosi setarea globală)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "Vrei să actualizezi acum dosarele de primire incluse în vechiul dosar?"
+    IDS_USESPEECH           "Spune mesajul (speech)"
+    IDS_CONDTCPACCEPT       "Respingere conexiune rapidă"
+    IDS_TCPIP_CONNS         "Conexiuni TCP/IP"
+    IDS_ERR_DELFILE         "Nu pot şterge fişierul ""%s"""
+    IDS_MANUAL_FILENAMECLEANUP "Vrei să cureţi numele fişierelor selectate?"
+    IDS_PW_RECEIVERADDRESS  "Adresă destinatar:"
+    IDS_PW_ENABLEEMAIL      "Activare anunţ prin e-mail"
+    IDS_EMULENOTIFICATION   "Anunţ eMule"
+    IDS_PW_EMAILNOTIFICATIONS "Anunţuri prin e-mail"
+    IDS_SMTPSERVER          "Server SMTP"
+    IDS_PW_SENDERADDRESS    "Adresă expeditor:"
+    IDS_PW_SHOWTRANSTOOLBAR "Arată bara de unelte adiţională în Transferuri"
+    IDS_MODIFYCOLLECTION    "Modifică colecţia"
+    IDS_VIEWCOLLECTION      "Vezi colecţia"
+    IDS_COLL_TEXTFORMAT     "Salvează colecţia ca simplu text"
+    IDS_SEARCHAUTHORCOLLECTION "Caută în colecţiile autorului"
+    IDS_ERR_DUPL_FILES      "Dublură la fişiere share: ""%s"" şi ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "Autodetecţie viteză UL: Detecţia a eşuat de prea multe ori. Dezactivez autodetecţia viteză UL."
+    IDS_USS_STARTING        "Autodetecţie viteză UL: Pregătit. Încep controlul vitezei de UL. (Primele 60 sec. vor fi în modul reacţie rapidă)"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "Autodetecţie viteză UL: Am detectat creşterea limitei UL în Preferinţe. Intru în modul reacţie rapidă pentru 60 sec."
+    IDS_USS_STATE_PREPARING "Pregătesc..."
+    IDS_USS_STATE_WAITING   "Aştept..."
+    IDS_USS_STATE_ERROR     "Eroare!"
+    IDS_SHAREWARNING        "(Dosarul va fi partajat!)"
+    IDS_REMOVEALLSERVERS    "Chiar vrei să ştergi toate serverele?"
+    IDS_SEARCH_UNKATTR      "Atribut de căutare '%s' necunoscut"
+    IDS_SEARCH_ATTRERR      "Eroare de sintaxă în atributul de căutare '%s'"
+    IDS_SEARCH_MISSINGANDRIGHT "Lipseşte partea dreaptă a operatorului AND"
+    IDS_SEARCH_OPRERR       "Eroare de sintaxă în operatorul comparativ '%s'"
+    IDS_FULLALLOC           "Alocă mărimea completă pentru fişierele part non-sparse"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "Hash negăsit."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "Lista Gap coruptă."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "N-am găsit lista Gap."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "Hash set corupt."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "N-am găsit Hash set."
+    IDS_CONVERTINGKNOWN2MET "Convertesc %s în %s pentru a suporta fişiere mari..."
+    IDS_CONVERTINGKNOWN2FAILED
+                            "...n-am putut converti known2.met, ignor datele vechi"
+    IDS_CONVERTINGKNOWN2DONE "... gata, am terminat conversia"
+    IDS_ERR_MET_BAD         "Eroare: fişierul %s e corupt, nu pot încărca fişierele cunoscute"
+    IDS_SRV_LARGEFILES      "Suport fişiere mari"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOAD_LANGFILE   "Descarc fişierul de limbaj"
+    IDS_DOWNLOADING_SERVERMET_FROM "Descarc server.met de la %s"
+    IDS_DOWNLOADING_SERVERMET "Descarc server.met..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHARED_STATUS       "Părţi share"
+    IDS_INCOMING_FILES      "Fişiere de primit"
+    IDS_INCOMPLETE_FILES    "Fişiere incomplete"
+    IDS_SHARED_DIRECTORIES  "Dosare share"
+    IDS_SHAREDIR            "Share dosar"
+    IDS_SHAREDIRSUB         "Share şi subdosarele"
+    IDS_UNSHAREDIR          "Scoate dosar din share"
+    IDS_UNSHAREDIRSUB       "Scoate şi subdosarele din share"
+    IDS_ALLSHAREDFILES      "Toate fişierele share"
+    IDS_ALLDIRECTORIES      "Toate dosarele"
+    IDS_SEARCHRELATED       "Caută fişiere similare"
+    IDS_RELATED             "Similare"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLLECTIONLIST      "Listă colecţie"
+    IDS_SEARCH_EMULECOLLECTION "Colecţie"
+    IDS_COLL_REPLACEEXISTING "Înlocuieşti fişierul existent?"
+    IDS_COLL_ERR_DELETING   "Eroare necunoscută la ştergerea fişierului vechi. Ieşi fără a salva?"
+    IDS_CREATECOLLECTION    "Creează colecţie"
+    IDS_COLL_SIGN           "Semnează colecţia cu nume şi parolă"
+    IDS_AUTHOR              "Autor"
+    IDS_AUTHORKEY           "Parolă autor"
+    IDS_COLL_ADDINCAT       "Adaugă descărcări în categoria Colecţii"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CONFIGCORRUPT   "%s pare corupt şi va fi înlocuit"
+    IDS_UPLOADING           "Trimit"
+    IDS_CANCELLED           "Anulat"
+    IDS_PW_REMEMBERDOWNLOADED "Ţine minte fişierele descărcate"
+    IDS_PW_REMEMBERCANCELLED "Ţine minte fişierele anulate"
+    IDS_AVAILABLEPARTS      "Părţi disponibile"
+    IDS_NOSOUND             "Fără sunet"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE
+                            "Nu poţi descărca acest fişier fiindcă sistemul tău (FAT-FAT32) nu suportă fişiere mai mari de 4GB, încearcă să-l converteşti în NTFS"
+    IDS_NEWVERSIONAVLBETA   "Această versiune Beta e depăşită. Fiindcă versiunile Beta deseori conţin erori, e foarte important să faci update cu o versiune stabilă cît mai curînd posibil!"
+    IDS_KADSEARCHACTIVE     "(Kad căutare în curs...)"
+    IDS_BOLD                "Text îngroşat da/nu"
+    IDS_UNDERLINE           "Text subliniat da/nu"
+    IDS_COLOUR              "Selectare culoare text,(opţional şi culoare fundal)."
+    IDS_RESETFORMAT         "Resetare formatări precedente,(trimite comandă Reset)."
+    IDS_RESTORESEARCHPARAMS "Readu parametri de căutare"
+    IDS_COMMAND             "Comandă"
+    IDS_ARGUMENTS           "Argumente"
+    IDS_AP_CREATEPREVCOPY   "Creează fişier previzualizare"
+    IDS_ARCHIVEDETAILS      "Detalii arhivă"
+    IDS_ARCHTYPE            "Tip arhivă"
+    IDS_ATTRIBUTES          "Atribute"
+    IDS_LASTMODIFIED        "Data modificării"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "Lista conţinut codată - nu pot citi arhiva"
+    IDS_ARCPARSED           "Arhivă scanată."
+    IDS_ARCPREV_LISTMAYBEINCOMPL "Lista de fişiere posibil incompletă."
+    IDS_ARCPREV_DIRNOTFOUND "Conţinutul n-a fost găsit."
+    IDS_ARCPREV_INSUFFDATA  "Insuficiente date disponibile."
+    IDS_PASSWPROT           "Protecţie prin parolă"
+    IDS_ARCPREV_DIRSUCCREAD "Conţinutul citit corect."
+    IDS_ARCPREV_UNKNOWNFORMAT "(necunoscut/nesuportat)"
+    IDS_ARCPREV_PLEASEWAIT  "Scanez arhiva..."
+    IDS_OBFUSCATION         "Mascare"
+    IDS_SUPPORTED           "Suportat"
+    IDS_ESTIMATED           "estimat"
+    IDS_MEDIAINFO_DLLMISSING
+                            "Biblioteca MediaInfo nu e instalată. Dacă vrei mai multe date despre fişierele audio/video în acest dialog,\r\ndescarcă biblioteca MediaInfo de la https://mediaarea.net/en/MediaInfo şi copiază fişierul MediaInfo.dll în\r\ndosarul eMule ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "Atenţie: Extensia fişierului ""%s"" nu se potriveşte cu extensia\r\nnormală pentru acel format. Ar trebui să-i schimbi extensia\r\ncu una din următoarele ""%s""\r\npentru a-l putea folosi/vedea corect.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "Atenţie: Fişierul ""%s"" pare a fi protejat cu Digital Rights Management.\r\nNu vei putea folosi fişierul fără a avea o licenţă de la creatorul acestuia.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "Imagini bara de unelte eMule"
+    IDS_LOADFILTER_EMSKINFILES "Skin-uri eMule"
+    IDS_WEB_REMOTE_LINK_ADDED "Link adăugat: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "Link neadăugat. Parolă greşită."
+    IDS_OPTIONS             "Opţiuni"
+    IDS_ERR_FAILEDTOLOAD    "Nu pot încărca %s: %s "
+    IDS_RUNNINGRESTRICTED   "eMule rulează cu privilegii reduse"
+    IDS_ARCHPREV_ATTRIBINFO "Atributele fişierului pot conţine:\r\n\r\nP\tProtejat prin parolă\r\nD\tEste un dosar\r\nC\tComentariu\r\nLx\tNivel de comprimare x\r\nM\tDatele comprimate incomplet descărcate\r\n<\tFişierul continuă din arhiva anterioară\r\n>\tFişierul continuă în arhiva următoare\r\n"
+    IDS_CONTENT_INFO        "Informaţii conţinut"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "Mesaje şi comentarii"
+    IDS_DISABLEOBFUSCATION  "Dezactivează suport conexiuni mascate"
+    IDS_ONLYOBFUSCATED      "Permite doar conexiuni mascate (nerecomandat)"
+    IDS_ENABLEOBFUSCATION   "Activare mascare protocol"
+    IDS_PROTOCOLOBFUSCATION "Mascare protocol"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "Mă conectez la %s (%s:%u - cu mascare protocol) ..."
+    IDS_CONNECTEDTOOBFUSCATED "Am realizat conexiune mascată cu: %s"
+    IDS_VERIFIED            "verificat"
+    IDS_OBFUSCATED          "Mascat"
+    IDS_UNVERIFIED          "neverificat"
+    IDS_INVALIDFILEEXT      "Extensie fişier invalidă"
+    IDS_UNKNOWNFILEEXT      "Extensie fişier necunoscută"
+    IDS_ENABLEMINIMULE      "Activare MiniMule"
+    IDS_DISABLE_AUTOARCHPREV
+                            "Nu porni automat previzualizarea arhivei în detalii fişier"
+    IDS_US_STALLEDW4BR      "Blocat! Aştept cerere bloc."
+    IDS_US_STALLEDREADINGFDISK "Blocat! Citesc de pe disc."
+    IDS_SERVERFEATURE_INTTYPETAGS "Tag-uri de tip întreg"
+    IDS_FILLGRAPHS          "Arată grafice completate"
+    IDS_PARAMETER           "Parametru"
+    IDS_TEST                "Test"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "Setare porturi folosind UPnP"
+    IDS_UPNPSETUP           "Încerc să setez porturile (forwarding) folosind UPnP..."
+    IDS_UPNPFAILED          "UPnP a eşuat la setarea porturilor (forwarding), efectuaţi manual această operaţiune, la nevoie!"
+    IDS_UPNPSUCCESS         "UPnP a efectuat cu succes forwarding la porturile %u (TCP) şi %u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "Deschide porturi în firewall-ul WinXP SP1"
+    IDS_UPNP_NOSERVICE      "Serviciul UPnP Device Host nu rulează, renunţ la această setare"
+    IDS_DELAYEDBYUPNP       "Conectarea la reţea întîrzie deoarece UPnP lucrează la configurarea porturilor (forwarding)."
+    IDS_DELAYEDBYUPNP2      "Aşteptaţi cîteva secunde, vă rog, eMule se va conecta imediat ce termină UPnP."
+    IDS_UPNP                "UPnP"
+    IDS_UPNPCLOSEONEXIT     "Dezactivează forwarding-ul UPnP ptr. porturi la ieşire"
+    IDS_UPNPSKIPWANIP       "Nu seta WAN IP"
+    IDS_UPNPSKIPWANPPP      "Nu seta WAN PPP"
+    IDS_SHAREEMULELABEL     "Folosirea în comun a eMule cu alţi utilizatori"
+    IDS_SHAREEMULEMULTI     "Fiecare utilizator are propria configuraţie şi descărcări"
+    IDS_SHAREEMULEPUBLIC    "Toţi au aceeaşi configuraţie şi descărcări"
+    IDS_SHAREEMULEOLD       "Stochează configuraţia şi descărcările în dosarul programului"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "Această opţiune permite ca eMule să folosească o altă configuraţie. Setările dvs. curente vor fi ignorate iar descărcările în curs ar putea deveni indisponibile. Puteţi reveni oricînd la configuraţia curentă, modificînd din nou această opţiune.\n\nPentru ca această modificare să aibă efect, trebuie să reporniţi eMule."
+    IDS_SPAM                "Spam" //!
+    IDS_MARKSPAM            "Marchează ca Spam"
+    IDS_MARKNOTSPAM         "Marchează ca ne-Spam"
+    IDS_SEARCHSPAMFILTER    "Activare Filtru Spam ptr. rezultatele căutării"
+    IDS_SHOWSMILEYS         "Arată emoticonuri"
+    IDS_CAPTCHAREQUEST      "Pentru a evita mesajele spam, acest utilizator cere să rezolvi un captcha înainte de a-i putea trimite un mesaj. Te rog tastează literele din această imagine ca răspuns:"
+    IDS_CAPTCHAFAILED       "Răspunsul tău la captcha a fost greşit, deci mesajul ţi-a fost ignorat. Poţi cere un nou captcha trimiţînd un alt mesaj."
+    IDS_CAPTCHASOLVED       "Ai trecut testul captcha iar utilizatorul a primit mesajul tău."
+    IDS_USECAPTCHAS         "Cere autentificare captcha"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat de la URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "Descarc nodes.dat de la %s"
+    IDS_DOWNLOADING_NODESDAT "Descarc nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "Nu pot descărca nodes.dat de la %s"
+    IDS_PREVENTSTANDBY      "Previne modul Standby cînd rulează eMule"
+    IDS_KADID               "KadID" //!
+    IDS_SEARCHINGFRIENDKAD  "Caut prieten în reţeaua Kad"
+    IDS_FOUND               "găsit"
+    IDS_EXTERNUDPPORT       "Port UDP extern"
+    IDS_STORESEARCHES       "Ţine minte căutările în curs între sesiuni"
+    IDS_WRN_INCFILE_EXISTS  "Dosarul ales pentru fişierele primite nu e gol. Toate fişierele din acel dosar vor fi automat partajate de către eMule."
+    IDS_EDITSPAMFILTER      "Editare filtru spam..."
+    IDS_EDITSPAMFILTERCOMMENTS "Editare filtru spam ptr. comentarii"
+    IDS_WIZZARDOBFUSCATION  "Activează această opţiune pentru a activa mascarea de protocol\n\nDacă prividerul tău încearcă să limiteze sau blocheze eMule, activarea mascării ajută la depăşirea acestor restricţii."
+    IDS_BETANAG             "Aceasta este o versiune beta a eMule. Te rugăm să raportezi orice problemă şi să verifici regulat dacă sînt noutăţi în forumul nostru (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "Vrei să descarci şi să foloseşti contacte Kad (nodes.dat) de la această adresă:\n%s ?"
+    IDS_AUTOMATIC           "Automat"
+    IDS_NOTCONNECTEDANY     "Nu eşti conectat la nici un server şi nici la reţeaua Kad!"
+    IDS_ERR_SHARED_DIR      "Nu pot citi dosarul share ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "Fişierul ""%s"" pare protejat cu Digital Rights Management.\r\n\r\nNu-l vei putea folosi fără licenţă de la creatorul lui. Deschiderea fişierului va deschide browserul la pagina creatorului unde ţi se va cere să achiziţionezi o licenţă.\r\n\r\nChiar vrei să deschizi acest fişier?"
+    IDS_CHECK_FILE_OPEN     "Avertizează la deschiderea fişierelor dubioase"
+    IDS_BOOTABLE            "boot-abil"
+    IDS_UNSUPPORTEDIMAGE    "imagine nesuportată"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "Scoate din share"
+    IDS_WEBUPNPINCLUDE      "Include port în setările UPnP"
+    IDS_ADDEDON             "Adăugat"
+    IDS_RESOLVELINKS        "Rezolvă link-urile (shell links) în dosarele partajate"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "Comenzi descărcare"
+    IDS_CLOSETOOLBAR        "Închide toolbar"
+    IDS_SHOWTOOLBAR         "Arată toolbar"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "Nu poţi folosi primul cuvînt-cheie cu un operator SAU (OR) la căutare pe Kad!\n\nSpre exemplu ""Keyword1 OR Keyword2"" nu este posibil. Încearcă în schimb ""Keyword1 AND (Keyword2 OR Keyword3)"" sau caută de mai multe ori."
+    IDS_DISCOVEREDBY        "Descoperit de"
+    IDS_NODES               "Nod(uri)"
+    IDS_ROUTINGTABLE        "Tabelă rutări"
+    IDS_PROTOCOLVERSION     "Versiune protocol"
+    IDS_FOUNDNODESUSEFUL    "Noduri găsite (utile)"
+    IDS_NORESPONSE          "Fără răspuns"
+    IDS_NOTASKED            "Neîntrebat"
+    IDS_LOOKUPGRAPH         "Detalii căutare"
+    IDS_AUTOKADLOOKUPGRAPH  "Arată automat căutările active"
+    IDS_PAUSEONPREVIEW      "Pauză cînd se poate previzualiza"
+    IDS_PREVIEWWITH         "Previzualizare cu"
+    IDS_CLOSEEMULE          "Închide eMule"
+    IDS_DONOTASKAGAIN       "Nu mă mai întreba"
+    IDS_POPULARITY          "Clasament popularitate"
+    IDS_SHOWWIN7TASKBARGOODIES "Activare efecte taskbar Windows 7"
+    IDS_LANMODE             "Mod LAN"
+    IDS_OPENPREFINI         "Deschide preferences.ini"
+END
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // Romanian resources
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

@@ -1,0 +1,1995 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "he_IL.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Hebrew resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HEB)
+#ifdef _WIN32
+LANGUAGE LANG_HEBREW, SUBLANG_DEFAULT
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "he_IL.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDREQDENIED     "המשתמש %s (%u) מנע גישה לרשימת קבצים/תיקיות משותפות"
+    IDS_AUTOCLEANUPFN       "נקה שם קובץ"
+    IDS_ONNEWDOWNLOAD       "איתחולים"
+    IDS_FILTERFILENAMEWORD  "הכנס מילים לסינון, הפרד בעזרת |"
+    IDS_FNFILTERTITLE       "ערוך מסנני מילים לניקוי שם קובץ"
+    IDS_CHANGECATVIEW       "בחר סינון תצוגה"
+    IDS_STATUS_NOTCOMPLETED "לא שלם"
+    IDS_STATS_CUMULATIVE    "כללי"
+    IDS_STATS_OVRHD         "תקורה"
+    IDS_STATS_RECORDS       "שיאים"
+    IDS_STATS_COMPDL        "הורדות שהסתיימו"
+    IDS_STATS_SVRECWORKING  "מקס' שרתים פעילים"
+    IDS_STATS_SVRECUSERS    "מקס' משתמשים און ליין"
+    IDS_SEARCH_TEXT         "חפש"
+    IDS_STATS_SVRECFILES    "מקס' קבצים זמינים"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SHRECNUM      "מקס' קבצים משותפים"
+    IDS_SEARCH_COLUMN       "חפש בעמודה"
+    IDS_STATS_SHRECSIZE     "גודל משותף הגדול ביותר"
+    IDS_STATS_SHRECASIZE    "גודל קובץ ממוצע הגדול ביותר"
+    IDS_STATS_SESSION       "הפעלה נוכחית"
+    IDS_STATS_SRATIO        "יחס העלאות/הורדות להפעלה נוכחית:"
+    IDS_STATS_CRATIO        "יחס העלאות/הורדות כללי:"
+    IDS_SEARCH_NORESULT     "לא נמצאו כניסות תואמות."
+    IDS_STATS_CURRSRVDUR    "משך התחברות לשרת"
+    IDS_LONGSECS            "שניות"
+    IDS_STATS_DLSES         "מס' הורדות להפעלה נוכחית"
+    IDS_LONGMINS            "דקות"
+    IDS_STATS_SDLSES        "מס' הורדות מוצלחות להפעלה נוכחית"
+    IDS_STATS_FDLSES        "מס' הורדות שנכשלו להפעלה נוכחית"
+    IDS_STATS_AVGDATADLSES  "גודל הורדה ממוצע להפעלה נוכחית"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDFILES           "מגבלת חומרה"
+    IDS_FILTER              "מסנן"
+    IDS_LINKS               "קישורים"
+    IDS_HM_SCHED_ON         "הפעל תיזמון"
+    IDS_HM_SCHED_OFF        "בטל תיזמון"
+    IDS_HM_LINKHP           "אתר הבית של אימיול"
+    IDS_HM_LINKFAQ          "שאלות נפוצות"
+    IDS_HM_LINKVC           "בדיקת גירסה"
+    IDS_DEBUG_SOURCE_EXCHANGE "הצג הודעת החלפת מקורות"
+    IDS_SHAREDREQ1          "המשתמש %s (%u) ביקש את רשימת התיקיות המשותפות שלך -> %s"
+    IDS_SHAREDREQ2          "המשתמש %s (%u) ביקש את רשימת הקבצים המשותפים שלך בתיקייה '%s' -> %s"
+    IDS_SHAREDANSW          "המשתמש %s (%u) משתף את התיקיה '%s'"
+    IDS_SHAREDANSW2         "המשתמש %s (%u) לא ביקש רשימת התיקיות המשותפות שלך - מתעלם"
+    IDS_SHAREDINFO1         "המשתמש %s (%u) שלח רשימת קבצם משותפים בתיקייה '%s'"
+    IDS_SHAREDINFO2         "המשתמש %s (%u) סיים לשלוח רשימת קבצים משותפים"
+    IDS_SHAREDANSW3         "המשתמש %s (%u) לא ביקש רשימת קבצים משותפים בתיקייה '%s' - מתעלם"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "העתק"
+    IDS_SELECTALL           "בחר הכל"
+    IDS_AUTOSCROLL          "גלול אוטומטית"
+    IDS_WIZ1_WELCOME_TITLE  "ברוך הבא לאימיול"
+    IDS_WIZ1_WELCOME_ACTIONS "האשף ידריך אותך בצעדים הראשונים בהגדרת אימיול"
+    IDS_WIZ1_WELCOME_BTN_HINT "להמשך, לחץ הבא"
+    IDS_WIZ1_END_TITLE      "משלים את האשף"
+    IDS_WIZ1                "אשף אימיול"
+    IDS_WIZ1_END_BTN_HINT   "לסגור את האשף, לחץ סיום"
+    IDS_WIZ1_UPLOAD_SUBTITLE "העבר קטעי קובץ שלמים"
+    IDS_DL_RESUMENEXT       "המשך עם המושהה הבא"
+    IDS_STARTPRIO           "עדיפות לקטגוריה זו"
+    IDS_PREF_STARTNEXTFILECAT "העדף קטגוריה זהה"
+    IDS_SOFTFILES           "מגבלת תוכנה"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALLUNASSIGNED       "לא מקוטלגים"
+    IDS_ACTSESSIONS         "הפעלות פעילות"
+    IDS_WEBSRV              "שרת נט"
+    IDS_SW_REFETCHRES       "השג תוצאות מחדש"
+    IDS_FILEHASH            "האש של קובץ"
+    IDS_PW_PROXY            "פרוקסי"
+    IDS_PROXY_ENABLE        "הפעל פרוקסי"
+    IDS_PROXY_TYPE          "סוג:"
+    IDS_PROXY_HOST          "מארח:"
+    IDS_PROXY_PORT          "פורט:"
+    IDS_PROXY_AUTH          "הפעל אימות"
+    IDS_AUTH                "אימות"
+    IDS_SHOWCATINFO         "הצג מידע הורדה בלשונית קטגוריה"
+    IDS_SW_SEARCHINGINFO    "מתבצע חיפוש. אחזר מידע בעוד כדקה!"
+    IDS_LOGENTRY            "כניסת יומן"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "שרת נט: נכשל בהתחברות"
+    IDS_ERR_TOOLARGEFILE    "הקובץ גדול מגודל הנתמך ע""י פרוטוקול ed2k (>=4ג""ב)"
+    IDS_MSGONLYFRIENDS      "קבל מחברים בלבד"
+    IDS_DAY_MO_SA           "שני-שבת"
+    IDS_LIMITSOURCES        "הגבל מקורות"
+    IDS_LIMITCONS5SEC       "הגבל התחברויות ל-5 שניות"
+    IDS_SCHED_CATSTOP       "קטגוריה:עצור הורדות"
+    IDS_SCHED_CATRESUME     "קטגוריה:המשך הורדות"
+    IDS_S_DAYS              "ימים"
+    IDS_STARTTIME           "זמן התחלה"
+    IDS_VALUE               "ערך"
+    IDS_SCHED_ENTERDATARATELIMIT "הכנס את מגבלת קצב המידע:"
+    IDS_SCHED_ENTERVAL      "הכנס בבקשה ערך חדש:"
+    IDS_SCHED_ACTCONFIG     "הגדר פעולה"
+    IDS_SELECTCAT           "בחר קטגוריה"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_MO_FR           "שני-שישי"
+    IDS_DAY_SA_SO           "שבת וראשון"
+    IDS_MO                  "שני"
+    IDS_DI                  "שלישי"
+    IDS_MI                  "רביעי"
+    IDS_DO                  "חמישי"
+    IDS_FR                  "שישי"
+    IDS_SA                  "שבת"
+    IDS_SO                  "ראשון"
+    IDS_WEB_ADMINLOGIN      "שרת נט: התחברות מנהל"
+    IDS_WEB_GUESTLOGIN      "שרת נט: התחברות אורח"
+    IDS_WEB_SESSIONEND      "שרת נט: התנתקות"
+    IDS_DETAILS             "פרטים"
+    IDS_ACTION              "פעולה"
+    IDS_REMOVE              "הסר"
+    IDS_NEW                 "חדש"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "הצג תור"
+    IDS_WEB_GZIP_COMPRESSION "כיווץ ב-Gzip"
+    IDS_WEB_GZIP_COMMENT    "שמור תנועה, במיוחד בגרפים."
+    IDS_WEB_REFRESH_TIME    "קצב רענון דף"
+    IDS_WEB_REFRESH_COMMENT "זמן בשניות (0=ביטול):"
+    IDS_SV_URL              "כתובת"
+    IDS_WS_RELOAD_TMPL      "תבנית"
+    IDS_SV_DEBUGLOG         "יומן דיבוג"
+    IDS_WS_PASS             "סיסמה"
+    IDS_WS_ERR_LOADTEMPLATE "לא יכול לטעון תבנית: החלף את %s בגירסה חדשה יותר!"
+    IDS_WEB_CONLIMITS       "מגבלת התקשרות"
+    IDS_INFLST_USER_TOTALDOWNLOAD "סה""כ הורד"
+    IDS_INFLST_USER_TOTALUPLOAD "סה""כ הועלה"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPEED_LIMITS        "הגבלת מהירות"
+    IDS_CAPACITY_LIMITS     "הגבלות תעבורה"
+    IDS_ADMIN               "מנהל"
+    IDS_ACCESSDENIED        "הגישה נדחתה!"
+    IDS_WEB_LOWUSER         "אורח"
+    IDS_WEB_ERR_CANTLOAD    "לא יכול לטעון תבנית: לא יכול לפתוח את %s"
+    IDS_GLOBALSEARCH        "גלובלי בשרת"
+    IDS_METHOD              "שיטת חיפוש"
+    IDS_UNDO                "בטל"
+    IDS_DAYLY               "יומי"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENTERUSERNAME       "הכנס בבקשה את שם המשתמש שלך:"
+    IDS_STATIC_CPUMEM       "חסוך בשימוש במעבד ובזיכרון"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "מילת מפתח קצרה מידיי.\r\n\r\nמילות המפתח המשמשות חיפוש בקדמליה חייבות להיות באורך 3 תווים לפחות."
+    IDS_LOG2DISK            "שמור יומן לכונן קשיח"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "כבר מתבצע חיפוש בקדמליה למילת המפתח ""%s"".\r\n\r\nבשביל לחפש את מילת המפתח הזו, או שתמתין עד שהחיפוש יסתיים, או שתסגור את טאב תוצאות החיפוש של מילת המפתח."
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "מילת מפתח לא תקינה.\r\n\r\nלחיפוש בקדמליה יש את הפורמט הבא:\r\n\r\n\t<kad-keyword> [ <ed2k-search-expression> ]\r\n\r\nה-<kad-keyword> חייבת שלא להכיל את התווים הבאים:\r\n\r\n\t%s"
+    IDS_EDITCAT             "ערוך מאפייני קטגוריה"
+    IDS_PW_WS               "שרת נט"
+    IDS_ENABLED             "מופעל"
+    IDS_WEB_LOGIN           "התחבר"
+    IDS_WEB_ENTER_PASSWORD  "הכנס סיסמתך פה"
+    IDS_WEB_LOGIN_NOW       "מתחבר עכשיו"
+    IDS_WEB_CONFIRM_REMOVE_SERVER "אתה בטוח שברצונך למחוק שרת זה מהרשימה?"
+    IDS_WEB_CONTROL         "לוח בקרה באינטרנט"
+    IDS_WEB_LOGOUT          "התנתק"
+    IDS_WEB_ACTIONS         "פעולות"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CL_PENDING          "מתווסף"
+    IDS_CL_LOW2LOW          "איי פי נמוך לאיי פי נמוך"
+    IDS_ERROR               "שגיאה"
+    IDS_OPENINC             "פתח תיקיית שהתקבלו"
+    IDS_HOTMENU             "תפריט"
+    IDS_DISABLEKNOWNLIST    "בטל רשימת קליינטים ידועים"
+    IDS_DISABLEQUEUELIST    "בטל רשימת תור"
+    IDS_USECREDITSYSTEM     "השתמש במערכת הקרדיטים (מדרג מעלים)"
+    IDS_FIRSTAUTODOWN       "הפעל אפשרות זו אם ברצונך שאימיול ינהל את עדיפויות ההורדות.\n\nהפעלת האפשרות מאפשרת לאימיול לוודא שקבצים עם מקורות רבים לא יפריעו לקבצים עם מעט מקורות. אפשרות זו תשפיע רק על הורדות עתידיות."
+    IDS_FIRSTAUTOUP         "הפעל אפשרות זו אם ברצונך שאימיול ינהל את עדיפויות ההעלאות.\n\nהפעלת האפשרות מאפשרת לאימיול להגביר שיתוף לקבצים נדירים כך שקבצים פופולארים יהיו קשים יותר להשגה. ביטול האפשרות יאפשר לאימיול להעלות יותר קבצים פופלארים כך שיהיה קשה לאחרים להוריד קבצים נדירים. אפשרות זו תשפיע רק על קבצים משותפים עתידיים"
+    IDS_FIRSTSAFECON        "הפעל אפשרות זו אם ברצונך שאימיול יתחבר באמצעות חיבור בטוח.\n\nהפעל האפשרות מאפשרת חיבור מהיר יותר לשרתים אך יכול לגרום ליותר חיבורים שגויים עם מזהה נמוך"
+    IDS_FIRSTAUTOCON        "הפעל אפשרות זו אם ברצונך שאימיול יתחבר בעת ההפעלה."
+    IDS_FIRSTCOMPLETE       "השלמת את אשף הפעלה הראשונה.\n\nכל ההגדרות הללו ואחרות ניתנות לשינוי ע""י לחיצה על העדפות. להסברים ותמיכה בדוק את העזרה ע""י לחיצה על F1 באימיול!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "האם להוסיף את קישורי ED2K הבאים להורדות?\n"
+    IDS_PF_WATCHCB          "צפה בקליפבורד לקישורי קובץ של ED2K"
+    IDS_SECURITY            "אבטחה"
+    IDS_IPFILTERLOADED      "%u מסנני איי פי נטענו"
+    IDS_IPFILTER            "מסנני איי פי"
+    IDS_EDIT                "ערוך"
+    IDS_FILTERLEVEL         "רמת סינון"
+    IDS_FILTERSERVERBYIPFILTER
+                            "סנן גם שרתים"
+    IDS_FILTERCOMMENTSLABEL "התעלם מהערות המכילות: (מפריד: | )"
+    IDS_CLIENTLIST          "קליינטים ידועים"
+    IDS_FOLDER              "תיקיה"
+    IDS_CL_UPLOADSTATUS     "מצב העלאה"
+    IDS_CL_TRANSFUP         "הועלה"
+    IDS_CL_DOWNLSTATUS      "מצב הורדה"
+    IDS_CL_TRANSFDOWN       "ירד"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_RUNTIME       "זמן פעולה"
+    IDS_ALL                 "הכל"
+    IDS_CAT_ADD             "הוסף קטגוריה"
+    IDS_CAT_EDIT            "ערוך קטגוריה"
+    IDS_CAT_REMOVE          "הסר קטגוריה"
+    IDS_CAT                 "קטגוריה"
+    IDS_TITLE               "כותרת"
+    IDS_COLOR               "צבע"
+    IDS_DEFAULT             "ברירת מחדל"
+    IDS_PW_DISPLAY          "תצוגה"
+    IDS_INDICATERATINGS     "ציין הורדות עם הערות/דירוג ע""י סמל"
+    IDS_ALLOTHERS           "לא מקוטלגים"
+    IDS_TOCAT               "הצב בקטגוריה"
+    IDS_CAT_UNASSIGN        "(בטל הצבה)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "אותרה גירסה חדשה לאימיול"
+    IDS_NONEWERVERSION      "לא אותרה גירסה חדשה לאימיול."
+    IDS_VERSIONCHECK        "בדיקת גירסה"
+    IDS_VISITVERSIONCHECK   "\n\nהאם ברצונך לבקר בדף המידע?"
+    IDS_PW_VIDEOPLAYER      "נגן וידאו"
+    IDS_VIDEOBACKUP         "צור גיבוי לתצוגה מקדימה"
+    IDS_MYINFO              "המידע שלי"
+    IDS_ID                  "מזהה"
+    IDS_IDLOW               "מזהה נמוך"
+    IDS_IDHIGH              "מזהה גבוה"
+    IDS_UPSTATUS            "בעל חלקים"
+    IDS_TOVERHEAD           "סה""כ תעבורה כללית (מנות): %s (%s)"
+    IDS_FROVERHEAD          "תקורת בקשת קובץ (מנות): %s (%s)"
+    IDS_SSOVERHEAD          "תקורת החלפת מקורות (מנות): %s (%s)"
+    IDS_SOVERHEAD           "תקורת שרת (מנות): %s (%s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD "יצירת תהליך להשלמת קובץ נכשלה"
+    IDS_FILEBUFFERSIZE      "גודל חוצץ לקובץ"
+    IDS_QUEUESIZE           "גודל תור"
+    IDS_DAYS2               "ימים"
+    IDS_ERR_MAKEBAKCREDITFILE "נכשל ביצירת גיבוי לקובץ קרדיט"
+    IDS_COMMENT             "הערה"
+    IDS_IPFILTERED          "מספרי איי-פי שסוננו: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "הושלם"
+    IDS_DL_ACTIVE_TIME      "זמן הורדה"
+    IDS_STATS_FILTEREDCLIENTS "סונן: %u"
+    IDS_FILTERLABEL         "סנן הודעות המכילות: (מפריד: | )"
+    IDS_ERR_LARGEREQBLOCK   "קליינט ביקש בלוק גדול מידי"
+    IDS_SHOWRATEONTITLE     "הצג תעבורה בכותרת"
+    IDS_TBN_NOMESSAGEHISTORY "אין היסטוריה להודעות"
+    IDS_PW_DAP              "הוסף הורדות חדשות עם עדיפות אוטומטית"
+    IDS_FD_LASTCHANGE       "התקבל לאחרונה:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOHELP          "אנא בקר בדף ההורדות באתר הבית שלנו כדי להוריד את קובץ העזרה החדש ביותר!\n\nהאם ברצונך לדפדף בעזרה באתר במקום?"
+    IDS_SHOWOVERHEAD        "הצג תעבורה כללית (תקורה)"
+    IDS_UPDOWNSMALL         "עולה: %.1f | יורד: %.1f"
+    IDS_EDITLIST            "רשימה"
+    IDS_SP_ICONBAR          "מד-מהירות של סמל מגש מערכת"
+    IDS_RATINGRECV          "הקובץ '%s' קיבל דירוג: %u"
+    IDS_DESCRIPTIONRECV     "תיאור לקובץ-'%s' התקבל ע""י: %s"
+    IDS_WEBSERVICES         "שירותי אינטרנט"
+    IDS_WEBSVEDIT           "ערוך שירותי נט"
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "התעלם מהודעות פרוטוקול שליחת קישורים של אימיול"
+    IDS_CHECK4UPDATE        "בדוק אם קיימת גירסה חדשה"
+    IDS_STARTUP             "הפעלה"
+    IDS_NEWVERSIONAVL       "גירסה חדשה של אימיול זמינה! בדוק את אתר הפרוייקט למידע נוסף."
+    IDS_NEWVERSIONAVLPOPUP  "גירסה חדשה של אימיול זמינה. לחץ כאן כדי לקרוא על הגירסה החדשה!"
+    IDS_NEWVERSIONFAILED    "לא יכול לבדוק קיום של גירסה חדשה."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_FAKE            "לא תקין / פגום / מזוייף"
+    IDS_CMT_POOR            "נמוך"
+    IDS_CMT_GOOD            "טוב"
+    IDS_CMT_FAIR            "הוגן"
+    IDS_CMT_EXCELLENT       "מצויין"
+    IDS_CMT_NOTRATED        "לא מדורג"
+    IDS_KILO                "קילו"
+    IDS_MEGA                "מגה"
+    IDS_GIGA                "ג'יגה"
+    IDS_TERA                "טארה"
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "התעלם מהודעות של אימיול"
+    IDS_SMARTLOWIDCHECK     "השתמש בבדיקה חכמה למזהה נמוך בעת התחברות"
+    IDS_SF_SRVOCC           "תפוסת שרת: %.2f%%"
+    IDS_3DDEP               "סגנון בר התקדמות"
+    IDS_AUTOTAKEED2KLINKS   "השתלט על קישורי ED2K רק בזמן ריצה של אימיול"
+    IDS_ADDNEWFILESPAUSED   "הוסף קבצים להורדה במצב מושהה"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "עלייך להכניס איי פי ופורט תקינים!"
+    IDS_ADD                 "הוסף"
+    IDS_RECOVERED_PARTMET   "שוחזר קובץ part.met עבור: %s"
+    IDS_CMT_QUEST           "הער על קובץ זה! (ההערה תוצג לכל המשתמשים)"
+    IDS_CMT_AIDE            "תאר את מאפייני הקובץ (אורך, איכות, שפה, קודאקים לסרטים וכו'...) אם הקובץ מזוייף, באפשרותך לידע משתמשי אימיול אחרים"
+    IDS_CMT_ADD             "הערות"
+    IDS_CMT_NONE            "אין הערות"
+    IDS_CMT_READ            "הערה של קובץ:"
+    IDS_CMT_SHOWALL         "הצג הערות"
+    IDS_CMT_READALL         "כל ההערות"
+    IDS_CMT_RATEQUEST       "דירוג קובץ"
+    IDS_CMT_RATEHELP        "בחר את הדירוג לקובץ או הזהר משתמשים אחרים אם הקובץ לא תקין!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOAUTONORMAL      "אוטו [רגילה]"
+    IDS_PRIOAUTOHIGH        "אוטו [גבוהה]"
+    IDS_PRIOAUTORELEASE     "אוטו [שיחרור]"
+    IDS_PRIOAUTOLOW         "אוטו [נמוכה]"
+    IDS_ERR_CONTIMEOUT      "עבר זמן מוגדר לניסיון התחברות ל-""%s"" (%s:%u )"
+    IDS_OUTOFSERVERS        "נכשל בהתחברות של השרתים ברשימה. מבצע ניסיון נוסף."
+    IDS_PW_CONLIMITS        "מגבלות חיבור"
+    IDS_MAXCON5SECLABEL     "מקס' חיבורים חדשים ל-5 שניות"
+    IDS_PW_UAP              "הוסף קבצים משותפים חדשים עם עדיפות אוטומטית"
+    IDS_MAXCLIENT           "מקס' משתמשים"
+    IDS_PW_TWEAK            "הגדרות מורחבות"
+    IDS_TWEAKS_WARNING      "אזהרה: כל עוד אינך יודע מה אתה עושה, אל תשנה את ההגדרות הבאות. אימיול ירוץ בסדר גמור גם אם לא יתבצעו שינויים בהגדרות הללו."
+    IDS_ADDAFRIEND          "הוסף חבר"
+    IDS_PAF_REQINFO         "מידע שנדרש"
+    IDS_PAF_MOREINFO        "מידע נוסף"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HEIGHT              "גובה"
+    IDS_SHAREDFILES_FAILED  "לא יכול לאחזר רשימת קבצים משותפים מ-'%s'"
+    IDS_SHAREDFILES_REQUEST "מבקש קבצים משותפים מ-'%s'"
+    IDS_VIEWFILES           "ראה קבצים"
+    IDS_FRIENDSLOT          "צור סלוט חבר"
+    IDS_FRIENDDETAIL        "(סלוט חבר)"
+    IDS_UDPDISABLED         "הפסק"
+    IDS_WIZ_CTFRAME         "סוג חיבור"
+    IDS_CONCURDWL           "הורדות נוכחיות"
+    IDS_WIZARD_CUSTOM       "מותאם אישית"
+    IDS_WIZARD_ENTERBELOW   "(!הכנס מתחת)"
+    IDS_STATS_MAXAVGDL      "מקס' ממוצע קצב הורדה: %s ק""ב לשנייה"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MAXDL         "מקס' קצב הורדה: %s ק""ב לשנייה"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "התעלם מהודעות פרוטוקול הוסף חבר של אימיול"
+    IDS_PW_FASTSRVCON       "התחברות בטוחה"
+    IDS_SOURCELINKFAILED    "אתה צריך מזהה גבוה כדי ליצור קישור-מקור"
+    IDS_ERR_LOADSERVERMET   "נכשל בטעינת server.met!"
+    IDS_ERR_CORRUPTCOMPRPKG "התקבלה מנה מכווצת פגומה עבור %s (שגיאה %u)"
+    IDS_ERR_EMFRIENDSINVALID "הקובץ emfriends.met אינו תקין או פגום!"
+    IDS_ERR_READEMFRIENDS   "שגיאה לא ידועה התרחשה בעת קריאת emfriends.met: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "התקבל מידע לא ידוע של שרת!"
+    IDS_WIZ_DOWN            "הורדה (ביטים)"
+    IDS_WIZ_UP              "העלאה (ביטים)"
+    IDS_SELECT_INCOMINGDIR  "בחר תיקייה עבור קבצים שהתקבלו"
+    IDS_SELECT_TEMPDIR      "בחר תיקייה עבור קבצים זמניים"
+    IDS_PRIOAUTO            "אוטו"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZARD              "אשף"
+    IDS_ADDFRIEND           "הוסף לרשימת חברים"
+    IDS_REMOVEFRIEND        "מחק חבר"
+    IDS_REMOVEFROMSTATIC    "הסר מרשימת שרתים קבועים"
+    IDS_LENGTH              "אורך"
+    IDS_VIDEO               "וידאו"
+    IDS_AUDIO               "אודיו"
+    IDS_FILEINFO            "פרטי מדיה"
+    IDS_CODEC               "מקודד"
+    IDS_BITRATE             "קצב סיביות"
+    IDS_WIDTH               "רוחב"
+    IDS_FPS                 "תמונות לשנייה"
+    IDS_CHANNELS            "ערוצים"
+    IDS_SAMPLERATE          "קצב דגימה"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "בלתי מוגבל"
+    IDS_PW_MINREC           "מינימום מומלץ\t%u "
+    IDS_PW_UA               "הגדר קצבי העלאה/הורדה מקסימלים"
+    IDS_PW_PA               "Throttle up/down-speed"
+    IDS_IRC_IGNOREINFOMESSAGE "התעלם מהודעות מידע"
+    IDS_CONNECTIONLOST      "אבדה התחברות"
+    IDS_WIZ_OS_FRAME        "מערכת הפעלה"
+    IDS_HASHINGFILE         "מבצע האשינג לקובץ:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "קצב העלאה"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "קצב הורדה"
+    IDS_FRIENDLIST          "חברים"
+    IDS_CHATDISCONNECTED    "*** התנתק"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCENAMES         "שמות מקור"
+    IDS_PREF_STARTMIN       "התחל ממוזער"
+    IDS_PS_TBN_IMPORTANT    "דחוף: חוסר מקום בכונן, התנתקות משרת"
+    IDS_COLORS              "צבעים"
+    IDS_SP_BACKGROUND       "רקע"
+    IDS_SP_GRID             "רשת"
+    IDS_SP_DL1              "הורדה נוכחית"
+    IDS_SP_DL2              "ממוצע זמן להורדה"
+    IDS_SP_DL3              "ממוצע הפעלה נוכחית להורדה"
+    IDS_SP_UL1              "העלאה נוכחית"
+    IDS_SP_UL2              "ממוצע זמן להעלאה"
+    IDS_SP_UL3              "ממוצע הפעלה נוכחית להעלאה"
+    IDS_SP_ACTCON           "חיבורים פעילים"
+    IDS_SP_ACTDL            "הורדות פעילות"
+    IDS_SP_ACTUL            "העלאות פעילות"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_USEFILTER       "השתמש בסינון רשימת ערוצים"
+    IDS_IRC_PERFORM         "ביצוע"
+    IDS_IRC_USEPERFORM      "השתמש במחרוזת ביצוע בעת התחברות"
+    IDS_IRC_ADDTOFRIENDLIST "הוסף לרשימת חברים"
+    IDS_IRC_LOADCHANNELLISTONCON "טען רשימת ערוצים של שרת בעת התחברות"
+    IDS_IRC_ADDASFRIEND     "הוסיף אותך כחבר!"
+    IDS_PW_WARNING          "המספר שבחרת עבור ""%s"" גדול מידי מתמיכת מערכת ההפעלה:  %u\nהדבר יכול לגרום לאי-יציבות של המערכת.\n\nהאם אתה בטוח שברצונך לשנות?"
+    IDS_TAKEOVER            "השתלט"
+    IDS_CLEANUP             "נקה"
+    IDS_RENAME              "שנה שם"
+    IDS_IRC_ADDLINKTOIRC    "הוסף לקליפבורד IRC"
+    IDS_IRC_SENDLINK        "שלח לחבר: "
+    IDS_IRC_RECIEVEDLINK    "%s שלח (%s) שיתחיל אוטומטית."
+    IDS_IRC_ACCEPTLINKS     "קבל קישורי ED2K ב-IRC (השתמש באפשרות זו בזהירות!)"
+    IDS_SHARED              "משותף"
+    IDS_DOWNLOADED          "הורד"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_DISCONNECT      "התנתק"
+    IDS_IRC_HASJOINED       "* %s הצטרף ל-%s"
+    IDS_IRC_HASPARTED       "* %s יצא מ-%s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s נזרק ע""י %s (%s)"
+    IDS_IRC_HASQUIT         "* %s עזב (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s עכשיו ידוע כ-%s"
+    IDS_IRC_SETSMODE        "* %s הגדיר מצב: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** כמה מצבים הוגדרו שעדיין לא נתמכים. ייתכן ותצטרך לעזוב להיכנס מחדש לערוץ לעדכון רשימת כינויים..."
+    IDS_IRC_CHANNEL         "ערוץ"
+    IDS_IRC_NICK            "כינוי"
+    IDS_IRC_SEND            "שלח"
+    IDS_IRC_NAME            "שם"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION סטר ל-%s עם דג טונה מסריח!\001"
+    IDS_IRC_ADDTIMESTAMP    "הוסף זמנים להודעות"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_CON_CAPFRM       "יכולות"
+    IDS_IRC_PRIVATECHANSTART "* צ'אט פרטי התחיל"
+    IDS_IRC_SLAPMSG         "* %s סטר ל-%s עם דג טונה מסריח!"
+    IDS_IRC_PRIVMESSAGE     "הודעה פרטית"
+    IDS_WEB_REMOTE_LINK_ADDED "קישור נוסף: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "קישור לא נוסף. סיסמה שגוייה."
+    IDS_IRC_KICK            "זרוק"
+    IDS_IRC_SLAP            "כפכף"
+    IDS_IRC_JOIN            "הצטרף"
+    IDS_IRC_CHANNELLIST     "רשימת ערוצים"
+    IDS_IRC_CONNECT         "התחבר"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDLIMIT           "מגבלת חומרה"
+    IDS_COL_MORECOLORS      "עוד..."
+    IDS_TOOMANYCONNS        "יותר מדי חיבורים"
+    IDS_DOWNLOADRENAMED     "קובץ עם שם זהה כבר קיים, הקובץ נשמר בשם %s"
+    IDS_TBN_DOWNLOADDONE    "הורד:"
+    IDS_PW_TBN_USESOUND     "השתמש בצלילים"
+    IDS_PW_TBN_ONLOG        "כניסה חדשה ביומן"
+    IDS_PW_TBN_ONCHAT       "התחל צ'אט חדש"
+    IDS_PW_TBN_POP_ALWAYS   "התקבלה הודעה חדשה"
+    IDS_PW_TBN_ONDOWNLOAD   "הורדה נוספה או הסתיימה"
+    IDS_PW_EKDEV_OPTIONS    "התראות"
+    IDS_PW_TASKBARNOTIFIER  "הודעה קופצת"
+    IDS_PW_TBN_OPTIONS      "הקפץ כש-"
+    IDS_TBN_NEWCHATMSG      "הודעה מ-"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PREF_ONLINESIG      "הפעל חתימה און ליין"
+    IDS_ERROR_SAVEFILE      "נכשל בשמירה"
+    IDS_REQ_SHAREDFILES     "המשתמש %s (%u) שלח בקשה לרשימת קבצים משותפים -> %s"
+    IDS_ACCEPTED            "אושר"
+    IDS_DENIED              "נשלל"
+    IDS_PW_CON_DOWNLBL      "הורדה"
+    IDS_PW_CON_UPLBL        "העלאה"
+    IDS_PW_AUTOCONNECTSTATICONLY "התחבר אוטומטית לשרתים קבועים"
+    IDS_PW_CON_LIMITFRM     "גבולות"
+    IDS_STATS_AVGLABEL      "זמן ממוצע של גרף: %u דקות"
+    IDS_GRAPHS              "גרפים"
+    IDS_STREE               "עץ סטטי"
+    IDS_IRC_IGNOREQUITMESSAGE "התעלם מהודעות מידע יציאה"
+    IDS_STATSSETUPINFO      "סטטיסטיקות"
+    IDS_IRC_SOUNDEVENTS     "הפעל צליל אירוע"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "נסה להוריד חלקים ראשון ואחרון ראשונים"
+    IDS_RECOVER_SINGLE      "קובץ אחר שוחזר."
+    IDS_RECOVER_MULTIPLE    "%u קבצים שוחזרו"
+    IDS_ATTEMPTING_RECOVERY "מנסה לשחזר ארכיון..."
+    IDS_RECOVERY_SUCCESSFUL "שיחזור ארכיון הצליח."
+    IDS_RECOVERY_FAILED     "שיחזור ארכיון נכשל."
+    IDS_STARTNEXTFILE       "התחל קובץ מושהה הבא בעת סיום הורדה"
+    IDS_FULLCHUNKTRANS      "נסה להעביר חלקים שלמים להעלאות"
+    IDS_MANUALSERVERHIGHPRIO "הוסף שרתים חדשים עם עדיפות גבוהה"
+    IDS_VERBOSE             "מידע דיבוג (משוב נוסף לתוכנה)"
+    IDS_FLAT                "שטוח"
+    IDS_ROUND               "עגול"
+    IDS_SAMEUSERHASH        "לקליינטים '%s' ו-'%s' יש האש משתמש או איי פי זהים - מסיר את '%s'"
+    IDS_SEARCHEXTENTION     "סיומת"
+    IDS_SEARCHAVAIL         "זמינות"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GBYTES              "ג""ב"
+    IDS_TBYTES              "ט""ב"
+    IDS_SECS                "שנ'"
+    IDS_MINS                "דק'"
+    IDS_HOURS               "שע'"
+    IDS_DAYS                "ימים"
+    IDS_ED2KLINKFIX         "ED2K קישורי"
+    IDS_RECONNECT           "התקשרות אוטומטית לשרת תתבצע בעוד %u שניות"
+    IDS_SERVERADDED         "נוסף שרת: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "התעלם מהודעות מידע הצטרפות"
+    IDS_STATS_SUCCUPCOUNT   "סה""כ העלאות שהצליחו: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "התעלם מהודעות מידע חלק"
+    IDS_STATS_FAILUPCOUNT   "סה""כ העלאות שנכשלו: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "ממוצע זמן העלאה: %s"
+    IDS_SEARCHMINSIZE       "גודל מינימלי"
+    IDS_SEARCHMAXSIZE       "גודל מקסימלי"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDED2SSF           "נוסף לרשימת שרתים קבועים"
+    IDS_STATICSERVER        "קבוע"
+    IDS_ERROR_SSF           "נכשל בפתיחת staticservers.dat"
+    IDS_SF_ACTIVECON        "התחברויות פעילות (משוער)"
+    IDS_SF_MAXCONLIMITREACHED "הגיע למקס' מגבלת חיבורים"
+    IDS_SF_AVGCON           "ממוצע התקשרויות (משוער)"
+    IDS_SF_PEAKCON          "שיא חיבורים (משוער)"
+    IDS_ST_ACTIVEC          "התחברויות פעילות"
+    IDS_NETWORK             "רשת"
+    IDS_SF_DELCOUNT         "שרתים שנמחקו"
+    IDS_QUEUEFULL           "תור מלא"
+    IDS_AVG                 "ממוצע"
+    IDS_BYTES               "בתים"
+    IDS_KBYTES              "ק""ב"
+    IDS_MBYTES              "מ""ב"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REMOVESEARCHSTRING  "סגור חלון חיפוש"
+    IDS_REMOVESELECTED      "הסר בחירה"
+    IDS_REMOVEALLSEARCH     "הסר הכל"
+    IDS_ENTERQUEUE          "נכנס לתור"
+    IDS_SF_FAIL             "שרתים שנכשלו"
+    IDS_SF_WUSER            "משתמשים בשרתים פעילים"
+    IDS_SF_WFILE            "קבצים על שרתים פעילים"
+    IDS_SF_USER             "סה""כ משתמשים"
+    IDS_SF_FILE             "סה""כ קבצים"
+    IDS_UPLOADTIME          "זמן העלאה"
+    IDS_LASTSEENCOMPL       "הושלם לאחרונה:"
+    IDS_YES                 "כן"
+    IDS_NO                  "לא"
+    IDS_UNBAN               "בטל החרמה"
+    IDS_SF_WORKING          "שרתים פעילים"
+    IDS_ADDTOSTATIC         "הוסף לרשימת שרתים קבועים"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PARTINFOS           "שם חלק קובץ:"
+    IDS_PARTINFOS2          "מעביר מ-%u מקורות"
+    IDS_USERID              "מזהה משתמש"
+    IDS_CLIENT              "קליינט"
+    IDS_SERVER              "שרת"
+    IDS_SOURCEINFO          "נשאל: %u פעמים - מס' חלקים זמינים: %u"
+    IDS_CLIENTSOURCENAME    "\nשם קובץ של קליינט: "
+    IDS_USERINFO            "כינוי: %s\n"
+    IDS_FILESTATS_SESSION   "סטטיסטיקות קובץ להפעלה נוכחית: התקבלו %u מתוך %u בקשות, %s הועברו\n"
+    IDS_FILESTATS_TOTAL     "סטטיסטיקות קובץ כלליות: התקבלו %u מתוך %u בקשות, %s הועברו"
+    IDS_REQ_UNKNOWNFILE     "התבקש קובץ לא ידוע"
+    IDS_SF_AVERAGESIZE      "ממוצע גודל קובץ: %s"
+    IDS_SF_REQUESTS         "בקשות"
+    IDS_SF_ACCEPTS          "בקשות שאושרו"
+    IDS_SF_TRANSFERRED      "מידע שהועבר"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSIZE         "גודל לא תקין (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "לא קישור קובץ"
+    IDS_ERR_CREATEPARTFILE  "שגיאה: נכשל ביצירת חלק-קובץ"
+    IDS_CHAT_START          "*** הצ'אט התחיל: "
+    IDS_FILEPRIO            "עדיפות קובץ"
+    IDS_SCORE               "ניקוד"
+    IDS_ASKED               "נשאל"
+    IDS_LASTSEEN            "נראה לאחרונה"
+    IDS_BANNED              "מוחרמים"
+    IDS_UUSERS              "משתמשים"
+    IDS_UFAILED             "נכשל"
+    IDS_OPENFILE            "פתח קובץ"
+    IDS_DATE                "תאריך"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_SCORES           "ניקודים"
+    IDS_CD_MOD              "יחס הורדה/העלאה:"
+    IDS_CD_RATING           "דירוג (סה""כ):"
+    IDS_CD_USCORE           "ניקוד תור העלאה:"
+    IDS_CD_TITLE            "פרטי קליינט"
+    IDS_EMULEW              "לחץ "
+    IDS_EMULEW2             "לבדוק אם קיימת גירסה חדשה של אימיול"
+    IDS_EMULEW3             "כאן"
+    IDS_PW_MAXSOURCES       "מקורות לקובץ"
+    IDS_SHAREDFILESCOUNT    "מספר קבצים משותפים: %u"
+    IDS_SF_SIZE             "סה""כ גודל קבצים משותפים: %s"
+    IDS_ERR_BADPORT         "פורט שגוי"
+    IDS_ERR_NOHELLO         "ביקש משהו בלי לומר 'שלום'"
+    IDS_ERR_INVALIDPACKET   "התקבלה חבילת מידע לא תקינה או פגומה"
+    IDS_ERR_CLIENTERROR     "הקליינט '%s' (איי פי:%s) גרם לשגיאה: %s. מתנתק מקליינט!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "שם משתמש:"
+    IDS_CD_UHASH            "האש:"
+    IDS_CD_CSOFT            "תוכנה"
+    IDS_CD_UIP              "כתובת איי פי:"
+    IDS_CD_SIP              "איי פי שרת:"
+    IDS_CD_VERSION          "גירסה:"
+    IDS_CD_SNAME            "שם השרת:"
+    IDS_CD_CDOWN            "כעת מוריד:"
+    IDS_CD_DOWN             "ירד (הפעלה נוכחית):"
+    IDS_CD_ADOWN            "ממוצע קצב הורדה:"
+    IDS_CD_TDOWN            "סה""כ ירד:"
+    IDS_CD_UP               "עלה (הפעלה נוכחית):"
+    IDS_CD_AUP              "ממוצע קצב העלאה:"
+    IDS_CD_TUP              "סה""כ עלה:"
+    IDS_CD_TRANS            "העברות"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_GENERAL          "כללי"
+    IDS_FD_MET              "קובץ met:"
+    IDS_FD_HASH             "האש:"
+    IDS_FD_SIZE             "גודל קובץ:"
+    IDS_FD_TRANSFER         "העבר"
+    IDS_FD_PARTS            "חלקים:"
+    IDS_FD_TRANS            "הועבר:"
+    IDS_FD_DATARATE         "קצב הורדה:"
+    IDS_FD_COMPSIZE         "גודל שהסתיים:"
+    IDS_FD_CLOSE            "סגור"
+    IDS_FD_TITLE            "פרטי קובץ"
+    IDS_CD_GENERAL          "כללי"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_FILES            "קבצים"
+    IDS_PW_SHARE            "רואים קבצים משותפים"
+    IDS_PW_EVER             "כולם"
+    IDS_PW_FRIENDS          "חברים"
+    IDS_PW_NOONE            "אף אחד"
+    IDS_PW_RESET            "נקה"
+    IDS_PW_APPLY            "החל"
+    IDS_EM_TRANS            "העברות"
+    IDS_EM_SERVER           "שרתים"
+    IDS_EM_SEARCH           "חיפוש"
+    IDS_EM_FILES            "משותף"
+    IDS_EM_MESSAGES         "הודעות"
+    IDS_EM_STATISTIC        "סטטיסטיקות"
+    IDS_EM_PREFS            "העדפות"
+    IDS_MB_LANGUAGEINFO     "שפת ברירת מחדל נבחרה. באפשרותך לשנות שפה בכל עת דרך חלון העדפות"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_RDEAD            "הסר שרתים מתים אחרי"
+    IDS_PW_RETRIES          "ניסיונות"
+    IDS_PW_SCORE            "השתמש במערכת עדיפויות"
+    IDS_PW_USC              "עדכן רשימת שרתים בהתחברות לשרת"
+    IDS_PW_UCC              "עדכן רשימת שרתים בהתחברות של קליינט"
+    IDS_PW_FILTER           "תמיד סנן שרתים עם איי פי שגוי"
+    IDS_PW_USS              "עדכן רשימת שרתים אוטומטית בעת הפעלה"
+    IDS_PW_MISC             "שונות"
+    IDS_PW_TRAY             "מזער למגש מערכת"
+    IDS_PW_PROMPT           "וודא יציאה"
+    IDS_PW_SPLASH           "הצג מסך פתיחה"
+    IDS_PW_DBLCLICK         "קליק כפול על הורדה להרחבה"
+    IDS_PW_TOOL             "עיכוב כלי מידע (בשניות)"
+    IDS_PW_FRONT            "הבא לקידמה בלחיצה על קישור"
+    IDS_PW_LANG             "שפה"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_DIR              "תיקיות"
+    IDS_PW_NICK             "כינוי"
+    IDS_PW_INCOMING         "קבצים שהתקבלו"
+    IDS_PW_TEMP             "קבצים זמניים"
+    IDS_PW_BROWSE           "עיון"
+    IDS_PW_SHARED           "תיקיות משותפות (החזק את מקש Ctrl לשתף גם תתי תיקיות)"
+    IDS_CONNECTION          "חיבור"
+    IDS_PW_DOWNL            "מגבלת הורדה"
+    IDS_PW_UPL              "מגבלת העלאה"
+    IDS_PW_MAXC             "מס' חיבורים"
+    IDS_PW_CLIENTPORT       "פורט קליינט"
+    IDS_PW_AUTOCON          "התחברות אוטומטית בהפעלה"
+    IDS_PW_RECON            "התחבר מחדש בהתנתקות"
+    IDS_PW_SERVER           "שרת"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TOTAL            "סה""כ"
+    IDS_SF_TRANS            "הועבר:"
+    IDS_SF_ACCEPTED         "העלאות שאושרו:"
+    IDS_SF_REQUESTED        "בקשות:"
+    IDS_ST_DOWNLOAD         "מהירות הורדה"
+    IDS_ST_UPLOAD           "מהירות העלאה"
+    IDS_ST_CURRENT          "נוכחי"
+    IDS_ST_SESSION          "ממוצע הפעלה"
+    IDS_ST_ACTIVED          "הורדות פעילות"
+    IDS_ST_ACTIVEU          "העלאות פעילות"
+    IDS_CW_MESSAGES         "הודעות"
+    IDS_CW_FRIENDS          "חברים"
+    IDS_CW_SEND             "שלח"
+    IDS_CW_CLOSE            "סגור"
+    IDS_PW_GENERAL          "כללי"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC                 "IRC"
+    IDS_SW_RESULT           "תוצאות חיפוש"
+    IDS_SW_DOWNLOAD         "הורדת מסומן"
+    IDS_SV_SERVERLIST       "רשימת שרתים"
+    IDS_SV_SERVERINFO       "מידע שרת"
+    IDS_SV_LOG              "יומן"
+    IDS_SV_NEWSERVER        "שרת חדש"
+    IDS_SV_ADDRESS          "כתובת/איי פי"
+
+    IDS_SV_ADD              "הוסף לרשימה"
+    IDS_SV_MET              "עדכן server.met מכתובת"
+    IDS_SV_UPDATE           "עדכן"
+    IDS_SF_FILES            "קבצים משותפים"
+    IDS_SF_STATISTICS       "סטטיסטיקות"
+    IDS_SF_RELOAD           "טען מחדש"
+    IDS_SF_CURRENT          "הפעלה נוכחית"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONNECTEDTO         "התבצעה התחברות ל: %s"
+    IDS_DL_PREVIEW          "תצוגה מקדימה"
+    IDS_VIEWQUEUE           "הצג תור"
+    IDS_TW_UPLOADS          "העלאות"
+    IDS_TW_DOWNLOADS        "הורדות"
+    IDS_TW_QUEUE            "קליינטים בתור:"
+    IDS_SW_SEARCHBOX        "חיפוש"
+    IDS_SW_NAME             "שם"
+    IDS_SW_GLOBAL           "חיפוש גלובלי"
+    IDS_SW_DIRECTDOWNLOAD   "הדבק קישורי ED2k"
+    IDS_SW_LINK             "קישורי ED2K"
+    IDS_SW_START            "התחל"
+    IDS_SCHEDULER           "תיזמון"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "ביקש בלוקים לא שלמים"
+    IDS_ERR_OPEN            "נכשל בפתיחת קובץ שנבחר"
+    IDS_ERR_CLIENTERRORED   "הקליינט '%s' גרם לשגיאה בעת יצירת חבילה (%s) - מתנתק מקליינט"
+    IDS_ERR_REQ_FNF         "לא נמצא הקובץ המבוקש"
+    IDS_DESC                "תיאור: %s"
+    IDS_PORT                "פורט"
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "לא נמצאו שרתים תקינים ברשימה שאליהם ניתן להתחבר"
+    IDS_CONNECTEDTOREQ      "מנסה להתחבר ל-%s (%s:%u), שולח בקשת התחברות"
+    IDS_ERR_FATAL           "שגיאה בעת ניסיון התחברות. יכול להיות כי ההתחברות לאינטרנט נפלה"
+    IDS_ERR_LOSTC           "אבד הקשר ל-%s (%s:%u)"
+    IDS_ERR_DEAD            "%s (%s:%u) מת"
+    IDS_ERR_FULL            "%s (%s:%u) מלא"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_METCORRUPT      "שגיאה: %s (%s) פגום, לא יכול לטעון את הקובץ"
+    IDS_ERR_FILEERROR       "שגיאה לא צפוייה בעת קריאת %s (%s): %s"
+    IDS_ERR_FILEOPEN        "נכשל בפתיחת %s (%s)"
+    IDS_SEL_SKINDIR         "בחר תיקיית סקינים..."
+    IDS_ERR_REHASH          "אזהרה: יכול להיות ש-%s פגום, מבצע האשינג על חלקים שהסתיימו"
+    IDS_SKIN_PROF           "פרופילי סקינים"
+    IDS_ERR_PART_FNF        "הקובץ .part לא נמצא"
+    IDS_KADOPEN             "פתוח"
+    IDS_ERR_SAVEMET         "שגיאה בעת שמירת חלק קובץ: %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "נמצא חלק פגום (%u) בקובץ %s"
+    IDS_HASHINGDONE         "סיים לבצע האשינג ב-%s, הקובץ נראה תקין"
+    IDS_ERR_PARTCORRUPT     "חלק שהורד %u פגום (%s) :("
+    IDS_ICHWORKED           "ICH: שוחזר חלק פגום %u  (%s), נשמר: %s"
+    IDS_ERR_OUTOFSPACE      "אין מספיק מקום בכונן להוריד את %s!"
+    IDS_SE                  "החלפת מקורות"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_WRITEERROR      "שגיאה לא צפוייה בעת כתיבה %s : %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "שגיאה לא צפוייה בעת השלמת %s. ההורדה הושהתה, אתחל את אימיול כדי לבצע ניסיון השלמה נוסף"
+    IDS_ERR_DELETEFAILED    "הכשל במחיקת %s, תצטרך לבצע את המחיקה ידנית"
+    IDS_DOWNLOADDONE        "סיים להוריד %s :-)"
+    IDS_ERR_DELETE          "נכשל במחיקת %s"
+    IDS_ERR_HASHERRORWARNING
+                            "אזהרה: לא יכול לבצע האשינג לחלק קובץ שהורד - סט האש לא שלם (%s)"
+    IDS_ERR_INCOMPLETEHASH  "שגיאה: לא יכול לבצע האשינג לחלק קובץ שהורד - סט האש לא שלם (%s). אסור שזה יקרה"
+    IDS_DOWNLOADING         "מוריד"
+    IDS_WAITING             "ממתין"
+    IDS_HASHING             "מבצע האשינג"
+    IDS_COMPLETING          "מבצע סיום"
+    IDS_COMPLETE            "הסתיים"
+    IDS_PAUSED              "מושהה"
+    IDS_ERRORLIKE           "שגיאה"
+    IDS_ASSIGNED2K          "אימיול לא מוגדר להפעיל קישורי ED2K. האם ברצונך לשייך את אימיול לקישורי ED2K? (מומלץ)"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "לא נמצאו כניסות רשימת שרתים בקובץ 'addresses.dat'. אנא הדבק לקובץ זה כתובת רשימת שרתים תקינה על מנת לעדכן אוטומטית את רשימת השרתים"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_SOCKETERROR    "שגיאה קריטית: לא יכול ליצור יציאה בפורט %u"
+    IDS_MAIN_BTN_DISCONNECT "התנתק"
+    IDS_ERR_WRONGFILEID     " נשלח מזהה קובץ שגוי"
+    IDS_ERR_BADHASHSET      "התקבל סט האש פגום או לא תקין"
+    IDS_ERR_BADDATABLOCK    "התקבל בלוק מידע פגום או לא תקין"
+    IDS_ERR_ILLFORMEDHASH   "האש לא תקין"
+    IDS_ERR_BADED2KLINK     "קישור ED2K בנוי בצורה לא נכונה"
+    IDS_ERR_NOSLLINK        "לא קישור ED2K של שרת או קובץ"
+    IDS_ERR_WRONGPACKETSIZE "גודל מנת OP_FILEREQUEST לא תקינה"
+    IDS_ERR_WRONGHPACKETSIZE "גודל מנת OP_HASHSETREQUEST לא תקינה"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "קליינטים לא ידועים שולחים מנת פרוטוקול מורחב"
+    IDS_ERR_OPENMET         "שגיאה: נכשל בעת פתיחת קובץ part.met! (%s => %s)"
+    IDS_ERR_BADMETVERSION   "שגיאה: גירסת קובץ לא תקינה ב-part.met! (%s => %s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "פג תוקף קובץ קרדיט והוא יוחלף"
+    IDS_CREDITFILELOADED    "קובץ קרדיט נטען, %u קליינטים ידועים"
+    IDS_CREDITFILECORRUPT   "שגיאה: פג תוקף קובץ קרדיט והוא יוחלף!"
+    IDS_ERR_CREDITFILEREAD  "שגיאה לא צפוייה בעת קריאת קובץ קרדיט: %s"
+    IDS_ERR_FAILED_CREDITSAVE "נכשל בשמירת קובץ קרדיט"
+    IDS_NOPARTSFOUND        "לא נמצאו חלקי קובץ"
+    IDS_FOUNDPARTS          "נמצאו %u חלקי קובץ"
+    IDS_NEWDOWNLOAD         "מוריד %s"
+    IDS_ERR_ALREADY_DOWNLOADING "אתה כבר מנסה להוריד את הקובץ %s"
+    IDS_ERR_ALREADY_DOWNLOADED "כבר יש לך את הקובץ %s"
+    IDS_ERR_SERVERMET_BAD   "שגיאה: הקובץ known.met פגום, לא יכול לטעון קבצים ידועים"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "שגיאה לא צפוייה בעת קריאת known.met: %s, לא יכול לטעון קבצים ידועים"
+    IDS_ERR_CONNECTIONERROR "שגיאה בעת התחברות ל-%s (%s:%u): %s"
+    IDS_ERR_SOCKET          "שגיאה ביציאת שרת: %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "נמצאו %u קבצים משותפים ידועים"
+    IDS_SHAREDFOUNDHASHING  "נמצאו %u קבצים משותפים ידועים, מבצע האשינג ל-%u קבצים חדשים"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "לא ידוע: %u"
+    IDS_STATS_TOTAL         "סה""כ: %u"
+    IDS_DISABLED            "מופסק"
+    IDS_STOPPED             "נעצר"
+    IDS_STATS_UPDATELABEL   "עיכוב עדכון: %u שניות"
+    IDS_ASKEDFAF            "\nביקש קובץ אחר"
+    IDS_WAITED              "חיכה"
+    IDS_ERR_LOADCREDITFILE  "נכשל בטעינת קובץ קרדיט, קובץ חדש יווצר"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FSTAT_TRANSFER      "העברה"
+    IDS_CONNECTIONS         "חיבור"
+    IDS_FSTAT_SERVERS       "שרתים"
+    IDS_FSTAT_WAITING       "ממתין..."
+    IDS_TIME                "זמן"
+    IDS_STATS_DDATA         "מידע שירד: %s"
+    IDS_STATS_UDATA         "מידע שעלה: %s"
+    IDS_STATS_AVGDL         "ממוצע קצב הורדה: %s ק""ב/שנייה"
+    IDS_STATS_AVGUL         "ממוצע קצב העלאה: %s ק""ב/שנייה"
+    IDS_STATS_FOUNDSRC      "מקורות שנמצאו: %u"
+    IDS_STATS_ACTDL         "הורדות פעילות (קטעים): %u"
+    IDS_STATS_ACTUL         "העלאות פעילות: %u"
+    IDS_STATS_WAITINGUSERS  "העלאות בהמתנה: %u"
+    IDS_STATS_RECONNECTS    "מתחבר מחדש: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET "נכשל בהורדת רשימת שרתים מ-%s"
+    IDS_PERMISSION          "הרשאה"
+    IDS_SHAREDFILES         "קבצים משותפים"
+    IDS_PRIOVERYLOW         "נמוכה מאוד"
+    IDS_PRIORELEASE         "שיחרור"
+    IDS_TRAYDLG_SPEED       "מהירות של אימיול"
+    IDS_FSTATUS_FRIENDSONLY "חברים בלבד"
+    IDS_VIAPASSIVE          "דרך פאסיבית"
+    IDS_ERR_RENAMESF        "נכשל בשינוי שם\r\n    ""%s""\r\nל-\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "זמין"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "תמונות"
+    IDS_SEARCH_PRG          "תוכנות"
+    IDS_SEARCH_VIDEO        "וידאו"
+    IDS_SEARCH_CDIMG        "קבצי דיסק"
+    IDS_SEARCH_ARC          "ארכיונים"
+    IDS_ERR_INVALIDLINK     "הקישור (%s) אינו קישור תקין"
+    IDS_ERR_LINKERROR       "קישור לא תקין: %s"
+    IDS_ERR_NOTCONNECTED    "אינך מחובר לשרת!"
+    IDS_REMOVETHIS          "הסר שרת שנבחר"
+    IDS_REMOVEALL           "הסר את כל השרתים"
+    IDS_SRV_ADDR            "הכנס בבקשה כתובת שרת"
+    IDS_SRV_PORT            "פורט שרת לא שלם: הכנס בבקשה פורט שרת"
+    IDS_SRV_NOTADDED        "השרת לא נוסף!"
+    IDS_SRV_NOURLAV         "אין כתובת זמינה"
+    IDS_INVALIDURL          "כתובת שגוייה"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ONQUEUE             "בתור"
+    IDS_TRANSFERRING        "מעביר"
+    IDS_RECHASHSET          "מקבל סט האש"
+    IDS_NONEEDEDPARTS       "אין חלקים רצויים"
+    IDS_NOCONNECTLOW2LOW    "לא יכול לחבר מזהה נמוך עם מזהה נמוך"
+    IDS_UNKNOWN             "לא ידוע"
+    IDS_ASKED4ANOTHERFILE   "התבקש קובץ אחר"
+    IDS_Q_CANCELDL          "האם אתה בטוח שברצונך לבטל ולמחוק את הקבצים הבאים?\n"
+    IDS_Q_CANCELDL2         "האם אתה בטוח שברצונך לבטל ולמחוק את הקובץ הבא?\n"
+    IDS_DL_FILENAME         "שם הקובץ"
+    IDS_DL_SIZE             "גודל"
+    IDS_DL_TRANSF           "הועבר"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_SPEED            "מהירות"
+    IDS_DL_PROGRESS         "התקדמות"
+    IDS_DL_SOURCES          "מקורות"
+    IDS_ERR_BADSERVERLISTRECEIVED "איחזור שגוי לחבילת מידע של רשימת שרתים"
+    IDS_STATUS              "מצב"
+    IDS_DL_REMAINS          "נותר"
+    IDS_UPDATEFROM          "עדכן מכתובת URL: (filter.dat- או PeerGuardian-פורמט)"
+    IDS_QL_USERNAME         "שם משתמש"
+    IDS_LOADURL             "טען"
+    IDS_DELETEAFTERALLOC    "הקובץ '%s' מוקצה כרגע בכונן הקשיח והוא ימחק בסיום ההקצאה"
+    IDS_QL_RATING           "דירוג"
+    IDS_CONNECTINGTO        "מתחבר ל-%s (%s:%u)..."
+    IDS_CLIENTS             "קליינטים"
+    IDS_SEARCH_ANY          "הכל"
+    IDS_SEARCH_AUDIO        "אודיו"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOHIGH            "גבוהה"
+    IDS_DOWNLOADMENUTITLE   "הורדות"
+    IDS_PRIORITY            "עדיפות"
+    IDS_NEWSERVERS          "התקבלו %u שרתים חדשים"
+    IDS_DL_STOP             "עצור"
+    IDS_DL_PAUSE            "השהה"
+    IDS_DL_RESUME           "המשך"
+    IDS_DL_OPEN             "פתח קובץ"
+    IDS_DL_INFO             "הצג פרטי קובץ"
+    IDS_DL_CLEAR            "נקה שהסתיימו"
+    IDS_DL_LINK1            "העתק קישור ED2K לקליפבורד"
+    IDS_DL_LINK2            "העתק קישור ED2K לקליפבורד (HTML)"
+    IDS_SHOWDETAILS         "הצג פרטים"
+    IDS_SEND_MSG            "שלח הודעה"
+    IDS_ASKING              "שואל"
+    IDS_CONNVIASERVER       "מתחבר דרך שרת"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LINKNOTADDED        "לא יכל להוסיף קישור"
+    IDS_MAIN_EXIT           "האם אתה בטוח שברצונך לצאת מאימיול?"
+    IDS_MAIN_POPUP_RESTORE  "שחזר"
+    IDS_CONNECTTOANYSERVER  "התחבר לשרת זמין"
+    IDS_EXIT                "יציאה"
+    IDS_CONNECTING          "מתחבר"
+    IDS_FAILED              "נכשל"
+    IDS_ERR_BADSERVERREPLY  "התקבלה תשובת התחברות פגומה או לא תקינה מהשרת"
+    IDS_NEWCLIENTID         "מזהה קליינט חדש %u"
+    IDS_SHAREDFOLDERS       "תיקיות משותפות"
+    IDS_VIEW1               "צפה "
+    IDS_VIEW2               " (לא משותף)"
+    IDS_PRIOLOW             "נמוכה"
+    IDS_PRIONORMAL          "רגילה"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IP                  "איי פי"
+    IDS_DESCRIPTION         "תיאור"
+    IDS_PING                "פינג"
+    IDS_FILES               "קבצים"
+    IDS_PREFERENCE          "עדיפות"
+    IDS_PRIONOPREF          "ללא עדיפות"
+    IDS_CONNECTTHIS         "התחבר לשרת שנבחר"
+    IDS_MAIN_BTN_CONNECT    "התחבר"
+    IDS_ERR_SAVESERVERMET2  "נכשל בשמירת server.met! יש צורך למחוק את הקובץ, ולשנות את .old מהקובץ server.met.old!"
+    IDS_NOTCONNECTED        "לא מחובר"
+    IDS_DISCONNECTED        "מנותק"
+    IDS_USERS               "משתמש: %u"
+    IDS_UPDOWN              "עולה: %.1f(%.1f) | יורד: %.1f(%.1f)"
+    IDS_CONNECTED           "מחובר"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION "גירסת תג לא תקינה בקובץ server.met (0x%X)!"
+    IDS_SERVERSFOUND        "נמצאו %u שרתים בקובץ server.met"
+    IDS_SERVERSADDED        "%u שרתים שנוספו, %u לא נוספו לרשימה (קיימים/לא תקינים)"
+    IDS_ERR_BADSERVERLIST   "שגיאה: הקובץ server.met פגום, לא יכול לטעון רשימת שרתים"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "שגיאה לא צפוייה בעת קריאת הקובץ server.met: %s לא יכול לטעון רשימת שרתים"
+    IDS_ERR_SAVESERVERMET   "נכשל בשמירת server.met!"
+    IDS_PASSIVE             "פסיבי"
+    IDS_MAIN_BTN_CANCEL     "ביטול"
+    IDS_AVAIL               "חלקים: %u , חלקים זמינים: %u (%.1f%%)\n\n"
+    IDS_TYPE                "סוג"
+    IDS_FILEID              "מזהה קובץ"
+    IDS_FILE                "קובץ"
+    IDS_DOWNLOAD            "הורדה"
+    IDS_SL_SERVERNAME       "שם השרת"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTP_CAPTION        "מעדכן רשימת שרתים"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s הועתקו)"
+    IDS_HSAV                "סט האשים זמין"
+    IDS_FD_CORR             "נפגם"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "הקובץ '%s' כבר קיים.\nהאם ברצונך להחליפו?"
+    IDS_FD_RECOV            "שוחזר"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "התרחשה שגיאה בעת ניסיון לפתוח את הקובץ העומד לרדת, שגיאה: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "מבטל העברה"
+    IDS_FD_COMPR            "כיווץ"
+    IDS_WIZARD_NETWORK      "בחר אילו רשתות ברצונך להשתמש."
+    IDS_MAIN_READY          "אימיול %s מוכן"
+    IDS_WIZARD_ED2K         "ED2k הגדרות"
+    IDS_SEL_SKIN            "בחר סקין..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "משיג מידע לקובץ"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR
+                            "שגיאה בעת ניסיון להוריד את הקובץ, שגיאה: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER "שגיאה בהתקשרות לשרת, שגיאה: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE "נכשל בקבלת תגובה תקינה מהשרת"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE "נכשל בקבלת תגובת HTTP תקינה מהשרת"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE "שגיאה בעת הורדת הקובץ, שגיאה: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "מעדכן רשימת שרתים: %s%% מתוך %s הושלמו"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "משיג את הקובץ"
+    IDS_HTTPDOWNLOAD_OF     "%s מ-%s"
+    IDS_CANCEL              "ביטול"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "שגיאה באתחול windows sockets."
+    IDS_ABOUTBOX            "על אימיול"
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s מתוך %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "מחובר ל-%s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "מפענח שם: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "שם פוענח ל-%s"
+    IDS_HTTPDOWNLOAD_CONNECTING "מתחבר ל-%s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "מעביר ל-%s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ULSES         "מס' העלאות בהפעלה נוכחית"
+    IDS_STATS_GAINCOMP      "התקבל בכיווץ: %s"
+    IDS_STATS_LOSTCORRUPT   "אבד לפגימות: %s"
+    IDS_STATS_AVGDATAULSES  "ממוצע גודל העלאה בהפעלה נוכחית"
+    IDS_STATS_ICHSAVED      "חלקים שנשמרו בזכות I.C.H: %u"
+    IDS_STATS_MBRESET_TXT   "האם אתה בטוח שברצונך לנקות את הסטטיסטיקות הכלליות?\n\nאם תשנה דעתך, תוכל להפוך את הפעולה ע""י לחיצה על כפתור 'שחזר סטטיסטיקות'."
+    IDS_STATS_MBRESTORE_TXT "האם אתה בטוח שברצונך לשחזר את הסטטיסטיקות הכלליות מקובץ הגיבוי?\n\nלחיצה נוספת על 'שחזר סטטיסטיקות' תטען את הסטטיסטיקות הנוכחיות שלך."
+    IDS_ERR_NOSTATBKUP      "שגיאה: קובץ גיבוי הסטטיסטיקות לא נמצא..."
+    IDS_STATS_NFOLOADEDBKUP "הוטען גיבוי המידע הסטטיסטי..."
+    IDS_STATS_NFORESET      "הסטטיסטיקות נוקו!"
+    IDS_STATS_BNRESET       "נקה סטטיסטיקות"
+    IDS_STATS_BNRESTORE     "שחזר סטטיסטיקות"
+    IDS_PPGSTATS_YSCALE     "סקאלת ציר-Y בסטטיסטיקת התחברויות:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "יחס חיבורים פעילים:"
+    IDS_STATS_PROBLEMATIC   "בעייתי"
+    IDS_LONGHRS             "שעות"
+    IDS_STATS_LARGESTFILE   "קובץ משותף הגדול ביותר"
+    IDS_SPLIT_WINDOW        "פצל חלון"
+    IDS_STATS_DSPF          "חלק קובץ"
+    IDS_STATS_DATASOURCE    "מקור מידע"
+    IDS_STATS_DSFILE        "קובץ שלם"
+    IDS_STATS_GENERAL       "כללי"
+    IDS_STATS_TRANSTIME     "זמן העברה"
+    IDS_STATS_DOWNTIME      "זמן הורדה"
+    IDS_STATS_UPTIME        "זמן העלאה"
+    IDS_STATS_TOTALSRVDUR   "סה""כ משך חיבור לשרת"
+    IDS_STATS_MAXAVGUL      "קצב העלאה ממוצע מקסימלי"
+    IDS_STATS_MAXUL         "קצב העלאה מקסימלי"
+    IDS_STATS_AVGDLTIME     "זמן הורדה ממוצע"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_PRTDEF        "ברירת מחדל"
+    IDS_STATS_PRTOTHER      "אחר"
+    IDS_STATS_MNUTREETITLE  "עץ סטטיסטיקות"
+    IDS_STATS_MNUTREECPYSEL "העתק ענף נבחר"
+    IDS_STATS_MNUTREECPYALL "העתק הכל"
+    IDS_STATS_MNUTREEHTML   "HTML מאפייני"
+    IDS_STATS_EXPORT2HTML   "יצא הכל"
+    IDS_STATS_MNUTREECPYVIS "העתק את כל הנראים"
+    IDS_STATS_MNUTREEEXPANDALL "הרחב הכל"
+    IDS_STATS_MNUTREECOLLAPSEALL "סגור הכל"
+    IDS_STATS_MNUTREEEXPANDMAIN "הרחב חלקים ראשיים"
+    IDS_STATS_LASTRESETSTATIC "ניקוי אחרון של סטטיסטיקות: %s"
+    IDS_STATS_MONTHLY       "חודשי"
+    IDS_STATS_YEARLY        "שנתי"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_TIMESTATS     "סטטיסטיקות זמן"
+    IDS_STATS_AVGANDPROJ    "ממוצעים משוערים"
+    IDS_STATS_TIMESINCERESET "זמן מאז ניקוי אחרון: %s"
+    IDS_CRYPT_INITFAILED    "נכשל באיתחול של cryptokeys - זיהוי מאובטח מופסק"
+    IDS_CD_IDENT            "זיהוי:"
+    IDS_IDENTOK             "מוצלח"
+    IDS_IDENTFAILED         "לא תקין"
+    IDS_IDENTNOSUPPORT      "לא נתמך או מופסק"
+    IDS_COMMITFILES         "כתיבת קובץ .met/.dat בטוחה"
+    IDS_ERR_BADUNC          "שם UNC לא תקין"
+    IDS_NEVER               "אף פעם"
+    IDS_ALWAYS              "תמיד"
+    IDS_ONSHUTDOWN          "בעת סגירה"
+    IDS_UNCFOLDERS          "UNC תיקיות"
+    IDS_USESECIDENT         "השתמש בזיהוי מאובטח"
+    IDS_ADVSPAMFILTER       "סינון ספאם מתקדם"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CUT                 "גזור"
+    IDS_STATS_SECUREIDENT   "זיהוי מאובטח (מוצלח : נכשל )"
+    IDS_ONDISK              "גודל בדיסק: "
+    IDS_CLIENTCOL           "אזהרה: נמצא קליינט תואם לקליינט שכרגע מחובר: %s (%s) ו-%s (%s)"
+    IDS_SEARCH_UNTERMSTRING "מחרוזת ללא סיום"
+    IDS_SEARCH_GENERALERROR "שגיאה כללית"
+    IDS_SEARCH_MISSINGORRIGHT "חסר צד ימני לאופרטור OR"
+    IDS_SEARCH_MISSINGNOTRIGHT "חבר צד ימני לאופרטור NOT"
+    IDS_SEARCH_MISSINGEXPRPARANT "חסר ביטוי ל '(' ')'"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "חסר סגירה של ')'"
+    IDS_SEARCH_EXPRERROR    "נכשל בניתוח תחביר של ביטוי חיפוש"
+    IDS_SEARCH_TOOCOMPLEX   "הביטוי מורכב מדיי"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSION             "גירסה"
+    IDS_PASTE               "הדבק"
+    IDS_A4AF                "טיפול במקורות"
+    IDS_AUTOCAT_LABEL       "הצב אוטומטית בקטגוריה (תבנית, מופרד ע""י |)"
+    IDS_SHOWEXTSETTINGS     "הצג פקדים נוספים (מצב פקדים מתקדם)"
+    IDS_TREEOPTIONS_TRUE    "אמת"
+    IDS_TREEOPTIONS_FALSE   "שקר"
+    IDS_TREEOPTIONS_OK      "אישור"
+    IDS_HYPERTEXT_FONT_HINT "גופן לחלונות שרתים, הודעות ו-IRC"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SELECT_FONT         "בחר גופן"
+    IDS_SERVER_LIMITS       "מגבלת תוכנה/חומרה"
+    IDS_KBITSSEC            "קסל""ש"
+    IDS_KBYTESSEC           "ק""ב/שנייה"
+    IDS_ERR_CREATE_DIR      "נכשל ביצירת %s תיקייה ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "תיקיית שהתקבלו חייבת להיות שונה מתיקיית ההתקנה של אימיול."
+    IDS_WRN_TEMPFILES_RESERVED
+                            "תיקיית הזמניים חייבת להיות שונה מתיקיית ההתקנה של אימיול."
+    IDS_WRN_INCTEMP_SAME    "אסור לתיקיית שהתקבלו ולתיקייה הזמנית להיות זהים."
+    IDS_SHOWDWLPERCENTAGE   "הצג הושלם באחוזים (להורדות) בבר ההתקדמות"
+    IDS_TBN_ONNEWDOWNLOAD   "הורדה נוספה"
+    IDS_ARTIST              "אמן"
+    IDS_ALBUM               "אלבום"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UPLOADREQ        "מס' העלאות שהתבקשו:"
+    IDS_SETTINGCHANGED_RESTART
+                            "יש לאתחל את אימיול כדי שהשינויים יכנסו לתוקפם!"
+    IDS_CREDITSEXPIRED      ", %u קליינטים נמחקו (לא נראו במשך 5 חודשים)"
+    IDS_SOURCESINFO         "מקורות: %u  (שימושיים: %u, ללא חלקים נחוצים: %u, A4AF: %u)"
+    IDS_META_DATA           "מידע מטה"
+    IDS_TIMEBEFORE          "(%s לפני)"
+    IDS_FD_TIMEDATE         "תאריכים"
+    IDS_FILEINFORMATION     "מידע קובץ"
+    IDS_STATS_FREESPACE     "מקום פנוי"
+    IDS_IRC_HELPCHANNEL     "התחבר לערוצי עזרה"
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-hebrew"
+    IDS_IRC_ACCEPTLINKSFRIENDS "מחברים בלבד."
+    IDS_COMPLSOURCES        "מקורות שלמים"
+    IDS_CHECKNOENDTIME      "ללא זמן סיום"
+    IDS_FD_DOWNLOADSTARTED  "הורדה נוספה:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FAILEDREOPEN        "שגיאה קריטית: נכשל בפתיחה מחודשת של חלק קובץ '%s' (%s)!"
+    IDS_ERR_PREVIEWALREADY  "כבר הוצמדה בקשה לתצוגה מקדימה מקליינט זה"
+    IDS_ERR_PREVIEWFAILED   "תצוגה מקדימה מהמשתמש '%s' נכשלה"
+    IDS_DWTOT               "מקום בכונן"
+    IDS_DWTOT_NR            "מס' הורדות: %u"
+    IDS_DWTOT_TSD           "סה""כ גודל ההורדות: %s"
+    IDS_DWTOT_TCS           "סה""כ גודל שהושלם: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "סה""כ גודל שנותר להעביר: %s"
+    IDS_DWTOT_TSN           "סה""כ מקום פנוי שנדרש להורדות: %s"
+    IDS_DWTOT_FS            "מקום פנוי בכונן של תיקיית זמניים: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (צריך לשחרר %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT "זמן רענון של חיבור לשרת [בדקות]"
+    IDS_MORE                "עוד"
+    IDS_TOOLS               "כלים"
+    IDS_SEARCHPARAMS        "פרמטרים לחיפוש"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u מבצע האשינג)"
+    IDS_CHECKDISKSPACE      "בדוק מקום בכונן"
+    IDS_YOURHOSTNAME        "שם מארח עבור קישורי ED2k"
+    IDS_INSUFFICIENT        "המקום בדיסק לא מספיק"
+    IDS_MINFREEDISKSPACE    "מקום מינימלי חופשי בכונן [מ""ב]"
+    IDS_WARNING             "אזהרה"
+    IDS_IMPORTSPLPF         "ייבא חלקי קובץ (אימיול, אידונקי, אובר-נט)"
+    IDS_IMP_STEPREADPF      "קורא תיקיית חלק"
+    IDS_IMP_STEPBASICINF    "מייבא מידע בסיסי מחלק קובץ"
+    IDS_IMP_STEPCRDESTFILE  "יוצר חלק קובץ מיועד"
+    IDS_IMP_LOADDATA        "טוען מידע מחלק קובץ ישן (%u מתוך %u)"
+    IDS_IMP_SAVEDATA        "שומר בלוק מידע לחלק קובץ יחיד חדש (%u מ-%u)"
+    IDS_IMP_IOERROR         "שגיאת קובץ בעת המרת חלק קובץ"
+    IDS_IMP_GETPFINFO       "מייבא מידע מקור חלק קובץ"
+    IDS_IMP_ADDDWL          "מוסיף הורדה ושומר חלק קובץ חדש"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_FETCHSTATUS     "מייבא מצב..."
+    IDS_IMP_INPROGR         "מבצע"
+    IDS_IMP_ERR_DISKSP      "שגיאה: נגמר המקום בכונן הקשיח"
+    IDS_IMP_ERR_PARTMETIO   "שגיאה: חלק קובץ לא נמצא"
+    IDS_IMP_ERR_IO          "שגיאה: שגיאת קלט-פלט!"
+    IDS_IMP_ERR_FAILED      "שגיאה: נכשל!"
+    IDS_IMP_STATUSQUEUED    "בתור"
+    IDS_IMP_ALRDWL          "כבר מוריד"
+    IDS_IMP_ADDBTN          "הוסף לייבוא"
+    IDS_IMP_RETRYBTN        "נסה מחדש שנבחרו"
+    IDS_IMP_REMOVEBTN       "הסר שנבחרו"
+    IDS_IMP_SELFOLDER       "נא לבחור תיקיית חלקי קובץ אחת או את תיקיית הזמניים השינה שלך עם כל תתי-תיקיות חלקי קובץ!"
+    IDS_IMP_DELSRC          "האם ברצונך למחוק את קבצי המקור של חלקי קובץ שהייבוא הצליח עבורם?"
+    IDS_IMP_SIZE            "%s (דיסק: %s)"
+    IDS_IMP_STATUS          "מייבא %s: %s"
+    IDS_DYNUPENABLED        "מצא גבול קצב העלאה אוטומטית"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "סיבולת פינג (אחזור של הפינג הנמוך ביותר)"
+    IDS_DYNUP_GOINGUPDIVIDER "Going up slowness"//!
+    IDS_DYNUP_GOINGDOWNDIVIDER "Going down slowness"//!
+    IDS_DYNUP_NUMBEROFPINGS "מספר מקסימלי של פינגים לממוצע"
+    IDS_DYNUP_MINUPLOAD     "מהירות העלאה מינימלית המותרת"
+    IDS_ESTTIMELEFT         "זמן משוער שנותר:"
+    IDS_TRANSFER_RATE_LABEL "קצב העברה:"
+    IDS_SAVELOG             "שמור יומן"
+    IDS_CMT_COPYCLIPBOARD   "העתק הערה לקליפבורד"
+    IDS_ASKDOWNLOADLANG     "השפה שבחרת אינה מותקנת במחשבך. האם ברצונך להוריד אותה מ-emule-project.net?"
+    IDS_ASKDOWNLOADLANGCAP  "הורד קבצי שפה"
+    IDS_DELETESELECTED      "מחק"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "נכשל בהורדה והתקנה של השפה שנבחרה מ-%s!"
+    IDS_ERR_BADFOLDER       "תיקייה לא תקינה.\nלא ניתן ליצור תיקייה. נא לבדוק שם ומיקום."
+    IDS_AUTOREMOVEFD        "נקה אוטומטית הורדות שהסתיימו"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_NODE            "חיפוש איש קשר"
+    IDS_KAD_STOREFILE       "שמירת קובץ"
+    IDS_KAD_STOREKW         "שמירת מילת מפתח"
+    IDS_KAD_UNKNOWN         "לא ידוע"
+    IDS_SRV_TCPCOMPR        "TCP כיווץ"
+    IDS_KADSEARCHLAB        "חיפושים נוכחיים"
+    IDS_SRV_UDPSR           "פרוטוקול UDP מורחב לבקשות מקורות"
+    IDS_SRV_UDPFR           "פרוטוקול UDP מורחב לבקשות קבצים"
+    IDS_MINLENGTH           "אורך מינימלי [hh:mm:ss]"
+    IDS_EM_HELP             "עזרה"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "חבר לא נוסף.\r\n\r\nכבר קיים חבר עם כתובת איי פי ופורט דומים."
+    IDS_DYNUP               "Upload SpeedSense"//!
+    IDS_KADOVERHEAD         "תקורת רשת קדמליה (מנות): %s (%s)"
+    IDS_FIND                "חפש..."
+    IDS_LOG_BANNED_CLIENTS  "שמור יומן קליינטים מוחרמים"
+    IDS_LOG_RATING_RECV     "שמור יומן דירוגי ותיאורי קובץ שהתקבלו"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "מקליינטים ידועים"
+    IDS_KADUDPPORTERR       "פורט UDP של קדמליה מתנגש עם פורט UDP מורחב של אימיול או פורט UDP של שרת אימיול. הפורט שונה ל-%u."
+    IDS_CONFIRM_FILEDELETE  "האם אתה בטוח שברצונך למחוק את כל הקבצים הנבחרים מהכונן?"
+    IDS_OPENFOLDER          "פתח תיקייה"
+    IDS_RUNASUSER           "הפעל את אימיול כמשתמש ללא הרשאות"
+    IDS_DELETE              "מחק מהדיסק"
+    IDS_BOOTSTRAP           "התחבר"
+    IDS_VIAED2KSQ           "באמצעות שרת ED2K/תור"
+    IDS_EM_KADEMLIA         "קדמליה"
+    IDS_VIAKAD              "באמצעות קדמליה"
+    IDS_VIASE               "באמצעות החלפת מקורות"
+    IDS_SELECTTOOLBARBITMAP "בחר קובץ תמונה לסרגל כלים"
+    IDS_SELECTTOOLBARBITMAPDIR "בחר תיקייה לתמונות סרגל כלים"
+    IDS_TOOLBARSKINS        "סקינים לסרגל כלים"
+    IDS_NOTEXTLABELS        "ללא תוויות טקסט"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "מימין לסמל"
+    IDS_TEXTLABELS          "תוויות טקסט"
+    IDS_ENABLETEXTLABELS    "מתחת לסמל"
+    IDS_CUSTOMIZETOOLBAR    "התאם אישית את סרגל הכלים"
+    IDS_MINBITRATE          "קצב סיביות מינימלי [ב-קסל""ש]"
+    IDS_KAD_RECHECKFW       "בדוק חומת אש מחדש"
+    IDS_SHAREDTITLE         "משותף שרת|קדמליה"
+    IDS_FIREWALLED          "מאחורי חומת אש"
+    IDS_KADEMLIA            "קדמליה"
+    IDS_KADCONTACTLAB       "אנשי קשר"
+    IDS_KADDISTANCE         "מרחק"
+    IDS_KEY                 "מפתח"
+    IDS_NUMBER              "מספר"
+    IDS_KAD_SEARCHSRC       "חיפוש מקורות"
+    IDS_KAD_SEARCHKW        "חיפוש מילות מפתח"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_SECURE_IDENT    "שמור יומן זהות מאובטחת"
+    IDS_LOG_FILTERED_IPS    "שמור יומן למס' איי פי שסוננו או שאימיול התעלם מהם"
+    IDS_LOG_FILE_SAVING     "שמור יומן פעולות קובץ שנשמרו"
+    IDS_DELETEIPFILTERS     "האם אתה בטוח שברצונך למחוק את כל מסנני האיי פי שנבחרו?"
+    IDS_TOTAL_IPFILTER_LABEL "סה""כ מס' איי פי מסוננים:"
+    IDS_TOTAL_IPS_LABEL     "סה""כ מס' איי פי:"
+    IDS_RAU_WARNING         "אפשרות זו מוסיפה לאימיול הגנה נגד התקפות ופירצות ואנו מעודדים את השימוש באפשרות זו.\nאבל מומלץ מאוד לקרוא את ההוראות לפני ההפעלה!\n\nהשינויים יכנסו לתוקף אחרי הפעלה מחדש של אימיול."
+    IDS_APPEND              "צרף..."
+    IDS_SAVE                "שמור"
+    IDS_IP_START            "התחלה"
+    IDS_IP_END              "סוף"
+    IDS_IP_LEVEL            "רמה"
+    IDS_IP_DESC             "תיאור"
+    IDS_IP_HITS             "כניסות"
+    IDS_IP_RULES            "מסנני איי פי:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "אינך מחובר כרגע לרשת קדמליה!"
+    IDS_IRC_NOSFS           "לא נבחרו קבצים משותפים"
+    IDS_RESETLABEL          "השלמה אוטומטית (היסטוריה)"
+    IDS_IRC_IGNOREMISCMESSAGE "התעלם מהודעות מידע כלליות"
+    IDS_KNOWN               "ידוע"
+    IDS_RAU_RUNNING         "אימיול רץ כמשתמש ללא הרשאות ""%s"""
+    IDS_RAU_FAILED          "נכשל בהפעלת אימיול כמשתמש ללא הרשאות ""eMule_Secure"". שומר את ההרשאות של משתמש נוכחי (""%s"")."
+    IDS_KADCONTACTSREAD     "נקראו %u אנשי קשר מקובץ."
+    IDS_ERR_KADCONTACTS     "לא נמצאו אנשי קשר, אנא התחבר, או הורד קובץ nodes.dat."
+    IDS_METATAGS            "מספר תגי מטה:"
+    IDS_FILEFORMAT          "פורמט קובץ"
+    IDS_UDPREASKS           "בקשת UDP חוזרת לקובץ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE_MS 			"סיבולת פינג (מילישניות)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER 	"שיטת סיבולת פינג"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS 		"מילישניות"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT 	"אחוז (%)"
+    IDS_LOG_A4AF            "שמור יומן עבור פעולות A4AF"
+    IDS_A4AF_SAVE_CPU       "בטל בדיקות A4AF לחיסכון במעבד"
+    IDS_SEARCH_DOC          "מסמכים"
+    IDS_DOWNLOAD_ALPHABETICAL "הורד בסדר אלפבתי"
+    IDS_INSTALL_SKIN        "התקן סקין של אימיול"
+    IDS_INSTALL_SKIN_NODIR  "לא נבחרה תיקייה עבור פרופיל סקין או שהגישה לתיקייה חסומה!"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "נכשל ביצירת תיקייה ""%s"" עבור סקין של אימיול - %s"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "נכשל בהרחבת הקובץ ""%s"" עבור סקין של אימיול לקובץ מקומי ""%s"" - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "זוהי אינה חבילה תקינה של סקין לאימיול."
+    IDS_NEXT_REASK          "בקשה הבאה מקליינט זה"
+    IDS_A4AF_FILES          "A4AF קבצי"
+    IDS_STATS_FRATIO        "יחס הפעלה נוכחית UL:DL (ללא העלאה לחברים):"
+    IDS_STATS_UDATA_FRIENDS "מידע שהועלה לסלוטי חברים (הפעלה נוכחית): %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FO_PREF_EXISTED     "אימיול איתר חוקים קיימים לפורטים שנבחרו, שלא הוחלפו או נכתב עליהם. חוקים חסרים נוספו בהצלחה.\nלידיעתך, חומת אש ונתבים של צד שלישי לא מושפעים מפעולה זו!"
+    IDS_FO_PREF_FAILED      "נכשל בהגדרת חומת האש הפנימית של WinXP לפורטים שנבחרו!"
+    IDS_FO_PREF_STARTUP     "פתח/סגור פורטים בחומת האש הפנימית של WinXP בעת הפעלה/סגירה של אימיול"
+    IDS_LOG_LEVEL           "רמת יומן"
+    IDS_FO_TEMPTCP_S        "נפתח הפורט %u (TCP) בחומת האש הפנימית של WinXP עבור ההפעלה הנוכחית של אימיול"
+    IDS_FO_TEMPTCP_F        "נכשל בפתיחת פורט %u (TCP) בחומת האש הפנימית של WinXP עבור ההפעלה הנוכחית של אימיול"
+    IDS_FO_TEMPUDP_S        "נפתח הפורט %u (UDP) בחומת האש הפנימית של WinXP עבור ההפעלה הנוכחית של אימיול"
+    IDS_FO_TEMPUDP_F        "נכשל בפתיחת פורט %u (UDP) בחומת האש הפנימית של WinXP עבור ההפעלה הנוכחית של אימיול"
+    IDS_FO_PREFBUTTON       "פתח פורטים אלה בחומת האש הפנימית של WinXP"
+    IDS_FO_PREF_SUCCCEEDED  "פתיחת הפורטים שנבחרו בוצעה בהצלחה בחומת האש הפנימית של WinXP.\nלידיעתך, חומות אש ונתבים של צד שלישי לא מושפעים מפעולה זו!"
+    IDS_SOURCESWAPBLOCKED   "החלף חסום"
+    IDS_A4AF_CHECK_THIS_NOW "בדוק מקור זה עכשיו (דיבוג)"
+    IDS_NEWMSG              "הודעה חדשה מ-'%s' (איי פי:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "רק מאותה קטגוריה"
+    IDS_LOG_ULDL_EVENTS     "שמור ביומן אירועי העלאה/הורדה"
+    IDS_PEERCACHE_ENABLED   "ספק האינטרנט שלך תומך בטכנולוגיית PeerCache, מפעיל הורדות מטמון!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "אפשר למשתמש להוסיף אותך כחבר"
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "הורד ראשונים חלקים המשמשים לתצוגה מקדימה"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "פורמט חלק קובץ פגום או לא ידוע."
+    IDS_SEARCH_INVALIDCHAR  "מחרוזת חיפוש מכילה תווים לא תקינים. או שהכנסת תו '?' או שהכנסת תווים שאינם נתמכים ע""י רשת זו."
+    IDS_PORTSCON            "פורטים וחיבור"
+    IDS_PORTINFO            "אימיול משתמש ב-2 פורטים לתקשורת עם שרתים וקליינטים. פורטים אלה חייבים להיות פתוחים וזמינים לקליינטים מרוחקים. פורט ה-TCP חייב להיות זמין לפעילות הראשית של אימיול. פורט ה-UDP משמש את קדמליה (רשת ללא שרתים) והפחתת העומס על הרשת (תקורה)\n\nאתה יכול לשנות פורטים אלו כאן בזמן שלא הופעלו פעילויות רשת."
+    IDS_STARTTEST           "בדוק פורטים"
+    IDS_TESTINFO            "כאן אתה יכול לבדוק אם הפורטים TCP ו-UDP שלך מאפשרים התחברות מרחוק. הצלחת הבדיקה הכרחית להתחברות שרתים וקליינטים אלייך. בדיקת הפורט TCP חייבת להצליח!"
+    IDS_CONNECTIONTEST      "בדיקת חיבור"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "שינוי הפורטים אינו אפשרי אחרי התחברות לקליינטים או אחרי התחברות !\n\nאנא אתחל את אימיול עם הגדרת הפורטים החדשה."
+    IDS_NETWORK_INFO        "מידע רשת"
+    IDS_SP_TOTALUL          "סה""כ מס' העלאות"
+    IDS_SP_ULFRIENDS        "סלוטי העלאות לחברים"
+    IDS_SP_ULSLOTSNOOVERHEAD "העלאה נוכחית ללא תקורה (סלוטי העלאה בלבד)"
+    IDS_ST_ACTIVEU_ZZ       "העלאות פעילות"
+    IDS_ST_ULCURRENT        "העלאה+תקורה"
+    IDS_ST_ULSLOTSNOOVERHEAD "העלאה"
+    IDS_ST_ULFRIEND         "העלאה לחבר"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "העלאות פעילות/דרושות למלא את רוחב הפס: %u"
+    IDS_STATS_TOTALUL       "סה""כ מס' העלאות: %u"
+    IDS_CHAT_DOWNLOADED     "הוריד:"
+    IDS_CHAT_UPLOADED       "העלה:"
+    IDS_CHAT_IDENT          "אימות:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAXHALFOPENCONS     "מקס' חיבורים חצי פתוחים"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "הפעל אפשרות זו אם ברצונך שאימיול יפעל בעת הפעלת ""חלונות"". (ברירת מחדל: מופסק)"
+    IDS_KAD_WAITCBK         "המתנת אימות קדמליה"
+    IDS_KAD_TOOMANDYKADLKPS "יותר מידיי חיפושים בקדמליה"
+    IDS_PCDS_CLIENTWAIT     "המתנת קליינט"
+    IDS_PCDS_CACHEWAIT      "המתנת מטמון"
+    IDS_CACHE               "מטמון"
+    IDS_INDEXED             "אינדקס"
+    IDS_KADINFO_SRC         "\tמקור: %u\r\n"
+    IDS_KADINFO_KEYW        "\tמילת מפתח: %u\r\n"
+    IDS_STARTWITHWINDOWS    "הפעל עם ""חלונות"""
+    IDS_ADDSRCMANUALLY      "הוסף מקור ידנית"
+    IDS_BUDDY               "חבר"
+    IDS_BUDDYNONE           "אין"
+    IDS_INFO                "מידע"
+    IDS_HALF                "חצי"
+    IDS_CONCOMPL            "שלם"
+    IDS_KADSTATUS_STOPPING  "מפסיק"
+    IDS_KADSTATUS_ACTIVE    "פעיל"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FORMAT              "פורמט"
+    IDS_META_COLLECTION     "אוסף"
+    IDS_META_PARTPATH       "מיקום חלק"
+    IDS_META_PARTHASH       "האש חלק"
+    IDS_META_GAPSTART       "חלק מתחיל"
+    IDS_META_GAPEND         "חלק מסתיים"
+    IDS_FAIL                "נכשל"
+    IDS_META_PREFERENCES    "העדפות"
+    IDS_META_VERSION        "גירסה"
+    IDS_META_TEMPFILE       "קובץ זמני"
+    IDS_META_SERVERPORT     "פורט שרת"
+    IDS_META_SERVERIP       "איי פי שרת"
+    IDS_META_SRCUDPPORT     "פורט UDP של מקור"
+    IDS_META_SRCTCPPORT     "פורט TCP של מקור"
+    IDS_META_SRCIP          "איי פי מקור"
+    IDS_META_SRCTYPE        "סוג מקור"
+    IDS_SEARCH_UNICODE      "חפש עם יוניקוד"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LD_ED2KLINK         "ED2K קישור"
+    IDS_LD_COPYCLIPBOARD    "העתק לקליפבורד"
+    IDS_LD_HOSTNAME         "השתמש בשם מארח (מהעדפות) במקום איי פי בעת יצירת קישור מקור"
+    IDS_SAVEACFAILED        "נכשל בשמירת סט האש AICH!"
+    IDS_AICHHASH            "AICH האש"
+    IDS_BYTESPERSEC         "בתים לשנייה"
+    IDS_KBYTESPERSEC        "ק""ב לשנייה"
+    IDS_MBYTESPERSEC        "מ""ב לשנייה"
+    IDS_GBYTESPERSEC        "ג""ב לשנייה"
+    IDS_TBYTESPERSEC        "ט""ב לשנייה"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MINORCLIENTS  "מינורי"
+    IDS_LD_BASICOPT         "אפשרויות בסיסיות"
+    IDS_LD_ADDSOURCE        "הוסף את עצמך כמקור"
+    IDS_LD_EMULEHASH        "הוסף האש AICH של אימיול להתמודדות מתקדמת בפגימויות"
+    IDS_LD_ADVANCEDOPT      "אפשרויות מתקדמות"
+    IDS_LD_ADDHTML          "הוסף תגי HTML"
+    IDS_LD_ADDHASHSET       "הוסף סט האש שלם"
+    IDS_FILELINK            "קישור קובץ"
+    IDS_PF_ADVANCEDCALC     "השתמש בשיטת חישוב מתקדמת להצגת זמן שנותר"
+    IDS_DL_SHOWED2KLINK     "הצג קישור eD2K..."
+    IDS_AICH_SYNCTOTAL      "נמצאו %u קבצים ללא סט האש AICH תקין, אימיול יבצע האשינג מחדש לקבצים אלו עכשיו"
+    IDS_AICH_CALCFILE       "מחשב האש AICH עבור קובץ %s"
+    IDS_AICH_WARNUSER       "מגירסה 0.44a, אימיול משתמש בהאש קובץ נוסף על מנת לצמצם אובדן מידע כשמתגלה פגימות. בגלל שהינך מעדכן מגירסה קודמת של אימיול, אימיול צריך לבצע האשינג מחדש לכל הקבצים המשותפים לחישוב ההאש החדש. יקח לפעולת החישוב קצת זמן, אבל זוהי פעולה חד-פעמית. "
+    IDS_AICH_WORKED         "AICH שיחזר בהצלחה %s מ-%s מחלק %u עבור %s"
+    IDS_TRICKLING           "המתן"
+    IDS_SOURCECLIENT        "מקור קליינט"
+    IDS_USERSIP             "איי פי משתמשים"
+    IDS_FEATURES            "אפשרויות"
+    IDS_IRC_NEWNICK         "בחר כינוי IRC."
+    IDS_IRC_NEWNICKDESC     "צריך להיות מילה אחת עם פחות מ-20 תווים המכילים (A-Z, 0-9). ניתן לשנותו שוב בהעדפות -> IRC."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPARSEPARTFILES     "צור קבצים זמניים חדשים כדחוסים 'sparse' (רק ב-NTFS)"
+    IDS_ASPECTRATIO         "יחס מסך"
+    IDS_NEGATEFILTER        "הפוך מסנן"
+    IDS_SEENCOMPL           "נראה שלם"
+    IDS_SELSKINPROFILEDIR   "בחר תיקייה לפרופיל סקין"
+    IDS_ASKDLINCOMPLETE     "קובץ לא שלם פוטנציאלי:\r\n\r\n%s\r\n\r\nקובץ זה אמור להיות חלקי ברשת ולכן רוב הסיכויים שלא ירד בהצלחה! האם אתה בטוח שברצונך להוריד את הקובץ?"
+    IDS_DEADSOURCES         "מקורות מתים"
+    IDS_LARGEICONS          "סמלים גדולים"
+    IDS_SMALLICONS          "סמלים קטנים"
+    IDS_SHORTTAGS           "תגים קצרים"
+    IDS_THELOAD             "עומס"
+    IDS_PACKSENT            "מנות שנשלחו"
+    IDS_RESPONSES           "תגובות"
+    IDS_EXTRACT_META_DATA   "הרחב מידע מטה"
+    IDS_META_DATA_MEDIADET  "DirectShow (לכל שאר סוגי קבצי האודיו והוידאו)"
+    IDS_META_DATA_ID3LIB    "ספריית ID3 (רק לקבצי אודיו מסוג MPEG)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "ספריית Windows Common Controls (COMCTL32.DLL) יותר מידיי ישנה!\r\n\r\nאימיול איתר גירסה של ""ספריית Windows Common Controls (COMCTL32.DLL)"" שישנה מידיי לשימוש תקין באימיול. לוידוי שימוש מלא ותקין של אימיול אנו ממליצים לעדכן את ""ספרייתWindows Common Controls (COMCTL32.DLL)"" לפחות לגירסה 5.8.\r\n\r\nהורד והתקן את העדכון של ""ספריית Windows Common Controls (COMCTL32.DLL)"" במרכז ההורדות של מיקרוסופט (R). האם ברצונך לבקר בכתובת המתאימה?"
+    IDS_ASREGEXPR           "כביטוי רגולרי"
+    IDS_STATIC_REGEXP       "ביטוי רגולרי עבור סינון תצוגה:"
+    IDS_CARE4ALL            "הערכה של כל הקבצים"
+    IDS_REGEXPRESSION       "ביטוי רגולרי"
+    IDS_SEARCHKAD           "חפש בקדמליה"
+    IDS_DWL_IPFILTERFILE    "מוריד קובץ מסנני איי פי"
+    IDS_DWLIPFILTERFAILED   "הורדת מסנני איי פי נכשלה"
+    IDS_FINDBUDDY           "חפש חבר"
+    IDS_ERR_IPFILTERZIPEXTR "נכשל בהרחבת קובץ מסנני איי פי מהורדת קובץ zip ""%s""."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "קובץ מסנני איי פי שהורד ""%s"" הוא קובץ zip המכיל תוכן לא צפוי."
+    IDS_STORENOTES          "שמור הערות"
+    IDS_NOTES               "הערות"
+    IDS_KADSEARCHALREADY    "מתבצע חיפוש אחר. אנא נסה שוב יותר מאוחר!"
+
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHUTDOWN        "סגור את אימיול"
+    IDS_WEB_REBOOT          "אתחל מחשב"
+    IDS_WEB_SHUTDOWNSYSTEM  "כבה מחשב"
+    IDS_WEB_ADMINMENU       "תפריט ניהול"
+    IDS_WEB_MAIN_CLOSE      "האם אתה בטוח שברצונך לסגור את אימיול?"
+    IDS_WEB_MAIN_REBOOT     "האם אתה בטוח שברצונך לאתחל את המחשב?"
+    IDS_WEB_MAIN_SHUTDOWN   "האם אתה בטוח שברצונך לכבות את המחשב?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "הצג משתמשים מוחרמים בתור"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "הצג חברים בתור"
+    IDS_WEB_SESSIONTIMEOUT  "פג התוקף להפעלה נוכחית"
+    IDS_WEB_ALLOWHILEVFUNC  "אפשר לסגור את אימיול, לאתחל ולכבות"
+    IDS_SETPFSLIMIT         "מגבלת מקורות..."
+    IDS_SETPFSLIMITEXPLAINED
+                            "אנא הכנס את מגבלת המקורות החדשה לקבצים שנבחרו ! \n(הצב 0 כדי להשתמש בהגדרת ברירת מחדל)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "האם ברצונך לעדכן עכשיו את התיקיות שהתקבלו שנכללו בתיקיית שהתקבלו הישנה?"
+    IDS_USESPEECH           "התראה בדיבור"
+    IDS_CONDTCPACCEPT       "דחה התחברות מהירה"
+    IDS_TCPIP_CONNS         "TCP/IP חיבורי"
+    IDS_ERR_DELFILE         "נכשל במחיקת קובץ ""%s"""
+    IDS_MANUAL_FILENAMECLEANUP "האם ברצונך לנקות שם קובץ של הקבצים שנבחרו?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CONFIGCORRUPT   "נראה ש-%s פגום והוא יוחלף"
+    IDS_UPLOADING           "מעלה"
+    IDS_CANCELLED           "בוטל"
+    IDS_PW_REMEMBERDOWNLOADED "זכור קבצים שהורדו"
+    IDS_PW_REMEMBERCANCELLED "זכור קבצים שבוטלו"
+    IDS_AVAILABLEPARTS      "חלקים זמינים"
+    IDS_NOSOUND             "ללא קול"
+    IDS_PW_RECEIVERADDRESS  "כתובת נמען:"
+    IDS_PW_ENABLEEMAIL      "הפעל התראה בדוא""ל"
+    IDS_EMULENOTIFICATION   "התראות של אימיול"
+    IDS_PW_EMAILNOTIFICATIONS "התראות דוא""ל"
+    IDS_SMTPSERVER          "SMTP-שרת"
+    IDS_PW_SENDERADDRESS    "כתובת שולח:"
+    IDS_PW_SHOWTRANSTOOLBAR "הצג סרגל כלים נוסף בחלון העברות"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHARED_STATUS       "חלקים משותפים"
+    IDS_INCOMING_FILES      "קבצים שהתקבלו"
+    IDS_INCOMPLETE_FILES    "קבצים לא שלמים"
+    IDS_SHARED_DIRECTORIES  "תיקיות משותפות"
+    IDS_SHAREDIR            "שתף תיקייה"
+    IDS_SHAREDIRSUB         "שתף עם תתי-תיקיות"
+    IDS_UNSHAREDIR          "בטל שיתוף תיקייה"
+    IDS_UNSHAREDIRSUB       "בטל שיתוף עם תתי-תיקיות"
+    IDS_ALLSHAREDFILES      "כל הקבצים המשותפים"
+    IDS_ALLDIRECTORIES      "כל התיקיות"
+    IDS_SEARCHRELATED       "מצא קבצים קשורים"
+    IDS_RELATED             "קשור"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLLECTIONLIST      "רשימת אוספים"
+    IDS_SEARCH_EMULECOLLECTION "אוסף של אימיול"
+    IDS_COLL_REPLACEEXISTING "האם ברצונך להחליף את הקובץ הקיים?"
+    IDS_COLL_ERR_DELETING   "שגיאה לא ידועה במחיקת קובץ ישן. לצאת בלי לשמור?"
+    IDS_CREATECOLLECTION    "צור אוסף"
+    IDS_COLL_SIGN           "חתום אוסף עם שם ומפתח"
+    IDS_AUTHOR              "יוצר"
+    IDS_AUTHORKEY           "מפתח יוצר"
+    IDS_COLL_ADDINCAT       "הוסף הורדות חדשות לקטגוריית אוסף"
+    IDS_MODIFYCOLLECTION    "שנה אוסף"
+    IDS_VIEWCOLLECTION      "צפה באוסף"
+    IDS_COLL_TEXTFORMAT     "שמור אוסף בפורמט טקסט פשוט"
+    IDS_SEARCHAUTHORCOLLECTION "חפש אוספים של יוצר"
+    IDS_ERR_DUPL_FILES      "קובץ משותף כפול: ""%s"" ו-""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "UploadSpeedSense: איתור מסלולים נכשל יותר מידי פעמים. מבטל את Upload SpeedSense."
+    IDS_USS_STARTING        "UploadSpeedSense: סיים את ההכנות. מתחיל בשליטה על קצב ההעלאה. (60 שניות ראשונות במצב תגובה מהיר)"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "UploadSpeedSense: אותרה הגבהה של קצב ההעלאה בהעדפות. נכנס למצב תגובה מהיר ל-60 שניות."
+    IDS_USS_STATE_PREPARING "מכין..."
+    IDS_USS_STATE_WAITING   "ממתין..."
+    IDS_USS_STATE_ERROR     "שגיאה!"
+    IDS_SHAREWARNING        "(התיקייה תשותף!)"
+    IDS_REMOVEALLSERVERS    "האם אתה בטוח שברצונך למחוק את כל השרתים?"
+    IDS_SEARCH_UNKATTR      "מאפיין חיפוש לא ידוע '%s'"
+    IDS_SEARCH_ATTRERR      "שגיאה בתחביר במאפיין החיפוש '%s'"
+    IDS_SEARCH_MISSINGANDRIGHT "חסר צד ימני לאופרטור AND"
+    IDS_SEARCH_OPRERR       "שגיאת תחביר בהשוואת אופרטור '%s'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOAD_LANGFILE   "מוריד קובץ שפה"
+    IDS_DOWNLOADING_SERVERMET_FROM "מוריד server.met מ-%s"
+    IDS_DOWNLOADING_SERVERMET "מוריד server.met..."
+    IDS_FULLALLOC           "הקצא גודל קובץ מלא לקבצים זמניים לא דחוסים (sparse)"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "האש לא נמצא."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "רשימת חלקי קובץ פגומה."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "רשימת חלקי קובץ לא נמצאה."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "סם האש פגום."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "סט האש לא נמצא."
+    IDS_CONVERTINGKNOWN2MET "ממיר %s ל-%s לתמיכה בקבצים גדולים..."
+    IDS_CONVERTINGKNOWN2FAILED
+                            "...נכשל בהמרת known2.met, מתעלם מרשומות ישנות"
+    IDS_CONVERTINGKNOWN2DONE "... סיים, ההמרה הושלמה"
+    IDS_ERR_MET_BAD         "שגיאה: הקובץ %s פגום, לא יכול לקרוא קבצים ידועים"
+    IDS_SRV_LARGEFILES      "תמיכה בקבצים גדולים"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE
+                            "אינך יכול להוריד את הקובץ בגלל שמערכת הקבצים שלך לא תומכת בקבצים הגדולים מ-4 ג'יגה, חשוב על המרה למערכת קבצים NTFS"
+    IDS_NEWVERSIONAVLBETA   "פג תוקפה של גירסת הבטה. בגלל טבעם של גירסאות בטא, שלעיתים קרובות מכילות באגים, מומלץ מאוד שתעבור לגירסה יציבה מהר ככל שניתן!"
+    IDS_KADSEARCHACTIVE     "(מתבצע חיפוש בקדמליה...)"
+    IDS_BOLD                "החלף טקסט בולט"
+    IDS_UNDERLINE           "החלף טקסט עם קו תחתון"
+    IDS_COLOUR              "בחר צבע טקסט, (צבע רקע אפשרי)."
+    IDS_RESETFORMAT         "נקה כל עיצוב קודם ,(שולח תג ניקוי)."
+    IDS_RESTORESEARCHPARAMS "שחזר פרמטרי חיפוש"
+    IDS_COMMAND             "פקודה"
+    IDS_ARGUMENTS           "ארגומנטים"
+    IDS_AP_CREATEPREVCOPY   "צור קובץ תצוגה מקדימה"
+    IDS_ARCHIVEDETAILS      "פרטי ארכיון"
+    IDS_ARCHTYPE            "סוג ארכיון"
+    IDS_ATTRIBUTES          "מאפיינים"
+    IDS_LASTMODIFIED        "תאריך שינוי"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "כותרת מוצפנת - לא ניתן לקרוא"
+    IDS_ARCPARSED           "ארכיון נסרק."
+    IDS_ARCPREV_LISTMAYBEINCOMPL "ייתכן שרשימת הקבצים לא מלאה."
+    IDS_ARCPREV_DIRNOTFOUND "טבלת תכנים לא נמצאה."
+    IDS_ARCPREV_INSUFFDATA  "המידע שזמין אינו מספיק."
+    IDS_PASSWPROT           "מוגן בסיסמה"
+    IDS_ARCPREV_DIRSUCCREAD "טבלת תכנים נקראה בהצלחה."
+    IDS_ARCPREV_UNKNOWNFORMAT "(לא ידוע/לא נתמך)"
+    IDS_ARCPREV_PLEASEWAIT  "סורק ארכיון..."
+    IDS_OPTIONS             "אפשרויות"
+    IDS_ERR_FAILEDTOLOAD    "נכשל בטעינת %s: %s "
+    IDS_RUNNINGRESTRICTED   "אימיול פועל עם הרשאות נמוכות"
+    IDS_OBFUSCATION         "מוצפן"
+    IDS_SUPPORTED           "נתמך"
+    IDS_ESTIMATED           "משוער"
+    IDS_MEDIAINFO_DLLMISSING
+                            "נראה שספריית MediaInfo לא מותקנת. אם תרצה להשיג מידע נוסף לגבי קבצי אודיו/וידאו בחלון זה,\r\nהורד את ספריית MediaInfo מ-https://mediaarea.net/en/MediaInfo והעתק את הקובץ MediaInfo.dll\r\nלתיקיית ההתקנה של אימיול ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "אזהרה: סיומת הקובץ ""%s"" לא תואמת לסיומת הקובץ\r\nהבד""כ משמשת את פורמט הקובץ הזה. ייתכן ותרצה לשנות את שם הקובץ\r\nכך שיכיל את אחד מהסיומות  האלה ""%s""\r\nלשימוש או לצפייה תקינים של פורמט קובץ זה.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "אזהרה: נראה שהקובץ ""%s"" מוגן בעזרת ניהול זכויות יוצרים דיגיטלי (Digital Rights Management).\r\nרוב הסיכויים שלא תצליח להשתמש בקובץ ללא רישיון מיוצר הקובץ.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "קבצי תמונת סרגל כלים של אימיול"
+    IDS_LOADFILTER_EMSKINFILES "קבצי סקין של אימיול"
+    IDS_ARCHPREV_ATTRIBINFO "מאפייני קובץ יכולים להכיל:\r\n\r\nP\tהקובץ מוגן בסיסמה\r\nD\tתיקייה\r\nC\tהערה\r\nLx\tרמת כיווץ x\r\nM\tמידע מכווץ לא הורד עדיין\r\n<\tהקובץ ממשיך מחלק קודם\r\n>\tהקובץ ממשיך בחלק הבא\r\n"
+    IDS_CONTENT_INFO        "תוכן"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "הודעות והערות"
+    IDS_DISABLEOBFUSCATION  "בטל תמיכה בחיבורים מוצפנים"
+    IDS_ONLYOBFUSCATED      "אפשר חיבורים מוצפנים בלבד (לא מומלץ)"
+    IDS_ENABLEOBFUSCATION   "הפעל הצפנת פרוטוקול"
+    IDS_PROTOCOLOBFUSCATION "פרוטוקול מוצפן"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "מחובר ל-%s (%s:%u - משתמש בחיבור מוצפן) ..."
+    IDS_CONNECTEDTOOBFUSCATED "התבצעה התחברות מוצפנת ל: %s"
+    IDS_VERIFIED            "מאושר"
+    IDS_OBFUSCATED          "מוצפן"
+    IDS_UNVERIFIED          "ללא אישור"
+    IDS_INVALIDFILEEXT      "סיומת קובץ לא תקינה"
+    IDS_UNKNOWNFILEEXT      "סיומת קובץ לא ידועה"
+    IDS_ENABLEMINIMULE      "הפעל את מינימיול"
+    IDS_DISABLE_AUTOARCHPREV
+                            "בטל תצוגה מקדימה אוטומטית של קבצי ארכיון בפרטי קובץ"
+    IDS_US_STALLEDW4BR      "מעכב! ממתין לבקשת בלוק."
+    IDS_US_STALLEDREADINGFDISK "מעכב! קורא מדיסק."
+    IDS_SERVERFEATURE_INTTYPETAGS "תגים מטיפוס מס'-שלמים"
+    IDS_FILLGRAPHS          "צייר גרפים במרקם מלא"
+    IDS_PARAMETER           "פרמטר"
+    IDS_TEST                "ניסוי"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "השתמש ב-UPnP להגדרת פורטים"
+    IDS_UPNPSETUP           "מנסה לפתוח פורטים באמצעות UPnP..."
+    IDS_UPNPFAILED          "UPnP נכשל בפתיחת פורטים, אנא פתח את הפורטים ידנית אם צריך!"
+    IDS_UPNPSUCCESS         "UPnP פתח בהצלחה את הפורטים %u (TCP) ו-%u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "פתח פורטים בחומת אש של WinXP SP1"
+    IDS_UPNP_NOSERVICE      "שירות התקן מארח של UPnP לא פעיל, מדלג על הגדרת UPnP"
+    IDS_DELAYEDBYUPNP       "החיבור לרשת מתעקב בגלל ש-UPnP עדיין עסוק בפתיחת הפורטים."
+    IDS_DELAYEDBYUPNP2      "אנא המתן מספר שניות, אימיול יתחבר ברגע ש-UPnP יסיים."
+    IDS_UPNP                "UPnP - התקני חבר-הפעל"
+    IDS_UPNPCLOSEONEXIT     "בטל פתיחת פורטים באמצעות UPnP ביציאה"
+    IDS_UPNPSKIPWANIP       "דלג על הגדרת WAN IP"
+    IDS_UPNPSKIPWANPPP      "דלג על הגדרת WAN PPP"
+    IDS_SHAREEMULELABEL     "שיתוף של אימיול עם משתמשים אחרים במחשב"
+    IDS_SHAREEMULEMULTI     "לכל משתמש הגדרות והורדות משלו"
+    IDS_SHAREEMULEPUBLIC    "הגדרות והורדות משותפות לכל המשתמשים"
+    IDS_SHAREEMULEOLD       "אחסן קבצי הגדרות והורדות בתיקיית אימיול"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "שינוי הגדרה זו תאפשר לאימיול להשתמש בהגדרות אחרות. אימיול יתעלם מההגדרות הנוכחיות והורדות שכבר התחילו אולי לא יראו ברשימת ההורדות. ניתן לשחזר את הגדרותיך הנוכחיות ע""י שינוי הגדרה זו בכל זמן.\n\nצריך לאתחל את אימיול כדי שהשינויים יכנסו לתוקפם."
+    IDS_SPAM                "ספאם"
+    IDS_MARKSPAM            "סמן ספאם"
+    IDS_MARKNOTSPAM         "סמן לא ספאם"
+    IDS_SEARCHSPAMFILTER    "הפעל מסנן ספאם לתוצאות חיפוש"
+    IDS_SHOWSMILEYS         "הצג סמיילים"
+    IDS_CAPTCHAREQUEST      "כדי למנוע הודעות ספאם, המשתמש דורש ממך לפענח קוד אימות מתמונה לפני שליחת הודעה אליו. אנא הכנס את האותיות שנראות בתמונה כתגובה:"
+    IDS_CAPTCHAFAILED       "תגובתך לקוד אימות מתמונה הייתה שגוייה והמשתמש התעלם מהודעתך. אתה יכול לבקש קוד אימות חדש ע""י שליחת הודעה חדשה."
+    IDS_CAPTCHASOLVED       "עברת את בדיקת קוד אימות מתמונה והמשתמש קיבלת את הודעתך."
+    IDS_USECAPTCHAS         "דורש קוד אימות מתמונה"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat מכתובת:"
+    IDS_DOWNLOADING_NODESDAT_FROM "מוריד nodes.dat מ-%s"
+    IDS_DOWNLOADING_NODESDAT "מוריד nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "נכשל בהורדת nodes.dat מ-%s"
+    IDS_PREVENTSTANDBY      "מנע מצב המתנה בזמן שאימיול פועל"
+    IDS_KADID               "מזהה קדמליה"
+    IDS_SEARCHINGFRIENDKAD  "מחפש ברשת קדמליה אחר חברים"
+    IDS_FOUND               "נמצא"
+    IDS_EXTERNUDPPORT       "ייצא פורט UDP"
+    IDS_STORESEARCHES       "זכור חיפושים פתוחים בין הפעלות מחדש"
+    IDS_WRN_INCFILE_EXISTS  "בחרת תיקייה חדשה לקבצים שהתקבלו שאינה ריקה. כל הקבצים בתיקייה זו עכשיו ישותפו אוטומטית ע""י אימיול."
+    IDS_EDITSPAMFILTER      "ערוך מסנן ספאם..."
+    IDS_EDITSPAMFILTERCOMMENTS "ערוך מסנן ספאם להודעות"
+    IDS_WIZZARDOBFUSCATION  "הפעל אפשרות זו אם ברצונך להשתמש בהצפנת פרוטוקול\n\nאם ספקית האינטרנט שלך מנסה לסנן או לחסום את אימיול, הפעלת הצפנת פרוטוקול תעזור להערים על מגבלות כאלה."
+    IDS_BETANAG             "זוהי גירסת בטה של אימיול. אנא דווח על בעיות ובדוק בקביעות לעדכוני גירסה בפורום שלנו (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "האם ברצונך להוריד ולהשתמש באנשי קשר של קדמליה (nodes.dat) מהכתובת הבאה:\n%s ?"
+    IDS_AUTOMATIC           "אוטומטי"
+    IDS_NOTCONNECTEDANY     "אינך מחובר לשרת או לרשת קדמליה!"
+    IDS_ERR_SHARED_DIR      "נכשל בקריאת תיקייה משותפת ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "נראה שהקובץ ""%s"" מוגן על ידי ניהול זכויות יוצרים דיגיטלי (Digital Rights Management).\r\n\r\nרוב הסיכויים ששימוש בקובץ לא יצליח ללא רכישת רישיון מיוצר הקובץ. פתיחת הקובץ יכולה לגרום לנגן המדיה לפתוח את הדפדפן ולהעביר אותך אוטומטית לאתר של היוצר שם תתבקש לקנות רישיון.\r\n\r\nהאם אתה בטוח שברצונך להמשיך בפתיחת הקובץ?"
+    IDS_CHECK_FILE_OPEN     "הצג אזהרה בעת פתיחת קבצים לא בטוחים"
+    IDS_BOOTABLE            "בר אתחול"
+    IDS_UNSUPPORTEDIMAGE    "פורמט דיסק לא נתמך"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "בטל שיתוף"
+    IDS_WEBUPNPINCLUDE      "הוסף פורט בהפעלת UPnP"
+    IDS_ADDEDON             "נוסף בתאריך"
+    IDS_RESOLVELINKS        "אפשר שיתוף קבצים באמצעות קיצורי דרך בתיקיות משותפות"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "פקודות הורדה"
+    IDS_CLOSETOOLBAR        "סגור סרגל כלים"
+    IDS_SHOWTOOLBAR         "הצג סרגל כלים"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "לא ניתן להשתמש ב-OR במילת המפתח הראשונה בחיפוש בקדמליה!\n\nלדוגמה: חיפוש ""מילה1 OR מילה2"" אינו אפשרי. נסה ""מילה1 AND (מילה2 או מילה3)"" או בצע מספר חיפושים"
+    IDS_DISCOVEREDBY        "התגלה ע""י"
+    IDS_NODES               "איש/אנשי קשר"
+    IDS_ROUTINGTABLE        "טבלת ניתוב"
+    IDS_PROTOCOLVERSION     "גירסת פרוטוקול"
+    IDS_FOUNDNODESUSEFUL    "אנשי קשר (שימושיים) שנמצאו"
+    IDS_NORESPONSE          "אין תגובה"
+    IDS_NOTASKED            "לא נשאל"
+    IDS_LOOKUPGRAPH         "פרטי חיפוש"
+    IDS_AUTOKADLOOKUPGRAPH  "הצג חיפושים פעילים אוטומטית"
+    IDS_PAUSEONPREVIEW      "השהה כשתצוגה מקדימה זמינה"
+    IDS_PREVIEWWITH         "תצוגה מקדימה עם"
+    IDS_CLOSEEMULE          "סגור את אימיול"
+    IDS_DONOTASKAGAIN       "אל תשאל אותי שוב"
+    IDS_POPULARITY          "דירוג פופולריות"
+    IDS_SHOWWIN7TASKBARGOODIES "הפעל אפקטים של שורת מצב של חלונות 7"
+    IDS_LANMODE             "מצב רשת מקומית (LAN)"
+    IDS_OPENPREFINI         "פתח את preferences.ini"
+END
+
+#endif    // Hebrew resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

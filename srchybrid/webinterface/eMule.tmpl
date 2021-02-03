@@ -1,0 +1,2549 @@
+ <-- ################################################################# -->
+<-- ##                      eMuleXP TEMPLATE                       ## -->
+<-- ##                 MODIFIED VERSION BY eMule-Project.net       ## -->
+<-- ################################################################# -->
+<-- ##                BASED ON MODIFIED VERSION BY eMule+          ## -->
+<-- ##                BASED ON TEMPLATE BY Chicane                 ## -->
+<-- ################################################################# -->
+
+<--TMPL_VERSION-->
+7
+<--TMPL_VERSION_END-->
+
+
+
+
+<-- ################################################################# -->
+<-- ############################ LOGIN ############################## -->
+<-- ################################################################# -->
+
+<--TMPL_LOGIN-->
+<!DOCTYPE html SYSTEM>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=[CharSet]">
+<link rel="icon" href="favicon.ico">
+<title>[eMuleAppName] [version] - [WebControl]</title>
+<style>
+body
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:9pt;
+}
+.failed
+{
+font-weight:bold;
+text-align:center;
+color:#FF0000;
+}
+form
+{
+display:inline;
+}
+</style>
+<script Language="JavaScript">
+<!--
+var eMulePics = new Array ("add_server.gif", "arrow_down.gif", "arrow_up.gif", "arrow_up_q.gif", "black.gif", "blue1.gif", "blue2.gif",
+"blue3.gif", "blue4.gif", "blue5.gif", "blue6.gif", "checked.gif", "checked_no.gif", "ct_0.gif", "ct_1.gif", "ct_a.gif", "ct_h.gif",
+"ct_l.gif", "ct_m.gif", "ct_s.gif", "ct_u.gif", "connecting.gif",
+"disconnected.gif", "failed.gif", "file.gif", "filedown.gif", "filetype_program.gif", "filetype_archive.gif","filetype_emulecollection.gif",
+"filetype_cdimage.gif", "filetype_document.gif", "filetype_video.gif", "filetype_audio.gif", "filetype_other.gif", "filetype_picture.gif",
+"green.gif", "greenpercent.gif", "h_emule.gif", "h_kad.gif", "h_graph.gif", "h_log.gif", "h_preferences.gif", "h_search.gif", "h_server.gif",
+"h_shared.gif", "h_statistic.gif", "h_transfer.gif", "high.gif", "is_banned.gif", "is_credit.gif", "is_friend.gif",
+"is_halfnone.gif", "is_none.gif", "is_release.gif", "is_static.gif", "l_add.gif",
+"l_calendar.gif", "l_cancel.gif", "l_catarrow.gif", "l_clear.gif", "l_clock.gif", "l_close.gif", "l_con.gif", "l_connect.gif",
+"l_downarrow.gif", "l_ed2klink.gif", "l_contentdb.gif", "l_filesearch.gif", "l_forum.gif",
+"l_friend.gif", "l_getflc.gif", "l_hasherror.gif", "l_homepage.gif", "l_info.gif", "l_logout.gif", "l_none.gif",
+"l_options.gif", "l_pause.gif", "l_remove.gif", "l_rename.gif", "l_resume.gif", "l_search.gif", "l_server.gif", "l_shared.gif",
+"l_reboot.gif", "l_showcat.gif", "l_shutdown.gif", "l_sources_0.gif", "l_sources_10.gif", "l_sources_25.gif", "l_sources_5.gif",
+"l_sources_50.gif", "l_static.gif", "l_stop.gif", "l_timer.gif", "l_timer_off.gif", "l_version.gif", "l_uparrow.gif", "l_users.gif",
+"login_bottom.gif", "login_downmain.gif", "login_lefttop.gif", "login_righttop.gif", "login_top.gif", "login_topdown.gif",
+"login_topseparator.gif", "logo.jpg", "low.gif", "m_category.gif", "m_catprio.gif", "m_clearcompleted.gif", "main_bg.gif",
+"main_menubg.gif", "main_topbar.gif", "main_topbardarker.gif", "main_topbarseparator.gif", "p_black.gif", "p_blue1.gif", "p_blue2.gif",
+"p_blue3.gif", "p_blue4.gif", "p_blue5.gif", "p_blue6.gif", "p_green.gif", "p_greenpercent.gif", "p_red.gif", "p_yellow.gif",
+"qs_con.jpg", "qs_down.jpg", "qs_up.jpg", "qs_user.jpg", "red.gif", "stats_0.gif", "stats_1.gif", "stats_10.gif", "stats_11.gif",
+"stats_12.gif", "stats_13.gif", "stats_14.gif", "stats_15.gif", "stats_16.gif", "stats_17.gif", "stats_2.gif", "stats_3.gif", "stats_4.gif",
+"stats_5.gif", "stats_6.gif", "stats_7.gif", "stats_8.gif", "stats_9.gif", "stats_back.gif", "stats_con.gif", "stats_down.gif",
+"stats_hidden.gif", "stats_space.gif", "stats_up.gif", "stats_visible.gif", "t_complete.gif", "t_completing.gif", "t_connecting.gif",
+"t_downloading.gif", "t_error.gif", "t_hashing.gif", "t_next.gif", "t_paused.gif", "t_stalled.gif", "t_stopped.gif", "t_uploading.gif",
+"t_waiting.gif", "t_waitinghash.gif", "transparent.gif", "yellow.gif", "l_dndoublearrow.gif", "l_updoublearrow.gif", "l_comments.gif",
+"is_halfcmtbad.gif","is_halfcmtgood.gif" );
+
+function preload_images()
+{
+	var images = new Array;
+
+	for (var pic_num=0; pic_num<eMulePics.length; pic_num++)
+	{
+		images[pic_num] = new Image();
+		images[pic_num].src = eMulePics[pic_num];
+	}
+}
+
+//-->
+</script>
+
+</head>
+<body background="main_bg.gif" text=white link=white vlink=white alink=white onload="javascript:preload_images(); document.login.p.focus();">
+<table align=center border=0 cellpadding=4 cellspacing=0 width="100%" height="100%">
+ <tr>
+  <td align=center valign=middle>
+   <table align=center border=0 cellpadding=0 cellspacing=0 width="407">
+    <tr>
+     <td style="height:12px" background="./login_top.gif" height="12"></td>
+    </tr>
+    <tr>
+     <td height="300">
+      <table align=center border=0 cellpadding=0 cellspacing=0 width="100%" height="100%">
+       <tr>
+        <td width="4" background="./login_lefttop.gif">
+          <img src="./transparent.gif" alt="">
+        </td>
+        <td background="./login_topdown.gif" align="center">
+         <table align=center border=0 cellpadding=0 cellspacing=0 width="100%" height="100%">
+          <tr>
+           <td align="center">
+            <a href="https://emule-project.net" target="_blank"><img src="logo.jpg" alt=""></a>
+           </td>
+          </tr>
+          <tr>
+           <td align="center" height="50">
+            <font face="Tahoma" style="font-size:10pt;"><b>[WebControl] | [Login]</b></font>
+           </td>
+          </tr>
+         </table>
+        </td>
+        <td width="5" background="./login_righttop.gif">
+         <img src="./transparent.gif" alt="">
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+    <tr>
+     <td style="height:3px" background="./login_topseparator.gif" height="3"></td>
+    </tr>
+    <tr>
+     <td height="130">
+      <table align=center border=0 cellpadding=0 cellspacing=0 width="100%" height="100%">
+       <tr>
+        <td width="4" background="./login_lefttop.gif">
+         <img src="./transparent.gif" alt="">
+        </td>
+        <td background="./login_downmain.gif" align="center">
+         <form action="" method="POST" name="login">
+          <font face="Tahoma" style="font-size:10pt;">
+           &nbsp;<br>
+           [EnterPassword]<br><br>
+           <input type="password" autocomplete="off" name="p" maxlength="12" size="37" style="border-width:1px; border-color:black; border-style:none;" value="">
+           <input type="hidden" name="w" value="password">
+           <br><br><input type="submit" value="[LoginNow]"><br>
+          </font>
+         </form>
+        </td>
+        <td width="5" background="./login_righttop.gif">
+         <img src="./transparent.gif" alt="">
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+    <tr>
+     <td style="height:12px" background="./login_bottom.gif" height="12"></td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+</body>
+</html>
+<--TMPL_LOGIN_END-->
+
+
+
+
+<-- ################################################################# -->
+<-- ######################### MAIN SITE ############################# -->
+<-- ################################################################# -->
+
+
+
+
+<--TMPL_HEADER-->
+<!DOCTYPE html SYSTEM>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=[CharSet]">
+<meta http-equiv="PRAGMA" content="no-cache">
+<link rel="icon" href="favicon.ico">
+<title>[eMuleAppName] [version] - [WebControl]</title>
+[StyleSheet]
+
+
+<script Language="JavaScript">
+<!--
+/*************************************************************************
+	Pop-it menu - By Dynamic Drive
+	For full source code and more DHTML scripts, visit
+	http://www.dynamicdrive.com
+	This credit MUST stay intact for use
+*************************************************************************/
+var ie4=document.all
+var ns6=document.getElementById&&!document.all
+var ns4=document.layers
+var ed2kinfo;
+var iteminfo;
+var removeconfirm;
+var confirmclose;
+var confirmreboot;
+var confirmshutdown;
+
+function downmenu(event,admin,finfo,ed2k,downstate,isgetflc,fname,session,filehash,commentinfo,downloadable)
+{
+	var code = new Array()
+	ed2kinfo = ed2k
+	iteminfo = finfo
+	cmts = commentinfo
+	removeconfirm = '[ConfirmCancel]' + fname
+
+	if(downstate == "hashing" || downstate == "waitinghash")
+		code = '<div class="menuitems"><img class="menuimages" src="l_hasherror.gif"><img class="menuchecked" src="checked_no.gif">[FileIsHashing]&nbsp;<\/div>'
+	else if(downstate == "error")
+		code = '<div class="menuitems"><img class="menuimages" src="l_hasherror.gif"><img class="menuchecked" src="checked_no.gif">[FileIsErroneous]&nbsp;<\/div>'
+	else if(downstate == "completing")
+		code = '<div class="menuitems"><img class="menuimages" src="l_hasherror.gif"><img class="menuchecked" src="checked_no.gif">[FileIsCompleting]&nbsp;<\/div>'
+	else
+	{
+		code = '';
+
+		if(admin == "admin")
+		{
+			if(downstate == "complete") {
+				if (downloadable=="yes")
+					code += '<a href="?ses=' + session + '&amp;w=getfile&amp;filehash=' + filehash +'"><div class="menuitems"><img class="menuimages" src="downloading.gif"><img class="menuchecked" src="checked_no.gif">[RunFile]&nbsp;<\/div><\/a>'
+				code += '<a href="?ses=' + session + '&amp;w=transfer&amp;clearcompleted=' + filehash +'"><div class="menuitems"><img class="menuimages" src="l_clear.gif"><img class="menuchecked" src="checked_no.gif">[ClearCompleted]&nbsp;<\/div><\/a>'
+			} else {
+				if(downstate == "paused" || downstate == "stopped")
+					code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=resume&amp;file=' + filehash + '"><div class="menuitems"><img class="menuimages" src="l_resume.gif"><img class="menuchecked" src="checked_no.gif">[Resume]&nbsp;<\/div><\/a>'
+				if(downstate != "stopped")
+					code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=stop&amp;file=' + filehash + '"><div class="menuitems"><img class="menuimages" src="l_stop.gif"><img class="menuchecked" src="checked_no.gif">[Stop]&nbsp;<\/div><\/a>'
+				if(downstate != "paused")
+					code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=pause&amp;file=' + filehash + '"><div class="menuitems"><img class="menuimages" src="l_pause.gif"><img class="menuchecked" src="checked_no.gif">[Pause]&nbsp;<\/div><\/a>'
+				code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=cancel&amp;file=' + filehash + '" onclick="return confirm(removeconfirm)"><div class="menuitems"><img class="menuimages" src="l_cancel.gif"><img class="menuchecked" src="checked_no.gif">[Cancel]&nbsp;<\/div><\/a>'
+				code += '<a href="javascript:filerename(\'' + session + '\',\'' + filehash + '\',\'' + fname + '\')"><div class="menuitems"><img class="menuimages" src="l_rename.gif"><img class="menuchecked" src="checked_no.gif">[Rename]&nbsp;<\/div><\/a>'
+
+        if(isgetflc == "enabled")
+					code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=getflc&amp;file=' + filehash + '"><div class="menuitems"><img class="menuimages" src="l_getflc.gif"><img class="menuchecked" src="checked.gif">[GetFLC]&nbsp;<\/div><\/a>'
+        else if(isgetflc == "disabled")
+					code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=getflc&amp;file=' + filehash + '"><div class="menuitems"><img class="menuimages" src="l_getflc.gif"><img class="menuchecked" src="checked_no.gif">[GetFLC]&nbsp;<\/div><\/a>'
+			}
+		}
+
+		if (cmts=="yes") {
+			code += '<a href="?ses=' + session + '&amp;w=commentlist&amp;filehash=' + filehash+'" target="_blank"><div class="menuitems"><img class="menuimages" src="l_comments.gif"><img class="menuchecked" src="checked_no.gif">[FileComments]&nbsp;<\/div><\/a>'
+		}
+
+		code += '<a href="javascript:alert(iteminfo);"><div class="menuitems"><img class="menuimages" src="l_info.gif"><img class="menuchecked" src="checked_no.gif">[FileDetails]&nbsp;<\/div><\/a>'
+		code += '<a href="javascript:ToClipboard(ed2kinfo);"><div class="menuitems"><img class="menuimages" src="l_ed2klink.gif"><img class="menuchecked" src="checked_no.gif">[Ed2klink]&nbsp;<\/div><\/a>'
+	}
+
+	showmenu(event,code)
+}
+
+function filerename(session,filehash,fname)
+{
+	var newname = prompt("[Rename]", fname);
+
+	if (newname != fname && newname != null)
+	        window.location='/?ses=' + session + '&amp;w=transfer&amp;op=rename&amp;name=' + escape(newname) + '&amp;file=' + filehash;
+}
+
+function servermenu(event,admin,ed2k,session,ip,port,isstatic)
+{
+	var code = new Array()
+	ed2kinfo = ed2k
+
+	code = '<a href="javascript:ToClipboard(ed2kinfo);"><div class="menuitems"><img class="menuimages" src="l_ed2klink.gif"><img class="menuchecked" src="checked_no.gif">[Ed2klink]&nbsp;<\/div><\/a>'
+
+	if(admin == "admin")
+	{
+		code += '<a href="?ses=' + session + '&amp;w=server&amp;c=connect&amp;ip=' + ip + '&amp;port=' + port + '"><div class="menuitems"><img class="menuimages" src="l_connect.gif"><img class="menuchecked" src="checked_no.gif">[Connect]&nbsp;<\/div><\/a>'
+		code += '<a href="?ses=' + session + '&amp;w=server&amp;c=remove&amp;ip=' + ip + '&amp;port=' + port + '" onclick="return confirm(\'[ConfirmRemove]\')' + '"><div class="menuitems"><img class="menuimages" src="l_cancel.gif"><img class="menuchecked" src="checked_no.gif">[RemoveServer]&nbsp;<\/div><\/a>'
+		if(isstatic)
+			code += '<a href="?ses=' + session + '&amp;w=server&amp;c=removefromstatic&amp;ip=' + ip + '&amp;port=' + port + '"><div class="menuitems"><img class="menuimages" src="l_static.gif"><img class="menuchecked" src="checked.gif">[StaticServer]&nbsp;<\/div><\/a>'
+		else
+			code += '<a href="?ses=' + session + '&amp;w=server&amp;c=addtostatic&amp;ip=' + ip + '&amp;port=' + port + '"><div class="menuitems"><img class="menuimages" src="l_static.gif"><img class="menuchecked" src="checked_no.gif">[StaticServer]&nbsp;<\/div><\/a>'
+	}
+
+	showmenu(event,code)
+}
+
+function sharedmenu(event,admin,ed2k,session,hash,fname,filestate,downloadable)
+{
+	var code = new Array()
+	ed2kinfo = ed2k
+
+	code = '<a href="javascript:ToClipboard(ed2kinfo);"><div class="menuitems"><img class="menuimages" src="l_ed2klink.gif"><img class="menuchecked" src="checked_no.gif">[Ed2klink]&nbsp;<\/div><\/a>'
+	if (downloadable=="yes")
+		code += '<a href="?ses=' + session + '&amp;w=getfile&amp;filehash=' + hash +'"><div class="menuitems"><img class="menuimages" src="downloading.gif"><img class="menuchecked" src="checked_no.gif">[RunFile]&nbsp;<\/div><\/a>'
+
+	showmenu(event,code)
+}
+
+function adminmenu(event,admin)
+{
+	var code = new Array()
+
+	confirmclose = '[ConfirmClose]'
+	confirmreboot = '[ConfirmReboot]'
+	confirmshutdown = '[ConfirmShutdown]'
+
+	code = '<a href="javascript:ShowHide(' + "'" + 'ed2k_open' + "'" + ');"><div class="menuitems"><img class="menuimages" src="l_ed2klink.gif" alt="[Ed2klink]"><img class="menuchecked" src="checked_no.gif">[Ed2klink]&nbsp;<\/div><\/a>'
+	code += '<a href="?ses=[Session]&amp;w=logout"><div class="menuitems"><img class="menuimages" src="l_logout.gif" alt="[Logout]"><img class="menuchecked" src="checked_no.gif">[Logout]&nbsp;<\/div><\/a>'
+
+	if(admin == "admin")
+	{
+	  code += '<div class="menuitems">&nbsp;<\/div><\/a>'
+		code += '<a href="?ses=[Session]&amp;w=close" onclick="return confirm(confirmclose)"><div class="menuitems"><img class="menuimages" src="l_close.gif" alt="[Close]"><img class="menuchecked" src="checked_no.gif">[Close]&nbsp;<\/div><\/a>'
+		code += '<a href="?ses=[Session]&amp;w=reboot" onclick="return confirm(confirmreboot)"><div class="menuitems"><img class="menuimages" src="l_reboot.gif" alt="[Reboot]"><img class="menuchecked" src="checked_no.gif">[Reboot]&nbsp;<\/div><\/a>'
+		code += '<a href="?ses=[Session]&amp;w=shutdown" onclick="return confirm(confirmshutdown)"><div class="menuitems"><img class="menuimages" src="l_shutdown.gif" alt="[Shutdown]"><img class="menuchecked" src="checked_no.gif">[Shutdown]&nbsp;<\/div><\/a>'
+	}
+
+	showmenu(event,code)
+}
+
+function linkmenu(event)
+{
+	var code = new Array()
+
+
+	code = '<a href="[VersionCheck]" target="_blank"><div class="menuitems"><img class="menuimages" src="l_version.gif" alt="[Version]"><img class="menuchecked" src="checked_no.gif">eMule Version Check&nbsp;<\/div><\/a>'
+	code += '<a href="https://emule-project.net" target="_blank"><div class="menuitems"><img class="menuimages" src="l_homepage.gif"><img class="menuchecked" src="checked_no.gif">eMule Homepage&nbsp;<\/div><\/a>'
+	code += '<a href="https://forum.emule-project.net" target="_blank"><div class="menuitems"><img class="menuimages" src="l_forum.gif"><img class="menuchecked" src="checked_no.gif">eMule Forum&nbsp;<\/div><\/a>'
+	code += '<a href="https://www.emule-project.net/home/perl/help.cgi" target="_blank"><div class="menuitems"><img class="menuimages" src="l_info.gif"><img class="menuchecked" src="checked_no.gif">eMule Doc,FAQ&nbsp;<\/div><\/a>'
+
+	showmenu(event,code)
+}
+
+function upmenu(event,admin,clientextra,userhash)
+{
+	var code = new Array()
+
+	if(admin == "admin")
+	{
+		if(clientextra == "friend")
+			code = '<a href="?ses=[Session]&amp;w=transfer&amp;op=removefriend&amp;userhash=' + userhash + '"><div class="menuitems"><img class="menuimages" src="l_friend.gif" alt="[Friend]"><img class="menuchecked" src="checked.gif">[Friend]&nbsp;<\/div><\/a>'
+		else
+			code = '<a href="?ses=[Session]&amp;w=transfer&amp;op=addfriend&amp;userhash=' + userhash + '"><div class="menuitems"><img class="menuimages" src="l_friend.gif" alt="[Friend]"><img class="menuchecked" src="checked_no.gif">[Friend]&nbsp;<\/div><\/a>'
+
+		showmenu(event,code)
+	}
+}
+
+function searchmenu(event,ed2k)
+{
+	var code = new Array()
+
+	code = '<a href="' + ed2k + '"><div class="menuitems"><img class="menuimages" src="l_ed2klink.gif" alt="[Ed2klink]"><img class="menuchecked" src="checked_no.gif">[Ed2klink]&nbsp;<\/div><\/a>'
+
+	showmenu(event,code)
+}
+
+function columnmenu(event,tab,menu, m1,e1,m2,e2,m3,e3,m4,e4,m5,e5,m6,e6,m7,e7,m8,e8,m9,e9,m10,e10,m11,e11)
+{
+	var code = new Array();
+	code = "";
+
+	for (i=1; i<=11; i++)
+	{
+		try
+		{
+			var e = eval('e'+i);
+			var m = eval('m'+i);
+			var j = i - 1;
+
+			if(e != "") { code += '<a href="?ses=[Session]&amp;w='+tab+'&amp;c='+menu+'&amp;m='+j+'&amp;v=1"><div class="menuitems"><img class="menuchecked" src="checked.gif">'+m+'&nbsp;<\/div><\/a>' }
+			else if(m != "") { code += '<a href="?ses=[Session]&amp;w='+tab+'&amp;c='+menu+'&amp;m='+j+'&amp;v=0"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">'+m+'&nbsp;<\/div><\/a>' }
+		}
+		catch(e)
+		{
+			// Doesn't exist that variable
+		}
+	}
+
+	showmenu(event,code);
+}
+
+function catpriomenu(event,admin,session)
+{
+	var code = new Array()
+
+	if(admin == "admin")
+	{
+		code = '<a href="?ses=' + session + '&amp;w=transfer&amp;c=menuprio&amp;p=low"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityLow]&nbsp;<\/div><\/a>'
+		code += '<a href="?ses=' + session + '&amp;w=transfer&amp;c=menuprio&amp;p=normal"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityNormal]&nbsp;<\/div><\/a>'
+		code += '<a href="?ses=' + session + '&amp;w=transfer&amp;c=menuprio&amp;p=high"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityHigh]&nbsp;<\/div><\/a>'
+		code += '<a href="?ses=' + session + '&amp;w=transfer&amp;c=menuprio&amp;p=auto"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityAuto]&nbsp;<\/div><\/a>'
+
+		showmenu(event,code)
+	}
+}
+
+function serverpriomenu(event,admin,session,ip,port,priority)
+{
+	var code = new Array()
+
+	if(admin == "admin")
+	{
+		if(priority == "Low")
+			code = '<a href="?ses=' + session + '&amp;w=server&amp;c=priolow&amp;ip=' + ip + '&amp;port=' + port + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityLow]&nbsp;<\/div><\/a>'
+		else
+			code = '<a href="?ses=' + session + '&amp;w=server&amp;c=priolow&amp;ip=' + ip + '&amp;port=' + port + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityLow]&nbsp;<\/div><\/a>'
+		if(priority == "Normal")
+			code += '<a href="?ses=' + session + '&amp;w=server&amp;c=prionormal&amp;ip=' + ip + '&amp;port=' + port + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityNormal]&nbsp;<\/div><\/a>'
+		else
+			code += '<a href="?ses=' + session + '&amp;w=server&amp;c=prionormal&amp;ip=' + ip + '&amp;port=' + port + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityNormal]&nbsp;<\/div><\/a>'
+		if(priority == "High")
+			code += '<a href="?ses=' + session + '&amp;w=server&amp;c=priohigh&amp;ip=' + ip + '&amp;port=' + port + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityHigh]&nbsp;<\/div><\/a>'
+		else
+			code += '<a href="?ses=' + session + '&amp;w=server&amp;c=priohigh&amp;ip=' + ip + '&amp;port=' + port + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityHigh]&nbsp;<\/div><\/a>'
+
+		showmenu(event,code)
+	}
+}
+
+function downpriomenu(event,admin,session,filehash,priority,downstate)
+{
+	var code = new Array()
+
+	if(downstate == "complete" || downstate == "completing")
+		return;
+
+	if(admin == "admin")
+	{
+		if(priority == "Low")
+			code = '<a href="?ses=' + session + '&amp;w=transfer&amp;op=priolow&amp;file=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityLow]&nbsp;<\/div><\/a>'
+		else
+			code = '<a href="?ses=' + session + '&amp;w=transfer&amp;op=priolow&amp;file=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityLow]&nbsp;<\/div><\/a>'
+		if(priority == "Normal")
+			code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=prionormal&amp;file=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityNormal]&nbsp;<\/div><\/a>'
+		else
+			code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=prionormal&amp;file=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityNormal]&nbsp;<\/div><\/a>'
+		if(priority == "High")
+			code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=priohigh&amp;file=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityHigh]&nbsp;<\/div><\/a>'
+		else
+			code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=priohigh&amp;file=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityHigh]&nbsp;<\/div><\/a>'
+		if(priority == "Auto")
+			code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=prioauto&amp;file=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityAuto]&nbsp;<\/div><\/a>'
+		else
+			code += '<a href="?ses=' + session + '&amp;w=transfer&amp;op=prioauto&amp;file=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityAuto]&nbsp;<\/div><\/a>'
+
+		showmenu(event,code)
+	}
+}
+
+function sharedpriomenu(event,admin,session,filehash,priority)
+{
+	var code = new Array()
+
+	if(admin == "admin")
+	{
+		if(priority == "VeryLow")
+			code = '<a href="?ses=' + session + '&amp;w=shared&amp;prio=verylow&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityVeryLow]&nbsp;<\/div><\/a>'
+		else
+			code = '<a href="?ses=' + session + '&amp;w=shared&amp;prio=verylow&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityVeryLow]&nbsp;<\/div><\/a>'
+		if(priority == "Low")
+			code += '<a href="?ses=' + session + '&amp;w=shared&amp;prio=low&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityLow]&nbsp;<\/div><\/a>'
+		else
+			code += '<a href="?ses=' + session + '&amp;w=shared&amp;prio=low&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityLow]&nbsp;<\/div><\/a>'
+		if(priority == "Normal")
+			code += '<a href="?ses=' + session + '&amp;w=shared&amp;prio=normal&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityNormal]&nbsp;<\/div><\/a>'
+		else
+			code += '<a href="?ses=' + session + '&amp;w=shared&amp;prio=normal&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityNormal]&nbsp;<\/div><\/a>'
+		if(priority == "High")
+			code += '<a href="?ses=' + session + '&amp;w=shared&amp;prio=high&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityHigh]&nbsp;<\/div><\/a>'
+		else
+			code += '<a href="?ses=' + session + '&amp;w=shared&amp;prio=high&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityHigh]&nbsp;<\/div><\/a>'
+		if(priority == "Release")
+			code += '<a href="?ses=' + session + '&amp;w=shared&amp;prio=release&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityRelease]&nbsp;<\/div><\/a>'
+		else
+			code += '<a href="?ses=' + session + '&amp;w=shared&amp;prio=release&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityRelease]&nbsp;<\/div><\/a>'
+		if(priority == "Auto")
+			code += '<a href="?ses=' + session + '&amp;w=shared&amp;prio=auto&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked.gif">[PriorityAuto]&nbsp;<\/div><\/a>'
+		else
+			code += '<a href="?ses=' + session + '&amp;w=shared&amp;prio=auto&amp;hash=' + filehash + '"><div class="menuitems"><img class="menuchecked" src="checked_no.gif">[PriorityAuto]&nbsp;<\/div><\/a>'
+
+		showmenu(event,code)
+	}
+}
+
+function showmenu(e,code,downstate)
+{
+	if (!document.all&&!document.getElementById&&!document.layers)
+		return;
+
+	if(downstate == "complete" || downstate == "completing")
+		return;
+
+	clearhidemenu()
+
+	menuobj=ie4? document.all.popmenu : ns6? document.getElementById("popmenu") : ns4? document.popmenu : ""
+	menuobj.thestyle=(ie4||ns6)? menuobj.style : menuobj
+
+	if (ie4||ns6)
+		menuobj.innerHTML=code
+	else
+	{
+		menuobj.document.write('<layer name=gui bgColor=#E6E6E6 onMouseover="clearhidemenu()" onMouseout="hidemenu()">' + code + '<\/layer>')
+		menuobj.document.close()
+	}
+
+	menuobj.contentwidth=(ie4||ns6)? menuobj.offsetWidth : menuobj.document.gui.document.width
+	menuobj.contentheight=(ie4||ns6)? menuobj.offsetHeight : menuobj.document.gui.document.height
+	eventX=ie4? event.clientX+5 : ns6? e.clientX+5 : e.x+5
+	eventY=ie4? event.clientY : ns6? e.clientY : e.y
+
+	var rightedge=ie4? document.body.clientWidth-eventX : window.innerWidth-eventX
+	var bottomedge=ie4? document.body.clientHeight-eventY : window.innerHeight-eventY
+
+	if (rightedge<menuobj.contentwidth)
+		menuobj.thestyle.left=ie4? document.body.scrollLeft+eventX-menuobj.contentwidth : ns6? window.pageXOffset+eventX-menuobj.contentwidth : eventX-menuobj.contentwidth
+	else
+		menuobj.thestyle.left=ie4? document.body.scrollLeft+eventX : ns6? window.pageXOffset+eventX : eventX
+
+	if (bottomedge>=menuobj.contentheight)
+		menuobj.thestyle.top=eventY + (ie4? document.body.scrollTop : ns6? window.pageYOffset : 0)
+	else if (eventY>menuobj.contentheight)
+		menuobj.thestyle.top=eventY + (ie4? document.body.scrollTop-menuobj.contentheight : ns6? window.pageYOffset-menuobj.contentheight : -menuobj.contentheight)
+	else
+		menuobj.thestyle.top=ie4? document.body.scrollTop : ns6? window.pageYOffset : 0
+
+	menuobj.thestyle.visibility="visible"
+
+	return false
+}
+
+function contains_ns6(a, b)
+{
+	if (b == null)
+		return false;
+	//Determines if 1 element in contained in another- by Brainjar.com
+	while (b.parentNode)
+		if ((b = b.parentNode) == a)
+			return true;
+	return false;
+}
+
+function hidemenu()
+{
+	if (window.menuobj)
+		menuobj.thestyle.visibility=(ie4||ns6)? "hidden" : "hide"
+}
+
+function dynamichide(e)
+{
+	if (ie4&&!menuobj.contains(e.toElement))
+		hidemenu()
+	else if (ns6&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.currentTarget, e.relatedTarget))
+		hidemenu()
+}
+
+function delayhidemenu()
+{
+	if (ie4||ns6||ns4)
+		delayhide=setTimeout("hidemenu()",500)
+}
+
+function clearhidemenu()
+{
+	if (window.delayhide)
+		clearTimeout(delayhide)
+}
+
+function highlightmenu(e,state)
+{
+	if (document.all)
+		source_el=event.srcElement
+	else if (document.getElementById)
+		source_el=e.target
+
+	if (source_el.className=="menuitems")
+	{
+		source_el.id=(state=="on")? "mouseoverstyle" : ""
+	}
+	else
+	{
+		while(source_el.id!="popmenu")
+		{
+			source_el=document.getElementById? source_el.parentNode : source_el.parentElement
+			if (source_el.className=="menuitems")
+			{
+				source_el.id=(state=="on")? "mouseoverstyle" : ""
+			}
+		}
+	}
+}
+
+if (ie4||ns6)
+	document.onclick=hidemenu
+
+function ToClipboard(txt)
+{
+	if(window.clipboardData) {
+		window.clipboardData.clearData();
+		window.clipboardData.setData("Text", txt);
+	} else if(navigator.userAgent.indexOf("Opera")!=-1)
+		window.location=txt;
+	else if (window.netscape) {
+		try {
+			netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+		} catch (e) {
+			alert("Permission denied! Browse to 'about:config' in your browser\nand set 'signed.applets.codebase_principal_support' to true");
+		}
+		var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
+		if (!clip)
+			return;
+		var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
+		if (!trans)
+			return;
+		trans.addDataFlavor('text/unicode');
+		var str = new Object();
+		var len = new Object();
+		var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
+		var copytext=txt;
+		str.data=copytext;
+		trans.setTransferData("text/unicode",str,copytext.length*2);
+		var clipid=Components.interfaces.nsIClipboard;
+		if (!clip)
+			return false;
+		clip.setData(trans,null,clipid.kGlobalClipboard);
+	}
+}
+var timeoutID;
+var timeout = [RefreshVal];
+
+function RefreshPage()
+{
+    location.href = "?ses=[Session]&amp;w=[wCommand]";
+}
+
+function ToggleTimer()
+{
+    if (timeoutID)
+    {
+        clearTimeout(timeoutID);
+        timeoutID = null;
+        document.images['ImgToggleTimer'].src = 'l_timer_off.gif';
+    }
+    else
+    {
+        SetTimer();
+        if (timeoutID)
+	        document.images['ImgToggleTimer'].src = 'l_timer.gif';
+		else
+	        document.images['ImgToggleTimer'].src = 'l_timer_off.gif';
+    }
+}
+
+function SetTimer()
+{
+    if (timeout != 0)
+        timeoutID = setTimeout("RefreshPage()", timeout);
+}
+
+if (document.all||document.getElementById)
+    SetTimer();
+else
+    window.onload=SetTimer;
+//-->
+</script>
+
+</head>
+<body background="main_bg.gif" text=white link="#2184B5" vlink="#2184B5" alink="#2184B5" marginwidth=0 marginheight=0 topmargin=0 leftmargin=0 style="margin:0px">
+ <div id="popmenu" class="menuskin" onMouseover="clearhidemenu();highlightmenu(event,'on')" onMouseout="highlightmenu(event,'off');dynamichide(event)"></div>
+ <table border="0" cellpadding="4" cellspacing="0" width="100%" background="main_menubg.gif" class="tabs_three">
+  <tr>
+   <td width="5">&nbsp;</td>
+   <td width="95" nowrap>
+    <a href="#" onMouseover="linkmenu(event)" onMouseout="delayhidemenu()"><img src="h_emule.gif" alt="[eMuleAppName] | [WebControl]"><br>
+			[WebControl]</a>
+   </td>
+   <td width="5">&nbsp;</td>
+   <td width="9%" align="center" valign="top"><br>
+	<a href="?ses=[Session]&amp;w=transfer">
+			<img src="h_transfer.gif"><br>
+			[Transfer]
+    </a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+	<a href="?ses=[Session]&amp;w=kad">
+			<img src="h_kad.gif"><br>
+			[Kad]
+	</a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+	<a href="?ses=[Session]&amp;w=server">
+			<img src="h_server.gif"><br>
+			[Server]
+	</a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+	<a href="?ses=[Session]&amp;w=search">
+			<img src="h_search.gif"><br>
+			[Search]
+	</a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+	<a href="?ses=[Session]&amp;w=shared">
+			<img src="h_shared.gif"><br>
+			[Shared]
+	</a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+	<a href="?ses=[Session]&amp;w=stats">
+			<img src="h_statistic.gif"><br>
+			[Stats]
+	</a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+    <a href="?ses=[Session]&amp;w=graphs">
+			<img src="h_graph.gif"><br>
+			[Graphs]
+    </a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+	<a href="?ses=[Session]&amp;w=options">
+			<img src="h_preferences.gif"><br>
+			[Options]
+	</a>
+   </td>
+
+   <td width="20">&nbsp;</td>
+
+   <td width="9%" align="center" valign="top"><br>
+	<a href="javascript:void(0)" onMouseover="adminmenu(event,'[admin]')" onMouseout="delayhidemenu()"><img src="l_options.gif" align="middle"><br>[WebOptions]</a>
+   </td>
+
+   <td>&nbsp;</td>
+   <td width="100" nowrap>
+	<img src="l_info.gif" align="middle"><a href="?ses=[Session]&amp;w=myinfo">&nbsp;&nbsp;[MyInfo]</a><br>
+	<img src="h_log.gif" align="middle"><a href="?ses=[Session]&amp;w=log#end">&nbsp;&nbsp;[Log]</a><br>
+	<img src="h_log.gif" align="middle"><a href="?ses=[Session]&amp;w=sinfo#end">&nbsp;&nbsp;[ServerInfo]</a><br>
+	<img src="h_log.gif" align="middle"><a href="?ses=[Session]&amp;w=debuglog#end">&nbsp;&nbsp;[DebugLog]</a>
+   </td>
+  </tr>
+ </table>
+
+<table border="0" cellpadding="2" cellspacing="0" width="100%" height="64">
+ <tr>
+  <td background="main_topbardarker.gif">
+   <table class="tabs_four" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td rowspan="2">&nbsp;</td>
+    <td nowrap height="25"><b>[Connection]:</b></td></tr>
+    <tr><td nowrap height="25"><b>[QuickStats]:</b></td></tr>
+   </table>
+  </td>
+  <td background="main_topbarseparator.gif" width="7">&nbsp;</td>
+
+  <td background="main_topbar.gif">
+   <table class="tabs_four" border="0" cellpadding="1" cellspacing="0" width="100%">
+    <tr>
+     <td><img src="[ConState].gif" align="left"> [ConText] &nbsp;&nbsp;(<img src="l_users.gif" align="middle"> [CurUsers]&nbsp;&nbsp;<img src="filetype_other.gif" align="middle"> [CurFiles])</td>
+     <td width="25%" nowrap><img src="h_kad.gif" width="16" height="16" align="left"> [KadConText]</td>
+     <td width="1%"></td>
+     <td width="14%" nowrap><img src="l_calendar.gif" align="middle">
+      <script language="javascript">
+       <!--
+        var d = new Date();
+        s = (d.getDate() < 10 ? "0" : "") + d.getDate() + "." + ((d.getMonth() + 1) < 10 ? "0" : "") + (d.getMonth() + 1) + "." + d.getFullYear()
+          + '<td width="14%" nowrap><img src="l_clock.gif" align="middle"> ' + d.getHours() + ":" + (d.getMinutes() < 10 ? "0" : "") + d.getMinutes() + ":" + (d.getSeconds() < 10 ? "0" : "") + d.getSeconds() + "<\/td>";
+        document.write(s);
+       //-->
+      </script>
+     </td>
+     <td></td>
+
+     <td width="17" align="right">
+      <script language="javascript">
+	   <!--
+	    if (timeoutID && timeout != 0)
+	      document.write('<img id="ImgToggleTimer" class="link" align="middle" src="l_timer.gif" onclick="ToggleTimer();">');
+	    else
+	      document.write('<img id="ImgToggleTimer" class="link" align="middle" src="l_timer_off.gif" onclick="ToggleTimer();">');
+	   //-->
+      </script>
+     </td>
+
+    </tr>
+   </table>
+   <table class="tabs_four" border="0" cellpadding="1" cellspacing="0" width="100%">
+    <tr>
+	 <td style="font-size:8pt">
+	  <img src="arrow_down.gif" align="left" hspace="3" vspace="4"> [Down]: [CurDownload] ([MaxDownload])
+	  <table width="125" border=1 class="percent_table" cellpadding=0 cellspacing=0 bordercolor="#005784" bgcolor="#99CCFF"><tr><td><img src="qs_down.jpg" width="[DownloadValue]%" height="8"></td></tr></table>
+	 </td>
+	 <td style="font-size:8pt">
+	  <img src="arrow_up.gif" align="left" hspace="3" vspace="4"> [Up]: [CurUpload] ([MaxUpload])
+	  <table width="125" border=1 class="percent_table" cellpadding=0 cellspacing=0 bordercolor="#005784" bgcolor="#99CCFF"><tr><td><img src="qs_up.jpg" width="[UploadValue]%" height="8"></td></tr></table>
+	 </td>
+	 <td style="font-size:8pt">
+	  <img src="l_con.gif" align="left" hspace="3" vspace="4"> [Con]: [CurConnection] ([MaxConnection])
+	  <table width="125" border=1 class="percent_table" cellpadding=0 cellspacing=0 bordercolor="#005784" bgcolor="#99CCFF"><tr><td><img src="qs_con.jpg" width="[ConnectionValue]%" height="8"></td></tr></table>
+	 </td>
+	 <td style="font-size:8pt">
+	  <img src="l_users.gif" align="left" hspace="3" vspace="4"> [Users]: [CurUsers] ([MaxUsers])
+	  <table width="125" border=1 class="percent_table" cellpadding=0 cellspacing=0 bordercolor="#005784" bgcolor="#99CCFF"><tr><td><img src="qs_user.jpg" width="[UserValue]%" height="8"></td></tr></table>
+	 </td>
+	 <td></td>
+    </tr>
+   </table>
+
+  </td>
+ </tr>
+</table>
+
+<script language="javascript">
+<!--
+/*************************************************************************
+	dw_tooltip.js
+	version date: Nov 2003
+	requires: dw_event.js and dw_viewport.js
+
+	This code is from Dynamic Web Coding at http://www.dyn-web.com/
+	Copyright 2003 by Sharon Paine
+	See Terms of Use at http://www.dyn-web.com/bus/terms.html
+	regarding conditions under which you may use this code.
+	This notice must be retained in the code as is!
+*************************************************************************/
+
+var Tooltip = {
+	followMouse:true,
+	offX:8,
+	offY:12,
+
+	ready:false,
+	t1:null,
+	t2:null,
+	tipID:"tipDiv",
+	tip:null,
+
+	init: function() {
+		if ( document.createElement && document.body && typeof document.body.appendChild != "undefined" ) {
+			var el = document.createElement("DIV");
+			el.className = "tooltip";
+			el.id = this.tipID;
+			document.body.appendChild(el);
+			this.ready = true;
+		}
+	},
+
+	show: function(e, msg) {
+		if (this.t1) clearTimeout(this.t1);
+		if (this.t2) clearTimeout(this.t2);
+		this.tip = document.getElementById( this.tipID );
+		// set up mousemove
+		if (this.followMouse)
+			dw_event.add( document, "mousemove", this.trackMouse, true );
+		this.writeTip("");  // for mac ie
+		this.writeTip(msg);
+		viewport.getAll();
+		this.positionTip(e);
+		this.t1 = setTimeout("document.getElementById('" + Tooltip.tipID + "').style.visibility = 'visible'",200);
+	},
+
+	writeTip: function(msg) {
+		if ( this.tip && typeof this.tip.innerHTML != "undefined" ) this.tip.innerHTML = msg;
+	},
+
+	positionTip: function(e) {
+		var x = e.pageX? e.pageX: e.clientX + viewport.scrollX;
+		var y = e.pageY? e.pageY: e.clientY + viewport.scrollY;
+
+		if ( x + this.tip.offsetWidth + this.offX > viewport.width + viewport.scrollX )
+			x = x - this.tip.offsetWidth - this.offX;
+		else
+			x = x + this.offX;
+		if ( y + this.tip.offsetHeight + this.offY > viewport.height + viewport.scrollY )
+			y = ( y - this.tip.offsetHeight - this.offY > viewport.scrollY )? y - this.tip.offsetHeight - this.offY : viewport.height + viewport.scrollY - this.tip.offsetHeight;
+		else
+			y = y + this.offY;
+		this.tip.style.left = x + "px"; this.tip.style.top = y + "px";
+	},
+
+	hide: function() {
+		if (this.t1) clearTimeout(this.t1);
+		if (this.t2) clearTimeout(this.t2);
+			this.t2 = setTimeout("document.getElementById('" + this.tipID + "').style.visibility = 'hidden'",200);
+		// release mousemove
+		if (this.followMouse)
+			dw_event.remove( document, "mousemove", this.trackMouse, true );
+		this.tip = null;
+	},
+
+	trackMouse: function(e) {
+		e = dw_event.DOMit(e);
+		Tooltip.positionTip(e);
+	}
+}
+
+Tooltip.init();
+
+/*************************************************************************
+	dw_event.js (version date Feb 2004)
+*************************************************************************/
+var dw_event = {
+	add: function(obj, etype, fp, cap) {
+		cap = cap || false;
+		if (obj.addEventListener) obj.addEventListener(etype, fp, cap);
+		else if (obj.attachEvent) obj.attachEvent("on" + etype, fp);
+	},
+
+	remove: function(obj, etype, fp, cap) {
+		cap = cap || false;
+		if (obj.removeEventListener) obj.removeEventListener(etype, fp, cap);
+		else if (obj.detachEvent) obj.detachEvent("on" + etype, fp);
+	},
+
+	DOMit: function(e) {
+		e = e? e: window.event;
+		e.tgt = e.srcElement? e.srcElement: e.target;
+
+		if (!e.preventDefault) e.preventDefault = function () { return false; }
+		if (!e.stopPropagation) e.stopPropagation = function () { if (window.event) window.event.cancelBubble = true; }
+
+		return e;
+	}
+}
+/*************************************************************************
+	dw_viewport.js (version date Nov 2003)
+*************************************************************************/
+viewport = {
+	getWinWidth: function () {
+		this.width = 0;
+		if (window.innerWidth)
+			this.width = window.innerWidth - 18;
+		else if (document.documentElement && document.documentElement.clientWidth)
+			this.width = document.documentElement.clientWidth;
+		else if (document.body && document.body.clientWidth)
+			this.width = document.body.clientWidth;
+	},
+
+	getWinHeight: function () {
+		this.height = 0;
+		if (window.innerHeight)
+			this.height = window.innerHeight - 18;
+		else if (document.documentElement && document.documentElement.clientHeight)
+			this.height = document.documentElement.clientHeight;
+		else if (document.body && document.body.clientHeight)
+			this.height = document.body.clientHeight;
+	},
+
+	getScrollX: function () {
+		this.scrollX = 0;
+		if (typeof window.pageXOffset == "number")
+			this.scrollX = window.pageXOffset;
+		else if (document.documentElement && document.documentElement.scrollLeft)
+			this.scrollX = document.documentElement.scrollLeft;
+		else if (document.body && document.body.scrollLeft)
+			this.scrollX = document.body.scrollLeft;
+		else if (window.scrollX) this.scrollX = window.scrollX;
+	},
+
+	getScrollY: function () {
+		this.scrollY = 0;
+		if (typeof window.pageYOffset == "number")
+			this.scrollY = window.pageYOffset;
+		else if (document.documentElement && document.documentElement.scrollTop)
+			this.scrollY = document.documentElement.scrollTop;
+		else if (document.body && document.body.scrollTop)
+			this.scrollY = document.body.scrollTop;
+		else if (window.scrollY)
+			this.scrollY = window.scrollY;
+	},
+
+	getAll: function () {
+		this.getWinWidth();
+		this.getWinHeight();
+		this.getScrollX();
+		this.getScrollY();
+	}
+}
+//-->
+</script>
+
+<script language="javascript">
+/*************************************************************************
+	This code is from Dynamic Web Coding at http://www.dyn-web.com/
+	Copyright 2003 by Sharon Paine
+	See Terms of Use at http://www.dyn-web.com/bus/terms.html
+	regarding conditions under which you may use this code.
+	This notice must be retained in the code as is!
+*************************************************************************/
+function doTooltip(e, msg) {
+	if ( typeof Tooltip != "undefined" && Tooltip.ready )
+		Tooltip.show(e, msg);
+}
+
+function hideTip() {
+	if ( typeof Tooltip != "undefined" && Tooltip.ready )
+		Tooltip.hide();
+}
+</script>
+
+<script language="javascript">
+<!--
+function ShowHide(id)
+{
+	var itm = null;
+	if (document.getElementById) {
+		itm = document.getElementById(id);
+	} else if (document.all) {
+		itm = document.all[id];
+	} else if (document.layers) {
+		itm = document.layers[id];
+	}
+
+	if (!itm) {
+		// do nothing
+	} else if (itm.style) {
+		if (itm.style.display == "none") {
+			itm.style.display = "";
+		} else {
+			itm.style.display = "none";
+		}
+	} else {
+		itm.visibility = "show";
+	}
+}
+//-->
+</script>
+
+<div id=ed2k_open style="DISPLAY:none; Z-INDEX:2">
+<table align=center border=0 cellpadding=4 cellspacing=0 width="80%">
+ <tr>
+  <td align=center class="shared-header" style="background-color:#000000">
+   <p><font face="Tahoma" style="font-size:8pt;"><b>[Ed2klink]</b></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td align=center valign=top class=tabs>
+   <br>
+   <form action="" method="GET">
+     <input type="hidden" name="ses" value="[Session]">
+     <input type="hidden" name="w" value="transfer">
+     <textarea name="ed2k" cols="94" rows="7" class="dinput"></textarea>
+     <br><br><input type="submit" value="[Start]">[CATBOXED2K]
+   </form>
+   <br><br>
+  </td>
+ </tr>
+</table>
+</div>
+<--TMPL_HEADER_END-->
+
+
+<-- ################################################################# -->
+<-- ######################## STYLE SHEETS ########################### -->
+<-- ################################################################# -->
+
+
+<--TMPL_HEADER_STYLESHEET-->
+<style>
+img
+{
+border:0px;
+}
+img.link
+{
+cursor:pointer;
+}
+form
+{
+display:inline;
+}
+a:active, a:link, a:visited
+{
+color:white;
+text-decoration:none;
+}
+a:hover
+{
+color:#FFC412;
+text-decoration:none;
+}
+.down-line-downloading a:hover
+{
+color:#FFC412;
+text-decoration:none;
+}
+.down-header, .down-header-left, .down-header-right,
+.down-line-hashing, .down-line-hashing-left, .down-line-hashing-right,
+.down-line-waitinghash, .down-line-waitinghash-left, .down-line-waitinghash-right,
+.down-line-error, .down-line-error-left, .down-line-error-right,
+.down-line-stalled, .down-line-stalled-left, .down-line-stalled-right,
+.down-line-complete, .down-line-complete-left, .down-line-complete-right,
+.down-line-completing, .down-line-completing-left, .down-line-completing-right,
+.down-line-waiting, .down-line-waiting-left, .down-line-waiting-right,
+.down-line-paused, .down-line-paused-left, .down-line-paused-right,
+.down-line-stopped, .down-line-stopped-left, .down-line-stopped-right,
+.down-line-downloading, .down-line-downloading-left, .down-line-downloading-right,
+.up-header, .up-header-left,
+.up-line-uploading, .up-line-uploading-left,
+.up-line-connecting, .up-line-connecting-left,
+.server-header, .server-header-left,
+.server-line-disconnected, .server-line-disconnected-left,
+.server-line-high, .server-line-high-left,
+.server-line-low, .server-line-low-left,
+.server-line-connecting, .server-line-connecting-left,
+.server-line-failed, .server-line-failed-left,
+.shared-header, .shared-header-left,
+.shared-line-file, .shared-line-file-left,
+.shared-line-filedown, .shared-line-filedown-left,
+.header, .smallheader, .commontext,
+.upqueue-header, .upqueue-header-left,
+.upqueue-none-line, .upqueue-none-line-left,
+.upqueue-banned-line, .upqueue-banned-line-left,
+.upqueue-friend-line, .upqueue-friend-line-left,
+.upqueue-credit-line, .upqueue-credit-line-left,
+.upqueue-next-line, .upqueue-next-line-left,
+.search-header, .search-header-left, .search-header-right, .search-main, .search-line, .search-line-left, .search-line-right,
+.addserver-header, .addserver-line
+{
+font-family:Tahoma;
+font-size:8pt;
+}
+.tabs
+{
+font-family:Tahoma;
+font-size:8pt;
+background-color:#1F76A5;
+}
+.tabs_two
+{
+font-family:Tahoma;
+font-size:8pt;
+background-color:#0075B3;
+}
+.tabs_three
+{
+font-family:Tahoma;
+font-size:10pt;
+font-weight:bold;
+}
+.tabs_four
+{
+font-family:Tahoma;
+font-size:8pt;
+}
+.tabs_five
+{
+font-family:Tahoma;
+font-size:8pt;
+background-color:#005784;
+}
+.down-header, .down-line-hashing, .down-line-waitinghash, .down-line-error, .down-line-stalled, .down-line-complete, .down-line-completing, .down-line-waiting, .down-line-paused, .down-line-stopped, .down-line-downloading,
+.up-header, .up-line-connecting, .up-line-uploading,
+.server-header, .server-line-disconnected, .server-line-high, .server-line-low, .server-line-connecting, .server-line-failed,
+.shared-header, .shared-line-file, .shared-line-filedown,
+.upqueue-header, .upqueue-none-line, .upqueue-banned-line, .upqueue-friend-line, .upqueue-credit-line, .upqueue-next-line,
+.search-header, .search-line, .addserver-header, .addserver-line
+{
+text-align:center;
+}
+.down-header-left, .down-line-hashing-left, .down-line-waitinghash-left, .down-line-error-left, .down-line-stalled-left, .down-line-complete-left, .down-line-completing-left, .down-line-waiting-left, .down-line-paused-left, .down-line-stopped-left, .down-line-downloading-left,
+.up-header-left, .upqueue-header-left, .up-line-uploading-left, .up-line-connecting-left,
+.server-header-left, .server-line-disconnected-left, .server-line-high-left, .server-line-low-left, .server-line-connecting-left, .server-line-failed-left, .shared-header-left,
+.shared-line-file-left, .shared-line-filedown-left,
+.upqueue-none-line-left, .upqueue-banned-line-left, .upqueue-friend-line-left, .upqueue-credit-line-left, .upqueue-next-line-left,
+.search-line-left, .search-header-left, .search-main
+{
+text-align:left;
+}
+.down-header-right, .down-line-hashing-right, .down-line-waitinghash-right, .down-line-error-right, .down-line-stalled-right, .down-line-complete-right, .down-line-completing-right, .down-line-waiting-right, .down-line-paused-right, .down-line-stopped-right, .down-line-downloading-right, .search-line-right, .search-header-right
+{
+text-align:right;
+}
+.down-header, .down-header-left, .down-header-right,
+.up-header, .up-header-left, .server-header, .server-header-left,
+.shared-header, .shared-header-left, .upqueue-header, .upqueue-header-left,
+.addserver-header, .search-header, .search-header-left, .search-header-right
+{
+background-color:#005784;
+}
+.search-main
+{
+background-color:#000000;
+}
+.header
+{
+background-color:#0046AC;
+}
+.smallheader
+{
+background-color:#003C6E;
+color:#FFFFFF;
+}
+.commontext
+{
+background-color:#FFFFFF;
+color:#000000;
+}
+.down-line-hashing, .down-line-waitinghash, .down-line-error, .down-line-stalled, .down-line-complete, .down-line-completing, .down-line-waiting, .down-line-paused, .down-line-stopped, .down-line-downloading,
+.down-line-hashing-left, .down-line-waitinghash-left, .down-line-error-left, .down-line-stalled-left, .down-line-complete-left, .down-line-completing-left, .down-line-waiting-left, .down-line-paused-left, .down-line-stopped-left, .down-line-downloading-left,
+.down-line-hashing-right, .down-line-waitinghash-right, .down-line-error-right, .down-line-stalled-right, .down-line-complete-right, .down-line-completing-right, .down-line-waiting-right, .down-line-paused-right, .down-line-stopped-right, .down-line-downloading-right,
+.up-line-connecting, .up-line-connecting-left, .up-line-uploading, .up-line-uploading-left,
+.server-line-disconnected, .server-line-disconnected-left,
+.server-line-high, .server-line-high-left,
+.server-line-low, .server-line-low-left,
+.server-line-connecting, .server-line-connecting-left,
+.server-line-failed, .server-line-failed-left,
+.shared-line-file, .shared-line-file-left,
+.shared-line-filedown, .shared-line-filedown-left,
+.upqueue-none-line, .upqueue-none-line-left,
+.upqueue-banned-line, .upqueue-banned-line-left,
+.upqueue-friend-line, .upqueue-friend-line-left,
+.upqueue-credit-line, .upqueue-credit-line-left,
+.upqueue-next-line, .upqueue-next-line-left,
+.search-line, .search-line-left, .search-line-right, .addserver-line
+{
+background-color:#1F76A5;
+}
+.down-line-waiting a:active, .down-line-waiting a:link, .down-line-waiting a:visited,
+.shared-line-file a:active, .shared-line-file a:link, .shared-line-file a:visited,
+.server-line-disconnected a:active, .server-line-disconnected a:link, .server-line-disconnected a:visited
+{
+color:#ffffff;
+}
+.server-line-high, .server-line-high-left, .server-line-high a:active, .server-line-high a:link, .server-line-high a:visited,
+.upqueue-friend-line, .upqueue-friend-line-left,
+.up-line-uploading, .up-line-uploading-left,
+.down-line-downloading, .down-line-downloading-left, .down-line-downloading-right, .down-line-downloading a:link, .down-line-downloading a:active, .down-line-downloading a:visited
+{
+color:#00ff00;
+}
+.server-line-low, .server-line-low-left, .server-line-low a:active, .server-line-low a:link, .server-line-low a:visited,
+.upqueue-credit-line, .upqueue-credit-line-left,
+.down-line-hashing, .down-line-hashing-left, .down-line-hashing-right, .down-line-hashing a:active, .down-line-hashing a:link, .down-line-hashing a:visited
+{
+color:#ffff00;
+}
+.down-line-waitinghash, .down-line-waitinghash-left, .down-line-waitinghash-right, .down-line-waitinghash a:active, .down-line-waitinghash a:link, .down-line-waitinghash a:visited
+{
+color:#feff89;
+}
+.server-line-connecting, .server-line-connecting-left, .server-line-connecting a:active, .server-line-connecting a:link, .server-line-connecting a:visited,
+.down-line-complete, .down-line-complete-left, .down-line-complete-right, .down-line-complete a:active, .down-line-complete a:link, .down-line-complete a:visited
+{
+color:#1D3445;
+}
+.down-line-completing, .down-line-completing-left, .down-line-completing-right, .down-line-completing a:active, .down-line-completing a:link, .down-line-completing a:visited
+{
+color:#2D4F69;
+}
+.upqueue-banned-line, .upqueue-banned-line-left,
+.down-line-error, .down-line-error-left, .down-line-error-right, .down-line-error a:active, .down-line-error a:link, .down-line-error a:visited
+{
+color:#FF4040;
+}
+.upqueue-next-line, .upqueue-next-line-left,
+.down-line-stalled, .down-line-stalled-left, .down-line-stalled-right, .down-line-stalled a:active, .down-line-stalled a:link, .down-line-stalled a:visited
+{
+color:#FFC412;
+}
+.down-line-paused, .down-line-paused-left, .down-line-paused-right, .down-line-paused a:active, .down-line-paused a:link, .down-line-paused a:visited,
+.shared-line-filedown, .shared-line-filedown-left, .shared-line-filedown a:active, .shared-line-filedown a:link, .shared-line-filedown a:visited,
+.server-line-failed, .server-line-failed-left,  .server-line-failed a:active, .server-line-failed a:link, .server-line-failed a:visited
+{
+color:#C1C1C1;
+}
+.down-line-stopped, .down-line-stopped-left, .down-line-stopped-right, .down-line-stopped a:active, .down-line-stopped a:link, .down-line-stopped a:visited
+{
+color:#A0A0A0;
+}
+.percent_table
+{
+border:0px solid #000000;
+border-collapse:collapse;
+}
+.message
+{
+font-family:Tahoma;
+font-size:8pt;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#005784;
+}
+.dinput
+{
+border-width:1px;
+border-color:black;
+border-style:dotted;
+}
+.fdown
+{
+font-weight:bold;
+color:#CC0000;
+}
+.fok
+{
+font-weight:bold;
+color:#CCFFCC;
+}
+.menuskin
+{
+position:absolute;
+background-color:#005784;
+border:1px solid black;
+line-height:18px;
+font:normal 12px Tahoma;
+z-index:100;
+visibility:hidden;
+}
+.menuskin a
+{
+text-decoration:none;
+color:white;
+}
+.menuimages
+{
+background-color:#003C6E;
+border:2px #003C6E solid;
+vertical-align:middle;
+}
+.menuchecked
+{
+background-color:#005784;
+border:2px #005784 solid;
+vertical-align:middle;
+}
+#mouseoverstyle
+{
+background-color:#003C6E;
+}
+#mouseoverstyle .menuchecked
+{
+background-color:#003C6E;
+border:2px #003C6E solid;
+}
+/* Tooltip customization */
+div#tipDiv
+{
+position:absolute; visibility:hidden; left:0; top:0; z-index:10000;
+background-color:#005784; border:1px solid #000000;
+width:400px; padding:4px;
+font-family:Tahoma, Verdana, Arial;
+color:#FFFFFF; font-size:8pt; line-height:1.2;
+}
+</style>
+<--TMPL_HEADER_STYLESHEET_END-->
+
+
+<--TMPL_FOOTER-->
+</body>
+</html>
+<--TMPL_FOOTER_END-->
+
+
+<-- ################################################################# -->
+<-- ######################## SERVER LIST ############################ -->
+<-- ################################################################# -->
+
+
+<--TMPL_SERVER_LIST-->
+<table border=0 cellpadding=4 cellspacing=0 align=center width="95%">
+ <tr>
+  <td align=center valign=middle>
+   [AddServerBox]
+  </td>
+ </tr>
+</table>
+
+<table border=0 align=center cellpadding=2 cellspacing=0 width="100%">
+ <tr>
+  <td class="smallheader" colspan=12 style="background-color:#000000"><b><img src="l_server.gif" align="middle">&nbsp;<a href="#" onMouseover="columnmenu(event,'server','menu','[ServernameM]','[ServernameH]','[AddressM]','[AddressH]','[DescriptionM]','[DescriptionH]','[PingM]','[PingH]','[UsersM]','[UsersH]','[FilesM]','[FilesH]','[PriorityM]','[PriorityH]','[FailedM]','[FailedH]','[LimitM]','[LimitH]','[VersionM]','[VersionH]','','')" onMouseout="delayhidemenu()">[ServerList]</a></b></td>
+ </tr>
+ <tr>
+  <td valign=middle class="server-header-left" nowrap>
+   &nbsp;
+	<a href="?ses=[Session]&amp;w=server&amp;sort=state[SortState]"><b>&times;</b></a>
+   &nbsp;
+	<a href="?ses=[Session]&amp;w=server&amp;sort=name[SortName]"><b>[ServernameH][ServernameI]</b></a>
+  </td>
+  <td valign=middle class="server-header"><a href="?ses=[Session]&amp;w=server&amp;sort=ip[SortIP]"><b>[AddressH][AddressI]</b></a></td>
+  <td valign=middle class="server-header"><a href="?ses=[Session]&amp;w=server&amp;sort=description[SortDescription]"><b>[DescriptionH][DescriptionI]</b></a></td>
+  <td valign=middle class="server-header"><a href="?ses=[Session]&amp;w=server&amp;sort=ping[SortPing]"><b>[PingH][PingI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=users[SortUsers]"><b>[UsersH][UsersI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=files[SortFiles]"><b>[FilesH][FilesI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=priority[SortPriority]"><b>[PriorityH][PriorityI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=failed[SortFailed]"><b>[FailedH][FailedI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=limit[SortLimit]"><b>[LimitH][LimitI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=version[SortVersion]"><b>[VersionH][VersionI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt">&nbsp;</td>
+ </tr>
+[ServersList]
+</table>
+
+<--TMPL_SERVER_LIST_END-->
+
+
+<--TMPL_SERVER_LINE-->
+<tr>
+ <td valign=middle class="server-line-[ServerState]-left"><table cellspacing="0" cellpadding="0" border="0" valign=middle class="server-line-[ServerState]-left"><tr><td background="[ServerState].gif" width="16" height="16" style="background-position:center;background-repeat:no-repeat"><a href="#" onMouseover="servermenu(event,'[admin]','[ed2k]','[session]','[ip]','[port]','[isstatic]')" onMouseout="delayhidemenu()"><img src="is_[ServerType].gif"></a></td><td>&nbsp;</td><td>[Servername]</td></tr></table></td>
+ <td valign=middle class="server-line-[ServerState]">[Address]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt">[Description]</td>
+ <td valign=middle class="server-line-[ServerState]">[Ping]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt">[Users]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt">[Files]</td>
+ <td valign=middle class="server-line-[ServerState]"><a href="#" onMouseover="serverpriomenu(event,'[admin]','[session]','[ip]','[port]','[server-priority]')" onMouseout="delayhidemenu()">[Priority]</a></td>
+ <td valign=middle class="server-line-[ServerState]">[Failed]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt">[Limit]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt">[Version]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt"><img src="[LastChangedDataset].gif"></td>
+</tr>
+<--TMPL_SERVER_LINE_END-->
+
+<-- ################################################################# -->
+<-- ####################### ADD SERVER BOX ########################## -->
+<-- ################################################################# -->
+
+
+
+
+<--TMPL_ADDSERVERBOX-->
+<script Language="JavaScript">
+function obj(menu) {
+	return (navigator.appName == "Microsoft Internet Explorer")?this[menu]:document.getElementById(menu);
+}
+function searchange1() {
+	obj("manual").style.display="none";
+	obj("manualtag").style.background="#000000";
+	obj("server").style.display="none";
+	obj("servertag").style.background="#000000";
+	obj("prefs").style.display="";
+	obj("prefstag").style.background="#005784";
+}
+function searchange2() {
+	obj("manual").style.display="none";
+	obj("manualtag").style.background="#000000";
+	obj("server").style.display="";
+	obj("servertag").style.background="#005784";
+	obj("prefs").style.display="none";
+	obj("prefstag").style.background="#000000";
+
+}
+function searchange3() {
+	obj("manual").style.display="";
+	obj("manualtag").style.background="#005784";
+	obj("server").style.display="none";
+	obj("servertag").style.background="#000000";
+	obj("prefs").style.display="none";
+	obj("prefstag").style.background="#000000";
+}
+</script>
+
+<br>
+<table border=0 cellpadding=4 cellspacing=0 width="100%">
+ <tr>
+  <td class="search-main" ID="prefstag" align="center" style="background:#005784" nowrap><img src="l_connect.gif" align="middle">&nbsp;<b><a href="javascript:searchange1()">[ServerOptions]</a></b>&nbsp;</td>
+  <td class="search-main" ID="servertag" align="center" nowrap><img src="l_search.gif" align="middle">&nbsp;<b><a href="javascript:searchange2()">[UpdateServerMetFromURL]</a></b>&nbsp;</td>
+  <td class="search-main" ID="manualtag" align="center" nowrap><img src="l_search.gif" align="middle">&nbsp;<b><a href="javascript:searchange3()">[AddServer]</a></b>&nbsp;</td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td class="search-line" colspan="4">
+   <form ID="prefs" action="" method="GET" style="display:;">
+    <table border=0 cellpadding=4 cellspacing=0 align="left" width="50%">
+     <tr>
+      <td>
+       &nbsp;
+       <input type="button" value="[Connect]" onclick="window.location.href='[URL_Connect]'">
+       &nbsp;
+       <input type="button" value="[Disconnect]" onclick="window.location.href='[URL_Disconnect]'">
+      </td>
+     </tr>
+    </table>
+   </form>
+   <form ID="manual" action="" method="GET" style="display:none;">
+    <table border=0 cellpadding=4 cellspacing=0 align="left" width="50%">
+     <tr>
+      <td class="tabs">[IP]</td>
+      <td><input name="serveraddr" type="text" size="15"></td>
+     </tr>
+     <tr>
+      <td class="tabs">[Port]</td>
+      <td><input name="serverport" type="text" size="6"></td>
+     </tr>
+     <tr>
+      <td class="tabs">[Name]</td>
+      <td><input name="servername" type="text" size="30"></td>
+     </tr>
+     <tr>
+      <td class="tabs">[Static]</td>
+      <td><input type="checkbox" name="addtostatic" value="true"></td>
+     </tr>
+     <tr>
+      <td class="tabs">[ConnectNow]</td>
+      <td><input type="checkbox" name="connectnow" value="true"></td>
+     </tr>
+     <tr>
+      <td class="tabs">[Priority]</td>
+      <td>
+       <select name="priority">
+       <option value="low">[Low]</option>
+       <option value="normal">[Normal]</option>
+       <option value="high">[High]</option>
+       </select>
+      </td>
+     </tr>
+     <tr>
+      <td valign="bottom">
+       <input type="hidden" name="ses" value="[Session]">
+       <input type="hidden" name="w" value="server">
+       <input type="hidden" name="c" value="options">
+       <input name="addserver" type="hidden" value="true">
+       <input type="submit" value="[Add]">
+      </td>
+      <td>&nbsp;</td>
+     </tr>
+    </table>
+   </form>
+   <form ID="server" action="" method="GET" style="display:none;">
+    <table border=0 cellpadding=4 cellspacing=0>
+     <tr>
+      <td class="tabs">[IP]&nbsp;&nbsp;&nbsp;
+      <input name="servermeturl" type="text" size="30">
+       <input type="hidden" name="ses" value="[Session]">
+       <input type="hidden" name="w" value="server">
+       <input type="hidden" name="c" value="options">
+       <input name="updateservermetfromurl" type="hidden" value="true">
+       &nbsp;&nbsp;
+       <input type="submit" value="[Apply]">
+      </td>
+     </tr>
+    </table>
+   </form>
+  </td>
+ </tr>
+</table>
+<div class="message">[Message]</div>
+<br>
+<--TMPL_ADDSERVERBOX_END-->
+
+
+
+<-- ################################################################# -->
+<-- ######################### TRANSFER ############################## -->
+<-- ################################################################# -->
+
+<--TMPL_TRANSFER_IMAGES-->
+&nbsp;
+<--TMPL_TRANSFER_IMAGES_END-->
+
+
+<--PROGRESSBARWIDTH-->
+350
+<--PROGRESSBARWIDTH_END-->
+
+
+<--PROGRESSBARIMGS-->
+<img src="[PROGRESSGIFNAME]" height=13 width=[PROGRESSGIFINTERNAL]>
+<--PROGRESSBARIMGS_END-->
+
+
+<--PROGRESSBARPERCENTIMG-->
+<img src="[PROGRESSGIFNAME]" height=3 width=[PROGRESSGIFINTERNAL]>
+<--PROGRESSBARPERCENTIMG_END-->
+
+<--TMPL_CATARROW-->
+&nbsp;&nbsp;&nbsp;<img src="l_catarrow.gif" align="top">&nbsp;&nbsp;&nbsp;
+<--TMPL_CATARROW_END-->
+
+
+<--TMPL_DOWNARROW-->
+&nbsp;<img src="l_downarrow.gif" align="middle">
+<--TMPL_DOWNARROW_END-->
+
+
+<--TMPL_UPARROW-->
+&nbsp;<img src="l_uparrow.gif" align="middle">
+<--TMPL_UPARROW_END-->
+
+
+<--TMPL_DNDOUBLEARROW-->
+&nbsp;<img src="l_dndoublearrow.gif" align="middle">
+<--TMPL_DNDOUBLEARROW_END-->
+
+
+<--TMPL_UPDOUBLEARROW-->
+&nbsp;<img src="l_updoublearrow.gif" align="middle">
+<--TMPL_UPDOUBLEARROW_END-->
+
+
+<--TMPL_TRANSFER_LIST-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="95%">
+<tr>
+ <td align=center valign=middle>
+[DownloadHeader]
+[DownloadFilesList]
+[DownloadFooter]
+&nbsp;
+[UploadHeader]
+[UploadFilesList]
+[UploadFooter]
+&nbsp;
+[UploadQueue]
+[UploadQueueFriend]
+[UploadQueueBanned]
+</table>
+ </td>
+</tr>
+</table>
+<--TMPL_TRANSFER_LIST_END-->
+
+
+<--TMPL_TRANSFER_DOWN_HEADER-->
+<script language="JavaScript">
+<!--
+function GotoCat(cat) {
+	var loc= window.location.href;
+	var pos= loc.indexOf("cat=");
+
+	if (pos>1) {
+		if (loc.substr(pos-1,1)=="&") pos--;
+		var subs=loc.substr(pos+3,256);
+		var pos2=subs.indexOf("&");
+		if (pos2==-1) pos2=loc.length;
+		pos2 += pos+3;
+		var t1=loc.substring(0,pos);
+		var t2=loc.substring(pos2+1,loc.length );
+		loc=t1+t2;
+	}
+	window.location.href=loc+"&amp;cat="+cat;
+}
+//-->
+</script>
+
+<table border=0 align=center cellpadding=2 cellspacing=0 width="100%" bgcolor="#99CCFF">
+ <tr>
+  <td class="smallheader" colspan="5" style="background-color:#000000"><img src="arrow_down.gif" align="middle">&nbsp;<b><a href="#" onMouseover="columnmenu(event,'transfer','menudown','[DFilenameM]','[DFilename]','[DSizeM]','[DSize]','[DTransferredM]','[DTransferred]','[DProgressM]','[DProgress]','[DSpeedM]','[DSpeed]','[DSourcesM]','[DSources]','[DPriorityM]','[DPriority]','[DCategoryM]','[DCategory]','','','','','','')" onMouseout="delayhidemenu()">[DownloadList]</a>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="l_showcat.gif" align="bottom">&nbsp;
+   <a href="#" onMouseover="showmenu(event,'[CatBox]')" onMouseout="delayhidemenu()"><img src="m_category.gif" align="middle">&nbsp;&nbsp;&nbsp;[Category]</b></a>
+  </td>
+  <td class="smallheader" colspan="5" style="background-color:#000000" align="right"><a href="?ses=[Session]&amp;w=transfer&amp;clearcompleted=all"><img src="m_clearcompleted.gif" align="middle"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onMouseover="catpriomenu(event,'[admin]','[Session]')" onMouseout="delayhidemenu()"><img src="m_catprio.gif" align="middle"></a></td>
+ </tr>
+ <tr>
+  <td valign=middle class="down-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="down-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dstate[SortDState]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dtype[SortDType]"><b>&times;</b></a></td><td>&nbsp;</td><td><a href="?ses=[Session]&amp;w=transfer&amp;sort=dname[SortDName]"><b>[DFilename][DFilenameI]</b></a></td></tr></table></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dsize[SortDSize]"><b>[DSize][DSizeI]</b></a></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dtransferred[SortDTransferred]"><b>[DTransferred][DTransferredI]</b></a></td>
+  <td valign=middle class="down-header"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dprogress[SortDProgress]"><b>[DProgress][DProgressI]</b></a></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dspeed[SortDSpeed]"><b>[DSpeed][DSpeedI]</b></a></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dsources[SortDSources]"><b>[DSources][DSourcesI]</b></a></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dpriority[SortDPriority]"><b>[DPriority][DPriorityI]</b></a></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dcategory[SortDCategory]"><b>[DCategory][DCategoryI]</b></a></td>
+  <td valign=middle class="down-header">&nbsp;</td>
+ </tr>
+<--TMPL_TRANSFER_DOWN_HEADER_END-->
+
+<--TMPL_TRANSFER_DOWN_FOOTER-->
+ <tr>
+  <td valign=middle class="down-header-left" style="font-size:7.5pt"><b>[TotalDown]</b></td>
+  <td valign=middle class="down-header-right" nowrap style="font-size:7.5pt"><b>[TotalDownSize]</b></td>
+  <td valign=middle class="down-header-right" nowrap style="font-size:7.5pt"><b>[TotalDownTransferred]</b></td>
+  <td valign=middle class="down-header">&nbsp;</td>
+  <td valign=middle class="down-header-right" nowrap style="font-size:7.5pt"><b>[TotalDownSpeed]</b></td>
+  <td valign=middle class="down-header-right" colspan="5" style="font-size:7.5pt"><b>[TotalFiles]</b></td>
+ </tr>
+</table>
+<--TMPL_TRANSFER_DOWN_FOOTER_END-->
+
+
+<--TMPL_TRANSFER_DOWN_LINE-->
+ <tr>
+  <td valign=top class="down-line-[DownState]-left" nowrap><table cellspacing="0" cellpadding="0" border="0" valign=top class="down-line-[DownState]-left">
+  <tr><td>
+  <a href="#" onMouseover="downmenu(event,'[admin]','[finfo]','[ed2k]','[DownState]','[isgetflc]','[fname]','[session]','[filehash]','[fcomments]','[downloadable]')" onMouseout="delayhidemenu()">
+  <img src="t_[DownState].gif"></a>
+  </td>
+  <td>&nbsp;</td>
+  <td background="filetype_[FileType].gif" width="16" height="16" style="background-position:center;background-repeat:no-repeat">
+  <img src="is_half[FileCommentIcon].gif"></td><td>&nbsp;</td><td onMouseover="doTooltip(event, this.firstChild.innerHTML)" onMouseout="hideTip()"><div style="display:none;">[FileInfo]</div>[ShortFileName]</td></tr></table></td>
+  <td valign=top class="down-line-[DownState]-right" nowrap style="font-size:7.5pt">[2]</td>
+  <td valign=top class="down-line-[DownState]-right" nowrap>[3]</td>
+  <td valign=middle class="down-line-[DownState]" width=[PROGRESSBARWIDTHVAL]><table width=[PROGRESSBARWIDTHVAL] height=11 border=1 class="percent_table" cellpadding=0 cellspacing=0 bordercolor="#000000"><tr><td>[DownloadBar]</td></tr></table></td>
+  <td valign=top class="down-line-[DownState]-right" nowrap>[4]</td>
+  <td valign=top class="down-line-[DownState]" nowrap style="font-size:7.5pt">[5]</td>
+  <td valign=top class="down-line-[DownState]" nowrap style="font-size:7.5pt"><a href="#" onMouseover="downpriomenu(event,'[admin]','[session]','[filehash]','[down-priority]','[DownState]')" onMouseout="delayhidemenu()">[PrioVal]</a></td>
+  <td valign=top class="down-line-[DownState]" style="font-size:7.5pt"><a href="#" onMouseover="showmenu(event,'[SetCatBox]','[DownState]')" onMouseout="delayhidemenu()">[Category]</a></td>
+  <td valign=top class="down-line-[DownState]" width="9" style="font-size:7.5pt"><img src="[LastChangedDataset].gif"></td>
+ </tr>
+ <tr>
+  <td colspan="10" bgcolor="#005784" height="1"></td>
+ </tr>
+<--TMPL_TRANSFER_DOWN_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_HEADER-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="100%">
+ <tr>
+  <td class="smallheader" colspan="6" style="background-color:#000000"><img src="arrow_up.gif" align="middle">&nbsp;<b><a href="#" onMouseover="columnmenu(event,'transfer','menuup','[UUserM]','[UUser]','[UVersionM]','[UVersion]','[UFilenameM]','[UFilename]','[UTransferredM]','[UTransferred]','[USpeedM]','[USpeed]','','','','','','','','','','','','')" onMouseout="delayhidemenu()">[UploadList]</a></b></td>
+ </tr>
+ <tr>
+  <td class="up-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="up-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=uspeed[SortUSpeed]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=uclient[SortUClient]"><b>&times;</b></a></td><td>&nbsp;</td><td><a href="?ses=[Session]&amp;w=transfer&amp;sort=uuser[SortUUser]"><b>[UUser][UUserI]</b></a></td></tr></table></td>
+  <td class="up-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=uversion[SortUVersion]"><b>[UVersion][UVersionI]</b></a></td>
+  <td class="up-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=ufilename[SortUFilename]"><b>[UFilename][UFilenameI]</b></a></td>
+  <td class="up-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=utransferred[SortUTransferred]"><b>[UTransferred][UTransferredI]</b></a></td>
+  <td class="up-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=uspeed[SortUSpeed]"><b>[USpeed][USpeedI]</b></a></td>
+ </tr>
+<--TMPL_TRANSFER_UP_HEADER_END-->
+
+
+<--TMPL_TRANSFER_UP_FOOTER-->
+ <tr>
+  <td class="up-header-left" style="font-size:7.5pt"><b>[TotalUp]</b></td>
+  <td class="up-header"></td>
+  <td class="up-header"></td>
+  <td class="up-header" style="font-size:7.5pt"><b>[TotalUpTransferred]</b></td>
+  <td class="up-header" style="font-size:7.5pt"><b>[TotalUpSpeed]</b></td>
+ </tr>
+</table>
+<--TMPL_TRANSFER_UP_FOOTER_END-->
+
+
+<--TMPL_TRANSFER_UP_LINE-->
+ <tr>
+  <td valign=top class="up-line-[ClientState]-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="up-line-[ClientState]-left"><tr><td><img src="t_[ClientState].gif"></td><td>&nbsp;</td>
+  <td background="ct_[ClientSoft].gif" style="background-position:center;background-repeat:no-repeat"><a href="#" onMouseover="upmenu(event,'[admin]','[ClientExtra]','[UserHash]')" onMouseout="delayhidemenu()"><img src="is_[ClientExtra].gif"></a></td><td>&nbsp;</td><td onMouseover="doTooltip(event, this.firstChild.innerHTML)" onMouseout="hideTip()"><div style="display:none;">[FileInfo]</div><acronym>[1]</acronym></td></tr></table></td>
+  <td valign=top class="up-line-[ClientState]-left" style="font-size:7.5pt" onMouseover="doTooltip(event, this.firstChild.innerHTML)" onMouseout="hideTip()"><div style="display:none;">[FileInfo]</div><acronym>[ClientSoftV]</acronym></td>
+  <td valign=top class="up-line-[ClientState]-left" style="font-size:7.5pt" onMouseover="doTooltip(event, this.firstChild.innerHTML)" onMouseout="hideTip()"><div style="display:none;">[FileInfo]</div><acronym>[2]</acronym></td>
+  <td valign=top class="up-line-[ClientState]" style="font-size:7.5pt">[3]</td>
+  <td valign=top class="up-line-[ClientState]" style="font-size:7.5pt">[4]</td>
+ </tr>
+<--TMPL_TRANSFER_UP_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_SHOW-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="100%">
+ <tr>
+  <td class="smallheader" style="background-color:#000000"><img src="arrow_up_q.gif" align="middle">&nbsp;<b><a href="#" onMouseover="columnmenu(event,'transfer','menuqueue','[UserNameTitleM]','[UserNameTitle]','[VersionM]','[Version]','[FileNameTitleM]','[FileNameTitle]','[ScoreTitleM]','[ScoreTitle]','','','','','','','','','','','','','','')" onMouseout="delayhidemenu()">[ShowUploadQueue]</a></b></td>
+  <td class="smallheader" colspan="4" align="right" style="background-color:#000000"><b>[CounterAll] ([CounterAllSecure])</b></td>
+ </tr>
+ <tr>
+  <td class="smallheader"><a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueue=false"><img src="l_remove.gif" align="middle"></a>&nbsp;&nbsp;<b>[UploadQueueList]</b></td>
+  <td class="smallheader" colspan="4" align="right"><b>[CounterQueue] ([CounterQueueSecure])</b></td>
+ </tr>
+ <tr>
+  <td class="upqueue-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscore[SortQScore]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qclient[SortQClient]"><b>&times;</b></a></td><td>&nbsp;</td><td><a href="?ses=[Session]&amp;w=transfer&amp;sort=quser[SortQUser]"><b>[UserNameTitle][UserNameTitleI]</b></a></td></tr></table></td>
+  <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qversion[SortQVersion]"><b>[Version][VersionI]</b></a></td>
+  <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qfilename[SortQFilename]"><b>[FileNameTitle][FileNameTitleI]</b></a></td>
+  <td class="upqueue-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscore[SortQScore]"><b>[ScoreTitle][ScoreTitleI]</b></a></td>
+  <td class="upqueue-header">&nbsp;</td>
+ </tr>
+[QueueList]
+<--TMPL_TRANSFER_UP_QUEUE_SHOW_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_SHOW-->
+ <tr>
+  <td class="smallheader"><a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueuefriend=false"><img src="l_remove.gif" align="middle"></a>&nbsp;&nbsp;<b>[UploadQueueFriendList]</b></td>
+  <td class="smallheader" colspan="4" align="right"><b>[CounterQueueFriend] ([CounterQueueFriendSecure])</b></td>
+ </tr>
+ <tr>
+  <td class="upqueue-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscoret[SortQScore]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qclient[SortQClient]"><b>&times;</b></a></td><td>&nbsp;</td><td><a href="?ses=[Session]&amp;w=transfer&amp;sort=quser[SortQUser]"><b>[UserNameTitle][UserNameTitleI]</b></a></td></tr></table></td>
+  <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qversion[SortQVersion]"><b>[Version][VersionI]</b></a></td>
+  <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qfilename[SortQFilename]"><b>[FileNameTitle][FileNameTitleI]</b></a></td>
+  <td class="upqueue-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscore[SortQScore]"><b>[ScoreTitle][ScoreTitleI]</b></a></td>
+  <td class="upqueue-header">&nbsp;</td>
+ </tr>
+[QueueListFriend]
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_SHOW_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_SHOW-->
+ <tr>
+  <td class="smallheader"><a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueuebanned=false"><img src="l_remove.gif" align="middle"></a>&nbsp;&nbsp;<b>[UploadQueueBannedList]</b></td>
+  <td class="smallheader" colspan="4" align="right"><b>[CounterQueueBanned] ([CounterQueueBannedSecure])</b></td>
+ </tr>
+ <tr>
+  <td class="upqueue-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscore[SortQScore]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qclient[SortQClient]"><b>&times;</b></a></td><td>&nbsp;</td><td><a href="?ses=[Session]&amp;w=transfer&amp;sort=quser[SortQUser]"><b>[UserNameTitle][UserNameTitleI]</b></a></td></tr></table></td>
+  <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qversion[SortQVersion]"><b>[Version][VersionI]</b></a></td>
+  <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qfilename[SortQFilename]"><b>[FileNameTitle][FileNameTitleI]</b></a></td>
+  <td class="upqueue-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscore[SortQScore]"><b>[ScoreTitle][ScoreTitleI]</b></a></td>
+  <td class="upqueue-header">&nbsp;</td>
+ </tr>
+[QueueListBanned]
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_SHOW_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_LINE-->
+ <tr>
+  <td valign=top class="upqueue-[ClientState]-line-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-[ClientState]-line-left"><tr><td><img src="t_[ClientStateSpecial].gif"></td><td>&nbsp;</td><td background="ct_[ClientSoft].gif" style="background-position:center;background-repeat:no-repeat"><a href="#" onMouseover="upmenu(event,'[admin]','[ClientExtra]','[UserHash]')" onMouseout="delayhidemenu()"><img src="is_[ClientExtra].gif"></a></td><td>&nbsp;</td><td>[UserName]</td></tr></table>
+  <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[ClientSoftV]</td>
+  <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[FileName]</td>
+  <td valign=top class="upqueue-[ClientState]-line" style="font-size:7.5pt">[Score]</td>
+  <td valign=top class="upqueue-[ClientState]-line">&nbsp;</td>
+ </tr>
+<--TMPL_TRANSFER_UP_QUEUE_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_LINE-->
+ <tr>
+  <td valign=top class="upqueue-[ClientState]-line-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-[ClientState]-line-left"><tr><td><img src="t_[ClientStateSpecial].gif"></td><td>&nbsp;</td><td background="ct_[ClientSoft].gif" style="background-position:center;background-repeat:no-repeat"><a href="#" onMouseover="upmenu(event,'[admin]','[ClientExtra]','[UserHash]')" onMouseout="delayhidemenu()"><img src="is_[ClientExtra].gif"></a></td><td>&nbsp;</td><td>[UserName]</td></tr></table>
+  <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[ClientSoftV]</td>
+  <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[FileName]</td>
+  <td valign=top class="upqueue-[ClientState]-line" style="font-size:7.5pt">[Score]</td>
+  <td valign=top class="upqueue-[ClientState]-line">&nbsp;</td>
+ </tr>
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_LINE-->
+ <tr>
+  <td valign=top class="upqueue-[ClientState]-line-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-[ClientState]-line-left"><tr><td><img src="t_[ClientStateSpecial].gif"></td><td>&nbsp;</td><td background="ct_[ClientSoft].gif" style="background-position:center;background-repeat:no-repeat"><a href="#" onMouseover="upmenu(event,'[admin]','[ClientExtra]','[UserHash]')" onMouseout="delayhidemenu()"><img src="is_[ClientExtra].gif"></a></td><td>&nbsp;</td><td>[UserName]</td></tr></table>
+  <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[ClientSoftV]</td>
+  <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[FileName]</td>
+  <td valign=top class="upqueue-[ClientState]-line" style="font-size:7.5pt">[Score]</td>
+  <td valign=top class="upqueue-[ClientState]-line">&nbsp;</td>
+ </tr>
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_CREDIT_LINE-->
+ <tr>
+  <td valign=top class="upqueue-[ClientState]-line-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-[ClientState]-line-left"><tr><td><img src="t_[ClientStateSpecial].gif"></td><td>&nbsp;</td><td background="ct_[ClientSoft].gif" style="background-position:center;background-repeat:no-repeat"><a href="#" onMouseover="upmenu(event,'[admin]','[ClientExtra]','[UserHash]')" onMouseout="delayhidemenu()"><img src="is_[ClientExtra].gif"></a></td><td>&nbsp;</td><td>[UserName]</td></tr></table>
+  <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[ClientSoftV]</td>
+  <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[FileName]</td>
+  <td valign=top class="upqueue-[ClientState]-line" style="font-size:7.5pt">[Score]</td>
+  <td valign=top class="upqueue-[ClientState]-line">&nbsp;</td>
+ </tr>
+<--TMPL_TRANSFER_UP_QUEUE_CREDIT_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_HIDE-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="100%">
+ <tr>
+  <td class="smallheader" style="background-color:#000000"><img src="arrow_up_q.gif" align="middle">&nbsp;<b><a href="#" onMouseover="columnmenu(event,'transfer','menuqueue','[UserNameTitleM]','[UserNameTitle]','[VersionM]','[Version]','[FileNameTitleM]','[FileNameTitle]','[ScoreTitleM]','[ScoreTitle]','','','','','','','','','','','','','','')" onMouseout="delayhidemenu()">[ShowUploadQueue]</a></b></td>
+  <td class="smallheader" colspan="4" align="right" style="background-color:#000000"><b>[CounterAll] ([CounterAllSecure])</b></td>
+ </tr>
+ <tr>
+  <td class="smallheader">
+   <script language="JavaScript">
+    if ([CounterQueue]!=0) { document.write('<a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueue=true"><img src="l_add.gif" align="middle"><\/a>&nbsp;&nbsp;<b>[ShowUploadQueueList]<\/b>'); }
+    else { document.write('<img src="l_none.gif" align="middle">&nbsp;&nbsp;<b>[ShowUploadQueueList]<\/b>'); }
+   </script>
+  </td>
+  <td class="smallheader" colspan="4" align="right"><b>[CounterQueue] ([CounterQueueSecure])</b></td>
+ </tr>
+<--TMPL_TRANSFER_UP_QUEUE_HIDE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_HIDE-->
+ <tr>
+  <td class="smallheader">
+   <script language="JavaScript">
+    if ([CounterQueueBanned]!=0) { document.write('<a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueuebanned=true"><img src="l_add.gif" align="middle"><\/a>&nbsp;&nbsp;<b>[ShowUploadQueueListBanned]<\/b>'); }
+    else { document.write('<img src="l_none.gif" align="middle">&nbsp;&nbsp;<b>[ShowUploadQueueListBanned]<\/b>'); }
+   </script>
+  </td>
+  <td class="smallheader" colspan="4" align="right"><b>[CounterQueueBanned] ([CounterQueueBannedSecure])</b></td>
+ </tr>
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_HIDE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_HIDE-->
+ <tr>
+  <td class="smallheader">
+   <script language="JavaScript">
+    if ([CounterQueueFriend]!=0) { document.write('<a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueuefriend=true"><img src="l_add.gif" align="middle"><\/a>&nbsp;&nbsp;<b>[ShowUploadQueueListFriend]<\/b>'); }
+    else { document.write('<img src="l_none.gif" align="middle">&nbsp;&nbsp;<b>[ShowUploadQueueListFriend]<\/b>'); }
+   </SCRIPT>
+  </td>
+  <td class="smallheader" colspan="4" align="right"><b>[CounterQueueFriend] ([CounterQueueFriendSecure])</b></td>
+ </tr>
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_HIDE_END-->
+
+
+
+<-- ################################################################# -->
+<-- ########################### SEARCH ############################## -->
+<-- ################################################################# -->
+
+
+<--TMPL_SEARCH-->
+<script language="JavaScript">
+function obj(menu) {
+	return (navigator.appName == "Microsoft Internet Explorer")?this[menu]:document.getElementById(menu);
+}
+function searchange1() {
+	obj("search").style.display="";
+	obj("searchtag").style.background="#005784";
+	obj("contentdb").style.display="none";
+	obj("contentdbtag").style.background="#000000";
+}
+function searchange2() {
+	obj("search").style.display="none";
+	obj("searchtag").style.background="#000000";
+	obj("contentdb").style.display="";
+	obj("contentdbtag").style.background="#005784";
+}
+</script>
+
+
+<table border=0 cellpadding=4 cellspacing=0 align=center width="95%">
+ <tr>
+  <td align=center valign=middle>
+   <br>
+   <table border=0 cellpadding=4 cellspacing=0 width="100%">
+    <tr>
+     <td class="search-main" ID="searchtag" align="center" style="background:#005784" nowrap><img src="l_search.gif" align="middle">&nbsp;<b><a href="javascript:searchange1()">[Search]</a></b>&nbsp;</td>
+     <td class="search-main" ID="contentdbtag" align="center" nowrap><img src="l_contentdb.gif" align="middle">&nbsp;<b><a href="javascript:searchange2()">ContentDB [Search]</a></b>&nbsp;</td>
+     <td class="search-main" align="right" nowrap><img src="l_ed2klink.gif" align="middle">&nbsp;<b><a href="javascript:ShowHide('ed2k_open');">[Ed2klink]</a></b>&nbsp;</td>  
+     <td class="search-main" width="100%">&nbsp;</td>
+    </tr>
+    <tr>
+     <td class="search-line" colspan="5">
+      <form ID="search" action="" method="GET" style="display:">
+       <table border=0 cellpadding=4 cellspacing=0 align="left">
+        <tr>
+         <td class="tabs" width=150>[Name]</td>
+         <td><input name="tosearch" type="text" size="30"></td>
+    	</tr>
+    	<tr>
+         <td class="tabs">[Type]</td>
+         <td>
+          <select name="type">
+          <option value="">[Any]</option>
+          <option value="Arc">[Archive] (.zip .rar .ace ...)</option>
+          <option value="Audio">[Audio] (.mp3 .ogg .wav ...)</option>
+          <option value="Iso">[CDImage] (.iso .bin .nrg ...)</option>
+          <option value="Doc">[Document] (.doc .txt .pdf ...)</option>
+          <option value="Image">[Image] (.jpg .gif .png ...)</option>
+          <option value="Pro">[Program] (.exe .zip .rar ...)</option>
+          <option value="Video">[Video] (.avi .mpg .ogm ...)</option>
+          <option value="EmuleCollection">[eMuleCollection] (.emulecollection)</option>
+          </select>
+         </td>
+        </tr>
+        <tr>
+           <td class=tabs>[SizeMin]</td>
+         <td><input name="min" type="text" size="10"></td>
+        </tr>
+        <tr>
+           <td class=tabs>[SizeMax]</td>
+         <td><input name="max" type="text" size="10"></td>
+        </tr>
+        <tr>
+           <td class=tabs>[Availabl]</td>
+         <td><input name="avail" type="text" size="10"></td>
+        </tr>
+        <tr>
+           <td class=tabs>[Extention]</td>
+         <td><input name="ext" type="text" size="10"></td>
+        </tr>
+        <tr>
+          <td class=tabs>[METHOD]</td>
+    	  <td class="tabs">
+           <input value="server" type="radio" name="method" checked>[USESSERVER]<br>
+           <input value="global" type="radio" name="method">[Global]<br>
+           <input value="kademlia" type="radio" name="method">[USEKADEMLIA]
+         </td> 
+    	</tr>
+        <tr>
+         <td></td>
+         <td valign="bottom" height="40">
+          <input type="hidden" name="ses" value="[Session]">
+          <input type="hidden" name="w" value="search">
+          <input type="submit" value="[Search]">
+         </td>
+         <td>&nbsp;</td>
+        </tr>
+       </table>
+      </form>
+      <form ID="contentdb" action="https://contentdb.emule-project.net/search.php?" method="get" target="_blank" style="display:none;">
+       <table border=0 cellpadding=4 cellspacing=0 align="left">
+        <tr>
+         <td class="tabs" width=150>[Name]</td>
+         <td><input name="s" type="text" size="30"></td>
+        </tr>
+        <tr>
+         <td class="tabs">[Type]</td>
+         <td>
+          <select name="cat">
+          <option value="all">[Any]</option>
+          <option value="1">Software</option>
+          <option value="2">Music</option>
+          <option value="3">Movies</option>
+          <option value="4">Games</option>
+          <option value="5">Miscellaneous items</option>
+          </select>
+         </td>
+        </tr>
+        <tr>
+         <td height="40" valign="bottom">
+          <input type="hidden" name=ses value="[Session]">
+          <input type="hidden" name=qsource value="webinterface">
+          <input type="submit" value="[Search]">
+         </td>
+         <td>&nbsp;</td>
+        </tr>
+       </table>
+      </form>
+     </td>
+    </tr>
+   </table>
+   <br>
+   <form action="" method="GET">
+    <input type="hidden" name="ses" value="[Session]">
+    <input type="hidden" name="w" value="search">
+    <table border=0 cellpadding=4 cellspacing=0 width="100%">
+     <tr>
+      <td colspan="6" class="search-main"><img src="l_filesearch.gif" align="middle">&nbsp;<b><a href="#" onMouseover="columnmenu(event,'search','menu','[FilenameM]','[FilenameH]','[FilesizeM]','[FilesizeH]','[FilehashM]','[FilehashH]','[SourcesM]','[SourcesH]','','','','','','','','','','','','','','')" onMouseout="delayhidemenu()">[Result]</a>&nbsp;&nbsp;&nbsp;<a href="?ses=[Session]&amp;w=search"><font color="#FFC412">([Message])</font></a></b></td>
+     </tr>
+     [RESULTLIST]
+     <tr>
+      <td colspan="6" class="search-line">
+       <br><input type="submit" value="[Download]">[CATBOX]<br><br>
+      </td>
+     </tr>
+    </table>
+   </form>
+  </td>
+ </tr>
+</table>
+<--TMPL_SEARCH_END-->
+
+
+<--TMPL_SEARCH_RESULT_HEADER-->
+<tr>
+ <td class="search-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=middle class="search-header"><tr><td width="16"><a href="?ses=[Session]&amp;w=search&amp;sort=3&amp;sortAsc=[SORTASCVALUE3]">&times;</a></td><td>&nbsp;</td><td width="16"><a href="?ses=[Session]&amp;w=search&amp;sort=5&amp;sortAsc=[SORTASCVALUE5]">&times;</a></td><td>&nbsp;</td><td align="left"><b><a href="?ses=[Session]&amp;w=search&amp;sort=0&amp;sortAsc=[SORTASCVALUE0]">[FilenameH][FilenameI]</a></b></td></tr></table></td>
+ <td class="search-header-right" style="font-size:7.5pt"><b><a href="?ses=[Session]&amp;w=search&amp;sort=1&amp;sortAsc=[SORTASCVALUE1]">[FilesizeH][FilesizeI]</a></b></td>
+ <td class="search-header" style="font-size:7.5pt"><b><a href="?ses=[Session]&amp;w=search&amp;sort=2&amp;sortAsc=[SORTASCVALUE2]">[FilehashH][FilehashI]</a></b></td>
+ <td class="search-header" style="font-size:7.5pt"><b><a href="?ses=[Session]&amp;w=search&amp;sort=3&amp;sortAsc=[SORTASCVALUE3]">[SourcesH][SourcesI]</a></b></td>
+ <td class="search-header">&nbsp;</td>
+</tr>
+<--TMPL_SEARCH_RESULT_HEADER_END-->
+
+
+<--TMPL_SEARCH_RESULT_LINE-->
+   <tr>
+    <td class="search-line-left"><table cellspacing="0" cellpadding="0" border="0" valign=middle class="search-line"><tr><td background="l_sources_%s.gif" width="16" height="16" style="background-position:center;background-repeat:no-repeat"><a href="#" onMouseover="searchmenu(event,'%s')" onMouseout="delayhidemenu()"><img src="is_%s.gif"></a></td><td>&nbsp;<img src="filetype_%s.gif" align="middle"></td><td>&nbsp;</td>
+    <td>%s</td>
+   </tr>
+  </table>
+ </td>
+ <td class="search-line-right">%s</td>
+ <td class="search-line" style="font-size:7.5pt">%s</td>
+ <td class="search-line" style="font-size:7.5pt">%s</td>
+ <td class="search-line"><input type="checkbox" name="downloads" value="%s"></td>
+</tr>
+<tr>
+ <td colspan="6" bgcolor="#005784" height="1"></td>
+</tr>
+<--TMPL_SEARCH_RESULT_LINE_END-->
+
+
+
+
+
+<-- ################################################################# -->
+<-- ###################### SHARED FILES LIST ######################## -->
+<-- ################################################################# -->
+
+
+
+
+<--TMPL_SHARED_LIST-->
+<br>
+<table align=center border=0 cellpadding=4 cellspacing=0 width="95%">
+ <tr>
+  <td class="smallheader" colspan=8 style="background-color:#000000"><b><img src="l_shared.gif" align="middle">&nbsp;<a href="#" onMouseover="columnmenu(event,'shared','menu','[FilenameM]','[Filename]','[FileTransferredM]','[FileTransferred]','[FileRequestsM]','[FileRequests]','[FileAcceptsM]','[FileAccepts]','[SizeM]','[Size]','[CompletesM]','[Completes]','[PriorityM]','[Priority]','','','','','','','','','','')" onMouseout="delayhidemenu()">[SharedList]</a>&nbsp;[Message]</b></td>
+ </tr>
+ <tr>
+  <td valign=middle class="shared-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="shared-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=shared&amp;[SortState]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=shared&amp;[SortType]"><b>&times;</b></a></td><td><a href="?ses=[Session]&amp;w=shared&amp;[SortName]"><b>[Filename][FilenameI]</b></a></td></tr></table></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortTransferred]"><b>[FileTransferred][FileTransferredI]</b></a></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortRequests]"><b>[FileRequests][FileRequestsI]</b></a></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortAccepts]"><b>[FileAccepts][FileAcceptsI]</b></a></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortSize]"><b>[Size][SizeI]</b></a></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortCompletes]"><b>[Completes][CompletesI]</b></a></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortPriority]"><b>[Priority][PriorityI]</b></a></td>
+  <td valign=middle class="shared-header">&nbsp;</td>
+ </tr>
+ [SharedFilesList]
+</table>
+<div align="center">
+ <br>
+ <form action=""><input type="button" name="queue" value="[Reload]" onClick="self.location.href='/?ses=[Session]&amp;w=shared&amp;reload=true'"></form>
+ <br>
+</div>
+<--TMPL_SHARED_LIST_END-->
+
+
+<--TMPL_SHARED_LINE-->
+<tr>
+ <td valign=top class="shared-line-[FileState]-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="shared-line-[FileState]-left"><tr><td background="[FileState].gif" width="16" height="16" style="background-position:center;background-repeat:no-repeat"><a href="#" onMouseover="sharedmenu(event,'[admin]','[ed2k]','[session]','[hash]','[fname]','[FileState]','[Downloadable]')" onMouseout="delayhidemenu()"><img src="is_[FileIsPriority].gif"></a></td><td>&nbsp;</td><td><img src="filetype_[FileType].gif" align="middle"></td><td>&nbsp;</td><td><acronym title="[FileName]&#013;Hash: [FileHash]">[ShortFileName]</acronym></td></tr></table></td>
+ <td valign=top class="shared-line-[FileState]">[FileTransferred][FileAllTimeTransferred]</td>
+ <td valign=top class="shared-line-[FileState]">[FileRequests][FileAllTimeRequests]</td>
+ <td valign=top class="shared-line-[FileState]">[FileAccepts][FileAllTimeAccepts]</td>
+ <td valign=top class="shared-line-[FileState]">[FileSize]</td>
+ <td valign=top class="shared-line-[FileState]">[Completes]</td>
+ <td valign=top class="shared-line-[FileState]"><a href="#" onMouseover="sharedpriomenu(event,'[admin]','[session]','[hash]','[shared-priority]')" onMouseout="delayhidemenu()">[Priority]</a></td>
+ <td valign=top class="shared-line-[FileState]" width="9"><img src="[LastChangedDataset].gif"></td>
+</tr>
+<--TMPL_SHARED_LINE_END-->
+
+
+<-- ################################################################# -->
+<-- ########################## STATISTICS ########################### -->
+<-- ################################################################# -->
+
+
+<--TMPL_STATS-->
+&nbsp;
+<script Language="JavaScript">
+function obj(menu)
+{
+	return (navigator.appName == "Microsoft Internet Explorer")?this[menu]:document.getElementById(menu);
+}
+function togglevisible(treepart)
+{
+	if (this.obj("T"+treepart).style.visibility == "hidden")
+	{
+		this.obj("T"+treepart).style.position="";
+		this.obj("T"+treepart).style.visibility="";
+		document["I"+treepart].src="stats_visible.gif";
+	}
+	else
+	{
+		this.obj("T"+treepart).style.position="absolute";
+		this.obj("T"+treepart).style.visibility="hidden";
+		document["I"+treepart].src="stats_hidden.gif";
+	}
+}
+</script>
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+ <tr>
+  <td align=left valign=middle class="commontext">
+   [Stats]
+  </td>
+ </tr>
+</table>
+&nbsp;
+<--TMPL_STATS_END-->
+
+
+
+<-- ################################################################# -->
+<-- ########################### GRAPHS ############################## -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_GRAPHS-->
+<script language="JavaScript">
+function traceGraph(SpeedString,imageURL,MaxSpeed) {
+	document.write('<table cellspacing=0 border=0 cellpadding=0 width="500px"><tr><td valign="bottom" height="150" width="100%"><\/td>');
+	var speed = SpeedString.split(",");
+	if(MaxSpeed==0) MaxSpeed = 1; //No divide by 0 !
+	for(i=0;i<speed.length;i++)
+	{
+		speed[i]=new Number(speed[i]);
+		if (speed[i]>MaxSpeed)
+			speed[i]=MaxSpeed;
+		size=Math.round(speed[i]*150/MaxSpeed);
+		document.write('<td valign="bottom"><table height="'+ size +'px" width="1px" border=0 cellpadding=0 cellspacing=0><td background="' + imageURL + '" height="100%" width="100%"><\/td><\/table><\/td>');
+	}
+	document.write('<\/tr><\/table>');
+}
+</script>
+&nbsp;
+<table border=0 align=center cellpadding=0 cellspacing=0>
+ <tr>
+  <td style="border-width:1px; border-color:green; border-style:solid;" valign="bottom" height="150px" background="stats_back.gif">
+   <script language="JavaScript">
+   var dlstring="[GraphDownload]";
+   traceGraph(dlstring,"stats_down.gif",[MaxDownload]*1024);
+   </script>
+  </td>
+ </tr>
+ <tr>
+  <td align=center><font color=black face="Tahoma" style="font-size:8pt;">[TxtDownload]: Max [MaxDownload] [KByteSec], [TxtTime]: [ScaleTime]</font><br>&nbsp;</td>
+ </tr>
+ <tr>
+  <td style="border-width:1px; border-color:red; border-style:solid;" valign="bottom" height="150px" background="stats_back.gif">
+   <script language="JavaScript">
+   var ulstring="[GraphUpload]";
+   traceGraph(ulstring,"stats_up.gif",[MaxUpload]*1024);
+   </SCRIPT>
+  </td>
+ </tr>
+ <tr>
+  <td align=center><font color=black face="Tahoma" style="font-size:8pt;">[TxtUpload]: Max [MaxUpload] [KByteSec], [TxtTime]: [ScaleTime]</font><br>&nbsp;</td>
+ </tr>
+ <tr>
+ <td style="border-width:1px; border-color:blue; border-style:solid;" valign="bottom" height="150px" background="stats_back.gif">
+  <script language="JavaScript">
+  var ulstring="[GraphConnections]";
+  traceGraph(ulstring,"stats_con.gif",[MaxConnections]);
+  </script>
+ </td>
+ </tr>
+ <tr>
+  <td align=center>
+   <font color=black face="Tahoma" style="font-size:8pt;">[TxtConnections]: Max [MaxConnections], [TxtTime]: [ScaleTime]</font>
+  </td>
+ </tr>
+</table>
+<--TMPL_GRAPHS_END-->
+
+
+
+<-- ################################################################# -->
+<-- ######################### PREFERENCES ########################### -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_PREFERENCES-->
+<br>
+<form action="" method="GET">
+ <input type="hidden" name="ses" value="[Session]">
+ <input type="hidden" name="w" value="options">
+ <input type="hidden" name="saveprefs" value="true">
+ <table border=0 align=center cellpadding=4 cellspacing=0 width="90%">
+  <tr>
+   <td class="search-main"><b>[WebControl]</b></td>
+  </tr>
+  <tr>
+   <td align=left valign=middle bgcolor="#005784">
+    <font face="Tahoma" style="font-size:8pt;"><b>[UseGzipForm]</b></font><input type="checkbox" name="gzip" [UseGzipVal] value="ON">
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=top bgcolor="#2184B5">
+   <font face="Tahoma" style="font-size:8pt;">
+   &nbsp;&nbsp;&nbsp;&nbsp;[UseGzipComment]
+   </font>
+   <br>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=middle bgcolor="#005784">
+   <font face="Tahoma" style="font-size:8pt;"><b>[RefreshTimeForm]</b></font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=top bgcolor="#2184B5">
+    <font face="Tahoma" style="font-size:8pt;">
+     &nbsp;&nbsp;&nbsp;&nbsp;[RefreshTimeComment] <input type="text" name="refresh" size="5" class="dinput" value="[RefreshVal]"><br>
+    </font>
+   </td>
+  </tr>
+  <tr>
+   <td>&nbsp;</td>
+  </tr>
+  <tr>
+   <td class="search-main"><b>[eMuleAppName]</b></td>
+  </tr>
+  <tr>
+   <td align=left valign=middle bgcolor="#005784">
+    <font face="Tahoma" style="font-size:8pt;"><b>[SpeedCapForm]</b></font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=top bgcolor="#2184B5">
+    <font face="Tahoma" style="font-size:8pt;">
+     &nbsp;&nbsp;&nbsp;&nbsp;[MaxCapDown]: <input type="text" name="maxcapdown" size="5" class="dinput" value="[MaxCapDownVal]"> [KBS]
+     &nbsp;&nbsp;[MaxCapUp]: <input type="text" name="maxcapup" size="5" class="dinput" value="[MaxCapUpVal]"> [KBS]
+    </font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=middle bgcolor="#005784">
+    <font face="Tahoma" style="font-size:8pt;"><b>[SpeedForm]</b></font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=top bgcolor="#2184B5">
+    <font face="Tahoma" style="font-size:8pt;">
+     &nbsp;&nbsp;&nbsp;&nbsp;[MaxDown]: <input type="text" name="maxdown" size="5" class="dinput" value="[MaxDownVal]"> [KBS]
+     &nbsp;&nbsp;[MaxUp]: <input type="text" name="maxup" size="5" class="dinput" value="[MaxUpVal]"> [KBS]
+    </font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=middle bgcolor="#005784">
+    <font face="Tahoma" style="font-size:8pt;"><b>[LimitForm]</b></font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=top bgcolor="#2184B5">
+    <table border=0>
+     <tr>
+      <td><font face="Tahoma" style="font-size:8pt;">[MaxSources]</font></td>
+      <td><input type="text" name="maxsources" size="5" class="dinput" value="[MaxSourcesVal]"></td>
+     </tr>
+     <tr>
+      <td><font face="Tahoma" style="font-size:8pt;">[MaxConnections]</font></td>
+      <td><input type="text" name=maxconnections size="5" class="dinput" value="[MaxConnectionsVal]"></td>
+     </tr>
+     <tr>
+      <td><font face="Tahoma" style="font-size:8pt;">[MaxConnectionsPer5]</font></td>
+      <td><input type="text" name="maxconnectionsperfive" size="5" class="dinput" value="[MaxConnectionsPer5Val]"></td>
+     </tr>
+    </table>
+   </td>
+  </tr>
+  <tr>
+   <td align=center><br>
+    <input type="submit" value="[Apply]">
+   </td>
+  </tr>
+ </table>
+</form>
+
+<br>
+<center>
+ <form action="">
+  <input type="button" onClick="window.open('[CONNECTIONTESTLINK]');" value="[CONNECTIONTESTLABEL]">
+ </form>
+</center>
+&nbsp;
+<--TMPL_PREFERENCES_END-->
+
+
+
+<-- ################################################################# -->
+<-- ######################### SERVER INFO ########################### -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_SERVERINFO-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+ <tr>
+  <td align=left valign=middle class="commontext">
+   <font face="Lucida Console"><object><pre>[ServerInfo]</pre></object></font>
+  </td>
+ </tr>
+ <tr>
+  <td align=left valign=middle>
+   <form action="" method="GET">
+    <input type="hidden" name="ses" value="[Session]">
+    <input type="hidden" name="w" value=sinfo>
+    <input type="hidden" name="clear" value=yes>
+    <input type="submit" value="[Clear]">
+   </form>
+  </td>
+ </tr>
+</table>
+<--TMPL_SERVERINFO_END-->
+
+
+
+<-- ################################################################# -->
+<-- ############################ LOGS ############################### -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_LOG-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+ <tr>
+  <td align=left valign=middle class="commontext">
+   <font face="Lucida Console"><object><pre>[Log]</pre></object></font>
+  </td>
+ </tr>
+ <tr>
+  <td align=left valign=middle>
+   <form action="" method="GET">
+    <input type="hidden" name="ses" value="[Session]">
+    <input type="hidden" name="w" value=log>
+    <input type="hidden" name="clear" value=yes>
+    <input type="submit" value="[Clear]">
+   </form>
+  </td>
+ </tr>
+</table>
+<--TMPL_LOG_END-->
+
+
+
+<-- ################################################################# -->
+<-- ######################### DEBUG LOG ############################# -->
+<-- ################################################################# -->
+
+<--TMPL_DEBUGLOG-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+ <tr>
+  <td align=left valign=middle class="commontext">
+   <font face="Lucida Console"><object><pre>[DebugLog]</pre></object></font>
+  </td>
+ </tr>
+ <tr>
+  <td align=left valign=middle>
+   <form action="" method="GET">
+    <input type="hidden" name="ses" value="[Session]">
+    <input type="hidden" name="w" value=debuglog>
+    <input type="hidden" name="clear" value=yes>
+    <input type="submit" value="[Clear]">
+   </form>
+  </td>
+ </tr>
+</table>
+<--TMPL_DEBUGLOG_END-->
+
+
+<-- ################################################################# -->
+<-- ######################### My Info ############################### -->
+<-- ################################################################# -->
+
+<--TMPL_MYINFO-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+ <tr>
+  <td align=left valign=middle class="commontext">
+   <font face="Lucida Console"><object><pre>[MYINFOLOG]</pre></object></font>
+  </td>
+ </tr>
+</table>
+<--TMPL_MYINFO_END-->
+
+
+
+<-- ################################################################# -->
+<-- ########################## KAD  ################################# -->
+<-- ################################################################# -->
+
+<--TMPL_BOOTSTRAPLINE-->
+
+<br>
+<form action="" method="GET">
+ <table border=0 align=center cellpadding=4 cellspacing=0 width="30%">
+  <tr>
+   <td align=left class="search-main" colspan="2"><b>[BOOTSTRAP]</b></td>
+  </tr>
+  <tr>
+   <td class="tabs_five">[BS_IP]:</td>
+   <td class="tabs_five" style="text-align:left">
+    <input name="ip" type="text" size="16">
+   </td>
+  </tr>
+   <tr>
+    <td class="tabs_five">[BS_PORT]:</td>
+    <td class="tabs_five"><input name="port" type="text" size="6"></td>
+  </tr>
+  <tr>
+   <td class="tabs_five">
+    <input type="hidden" name="ses" value="[Session]">
+    <input type="hidden" name="w" value="kad">
+    <input type="hidden" name="bootstrap" value="kad">
+   </td>
+   <td class="tabs_five">
+    <input type="submit" value="[BOOTSTRAP]">
+   </td>
+  </tr>
+ </table>
+</form>
+<br><br>
+<--TMPL_BOOTSTRAPLINE_END-->
+
+
+<--TMPL_KADDLG-->
+<br><br>
+
+<table border=0 align=center cellpadding=4 cellspacing=0 width="30%">
+ <tr>
+  <td class="search-main" colspan="3"><b>[KAD]</b></td>
+ </tr>
+ <tr>
+  <td bgcolor="#2184B5">
+   <font face="Tahoma" style="font-size:9pt;"><b>[STATUS]</b></font>
+  </td>
+  <td align=left valign=middle bgcolor="#2184B5">
+   <font face="Tahoma" style="font-size:9pt;">
+    <b>[KADSTATUS]<br></b>
+   </font>
+  </td>
+
+  <td align=left valign=middle bgcolor="#2184B5">
+   <font face="Tahoma" style="font-size:8pt;">[KADACTION]</font>
+  </td>
+ </tr>
+</table>
+
+<br>
+
+	[BOOTSTRAPLINE]
+
+<table border=0 align=center cellpadding=4 cellspacing=0 width="30%">
+ <tr>
+  <td align=left class="search-main" colspan="3"><b>[KADSTAT]</b><br></td>
+ </tr>
+
+ <tr>
+  <td bgcolor="#2184B5">
+   <font face="Tahoma" style="font-size:8pt;">
+ 	[KADSTATSLABELS]
+   </font>
+  </td>
+  <td colspan="2" bgcolor="#2184B5">
+   <font face="Tahoma" style="font-size:8pt;">
+ 	[KADSTATSDATA]
+   </font>
+  </td>
+ </tr>
+</table>
+
+<--TMPL_KADDLG_END-->
+
+
+<-- ################################################################# -->
+<-- ########################## Comment List  ######################## -->
+<-- ################################################################# -->
+
+
+<--TMPL_COMMENTLIST-->
+<!DOCTYPE html SYSTEM>
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=[CharSet]">
+  <link rel="icon" href="favicon.ico">
+  <title>[COMMENTS]</title>
+ </head>
+ <body background="main_bg.gif" text="white" link="white" vlink="white" alink="white"">
+  <div align="center">
+   <center>
+    <table border="1" cellpadding=4 cellspacing=0 width="100%" style="border-collapse:collapse" bordercolor="#111111">
+
+     <tr>
+      <td colspan="2" class="search-main" bgcolor="#000000" height="35" width="80%"><b><font face="Tahoma" style="font-size:8pt;">[COMMENTS]</font></b></td>
+      <td colspan="2" class="search-main" bgcolor="#000000" height="35" width="20%"><p align="right"><font face="Tahoma" style="font-size:7pt;"><a href="javascript:self.close();">([CLOSE])</a></font></td></tr>
+     </tr>
+
+     <tr>
+      <td align=left valign=middle bgcolor="#005784" width="20%"><font face="Tahoma" style="font-size:8pt;"><b>[USERNAME]</b></font></td>
+      <td align=left valign=middle bgcolor="#005784" width="35%"><font face="Tahoma" style="font-size:8pt;"><b>[FILENAME]</b></font></td>
+      <td align=left valign=middle bgcolor="#005784" width="35%"><font face="Tahoma" style="font-size:8pt;"><b>[COMMENT]</b></font></td>
+      <td align=left valign=middle bgcolor="#005784" width="10%"><font face="Tahoma" style="font-size:8pt;"><b>[RATING]</b></font></td>
+     </tr>
+
+  	[COMMENTLINES]
+
+    </table>
+   </center>
+  </div>
+ </body>
+</html>
+<--TMPL_COMMENTLIST_END-->
+
+
+<--TMPL_COMMENTLIST_LINE-->
+<tr>
+ <td align="left" bgcolor="#2184B5" width="20%%" bordercolordark="#0000FF"><font face="Tahoma" style="font-size:8pt;">%s</font></td>
+ <td align="left" bgcolor="#2184B5" width="35%%" bordercolordark="#0000FF"><font face="Tahoma" style="font-size:8pt;">%s</font></td>
+ <td align="left" bgcolor="#2184B5" width="35%%" bordercolordark="#0000FF"><font face="Tahoma" style="font-size:8pt;">%s</font></td>
+ <td align="left" bgcolor="#2184B5" width="10%%" bordercolordark="#0000FF"><font face="Tahoma" style="font-size:8pt;">%s</font></td>
+</tr>
+<--TMPL_COMMENTLIST_LINE_END-->

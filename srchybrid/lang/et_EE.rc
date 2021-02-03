@@ -1,0 +1,1998 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "et_EE.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Estonian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ETI)
+#ifdef _WIN32
+LANGUAGE LANG_ESTONIAN, SUBLANG_DEFAULT
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "et_EE.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "Viga Windowsi socketite initsialiseerimsiel."
+    IDS_ABOUTBOX            "&eMule info..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s kasutajalt %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "Ühendatud serveriga %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "Lahendan nime: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "Lahendatud nimi on %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "Ühendan serveriga %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "Suunan serverile %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "Tõmban failiinfot"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR "Viga faili tõmbamisel, viga: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "Viga serveriühendusel, viga: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE
+                            "Vigane vastus serverilt"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "Vigane HTTP vastus serverilt"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE "Viga faili tõmbamisel, viga: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "Uuendan serverite loendit: %s%% (%s) valmis"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "Tõmban faili"
+    IDS_HTTPDOWNLOAD_OF     "%s/%s"
+    IDS_CANCEL              "Loobu"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTP_CAPTION        "Uuendan serverite loendit"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s kopeeritud)"
+    IDS_HSAV                "Hashset olemas"
+    IDS_FD_CORR             "Vigane"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "Fail nimega '%s' on juba olemas.\nKas kirjutan selle üle?"
+    IDS_FD_RECOV            "Taastatud"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN "Viga tõmmatava faili avamisel, viga: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "Katkestan tõmbamist"
+    IDS_FD_COMPR            "Pakkimine"
+    IDS_WIZARD_NETWORK      "Vali, milliseid võrke soovid kasutada."
+    IDS_MAIN_READY          "eMule versioon %s töövalmis"
+    IDS_WIZARD_ED2K         "ED2k seaded"
+    IDS_SEL_SKIN            "Vali rüü..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_SOCKETERROR    "Fataalne viga: Viga socketi tekitamisel pordil %u"
+    IDS_MAIN_BTN_DISCONNECT "Katk&esta"
+    IDS_ERR_WRONGFILEID     "saadeti vale FailiID"
+    IDS_ERR_BADHASHSET      "vigane või vale HashSet"
+    IDS_ERR_BADDATABLOCK    "vigane või vale DataBlock"
+    IDS_ERR_ILLFORMEDHASH   "Valesti koostatud Hash"
+    IDS_ERR_BADED2KLINK     "valesti koostatud ed2k viide"
+    IDS_ERR_NOSLLINK        "See ei ole ed2k serveri- ega failiviide"
+    IDS_ERR_WRONGPACKETSIZE "vale OP_FILEREQUEST paketi suurus"
+    IDS_ERR_WRONGHPACKETSIZE "vale OP_HASHSETREQUEST paketi suurus"
+    IDS_ERR_UNKNOWNCLIENTACTION "Tundmatu klient saatis eMule paketi"
+    IDS_ERR_OPENMET         "Viga: Ei suutnud avada part.met faili! (%s => %s)"
+    IDS_ERR_BADMETVERSION   "Viga: Vale part.met failiversioon! (%s => %s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION "Vale versioonitähis server.met failis (0x%X)!"
+    IDS_SERVERSFOUND        "Server.met failist leiti %u serverit"
+    IDS_SERVERSADDED        "Lisati %u serverit, ei lisatud %u (juba olemas või vigased)"
+    IDS_ERR_BADSERVERLIST   "Viga: server.met on vigane, serverite loendi laadimine pole võimalik"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "Arusaamatu viga faili server.met avamisel: %s, serverite loendi laadimine pole võimalik"
+    IDS_ERR_SAVESERVERMET   "Ei suuda salvestada server.met faili!"
+    IDS_PASSIVE             "Passiivne"
+    IDS_MAIN_BTN_CANCEL     "&Loobu"
+    IDS_AVAIL               "Osi: %u , saadaval: %u (%.1f%%)\n\n"
+    IDS_TYPE                "Tüüp"
+    IDS_FILEID              "FailiID"
+    IDS_FILE                "Fail"
+    IDS_DOWNLOAD            "Tõmba"
+    IDS_SL_SERVERNAME       "Serverinimi"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IP                  "IP"	//!
+    IDS_DESCRIPTION         "Kirjeldus"
+    IDS_PING                "Ping"	//!
+    IDS_FILES               "Faile"
+    IDS_PREFERENCE          "Eelistus"
+    IDS_PRIONOPREF          "Eel. puudub"
+    IDS_CONNECTTHIS         "Ühenda valitud serveriga"
+    IDS_MAIN_BTN_CONNECT    "Ü&henda"
+    IDS_ERR_SAVESERVERMET2  "Viga server.met salvestamisel! Võimalik, et pead olemasoleva server.met kustutama ja ja asendama server.old.met failiga!"
+    IDS_NOTCONNECTED        "Ühendamata"
+    IDS_DISCONNECTED        "Ühendamata"
+    IDS_USERS               "Kasutaja: %u"
+    IDS_UPDOWN              "Üles: %.1f(%.1f) | Alla: %.1f(%.1f)"
+    IDS_CONNECTED           "Ühendatud"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_WRITEERROR      "Arusaamatu viga faili %s kirjutamisel: %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "Arusaamatu viga faili %s lõpetamisel. Fail pausitud, uueks katseks taaskäivita eMule"
+    IDS_ERR_DELETEFAILED    "Ei suutnud kustutada %s, te peate seda käsitsi tegema"
+    IDS_DOWNLOADDONE        "Faili %s tõmbamine lõpetatud :-)"
+    IDS_ERR_DELETE          "Ei suutnud kustutada %s"
+    IDS_ERR_HASHERRORWARNING
+                            "Hoiatus: Võimatu hashida tõmmatud osa - hashset on poolik (%s)"
+    IDS_ERR_INCOMPLETEHASH  "Viga: Võimatu hashida tõmmatud osa - hashset on poolik (%s). Seda ei tohiks kunagi juhtuda"
+    IDS_DOWNLOADING         "Tõmban"
+    IDS_WAITING             "Ootan"
+    IDS_HASHING             "Hashin"
+    IDS_COMPLETING          "Lõpetan"
+    IDS_COMPLETE            "Valmis"
+    IDS_PAUSED              "Pausitud"
+    IDS_ERRORLIKE           "Vigane"
+    IDS_ASSIGNED2K          "eMule pole seostatud ed2k viidetega. Kas tahad siduda eMule ed2k viidetega (soovitav) ?"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "Failis 'addresses.dat' pole ühtegi serveri aadressi. Serverite loendi automaatseks uuendamiseks lisa sellesse failid mõned serverlistide html aadressid."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LINKNOTADDED        "Ei suutnud viidet lisada"
+    IDS_MAIN_EXIT           "Kas Sa ikka tõsiselt tahad eMulest lahkuda?"
+    IDS_MAIN_POPUP_RESTORE  "Taasta"
+    IDS_CONNECTTOANYSERVER  "Ühenda suvalisele serveriga"
+    IDS_EXIT                "Välju"
+    IDS_CONNECTING          "Ühendan"
+    IDS_FAILED              "ebaõnnestunud"
+    IDS_ERR_BADSERVERREPLY  "Vigane logimisvastus serverilt"
+    IDS_NEWCLIENTID         "Uus KliendiID on %u"
+    IDS_SHAREDFOLDERS       "Jagatud kaustad"
+    IDS_VIEW1               "vaata "
+    IDS_VIEW2               " (pole jagatud)"
+    IDS_PRIOLOW             "Madal"
+    IDS_PRIONORMAL          "Normaalne"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOHIGH            "Kõrge"
+    IDS_DOWNLOADMENUTITLE   "Tõmbamised"
+    IDS_PRIORITY            "Prioriteet"
+    IDS_NEWSERVERS          "%u uut serverit vastu võetud"
+    IDS_DL_STOP             "&Stopp"
+    IDS_DL_PAUSE            "&Paus"
+    IDS_DL_RESUME           "&Jätka"
+    IDS_DL_OPEN             "&Ava fail"
+    IDS_DL_INFO             "Näita faili&detaile"
+    IDS_DL_CLEAR            "Eema&lda lõpetatud"
+    IDS_DL_LINK1            "Kopeeri ed2k viide puhvrisse"
+    IDS_DL_LINK2            "Kopeeri ed2k viide puhvrisse (&HTML)"
+    IDS_SHOWDETAILS         "Näita detaile"
+    IDS_SEND_MSG            "Saada sõnum"
+    IDS_ASKING              "Pärin"
+    IDS_CONNVIASERVER       "Ühendan serveri kaudu"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ONQUEUE             "Järjekorras"
+    IDS_TRANSFERRING        "Tõmbamas"
+    IDS_RECHASHSET          "Tõmban hashsetti"
+    IDS_NONEEDEDPARTS       "Vajalikud osad puuduvad"
+    IDS_NOCONNECTLOW2LOW    "MadalID ei saa madalaIDga ühendust"
+    IDS_UNKNOWN             "Teadmata"
+    IDS_ASKED4ANOTHERFILE   "Soovin teist faili"
+    IDS_Q_CANCELDL          "Kas oled kindel, et tahad katkestada ja kustutada need failid?\n"
+    IDS_Q_CANCELDL2         "Kas oled kindel, et tahad katkestada ja kustutada selle faili?\n"
+    IDS_DL_FILENAME         "Faili nimi"
+    IDS_DL_SIZE             "Suurus"
+    IDS_DL_TRANSF           "Edastatud"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_SPEED            "Kiirus"
+    IDS_DL_PROGRESS         "Progress"
+    IDS_DL_SOURCES          "Allikaid"
+    IDS_ERR_BADSERVERLISTRECEIVED "Vigane serverite loendi pakett"
+    IDS_STATUS              "Seisund"
+    IDS_DL_REMAINS          "Jäänud"
+    IDS_QL_USERNAME         "Kasutajanimi"
+    IDS_QL_RATING           "Reiting"
+    IDS_CONNECTINGTO        "Ühendan serveriga %s (%s:%u)..."
+    IDS_CLIENTS             "Kasutaja"
+    IDS_SEARCH_ANY          "Kõik"
+    IDS_SEARCH_AUDIO        "Audio"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "Pilt"
+    IDS_SEARCH_PRG          "Programm"
+    IDS_SEARCH_VIDEO        "Video"
+    IDS_SEARCH_CDIMG        "CD-tõmmis"
+    IDS_SEARCH_ARC          "Arhiiv"
+    IDS_ERR_INVALIDLINK     "ed2k viide on vigane (%s)"
+    IDS_ERR_LINKERROR       "Vigane viide: %s"
+    IDS_ERR_NOTCONNECTED    "Sa ei ole serveriga ühenduses!"
+    IDS_REMOVETHIS          "Eemalda valitud server"
+    IDS_REMOVEALL           "Eemalda kõik serverid"
+    IDS_SRV_ADDR            "Palun sisesta serveri aadress"
+    IDS_SRV_PORT            "Puudulik serveri port: Palun sisesta serveri port"
+    IDS_SRV_NOTADDED        "Serverit ei lisatud!"
+    IDS_SRV_NOURLAV         "URL pole kättesaadav."
+    IDS_INVALIDURL          "Vigane URL"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET "Ei suutnud tõmmata serverite loendit: %s"
+    IDS_PERMISSION          "Juurdepääs"
+    IDS_SHAREDFILES         "Jagatud failid"
+    IDS_PRIOVERYLOW         "Väga madal"
+    IDS_PRIORELEASE         "Reliis"
+    IDS_FSTATUS_FRIENDSONLY "Ainult sõpradele"
+    IDS_ERR_RENAMESF        "Viga faili\r\n    ""%s""\r\nümbernimetamisel\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "olemas"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FSTAT_TRANSFER      "Ülekanne"
+    IDS_CONNECTIONS         "Ühendus"
+    IDS_FSTAT_SERVERS       "Serverid"
+    IDS_FSTAT_WAITING       "Ootan..."
+    IDS_TIME                "Aeg"
+    IDS_STATS_DDATA         "Tõmmatud andmed: %s"
+    IDS_STATS_UDATA         "Saadetud andmed: %s"
+    IDS_STATS_AVGDL         "Keskmine tõmabamiskiirus: %s"
+    IDS_STATS_AVGUL         "Keskmine saatmiskiirus: %s"
+    IDS_STATS_FOUNDSRC      "Leitud allikaid: %u"
+    IDS_STATS_ACTDL         "Aktiivseid tõmbamisi (chunks): %u"
+    IDS_STATS_ACTUL         "Aktiivseid saatmisi: %u"
+    IDS_STATS_WAITINGUSERS  "Ootel saatmisi: %u"
+    IDS_STATS_RECONNECTS    "Taasühendusi: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "Tundmatu: %u"
+    IDS_STATS_TOTAL         "Kokku: %u"
+    IDS_DISABLED            "Keelatud"
+    IDS_STOPPED             "Peatatud"
+    IDS_STATS_UPDATELABEL   "Uuenduste intervall: %u sek"
+    IDS_ASKEDFAF            "\nMuu faili allikas (A4AF)"
+    IDS_WAITED              "Oodatud"
+    IDS_ERR_LOADCREDITFILE  "Ei suutnud laadida krediidifaili, tekitan uue"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "Krediidifail on liiga vana, tekitan uue"
+    IDS_CREDITFILELOADED    "Krediidifail on laetud, tuntud on %u klienti"
+    IDS_CREDITFILECORRUPT   "Viga: krediidifail on vigane, tekitan uue!"
+    IDS_ERR_CREDITFILEREAD  "Arusaamatu viga krediidifaili lugemisel: %s"
+    IDS_ERR_FAILED_CREDITSAVE "Krediidifaili salvestamine ebaõnnestus"
+    IDS_NOPARTSFOUND        ".part faile ei leitud"
+    IDS_FOUNDPARTS          "Leidsin %u .part faili"
+    IDS_NEWDOWNLOAD         "Tõmban %s"
+    IDS_ERR_ALREADY_DOWNLOADING "Sa juba tõmbad faili %s"
+    IDS_ERR_ALREADY_DOWNLOADED "Sa oled faili %s juba tõmmanud"
+    IDS_ERR_SERVERMET_BAD   "Viga: fail known.met on vigane, tuntud failide info laadimine võimatu"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "Arusaamatu viga faili known.met lugemisel: %s, tuntud failide info laadimine võimatu"
+    IDS_ERR_CONNECTIONERROR "Viga serveriga %s (%s:%u) ühendamisel: %s"
+    IDS_ERR_SOCKET          "Viga serverisocketis: %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "Leitud %u tuntud jagatud faili"
+    IDS_SHAREDFOUNDHASHING  "Leitud %u tuntud jagatud faili, hashin hetkel %u uut faili"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "küsis lõpetamata osa "
+    IDS_ERR_OPEN            "ei suutnud avada nõutud faili"
+    IDS_ERR_CLIENTERRORED   "Klient '%s' põhjustas vea paki tekitamisel (%s) - katkestan ühenduse"
+    IDS_ERR_REQ_FNF         "nõutud faili ei leitud"
+    IDS_DESC                "Kirjeldus: %s"
+    IDS_PORT                "Port"
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "Serverite loendist ei leitud ühenduseks sobivaid servereid"
+    IDS_CONNECTEDTOREQ      "Ühendatud serveriga %s (%s:%u), saadan login nõuet"
+    IDS_ERR_FATAL           "Fataalne viga ühendamisel. Internetiühendus võib kadunud olla"
+    IDS_ERR_LOSTC           "Kaotasin ühenduse serveriga %s (%s:%u)"
+    IDS_ERR_DEAD            "%s (%s:%u) tundub surnud olevat."
+    IDS_ERR_FULL            "%s (%s:%u) tundub täis olevat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_METCORRUPT      "Viga: %s (%s) on vigane, faili avamine võimatu"
+    IDS_ERR_FILEERROR       "Arusaamatu viga faili %s (%s) lugemisel: %s"
+    IDS_ERR_FILEOPEN        "Ei suutnud avada %s (%s)"
+    IDS_SEL_SKINDIR         "Vali rüü'de kaust..."
+    IDS_ERR_REHASH          "Hoiatus: %s võib olla vigane, hashin uuesti lõpetatud osi"
+    IDS_SKIN_PROF           "Rüü'profiilid"
+    IDS_ERR_PART_FNF        ".part faili ei leitud"
+    IDS_KADOPEN             "Avatud"
+    IDS_ERR_SAVEMET         "Viga partfaili salvestamisel: %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "Leitud vigane osa (%u) failis %s"
+    IDS_HASHINGDONE         "Lõpetasin faili %s hashimise, tundub korras olevat"
+    IDS_ERR_PARTCORRUPT     "Tõmmatud osa %u on vigane :(  (%s)"
+    IDS_ICHWORKED           "ICH: Taastasin vigase osa %u  (%s), Saved: %s"
+    IDS_ERR_OUTOFSPACE      "Sinu kõvakettal on liiga vähe ruumi %s tõmbamiseks!"
+    IDS_SE                  "Allikavahetus"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONNECTEDTO         "Ühendus loodud serveriga: %s"
+    IDS_DL_PREVIEW          "Eelvaade"
+    IDS_VIEWQUEUE           "Näita järjekorda"
+    IDS_TW_UPLOADS          "Saatmised"
+    IDS_TW_DOWNLOADS        "Tõmbamised"
+    IDS_TW_QUEUE            "Kliente järjekorras:"
+    IDS_SW_SEARCHBOX        "Otsi"
+    IDS_SW_NAME             "Nimi"
+    IDS_SW_GLOBAL           "Otsi globaalselt"
+    IDS_SW_DIRECTDOWNLOAD   "Kleebi ed2k viited"
+    IDS_SW_LINK             "ed2k viited"
+    IDS_SW_START            "Start"
+    IDS_SCHEDULER           "Planeerija"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC                 "IRC"
+    IDS_SW_RESULT           "Otsingutulemused"
+    IDS_SW_DOWNLOAD         "Tõmba valitud"
+    IDS_SV_SERVERLIST       "Serverid"
+    IDS_SV_SERVERINFO       "Serveriinfo"
+    IDS_SV_LOG              "Logi"
+    IDS_SV_NEWSERVER        "Uus server"
+    IDS_SV_ADDRESS          "IP või aadress"
+
+    IDS_SV_ADD              "Lisa loendisse"
+    IDS_SV_MET              "Uuenda server.met URList"
+    IDS_SV_UPDATE           "Uuenda"
+    IDS_SF_FILES            "Jagatud failid"
+    IDS_SF_STATISTICS       "Statistika"
+    IDS_SF_RELOAD           "Lae uuesti"
+    IDS_SF_CURRENT          "Jooksev sessioon"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPEED_LIMITS        "Kiiruselimiidid"
+    IDS_CAPACITY_LIMITS     "Ühenduse limiidid"
+    IDS_ADMIN               "Administraator"
+    IDS_ACCESSDENIED        "Juurdepääs keelatud!"
+    IDS_WEB_LOWUSER         "Külaline"
+    IDS_WEB_ERR_CANTLOAD    "Viga makettide laadimisel: ei saa avada faili %s"
+    IDS_GLOBALSEARCH        "Globaalne (server)"
+    IDS_METHOD              "Meetod"
+    IDS_DAYLY               "Päev"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_MO_FR           "E-R"
+    IDS_DAY_SA_SO           "L-P"
+    IDS_MO                  "Esmaspäev"
+    IDS_DI                  "Teisipäev"
+    IDS_MI                  "Kolmapäev"
+    IDS_DO                  "Neljapäev"
+    IDS_FR                  "Reede"
+    IDS_SA                  "Laupäev"
+    IDS_SO                  "Pühapäev"
+    IDS_WEB_ADMINLOGIN      "Veebiserver: admin-login"
+    IDS_WEB_GUESTLOGIN      "Veebiserver: külaline-login"
+    IDS_WEB_SESSIONEND      "Veebiserver: logout"
+    IDS_DETAILS             "Detailid"
+    IDS_ACTION              "Tegevus"
+    IDS_REMOVE              "Eemalda"
+    IDS_NEW                 "Uus"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TOTAL            "Kokku"
+    IDS_SF_TRANS            "Edastatud:"
+    IDS_SF_ACCEPTED         "Lubatud saatmisi:"
+    IDS_SF_REQUESTED        "Päritud:"
+    IDS_ST_DOWNLOAD         "Tõmbamise kiirus"
+    IDS_ST_UPLOAD           "Saatmise kiirus"
+    IDS_ST_CURRENT          "praegune"
+    IDS_ST_SESSION          "sessiooni keskmine"
+    IDS_ST_ACTIVED          "aktiivsed tõmbamised"
+    IDS_ST_ACTIVEU          "aktiivsed saatmised"
+    IDS_CW_MESSAGES         "Sõnumid"
+    IDS_CW_FRIENDS          "Sõbrad"
+    IDS_CW_SEND             "Saada"
+    IDS_CW_CLOSE            "Sulge"
+    IDS_PW_GENERAL          "Üldised"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_DIR              "Kaustad"
+    IDS_PW_NICK             "Nimi"
+    IDS_PW_INCOMING         "Sissetulevad failid"
+    IDS_PW_TEMP             "Ajutised failid"
+    IDS_PW_BROWSE           "Sirvi"
+    IDS_PW_SHARED           "Jagatud failid"
+    IDS_CONNECTION          "Ühendus"
+    IDS_PW_DOWNL            "Tõmbamise limiit"
+    IDS_PW_UPL              "Saatmise limiit"
+    IDS_PW_MAXC             "Max. ühendusi"
+    IDS_PW_CLIENTPORT       "Kliendiport"
+    IDS_PW_AUTOCON          "Ühenda käivitamisel"
+    IDS_PW_RECON            "Taasühenda ühenduse kadumisel"
+    IDS_PW_SERVER           "Server"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_RDEAD            "Eemalda serverid pärast"
+    IDS_PW_RETRIES          "proovimist"
+    IDS_PW_SCORE            "Kasuta prioriteerisüsteemi"
+    IDS_PW_USC              "Uuenda serverite loendit serveriga ühendamisel"
+    IDS_PW_UCC              "Uuenda serverite loendit kliendiga ühendamisel"
+    IDS_PW_FILTER           "Ignoreeri serverite ja klientide LAN IPsid"
+    IDS_PW_USS              "Uuenda serverite loendit käivitamisel automaatselt"
+    IDS_PW_MISC             "Muud valikud"
+    IDS_PW_TRAY             "Minimiseeri Tray'sse"
+    IDS_PW_PROMPT           "Kinnita lahkumist"
+    IDS_PW_SPLASH           "Näita splashscreeni"
+    IDS_PW_DBLCLICK         "Topeltklõps tõmmatava faili allikate näitamiseks"
+    IDS_PW_TOOL             "Tooltip'i viivitus (sekundites)"
+    IDS_PW_FRONT            "Too esiplaanile viite klikkimisel"
+    IDS_PW_LANG             "Keel"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_FILES            "Faile"
+    IDS_PW_SHARE            "Minu faile näevad..."
+    IDS_PW_EVER             "Kõik"
+    IDS_PW_FRIENDS          "Sõbrad"
+    IDS_PW_NOONE            "Mitte keegi"
+    IDS_PW_RESET            "Lähtesta"
+    IDS_PW_APPLY            "Rakenda"
+    IDS_EM_TRANS            "&Liiklus"
+    IDS_EM_SERVER           "&Serverid"
+    IDS_EM_SEARCH           "&Otsing"
+    IDS_EM_FILES            "&Jagatud failid"
+    IDS_EM_MESSAGES         "Sõnu&mid"
+    IDS_EM_STATISTIC        "S&tatistika"
+    IDS_EM_PREFS            "Sea&ded"
+    IDS_MB_LANGUAGEINFO     "Valisin keele Sinu arvuti seadete järgi. Keelt saad Sa alati muuta seadete ekraanil."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_GENERAL          "Üldised"
+    IDS_FD_MET              "part.met fail:"
+    IDS_FD_HASH             "Hash:"
+    IDS_FD_SIZE             "Failisuurus:"
+    IDS_FD_TRANSFER         "Ülekanne"
+    IDS_FD_PARTS            "Osi:"
+    IDS_FD_TRANS            "Ülekantud:"
+    IDS_FD_DATARATE         "Kiirus:"
+    IDS_FD_COMPSIZE         "Lõpetatud suurus:"
+    IDS_FD_CLOSE            "Sulge"
+    IDS_FD_TITLE            "Faili detailne info"
+    IDS_CD_GENERAL          "Üldised"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "Kasutajanimi:"
+    IDS_CD_UHASH            "Kasutajahash:"
+    IDS_CD_CSOFT            "Klienditarkvara"
+    IDS_CD_UIP              "IP Aadress:"
+    IDS_CD_SIP              "Serveri IP:"
+    IDS_CD_VERSION          "Kliendiversioon:"
+    IDS_CD_SNAME            "Serverinimi:"
+    IDS_CD_CDOWN            "Hetkel tõmban:"
+    IDS_CD_DOWN             "Tõmmatud (sessioon):"
+    IDS_CD_ADOWN            "Keskmine tõmbamise kiirus:"
+    IDS_CD_TDOWN            "Kokku tõmmatud:"
+    IDS_CD_UP               "Saadetud (sessioon):"
+    IDS_CD_AUP              "Keskmine saatmise kiirus:"
+    IDS_CD_TUP              "Kokku saadetud:"
+    IDS_CD_TRANS            "Ülekanne"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_SCORES           "Skoorid"
+    IDS_CD_MOD              "DL/UP kordajad:"
+    IDS_CD_RATING           "Reiting (kokku):"
+    IDS_CD_USCORE           "Saatmisjärjekorra skoor:"
+    IDS_CD_TITLE            "Kliendi detailne info"
+    IDS_EMULEW              "Klõpsa"
+    IDS_EMULEW2             "kontrollimaks uue versiooni olemasolu"
+    IDS_EMULEW3             "siia"
+    IDS_PW_MAXSOURCES       "Max allikaid faili kohta"
+    IDS_SHAREDFILESCOUNT    "Jagatud failide arv: %u"
+    IDS_SF_SIZE             "Jagatud failide kogusuurus: %s"
+    IDS_ERR_BADPORT         "vale pordi number"
+    IDS_ERR_NOHELLO         "Esitas protokollivälise päringu"
+    IDS_ERR_INVALIDPACKET   "Vastu on võetud vigane pakett"
+    IDS_ERR_CLIENTERROR     "Klient '%s' (IP:%s) põhjustas vea: %s. Katkestan ühenduse!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSIZE         "vale suurus (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "See pole faili viide"
+    IDS_ERR_CREATEPARTFILE  "TÕRGE: Ei suutnud luua partfaili)"
+    IDS_CHAT_START          "*** Jutusessiooni algus : "
+    IDS_FILEPRIO            "Faili prioriteet"
+    IDS_SCORE               "Skoor"
+    IDS_ASKED               "Küsitud"
+    IDS_LASTSEEN            "Viimati nähtud"
+    IDS_BANNED              "Bännitud"
+    IDS_UUSERS              "Kasutajaid"
+    IDS_UFAILED             "Vigu"
+    IDS_OPENFILE            "Ava fail"
+    IDS_DATE                "Kuupäev"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PARTINFOS           "Partfaili nimi:"
+    IDS_PARTINFOS2          "Tõmbamine (%u allikast)"
+    IDS_USERID              "KasutajaID"
+    IDS_CLIENT              "Klient"
+    IDS_SERVER              "Server"
+    IDS_SOURCEINFO          "Küsitud: %ux - osi olemas: %u"
+    IDS_CLIENTSOURCENAME    "\nKliendi failinimi: "
+    IDS_USERINFO            "Hüüdnimi: %s\n"
+    IDS_FILESTATS_SESSION   "Jooksva sessiooni statistika: vastatud %u (%u päringust), üle kantud %s\n"
+    IDS_FILESTATS_TOTAL     "Kõigi sessioonide statistika: vastatud %u (%u päringust), üle kantud %s"
+    IDS_REQ_UNKNOWNFILE     "Päris olematut faili"
+    IDS_SF_AVERAGESIZE      "Keskmine failisuurus: %s"
+    IDS_SF_REQUESTS         "Päringud"
+    IDS_SF_ACCEPTS          "Vastatud päringud"
+    IDS_SF_TRANSFERRED      "Ülekantud andmed"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REMOVESEARCHSTRING  "Sulge see otsingutulemus"
+    IDS_REMOVESELECTED      "Eemalda valitud read"
+    IDS_REMOVEALLSEARCH     "Eemalda kõik otsingud"
+    IDS_ENTERQUEUE          "Lisa järjekorda"
+    IDS_SF_FAIL             "Mittetöötavaid servereid"
+    IDS_SF_WUSER            "Kasutajaid töötavate serverite küljes"
+    IDS_SF_WFILE            "Faile töötavatel serveritel"
+    IDS_SF_USER             "Kasutajaid kokku"
+    IDS_SF_FILE             "Faile kokku"
+    IDS_UPLOADTIME          "Saatmise aeg"
+    IDS_LASTSEENCOMPL       "Viimati nähtud tervikuna:"
+    IDS_YES                 "Jah"
+    IDS_NO                  "Ei"
+    IDS_UNBAN               "Bänn maha"
+    IDS_SF_WORKING          "Töötavad serverid"
+    IDS_ADDTOSTATIC         "Lisa püsiserverite loendisse"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDED2SSF           "lisatud püsiserverite loendisse"
+    IDS_STATICSERVER        "Püsiserver"
+    IDS_ERROR_SSF           "Ei suutnud avada staticservers.dat"
+    IDS_SF_ACTIVECON        "Aktiivseid ühendusi (hinnang)"
+    IDS_SF_MAXCONLIMITREACHED "Ühenduste limiidini jõutud (korda)"
+    IDS_SF_AVGCON           "Ühendusi keskmiselt (hinnang)"
+    IDS_SF_PEAKCON          "Ühendusi maksimaalselt (hinnang)"
+    IDS_ST_ACTIVEC          "aktiivsed ühendused"
+    IDS_NETWORK             "Võrk"
+    IDS_SF_DELCOUNT         "Kustutatud servereid"
+    IDS_QUEUEFULL           "Järjekord täis"
+    IDS_AVG                 "keskmine"
+    IDS_BYTES               "baiti"
+    IDS_KBYTES              "KB"
+    IDS_MBYTES              "MB"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GBYTES              "GB"
+    IDS_TBYTES              "TB"
+    IDS_SECS                "sek"
+    IDS_MINS                "min"
+    IDS_HOURS               "h"
+    IDS_DAYS                "D"
+    IDS_ED2KLINKFIX         "ed2k viited"
+    IDS_RECONNECT           "Uus ühenduskatse serveriga toimub %u sekundi pärast"
+    IDS_SERVERADDED         "Server lisatud: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "Ignoreeri Join infosõnumeid"
+    IDS_STATS_SUCCUPCOUNT   "Õnnestunud saatmisi kokku: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "Ignoreeri Part info teateid"
+    IDS_STATS_FAILUPCOUNT   "Ebaõnnestunud saatmisi kokku: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "Keskmine saatmise kestus: %s"
+    IDS_SEARCHMINSIZE       "Min. suurus [MB]"
+    IDS_SEARCHMAXSIZE       "Max. suurus [MB]"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PREF_ONLINESIG      "Kasuta Online-signatuuri"
+    IDS_ERROR_SAVEFILE      "Ei õnnestunud salvestada"
+    IDS_REQ_SHAREDFILES     "Kasutaja %s (%u) küsis Sinu jagatud failide loendit -> %s"
+    IDS_ACCEPTED            "nõustutud"
+    IDS_DENIED              "tõrjutud"
+    IDS_PW_CON_DOWNLBL      "Tõmbamine"
+    IDS_PW_CON_UPLBL        "Saatmine"
+    IDS_PW_AUTOCONNECTSTATICONLY
+                            "Automaatne ühendamine vaid püsiserveritega"
+    IDS_PW_CON_LIMITFRM     "Limiidid"
+    IDS_STATS_AVGLABEL      "Graafikute kestus: %u min"
+    IDS_GRAPHS              "Graafikud"
+    IDS_STREE               "Statistikapuu"
+    IDS_IRC_IGNOREQUITMESSAGE "Ignoreeri Quit infosõnumeid"
+    IDS_STATSSETUPINFO      "Statistika"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "Proovi esimene ja viimane osa kiiremini tõmmata"
+    IDS_RECOVER_SINGLE      "1 fail taastatud."
+    IDS_RECOVER_MULTIPLE    "%u faili taastatud."
+    IDS_ATTEMPTING_RECOVERY "Püüan arhiivi taastada..."
+    IDS_RECOVERY_SUCCESSFUL "Arhiivi taastamine õnnestus."
+    IDS_RECOVERY_FAILED     "Arhiivi taastamine ebaõnnestus."
+    IDS_STARTNEXTFILE       "Alusta järgmine pausitud fail eelneva lõpetamisel"
+    IDS_FULLCHUNKTRANS      "Ürita saata terved osad"
+    IDS_MANUALSERVERHIGHPRIO
+                            "Määra kõrge prioriteet käsitsi lisatud serveritele"
+    IDS_VERBOSE             "Verbose (täiendav tagasiside programmist)"
+    IDS_FLAT                "tasane"
+    IDS_ROUND               "ümar"
+    IDS_SAMEUSERHASH        "Klient '%s' ja '%s' omavad sama userhashi ja IPd - eemaldatud '%s'"
+    IDS_SEARCHEXTENTION     "Failitüüp"
+    IDS_SEARCHAVAIL         "Saadavus"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDLIMIT           "Ülempiir"
+    IDS_COL_MORECOLORS      "veel..."
+    IDS_TOOMANYCONNS        "Liiga palju ühendusi"
+    IDS_DOWNLOADRENAMED     "Selle nimega fail juba eksisteerib, salvestati nüüd nimega %s"
+    IDS_TBN_DOWNLOADDONE    "Tõmmatud:"
+    IDS_PW_TBN_USESOUND     "Kasuta heli"
+    IDS_PW_TBN_ONLOG        "Uus sissekanne logisse"
+    IDS_PW_TBN_ONCHAT       "Alustab uut jutusessiooni"
+    IDS_PW_TBN_POP_ALWAYS   "Uus sõnum saabus"
+    IDS_PW_TBN_ONDOWNLOAD   "Tõmbamine on lõpetatud"
+    IDS_PW_EKDEV_OPTIONS    "Teadaanded"
+    IDS_PW_TASKBARNOTIFIER  "Teade hüpikaknas"
+    IDS_PW_TBN_OPTIONS      "Näita teadaannet"
+    IDS_TBN_NEWCHATMSG      "Sõnum kasutajalt"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_CON_CAPFRM       "Kiirus"
+    IDS_IRC_PRIVATECHANSTART "* Privaatsessioon alustatud"
+    IDS_IRC_SLAPMSG         "* %s slaps %s around with a large Babelfish!"
+    IDS_IRC_PRIVMESSAGE     "Privaatsõnum"
+    IDS_IRC_KICK            "Kicki"
+    IDS_IRC_SLAP            "Slap"
+    IDS_IRC_JOIN            "Ühine"
+    IDS_IRC_CHANNELLIST     "Kanalite loend"
+    IDS_IRC_CONNECT         "Ühenda"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_DISCONNECT      "Katkesta"
+    IDS_IRC_HASJOINED       "* %s ühines kanaliga %s"
+    IDS_IRC_HASPARTED       "* %s lahkus kanalilt %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s kickis kasutaja %s (%s)"
+    IDS_IRC_HASQUIT         "* %s väljus (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s on nüüd nimega %s"
+    IDS_IRC_SETSMODE        "* %s seab mode: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** Seati moded, mida eMule veel ei toeta. Võibolla peate te korraks kanalist lahkuma nicklisti uuendamiseks.."
+    IDS_IRC_CHANNEL         "Kanal"
+    IDS_IRC_NICK            "Nimi"
+    IDS_IRC_SEND            "Saada"
+    IDS_IRC_NAME            "Nimi"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION slaps %s around with a large Babelfish!\001"
+    IDS_IRC_ADDTIMESTAMP    "Lisa sõnumitele kellaaeg."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_USEFILTER       "Kasuta kanalite loendi filtrit"
+    IDS_IRC_PERFORM         "Käivita"
+    IDS_IRC_USEPERFORM      "Kasuta automaatset käivitust"
+    IDS_IRC_ADDTOFRIENDLIST "Lisa sõprade loendisse"
+    IDS_IRC_LOADCHANNELLISTONCON "Lae serveri kanalite loend ühendmisel"
+    IDS_IRC_ADDASFRIEND     "lisas Sind oma sõbraks!"
+    IDS_PW_WARNING          "Number, mille te valisite ""%s"" on suurem kui teie OS toetab:  %u\nSee võib teie süsteemi ebastabiilseks muuta.\n\nKas olete kindel, et tahate seda teha?"
+    IDS_TAKEOVER            "Asenda"
+    IDS_CLEANUP             "Korrasta"
+    IDS_RENAME              "Nimeta ümber"
+    IDS_IRC_ADDLINKTOIRC    "Lisa see IRC mällu sõpradele saatmiseks"
+    IDS_IRC_SENDLINK        "Saada see sõbrale: "
+    IDS_IRC_RECIEVEDLINK    "%s saatis (%s) automaatselt alustamiseks."
+    IDS_IRC_ACCEPTLINKS     "Aktsepteeri ed2k viiteid IRCis. (Kasuta ettevaatlikult!)"
+    IDS_SHARED              "Jagatud"
+    IDS_DOWNLOADED          "Tõmmatud"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCENAMES         "Allikate nimed"
+    IDS_PREF_STARTMIN       "Alusta minimeeritult"
+    IDS_PS_TBN_IMPORTANT    "Appi: vint on täis, serveriühendus kadunud"
+    IDS_COLORS              "Värvid"
+    IDS_SP_BACKGROUND       "Taust"
+    IDS_SP_GRID             "Võrk"
+    IDS_SP_DL1              "Jooksev tõmbamine"
+    IDS_SP_DL2              "Tõmbamiskestus-keskmine"
+    IDS_SP_DL3              "Tõmbamissessioon-keskmine"
+    IDS_SP_UL1              "Jooksev saatmine"
+    IDS_SP_UL2              "Saatmiskestus-keskmine"
+    IDS_SP_UL3              "Saatmissessioon-keskmine"
+    IDS_SP_ACTCON           "Aktiivsed ühendused"
+    IDS_SP_ACTDL            "Aktiivsed tõmbamised"
+    IDS_SP_ACTUL            "Aktiivsed saatmised"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "Piiramatu"
+    IDS_PW_MINREC           "Vähim soovitatud\t%u "
+    IDS_PW_UA               "Luba suurim üles/alla-kiirus"
+    IDS_PW_PA               "Vähenda üles/alla-kiirust"
+    IDS_IRC_IGNOREINFOMESSAGE "Eira infosõnumeid"
+    IDS_CONNECTIONLOST      "Ühendus kadunud"
+    IDS_WIZ_OS_FRAME        "Operatsioonisüsteem"
+    IDS_HASHINGFILE         "Hashin faili:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "Reaalne saatmiskiirus"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "Reaalne tõmbamiskiirus"
+    IDS_FRIENDLIST          "Sõbrad"
+    IDS_CHATDISCONNECTED    "*** Katkestatud"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZARD              "Nõustaja"
+    IDS_ADDFRIEND           "Lisa sõpradesse"
+    IDS_REMOVEFRIEND        "Eemalda sõber"
+    IDS_REMOVEFROMSTATIC    "Eemalda püsiserverite loendist"
+    IDS_LENGTH              "Pikkus"
+    IDS_VIDEO               "Video"
+    IDS_AUDIO               "Audio"
+    IDS_FILEINFO            "Faili &info"
+    IDS_CODEC               "Koodek"
+    IDS_BITRATE             "Bitrate"
+    IDS_WIDTH               "Laius"
+    IDS_FPS                 "Fps"
+    IDS_CHANNELS            "Kanalid"
+    IDS_SAMPLERATE          "Samplerate"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HEIGHT              "Kõrgus"
+    IDS_SHAREDFILES_FAILED  "Ei suutnud lugeda '%s' jagatud faile"
+    IDS_SHAREDFILES_REQUEST "Pärin jagatud faile kasutajalt '%s'"
+    IDS_VIEWFILES           "Vaata faile"
+    IDS_FRIENDSLOT          "Lisa sõbraslott"
+    IDS_FRIENDDETAIL        "(Sõbraslott)"
+    IDS_UDPDISABLED         "keela"
+    IDS_WIZ_CTFRAME         "Ühenduse tüüp"
+    IDS_CONCURDWL           "Üheaegseid tõmbamisi"
+    IDS_WIZARD_CUSTOM       "Muu ühendus"
+    IDS_WIZARD_ENTERBELOW   "(sisesta siin!)"
+    IDS_STATS_MAXAVGDL      "Suurim tõmbamiskiirus keskmiselt: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MAXDL         "Suurim tõmbamiskiirus: %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "Ignoreeeri eMule protokolli sõbralisamise teateid"
+    IDS_PW_FASTSRVCON       "Turvaline ühendamine"
+    IDS_SOURCELINKFAILED    "Korrektse allikviite loomiseks peab Sul olema HighID"
+    IDS_ERR_LOADSERVERMET   "Ei suutnud laadida server.met!"
+    IDS_ERR_CORRUPTCOMPRPKG "Vastu võetud vigane pakitud pakett %s (viga %u)"
+    IDS_ERR_EMFRIENDSINVALID "Fail emfriends.met on vigane!"
+    IDS_ERR_READEMFRIENDS   "Arusaamatu viga faili emfriends.met avamisel: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "Vastu võetud arusaamatu serveri info!"
+    IDS_WIZ_DOWN            "Alla (kbit/s)"
+    IDS_WIZ_UP              "Üles (kbit/s)"
+    IDS_SELECT_INCOMINGDIR  "Vali sissetulevate failide kaust"
+    IDS_SELECT_TEMPDIR      "Vali ajutiste failide kaust"
+    IDS_PRIOAUTO            "Auto"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOAUTONORMAL      "Auto [No]"
+    IDS_PRIOAUTOHIGH        "Auto [Kõ]"
+    IDS_PRIOAUTORELEASE     "Auto [Re]"
+    IDS_PRIOAUTOLOW         "Auto [Ma]"
+    IDS_ERR_CONTIMEOUT      "Ühendauskatse serveriga ""%s"" (%s:%u ) aegus"
+    IDS_OUTOFSERVERS        "Ei suutnud ühendada ühegi serveriga. Alustan uuesti."
+    IDS_PW_CONLIMITS        "Ühenduse limiidid"
+    IDS_MAXCON5SECLABEL     "Max. uusi ühendusi / 5sek"
+    IDS_PW_UAP              "Lisa uued jagatud failid automaatse prioroteediga"
+    IDS_MAXCLIENT           "Max kasutajaid"
+    IDS_PW_TWEAK            "Täiendavad seaded"
+    IDS_TWEAKS_WARNING      "Hoiatus: Ära muuda siinseid seadeid, kui Sa kindlalt ei tea, mida Sa teed. Sa võid neid muutes oma elu täielikuks põrguks teha. eMule töötab hästi ka ilma neid seadeid muutmata."
+    IDS_ADDAFRIEND          "Lisa sõber"
+    IDS_PAF_REQINFO         "Vajalik informatsioon"
+    IDS_PAF_MOREINFO        "Lisainformatsioon"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "Sa peate sisestama korrektse IP ja pordi!"
+    IDS_ADD                 "Lisa"
+    IDS_RECOVERED_PARTMET   "Taastatud part.met fail: %s"
+    IDS_CMT_QUEST           "Kommenteeri seda faili! (See tekst on näha kõikidele kasutajatele)"
+    IDS_CMT_AIDE            "Filmi jaoks võid öelda pikkuse, stoori, keele... Ja kui see on võltsing, anna seda teistelegi teada... "
+    IDS_CMT_ADD             "Muuda faili kommentaari..."
+    IDS_CMT_NONE            "Kommentaare pole"
+    IDS_CMT_READ            "Faili kommentaar:"
+    IDS_CMT_SHOWALL         "Näita kõiki kommentaare"
+    IDS_CMT_READALL         "Kõik kommentaarid"
+    IDS_CMT_RATEQUEST       "Faili kvaliteet"
+    IDS_CMT_RATEHELP        "Vali faili reiting või teata kasutajatele, et see on vigane või võltsing!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_FAKE            "Vale / Vigane / Võltsing"
+    IDS_CMT_POOR            "Vilets"
+    IDS_CMT_GOOD            "Hea"
+    IDS_CMT_FAIR            "Väga hea"
+    IDS_CMT_EXCELLENT       "Suurepärane"
+    IDS_CMT_NOTRATED        "Hindamata"
+    IDS_KILO                "K"
+    IDS_MEGA                "M"
+    IDS_GIGA                "G"
+    IDS_TERA                "T"
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "Ignoreeri eMule protokollisõnumeid"
+    IDS_SMARTLOWIDCHECK     "Kasuta nutikat LowID kontrolli ühendamisel"
+    IDS_SF_SRVOCC           "Serveri hõivatus: %.2f%%"
+    IDS_3DDEP               "Progressiriba stiil"
+    IDS_AUTOTAKEED2KLINKS   "ed2k viited seostada vaid eMule töö ajal"
+    IDS_ADDNEWFILESPAUSED   "Lisa failid tõmbamiseks pausituna"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOHELP          "Uusima helpfaili saamiseks palun külastada meie kodulehe tõmbamise sektsiooni!\n\nKas soovid selle asemel sirvida online helpi?"
+    IDS_SHOWOVERHEAD        "Näita raisatud kiirusi (Overhead)"
+    IDS_UPDOWNSMALL         "Üles: %.1f | Alla: %.1f"
+    IDS_EDITLIST            "Loend"
+    IDS_SP_ICONBAR          "Kiirus trayl"
+    IDS_RATINGRECV          "Reiting failile '%s' saabus: %u"
+    IDS_DESCRIPTIONRECV     "Kirjeldus failile '%s' saabus: %s"
+    IDS_WEBSERVICES         "Veebiteenused"
+    IDS_WEBSVEDIT           "Muuda veebiteenuseid"
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "Ignoreeri eMule viite saatmise protokollisõnumeid"
+    IDS_CHECK4UPDATE        "Kontrolli uue versiooni saadavust"
+    IDS_STARTUP             "Käivitamine"
+    IDS_NEWVERSIONAVL       "Uus eMule versioon on saadaval! Vaata projekti kodulehte täiendava info saamiseks."
+    IDS_NEWVERSIONAVLPOPUP  "Uus eMule versioon on saadaval. Kliki siia uue versiooni kohta lugemiseks!"
+    IDS_NEWVERSIONFAILED    "Ei suutnud kontrollida uue versiooni olemasolu."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "Leidsin uue eMule versiooni"
+    IDS_NONEWERVERSION      "Uut eMule versiooni ei leitud."
+    IDS_VERSIONCHECK        "&Versioonikontroll"
+    IDS_VISITVERSIONCHECK   "\n\nKas Sa soovite infolehekülge kohe külastada?"
+    IDS_PW_VIDEOPLAYER      "Video vaataja"
+    IDS_VIDEOBACKUP         "Eelvaade koopia alusel"
+    IDS_MYINFO              "Minu info"
+    IDS_ID                  "ID"	//!
+    IDS_IDLOW               "MadalID"
+    IDS_IDHIGH              "KõrgeID"
+    IDS_UPSTATUS            "Olemasolevad osad"
+    IDS_TOVERHEAD           "Üldine Overhead (pakette): %s (%s)"
+    IDS_FROVERHEAD          "Failipäringute Overhead (pakette): %s (%s)"
+    IDS_SSOVERHEAD          "Allikavahetuse Overhead (pakette): %s (%s)"
+    IDS_SOVERHEAD           "Serveri Overhead (pakette): %s (%s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD "Faili lõpetamise threadi tekitamine ebaõnnestus"
+    IDS_FILEBUFFERSIZE      "Failipuhvri suurus"
+    IDS_QUEUESIZE           "Järjekorra pikkus"
+    IDS_DAYS2               "päeva"
+    IDS_ERR_MAKEBAKCREDITFILE "Ei suutnud krediidifaili koopiat luua"
+    IDS_COMMENT             "Kommentaar"
+    IDS_IPFILTERED          "Filtreeritud IP: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "Valmis"
+    IDS_STATS_FILTEREDCLIENTS "Filtreeritud: %u"
+    IDS_FILTERLABEL         "Filtreeri sõnumid, mis sisaldavad (eraldajaks | ):"
+    IDS_ERR_LARGEREQBLOCK   "Kliendi päringupakett oli liiga suur."
+    IDS_SHOWRATEONTITLE     "Näita kiiruseid programmi tiitlis"
+    IDS_TBN_NOMESSAGEHISTORY "Sõnumite ajalugu puudub!"
+    IDS_PW_DAP              "Lisa uued tõmbamised automaatse prioriteediga"
+    IDS_FD_LASTCHANGE       "Viimane tõmbamine:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_RUNTIME       "Jooksev"
+    IDS_ALL                 "Kõik"
+    IDS_CAT_ADD             "Lisa kategooria"
+    IDS_CAT_EDIT            "Muuda kategooria"
+    IDS_CAT_REMOVE          "Eemalda kategooria"
+    IDS_CAT                 "Kategooria"
+    IDS_TITLE               "Tiitel"
+    IDS_COLOR               "Värv"
+    IDS_DEFAULT             "Vaikimisi"
+    IDS_PW_DISPLAY          "Kuvamine"
+    IDS_INDICATERATINGS     "Lisa ikoon kommenteeritud failidele"
+    IDS_ALLOTHERS           "Kõik muud"
+    IDS_TOCAT               "Määra kategooria"
+    IDS_CAT_UNASSIGN        "(vabasta)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "Lisa ed2k viited tõmbamiseks?\n"
+    IDS_PF_WATCHCB          "Otsi puhvrist ed2k viiteid"
+    IDS_SECURITY            "Turvalisus"
+    IDS_IPFILTERLOADED      "%u IP filtrit laetud"
+    IDS_IPFILTER            "IP filter"
+    IDS_EDIT                "Muuda"
+    IDS_FILTERLEVEL         "Filtritase"
+    IDS_FILTERSERVERBYIPFILTER
+                            "Filtreeri ka servereid"
+    IDS_FILTERCOMMENTSLABEL "Filtreeri kommentaarid, mis sisaldavad (eraldajaks | ):"
+    IDS_CLIENTLIST          "Tuntud kliendid"
+    IDS_FOLDER              "Kaust"
+    IDS_CL_UPLOADSTATUS     "Saatmise seisund"
+    IDS_CL_TRANSFUP         "Saadetud"
+    IDS_CL_DOWNLSTATUS      "Tõbamise seisund"
+    IDS_CL_TRANSFDOWN       "Tõmmatud"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CL_PENDING          "Ootel"
+    IDS_CL_LOW2LOW          "MadalatIDlt madalaleIDle"
+    IDS_ERROR               "Viga"
+    IDS_OPENINC             "Ava sissetulekute kaust"
+    IDS_HOTMENU             "Kiirmenüü"
+    IDS_DISABLEKNOWNLIST    "Keela tuntud klientide loend"
+    IDS_DISABLEQUEUELIST    "Keela järjekorra loend"
+    IDS_USECREDITSYSTEM     "Kasuta krediidisüsteemi (premeeri saatjaid)"
+    IDS_FIRSTAUTODOWN       "Enable this option if you want eMule to manage your download priorities.\n\nTurning this on will allow eMule to make sure downloads with a lot of sources do not interfere with downloads that have few sources. This option will only affect future downloads."
+    IDS_FIRSTAUTOUP         "Enable this option if you want eMule to manage your upload priorities.\n\nTurning this on will allow eMule to boost rare files meaning popular files will be harder for other people to get. Turning this off will allow eMule to upload popular files more often meaning rare files will be harder for other people to get. This option will only affect future shared files."
+    IDS_FIRSTSAFECON        "Enable this option if you want eMule to connect using Safe Connect.\n\nTurning this feature off allows eMule to connect to servers a little faster, but can cause you to get more false LowID connects."
+    IDS_FIRSTAUTOCON        "Enable this option if you want eMule to connect at startup."
+    IDS_FIRSTCOMPLETE       "Algseadete nõustaja on õnnelikult läbitud.\n\nKõik eMule seaded on muudetavad klikkides seadete ikooni. Selgituste ja abi jaoks vajuta eMules nuppu F1!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENTERUSERNAME       "Palun sisesta oma kasutajanimi:"
+    IDS_STATIC_CPUMEM       "Vähenda CPU- && mälukasutust"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "Võtmesõna on liiga lühike.\r\n\r\nKad otsingu võtmesõnad peavad olema vähemalt 3 sümbolit pikad."
+    IDS_LOG2DISK            "Salvesta logi kettale"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "Kad otsing võtmesõna ""%s"" jaoks hetkel juba toimub.\r\n\r\nKui soovid sama võtmesõna uuesti otsida, oota eelneva otsingu lõppemiseni või sulge vastav otsingutulemuste paneel."
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "Vigane Kad võtmesõna.\r\n\r\nA Kad otsingutingimus peab olema järgmisel kujul:\r\n\r\n\t<kad-võtmesõna> [ <ed2k-otsingutingimus> ]\r\n\r\n<kad-võtmesõna> ei tohi sisaldada järgnevaid sümboleid:\r\n\r\n\t%s"
+    IDS_EDITCAT             "Muuda kategooria seadeid"
+    IDS_PW_WS               "Veebiserver"
+    IDS_ENABLED             "Lubatud"
+    IDS_WEB_LOGIN           "Logi sisse"
+    IDS_WEB_ENTER_PASSWORD  "Sisesta parool"
+    IDS_WEB_LOGIN_NOW       "Logi sisse"
+    IDS_WEB_CONFIRM_REMOVE_SERVER
+                            "Kas oled kindel, et tahad serverit eemaldada?"
+    IDS_WEB_CONTROL         "Veebi kontrollpaneel"
+    IDS_WEB_LOGOUT          "Logi välja"
+    IDS_WEB_ACTIONS         "Tegevused"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "Näita järjekorda"
+    IDS_WEB_GZIP_COMPRESSION "Gzip pakkimine"
+    IDS_WEB_GZIP_COMMENT    "Vähendab liiklust, eriti graafikute edastamisel."
+    IDS_WEB_REFRESH_TIME    "Lehekülje värskendusaeg"
+    IDS_WEB_REFRESH_COMMENT "Aeg sekundites (null=keelatud):"
+    IDS_SV_URL              "URL"
+    IDS_WS_RELOAD_TMPL      "Makett"
+    IDS_SV_DEBUGLOG         "Detailne logi"
+    IDS_WS_PASS             "Parool"
+    IDS_WS_ERR_LOADTEMPLATE "Ei suuda laadida makette: asenda fail %s uuema versiooniga!"
+    IDS_WEB_CONLIMITS       "Ühenduse limiidid"
+    IDS_INFLST_USER_TOTALDOWNLOAD "Tõmmatud kokku"
+    IDS_INFLST_USER_TOTALUPLOAD "Saadetud kokku"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "Veebiserver: Ebaõnnestunud logimine"
+    IDS_ERR_TOOLARGEFILE    "Fail on suurem, kui eDonkey protokoll lubab (>=256GB)"
+    IDS_MSGONLYFRIENDS      "Võta vastu ainult sõpradelt"
+    IDS_DAY_MO_SA           "E-L"
+    IDS_LIMITSOURCES        "Piira allikaid"
+    IDS_LIMITCONS5SEC       "Piira ühendusi/5sekundis"
+    IDS_SCHED_CATSTOP       "Kat:peata tõmbamised"
+    IDS_SCHED_CATRESUME     "Kat:jätka tõmbamisi"
+    IDS_S_DAYS              "Päeva"
+    IDS_STARTTIME           "Alustusaeg"
+    IDS_VALUE               "Väärtus"
+    IDS_SCHED_ENTERDATARATELIMIT "Sisesta kiiruselimiit:"
+    IDS_SCHED_ENTERVAL      "Palun sisesta uus väärtus:"
+    IDS_SCHED_ACTCONFIG     "Kirjelda tegevust"
+    IDS_SELECTCAT           "Vali kategooria"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALLUNASSIGNED       "Kõik märkimata"
+    IDS_ACTSESSIONS         "aktiivne(-sed) sessioon(id)"
+    IDS_WEBSRV              "Veebiliides"
+    IDS_SW_REFETCHRES       "Uuenda tulemusi"
+    IDS_FILEHASH            "Faili Hash"
+    IDS_PW_PROXY            "Proksi"
+    IDS_PROXY_ENABLE        "Aktiveeri Proxy"
+    IDS_PROXY_TYPE          "Proksi tüüp:"
+    IDS_PROXY_HOST          "Proksi host:"
+    IDS_PROXY_PORT          "Proksi port:"
+    IDS_PROXY_AUTH          "Luba autoriseerimine"
+    IDS_AUTH                "Autoriseerimine"
+    IDS_SHOWCATINFO         "Näita tõmbamisinfot kategooria tab'idel"
+    IDS_SW_SEARCHINGINFO    "Otsing on aktiivne. Uuenda tulemusi hetke pärast!"
+    IDS_LOGENTRY            "Logi kirje"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "Kopeeri"
+    IDS_SELECTALL           "Vali kõik"
+    IDS_AUTOSCROLL          "Isekerimine"
+    IDS_WIZ1_WELCOME_TITLE  "Tere tulemast eMule maailma!"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "Nõustaja aitab Sul astuda esimesed sammud eMule konfigureerimisel."
+    IDS_WIZ1_WELCOME_BTN_HINT "Jätkamiseks kliki nupul Next."
+    IDS_WIZ1_END_TITLE      "Nõustaja lõpetamine"
+    IDS_WIZ1                "eMule algseadete nõustaja"
+    IDS_WIZ1_END_BTN_HINT   "Nõustaja sulgemiseks kliki nupul Finish."
+    IDS_WIZ1_UPLOAD_SUBTITLE "Tervete osade (chunk) saatmine"
+    IDS_DL_RESUMENEXT       "Jätka järgmist pausitut"
+    IDS_STARTPRIO           "Prioriteet samale kategooriale"
+    IDS_PREF_STARTNEXTFILECAT "Eelista sama kategooriat"
+    IDS_SOFTFILES           "Algne failipiirang"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDFILES           "Failipiirang"
+    IDS_FILTER              "Filter"
+    IDS_LINKS               "Viited"
+    IDS_HM_SCHED_ON         "Luba planeerija"
+    IDS_HM_SCHED_OFF        "Keela planeerija"
+    IDS_HM_LINKHP           "eMule koduleht"
+    IDS_HM_LINKFAQ          "eMule KKK"
+    IDS_HM_LINKVC           "eMule versioonikontroll"
+    IDS_DEBUG_SOURCE_EXCHANGE "Logi allikavahetuse ja serverilt allikate küsimise päringud"
+    IDS_SHAREDREQ1          "Kasutaja %s (%u) küsis Sinu jagatud kaustade nimekirja -> %s"
+    IDS_SHAREDREQ2          "Kasutaja %s (%u) küsis Sinu jagatud failide nimekirja kataloogist '%s' -> %s"
+    IDS_SHAREDANSW          "Kasutaja %s (%u) jagab kataloogi '%s'"
+    IDS_SHAREDANSW2         "Kasutaja %s (%u) saatis küsimata jagatud failide nimekirja - ignoreeritud"
+    IDS_SHAREDINFO1         "Kasutaja %s (%u) saatis kataloogis '%s' jagatud failide nimekirja"
+    IDS_SHAREDINFO2         "Kasutaja %s (%u) lõpetas jagatud failide nimekirja saatmise"
+    IDS_SHAREDANSW3         "Kasutaja %s (%u) saatis küsimata kataloogis '%s' jagatud failide nimekirja - ignoreeritud"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDREQDENIED     "Kasutaja %s (%u) keelas juurdepääsu jagatud failidele/kataloogide nimekirja"
+    IDS_AUTOCLEANUPFN       "Korrasta failinimi"
+    IDS_ONNEWDOWNLOAD       "Uuel tõmbamisel"
+    IDS_FILTERFILENAMEWORD  "Sisesta märgiga | eraldatud sõnad, mida filtreerida"
+    IDS_FNFILTERTITLE       "Muuda failinimede korrastamise filtrit"
+    IDS_CHANGECATVIEW       "Vali filter"
+    IDS_STATUS_NOTCOMPLETED "Lõpetamata"
+    IDS_STATS_CUMULATIVE    "Kumulatiivne"
+    IDS_STATS_OVRHD         "Overhead"
+    IDS_STATS_RECORDS       "Ajalugu"
+    IDS_STATS_COMPDL        "Lõpetatud tõmbamised"
+    IDS_STATS_SVRECWORKING  "Max. töötavaid servereid"
+    IDS_STATS_SVRECUSERS    "Max. kasutajaid liinil"
+    IDS_SEARCH_TEXT         "Otsi"
+    IDS_STATS_SVRECFILES    "Max. faile saadaval"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SHRECNUM      "Max. faile iial jagatud"
+    IDS_SEARCH_COLUMN       "Otsi veerus"
+    IDS_STATS_SHRECSIZE     "Suurim jagatud failide kogsuurus"
+    IDS_STATS_SHRECASIZE    "Suurim keskmine failisuurus"
+    IDS_STATS_SESSION       "Sessioon"
+    IDS_STATS_SRATIO        "Sessiooni UL:DL suhe:"
+    IDS_STATS_CRATIO        "Kumulatiivne UL:DL suhe:"
+    IDS_SEARCH_NORESULT     "Sobivad tulemused puuduvad."
+    IDS_STATS_CURRSRVDUR    "Serveriühenduse kestus"
+    IDS_LONGSECS            "sekundit"
+    IDS_STATS_DLSES         "Tõmabamised"
+    IDS_LONGMINS            "minutit"
+    IDS_STATS_SDLSES        "Õnnestunud tõmbamiskordi"
+    IDS_STATS_FDLSES        "Ebaõnnestunud tõmbamiskordi"
+    IDS_STATS_AVGDATADLSES  "Korraga tõmmatud keskmiselt"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ULSES         "Saatmised"
+    IDS_STATS_GAINCOMP      "Kasu pakkimisest: %s"
+    IDS_STATS_LOSTCORRUPT   "Kahjud vigadest: %s"
+    IDS_STATS_AVGDATAULSES  "Korraga saadetud keskmiselt"
+    IDS_STATS_ICHSAVED      "I.C.H poolt päästetud failijuppe: %u"
+    IDS_STATS_MBRESET_TXT   "Kas oled kindel, et soovid statistikat nullida?\n\nKui juhtud meelt muutma, võid nullimise tühistada nupu 'Taasta statistika' abil."
+    IDS_STATS_MBRESTORE_TXT "Kas oled kindel, et soovid kumulatiivsed andmed koopiast taastada?\n\nJärgmine klikk nupul 'Taasta statistika' laeb eMule'sse praegused andmed."
+    IDS_ERR_NOSTATBKUP      "Viga: Statistika koopiat ei leitud..."
+    IDS_STATS_NFOLOADEDBKUP "Kumulatiivsed andmed on koopiast taastatud..."
+    IDS_STATS_NFORESET      "Statistika on nullitud!"
+    IDS_STATS_BNRESET       "Statistika taastamine"
+    IDS_STATS_BNRESTORE     "Taasta statistika"
+    IDS_PPGSTATS_YSCALE     "Ühenduste statistika Y-telje skaala:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "Aktiivsete ühenduste suhe:"
+    IDS_STATS_PROBLEMATIC   "Probleemne"
+    IDS_LONGHRS             "Tundi"
+    IDS_STATS_LARGESTFILE   "Suurim jagatud fail"
+    IDS_SPLIT_WINDOW        "Split Window"
+    IDS_STATS_DSPF          "Partfail"
+    IDS_STATS_DATASOURCE    "Andmeallikas"
+    IDS_STATS_DSFILE        "Terviklik fail"
+    IDS_STATS_GENERAL       "Üldised"
+    IDS_STATS_TRANSTIME     "Ülekandeaeg"
+    IDS_STATS_DOWNTIME      "Tõmbamisaeg"
+    IDS_STATS_UPTIME        "Saatmisaeg"
+    IDS_STATS_TOTALSRVDUR   "Serveriühenduste kogukestus"
+    IDS_STATS_MAXAVGUL      "Max keskmine saatmiskiirus"
+    IDS_STATS_MAXUL         "Max saatmiskiirus"
+    IDS_STATS_AVGDLTIME     "Keskmine tõmbamisaeg"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_PRTDEF        "Vaikimisi"
+    IDS_STATS_PRTOTHER      "Muu"
+    IDS_STATS_MNUTREETITLE  "Statistikapuu"
+    IDS_STATS_MNUTREECPYSEL "Kopeeri valitud haru"
+    IDS_STATS_MNUTREECPYALL "Kopeeri kogu statistika"
+    IDS_STATS_MNUTREEHTML   "HTML võimalused"
+    IDS_STATS_EXPORT2HTML   "Ekspordi kogu statistika..."
+    IDS_STATS_MNUTREECPYVIS "Kopeeri kõik nähtav"
+    IDS_STATS_MNUTREEEXPANDALL "Ava kõik sektsioonid"
+    IDS_STATS_MNUTREECOLLAPSEALL "Sulge kõik sektsioonid"
+    IDS_STATS_MNUTREEEXPANDMAIN "Ava esimene tase"
+    IDS_STATS_LASTRESETSTATIC "Statistika viimati nullitud: %s"
+    IDS_STATS_MONTHLY       "Kuu"
+    IDS_STATS_YEARLY        "Aasta"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_TIMESTATS     "Ajaline statistika"
+    IDS_STATS_AVGANDPROJ    "Projekteeritud keskmised"
+    IDS_STATS_TIMESINCERESET "Möödunud viimasest nullimisest: %s"
+    IDS_CRYPT_INITFAILED    "Viga krüptovõtmete initsialiseerimisel - turvatuvastus keelatud"
+    IDS_CD_IDENT            "Tuvastamine:"
+    IDS_IDENTOK             "Õnnestus"
+    IDS_IDENTFAILED         "Ebaõnnestus"
+    IDS_IDENTNOSUPPORT      "Mitteühilduv või keelatud"
+    IDS_COMMITFILES         "Turvaline .met/.dat failide salvestamine"
+    IDS_ERR_BADUNC          "vigane võrguaadress (UNC)"
+    IDS_NEVER               "Mitte kunagi"
+    IDS_ALWAYS              "Alati"
+    IDS_ONSHUTDOWN          "Sulgemisel"
+    IDS_UNCFOLDERS          "Võrgukaustad (UNC)"
+    IDS_USESECIDENT         "Kasuta turvatuvastust"
+    IDS_ADVSPAMFILTER       "Detailne spämmifilter"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SECUREIDENT   "Turvatuvastus (OK:ebaõnnestus)"
+    IDS_ONDISK              "Suurus kettal: "
+    IDS_CLIENTCOL           "Hoiatus: Leidsin klooni hetkel ühendatud kliendile: %s (%s) ja %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "Lõpetamata tekst"
+    IDS_SEARCH_GENERALERROR "Üldine viga"
+    IDS_SEARCH_MISSINGORRIGHT "Operaatori OR parem pool puudub"
+    IDS_SEARCH_MISSINGNOTRIGHT "Operaatori NOT parem pool puudub"
+    IDS_SEARCH_MISSINGEXPRPARANT "Avaldis '(' ')' seest puudub"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "Sulgev ')' puudub"
+    IDS_SEARCH_EXPRERROR    "Viga otsinguavaldise töötlusel"
+    IDS_SEARCH_TOOCOMPLEX   "Avaldis on liiga keeruline"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSION             "Versioon"
+    IDS_A4AF                "Allikate haldamine"
+    IDS_AUTOCAT_LABEL       "Automaatne jaotus kategooriatesse (| eraldatud võtmesõnad)"
+    IDS_SHOWEXTSETTINGS     "Lisakäsud ja võimalused (edasijõudnutele)"
+    IDS_TREEOPTIONS_TRUE    "Õige"
+    IDS_TREEOPTIONS_FALSE   "Vale"
+    IDS_TREEOPTIONS_OK      "OK"
+    IDS_HYPERTEXT_FONT_HINT "Serveri-, sõnumi- ja IRC akna kirjastiil"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SELECT_FONT         "Vali kirjastiil"
+    IDS_SERVER_LIMITS       "Esmane-/absoluutne failipiirang"
+    IDS_KBITSSEC            "kbitti/sek"
+    IDS_KBYTESSEC           "kBaiti/sek"
+    IDS_ERR_CREATE_DIR      "Ei suutnud luua %s kataloogi ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "Sissetulekute kaust ei tohi viidata eMule paigalduskaustale."
+    IDS_WRN_TEMPFILES_RESERVED
+                            "Ajutiste failide kaust ei tohi viidata eMule paigalduskaustale."
+    IDS_WRN_INCTEMP_SAME    "Sissetulekute ja ajutiste failide kaustad ei tohi olla samad."
+    IDS_SHOWDWLPERCENTAGE   "Näita progressiribal kohalejõudmise protsenti"
+    IDS_TBN_ONNEWDOWNLOAD   "Tõmabamine lisatud"
+    IDS_ARTIST              "Artist"
+    IDS_ALBUM               "Album"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UPLOADREQ        "Küsitud saatmiseks:"
+    IDS_SETTINGCHANGED_RESTART
+                            "Muutuste mõjumiseks tuleb eMule uuesti käivitama!"
+    IDS_CREDITSEXPIRED      ", %u klienti kustutatud (ei ole 5 kuud näinud)"
+    IDS_SOURCESINFO         "%u  (soodsaid: %u, NNP: %u, A4AF: %u)"
+    IDS_META_DATA           "Üldandmed"
+    IDS_TIMEBEFORE          "(%s tagasi)"
+    IDS_FD_TIMEDATE         "Kuupäevad"
+    IDS_FILEINFORMATION     "Failiinfo"
+    IDS_STATS_FREESPACE     "Free Space"
+    IDS_IRC_HELPCHANNEL     "Ühine 'help' kanaliga."
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-estonian"
+    IDS_IRC_ACCEPTLINKSFRIENDS "Vaid sõpradelt."
+    IDS_COMPLSOURCES        "Tervikfaili allikaid"
+    IDS_CHECKNOENDTIME      "Lõpp määramata"
+    IDS_FD_DOWNLOADSTARTED  "Tõmbamine lisatud:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FAILEDREOPEN        "Fataalne viga: Part faili '%s' (%s) taasavamine ebaõnnestus!"
+    IDS_ERR_PREVIEWALREADY  "Sellele kasutajale on juba mingi eelvaate soov esitatud"
+    IDS_ERR_PREVIEWFAILED   "Eelvaade kasutajalt '%s' ebaõnnestus"
+    IDS_DWTOT               "Kettaruum"
+    IDS_DWTOT_NR            "Tõmbamisi kokku: %u"
+    IDS_DWTOT_TSD           "Tõmbamiste kogusuurus: %s"
+    IDS_DWTOT_TCS           "Lõpetatud andmeid kokku: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "Tõmbamata andmeid kokku: %s"
+    IDS_DWTOT_TSN           "Vajalik kettaruum lõpetamiseks: %s"
+    IDS_DWTOT_FS            "Vaba ruum ajutisel kettal: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (sa pead vabastama %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT "Serveriühendus värskendusvahemik [min.]"
+    IDS_MORE                "&Veel"
+    IDS_TOOLS               "Abi&vahendid"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u hashimisel)"
+    IDS_CHECKDISKSPACE      "Kontrolli kettaruumi"
+    IDS_YOURHOSTNAME        "Hostinimi enda ed2k viidete jaoks"
+    IDS_INSUFFICIENT        "Kettaruumi pole piisavalt"
+    IDS_MINFREEDISKSPACE    "Min. vaba kettaruum [MB]"
+    IDS_WARNING             "Hoiatus"
+    IDS_IMPORTSPLPF         "Part failide import (eMule,eDonkey,Overnet)"
+    IDS_IMP_STEPREADPF      "Part failide kausta lugemine"
+    IDS_IMP_STEPBASICINF    "Part faili alusinfo lugemine"
+    IDS_IMP_STEPCRDESTFILE  "Tulemusfaili tekitamine"
+    IDS_IMP_LOADDATA        "Vanast part failist andmete lugemine (%u / %u)"
+    IDS_IMP_SAVEDATA        "Andmebloki salvestus uude part faili (%u / %u)"
+    IDS_IMP_IOERROR         "Viga part faili konverteerimisel"
+    IDS_IMP_GETPFINFO       "Info lugemine algsest part failist"
+    IDS_IMP_ADDDWL          "Uue part faili salvestamine ja tõmbamise lisamine"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_FETCHSTATUS     "Seisundi lugemine..."
+    IDS_IMP_INPROGR         "toimub"
+    IDS_IMP_ERR_DISKSP      "Viga: ketas on täis"
+    IDS_IMP_ERR_PARTMETIO   "Viga: partmet fail kadunud"
+    IDS_IMP_ERR_IO          "Viga: IO viga!"
+    IDS_IMP_ERR_FAILED      "Viga: ebaõnnestus!"
+    IDS_IMP_STATUSQUEUED    "Järjekorras"
+    IDS_IMP_ALRDWL          "Juba tõmbamas"
+    IDS_IMP_ADDBTN          "&Lisa imporditud"
+    IDS_IMP_RETRYBTN        "&Proovi valituid uuesti"
+    IDS_IMP_REMOVEBTN       "&Kustuta valitud"
+    IDS_IMP_SELFOLDER       "Palun vali üksikute partmet failide kaust või vana ajutine kaust koos partmet alamkaustadega!"
+    IDS_IMP_DELSRC          "Kas soovid algsed part failid pärast õnnestunud importi kustutada?"
+    IDS_IMP_SIZE            "%s (ketas:%s)"
+    IDS_IMP_STATUS          "Impordin %s: %s"
+    IDS_DYNUPENABLED        "Leia parim saatmiskiirus automaatselt"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "Ping'i kõikumine (% madalaimast)"
+    IDS_DYNUP_GOINGUPDIVIDER "Kiiruse kasvamise aeglus"
+    IDS_DYNUP_GOINGDOWNDIVIDER "Kiiruse kahanemise aeglus"
+    IDS_DYNUP_NUMBEROFPINGS "Mitu ping'i keskmistada"
+    IDS_DYNUP_MINUPLOAD     "Vähim lubatud saatmiskiirus"
+    IDS_ESTTIMELEFT         "Aega jäänud arvatavalt:"
+    IDS_TRANSFER_RATE_LABEL "Ülekandekiirus:"
+    IDS_SAVELOG             "Salvesta logi"
+    IDS_CMT_COPYCLIPBOARD   "Kopeeri kommentaar puhvrisse"
+    IDS_ASKDOWNLOADLANG     "Valitud keel pole Sinu arvutisse paigaldatud. Kas soovid tõmmata ta emule-project.net kodulehelt?"
+    IDS_ASKDOWNLOADLANGCAP  "Tõmba keelefailid"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "Viga valitud keelefailide tõmbamisel ja paigaldusel %s-st!"
+    IDS_ERR_BADFOLDER       "Ebasobiv kaust.\nKausta pole võimalik tekitada - kontrolli nime ja asukohta."
+    IDS_AUTOREMOVEFD        "Peida kohalejõudnud failid automaatselt"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_NODE            "Hajusotsing"
+    IDS_KAD_STOREFILE       "Failiinfo salvestamine"
+    IDS_KAD_STOREKW         "Võtmesõna salvestamine"
+    IDS_KAD_UNKNOWN         "Tundmatu"
+    IDS_SRV_TCPCOMPR        "TCP pakkimine"
+    IDS_KADSEARCHLAB        "Jooksvad otsingud"
+    IDS_SRV_UDPSR           "Täiendatud UDP protokoll allikapäringuteks"
+    IDS_SRV_UDPFR           "Täiendatud UDP protokoll failipäringuteks"
+    IDS_MINLENGTH           "Min. pikkus [hh:mm:ss]"
+    IDS_EM_HELP             "&Appi"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "Sõber jäi lisamata.\r\n\r\nMeil juba on üks sama IP aadressi ja pordiga sõber."
+    IDS_DYNUP               "Saatmiskiiruse regulaator (USS)"
+    IDS_KADOVERHEAD         "Kad Overhead (pakette): %s (%s)"
+    IDS_FIND                "Leia..."
+    IDS_LOG_BANNED_CLIENTS  "Logi bännitud kasutajad"
+    IDS_LOG_RATING_RECV     "Logi vastuvõetud failikirjeldused ja reitingud"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "tuntud kasutajatelt"
+    IDS_KADUDPPORTERR       "Kad UDP port on vastuolus eMule kliendi või serveri UDP pordiga. Kad UDP pordiks on asendatud %u."
+    IDS_CONFIRM_FILEDELETE  "Tahad Sa ikka kindlasti kustutada kõik valitud failid?"
+    IDS_OPENFOLDER          "Ava kaust"
+    IDS_DELETE              "Kustuta kettalt"
+    IDS_BOOTSTRAP           "Bootstrap"
+    IDS_VIAED2KSQ           "ed2k serveri/järjekorra kaudu"
+    IDS_EM_KADEMLIA         "&Kad"
+    IDS_VIAKAD              "Kad kaudu"
+    IDS_VIASE               "Allikavahetuse kaudu"
+    IDS_SELECTTOOLBARBITMAP "Vali pilt riistariba jaoks"
+    IDS_SELECTTOOLBARBITMAPDIR "Vali piltide kaust"
+    IDS_TOOLBARSKINS        "Riistariba skin'id"
+    IDS_NOTEXTLABELS        "Keela märgendid"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "Ikoonist paremal"
+    IDS_TEXTLABELS          "Märgendid"
+    IDS_ENABLETEXTLABELS    "Ikooni all"
+    IDS_CUSTOMIZETOOLBAR    "Muganda riistariba"
+    IDS_MINBITRATE          "Min. bitikiirus [kbitti/s]"
+    IDS_KAD_RECHECKFW       "Kontrolli tulemüüri"
+    IDS_SHAREDTITLE         "Jagatud ed2k|Kad"
+    IDS_FIREWALLED          "Tulemüüriga"
+    IDS_KADEMLIA            "Kad"
+    IDS_KADCONTACTLAB       "Kontaktid"
+    IDS_KADDISTANCE         "Vahemaa"
+    IDS_KEY                 "Võti"
+    IDS_NUMBER              "Number"
+    IDS_KAD_SEARCHSRC       "Allikate otsing"
+    IDS_KAD_SEARCHKW        "Võtmesõnade otsing"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_SECURE_IDENT    "Logi turvatuvastusi"
+    IDS_LOG_FILTERED_IPS    "Logi filtreeritud ja/või ignoreeritud IPsid"
+    IDS_LOG_FILE_SAVING     "Logi failisalvestust"
+    IDS_DELETEIPFILTERS     "Tahad Sa ikka kindlasti valitud IP filtrid kustutada?"
+    IDS_TOTAL_IPFILTER_LABEL "IP filtreid kokku:"
+    IDS_TOTAL_IPS_LABEL     "IPsid kokku:"
+    IDS_DELETESELECTED             "Kustuta"
+    IDS_APPEND              "Lisa..."
+    IDS_SAVE                "Salvesta"
+    IDS_IP_START            "Algus"
+    IDS_IP_END              "Lõpp"
+    IDS_IP_LEVEL            "Tase"
+    IDS_IP_DESC             "Kirjeldus"
+    IDS_IP_HITS             "Soovitused"
+    IDS_IP_RULES            "IP filtrid:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "Sa pole hetkel Kad võrguga ühenduses!"
+    IDS_IRC_NOSFS           "Ühtegi jagatud faili pole valitud"
+    IDS_IRC_IGNOREMISCMESSAGE "Ignoreeri erinevaid infosõnumeid"
+    IDS_KNOWN               "Tuntud"
+    IDS_DL_ACTIVE_TIME      "Tõmbamise aeg"
+    IDS_RESETLABEL          "Otsingusõnade ajalugu"
+    IDS_PASTE               "Kleebi"
+    IDS_UNDO                "Taasta"
+    IDS_CUT                 "Lõika"
+    IDS_IRC_SOUNDEVENTS     "Kasuta soundi"
+    IDS_KADCONTACTSREAD     "Failist loeti %u kontakti."
+    IDS_ERR_KADCONTACTS     "Kontakte pole, palun bootstrap'i või tõmba sobiv nodes.dat fail."
+    IDS_RUNASUSER           "Kasuta eMule piiratud Windowsi kasutajaõigustega"
+    IDS_RAU_RUNNING         "eMule töötab piiratud kasutaja ""%s"" õigustes"
+    IDS_RAU_FAILED          "Viga eMule käivitamisel piiratud kasutaja ""eMule_Secure"" õigustes. Edasine töö toimub jooksva kasutajana (""%s"")."
+    IDS_RAU_WARNING         "See valik muudab eMule turvalisemaks võimalike rünnakute ja turvariskide vastu.\nIgal juhul on enne valiku sisselülitamist äärmiselt soovitav lugeda juhendit!\n\nMuutused mõjuvad eMule järgmisel käivitamisel."
+    IDS_SEARCHPARAMS        "Otsingutingimused"
+    IDS_METATAGS            "Üldandmete (Meta Tag) hulk:"
+    IDS_FILEFORMAT          "Failiformaat"
+    IDS_UPDATEFROM          "Uuenda URL-ilt: (filter.dat- või PeerGuardian'i formaadis)"
+    IDS_UDPREASKS           "UDP failikontroll"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE_MS 			"Ping tolerans (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER 	"Meetod ping-imise tolerans"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS 		"Millisekundid (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT 	"Protsent (%)"
+    IDS_LOG_A4AF            "A4AF tegevuse logi"
+    IDS_A4AF_SAVE_CPU       "Blokeeri A4AF märgistuse salvestust CPU"
+    IDS_SEARCH_DOC          "Dokument"
+    IDS_INSTALL_SKIN        "Seadista eMule rüü"
+    IDS_INSTALL_SKIN_NODIR  "eMule rüü profiili valitud kataloog või kataloogid ei ole kätte saadav!"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "Luhtunud  katloogi loomine ""%s""eMule rüü - %s"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "Luhtunud faili extract-imine ""%s"" eMule rüüst lokaalse faili ""%s"" - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "See ei ole kehtiv eMule rüü pakett fail."
+    IDS_NEXT_REASK          "Järgmine küsimine sellelt kliendilt."
+    IDS_A4AF_FILES          "A4AF failid"
+    IDS_STATS_FRATIO        "Seanss UL:DL suhtarv (sõprade UL vigane):"
+    IDS_STATS_UDATA_FRIENDS "Jagatud andmed sõprade slotid (Seanss): %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FO_PREF_EXISTED     "eMule detected existing rules for the selected ports, which were not overwritten or replaced. Missing rules have been added successfully.\nPlease note that third-party desktopfirewalls or routers are not effected by this!"
+    IDS_FO_PREF_FAILED      "Luhtund seadsitamine WinXP tulemüüri valitud portidele!"
+    IDS_FO_PREF_STARTUP     "Ava/sulge portid WinXP tulemüüris kui käivtub/sulgub eMule"
+    IDS_LOG_LEVEL           "Logi tasand"
+    IDS_FO_TEMPTCP_S        "Avatud port %u (TCP) on sisend WinXP tulemüüris selle eMule seansiks"
+    IDS_FO_TEMPTCP_F        "Luhtunud pordi avmine %u (TCP) on sisend WinXP tulemüüris selle eMule seansiks"
+    IDS_FO_TEMPUDP_S        "Avatud port %u (UDP) on sisend WinXP tulemüüris selle eMule seansiks"
+    IDS_FO_TEMPUDP_F        "Luhtunud pordi avamine %u (UDP)oon sisend WinXP tulemüüris selle eMule seansiks"
+    IDS_FO_PREFBUTTON       "Ava vajalikud pordid WinXP enda tulemüüris"
+    IDS_FO_PREF_SUCCCEEDED  "Edukalt avatu märgitud pordid WinXP tulemüüris.\nPalun jäta meelde et lõikelauatulemüüris või ruuteris ei ole need efektiivsed!"
+    IDS_NEWMSG              "Uus teade '%s' (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "Ainult sama kategooriast"
+    IDS_SOURCESWAPBLOCKED   "Vahetus blokitud"
+    IDS_A4AF_CHECK_THIS_NOW "Kontrolli seda allikad kohe (silu)"
+    IDS_LOG_ULDL_EVENTS     "Üles/allalaadimiste sündmuste logi"
+    IDS_PEERCACHE_ENABLED   "Sinu ISP toed PeerCache tehnoloogia, võimalda vahemälu allalaadimised!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "Luba kasutajal sind lisada sõprade nimekirja."
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "Allalaetud osad vajalikud emase eelvaatluseks"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "Tundmatu või vigane tempfaili vorming."
+    IDS_SEARCH_INVALIDCHAR  "Otsi vigaseid lühivälejndus karaktereid. You either entered a '?' character or entered characeters which can not be used in eD2K network."
+    IDS_PORTSCON            "Pordid ja ühendus"
+    IDS_PORTINFO            "eMule kasutab kahte porti suhtlemiseks koos serveri ja klientidega. Need port-id peavad olema vabad ja kättesaadav teistele klientidele. These ports must be free and available for remote clients. The TCP port must be available to ensure the main functionality of eMule. The UDP port is used for Kad (serverless network) and to reduce network usage (Overhead).\n\nYou can change the ports here while no network activities have started."
+    IDS_STARTTEST           "Testi porte"
+    IDS_TESTINFO            "Siin saad testida, kas sinu TCP ja UDP pordid saavd ühendust. This success of this test is required for servers and clients to connect you. The TCP port have to succeed!"
+    IDS_CONNECTIONTEST      "Ühenduse test"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "portide muutmine on võimlik peale seda kui ühendud serveriga/Kad!\n\npalun taaskäivita eMule et muuta port seadeid."
+    IDS_NETWORK_INFO        "Võrgu info"
+    IDS_SP_TOTALUL          "Kogusumma saatmisi"
+    IDS_SP_ULFRIENDS        "Saatmise sõbra slotid"
+    IDS_SP_ULSLOTSNOOVERHEAD "hetke saatmis excl. ballast (UL slots ainult)"
+    IDS_ST_ACTIVEU_ZZ       "Aktiivne saatmine"
+    IDS_ST_ULCURRENT        "Üleslaadimine+Ballast"
+    IDS_ST_ULSLOTSNOOVERHEAD "Üleslaadimine"
+    IDS_ST_ULFRIEND         "Sõbralt saatmine"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "Aktiivne saatmines/vajab täit ribalaiust: %u"
+    IDS_STATS_TOTALUL       "kogusumma saatmisi: %u"
+    IDS_CHAT_DOWNLOADED     "Allalaetud:"
+    IDS_CHAT_UPLOADED       "Jaotatud:"
+    IDS_CHAT_IDENT          "Identifitseeimine:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAXHALFOPENCONS     "Max. Pool Ava ühendusi"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "Lubades selle(?) eMule käivitub kui sa käivitad windowsi."
+    IDS_KAD_WAITCBK         "Oota tagasihelistamist Kad"
+    IDS_KAD_TOOMANDYKADLKPS "Liig palju Kad otsinguid"
+    IDS_PCDS_CLIENTWAIT     "Klient ootab"
+    IDS_PCDS_CACHEWAIT      "Vahemälu ootab"
+    IDS_CACHE               "Vahemälu"
+    IDS_INDEXED             "Indekseeritud"
+    IDS_KADINFO_SRC         "\tAllikas: %u\r\n"
+    IDS_KADINFO_KEYW        "\tMärksõna: %u\r\n"
+    IDS_STARTWITHWINDOWS    "Stardi koos Windows-iga"
+    IDS_ADDSRCMANUALLY      "Manuaalselt lisa allikas"
+    IDS_BUDDY               "Semu"
+    IDS_BUDDYNONE           "Eimiski"
+    IDS_INFO                "Info"
+    IDS_HALF                "Poolik"
+    IDS_CONCOMPL            "Valmis"
+    IDS_KADSTATUS_STOPPING  "Peatatud"
+    IDS_KADSTATUS_ACTIVE    "Aktiivne"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FORMAT              "Vorming"
+    IDS_META_COLLECTION     "Kogu"
+    IDS_META_PARTPATH       "Part path"
+    IDS_META_PARTHASH       "Part hash"
+    IDS_META_GAPSTART       "Gap start"
+    IDS_META_GAPEND         "Gap lõpp"
+    IDS_FAIL                "Fail"
+    IDS_META_PREFERENCES    "Häälestus"
+    IDS_META_VERSION        "Versioon"
+    IDS_META_TEMPFILE       "Ajutine fail"
+    IDS_META_SERVERPORT     "Serveri port"
+    IDS_META_SERVERIP       "Serveri IP"
+    IDS_META_SRCUDPPORT     "Allika UDP port"
+    IDS_META_SRCTCPPORT     "Allika TCP port"
+    IDS_META_SRCIP          "Allika IP"
+    IDS_META_SRCTYPE        "Allika tüüp"
+    IDS_SEARCH_UNICODE      "Otsi koos Unicode"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LD_ED2KLINK         "ED2K Link"
+    IDS_LD_COPYCLIPBOARD    "Kopeeri lõikelauale"
+    IDS_LD_HOSTNAME         "Kasuta hostnime (häälestuses) asemel IP kuni tekitab lähtelinki"
+    IDS_SAVEACFAILED        "Nurjunud salvestus AICH Hashset!!"
+    IDS_AICHHASH            "AICH Hash"
+    IDS_BYTESPERSEC         "B/s"
+    IDS_KBYTESPERSEC        "KB/s"
+    IDS_MBYTESPERSEC        "MB/s"
+    IDS_GBYTESPERSEC        "GB/s"
+    IDS_TBYTESPERSEC        "TB/s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MINORCLIENTS  "Väiksem"
+    IDS_LD_BASICOPT         "Alg valikud"
+    IDS_LD_ADDSOURCE        "Lisa ennast nagu allikas"
+    IDS_LD_EMULEHASH        "Lisa eMule AICH Hash arenenud rikutuse töötlemiseks"
+    IDS_LD_ADVANCEDOPT      "Edasijõudnud valikud"
+    IDS_LD_ADDHTML          "Lisa HTML-sildid"
+    IDS_LD_ADDHASHSET       "Lisa täielik hashset"
+    IDS_FILELINK            "Fail link"
+    IDS_PF_ADVANCEDCALC     "Kasuta arenenud arvutus meetodi järelejäänud aeg"
+    IDS_DL_SHOWED2KLINK     "Näita eD2K Link..."
+    IDS_AICH_SYNCTOTAL      "Found %u files without valid AICH Hashset, going to rehash those files now"
+    IDS_AICH_CALCFILE       "Kalkuleerin AICH Hash-i failile %s"
+    IDS_AICH_WARNUSER       "Since version 0.44a eMule uses an additional filehash which helps to greatly reduce the dataloss when a corruption is detected. Because your are updating from an earlier version, eMule needs to rehash all your shared files to calculate the new hash. This may take a while but is an one-time action.  "
+    IDS_AICH_WORKED         "AICH successfully recovered %s of %s from part %u for %s"
+    IDS_TRICKLING           "Ootel"
+    IDS_SOURCECLIENT        "Algallika klient"
+    IDS_USERSIP             "Kasutaja IP"
+    IDS_FEATURES            "Eriomadused"
+    IDS_IRC_NEWNICK         "Vali IRC signatuur."
+    IDS_IRC_NEWNICKDESC     "Should be one word less then 20 characters containing (A-Z, 0-9). It can be changed again in Preferences->Irc."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPARSEPARTFILES     "Loo uus jaotus fail 'laialipillatud' (NTFS ainult)"
+    IDS_ASPECTRATIO         "Laiuse ja kõrguse suhe"
+    IDS_NEGATEFILTER        "eitamis filter"
+    IDS_SEENCOMPL           "Kunagi ei ole nähtud tervikuna"
+    IDS_SELSKINPROFILEDIR   "Märgitud rüü profiili katloog"
+    IDS_ASKDLINCOMPLETE     "Potentsiaalselt ebatäielik fail:\n\n%s\n\nsee fail on arvatavalt ebatäielik ja seepärast soovitav mitte allaladida ! Kas sa tõesti soovid seda allalaadida?"
+    IDS_DEADSOURCES         "Surnud allikad"
+    IDS_LARGEICONS          "Suured ikoonid"
+    IDS_SMALLICONS          "Väiksed ikoonid"
+    IDS_SHORTTAGS           "Lühi sildid"
+    IDS_THELOAD             "Lae"
+    IDS_PACKSENT            "Paketti ehitus"
+    IDS_RESPONSES           "Reaktsioon"
+    IDS_EXTRACT_META_DATA   "Meta andmete väljavõtt"
+    IDS_META_DATA_MEDIADET  "DirectShow (ainult kõikide teiste audio/video failidele)"
+    IDS_META_DATA_ID3LIB    "ID3 kogu (ainul MPEG audio failidele)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "Windows Common juhtimis kogu (COMCTL32.DLL) on vana!\n\neMule avstatas versiooni ""Windows Common juhtimise kogu (COMCTL32.DLL)"" on vana et korralikult kasutada eMule. Tagada täis ja veatu funktsioneerimine eMule-s me soovitame uuentada ""Windows Common juhtimis kogumit (COMCTL32.DLL)"" uuemat kui version 5.8.\n\nlae ja installi uuendus ""Windows Common juhtimis kogu (COMCTL32.DLL)"" at Microsoft (R) Download Center. Kas soovid külastada kirjavahetuse URL?"
+    IDS_ASREGEXPR           "Korrapärane avaldis"
+    IDS_STATIC_REGEXP       "Korrapärane avaldis filtri vaatluseks:"
+    IDS_CARE4ALL            "Väärtusta kõik Failid"
+    IDS_REGEXPRESSION       "Korrapärane avaldis"
+    IDS_SEARCHKAD           "Otsi Kad"
+    IDS_DWL_IPFILTERFILE    "Allalaadimine IP faili filter"
+    IDS_DWLIPFILTERFAILED   "IP filtri laadimine nurjunud"
+    IDS_FINDBUDDY           "Otsi semu"
+    IDS_ERR_IPFILTERZIPEXTR "Failed to extract IP filter file from downloaded IP filter ZIP file ""%s""."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "Allalaetud IP filter fail ""%s"" on ZIP fail ootamtu sisuga."
+    IDS_STORENOTES          "Salvesta märked"
+    IDS_NOTES               "Märked"
+    IDS_KADSEARCHALREADY    "Teised otsingud on juba saavutatud. Palun ürita uuesti hiljem!"
+
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHUTDOWN        "Sulge eMule"
+    IDS_WEB_REBOOT          "Taaskäivitus süsteem"
+    IDS_WEB_SHUTDOWNSYSTEM  "Sulgemise süsteem"
+    IDS_WEB_ADMINMENU       "Admin Menüü"
+    IDS_WEB_MAIN_CLOSE      "Kas tõesti tahad eMule-t lõpetada?"
+    IDS_WEB_MAIN_REBOOT     "Kas tõesti tahad süsteemi taaskäivitada?"
+    IDS_WEB_MAIN_SHUTDOWN   "Kas tõesti tahad süsteemi sulgeda?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "Näita banned kliente reas"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "Näita sõpru reas"
+    IDS_WEB_SESSIONTIMEOUT  "Ühendus on aegunud"
+    IDS_WEB_ALLOWHILEVFUNC  "luba lahkuda eMule-st, taaskäivitada ja sulgeda"
+    IDS_SETPFSLIMIT         "Allika limiit..."
+    IDS_SETPFSLIMITEXPLAINED
+                            "Palun siseta uus allika limiit märgitud faili(d) ! \n(set to 0 to use global sätted)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "Kas soovid sissetulevate kaustade juurdearvatud vanemate sisestatud kaustasi täientada nüüd?"
+    IDS_USESPEECH           "Näita teatise sõnumit"
+    IDS_CONDTCPACCEPT       "Fast connection reject"
+    IDS_TCPIP_CONNS         "TCP/IP ühendused"
+    IDS_ERR_DELFILE         "Tõrge faili kustutamisel  ""%s"""
+    IDS_MANUAL_FILENAMECLEANUP "Kas soovid kustutada failinimed märgitud failidel?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CONFIGCORRUPT   "%s näib et on rikutud ja asentatakse"
+    IDS_UPLOADING           "Saatmine"
+    IDS_CANCELLED           "Tühistatud"
+    IDS_PW_REMEMBERDOWNLOADED "Mäleta allalaetud faile"
+    IDS_PW_REMEMBERCANCELLED "Mäleta tühistatud faile"
+    IDS_AVAILABLEPARTS      "Kättesaadavad osad"
+    IDS_NOSOUND             "Helitu"
+    IDS_PW_RECEIVERADDRESS  "Vastuvõtja aadress:"
+    IDS_PW_ENABLEEMAIL      "Luba E-mail teadis"
+    IDS_EMULENOTIFICATION   "eMule teadis"
+    IDS_PW_EMAILNOTIFICATIONS "E-mail teadis"
+    IDS_SMTPSERVER          "SMTP-Server"
+    IDS_PW_SENDERADDRESS    "Saatja aadress:"
+    IDS_PW_SHOWTRANSTOOLBAR "Näita täiustatud tööriista riba teisaldusaknas"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHARED_STATUS       "Jaotatud osad"
+    IDS_INCOMING_FILES      "Sissetulevad Failid"
+    IDS_INCOMPLETE_FILES    "Puudulikud Failid"
+    IDS_SHARED_DIRECTORIES  "Jaotatud katloogid"
+    IDS_SHAREDIR            "Jaotus kataloog"
+    IDS_SHAREDIRSUB         "Jaotamine koos alamkatloogiga"
+    IDS_UNSHAREDIR          "Jagamis kataloog"
+    IDS_UNSHAREDIRSUB       "Jagamine koos alamkatloogiga"
+    IDS_ALLSHAREDFILES      "Kõik jaotatud failid"
+    IDS_ALLDIRECTORIES      "Kõik kataloogid"
+    IDS_SEARCHRELATED       "Leia sarnased failid"
+    IDS_RELATED             "Sarnasus"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLLECTIONLIST      "Kogumi leht"
+    IDS_SEARCH_EMULECOLLECTION "Kogum"
+    IDS_COLL_REPLACEEXISTING "Kas tahad asentada olemasolevat faili?"
+    IDS_COLL_ERR_DELETING   "Mõned tundamtud vead vanade failide kututamisel. Välja ilma salvestuseta?"
+    IDS_CREATECOLLECTION    "Loo kogum"
+    IDS_COLL_SIGN           "Märgista kogum koos nime ja võtmega"
+    IDS_AUTHOR              "Autor"
+    IDS_AUTHORKEY           "Autori võti"
+    IDS_COLL_ADDINCAT       "Lisa uus allalaadimine kogumi kategooriasse"
+    IDS_MODIFYCOLLECTION    "Modifitseeri kogum"
+    IDS_VIEWCOLLECTION      "Vaata kogumit"
+    IDS_COLL_TEXTFORMAT     "Salvesta kogum liht tekst vormigust"
+    IDS_SEARCHAUTHORCOLLECTION "Otsi autorite kogumikest"
+    IDS_ERR_DUPL_FILES      "Dubleeritud jagatud failid: ""%s"" ja ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "UploadSpeedSense: Tracerouting failed too many times. Disabling Upload SpeedSense."
+    IDS_USS_STARTING        "UploadSpeedSense: Done with preparations. Starting control of upload speed. (First 60 seconds will be in fast reaction mode)"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "UploadSpeedSense: Raised upload limit in prefs detected. Going into fast reaction mode for 60 seconds."
+    IDS_USS_STATE_PREPARING "Valmistan ette..."
+    IDS_USS_STATE_WAITING   "Ootan..."
+    IDS_USS_STATE_ERROR     "Tõrge!"
+    IDS_SHAREWARNING        "(Kausta hakatakse jagama!)"
+    IDS_REMOVEALLSERVERS    "Kas sa tõesti tahad eemaltada kõik serverid?"
+    IDS_SEARCH_UNKATTR      "Tundmatud otsingu omadused '%s'"
+    IDS_SEARCH_ATTRERR      "Syntax viga '%s' otsingu omadusetes"
+    IDS_SEARCH_MISSINGANDRIGHT "NING-operaatori parem pool puudub"
+    IDS_SEARCH_OPRERR       "Syntax viga operaatori võrdlusel '%s'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOAD_LANGFILE   "Lae alla keele fail"
+    IDS_DOWNLOADING_SERVERMET_FROM "Lae alla server.met alates %s"
+    IDS_DOWNLOADING_SERVERMET "Lae alla server.met ..."
+    IDS_FULLALLOC           "Paiguta täis failikülg koondatud part failiks"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "Hash ei leitud."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "Vaheleht rikutud."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "Vaheleht ei leitud."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "Hash seade rikutud."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "Hash seadet ei leitud."
+    IDS_CONVERTINGKNOWN2MET "Konvertimine %s -ni %s suure files...toeni..."
+    IDS_CONVERTINGKNOWN2FAILED
+                            "...nässus konvertimiseks known2.met, ignoreeri vanu andmeid"
+    IDS_CONVERTINGKNOWN2DONE "... valmis, lõpetatud konvertimine"
+    IDS_ERR_MET_BAD         "Viga: see fail %s on rikutud, unable to load known files"
+    IDS_SRV_LARGEFILES      "Suurte failide toetus"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE
+                            "Sa ei saa allalaadida seda faili sest sinu failisüsteem ei toeta faile4 mis on suuremad kui 4GB, kaalu selle konvertimist NTFS-i"
+    IDS_NEWVERSIONAVLBETA   "See Beta versioon on aegunud. See Beta versioon, sisaldab puuke on väga tähtis et uuendaksid  stabiilsuse saavutamiseks!"
+    IDS_KADSEARCHACTIVE     "(Kad otisng arengus...)"
+    IDS_BOLD                "Rasvase teksti nupp"
+    IDS_UNDERLINE           "Allakriipsutatud teksti nupp"
+    IDS_COLOUR              "Vali esiplaani teksti värv (fakultatiivne tausta värv)"
+    IDS_RESETFORMAT         "Nulli kõik eelmised vormindused (saada nullitud silt))"
+    IDS_RESTORESEARCHPARAMS "Taasta otsingu parmeetrid"
+    IDS_COMMAND             "Käsud"
+    IDS_ARGUMENTS           "Argumendid"
+    IDS_AP_CREATEPREVCOPY   "Loo eelvaatlus fail"
+    IDS_ARCHIVEDETAILS      "Arhiivi detailid"
+    IDS_ARCHTYPE            "Arhiivi tüüp"
+    IDS_ATTRIBUTES          "Atribuudid"
+    IDS_LASTMODIFIED        "Viimati modifitseeritud"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "Päis krüpteeritud - ei saa lugeda arhiivi."
+    IDS_ARCPARSED           "Arhiiv skaneeritudd."
+    IDS_ARCPREV_LISTMAYBEINCOMPL "Faili leht võib olla puudulik."
+    IDS_ARCPREV_DIRNOTFOUND "Table of contents not found."
+    IDS_ARCPREV_INSUFFDATA  "Ebapiisav andme kättesaadavus."
+    IDS_PASSWPROT           "salasõnaga kaitstud"
+    IDS_ARCPREV_DIRSUCCREAD "Table of contents successfully read."
+    IDS_ARCPREV_UNKNOWNFORMAT "(tundmatu/toetuseta)"
+    IDS_ARCPREV_PLEASEWAIT  "Otsin arhiive..."
+    IDS_OBFUSCATION         "Obfuscation"
+    IDS_SUPPORTED           "Toetatud"
+    IDS_ESTIMATED           "plaaniline"
+    IDS_MEDIAINFO_DLLMISSING
+                            "There is no MediaInfo library installed. If you want to get more information about audio/video files in this dialog,\r\ndownload the MediaInfo library from https://mediaarea.net/en/MediaInfo and copy the MediaInfo.dll file into\r\neMule's installation folder ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "Hoiatus: Faili laiend ""%s"" ei sobi faililaiendi\r\nkasutatakse tavaliselt, et faili formaadis. Võite faili ümbernimetamiseks\r\nkasutada ühte neist faililaiendeid ""%s""\r\nnõuetekohaselt kasutamiseks või vaatamiseks seda failivormingut.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "Warning: The file ""%s"" seems to be protected with Digital Rights Management.\r\nYou will most likely not be able to use that file without a license from the originator of that file.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "eMule tööristariba bittrasteri failid"
+    IDS_LOADFILTER_EMSKINFILES "eMule rüü failid"
+    IDS_LOADURL             "Lae"
+    IDS_DELETEAFTERALLOC    "Fail '%s' ületab hetkel kõvaketta mahtu ning kustutakse hiljemalt"
+    IDS_TRAYDLG_SPEED       "eMule Kiirus"
+    IDS_VIAPASSIVE          "via Passive"
+    IDS_WEB_REMOTE_LINK_ADDED "Link lisatud: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "Link ei ole lisatud. Vale salasõna."
+    IDS_OPTIONS             "Suvandid"
+    IDS_ERR_FAILEDTOLOAD    "Luhtunud laadimine %s: %s  "
+    IDS_RUNNINGRESTRICTED   "eMule töötab vähendatud privileegidega"
+    IDS_DOWNLOAD_ALPHABETICAL "Lae tähestikulises järjekorras"
+    IDS_ARCHPREV_ATTRIBINFO "Faili attribuutides sisalduv:\r\n\r\nP\tfail on salasõnaga kaitstud\r\nD\tkataloogis\r\nC\tKommentaar\r\nLx\tPakkimise tase x\r\nM\tcompressed data not completely downloaded yet\r\n<\tfile continued from previous volume\r\n>\tfile continues in next volume\r\n"
+    IDS_CONTENT_INFO        "Sisu"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "Sõnumid ja kommentaarid"
+    IDS_DISABLEOBFUSCATION  "Disable support for obfuscated connections"
+    IDS_ONLYOBFUSCATED      "Allow obfuscated connections only (not recommended)"
+    IDS_ENABLEOBFUSCATION   "Enable Protocol Obfuscation"
+    IDS_PROTOCOLOBFUSCATION "Protocol Obfuscation"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "Connecting to %s (%s:%u - using Protocol Obfuscation) ..."
+    IDS_CONNECTEDTOOBFUSCATED "Obfuscated connection established on: %s"
+    IDS_VERIFIED            "Tõestatud"
+    IDS_OBFUSCATED          "Obfuscated"
+    IDS_UNVERIFIED          "Vähe tõestatud"
+    IDS_INVALIDFILEEXT      "Vigane faili laiend"
+    IDS_UNKNOWNFILEEXT      "Tundmatu faili laiend"
+    IDS_ENABLEMINIMULE      "Luba MiniMule"
+    IDS_DISABLE_AUTOARCHPREV
+                            "Blokeeri automaatne arhiivi faili detailide eelvaatluse käivitumine"
+    IDS_US_STALLEDW4BR      "Stalled! Ootan ploki päringuid."
+    IDS_US_STALLEDREADINGFDISK "Stalled! Loen plaadilt."
+    IDS_SERVERFEATURE_INTTYPETAGS "Täisarv type silte"
+    IDS_FILLGRAPHS          "Joonista täidetud graafika"
+    IDS_PARAMETER           "Parameeter"
+    IDS_TEST                "Test"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "Use UPnP to setup ports"
+    IDS_UPNPSETUP           "Trying to setup port forwardings with UPnP..."
+    IDS_UPNPFAILED          "UPnP failed to setup port forwardings, please forward those ports manually if necessary!"
+    IDS_UPNPSUCCESS         "UPnP successfully set up forwardings for ports %u (TCP) and %u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "Ava pordid WinXP SP1 tulemüüris"
+    IDS_UPNP_NOSERVICE      "UPnP Device Host service is not running, skipping UPnP setup"
+    IDS_DELAYEDBYUPNP       "Connecting to the network is delayed, because UPnP is still busy configuring the port forwardings."
+    IDS_DELAYEDBYUPNP2      "Palun oota mõned sekundit, eMule ühendaub niipea kui UPnP lõpetab."
+    IDS_UPNP                "UPnP"
+    IDS_UPNPCLOSEONEXIT     "Eemalda UPnP pordi suunamine väljumisel"
+    IDS_UPNPSKIPWANIP       "Skip WAN IP setup"
+    IDS_UPNPSKIPWANPPP      "Skip WAN PPP setup"
+    IDS_SHAREEMULELABEL     "Jagan emulet teiste arvutitega"
+    IDS_SHAREEMULEMULTI     "Igal kasutajal on enda konfrikatsoon ja allalaadimised"
+    IDS_SHAREEMULEPUBLIC    "Igalühel on sama konfikatsoon ja allalaadimised"
+    IDS_SHAREEMULEOLD       "Varunda konfiguratsioon ja laadimised programmi kataloogis"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "Changing this option will let eMule use another configuration. You current settings will be ignored and already started downloads might not be visible anymore. You can switch back to your current configuration by changing this option again anytime.\n\nYou need to restart eMule for this change to take effect."
+    IDS_SPAM                "Späm"
+    IDS_MARKSPAM            "Märgista et on Späm"
+    IDS_MARKNOTSPAM         "Märgista et ei ole Späm"
+    IDS_SEARCHSPAMFILTER    "Luba spammi filter otsingu tulemustes"
+    IDS_SHOWSMILEYS         "Näita emotikoone"
+    IDS_CAPTCHAREQUEST      "In order to avoid spam messages, this user requires you to solve a captcha before you can send him a message. Please enter the letters you see on this image as response:"
+    IDS_CAPTCHAFAILED       "Teie vastus captcha oli vale ja sinu sõnumit on eiratud. Võite taotleda uue captcha saates uue sõnumi."
+    IDS_CAPTCHASOLVED       "Olete läbinud captcha kontrolli ja kasutajale on saadetud sinu sõnum."
+    IDS_USECAPTCHAS         "Nõutud captcha autentimine"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat URL-ist:"
+    IDS_DOWNLOADING_NODESDAT_FROM "Laen alla nodes.dat-i %s-st"
+    IDS_DOWNLOADING_NODESDAT "Laen alla nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "Alla laadimine nodes.dat %s-st nurjus"
+    IDS_PREVENTSTANDBY      " Väldi ootere˛iimi kui eMule töötab"
+    IDS_KADID               "KadID"
+    IDS_SEARCHINGFRIENDKAD  "Otsing Kad Network-ist sõprale"
+    IDS_FOUND               "leitud"
+    IDS_EXTERNUDPPORT       "Väline UDP port"
+    IDS_STORESEARCHES       "Mäleta avatuid otsinguid järgmisel taaskäivtumisel"
+    IDS_WRN_INCFILE_EXISTS  "Sul on valitud uus kataloog sissetulevate failidele mis pole tühi. Kõik olesmasolevad failid selles kaustas automaatselt jaotatakse eMule boolt."
+    IDS_EDITSPAMFILTER      "Muuda spämmi filtrit..."
+    IDS_EDITSPAMFILTERCOMMENTS "Muuda spämmi filtrit komentaarides"
+    IDS_WIZZARDOBFUSCATION  "Luba see valik, kui soovite lubada protokolli hämamist\n\nIf your ISP tries throttle or block eMule, enabling obfuscation will help to circumvent such restrictions."
+    IDS_BETANAG             "See on beta versioon eMule-st. Palun teata probleemdest ja jälgi regulaarselt uuendustest meie foorumis (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "Kas soovite alla laadida ja kasutada Kad kontaktisi (nodes.dat) Sellelt aadressilt:\n%s ?"
+    IDS_AUTOMATIC           "Automaatne"
+    IDS_NOTCONNECTEDANY     "Sa pole ühendatud ei serveriga ega ka Kad võrguga!"
+    IDS_ERR_SHARED_DIR      "Jagatud kataloogi lugemine ebaõnnestus ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "Fail ""%s"" tundub olevat kaitstud Digital Rights Management.\r\n\r\nSa tõenäoliselt ei saa kasutada seda faili ilma litsentsita. You should be aware that opening this file will most likely cause your media player to open a web browser which will transfer you automatically to the site of the originator of that file where you will get asked to acquire a license.\r\n\r\nDo you really want to continue opening the file?"
+    IDS_CHECK_FILE_OPEN     "Hoiata mitteusaldatava faili avamisel"
+    IDS_BOOTABLE            "buutiv"
+    IDS_UNSUPPORTEDIMAGE    "toetamata tõmmis"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "Tühista jagamine"
+    IDS_WEBUPNPINCLUDE      "Kaasa port UPnP seadistus"
+    IDS_ADDEDON             "Lisatud"
+    IDS_RESOLVELINKS        "Resolve shell links in shared directories"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "Laadimis käsud"
+    IDS_CLOSETOOLBAR        "Sulge tööristariba"
+    IDS_SHOWTOOLBAR         "Näita tööristariba"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "You cannot use the first keyword with an OR operator when searching on Kad!\n\nFor example ""Keyword1 OR Keyword2"" is not possible. Try ""Keyword1 AND (Keyword2 OR Keyword3)"" or do multiple searches instead."
+    IDS_DISCOVEREDBY        "Avastaja"
+    IDS_NODES               "Sõlme(d)"
+    IDS_ROUTINGTABLE        "Marsruutimistabel"
+    IDS_PROTOCOLVERSION     "Protokolli versioon"
+    IDS_FOUNDNODESUSEFUL    "Leitud sõlmed (kasulik)"
+    IDS_NORESPONSE          "Vastus puudub"
+    IDS_NOTASKED            "Ei küsita"
+    IDS_LOOKUPGRAPH         "Otsingu detailid"
+    IDS_AUTOKADLOOKUPGRAPH  "Näita automaatselt aktiivseid otsinguid"
+    IDS_PAUSEONPREVIEW      "Pausi kui eelvaadet on võimalik"
+    IDS_PREVIEWWITH         "Eelvaatlus ..."
+    IDS_CLOSEEMULE          "Sulge eMule"
+    IDS_DONOTASKAGAIN       "Ära küsi uuesti"
+    IDS_POPULARITY          "Populaarsuse tase"
+    IDS_SHOWWIN7TASKBARGOODIES "Luba Windows 7 tööristariba effektid"
+    IDS_LANMODE             "LAN Mode"
+    IDS_OPENPREFINI         "Ava seadistuste.ini"
+END
+
+#endif    // Estonian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

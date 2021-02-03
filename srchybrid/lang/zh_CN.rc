@@ -1,0 +1,1981 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "zh_CN.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "zh_CN.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "Socket初始化失败."
+    IDS_ABOUTBOX            "关于eMule(&A) ..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s从%s"
+    IDS_HTTPDOWNLOAD_CONNECTED "连接到%s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "正在解析域名: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "成功解析域名为%s"
+    IDS_HTTPDOWNLOAD_CONNECTING "正在连接%s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "重定向到%s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "获取文件信息"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR
+                            "试图下载文件时产生错误: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "连接服务器时产生错误: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE
+                            "无法从服务器获得正确的回应"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "无法从服务器获得正确的HTTP回应"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE
+                            "下载文件时产生错误: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "正在下载:已完成 %s%%/%s"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "正在接收文件"
+    IDS_HTTPDOWNLOAD_OF     "%s/%s"
+    IDS_FILELINK            "文件链接"
+    IDS_LD_BASICOPT         "基本选项"
+    IDS_LD_ADDSOURCE        "把你的IP地址作为来源添加进链接"
+    IDS_LD_EMULEHASH        "添加 eMule AICH Hash 用于高级错误处理"
+    IDS_LD_ADVANCEDOPT      "高级选项"
+    IDS_CANCEL              "取消"
+    IDS_LD_ADDHTML          "添加 HTML 标签"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTP_CAPTION        "正在更新服务器列表"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s(已复制%s)"
+    IDS_LD_ADDHASHSET       "添加完整 Hashset"
+    IDS_HSAV                "Hashset 可用"
+    IDS_DL_SHOWED2KLINK     "显示 ED2K 链接..."
+    IDS_FD_CORR             "已损坏"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "文件'%s'已存在,\n是否替换?"
+    IDS_FD_RECOV            "已恢复"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "打开下载文件时产生错误: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "正在中止传输"
+    IDS_FD_COMPR            "压缩"
+    IDS_WIZARD_NETWORK      "选择你想要使用网络."
+    IDS_MAIN_READY          "eMule版本%s已经就绪"
+    IDS_WIZARD_ED2K         "ED2K设置"
+    IDS_SEL_SKIN            "选择外观 ..."
+    IDS_MAIN_SOCKETERROR    "致命错误:无法在端口 %u上创建Socket"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_BTN_DISCONNECT "断开连接(&C)"
+    IDS_ERR_WRONGFILEID     "发送了错误的文件ID"
+    IDS_ERR_BADHASHSET      "收到损坏或无效的Hashset"
+    IDS_ERR_BADDATABLOCK    "收到损坏或无效的数据块"
+    IDS_ERR_ILLFORMEDHASH   "不正确的Hash格式"
+    IDS_ERR_BADED2KLINK     "非规范格式的ED2K链接"
+    IDS_ERR_NOSLLINK        "无效的ED2K服务器或文件链接"
+    IDS_ERR_WRONGPACKETSIZE "无效的OP_FILEREQUEST包大小"
+    IDS_ERR_WRONGHPACKETSIZE "无效的OP_HASHSETREQUEST包大小"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "未知客户发送了扩展协议包"
+    IDS_ERR_OPENMET         "错误:打开part.met文件失败!(%s => %s)"
+    IDS_ERR_BADMETVERSION   "错误:无效part.met文件版本!(%s => %s)"
+    IDS_ERR_METCORRUPT      "错误:%s(%s)损坏,无法加载文件"
+    IDS_ERR_FILEERROR       "读取%s(%s):%s时,发生意外文件错误"
+    IDS_ERR_FILEOPEN        "打开%s(%s)失败"
+    IDS_SEL_SKINDIR         "选择外观目录 ..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_HASHERRORWARNING
+                            "警告:无法Hash已下载的文件段 - Hashset不完整(%s)"
+    IDS_ERR_INCOMPLETEHASH  "错误:无法Hash已下载的文件段 - Hashset不完整(%s).不应该发生此错误"
+    IDS_DOWNLOADING         "下载中"
+    IDS_WAITING             "等待中"
+    IDS_HASHING             "Hash中"
+    IDS_COMPLETING          "完成中"
+    IDS_COMPLETE            "已完成"
+    IDS_PAUSED              "暂停"
+    IDS_ERRORLIKE           "错误"
+    IDS_ASSIGNED2K          "eMule不是当前默认的处理ED2K链接的程序.是否将它设为默认(推荐)?"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "在'addresses.dat'中没有找到serverlistadress项.请粘贴一个合法的serverlist地址到此文件中,来自动更新服务器列表"
+    IDS_ERR_BADSERVERMETVERSION "发现server.met中存在无效的版本标志(0x%X)!"
+    IDS_SERVERSFOUND        "在server.met中找到%u个服务器"
+    IDS_SERVERSADDED        "添加了%u个服务器,%u个没有添加(已在列表中或地址无效)"
+    IDS_ERR_BADSERVERLIST   "错误:文件server.met已损坏,无法加载服务器列表"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "读取server.met时产生意外错误:%s,无法读取服务器列表"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_SAVESERVERMET   "保存server.met失败!"
+    IDS_PASSIVE             "被动"
+    IDS_MAIN_BTN_CANCEL     "取消(&C)"
+    IDS_AVAIL               "部分: %u, 可获得: %u (%.1f%%)\n\n"
+    IDS_TYPE                "类型"
+    IDS_FILEID              "文件ID"
+    IDS_FILE                "文件"
+    IDS_DOWNLOAD            "下载"
+    IDS_SL_SERVERNAME       "服务器名"
+    IDS_IP                  "IP" //!
+    IDS_DESCRIPTION         "描述"
+    IDS_PING                "Ping" //!
+    IDS_FILES               "文件数"
+    IDS_PREFERENCE          "优先权"
+    IDS_PRIONOPREF          "无选项"
+    IDS_CONNECTTHIS         "连接到所选的服务器"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_BTN_CONNECT    "连接(&C)"
+    IDS_ERR_SAVESERVERMET2  "保存server.met失败!请尝试删除server.met并将server.met.old改名为server.met!"
+    IDS_NOTCONNECTED        "未连接"
+    IDS_DISCONNECTED        "连接断开"
+    IDS_USERS               "用户数:%u"
+    IDS_UPDOWN              "上传:%.1f(%.1f) | 下载:%.1f(%.1f)"
+    IDS_CONNECTED           "已连接"
+    IDS_LINKNOTADDED        "无法添加链接"
+    IDS_MAIN_EXIT           "真的要退出eMule?"
+    IDS_MAIN_POPUP_RESTORE  "还原"
+    IDS_CONNECTTOANYSERVER  "连接到任意服务器"
+    IDS_EXIT                "退出(&E)"
+    IDS_CONNECTING          "正在连接"
+    IDS_FAILED              "失败"
+    IDS_ERR_BADSERVERREPLY  "收到损坏的或无效的服务器登陆响应"
+    IDS_NEWCLIENTID         "新的客户ID为 %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_REHASH          "警告:%s可能已经损坏,正在重新Hash已完成的文件部分"
+    IDS_SKIN_PROF           "外观配置"
+    IDS_ERR_PART_FNF        "未找到.part文件"
+    IDS_KADOPEN             "打开"
+    IDS_ERR_SAVEMET         "保存.part文件时出错:%s(%s)"
+    IDS_ERR_FOUNDCORRUPTION "发现损坏的文件段(%u)在%s中"
+    IDS_HASHINGDONE         "重新Hash %s已完成,文件应该是好的"
+    IDS_ERR_PARTCORRUPT     "下载的文件段 %u 已经损坏 :( (%s)"
+    IDS_ICHWORKED           "I.C.H.:已恢复损坏的文件段%u (%s),恢复了: %s"
+    IDS_ERR_OUTOFSPACE      "硬盘空间不足,无法下载""%s""!"
+    IDS_SE                  "来源交换"
+    IDS_ERR_WRITEERROR      "写入文件%s时,发生意外文件错误: %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "完成文件%s时,发生意外文件错误.文件已暂停,重新启动eMule以尝试再次完成."
+    IDS_ERR_DELETEFAILED    "无法删除文件%s,请手动删除."
+    IDS_DOWNLOADDONE        "完成下载:%s :-)"
+    IDS_ERR_DELETE          "无法删除%s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDFOLDERS       "共享目录"
+    IDS_VIEW1               "查看 "
+    IDS_VIEW2               "(未共享)"
+    IDS_PRIOLOW             "低"
+    IDS_PRIONORMAL          "普通"
+    IDS_PRIOHIGH            "高"
+    IDS_DOWNLOADMENUTITLE   "下载"
+    IDS_PRIORITY            "优先级"
+    IDS_NEWSERVERS          "收到 %u 个新服务器"
+    IDS_DL_STOP             "停止(&S)"
+    IDS_DL_PAUSE            "暂停(&P)"
+    IDS_DL_RESUME           "继续(&R)"
+    IDS_DL_OPEN             "打开文件(&O)"
+    IDS_DL_INFO             "显示文件详情(&D)"
+    IDS_DL_CLEAR            "移除已完成的文件(&L)"
+    IDS_DL_LINK1            "复制ED2K链接到剪贴板(&L)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_LINK2            "复制ED2K链接(&HTML)到剪贴板"
+    IDS_SHOWDETAILS         "显示详情(&D)"
+    IDS_SEND_MSG            "发送消息(&M)"
+    IDS_ASKING              "正在请求"
+    IDS_CONNVIASERVER       "通过服务器连接"
+    IDS_ONQUEUE             "排队中"
+    IDS_TRANSFERRING        "传输中"
+    IDS_RECHASHSET          "正在获取Hashset"
+    IDS_NONEEDEDPARTS       "无需要部分"
+    IDS_NOCONNECTLOW2LOW    "无法从LowID连接到LowID"
+    IDS_UNKNOWN             "未知"
+    IDS_ASKED4ANOTHERFILE   "已请求另一个文件"
+    IDS_Q_CANCELDL          "确定要取消并删除这些文件吗?\n"
+    IDS_Q_CANCELDL2         "确定要取消并删除此文件吗?\n"
+    IDS_DL_FILENAME         "文件名"
+    IDS_DL_SIZE             "大小"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_TRANSF           "已传输"
+    IDS_DL_SPEED            "速度"
+    IDS_DL_PROGRESS         "进程"
+    IDS_DL_SOURCES          "来源"
+    IDS_ERR_BADSERVERLISTRECEIVED "收到无效的服务器列表数据包"
+    IDS_STATUS              "状态"
+    IDS_DL_REMAINS          "剩余"
+    IDS_UPDATEFROM          "从此URL更新: (filter.dat 或者 PeerGuardian 格式)"
+    IDS_QL_USERNAME         "用户名"
+    IDS_LOADURL             "加载"
+    IDS_DELETEAFTERALLOC    "文件 '%s' 正在分配磁盘空间,完成之后此文件会被删除."
+    IDS_QL_RATING           "评分"
+    IDS_CONNECTINGTO        "正在连接到%s(%s:%u)..."
+    IDS_CLIENTS             "客户"
+    IDS_SEARCH_ANY          "任意"
+    IDS_SEARCH_AUDIO        "音频"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "图像"
+    IDS_SEARCH_PRG          "程序"
+    IDS_SEARCH_VIDEO        "视频"
+    IDS_SEARCH_CDIMG        "CD镜像"
+    IDS_SEARCH_ARC          "压缩包"
+    IDS_ERR_INVALIDLINK     "这是一个无效的ED2K链接(%s)"
+    IDS_ERR_LINKERROR       "无效链接: %s"
+    IDS_ERR_NOTCONNECTED    "未连接到服务器!"
+    IDS_REMOVETHIS          "删除所选服务器"
+    IDS_REMOVEALL           "删除所有服务器"
+    IDS_SRV_ADDR            "请输入服务器地址"
+    IDS_SRV_PORT            "不完整的服务器端口:请输入服务器端口"
+    IDS_SRV_NOTADDED        "服务器未被添加!"
+    IDS_SRV_NOURLAV         "无可用URL"
+    IDS_INVALIDURL          "无效URL"
+    IDS_ERR_FAILEDDOWNLOADMET "无法从%s下载服务器列表"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PERMISSION          "权限"
+    IDS_SHAREDFILES         "共享文件"
+    IDS_PRIOVERYLOW         "很低"
+    IDS_PRIORELEASE         "发布"
+    IDS_TRAYDLG_SPEED       "eMule 速度"
+    IDS_FSTATUS_FRIENDSONLY "仅好友"
+    IDS_VIAPASSIVE          "通过被动"
+    IDS_ERR_RENAMESF        "重命名失败\r\n    ""%s""\r\n到\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "可用"
+    IDS_FSTAT_TRANSFER      "传输"
+    IDS_CONNECTIONS         "连接"
+    IDS_FSTAT_SERVERS       "服务器"
+    IDS_FSTAT_WAITING       "等待 ..."
+    IDS_TIME                "时间"
+    IDS_STATS_DDATA         "已下载: %s"
+    IDS_STATS_UDATA         "已上传: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_AVGDL         "平均下载速度: %s"
+    IDS_STATS_AVGUL         "平均上传速度: %s"
+    IDS_STATS_FOUNDSRC      "找到来源:%u"
+    IDS_STATS_ACTDL         "当前下载数(文件段):%u"
+    IDS_STATS_ACTUL         "当前上传数:%u"
+    IDS_STATS_WAITINGUSERS  "等待上传:%u"
+    IDS_STATS_RECONNECTS    "重新连接:%u"
+    IDS_STATS_UNKNOWNCLIENT "未知:%u"
+    IDS_STATS_TOTAL         "总共:%u"
+    IDS_DISABLED            "已禁用"
+    IDS_STOPPED             "已停止"
+    IDS_STATS_UPDATELABEL   "更新间隔:%u 秒"
+    IDS_ASKEDFAF            "\n已请求另一个文件"
+    IDS_WAITED              "已等待"
+    IDS_ERR_LOADCREDITFILE  "加载Creditfile失败,新文件将被创建"
+    IDS_ERR_CREDITFILEOLD   "Creditfile已过期并将被替换"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CREDITFILELOADED    "Creditfile已加载,%u个客户已知"
+    IDS_CREDITFILECORRUPT   "错误:Creditfile已损坏并将被替换!"
+    IDS_ERR_CREDITFILEREAD  "读取Creditfile时发生意外文件错误: %s"
+    IDS_ERR_FAILED_CREDITSAVE "保存Creditfile失败"
+    IDS_NOPARTSFOUND        "没有发现.part文件"
+    IDS_FOUNDPARTS          "发现 %u个.part文件"
+    IDS_NEWDOWNLOAD         "新增下载: %s"
+    IDS_ERR_ALREADY_DOWNLOADING
+                            "已存在下载: %s"
+    IDS_ERR_ALREADY_DOWNLOADED "已下载了文件: %s"
+    IDS_ERR_SERVERMET_BAD   "错误:文件known.met损坏,无法加载已知文件"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "读取known.met时发生未知错误: %s,无法加载已知文件"
+    IDS_ERR_CONNECTIONERROR "连接到%s (%s:%u): %s时出错"
+    IDS_ERR_SOCKET          "服务器Socket错误:%s (%s:%u): %s"
+    IDS_SHAREDFOUND         "发现 %u个已知的共享文件"
+    IDS_SHAREDFOUNDHASHING  "发现 %u个已知的共享文件,正在Hashing %u个新文件"
+    IDS_ERR_INCOMPLETEBLOCK "请求未完成的文件块"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSIONCHECK        "检查版本(&V)"
+    IDS_VISITVERSIONCHECK   "\n\n要访问信息页面吗?"
+    IDS_PW_VIDEOPLAYER      "视频播放器"
+    IDS_VIDEOBACKUP         "预览时建立备份"
+    IDS_MYINFO              "我的信息"
+    IDS_ID                  "ID" //!
+    IDS_IDLOW               "LowID"
+    IDS_IDHIGH              "HighID"
+    IDS_UPSTATUS            "已获得部分"
+    IDS_TOVERHEAD           "总开销(包):%s(%s)"
+    IDS_FROVERHEAD          "文件请求开销(包):%s(%s)"
+    IDS_SSOVERHEAD          "来源交换开销(包):%s(%s)"
+    IDS_SOVERHEAD           "服务器开销(包):%s(%s)"
+    IDS_ERR_FILECOMPLETIONTHREAD "创建文件完成线程失败"
+    IDS_FILEBUFFERSIZE      "文件缓存大小"
+    IDS_QUEUESIZE           "队列大小"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAYS2               "天"
+    IDS_ERR_MAKEBAKCREDITFILE "备份Creditfile失败"
+    IDS_COMMENT             "注释"
+    IDS_IPFILTERED          "已过滤IP:%s(%s)"
+    IDS_DL_TRANSFCOMPL      "已完成"
+    IDS_DL_ACTIVE_TIME      "下载时间"
+    IDS_STATS_FILTEREDCLIENTS "已过滤:%u"
+    IDS_FILTERLABEL         "过滤包含以下内容的消息:(分隔符‘|’)"
+    IDS_ERR_LARGEREQBLOCK   "客户端请求了太大的文件块"
+    IDS_SHOWRATEONTITLE     "在标题栏显示传输速度"
+    IDS_TBN_NOMESSAGEHISTORY "无历史消息!"
+    IDS_PW_DAP              "新添加的下载文件使用自动优先级"
+    IDS_FD_LASTCHANGE       "上次接收:"
+    IDS_STATS_RUNTIME       "运行时间"
+    IDS_ALL                 "全部"
+    IDS_CAT_ADD             "新增分类"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CAT_EDIT            "编辑分类"
+    IDS_CAT_REMOVE          "删除分类"
+    IDS_CAT                 "分类"
+    IDS_TITLE               "标题"
+    IDS_COLOR               "颜色"
+    IDS_DEFAULT             "默认值"
+    IDS_PW_DISPLAY          "显示"
+    IDS_INDICATERATINGS     "用图标显示具有注释/评分的下载"
+    IDS_ALLOTHERS           "所有其它"
+    IDS_TOCAT               "指定到分类"
+    IDS_CAT_UNASSIGN        "(未指定)"
+    IDS_ADDDOWNLOADSFROMCB  "将这些ED2K文件链接添加到下载列表?\n"
+    IDS_PF_WATCHCB          "监视剪贴板里的ED2K文件链接"
+    IDS_SECURITY            "安全"
+    IDS_IPFILTERLOADED      "已加载%u条IP过滤规则"
+    IDS_IPFILTER            "IP过滤"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_OPEN            "无法打开请求的文件"
+    IDS_ERR_CLIENTERRORED   "客户 '%s' 创建包 (%s) 时产生错误 - 正在断开该用户"
+    IDS_ERR_REQ_FNF         "无法找到请求的文件"
+    IDS_DESC                "描述: %s"
+    IDS_PORT                "端口"
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "在服务器列表中没有发现有效的可连接服务器"
+    IDS_CONNECTEDTOREQ      "连接到%s(%s:%u),发送登陆请求"
+    IDS_ERR_FATAL           "试图连接时发生致命错误.Internet连接可能已断开"
+    IDS_ERR_LOSTC           "失去与%s(%s:%u)的连接"
+    IDS_ERR_DEAD            "%s (%s:%u)可能是无响应"
+    IDS_ERR_FULL            "%s (%s:%u)可能到达最大客户连接数了"
+    IDS_CONNECTEDTO         "连接建立于: %s"
+    IDS_DL_PREVIEW          "预览(&V)"
+    IDS_VIEWQUEUE           "显示队列"
+    IDS_TW_UPLOADS          "上传"
+    IDS_TW_DOWNLOADS        "下载"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TW_QUEUE            "客户排队中:"
+    IDS_SW_SEARCHBOX        "搜索"
+    IDS_SW_NAME             "名字"
+    IDS_SW_GLOBAL           "全局搜索(&G)"
+    IDS_SW_DIRECTDOWNLOAD   "直接下载"
+    IDS_SW_LINK             "文件链接"
+    IDS_SW_START            "开始"
+    IDS_SCHEDULER           "计划任务"
+    IDS_IRC                 "&IRC" //!
+    IDS_SW_RESULT           "搜索结果"
+    IDS_SW_DOWNLOAD         "下载所选文件"
+    IDS_SV_SERVERLIST       "服务器列表"
+    IDS_SV_SERVERINFO       "服务器信息"
+    IDS_SV_LOG              "日志"
+    IDS_SV_NEWSERVER        "新服务器"
+    IDS_SV_ADDRESS          "IP或域名地址"
+END
+
+STRINGTABLE
+BEGIN
+
+    IDS_SV_ADD              "加入列表"
+    IDS_SV_MET              "从URL更新server.met"
+    IDS_SV_UPDATE           "更新"
+    IDS_SF_FILES            "共享文件"
+    IDS_SF_STATISTICS       "统计信息"
+    IDS_SF_RELOAD           "刷新"
+    IDS_SF_CURRENT          "本次会话"
+    IDS_SF_TOTAL            "总共"
+    IDS_SF_TRANS            "已传输:"
+    IDS_SF_ACCEPTED         "接受的上传:"
+    IDS_SF_REQUESTED        "请求数:"
+    IDS_ST_DOWNLOAD         "下载速度"
+    IDS_ST_UPLOAD           "上传速度"
+    IDS_ST_CURRENT          "当前"
+    IDS_ST_SESSION          "本次会话平均"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WS_PASS             "密码"
+    IDS_WS_ERR_LOADTEMPLATE "无法加载模板:用更新版本替换文件%s!"
+    IDS_WEB_CONLIMITS       "连接限制"
+    IDS_INFLST_USER_TOTALDOWNLOAD "总共已下载"
+    IDS_INFLST_USER_TOTALUPLOAD "总共已上传"
+    IDS_SPEED_LIMITS        "速度限制"
+    IDS_CAPACITY_LIMITS     "带宽限制"
+    IDS_ADMIN               "管理员"
+    IDS_ACCESSDENIED        "访问被拒绝!"
+    IDS_WEB_LOWUSER         "客人"
+    IDS_WEB_ERR_CANTLOAD    "无法加载模板:不能打开文件%s"
+    IDS_GLOBALSEARCH        "全局(服务器)"
+    IDS_METHOD              "方法"
+    IDS_UNDO                "撤销"
+    IDS_DAYLY               "每日"
+    IDS_DAY_MO_FR           "周一-周五"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_SA_SO           "周六-周日"
+    IDS_MO                  "星期一"
+    IDS_DI                  "星期二"
+    IDS_MI                  "星期三"
+    IDS_DO                  "星期四"
+    IDS_FR                  "星期五"
+    IDS_SA                  "星期六"
+    IDS_SO                  "星期日"
+    IDS_WEB_ADMINLOGIN      "Web服务器-管理员-登陆"
+    IDS_WEB_GUESTLOGIN      "Web服务器-客人-登陆"
+    IDS_WEB_SESSIONEND      "Web服务器:注销"
+    IDS_DETAILS             "详细资料"
+    IDS_ACTION              "动作"
+    IDS_REMOVE              "删除"
+    IDS_NEW                 "新建"
+    IDS_WEB_BADLOGINATTEMPT "Web服务器:登陆尝试失败"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ST_ACTIVED          "当前下载"
+    IDS_ST_ACTIVEU          "当前上传"
+    IDS_CW_MESSAGES         "消息"
+    IDS_CW_FRIENDS          "好友"
+    IDS_CW_SEND             "发送"
+    IDS_CW_CLOSE            "关闭"
+    IDS_PW_GENERAL          "常规"
+    IDS_PW_DIR              "目录"
+    IDS_PW_NICK             "昵称"
+    IDS_PW_INCOMING         "下载文件"
+    IDS_PW_TEMP             "临时文件"
+    IDS_PW_BROWSE           "浏览"
+    IDS_PW_SHARED           "共享目录(按着CTRL键点击以选择子目录)"
+    IDS_CONNECTION          "连接"
+    IDS_PW_DOWNL            "下载限制"
+    IDS_PW_UPL              "上传限制"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_MAXC             "最大连接数"
+    IDS_PW_CLIENTPORT       "客户端口"
+    IDS_PW_AUTOCON          "启动时自动连接"
+    IDS_PW_RECON            "断开时自动重新连接"
+    IDS_PW_SERVER           "服务器"
+    IDS_PW_RDEAD            "移除无响应服务器在"
+    IDS_PW_RETRIES          "次重试后"
+    IDS_PW_SCORE            "启用优先级系统"
+    IDS_PW_USC              "连接到服务器时更新服务器列表"
+    IDS_PW_UCC              "连接到其他客户时更新服务器列表"
+    IDS_PW_FILTER           "过滤内网IP的服务器和客户"
+    IDS_PW_USS              "启动时自动更新服务器列表"
+    IDS_PW_MISC             "杂项"
+    IDS_PW_TRAY             "最小化为系统托盘图标"
+    IDS_PW_PROMPT           "退出时提示确认"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_SPLASH           "显示欢迎窗口"
+    IDS_PW_DBLCLICK         "双击展开下载列表"
+    IDS_PW_TOOL             "友好提示延时(秒)"
+    IDS_PW_FRONT            "点击链接时切换到前台"
+    IDS_PW_LANG             "语言"
+    IDS_PW_FILES            "文件"
+    IDS_PW_SHARE            "查看我的共享文件"
+    IDS_PW_EVER             "所有人"
+    IDS_PW_FRIENDS          "好友"
+    IDS_PW_NOONE            "没有人"
+    IDS_PW_RESET            "清除"
+    IDS_PW_APPLY            "应用"
+    IDS_EM_TRANS            "传输(&T)"
+    IDS_EM_SERVER           "服务器(&V)"
+    IDS_EM_SEARCH           "搜索(&S)"
+    IDS_EM_FILES            "共享文件(&F)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EM_MESSAGES         "消息(&M)"
+    IDS_EM_STATISTIC        "统计信息(&A)"
+    IDS_EM_PREFS            "选项(&O)"
+    IDS_MB_LANGUAGEINFO     "默认语言被选择,你可以在选项标签中更改语言设置."
+    IDS_FD_GENERAL          "常规"
+    IDS_FD_MET              "part.met 文件:"
+    IDS_FD_HASH             "Hash:" //!
+    IDS_FD_SIZE             "大小:"
+    IDS_FD_TRANSFER         "传输"
+    IDS_FD_PARTS            "文件段"
+    IDS_FD_TRANS            "已传输:"
+    IDS_FD_DATARATE         "数据传输率:"
+    IDS_FD_COMPSIZE         "已完成大小:"
+    IDS_FD_CLOSE            "关闭"
+    IDS_FD_TITLE            "文件详情"
+    IDS_CD_GENERAL          "常规"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "用户名:"
+    IDS_CD_UHASH            "用户Hash:"
+    IDS_CD_CSOFT            "客户端软件"
+    IDS_CD_UIP              "IP地址:"
+    IDS_CD_SIP              "服务器IP:"
+    IDS_CD_VERSION          "客户端版本:"
+    IDS_CD_SNAME            "服务器名:"
+    IDS_CD_CDOWN            "当前下载中:"
+    IDS_CD_DOWN             "已下载(本次会话):"
+    IDS_CD_ADOWN            "平均下载速度:"
+    IDS_CD_TDOWN            "总共下载:"
+    IDS_CD_UP               "已上传(本次会话):"
+    IDS_CD_AUP              "平均上传速度:"
+    IDS_CD_TUP              "总共上传:"
+    IDS_CD_TRANS            "传输"
+    IDS_CD_SCORES           "得分"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_MOD              "下载/上传比例调整:"
+    IDS_CD_RATING           "评分(总共):"
+    IDS_CD_USCORE           "上传队列得分:"
+    IDS_CD_TITLE            "客户详情"
+    IDS_EMULEW              "点击"
+    IDS_EMULEW2             "检查是否有更新版本"
+    IDS_EMULEW3             "这里"
+    IDS_PW_MAXSOURCES       "每个文件最大来源数"
+    IDS_SHAREDFILESCOUNT    "共享文件数:%u"
+    IDS_SF_SIZE             "共享文件总大小: %s"
+    IDS_ERR_BADPORT         "非法端口号"
+    IDS_ERR_NOHELLO         "连接尚未完全建立时就开始询问"
+    IDS_ERR_INVALIDPACKET   "收到无效或损坏的数据包"
+    IDS_ERR_CLIENTERROR     "客户'%s'(IP:%s)导致一个错误:%s.正在断开该客户!"
+    IDS_ERR_BADSIZE         "无效文件大小(OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "不是一个文件链接"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREATEPARTFILE  "错误:无法创建Partfile"
+    IDS_CHAT_START          "*** 对话开始:"
+    IDS_FILEPRIO            "文件优先级"
+    IDS_SCORE               "得分"
+    IDS_ASKED               "已请求"
+    IDS_LASTSEEN            "上次连接"
+    IDS_BANNED              "被阻止"
+    IDS_UUSERS              "用户数"
+    IDS_UFAILED             "失败"
+    IDS_OPENFILE            "打开文件(&O)"
+    IDS_DATE                "日期"
+    IDS_PARTINFOS           "Part文件名:"
+    IDS_PARTINFOS2          "下载中(从%u个来源)"
+    IDS_USERID              "用户ID"
+    IDS_CLIENT              "客户"
+    IDS_SERVER              "服务器"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCEINFO          "已请求数:%u次 - 可用文件段数:%u"
+    IDS_CLIENTSOURCENAME    "\n用户的文件名:"
+    IDS_USERINFO            "昵称:%s\n"
+    IDS_FILESTATS_SESSION   "本次会话的统计信息:接受 %u 次请求(总共 %u 次),传输 %s 字节\n"
+    IDS_FILESTATS_TOTAL     "全部统计信息:接受 %u 次请求(总共 %u 次),传输 %s 字节"
+    IDS_REQ_UNKNOWNFILE     "请求了未知文件"
+    IDS_SF_AVERAGESIZE      "平均文件大小: %s"
+    IDS_SF_REQUESTS         "请求数"
+    IDS_SF_ACCEPTS          "接受的请求数"
+    IDS_SF_TRANSFERRED      "已传输的数据"
+    IDS_REMOVESEARCHSTRING  "关闭此次搜索结果"
+    IDS_REMOVESELECTED      "移除所选搜索结果"
+    IDS_REMOVEALLSEARCH     "移除所有搜索结果"
+    IDS_ENTERQUEUE          "进入队列"
+    IDS_SF_FAIL             "失效的服务器"
+    IDS_SF_WUSER            "有效服务器用户数"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_WFILE            "有效服务器文件数"
+    IDS_SF_USER             "总用户数"
+    IDS_SF_FILE             "总文件数"
+    IDS_UPLOADTIME          "上传时间"
+    IDS_LASTSEENCOMPL       "上次完成:"
+    IDS_YES                 "是"
+    IDS_NO                  "否"
+    IDS_UNBAN               "解除阻止"
+    IDS_SF_WORKING          "有效服务器"
+    IDS_ADDTOSTATIC         "添加到静态服务器列表"
+    IDS_ADDED2SSF           "已添加到静态服务器列表"
+    IDS_STATICSERVER        "静态"
+    IDS_ERROR_SSF           "无法打开'staticservers.dat'文件"
+    IDS_SF_ACTIVECON        "当前连接数(估计值)"
+    IDS_SF_MAXCONLIMITREACHED "到达最大连接数"
+    IDS_SF_AVGCON           "平均连接数(估计值)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_PEAKCON          "连接数峰值(估计值)"
+    IDS_ST_ACTIVEC          "当前连接数"
+    IDS_NETWORK             "网络"
+    IDS_SF_DELCOUNT         "已删除的服务器"
+    IDS_QUEUEFULL           "队列满了"
+    IDS_AVG                 "平均"
+    IDS_BYTES               "字节"
+    IDS_KBYTES              "KB" //!
+    IDS_MBYTES              "MB" //!
+    IDS_GBYTES              "GB" //!
+    IDS_TBYTES              "TB" //!
+    IDS_SECS                "秒"
+    IDS_MINS                "分钟"
+    IDS_HOURS               "小时"
+    IDS_DAYS                "天"
+    IDS_ED2KLINKFIX         "关联ED2K链接"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RECONNECT           "%u秒内将会重试自动连接到服务器"
+    IDS_SERVERADDED         "服务器已被添加: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "忽略‘加入信息’消息"
+    IDS_STATS_SUCCUPCOUNT   "总成功上传次数:%u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "忽略‘Part信息’消息"
+    IDS_STATS_FAILUPCOUNT   "总失败上传次数:%u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "平均上传时间: %s"
+    IDS_SEARCHMINSIZE       "最小文件(段)大小(MB)"
+    IDS_SEARCHMAXSIZE       "最大文件(段)大小(MB)"
+    IDS_PREF_ONLINESIG      "启用在线签名"
+    IDS_ERROR_SAVEFILE      "保存失败"
+    IDS_REQ_SHAREDFILES     "用户%s(%u)请求了你的共享文件列表->%s"
+    IDS_ACCEPTED            "接受"
+    IDS_DENIED              "拒绝"
+    IDS_PW_CON_DOWNLBL      "下载"
+    IDS_PW_CON_UPLBL        "上传"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_AUTOCONNECTSTATICONLY "仅自动连接到静态服务器"
+    IDS_PW_CON_LIMITFRM     "上限"
+    IDS_STATS_AVGLABEL      "图形平均时间间隔: %u 分钟"
+    IDS_GRAPHS              "图形"
+    IDS_STREE               "统计信息树"
+    IDS_IRC_IGNOREQUITMESSAGE "忽略‘退出信息’消息"
+    IDS_STATSSETUPINFO      "设置统计信息显示"
+    IDS_IRC_SOUNDEVENTS     "播放声音事件"
+    IDS_HARDLIMIT           "硬性限制"
+    IDS_COL_MORECOLORS      "更多 ..."
+    IDS_TOOMANYCONNS        "连接数太多"
+    IDS_DOWNLOADRENAMED     "同名的文件已存在,这个文件已被另存为%s"
+    IDS_TBN_DOWNLOADDONE    "完成下载:"
+    IDS_PW_TBN_USESOUND     "使用声音"
+    IDS_PW_TBN_ONLOG        "新日志记录"
+    IDS_PW_TBN_ONCHAT       "开启新的对话"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_FILE_SAVING     "记录文件保存动作"
+    IDS_DELETEIPFILTERS     "确实要删除选定的IP过滤规则吗?"
+    IDS_TOTAL_IPFILTER_LABEL "总IP过滤规则:"
+    IDS_TOTAL_IPS_LABEL     "合计过滤IP数:"
+    IDS_RAU_WARNING         "这个设置加强了eMule抵抗攻击和扫描的能力,我们鼓励你使用这个选项.\n然而我们也强烈建议你在激活这个功能前阅读帮助手册!\n\n更改在重启eMule后生效."
+    IDS_APPEND              "附加 ..."
+    IDS_SAVE                "保存"
+    IDS_IP_START            "开始"
+    IDS_IP_END              "结束"
+    IDS_IP_LEVEL            "等级"
+    IDS_IP_DESC             "描述"
+    IDS_IP_HITS             "命中数"
+    IDS_IP_RULES            "IP过滤:"
+    IDS_ERR_NOTCONNECTEDKAD "当前没有连接到Kad网络!"
+    IDS_IRC_NOSFS           "未选定共享文件"
+    IDS_RESETLABEL          "自动完成(历史功能)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_IGNOREMISCMESSAGE "忽略杂信息消息"
+    IDS_KNOWN               "已知"
+    IDS_RAU_RUNNING         "eMule正以非特权用户身份""%s""运行"
+    IDS_RAU_FAILED          "以非特权用户身份""eMule_Secure""启动eMule失败.保持当前特权身份的用户(""%s"")."
+    IDS_KADCONTACTSREAD     "从文件读取%u联系人."
+    IDS_ERR_KADCONTACTS     "未发现联系人,请引导或下载nodes.dat文件."
+    IDS_METATAGS            "Meta 标签数:"
+    IDS_FILEFORMAT          "文件格式"
+    IDS_UDPREASKS           "UDP文件重新查询"
+    IDS_DYNUP_PINGTOLERANCE_MS "Ping 容限 (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER "Ping 容限所使用的方法"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS "毫秒 (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT "百分比 (%)"
+    IDS_LOG_A4AF            "记录 A4AF 动作"
+    IDS_A4AF_SAVE_CPU       "为节省CPU资源禁用A4AF"
+    IDS_SEARCH_DOC          "文档"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_POOR            "糟糕"
+    IDS_CMT_GOOD            "好"
+    IDS_CMT_FAIR            "普通"
+    IDS_CMT_EXCELLENT       "极好"
+    IDS_CMT_NOTRATED        "没有评分"
+    IDS_KILO                "K"
+    IDS_MEGA                "M" //!
+    IDS_GIGA                "G" //!
+    IDS_TERA                "T" //!
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "忽略eMule协议消息"
+    IDS_SMARTLOWIDCHECK     "连接时启用智能LowID检测"
+    IDS_SF_SRVOCC           "服务器占用:%.2f%%"
+    IDS_3DDEP               "进度条样式"
+    IDS_AUTOTAKEED2KLINKS   "仅在运行时自动接受ED2K链接"
+    IDS_ADDNEWFILESPAUSED   "新添加的下载文件使用暂停模式"
+    IDS_DOWNLOADMOVIECHUNKS "优先下载预览所需要的文件块"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RECOVER_SINGLE      "已恢复一个文件"
+    IDS_RECOVER_MULTIPLE    "已恢复%u个文件"
+    IDS_ATTEMPTING_RECOVERY "试图恢复存档 ..."
+    IDS_RECOVERY_SUCCESSFUL "存档恢复成功"
+    IDS_RECOVERY_FAILED     "存档恢复失败"
+    IDS_STARTNEXTFILE       "当文件完成时开始下载下一个暂停的文件"
+    IDS_FULLCHUNKTRANS      "尝试对所有上传进行整文件块传输"
+    IDS_MANUALSERVERHIGHPRIO "设定手动添加的服务器为高优先级"
+    IDS_VERBOSE             "详情(额外的程序反馈) - Verbose"
+    IDS_FLAT                "扁平"
+    IDS_ROUND               "圆滑"
+    IDS_SAMEUSERHASH        "客户'%s'和'%s'拥有相同的userhash或IP - 移除'%s'"
+    IDS_SEARCHEXTENTION     "扩展名"
+    IDS_SEARCHAVAIL         "可用源数"
+    IDS_ERR_NOHELP          "请访问我们主页上的下载区来获得最新的帮助文件!\n\n你想要立即浏览在线帮助吗?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_TBN_POP_ALWAYS   "收到新的消息"
+    IDS_PW_TBN_ONDOWNLOAD   "一个下载已完成"
+    IDS_PW_EKDEV_OPTIONS    "通知"
+    IDS_PW_TASKBARNOTIFIER  "消息提示"
+    IDS_PW_TBN_OPTIONS      "弹出消息当"
+    IDS_TBN_NEWCHATMSG      "消息来自"
+    IDS_PW_CON_CAPFRM       "能力"
+    IDS_IRC_PRIVATECHANSTART "* 私人对话开启"
+    IDS_IRC_SLAPMSG         "* %s打了%s一巴掌!"
+    IDS_IRC_PRIVMESSAGE     "私人消息"
+    IDS_WEB_REMOTE_LINK_ADDED "链接已添加:"
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "链接未添加.密码错误."
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "优先下载预览所需要的文件块"
+    IDS_IRC_KICK            "踢"
+    IDS_IRC_SLAP            "打巴掌"
+    IDS_IRC_JOIN            "加入"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_CHANNELLIST     "频道列表"
+    IDS_IRC_CONNECT         "连接"
+    IDS_IRC_DISCONNECT      "断开"
+    IDS_IRC_HASJOINED       "* %s已经加入了%s"
+    IDS_IRC_HASPARTED       "* %s已经离开了%s(%s)"
+    IDS_IRC_WASKICKEDBY     "* %s被%s踢了(%s)"
+    IDS_DOWNLOAD_ALPHABETICAL "按照字母表顺序下载"
+    IDS_IRC_HASQUIT         "* %s已经退出(%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s改名为%s"
+    IDS_IRC_SETSMODE        "* %s设置模式:%s %s"
+    IDS_IRC_NOTSUPPORTED    "** 设置了未被支持的模式,你可能需要离开并重新加入频道以更新列表 ..."
+    IDS_IRC_CHANNEL         "频道"
+    IDS_IRC_NICK            "昵称"
+    IDS_IRC_SEND            "发送"
+    IDS_IRC_NAME            "名字"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION 打了%s一巴掌!\001"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_INSTALL_SKIN        "安装 eMule 外观"
+    IDS_INSTALL_SKIN_NODIR  "在选择的目录中没有发现eMule外观配置文件或者选择的目录无法访问!"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "创建目录 ""%s"" 失败,该目录对应的eMule外观为 %s"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "释放文件 ""%s"" 失败,从eMule外观文件 ""%s"" 到本地文件 %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "这不是一个有效的 eMule 外观文件包."
+    IDS_NEXT_REASK          "下次查询这个客户端"
+    IDS_A4AF_FILES          "A4AF 文件"
+    IDS_FO_TEMPTCP_S        "在本次eMule运行时,成功地在WinXP内置防火墙中打开 %u (TCP) 端口"
+    IDS_FO_TEMPTCP_F        "在本次eMule运行时,无法在WinXP内置防火墙中打开 %u (TCP) 端口"
+    IDS_FO_TEMPUDP_S        "在本次eMule运行时,成功地在WinXP内置防火墙中打开 %u (UDP) 端口"
+    IDS_FO_TEMPUDP_F        "在本次eMule运行时,无法在WinXP内置防火墙中打开 %u (UDP) 端口"
+    IDS_FO_PREFBUTTON       "在WinXP内置防火墙中打开这些端口"
+    IDS_FO_PREF_SUCCCEEDED  "成功地在WinXP内置防火墙中打开所选择的端口.\n请注意,其他第三方防火墙或者路由器不会受此选项影响!"
+    IDS_FO_PREF_EXISTED     "eMule检测到被选端口的防火墙规则并没有被改写或者替代.原来未添加的规则已经被成功添加.\n请注意,其他第三方防火墙或者路由器不会受此选项影响!"
+    IDS_FO_PREF_FAILED      "无法为被选端口配置WinXP内置防火墙规则!"
+    IDS_FO_PREF_STARTUP     "在启动/退出eMule时,打开/关闭WinXP内置防火墙中的对应端口"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_LEVEL           "记录级别"
+    IDS_NEWMSG              "新的消息来自 '%s' (IP:%s) "
+    IDS_PREF_STARTNEXTFILECATONLY "仅在相同的分类中"
+    IDS_LOG_ULDL_EVENTS     "记录上传/下载事件"
+    IDS_PEERCACHE_ENABLED   "你的 ISP 支持 PeerCache 技术,启用 PeerCache 下载!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "允许其他用户添加你为好友"
+    IDS_SOURCESWAPBLOCKED   "已禁止置换"
+    IDS_TRICKLING           "阻塞"
+    IDS_A4AF_CHECK_THIS_NOW "立即检查这个来源 (debug)"
+    IDS_STATS_FRATIO        "本次会话的上传:下载比率 (排除对好友的上传):"
+    IDS_STATS_UDATA_FRIENDS "通过好友通道上传(本次会话): %s"
+    IDS_IMP_ERR_BADFORMAT   "未知的或者损坏的临时文件格式."
+    IDS_SEARCH_INVALIDCHAR  "搜索表达式中含有非法字符.你可能输入了'?'字符,也可能输入了其他ED2K网络中不允许出现的字符."
+    IDS_PORTSCON            "端口和连接"
+    IDS_PORTINFO            "eMule在与服务器和客户端通讯时,需要使用两个端口.这些端口必须可被远程客户端自由的使用.TCP端口用于确保eMule的主要功能.UDP端口用于 Kad (无服务器网络) 以及减少网络的使用量(Overhead).\n\n当没有网络连接启动时,你才能修改这些端口号."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_ADDTIMESTAMP    "在消息中加入时间戳"
+    IDS_IRC_USEFILTER       "使用频道列表过滤"
+    IDS_IRC_PERFORM         "动作"
+    IDS_IRC_USEPERFORM      "连接时执行的命令"
+    IDS_IRC_ADDTOFRIENDLIST "加入好友列表"
+    IDS_IRC_LOADCHANNELLISTONCON "连接时加载服务器频道列表"
+    IDS_IRC_ADDASFRIEND     "把你加为好友!"
+    IDS_PW_WARNING          "你为""%s""选定的数值超过了操作系统的支持范围: %u\n这可能导致系统不稳定.\n\n确认要设置吗?"
+    IDS_TAKEOVER            "替换"
+    IDS_CLEANUP             "清除"
+    IDS_RENAME              "改名"
+    IDS_IRC_ADDLINKTOIRC    "将此加入IRC剪贴板以发送给好友"
+    IDS_IRC_SENDLINK        "发送给好友:"
+    IDS_IRC_RECIEVEDLINK    "%s发送(%s)将自动开启"
+    IDS_IRC_ACCEPTLINKS     "在IRC中接受ED2K链接(请谨慎使用此功能!)"
+    IDS_SHARED              "共享的"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADED          "下载的"
+    IDS_SOURCENAMES         "原名"
+    IDS_PREF_STARTMIN       "启动时最小化"
+    IDS_PS_TBN_IMPORTANT    "紧急:磁盘空间不足,失去服务器连接"
+    IDS_COLORS              "颜色"
+    IDS_SP_BACKGROUND       "背景"
+    IDS_SP_GRID             "网格"
+    IDS_SP_DL1              "下载 当前"
+    IDS_SP_DL2              "下载 时间平均"
+    IDS_SP_DL3              "下载 会话平均"
+    IDS_SP_UL1              "上传 当前"
+    IDS_SP_UL2              "上传 时间平均"
+    IDS_SP_UL3              "上传 会话平均"
+    IDS_SP_ACTCON           "当前连接数"
+    IDS_SP_ACTDL            "当前下载"
+    IDS_SP_ACTUL            "当前上传"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "无限制"
+    IDS_PW_MINREC           "最小推荐值\t%u "
+    IDS_PW_UA               "设置最大上下载速度"
+    IDS_PW_PA               "节流调整上下载速度"
+    IDS_IRC_IGNOREINFOMESSAGE "忽略信息消息"
+    IDS_CONNECTIONLOST      "失去连接"
+    IDS_WIZ_OS_FRAME        "操作系统"
+    IDS_HASHINGFILE         "Hashing文件:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "真实上传带宽"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "真实下载带宽"
+    IDS_FRIENDLIST          "好友"
+    IDS_CHATDISCONNECTED    "*** 已断开连接"
+    IDS_WIZARD              "向导"
+    IDS_ADDFRIEND           "加为好友(&A)"
+    IDS_REMOVEFRIEND        "删除好友"
+    IDS_REMOVEFROMSTATIC    "从静态服务器列表中删除"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LENGTH              "长度"
+    IDS_VIDEO               "视频"
+    IDS_AUDIO               "音频"
+    IDS_FILEINFO            "文件信息"
+    IDS_CODEC               "编码器"
+    IDS_BITRATE             "比特率"
+    IDS_WIDTH               "宽度"
+    IDS_FPS                 "帧率"
+    IDS_CHANNELS            "频道"
+    IDS_SAMPLERATE          "采样率"
+    IDS_HEIGHT              "高度"
+    IDS_SHAREDFILES_FAILED  "无法从 '%s' 得到共享文件列表"
+    IDS_SHAREDFILES_REQUEST "向'%s'请求共享文件列表"
+    IDS_VIEWFILES           "查看共享文件(&V)"
+    IDS_FRIENDSLOT          "建立好友通道"
+    IDS_FRIENDDETAIL        "(好友通道)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UDPDISABLED         "禁用"
+    IDS_WIZ_CTFRAME         "连接类型"
+    IDS_CONCURDWL           "同时下载"
+    IDS_WIZARD_CUSTOM       "定制"
+    IDS_WIZARD_ENTERBELOW   "(下方输入!)"
+    IDS_STATS_MAXAVGDL      "最大平均下载速度(本次会话): %s"
+    IDS_STATS_MAXDL         "最大下载速度: %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "忽略eMule添加朋友协议消息"
+    IDS_PW_FASTSRVCON       "安全连接"
+    IDS_SOURCELINKFAILED    "你需要有HighID来建立合法的带源链接"
+    IDS_ERR_LOADSERVERMET   "加载server.met失败!"
+    IDS_ERR_CORRUPTCOMPRPKG "收到%s的已损坏的压缩包(错误%u)"
+    IDS_ERR_EMFRIENDSINVALID
+                            "文件emfriends.met无效或者已损坏!"
+    IDS_ERR_READEMFRIENDS   "读取emfriends.met时发生未知错误: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "收到未知服务器信息!"
+    IDS_WIZ_DOWN            "下载(kbit/秒)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZ_UP              "上传(kbit/秒)"
+    IDS_SELECT_INCOMINGDIR  "选择下载文件目录"
+    IDS_SELECT_TEMPDIR      "选择临时文件目录"
+    IDS_PRIOAUTO            "自动"
+    IDS_PRIOAUTONORMAL      "自动[普通]"
+    IDS_PRIOAUTOHIGH        "自动[高]"
+    IDS_PRIOAUTORELEASE     "自动[发布]"
+    IDS_PRIOAUTOLOW         "自动[低]"
+    IDS_ERR_CONTIMEOUT      "试图连接到""%s""(%s:%u)已经超时"
+    IDS_OUTOFSERVERS        "连接到所有列表中的服务器失败,重新尝试一次"
+    IDS_PW_CONLIMITS        "连接限制"
+    IDS_MAXCON5SECLABEL     "最大新建连接数(每5秒)"
+    IDS_PW_UAP              "新增共享文件时使用自动优先级"
+    IDS_MAXCLIENT           "最大用户数"
+    IDS_PW_TWEAK            "扩展设置"
+    IDS_TWEAKS_WARNING      "警告:不要改动这些设置除非你知道自己在干什么,否则eMule会很容易被搞糟. 即使不调整这些设置eMule也会运行得很好."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDAFRIEND          "添加好友"
+    IDS_PAF_REQINFO         "必需的信息"
+    IDS_PAF_MOREINFO        "额外的信息"
+    IDS_ERR_NOVALIDFRIENDINFO "你必须输入一个有效的IP或端口!"
+    IDS_ADD                 "添加"
+    IDS_RECOVERED_PARTMET   "恢复了%s的part.met文件"
+    IDS_CMT_QUEST           "添加这个文件的注释!(这个注释将被所有用户看到)"
+    IDS_CMT_AIDE            "对于影片,你可以评论它的长度,情节,语言 ... 如果文件是假的,你也可以通知其他eMule用户 ..."
+    IDS_CMT_ADD             "更改这个文件的注释(&E) ..."
+    IDS_CMT_NONE            "没有注释"
+    IDS_CMT_READ            "文件注释:"
+    IDS_CMT_SHOWALL         "显示所有注释(&N)"
+    IDS_CMT_READALL         "所有注释"
+    IDS_CMT_RATEQUEST       "文件质量"
+    IDS_CMT_RATEHELP        "给文件评分或文件无效时提醒用户"
+    IDS_CMT_FAKE            "无效/损坏/假的"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHOWOVERHEAD        "显示额外开销的带宽"
+    IDS_UPDOWNSMALL         "上传:%.1f | 下载:%.1f"
+    IDS_EDITLIST            "列表"
+    IDS_SP_ICONBAR          "系统托盘图标速度条"
+    IDS_RATINGRECV          "收到文件'%s'的评分:%u"
+    IDS_DESCRIPTIONRECV     "收到文件'%s'的描述: %s"
+    IDS_WEBSERVICES         "&Web服务"
+    IDS_WEBSVEDIT           "编辑Web服务"
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "忽略eMule发送链接协议消息"
+    IDS_CHECK4UPDATE        "检查新版本"
+    IDS_STARTUP             "启动"
+    IDS_NEWVERSIONAVL       "已有新版本的eMule可下载!查看主页上的详细信息."
+    IDS_NEWVERSIONAVLPOPUP  "已有新版本的eMule可下载!单击这里查看相关信息."
+    IDS_NEWVERSIONFAILED    "无法检查新版本."
+    IDS_CB_TBN_ONNEWVERSION "侦测到新版本的eMule!"
+    IDS_NONEWERVERSION      "未侦测到更新版本的eMule."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EDIT                "编辑..."
+    IDS_FILTERLEVEL         "过滤级别"
+    IDS_FILTERSERVERBYIPFILTER "服务器也被过滤"
+    IDS_FILTERCOMMENTSLABEL "忽略包含以下内容的注释:(分隔符‘|’)"
+    IDS_CLIENTLIST          "已知客户"
+    IDS_FOLDER              "文件夹"
+    IDS_CL_UPLOADSTATUS     "上传情况"
+    IDS_CL_TRANSFUP         "已上传"
+    IDS_CL_DOWNLSTATUS      "下载情况"
+    IDS_CL_TRANSFDOWN       "已下载"
+    IDS_CL_PENDING          "等待决定中"
+    IDS_CL_LOW2LOW          "LowID到LowID"
+    IDS_ERROR               "错误"
+    IDS_OPENINC             "打开Incoming目录(&O)"
+    IDS_HOTMENU             "快捷菜单"
+    IDS_DISABLEKNOWNLIST    "禁用已知客户列表"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DISABLEQUEUELIST    "禁用排队列表"
+    IDS_USECREDITSYSTEM     "启用信用系统 - Credit System(受益上传者)"
+    IDS_FIRSTAUTODOWN       "如果你想eMule管理你的下载优先级,请启动这个选项.\n\n启动后将允许eMule保证来源很多的下载不影响来源较少的. 这个选项只影响将来的下载.(默认: 开启)"
+    IDS_FIRSTAUTOUP         "如果你想eMule管理你的上传优先级,请启动这个选项.\n\n启动这个选项将允许eMule优先上传稀有文件,意味着其他人较难得到受欢迎的文件.关闭这个选项将允许eMule更多地上传受欢迎的文件,意味着其他人较难得到稀有文件. 这个选项只影响将来分享的文件.(默认:开启)"
+    IDS_FIRSTSAFECON        "启动这个选项若你想eMule连接时使用安全连接.\n\n关闭这个功能会使eMule连接服务器时快一点,但可能会使你更多地得到虚假的低ID.(默认:关闭)"
+    IDS_FIRSTAUTOCON        "启动这个选项若你想eMule启动时就连接.(默认:关闭)"
+    IDS_FIRSTCOMPLETE       "你已经完成了首次运行向导.\n\n所有的这些设定还有其它设定可以通过点击选项图标来更改.如果你想得到相关的解释和支持,可以在运行eMule时按F1键来打开帮助文档!"
+    IDS_ENTERUSERNAME       "请输入你的用户名:"
+    IDS_STATIC_CPUMEM       "节省CPU和内存的使用量"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "关键字太短.\r\n\r\n在Kad的搜索表达式中,关键字的最小长度是3个字符."
+    IDS_LOG2DISK            "将日志保存到磁盘"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "已存在一个正在进行中的对于关键字""%s""的Kad搜索.\r\n\r\n要对这个关键字重新搜索,可以等到这个关键字搜索结束或者关闭相应的搜索结果框."
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "无效的Kad关键字.\r\n\r\nKad搜索表达式必须符合以下格式:\r\n\r\n\t<Kad关键字> [ <ed2k搜索表达式> ]\r\n\r\n<Kad关键字>不能包含以下任何字符:\r\n\r\n\t%s"
+    IDS_EDITCAT             "编辑分类属性"
+    IDS_PW_WS               "Web服务器"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENABLED             "启用"
+    IDS_WEB_LOGIN           "登陆"
+    IDS_WEB_ENTER_PASSWORD  "在这里输入你的密码"
+    IDS_WEB_LOGIN_NOW       "现在登陆"
+    IDS_WEB_CONFIRM_REMOVE_SERVER
+                            "确定要把这个服务器从列表中删除吗?"
+    IDS_WEB_CONTROL         "Web控制面板"
+    IDS_WEB_LOGOUT          "注销"
+    IDS_WEB_ACTIONS         "动作"
+    IDS_WEB_SHOW_UPLOAD_QUEUE "显示队列"
+    IDS_WEB_GZIP_COMPRESSION "Gzip压缩"
+    IDS_WEB_GZIP_COMMENT    "节省通信量,尤其是图表."
+    IDS_WEB_REFRESH_TIME    "页面的更新时间"
+    IDS_WEB_REFRESH_COMMENT "时间单位为秒(0 = 禁用):"
+    IDS_SV_URL              "URL" //!
+    IDS_WS_RELOAD_TMPL      "模板"
+    IDS_SV_DEBUGLOG         "调试日志"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_TOOLARGEFILE    "文件的大小超过eDonkey协议所能支持的范围(>=256GB)"
+    IDS_MSGONLYFRIENDS      "仅接受来自好友"
+    IDS_DAY_MO_SA           "周一-周六"
+    IDS_LIMITSOURCES        "限制来源数"
+    IDS_LIMITCONS5SEC       "限制连接数/5秒"
+    IDS_SCHED_CATSTOP       "分类:停止文件下载"
+    IDS_SCHED_CATRESUME     "分类:继续文件下载"
+    IDS_S_DAYS              "天"
+    IDS_STARTTIME           "开始时间"
+    IDS_VALUE               "值"
+    IDS_SCHED_ENTERDATARATELIMIT "输入数据传输率限制:"
+    IDS_SCHED_ENTERVAL      "请输入新的值:"
+    IDS_SCHED_ACTCONFIG     "设置动作"
+    IDS_SELECTCAT           "选择分类"
+    IDS_ALLUNASSIGNED       "取消所有的指定"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ACTSESSIONS         "活动会话数"
+    IDS_WEBSRV              "Web服务器:"
+    IDS_SW_REFETCHRES       "重新得到结果"
+    IDS_FILEHASH            "文件Hash"
+    IDS_PW_PROXY            "代理服务器"
+    IDS_PROXY_ENABLE        "启用代理服务器"
+    IDS_PROXY_TYPE          "服务器类型:"
+    IDS_PROXY_HOST          "服务器主机:"
+    IDS_PROXY_PORT          "服务器端口:"
+    IDS_PROXY_AUTH          "启用身份验证"
+    IDS_AUTH                "身份验证"
+    IDS_SHOWCATINFO         "在分类标签上显示下载信息"
+    IDS_SW_SEARCHINGINFO    "正在进行搜索.马上就会重新得到结果!"
+    IDS_LOGENTRY            "日志项目"
+    IDS_COPY                "复制"
+    IDS_SELECTALL           "全选"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_AUTOSCROLL          "自动滚动"
+    IDS_WIZ1_WELCOME_TITLE  "欢迎使用eMule"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "本向导会引导你对eMule进行初步的设置."
+    IDS_WIZ1_WELCOME_BTN_HINT "点击'下一步'继续."
+    IDS_WIZ1_END_TITLE      "正在完成向导"
+    IDS_WIZ1                "eMule首次运行向导"
+    IDS_WIZ1_END_BTN_HINT   "点击'完成'关闭此向导."
+    IDS_WIZ1_UPLOAD_SUBTITLE "整文件块传输"
+    IDS_DL_RESUMENEXT       "继续下一个暂停的文件"
+    IDS_STARTPRIO           "这一分类的优先级"
+    IDS_PREF_STARTNEXTFILECAT "同一分类优先"
+    IDS_SOFTFILES           "软性文件限制"
+    IDS_HARDFILES           "硬性文件限制"
+    IDS_FILTER              "过滤"
+    IDS_LINKS               "链接"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HM_SCHED_ON         "打开计划任务"
+    IDS_HM_SCHED_OFF        "关闭计划任务"
+    IDS_HM_LINKHP           "eMule主页"
+    IDS_HM_LINKFAQ          "eMule常见问题解答"
+    IDS_HM_LINKVC           "eMule版本检查"
+    IDS_DEBUG_SOURCE_EXCHANGE
+                            "记录来源交换信息"
+    IDS_SHAREDREQ1          "用户 %s (%u) 请求你的共享目录列表-> %s"
+    IDS_SHAREDREQ2          "用户 %s (%u) 请求你在目录'%s'下的共享文件列表-> %s"
+    IDS_SHAREDANSW          "用户 %s (%u) 共享目录'%s'"
+    IDS_SHAREDANSW2         "用户 %s (%u) 发送不请求共享目录列表 - 忽略"
+    IDS_SHAREDINFO1         "用户 %s (%u) 发送在目录'%s'下的共享文件列表"
+    IDS_SHAREDINFO2         "用户 %s (%u) 已完成发送共享文件列表"
+    IDS_SHAREDANSW3         "用户 %s (%u) 发送不请求在目录'%s'下的共享文件列表 - 忽略"
+    IDS_SHAREDREQDENIED     "用户 %s (%u) 拒绝对共享目录/文件列表的访问"
+    IDS_AUTOCLEANUPFN       "清理文件名"
+    IDS_ONNEWDOWNLOAD       "初始值设置"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FILTERFILENAMEWORD  "输入要过滤的关键词,用‘|’分隔"
+    IDS_FNFILTERTITLE       "编辑命名清理所需的文件名包含字过滤器"
+    IDS_CHANGECATVIEW       "选择查看过滤"
+    IDS_STATUS_NOTCOMPLETED "未完成"
+    IDS_STATS_CUMULATIVE    "积累"
+    IDS_STATS_OVRHD         "开销"
+    IDS_STATS_RECORDS       "记录"
+    IDS_STATS_COMPDL        "已完成的下载"
+    IDS_STATS_SVRECWORKING  "最大工作服务器数"
+    IDS_STATS_SVRECUSERS    "最大在线用户数"
+    IDS_SEARCH_TEXT         "搜索"
+    IDS_STATS_SVRECFILES    "最大有效文件数"
+    IDS_STATS_SHRECNUM      "最大共享文件数"
+    IDS_SEARCH_COLUMN       "在以下栏目中查找"
+    IDS_STATS_SHRECSIZE     "最大共享文件总大小"
+    IDS_STATS_SHRECASIZE    "最大平均文件大小"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SESSION       "会话"
+    IDS_STATS_SRATIO        "本次会话的上传:下载比率:"
+    IDS_STATS_CRATIO        "积累的上传:下载比率:"
+    IDS_SEARCH_NORESULT     "未找到符合条件的文件."
+    IDS_STATS_CURRSRVDUR    "当前服务器持续时间"
+    IDS_LONGSECS            "秒钟"
+    IDS_STATS_DLSES         "下载会话"
+    IDS_LONGMINS            "分钟"
+    IDS_STATS_SDLSES        "成功的下载会话"
+    IDS_STATS_FDLSES        "失败的下载会话"
+    IDS_STATS_AVGDATADLSES  "平均每次会话下载"
+    IDS_STATS_ULSES         "上传会话"
+    IDS_STATS_GAINCOMP      "受益于数据压缩: %s"
+    IDS_STATS_LOSTCORRUPT   "因数据损坏而丢失: %s"
+    IDS_STATS_AVGDATAULSES  "平均每次会话上传"
+    IDS_STATS_ICHSAVED      "由I.C.H恢复的文件部分: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MBRESET_TXT   "你确定要重置积累统计信息吗?\n\n如果你改变了主意,你可以点击‘恢复统计信息’来逆转这个操作."
+    IDS_STATS_MBRESTORE_TXT "你确定想要从备份文件恢复积累统计信息吗?\n\n再点击一次‘恢复统计信息’会重新载入你的当前统计信息."
+    IDS_ERR_NOSTATBKUP      "错误:找不到备份统计信息文件 ..."
+    IDS_STATS_NFOLOADEDBKUP "已载入备份统计数据 ..."
+    IDS_STATS_NFORESET      "统计信息已被重置!"
+    IDS_STATS_BNRESET       "重置统计信息"
+    IDS_STATS_BNRESTORE     "恢复统计信息"
+    IDS_PPGSTATS_YSCALE     "连接统计信息 Y-轴比例尺:"
+    IDS_PPGSTATS_ACRATIO    "活动连接比率:"
+    IDS_STATS_PROBLEMATIC   "有问题的"
+    IDS_LONGHRS             "小时"
+    IDS_STATS_LARGESTFILE   "最大共享文件大小"
+    IDS_SPLIT_WINDOW        "分割窗口"
+    IDS_STATS_DSPF          "部分文件"
+    IDS_STATS_DATASOURCE    "数据源"
+    IDS_STATS_DSFILE        "完成文件"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_GENERAL       "常规"
+    IDS_STATS_TRANSTIME     "传输时间"
+    IDS_STATS_DOWNTIME      "下载时间"
+    IDS_STATS_UPTIME        "上传时间"
+    IDS_STATS_TOTALSRVDUR   "总服务器时间"
+    IDS_STATS_MAXAVGUL      "最大平均上传速度"
+    IDS_STATS_MAXUL         "最大上传速度"
+    IDS_STATS_AVGDLTIME     "平均下载时间"
+    IDS_STATS_PRTDEF        "默认"
+    IDS_STATS_PRTOTHER      "其它"
+    IDS_STATS_MNUTREETITLE  "统计树"
+    IDS_STATS_MNUTREECPYSEL "复制选定的分支"
+    IDS_STATS_MNUTREECPYALL "复制所有统计信息"
+    IDS_STATS_MNUTREEHTML   "HTML功能"
+    IDS_STATS_EXPORT2HTML   "导出所有统计信息"
+    IDS_CONDTCPACCEPT       "限制快速连接"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MNUTREECPYVIS "复制所有可见信息"
+    IDS_STATS_MNUTREEEXPANDALL "展开所有区域"
+    IDS_STATS_MNUTREECOLLAPSEALL "折叠所有区域"
+    IDS_STATS_MNUTREEEXPANDMAIN "展开主要区域"
+    IDS_STATS_LASTRESETSTATIC "距上次重置的统计信息: %s"
+    IDS_STATS_MONTHLY       "每月"
+    IDS_STATS_YEARLY        "每年"
+    IDS_STATS_TIMESTATS     "时间统计"
+    IDS_STATS_AVGANDPROJ    "计划平均数"
+    IDS_STATS_TIMESINCERESET "距上次重置的时间: %s"
+    IDS_CRYPT_INITFAILED    "初始化密钥失败 - 安全认证被禁止"
+    IDS_CD_IDENT            "认证:"
+    IDS_IDENTOK             "成功"
+    IDS_IDENTFAILED         "无效"
+    IDS_IDENTNOSUPPORT      "不支持或被禁止"
+    IDS_COMMITFILES         "安全.met/.dat文件写入"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DWL_IPFILTERFILE    "正在下载 IP 过滤规则文件"
+    IDS_DWLIPFILTERFAILED   "IP 过滤规则文件下载失败"
+    IDS_FINDBUDDY           "查找 Buddy"
+    IDS_ERR_IPFILTERZIPEXTR "从已下载的 IP 过滤规则 Zip 文件 ""%s"" 中解压 IP 过滤规则文件失败."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "已下载的 IP 过滤规则文件 ""%s"" 是一个 Zip 文件,但是包含未知内容."
+    IDS_STORENOTES          "储存注释"
+    IDS_NOTES               "注释"
+    IDS_KADSEARCHALREADY    "另一个搜索正在进行中,请稍候重试!"
+    IDS_WEB_SHUTDOWN        "关闭 eMule"
+    IDS_WEB_REBOOT          "重起系统"
+    IDS_WEB_SHUTDOWNSYSTEM  "关闭系统"
+    IDS_WEB_ADMINMENU       "管理员菜单"
+    IDS_WEB_MAIN_CLOSE      "你真的想退出eMule?"
+    IDS_WEB_MAIN_REBOOT     "你真的想重起系统?"
+    IDS_WEB_MAIN_SHUTDOWN   "你真的想关闭系统么?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "在队列中显示被ban的客户端"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "在队列中显示朋友"
+    IDS_WEB_SESSIONTIMEOUT  "会话超时"
+    IDS_WEB_ALLOWHILEVFUNC  "退出eMule,重启并关机"
+    IDS_SETPFSLIMIT         "来源限制..."
+    IDS_SETPFSLIMITEXPLAINED
+                            "请对当前文件输入新的来源限制数(s) ! \n(设置为0则使用全局设定)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "你想现在更新包括旧目录的下载文件目录?"
+    IDS_USESPEECH           "朗读通知消息"
+    IDS_ERR_FAILEDTOLOAD    "载入 %s: %s 失败"
+    IDS_TCPIP_CONNS         "TCP/IP 连接"
+    IDS_MANUAL_FILENAMECLEANUP
+                            "你要清理当前文件的文件名?"
+    IDS_ERR_DELFILE         "删除""%s""文件失败"
+    IDS_ERR_CONFIGCORRUPT   "%s看起来像是坏的并将会被替换"
+    IDS_UPLOADING           "上传中"
+    IDS_CANCELLED           "已取消"
+    IDS_PW_REMEMBERDOWNLOADED "记住下载过的文件"
+    IDS_PW_REMEMBERCANCELLED "记住已取消的文件"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADUNC          "无效的UNC命名"
+    IDS_NEVER               "从不"
+    IDS_ALWAYS              "总是"
+    IDS_ONSHUTDOWN          "关闭时"
+    IDS_UNCFOLDERS          "UNC目录"
+    IDS_USESECIDENT         "使用安全认证"
+    IDS_ADVSPAMFILTER       "高级垃圾信息过滤"
+    IDS_CUT                 "剪切"
+    IDS_STATS_SECUREIDENT   "安全认证(成功:失败)"
+    IDS_ONDISK              "在磁盘上的大小:"
+    IDS_CLIENTCOL           "警告:找到与当前连接的客户匹配的客户:%s (%s) 和 %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "字符串没有终结"
+    IDS_SEARCH_GENERALERROR "常规错误"
+    IDS_SEARCH_MISSINGORRIGHT "OR运算符缺少右边的操作数"
+    IDS_SEARCH_MISSINGNOTRIGHT "NOT运算符缺少右边的操作数"
+    IDS_SEARCH_MISSINGEXPRPARANT "'(' ')'缺少表达式"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_MISSINGCLOSINGPARANT "缺少终止符 ')'"
+    IDS_SEARCH_EXPRERROR    "解析搜索表达式失败"
+    IDS_SEARCH_TOOCOMPLEX   "表达式太复杂"
+    IDS_VERSION             "版本"
+    IDS_OPTIONS             "设置"
+    IDS_PASTE               "粘贴"
+    IDS_SEARCHAUTHORCOLLECTION "搜索该作者的收藏"
+    IDS_ERR_DUPL_FILES      "重复的共享文件: ""%s"" 和 ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "USS: 路由跟踪多次失败. 关闭USS."
+    IDS_USS_STARTING        "USS: 准备就绪. 开始控制上传速度. (起初的60秒内将采取快速反应模式)"
+    IDS_A4AF                "来源处理"
+    IDS_AUTOCAT_LABEL       "自动指定类别(形式,用‘|’分隔)"
+    IDS_SHOWEXTSETTINGS     "显示更多控制(高级模式控制)"
+    IDS_TREEOPTIONS_TRUE    "真"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TREEOPTIONS_FALSE   "假"
+    IDS_TREEOPTIONS_OK      "OK" //!
+    IDS_HYPERTEXT_FONT_HINT "服务器-,消息- 和 IRC-窗口的字体"
+    IDS_SELECT_FONT         "选择字体"
+    IDS_SERVER_LIMITS       "软性/硬性文件限制"
+    IDS_KBITSSEC            "kbit/秒"
+    IDS_KBYTESSEC           "kByte/秒"
+    IDS_ERR_CREATE_DIR      "创建目录%s失败""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "Incoming目录禁止被设为eMule的安装目录."
+    IDS_WRN_TEMPFILES_RESERVED
+                            "Temporary目录禁止被设为eMule的安装目录."
+    IDS_WRN_INCTEMP_SAME    "Incoming目录和Temporary目录不能相同."
+    IDS_SHOWDWLPERCENTAGE   "在进度条上显示下载完成量的百分比"
+    IDS_TBN_ONNEWDOWNLOAD   "下载已添加"
+    IDS_ARTIST              "艺术家"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALBUM               "专辑"
+    IDS_CD_UPLOADREQ        "被请求的上传:"
+    IDS_SETTINGCHANGED_RESTART
+                            "要使更改的设置生效,请重启eMule!"
+    IDS_CREDITSEXPIRED      ",%u 用户被删除(消失五个月)"
+    IDS_SOURCESINFO         "%u (有用:%u,NNP:%u); A4AF:%u"
+    IDS_META_DATA           "Meta数据"
+    IDS_TIMEBEFORE          "(%s 以前)"
+    IDS_FD_TIMEDATE         "日期"
+    IDS_FILEINFORMATION     "文件信息"
+    IDS_STATS_FREESPACE     "临时目录分区上的可用空间"
+    IDS_IRC_HELPCHANNEL     "连接到帮助频道."
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-chinese"
+    IDS_IRC_ACCEPTLINKSFRIENDS "仅从朋友."
+    IDS_COMPLSOURCES        "完成来源"
+    IDS_CHECKNOENDTIME      "没有结束时间"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_DOWNLOADSTARTED  "下载已添加:"
+    IDS_FAILEDREOPEN        "致命错误:重新打开Partfile失败‘%s’(%s)!"
+    IDS_ERR_PREVIEWALREADY  "此客户的预览请求正在等待"
+    IDS_ERR_PREVIEWFAILED   "来自用户'%s'的预览失败"
+    IDS_DWTOT               "磁盘空间"
+    IDS_DWTOT_NR            "下载数目:%u"
+    IDS_DWTOT_TSD           "总下载大小: %s"
+    IDS_DWTOT_TCS           "总完成大小:%s (%.0f%%)"
+    IDS_DWTOT_TSL           "总未完成大小: %s"
+    IDS_DWTOT_TSN           "总所需磁盘空间: %s"
+    IDS_DWTOT_FS            "临时目录分区上的可用空间: %s"
+    IDS_NEEDFREEDISKSPACE   "%s(需要释放 %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT "服务器连接刷新间隔[分]"
+    IDS_MORE                "更多(&M)"
+    IDS_TOOLS               "工具"
+    IDS_SEARCHPARAMS        "搜索参数"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u Hashing)"
+    IDS_CHECKDISKSPACE      "检查磁盘空间"
+    IDS_YOURHOSTNAME        "自身eD2K链接的主机名"
+    IDS_INSUFFICIENT        "磁盘空间不足"
+    IDS_MINFREEDISKSPACE    "最小可用磁盘空间[MB]"
+    IDS_WARNING             "警告"
+    IDS_IMPORTSPLPF         "导入未完成下载(eM,eD,ON)"
+    IDS_IMP_STEPREADPF      "正在读取Partfile文件夹"
+    IDS_IMP_STEPBASICINF    "正在从源Partfile中获取基本信息"
+    IDS_IMP_STEPCRDESTFILE  "正在创建目的Partfile"
+    IDS_IMP_LOADDATA        "正在从源Partfile中载入数据(%u/%u)"
+    IDS_IMP_SAVEDATA        "正在把数据块保存到新的Partfile(%u/%u)"
+    IDS_IMP_IOERROR         "转换未完成下载时发生错误"
+    IDS_IMP_GETPFINFO       "正在获取源Partfile信息"
+    IDS_IMP_ADDDWL          "正在添加并保存新的Partfile"
+    IDS_IMP_FETCHSTATUS     "获取状况..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_INPROGR         "正在进行中"
+    IDS_IMP_ERR_DISKSP      "错误:磁盘空间不足"
+    IDS_IMP_ERR_PARTMETIO   "错误:未找到Partmet文件"
+    IDS_IMP_ERR_IO          "错误:IO错误!"
+    IDS_IMP_ERR_FAILED      "错误:失败!"
+    IDS_IMP_STATUSQUEUED    "排队"
+    IDS_IMP_ALRDWL          "已在下载"
+    IDS_IMP_ADDBTN          "添加导入(&A)"
+    IDS_IMP_RETRYBTN        "重试所选(&R)"
+    IDS_IMP_REMOVEBTN       "删除所选(&M)"
+    IDS_IMP_SELFOLDER       "请选择一个保存有未完成下载文件的文件夹!(子文件夹也会被查找)"
+    IDS_IMP_DELSRC          "你想要删除已成功导入的下载的源Partfile吗?"
+    IDS_IMP_SIZE            "%s(磁盘:%s)"
+    IDS_IMP_STATUS          "正在导入%s: %s"
+    IDS_DYNUPENABLED        "自动设置上传限制"
+    IDS_DYNUP_PINGTOLERANCE "Ping 容限 (% 最低Ping)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_GOINGUPDIVIDER "向上缓慢"
+    IDS_DYNUP_GOINGDOWNDIVIDER "向下缓慢"
+    IDS_DYNUP_NUMBEROFPINGS "平均最大Ping次数"
+    IDS_DYNUP_MINUPLOAD     "最低允许的上传速度"
+    IDS_ESTTIMELEFT         "估计剩余时间:"
+    IDS_TRANSFER_RATE_LABEL "传输比例:"
+    IDS_SAVELOG             "保存日志"
+    IDS_CMT_COPYCLIPBOARD   "复制评语到剪贴板"
+    IDS_ASKDOWNLOADLANG     "所选的语言没有安装在你的系统里.你想要从emule-project.net下载吗?"
+    IDS_ASKDOWNLOADLANGCAP  "下载语言文件"
+    IDS_DELETESELECTED      "删除"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "从%s下载和安装所选的语言dll失败!"
+    IDS_ERR_BADFOLDER       "无效文件夹.\n不能创建文件夹.请检查名字和位置."
+    IDS_AUTOREMOVEFD        "自动清除完成的下载"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELS          "文本标签"
+    IDS_ENABLETEXTLABELS    "在图表下面显示"
+    IDS_CUSTOMIZETOOLBAR    "定制工具条"
+    IDS_MINBITRATE          "最小比特率 [kbit/s]"
+    IDS_KAD_RECHECKFW       "重新检查防火墙"
+    IDS_SHAREDTITLE         "共享ED2K|Kad"
+    IDS_FIREWALLED          "通过防火墙"
+    IDS_KADEMLIA            "Kad" //!
+    IDS_KADCONTACTLAB       "节点"
+    IDS_KADDISTANCE         "距离"
+    IDS_KEY                 "关键词"
+    IDS_NUMBER              "数量"
+    IDS_KAD_SEARCHSRC       "搜索来源"
+    IDS_KAD_SEARCHKW        "搜索关键字"
+    IDS_KAD_NODE            "节点查找"
+    IDS_KAD_STOREFILE       "存储文件"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_STOREKW         "存储关键字"
+    IDS_KAD_UNKNOWN         "未知"
+    IDS_SRV_TCPCOMPR        "TCP压缩"
+    IDS_KADSEARCHLAB        "当前搜索"
+    IDS_SRV_UDPSR           "来源请求的扩展UDP协议"
+    IDS_SRV_UDPFR           "文件请求的扩展UDP协议"
+    IDS_MINLENGTH           "最小长度[hh:mm:ss]"
+    IDS_EM_HELP             "帮助(&H)"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "朋友没有添加.\r\n\r\n已存在一个有着相同的IP和端口的朋友."
+    IDS_DYNUP               "上传速度侦测(USS)"
+    IDS_KADOVERHEAD         "Kad开销(包):%s (%s)"
+    IDS_FIND                "查找 ..."
+    IDS_LOG_BANNED_CLIENTS  "记录被禁止的客户"
+    IDS_LOG_RATING_RECV     "记录收到文件的描述和评分"
+    IDS_LOG_SECURE_IDENT    "记录安全身份"
+    IDS_LOG_FILTERED_IPS    "记录过滤的和/或忽略IP"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "来自已知的客户"
+    IDS_KADUDPPORTERR       "Kads UDP端口与eMule的Ext UDP端口或eMule的Server UDP端口冲突.端口已被改为%u."
+    IDS_CONFIRM_FILEDELETE  "你确信要从磁盘删除所有选定的文件吗?"
+    IDS_OPENFOLDER          "打开文件夹"
+    IDS_RUNASUSER           "以非特权用户身份运行eMule"
+    IDS_DELETE              "从磁盘删除"
+    IDS_BOOTSTRAP           "引导程序"
+    IDS_VIAED2KSQ           "通过ED2K 服务器/队列"
+    IDS_EM_KADEMLIA         "&Kad" //!
+    IDS_VIAKAD              "通过Kad"
+    IDS_VIASE               "通过来源交换"
+    IDS_SELECTTOOLBARBITMAP "为工具条选择Bitmap"
+    IDS_SELECTTOOLBARBITMAPDIR "选择Bitmap目录"
+    IDS_TOOLBARSKINS        "工具条外观"
+    IDS_NOTEXTLABELS        "无标签"
+    IDS_TEXTLABELSONRIGHT   "在图表右侧显示"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STARTTEST           "测试端口"
+    IDS_TESTINFO            "在这里你能测试你的 TCP 和 UDP 端口能否被远程连接上.当服务器和客户端都能连接到你时,测试就会成功.TCP端口必须测试成功!"
+    IDS_CONNECTIONTEST      "连接测试"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "当你连接到别的客户端或者连接到服务器/Kad时,你不能改变端口号.\n\n你必须重启eMule才能改变端口设置."
+    IDS_NETWORK_INFO        "网络信息"
+    IDS_SP_TOTALUL          "上传连接总数"
+    IDS_SP_ULFRIENDS        "好友通道上传数"
+    IDS_SP_ULSLOTSNOOVERHEAD "当前上传,排除额外开销(仅上传通道)"
+    IDS_ST_ACTIVEU_ZZ       "活动的上传数"
+    IDS_ST_ULCURRENT        "上传+额外开销"
+    IDS_ST_ULSLOTSNOOVERHEAD "上传"
+    IDS_ST_ULFRIEND         "给好友上传"
+    IDS_STATS_ACTUL_ZZ      "充满带宽所需的活动上传数: %u"
+    IDS_STATS_TOTALUL       "上传总数: %u"
+    IDS_CHAT_DOWNLOADED     "已下载:"
+    IDS_CHAT_UPLOADED       "已上传:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CHAT_IDENT          "身份验证:"
+    IDS_MAXHALFOPENCONS     "最大半开连接数"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "允许这个选项将使得eMule在Windows启动时自动运行.(默认 禁止)"
+    IDS_KAD_WAITCBK         "等待 Kad 返回消息"
+    IDS_KAD_TOOMANDYKADLKPS "过多的 Kad 查找"
+    IDS_PCDS_CLIENTWAIT     "客户端等待"
+    IDS_PCDS_CACHEWAIT      "缓存等待"
+    IDS_CACHE               "缓存"
+    IDS_INDEXED             "索引"
+    IDS_KADINFO_SRC         "\t来源: %u\r\n"
+    IDS_KADINFO_KEYW        "\t关键字: %u\r\n"
+    IDS_STARTWITHWINDOWS    "在Windows启动时运行"
+    IDS_ADDSRCMANUALLY      "手动添加一个来源"
+    IDS_BUDDY               "Buddy" //!
+    IDS_BUDDYNONE           "没有"
+    IDS_INFO                "信息"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HALF                "Half" //!
+    IDS_CONCOMPL            "Compl" //!
+    IDS_KADSTATUS_STOPPING  "停止"
+    IDS_KADSTATUS_ACTIVE    "活动的"
+    IDS_FORMAT              "格式"
+    IDS_META_COLLECTION     "收藏"
+    IDS_META_PARTPATH       "Part文件路径"
+    IDS_META_PARTHASH       "Part文件Hash"
+    IDS_META_GAPSTART       "Gap 开始"
+    IDS_META_GAPEND         "Gap 结束"
+    IDS_FAIL                "失败"
+    IDS_META_PREFERENCES    "选项"
+    IDS_META_VERSION        "版本"
+    IDS_META_TEMPFILE       "临时文件"
+    IDS_META_SERVERPORT     "服务器端口"
+    IDS_META_SERVERIP       "服务器 IP"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_META_SRCUDPPORT     "来源 UDP 端口"
+    IDS_META_SRCTCPPORT     "来源 TCP 端口"
+    IDS_META_SRCIP          "来源 IP"
+    IDS_META_SRCTYPE        "来源种类"
+    IDS_SEARCH_UNICODE      "使用 Unicode 搜索"
+    IDS_PF_ADVANCEDCALC     "为计算剩余时间使用高级的计算方法"
+    IDS_LD_ED2KLINK         "ED2K 链接"
+    IDS_LD_COPYCLIPBOARD    "复制到剪贴板"
+    IDS_LD_HOSTNAME         "在生成带源链接时,使用主机名(从选项中设置)代替IP地址"
+    IDS_SAVEACFAILED        "保存 AICH Hashset 失败!"
+    IDS_AICHHASH            "AICH Hash" //!
+    IDS_BYTESPERSEC         "B/s" //!
+    IDS_KBYTESPERSEC        "KB/s" //!
+    IDS_MBYTESPERSEC        "MB/s" //!
+    IDS_GBYTESPERSEC        "GB/s" //!
+    IDS_TBYTESPERSEC        "TB/s" //!
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MINORCLIENTS  "较少使用的"
+    IDS_AICH_SYNCTOTAL      "发现 %u 个文件没有有效的AICH Hashset,现在正在重新 Hash 这些文件"
+    IDS_AICH_CALCFILE       "计算文件 %s 的 AICH Hash"
+    IDS_AICH_WARNUSER       "自从 0.44a 版本开始,eMule 使用一个附加的文件Hash,它可以在文件损坏发生时极大地减少数据丢失.因为你是从一个较早的版本升级上来,你的全部共享文件必须被重新Hash,用于计算新的 AICH Hash.这个过程会用去不少时间,但是它只执行一次."
+    IDS_AICH_WORKED         "AICH 成功的恢复了 %s/ %s 文件段:%u 文件: %s"
+    IDS_SOURCECLIENT        "客户端来源"
+    IDS_USERSIP             "用户 IP"
+    IDS_FEATURES            "特性"
+    IDS_IRC_NEWNICK         "选择一个 IRC 昵称."
+    IDS_IRC_NEWNICKDESC     "一个昵称应该少于20个字符,可以使用(A-Z,0-9).你可以在 设置->IRC 中更改它."
+    IDS_SPARSEPARTFILES     "建立新的Part文件为""稀疏文件""(仅限 NTFS 使用)"
+    IDS_ASPECTRATIO         "约束比例"
+    IDS_NEGATEFILTER        "取消过滤"
+    IDS_SEENCOMPL           "曾经看见完整的"
+    IDS_SELSKINPROFILEDIR   "选择存放外观配置文件的文件夹"
+    IDS_ASKDLINCOMPLETE     "可能是不完整文件:\r\n\r\n%s\r\n\r\n这个文件在网络中被认为是不完整的文件,因此很可能无法成功下载!你真的要下载这个文件?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DEADSOURCES         "无效来源"
+    IDS_LARGEICONS          "大图标"
+    IDS_SMALLICONS          "小图标"
+    IDS_SHORTTAGS           "短标签"
+    IDS_THELOAD             "载入"
+    IDS_PACKSENT            "已发送包"
+    IDS_RESPONSES           "回应总数"
+    IDS_EXTRACT_META_DATA   "展开Meta数据"
+    IDS_META_DATA_MEDIADET  "DirectShow (所有其他音频/视频文件)"
+    IDS_META_DATA_ID3LIB    "ID3动态链接库 (仅限MPEG音频文件)"
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "Windows的通用控件链接库(COMCTL32.DLL)的版本太旧了!\r\n\r\neMule检测到""Windows的通用控件链接库(COMCTL32.DLL)""的版本太旧,以至于它可能使得eMule无法正常工作.为了确保eMule完整 正确的运作,我们强烈建议你将""Windows的通用控件链接库(COMCTL32.DLL)""至少更新到5.8版.\r\n\r\n在Microsoft (R)下载中心可以下载和安装最新版本的""Windows的通用控件链接库(COMCTL32.DLL)"".你愿意访问相应的URL吗?"
+    IDS_ASREGEXPR           "使用正则表达式指定分类"
+    IDS_STATIC_REGEXP       "下载列表使用的正则表达式:"
+    IDS_CARE4ALL            "显示特定的非本分类文件"
+    IDS_REGEXPRESSION       "正则表达式"
+    IDS_SEARCHKAD           "搜索 Kad"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_EMAILNOTIFICATIONS "邮件通知"
+    IDS_SMTPSERVER          "SMTP服务器"
+    IDS_PW_SENDERADDRESS    "发送地址:"
+    IDS_AVAILABLEPARTS      "有效的文件段"
+    IDS_NOSOUND             "无声"
+    IDS_PW_RECEIVERADDRESS  "接收地址:"
+    IDS_PW_ENABLEEMAIL      "开启邮件通知"
+    IDS_EMULENOTIFICATION   "eMule通知"
+    IDS_PW_SHOWTRANSTOOLBAR "在传输窗口显示额外的工具栏"
+    IDS_SHARED_STATUS       "共享的文件段"
+    IDS_SEARCH_EMULECOLLECTION "收藏集"
+    IDS_INCOMING_FILES      "下载的文件"
+    IDS_INCOMPLETE_FILES    "未完成的文件"
+    IDS_SHARED_DIRECTORIES  "共享的目录"
+    IDS_COLLECTIONLIST      "收藏集列表"
+    IDS_SHAREDIR            "共享此目录"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDIRSUB         "连同子目录在内共享"
+    IDS_UNSHAREDIR          "取消共享此目录"
+    IDS_UNSHAREDIRSUB       "连同子目录在内取消共享"
+    IDS_ALLSHAREDFILES      "所有共享的文件"
+    IDS_ALLDIRECTORIES      "所有的目录"
+    IDS_SEARCHRELATED       "查找相关的文件"
+    IDS_RELATED             "相关的"
+    IDS_COLL_REPLACEEXISTING "你是否希望替换现有文件?"
+    IDS_COLL_ERR_DELETING   "在删除旧文件时发生未知错误. 是否放弃保存并退出?"
+    IDS_CREATECOLLECTION    "创建收藏集"
+    IDS_MODIFYCOLLECTION    "修改收藏集"
+    IDS_COLL_SIGN           "以用户名及认证码标记此收藏集"
+    IDS_AUTHOR              "制作者"
+    IDS_AUTHORKEY           "制作者的认证码"
+    IDS_COLL_ADDINCAT       "添加新的下载于此收藏集的分类中"
+    IDS_VIEWCOLLECTION      "查看收藏集"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLL_TEXTFORMAT     "以简单文本方式保存收藏集"
+    IDS_RUNNINGRESTRICTED   "eMule运行在受限状态下"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "USS: 检测到选项中的上传速度限制被提高. 进入快速反应模式60秒."
+    IDS_USS_STATE_PREPARING "正在处理..."
+    IDS_USS_STATE_WAITING   "请稍后..."
+    IDS_USS_STATE_ERROR     "错误!"
+    IDS_SHAREWARNING        "(文件夹将被共享!)"
+    IDS_REMOVEALLSERVERS    "你确定要删除所有的服务器?"
+    IDS_SEARCH_UNKATTR      "未知的搜索属性 '%s'"
+    IDS_SEARCH_ATTRERR      "搜索属性 '%s' 中有语法错误"
+    IDS_SEARCH_MISSINGANDRIGHT "未指定 AND 操作符的右侧操作数"
+    IDS_SEARCH_OPRERR       "比较操作符 '%s' 中有语法错误"
+    IDS_DOWNLOAD_LANGFILE   "正在下载语言文件..."
+    IDS_DOWNLOADING_SERVERMET_FROM "正在下载来自 %s 的 server.met 文件..."
+    IDS_DOWNLOADING_SERVERMET "正在下载 server.met 文件..."
+    IDS_FULLALLOC           "为非稀疏文件分配硬盘空间"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "Hash 没有找到."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "Gap 列表已损坏."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "Gap 列表未找到."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "Hash set 损坏."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "Hash set 未能找到."
+    IDS_CONVERTINGKNOWN2MET "正在转换 %s 至 %s 以便支持大文件..."
+    IDS_CONVERTINGKNOWN2FAILED
+                              "...转换 known2.met 失败, 忽略旧的记录"
+    IDS_CONVERTINGKNOWN2DONE  "... 完成, 转换成功!"
+    IDS_ERR_MET_BAD         "错误:文件 %s 是损坏的, 不能读取已知的文件"
+    IDS_SRV_LARGEFILES      "支持大文件"
+    IDS_ERR_FSCANTHANDLEFILE
+                            "你无法下载这个文件因为你的文件系统不支持大于4GB的文件,建议转换为NTFS文件系统"
+//"You cannot download this file because your filesystem doesn't supports files which are larger than 4GB, consider converting it to NTFS"
+    IDS_NEWVERSIONAVLBETA   "这个beta版本已经过期. 因为测试版经常含有错误,因此请尽快更新到稳定的版本!"
+//"This Beta version is out of date. Due to the nature of Beta versions, which often contain bugs it is very important that you update to a stable release as soon as possible!"
+    IDS_BOLD                "切换到粗体字" //"Toggles bold text"
+    IDS_UNDERLINE           "切换到下划线字体" //"Toggles underlined text"
+    IDS_COLOUR              "选择字体颜色(或背景颜色)" //"Selects foreground text colour (optional background colour)"
+    IDS_RESETFORMAT         "重置上述所有格式(发送一个RESET标签)" //"Resets all previous formatting (sends a reset tag)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RESTORESEARCHPARAMS "恢复搜索参数" //"Restore Search Parameters"
+    IDS_COMMAND             "路径" //"Command"
+    IDS_ARGUMENTS           "参数" //"Arguments"
+    IDS_ARCPREV_PLEASEWAIT  "扫描文档..." //"Scanning archive..."
+    IDS_AP_CREATEPREVCOPY   "创建预览文件" //"Create preview file"
+    IDS_ARCHIVEDETAILS      "文档详情" //"Archive-Details"
+    IDS_ARCHTYPE            "文档类型" // "Archive type"
+    IDS_ATTRIBUTES          "属性" // "Attributes"
+    IDS_LASTMODIFIED        "最后修改" //"Last Modified"
+    IDS_RARFULLENCR         "文件头加密 - 无法读取档案." //"Headers encrypted - unable to read archive."
+    IDS_ARCPARSED           "已扫描文档." //"Archive scanned."
+    IDS_ARCPREV_LISTMAYBEINCOMPL "文件列表可能不完整." //"File list may be incomplete."
+    IDS_ARCPREV_DIRNOTFOUND "内容表未发现." //"Table of contents not found."
+    IDS_ARCPREV_INSUFFDATA  "数据不足." //"Insufficient data available."
+    IDS_PASSWPROT           "密码保护" //"Password protection"
+    IDS_ARCPREV_DIRSUCCREAD "内容表读取成功." //"Table of contents successfully read."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ARCPREV_UNKNOWNFORMAT "(未知的/不支持的)" //"(unknown/unsupported)"
+    IDS_KADSEARCHACTIVE     "(正在进行Kad搜索...)" //"(Kad search in progress...)"
+    IDS_OBFUSCATION         "乱序加密" //"Obfuscation"
+    IDS_SUPPORTED           "支持" //"Supported"
+    IDS_ESTIMATED           "评价" //"estimated"
+    IDS_MEDIAINFO_DLLMISSING
+				"媒体信息库未安装.如果需要在此对话框获得到更多有关声音/视频文件的信息,\r\从https://mediaarea.net/zh-CN/MediaInfo下载媒体信息库文件 MediaInfo.dll 并拷贝到\r\neMule安装目录 ""%s"".\r\n"
+    // "There is no MediaInfo library installed. If you want to get more information about audio/video files in this dialog,\r\ndownload the MediaInfo library from https://mediaarea.net/en/MediaInfo and copy the MediaInfo.dll file into\r\neMule's installation folder ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "警告: 文件扩展名""%s""和用于该文件格式的标准的文件扩展名不符\r\n你可能要使用""%s""中的一个文件扩展名来重新命名该文件,才能正确地使用或者浏览它. \r\n"
+	//"Warning: The file extension of ""%s"" does not match the file extension\r\ntypically used for that file format. You may want to rename the file to\r\nuse one of those file extensions ""%s""\r\nfor properly using or viewing that file format.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                           "警告: 文件 ""%s"" 似乎为DRM所保护.\r\n除非拥有许可,否则不应使用该文件.\r\n"
+	//"Warning: The file ""%s"" seems to be protected with Digital Rights Management.\r\nYou will most likely not be able to use that file without a license from the originator of that file.\r\n"
+    IDS_ARCHPREV_ATTRIBINFO "文件的属性可含有:\r\n\r\nP\t文件被密码所保护\r\nD\t是一个目录\r\nC\t注释\r\nLx\t压缩级别 level x\r\nM\t被压缩的数据未被完全下载\r\n<\t文件接着上一个压缩卷\r\n>\t文件包含在下一个压缩卷\r\n"
+    //"File attributes can contain:\r\n\r\nP\tfile is password protected\r\nD\tis a directory\r\nC\tComment\r\nLx\tCompression level x\r\nM\tcompressed data not completely downloaded yet\r\n<\tfile continued from previous volume\r\n>\tfile continues in next volume\r\n"
+
+    IDS_LOADFILTER_EMTOOLBAR "eMule 工具条图标文件" //"eMule Toolbar Bitmap Files"
+    IDS_LOADFILTER_EMSKINFILES "eMule 皮肤文件" //"eMule Skin Files"
+    IDS_CONTENT_INFO        "内容" //"Content"
+    IDS_MESSAGESCOMMENTS    "消息与注释" //"Messages and Comments"
+    IDS_PROTOCOLOBFUSCATION "乱序协议加密" //"Protocol Obfuscation"
+    IDS_ONLYOBFUSCATED      "只允许乱序加密连接(不推荐)" //"Allow obfuscated connections only (not recommended)"
+    IDS_DISABLEOBFUSCATION  "禁止支持乱序加密连接" //"Disable support for obfuscated connections"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENABLEOBFUSCATION   "启用乱序协议加密" //"Enable Protocol Obfuscation"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "连接到 %s (%s:%u - 使用乱序协议加密) ..." // "Connecting to %s (%s:%u - using Protocol Obfuscation) ..."
+    IDS_CONNECTEDTOOBFUSCATED "乱序加密连接启用于: %s" //"Obfuscated connection established on: %s"
+    IDS_VERIFIED            "经验证的" //"Verified"
+    IDS_OBFUSCATED          "乱序加密的" //"Obfuscated"
+    IDS_UNVERIFIED          "未经验证的" //"Unverified"
+    IDS_INVALIDFILEEXT      "无效的文件扩展名" // "Invalid file extension"
+    IDS_UNKNOWNFILEEXT      "未知的文件扩展名" //"Unknown file extension"
+    IDS_ENABLEMINIMULE      "启用 MiniMule" //"Enable MiniMule"
+    IDS_DISABLE_AUTOARCHPREV
+                            "关闭在文件详细信息里自动预览压缩文件内容" //"Disable automatic archive preview start in file details"
+    IDS_US_STALLEDW4BR      "失速! 等待区块请求." //"Stalled! Waiting for block request."
+    IDS_US_STALLEDREADINGFDISK "失速! 正从磁盘中读取." //"Stalled! Reading from disk."
+    IDS_SERVERFEATURE_INTTYPETAGS "整型标签" //"Integer type tags"
+    IDS_FILLGRAPHS          "绘制实心图表" //"Draw filled graphs"
+    IDS_PARAMETER           "参数" //"Parameter"
+    IDS_TEST                "测试" //"Test"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "使用UPnP来设置端口"  //"Use UPnP to setup ports"
+    IDS_UPNPSETUP           "正在尝试通过UPnP建立端口映射..."  //"Trying to setup port forwardings with UPnP..."
+    IDS_UPNPFAILED          "UPnP端口映射设置,如果需要的话请自行设置这些端口映射!"  //"UPnP failed to setup port forwardings, please forward those ports manually if necessary!"
+    IDS_UPNPSUCCESS         "UPnP成功建立了端口%u(TCP) 和 %u(UDP)的端口映射"  //"UPnP successfully set up forwardings for ports %u (TCP) and %u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "打开WinXP SP1防火墙的端口"  //"Open ports on WinXP SP1 firewall"
+    IDS_UPNP_NOSERVICE      "UPnP Device Host服务未运行,跳过UPnP设置"  //"UPnP Device Host service is not running, skipping UPnP setup"
+    IDS_DELAYEDBYUPNP       "由于UPnP正在配置端口映射,网络连接已被延迟."  //"Connecting to the network is delayed, because UPnP is still busy configuring the port forwardings."
+    IDS_DELAYEDBYUPNP2      "请等候数秒,eMule将在UPnP设置完毕时开始连接."  //"Please wait some seconds, eMule will connect as soon as UPnP finished."
+    IDS_UPNP                "UPnP" //!
+    IDS_UPNPCLOSEONEXIT     "退出时移除UPnP端口映射"  //"Remove UPnP port forwardings on exit"
+    IDS_UPNPSKIPWANIP       "跳过广域网(WAN) IP设置步骤"  //"Skip WAN IP setup"
+    IDS_UPNPSKIPWANPPP      "跳过广域网(WAN) PPP设置步骤"  //"Skip WAN PPP setup"
+    IDS_SHAREEMULELABEL     "和本机其他用户分享eMule"  //"Sharing eMule with other computer users"
+    IDS_SHAREEMULEMULTI     "每个用户的配置和下载是独立的"  //"Each user has its own configuration and downloads"
+    IDS_SHAREEMULEPUBLIC    "所有用户共享相同的配置和下载"  //"Everyone has the same configuration and downloads"
+    IDS_SHAREEMULEOLD       "在程序目录下保存配置和下载"  //"Store config and downloads in the program directory"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "改变该选项会使eMule启用其它的配置.你的当前设置将会被忽略,已经开始的下载可能会不再可见.你可以在任何时刻通过改变该选项来切换回你当前的配置.\n\n你必须重启eMule以使该改变生效."  //"Changing this option will let eMule use another configuration. You current settings will be ignored and already started downloads might not be visible anymore. You can switch back to your current configuration by changing this option again anytime.\n\nYou need to restart eMule for this change to take effect."
+    IDS_SPAM                "垃圾信息"  //"Spam"
+    IDS_MARKSPAM            "标记为垃圾信息"  //"Mark as Spam"
+    IDS_MARKNOTSPAM         "标记为非垃圾信息"  //"Mark as not Spam"
+    IDS_SEARCHSPAMFILTER    "对搜索结果开启垃圾信息过滤"  //"Enable Spam Filter for search results"
+    IDS_SHOWSMILEYS         "显示表情符号"  //"Show Smileys"
+    IDS_CAPTCHAREQUEST      "为了避免广告消息,对方要求在发送消息前进行验证.请输入这幅图片中的字母进行验证:" //"In order to avoid spam messages, this user requires you to solve a captcha before you can send him a message. Please enter the letters you see on this image as response:"
+    IDS_CAPTCHAFAILED       "你输入的验证码不正确,消息被对方忽略.你可以通过再次发送消息进行验证." //"Your response to the captcha was wrong and your message has been ignored. You can request a new captcha by sending a new message."
+    IDS_CAPTCHASOLVED       "你输入的验证码正确,对方已经收到你的消息." //"You have passed the captcha check and the user has received your message."
+    IDS_USECAPTCHAS         "需要进行验证码验证" //"Require captcha authentication"
+    IDS_BOOTSRAPNODESDAT    "从以下网址获取节点信息(Nodes.dat):" //"Nodes.dat from URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "从 %s 下载节点信息(Nodes.dat)" //"Downloading nodes.dat from %s"
+    IDS_DOWNLOADING_NODESDAT "正在下载节点信息(Nodes.dat)..." //"Downloading nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "从 %s 下载节点信息(Nodes.dat)失败" //"Failed to download nodes.dat from %s"
+    IDS_PREVENTSTANDBY      "在 eMule 运行时避免计算机进入待机状态" //"Prevent Standby mode while eMule is running"
+    IDS_KADID               "KadID" //!
+    IDS_SEARCHINGFRIENDKAD  "在 Kad 网络中寻找好友" //"Searching in Kad Network for friend"
+    IDS_FOUND               "已找到" //"found"
+    IDS_EXTERNUDPPORT       "外部 UDP 端口" //"Extern UDP Port"
+    IDS_STORESEARCHES       "重启 eMule 前记录下所有未关闭的搜索结果" //"Remember open searches between restarts"
+    IDS_WRN_INCFILE_EXISTS  "你新选择了一个非空的下载文件目录,该目录中的所有文件会被 eMule 自动共享." //"You have selected a new directory for your incoming files which is not empty. All existing files in this directory will be automatically shared by eMule."
+    IDS_EDITSPAMFILTER      "编辑垃圾消息过滤器..." //"Edit spam filter..."
+    IDS_EDITSPAMFILTERCOMMENTS "编辑用于文件注释的垃圾信息过滤器" //"Edit spam filter for comments"
+    IDS_WIZZARDOBFUSCATION  "启用这个选项可以开启乱序协议加密\n\n如果你的 ISP 打算限制或者封杀 eMule, 开启乱序协议加密可以帮助你突破这类限制." //"Enable this option if you want to enable protocol obfuscation\n\nIf your ISP tries throttle or block eMule, enabling obfuscation will help to circumvent such restrictions."
+    IDS_BETANAG             "这是一个测试版本的 eMule. 请定期到官方论坛(https://forum.emule-project.net)检查更新并报告使用过程中出现的问题." //"This is a beta version of eMule. Please report problems and check regulary for updates in our forum (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "你是否要从以下地址下载 Kad 联系人列表(nodes.dat):\n%s ?" //"Do you want to download and use Kad contacts (nodes.dat) from this address:\n%s ?"
+    IDS_AUTOMATIC           "自动" //"Automatic"
+    IDS_NOTCONNECTEDANY     "你并没有连接到一个服务器或者Kad网络" //"You are not connected to a server or the Kad network!"
+    IDS_ERR_SHARED_DIR      "读取共享目录 ""%s"" 时发生错误 - %s" //"Failed to read shared directory ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "文件 ""%s"" 似乎被数码版权管理(DRM)保护着.\r\n\r\n在没有版权所有者授权的情况下您很可能无法使用这个文件. 当您打开这个文件的时候, 您的媒体播放器很可能打开一个 Web 浏览器, 并自动连接到版权所有者的网站上尝试获取文件授权.\r\n\r\n您真的想要继续打开这个文件吗?" //"The file ""%s"" seems to be protected with Digital Rights Management.\r\n\r\nYou will most likely not be able to use that file without a license from the originator. You should be aware that opening this file will most likely cause your media player to open a web browser which will transfer you automatically to the site of the originator of that file where you will get asked to acquire a license.\r\n\r\nDo you really want to continue opening the file?"
+    IDS_CHECK_FILE_OPEN     "当打开未信任文件时发出警告" //"Warn when opening untrusted files"
+    IDS_BOOTABLE            "可启动的" //"bootable"
+    IDS_UNSUPPORTEDIMAGE    "不支持的格式" //"unsupported image"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "停止共享" //"Unshare"
+    IDS_WEBUPNPINCLUDE      "包含该端口至 UPnP 设定" //"Include port into UPnP setup"
+    IDS_ADDEDON             "加入时间" //"Added On"
+    IDS_RESOLVELINKS        "解析共享目录中的快捷方式" //"Resolve shell links in shared directories"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "下载指令" //"Download Commands"
+    IDS_CLOSETOOLBAR        "关闭工具条" //"Close Toolbar"
+    IDS_SHOWTOOLBAR         "显示工具条" //"Show Toolbar"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "当使用Kad搜索时,第一个关键词不能和连接词 OR 同时使用!\n\n例如 ""关键词1 OR 关键词2"" 是无法执行的.请尝试 ""关键词1 AND (关键词2 OR 关键词3)"",或者使用多次搜索代替." //"You cannot use the first keywordwith an OR operator when searching on Kad!\n\nFor example ""Keyword1 OR Keyword2"" is not possible. Try ""Keyword1 AND (Keyword2 OR Keyword3)"" or domultiple searches instead."
+    IDS_DISCOVEREDBY        "发现于" //"Discovered by"
+    IDS_NODES               "节点(s)" //"Node(s)"
+    IDS_ROUTINGTABLE        "路由表" //"Routing Table"
+    IDS_PROTOCOLVERSION     "协议版本" //"Protocol Version"
+    IDS_FOUNDNODESUSEFUL    "找到节点(有效的)" //"Found Nodes (useful)"
+    IDS_NORESPONSE          "无回应" //"No Response"
+    IDS_NOTASKED            "未请求" //"Not Asked"
+    IDS_LOOKUPGRAPH         "搜索细节" //"Search Details"
+    IDS_AUTOKADLOOKUPGRAPH  "自动显示活动中的搜索" //"Automatically show active searches"
+    IDS_PAUSEONPREVIEW      "当可预览时暂停下载" //"Pause when preview possible"
+    IDS_PREVIEWWITH         "预览..." //"Preview with"
+    IDS_CLOSEEMULE          "关闭eMule" //"Close eMule"
+    IDS_DONOTASKAGAIN       "不再询问" //"Don't ask me again"
+    IDS_POPULARITY          "普及率" //"Popularity Rank"
+    IDS_SHOWWIN7TASKBARGOODIES "启用 Winodws 7 任务栏特效" //"Enable Windows 7 taskbar effects"
+    IDS_LANMODE             "局域网模式" //"LAN Mode"
+    IDS_OPENPREFINI         "打开配置文件(preferences.ini)" //"Open preferences.ini"
+END
+
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

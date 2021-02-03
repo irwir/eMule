@@ -1,0 +1,2008 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "va_ES.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Valencian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CAT)
+#ifdef _WIN32
+LANGUAGE 0x902,0
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "va_ES.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "S'ha produït un error en iniciar els sòcols del Windows."
+    IDS_ABOUTBOX            "&Quant a l'eMule..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s de %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "S'ha connectat a %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "S'està resolent el nom: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "S'ha resolt el com a %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "S'està connectant a %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "S'està redireccionant a %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "S'està rebent la informació del fitxer"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR
+                            "S'ha produït un error en intentar baixar el fitxer. Error: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "S'ha produït un error en intentar connectar al servidor. Error: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE
+                            "No s'ha rebut una resposta vàlida del servidor"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "No s'ha rebut una resposta HTTP vàlida del servidor"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE
+                            "S'ha produït un error durant la baixada del fitxer. Error: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE
+                            "S'està baixant: %s%% de %s completat"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "S'està recuperant el fitxer"
+    IDS_HTTPDOWNLOAD_OF     "%s de %s"
+    IDS_CANCEL              "Cancel·la"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTP_CAPTION        "S'està actualitzant la llista de servidors"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s copiats)"
+    IDS_HSAV                "Hashset disponible"
+    IDS_FD_CORR             "Malmés"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "El fitxer «%s» ja existeix.\nVoleu reemplaçar-lo?"
+    IDS_FD_RECOV            "Recuperat"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "S'ha produït un error en obrir el fitxer que s'ha de baixar. Error: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "S'està interrompent la transferència"
+    IDS_FD_COMPR            "Compressió"
+    IDS_WIZARD_NETWORK      "Trieu quines xarxes voleu utilitzar."
+    IDS_MAIN_READY          "La versió %s de l'eMule està a punt"
+    IDS_WIZARD_ED2K         "Configuració de l'eD2K"
+    IDS_SEL_SKIN            "Seleccioneu el tema visual..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_SOCKETERROR    "Error fatal: no és possible crear un sòcol al port %u"
+    IDS_MAIN_BTN_DISCONNECT "Des&connecta"
+    IDS_ERR_WRONGFILEID     "S'ha enviat una identificació de fitxers errònia"
+    IDS_ERR_BADHASHSET      "S'ha rebut un conjunt de resums malmés o no vàlid"
+    IDS_ERR_BADDATABLOCK    "S'ha rebut un bloc de dades malmés o no vàlid"
+    IDS_ERR_ILLFORMEDHASH   "El Hash no és vàlid"
+    IDS_ERR_BADED2KLINK     "L'enllaç eD2K no és vàlid"
+    IDS_ERR_NOSLLINK        "L'enllaç no és un fitxer o un servidor eD2K"
+    IDS_ERR_WRONGPACKETSIZE "La mida del paquet OP_FILEREQUEST no és vàlida"
+    IDS_ERR_WRONGHPACKETSIZE "La mida del paquet OP_HASHSETREQUEST no és vàlida"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "Un client desconegut envia paquets de protocol ampliat"
+    IDS_ERR_OPENMET         "S'ha produït un error en l'obrir el fitxer part.met. (%s => %s)"
+    IDS_ERR_BADMETVERSION   "S'ha produït un error de versió del fitxer part.met. (%s => %s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION "Versiontag invàlida al server.met (0x%X)."
+    IDS_SERVERSFOUND        "%u servidors trobats al server.met"
+    IDS_SERVERSADDED        "%u servidors afegits, %u eliminats"
+    IDS_ERR_BADSERVERLIST   "Error: el fitxer server.met està malmés, i és impossible carregar la llista de servidors"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "S'ha produït un error de fitxers en llegir server.met: %s, no és possible carregar la llista de servidors"
+    IDS_ERR_SAVESERVERMET   "S'ha produït un error en alçar server.met."
+    IDS_PASSIVE             "Passiu"
+    IDS_MAIN_BTN_CANCEL     "&Cancel·la"
+    IDS_AVAIL               "Parts: %u , disponibles: %u (%.1f%%)\n\n"
+    IDS_TYPE                "Tipus"
+    IDS_FILEID              "Identificador de fitxer"
+    IDS_FILE                "Fitxer"
+    IDS_DOWNLOAD            "Baixada"
+    IDS_SL_SERVERNAME       "Nom del servidor"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IP                  "IP"//.
+    IDS_DESCRIPTION         "Descripció"
+    IDS_PING                "Ping"//.
+    IDS_FILES               "Fitxers"
+    IDS_PREFERENCE          "Preferència"
+    IDS_PRIONOPREF          "Sense pref."
+    IDS_CONNECTTHIS         "Connecta al servidor seleccionat"
+    IDS_MAIN_BTN_CONNECT    "&Connecta"
+    IDS_ERR_SAVESERVERMET2  "S'ha produït un error en alçar el fitxer server.met. Heu de suprimir-lo i canviar el nom de server.met.old a server.met"
+    IDS_NOTCONNECTED        "No connectat"
+    IDS_DISCONNECTED        "Desconnectat"
+    IDS_USERS               "Usuaris: %u"
+    IDS_UPDOWN              "PUJ:%.1f(%.1f) | BAI:%.1f(%.1f)"
+    IDS_CONNECTED           "Connectat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_WRITEERROR      "S'ha produït un error de fitxer inesperat en escriure %s : %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "S'ha produït un error de fitxer en completar %s. S'ha posat el fitxer en pausa. Hauríeu de reiniciar l'eMule per a tornar a intentar completar-lo"
+    IDS_ERR_DELETEFAILED    "S'ha produït un error en suprimir %s, haureu de fer-ho a mà"
+    IDS_DOWNLOADDONE        "S'ha finalitzat la baixada de %s :)"
+    IDS_ERR_DELETE          "S'ha produït un error en suprimir %s"
+    IDS_ERR_HASHERRORWARNING
+                            "Atenció: no és possible codificar el sumari de la part baixada - el conjunt de sumaris és incomplet (%s)"
+    IDS_ERR_INCOMPLETEHASH  "Error: no és possible codificar el sumari de la part baixada - el conjunt de sumaris és incomplet (%s). Això no hauria de succeïr mai."
+    IDS_DOWNLOADING         "S'està baixant"
+    IDS_WAITING             "S'està esperant"
+    IDS_HASHING             "S'està codificant el resum"
+    IDS_COMPLETING          "S'està completant"
+    IDS_COMPLETE            "S'ha completat"
+    IDS_PAUSED              "En pausa"
+    IDS_ERRORLIKE           "Erroni"
+    IDS_ASSIGNED2K          "Els enllaços eD2K no estan assignats a l'eMule. Voleu assignar-los-hi ara (recomanat)?"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "No hi ha cap adreça d'una llista de servidors al fitxer «addresses.dat». Introduïu una adreça vàlida de llista de servidors en este fitxer per a actualitzar automàticament la llista de servidors"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LINKNOTADDED        "No s'ha pogut afegir l'enllaç"
+    IDS_MAIN_EXIT           "Segur que voleu tancar l'eMule?"
+    IDS_MAIN_POPUP_RESTORE  "Restaura"
+    IDS_CONNECTTOANYSERVER  "Connecta a qualsevol servidor"
+    IDS_EXIT                "Ix"
+    IDS_CONNECTING          "S'està connectant"
+    IDS_FAILED              "Error"
+    IDS_ERR_BADSERVERREPLY  "La resposta rebuda del servidor està malmesa o no és vàlida"
+    IDS_NEWCLIENTID         "L'identificador nou del client és %u"
+    IDS_SHAREDFOLDERS       "Carpetes compartides"
+    IDS_VIEW1               "Visualitza"
+    IDS_VIEW2               " (no compartit)"
+    IDS_PRIOLOW             "Baixa"
+    IDS_PRIONORMAL          "Normal"//.
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOHIGH            "Alta"
+    IDS_DOWNLOADMENUTITLE   "Baixades"
+    IDS_PRIORITY            "Prioritat"
+    IDS_NEWSERVERS          "S'han rebut %u servidors nous"
+    IDS_DL_STOP             "&Atura"
+    IDS_DL_PAUSE            "&En pausa"
+    IDS_DL_RESUME           "&Reprén"
+    IDS_DL_OPEN             "&Obri"
+    IDS_DL_INFO             "Informació"
+    IDS_DL_CLEAR            "&Neteja els completats"
+    IDS_DL_LINK1            "Copia l'en&llaç eD2K al porta-retalls"
+    IDS_DL_LINK2            "Copia l'enllaç eD2K al porta-retalls (&HTML)"
+    IDS_SHOWDETAILS         "&Mostra els detalls"
+    IDS_SEND_MSG            "&Envia un missatge"
+    IDS_ASKING              "S'està demanant"
+    IDS_CONNVIASERVER       "S'està connectant a través d'un servidor"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ONQUEUE             "En cua"
+    IDS_TRANSFERRING        "S'està transferint"
+    IDS_RECHASHSET          "S'està rebent el conjunt de resums"
+    IDS_NONEEDEDPARTS       "No es necessita cap part"
+    IDS_NOCONNECTLOW2LOW    "No es pot connectar un identificador baix amb un altre identificador baix"
+    IDS_UNKNOWN             "Desconegut"
+    IDS_ASKED4ANOTHERFILE   "Se li ha demanat un altre fitxer"
+    IDS_Q_CANCELDL          "Segur que voleu cancel·lar i suprimir estos fitxers?\n"
+    IDS_Q_CANCELDL2         "Segur que voleu cancel·lar i suprimir este fitxer?\n"
+    IDS_DL_FILENAME         "Nom"
+    IDS_DL_SIZE             "Mida"
+    IDS_DL_TRANSF           "Transferit"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_SPEED            "Velocitat"
+    IDS_DL_PROGRESS         "Progrés"
+    IDS_DL_SOURCES          "Fonts"
+    IDS_ERR_BADSERVERLISTRECEIVED
+                            "S'ha rebut un paquet de llista de servidors no vàlid"
+    IDS_STATUS              "Estat"
+    IDS_DL_REMAINS          "Restant"
+    IDS_QL_USERNAME         "Nom d'usuari"
+    IDS_QL_RATING           "Valoració"
+    IDS_CONNECTINGTO        "S'està connectant a %s (%s:%u)..."
+    IDS_CLIENTS             "Clients"//.
+    IDS_SEARCH_ANY          "Qualsevol"
+    IDS_SEARCH_AUDIO        "Àudio"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "Imatges"
+    IDS_SEARCH_PRG          "Programes"
+    IDS_SEARCH_VIDEO        "Vídeos"
+    IDS_SEARCH_CDIMG        "Imatges de CD"
+    IDS_SEARCH_ARC          "Fitxers"
+    IDS_ERR_INVALIDLINK     "Enllaç eD2K invàlid(%s)"
+    IDS_ERR_LINKERROR       "Enllaç invàlid: %s"
+    IDS_ERR_NOTCONNECTED    "No esteu connectat a cap servidor"
+    IDS_REMOVETHIS          "Suprimeix el servidor seleccionat"
+    IDS_REMOVEALL           "Suprimeix tots els servidors"
+    IDS_SRV_ADDR            "Introduïu l'adreça d'un servidor"
+    IDS_SRV_PORT            "El port del servidor és incomplet: introduïu el port del servidor"
+    IDS_SRV_NOTADDED        "No s'ha afegit el servidor"
+    IDS_SRV_NOURLAV         "L'URL no està disponible."
+    IDS_INVALIDURL          "L'URL no és vàlid"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET
+                            "S'ha produït un error en baixar la llista de servidors de %s"
+    IDS_PERMISSION          "Autorització"
+    IDS_SHAREDFILES         "Fitxers compartits"
+    IDS_PRIOVERYLOW         "Molt baixa"
+    IDS_PRIORELEASE         "Llançament"
+    IDS_FSTATUS_FRIENDSONLY "Només amics"
+    IDS_ERR_RENAMESF        "S'ha produït un error en canviar el nom\r\n    «%s»\r\na\r\n    «%s»\r\n\r\n%s"
+    IDS_AVAILABLE           "disponible"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FSTAT_TRANSFER      "Transferència"
+    IDS_CONNECTIONS         "Connexió"
+    IDS_FSTAT_SERVERS       "Servidors"
+    IDS_FSTAT_WAITING       "En espera..."
+    IDS_TIME                "Temps"
+    IDS_STATS_DDATA         "Dades baixades: %s"
+    IDS_STATS_UDATA         "Dades pujades: %s"
+    IDS_STATS_AVGDL         "Velocitat mitja de baixada: %s"
+    IDS_STATS_AVGUL         "Velocitat mitja de pujada : %s"
+    IDS_STATS_FOUNDSRC      "Fonts trobades: %u"
+    IDS_STATS_ACTDL         "Baixades actives (parts): %u"
+    IDS_STATS_ACTUL         "Pujades actives: %u"
+    IDS_STATS_WAITINGUSERS  "Pujades en espera: %u"
+    IDS_STATS_RECONNECTS    "Reconnexions: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "Desconegut: %u"
+    IDS_STATS_TOTAL         "Total: %u"//.
+    IDS_DISABLED            "Desactivat"
+    IDS_STOPPED             "Aturat"
+    IDS_STATS_UPDATELABEL   "Interval d'actualització: %u seg"
+    IDS_ASKEDFAF            "\nSe li ha demanat un altre fitxer"
+    IDS_WAITED              "En espera"
+    IDS_ERR_LOADCREDITFILE  "S'ha produït un error en carregar el fitxer de crèdits; es crearà un fitxer nou"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "El fitxer de crèdits està obsolet i serà reemplaçat"
+    IDS_CREDITFILELOADED    "S'ha carregat el fitxer de crèdits; hi ha %u clients coneguts"
+    IDS_CREDITFILECORRUPT   "Error: el fitxer de crèdits està malmés i es reemplaçarà"
+    IDS_ERR_CREDITFILEREAD  "S'ha produït un error en llegir el fitxer de crèdits: %s"
+    IDS_ERR_FAILED_CREDITSAVE "S'ha produït un error en alçar el fitxer de crèdits"
+    IDS_NOPARTSFOUND        "No s'han trobat fitxers pendents de baixar"
+    IDS_FOUNDPARTS          "S'han trobat %u fitxers pendents de baixar"
+    IDS_NEWDOWNLOAD         "S'està baixant %s"
+    IDS_ERR_ALREADY_DOWNLOADING "Ja esteu baixant este fitxer %s"
+    IDS_ERR_ALREADY_DOWNLOADED "Ja heu descarregat este fitxer %s"
+    IDS_ERR_SERVERMET_BAD   "Error: el fitxer known.met està malmés; no es poden carregar els fitxers coneguts"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "S'ha produït un error en llegir el fitxer known.met: %s; no es poden carregar els fitxers coneguts"
+    IDS_ERR_CONNECTIONERROR "S'ha produït un error en connectar a %s (%s:%u): %s"
+    IDS_ERR_SOCKET          "S'ha produït un error al sòcol del servidor: %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "S'han trobat %u fitxers compartits"
+    IDS_SHAREDFOUNDHASHING  "S'han trobat %u fitxers compartits, s'està codificant el resum de %u fitxers nous"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "S'ha demanat un bloc incomplet"
+    IDS_ERR_OPEN            "S'ha produït un error en obrir el fitxer demanat"
+    IDS_ERR_CLIENTERRORED   "El client «%s» va causar un error a l'empaquetar (%s) - s'està desconnectant el client"
+    IDS_ERR_REQ_FNF         "No s'ha trobat el fitxer demanat"
+    IDS_DESC                "Descripció: %s"
+    IDS_PORT                "Port"//.
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "No s'han trobat servidors vàlids als quals connectar-se a la llista de servidors"
+    IDS_CONNECTEDTOREQ      "Connectat a %s (%s:%u); s'està enviant una sol·licitud d'entrada"
+    IDS_ERR_FATAL           "S'ha produït un error fatal en intentar la connexió. Pot ser que la connexió a Internet estiga desactivada"
+    IDS_ERR_LOSTC           "Connexió perduda amb %s (%s:%u)"
+    IDS_ERR_DEAD            "%s (%s:%u) pareix caigut"
+    IDS_ERR_FULL            "%s (%s:%u) pareix estar ple"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_METCORRUPT      "Error: %s (%s) està malmés i no es pot carregar el fitxer"
+    IDS_ERR_FILEERROR       "S'ha produït un error de fitxer inesperat en llegir  %s (%s): %s"
+    IDS_ERR_FILEOPEN        "S'ha produït una fallada en obrir %s (%s)"
+    IDS_SEL_SKINDIR         "Seleccioneu la carpeta dels temes..."
+    IDS_ERR_REHASH          "Atenció: pareix ser que %s està malmés; es tornaran a calcular les sumes de les parts completes"
+    IDS_SKIN_PROF           "Perfils de temes"
+    IDS_ERR_PART_FNF        "No s'ha trobat el fitxer .part"
+    IDS_KADOPEN             "Obert"
+    IDS_ERR_SAVEMET         "S'ha produït un error en alçar el fitxer de parts: %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "S'ha trobat una part malmesa (%u) a %s"
+    IDS_HASHINGDONE         "S'ha finalitzat el recàlcul de sumes de %s; pareix ser que el fitxer és correcte"
+    IDS_ERR_PARTCORRUPT     "La part baixada %u està malmesa:(  (%s)"
+    IDS_ICHWORKED           "ICH: La part %u malmesa s'ha recuperat (%s); alçada: %s"
+    IDS_ERR_OUTOFSPACE      "No disposeu de prou espai al disc per a baixar %s."
+    IDS_SE                  "Intercanvi de fonts"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONNECTEDTO         "S'ha establit la connexió a: %s"
+    IDS_DL_PREVIEW          "Previsualitza"
+    IDS_VIEWQUEUE           "Mostra la cua"
+    IDS_TW_UPLOADS          "Pujades"
+    IDS_TW_DOWNLOADS        "Baixades"
+    IDS_TW_QUEUE            "Clients a la cua:"
+    IDS_SW_SEARCHBOX        "Cerca"
+    IDS_SW_NAME             "Nom"
+    IDS_SW_GLOBAL           "Cerca global"
+    IDS_SW_DIRECTDOWNLOAD   "Baixada directa"
+    IDS_SW_LINK             "Enllaços eD2K"
+    IDS_SW_START            "Comença"
+    IDS_SCHEDULER           "Planificador"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC                 "IRC"
+    IDS_SW_RESULT           "Resultats"
+    IDS_SW_DOWNLOAD         "Baixa"
+    IDS_SV_SERVERLIST       "Llista dels servidors"
+    IDS_SV_SERVERINFO       "Informació dels servidors"
+    IDS_SV_LOG              "Registre"
+    IDS_SV_NEWSERVER        "Servidor nou"
+    IDS_SV_ADDRESS          "IP o Adreça"
+
+    IDS_SV_ADD              "Afig a llista"
+    IDS_SV_MET              "Actualitza el fitxer server.met des d'un URL"
+    IDS_SV_UPDATE           "Actualitza"
+    IDS_SF_FILES            "Fitxers compartits"
+    IDS_SF_STATISTICS       "Estadístiques"
+    IDS_SF_RELOAD           "Torna a carregar"
+    IDS_SF_CURRENT          "Sessió actual"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPEED_LIMITS        "Límits de velocitat"
+    IDS_CAPACITY_LIMITS     "Límits d'amplada de banda"
+    IDS_ADMIN               "Administrador"
+    IDS_ACCESSDENIED        "Accés denegat."
+    IDS_WEB_LOWUSER         "Convidat"
+    IDS_WEB_ERR_CANTLOAD    "No es poden carregar les plantilles: no s'ha pogut obrir el fitxer %s"
+    IDS_GLOBALSEARCH        "Global (servidor)"
+    IDS_METHOD              "Mètode"
+    IDS_UNDO                "Desfés"
+    IDS_DAYLY               "a diari"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_MO_FR           "dll-div"
+    IDS_DAY_SA_SO           "dis-diu"
+    IDS_MO                  "dilluns"
+    IDS_DI                  "dimarts"
+    IDS_MI                  "dimecres"
+    IDS_DO                  "dijous"
+    IDS_FR                  "divendres"
+    IDS_SA                  "dissabte"
+    IDS_SO                  "diumenge"
+    IDS_WEB_ADMINLOGIN      "Interfície web: entrada d'administrador"
+    IDS_WEB_GUESTLOGIN      "Interfície web: entrada de convidat"
+    IDS_WEB_SESSIONEND      "Interfície web: eixida"
+    IDS_DETAILS             "Detalls"
+    IDS_ACTION              "Acció"
+    IDS_REMOVE              "Suprimeix"
+    IDS_NEW                 "Nou"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TOTAL            "Total"//.
+    IDS_SF_TRANS            "Transferit:"
+    IDS_SF_ACCEPTED         "Pujades acceptades:"
+    IDS_SF_REQUESTED        "Demanat:"
+    IDS_ST_DOWNLOAD         "Velocitat de baixada"
+    IDS_ST_UPLOAD           "Velocitat de Pujada"
+    IDS_ST_CURRENT          "Actual"
+    IDS_ST_SESSION          "Mitjana de la sessió"
+    IDS_ST_ACTIVED          "Baixades actives"
+    IDS_ST_ACTIVEU          "Pujades actives"
+    IDS_CW_MESSAGES         "Missatges"
+    IDS_CW_FRIENDS          "Amics"
+    IDS_CW_SEND             "Envia"
+    IDS_CW_CLOSE            "Tanca"
+    IDS_PW_GENERAL          "General"//.
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_DIR              "Carpetes"
+    IDS_PW_NICK             "Pseudònim"
+    IDS_PW_INCOMING         "Fitxers entrants"
+    IDS_PW_TEMP             "Fitxers temporals"
+    IDS_PW_BROWSE           "Navega..."
+    IDS_PW_SHARED           "Carpetes compartides"
+    IDS_CONNECTION          "Connexió"
+    IDS_PW_DOWNL            "Límit de baixada"
+    IDS_PW_UPL              "Límit de pujada"
+    IDS_PW_MAXC             "Màx. de connexions"
+    IDS_PW_CLIENTPORT       "Port del client"
+    IDS_PW_AUTOCON          "Connecta automàticament a l'inici"
+    IDS_PW_RECON            "Reconnecta en cas de desconnexió"
+    IDS_PW_SERVER           "Servidor"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_RDEAD            "suprimeix els servidors caiguts després de"
+    IDS_PW_RETRIES          "reintents"
+    IDS_PW_SCORE            "Empra el sistema de prioritats"
+    IDS_PW_USC              "Actualitza la llista en connectar a un servidor"
+    IDS_PW_UCC              "Actualitza la llista en connectar a un client"
+    IDS_PW_FILTER           "Filtra IPs de la xarxa d'àrea local"
+    IDS_PW_USS              "Actualitza automàticament la llista de servidors en iniciar"
+    IDS_PW_MISC             "Miscel·lània"
+    IDS_PW_TRAY             "Minimit&za a la safata"
+    IDS_PW_PROMPT           "Demana la confirmació en eixir"
+    IDS_PW_SPLASH           "Mostra la pantalla d'inici"
+    IDS_PW_DBLCLICK         "Feu doble clic sobre una baixada per a veure les fonts"
+    IDS_PW_TOOL             "Seg. per a informació emergent"
+    IDS_PW_FRONT            "Porta al capdavant en prémer un enllaç"
+    IDS_PW_LANG             "Llengua"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_FILES            "Fitxers"
+    IDS_PW_SHARE            "Mostra els fitxers i directoris compartits"
+    IDS_PW_EVER             "Tothom"
+    IDS_PW_FRIENDS          "Amics"
+    IDS_PW_NOONE            "Ningú"
+    IDS_PW_RESET            "Neteja"
+    IDS_PW_APPLY            "Aplica"
+    IDS_EM_TRANS            "&Tràfic"
+    IDS_EM_SERVER           "&Servidors"
+    IDS_EM_SEARCH           "Cerca"
+    IDS_EM_FILES            "Compartits"
+    IDS_EM_MESSAGES         "&Missatges"
+    IDS_EM_STATISTIC        "Estadístiques"
+    IDS_EM_PREFS            "Preferències"
+    IDS_MB_LANGUAGEINFO     "S'ha triat una llengua per defecte. Podeu canviar-la en qualsevol moment a la pestanya de preferències."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_GENERAL          "General"//.
+    IDS_FD_MET              "Fitxer part.met:"
+    IDS_FD_HASH             "Hash:"//.
+    IDS_FD_SIZE             "Mida:"
+    IDS_FD_TRANSFER         "Transferència"
+    IDS_FD_PARTS            "Parts:"
+    IDS_FD_TRANS            "Transferit:"
+    IDS_FD_DATARATE         "Flux de dades:"
+    IDS_FD_COMPSIZE         "Mida completa:"
+    IDS_FD_CLOSE            "Tanca"
+    IDS_FD_TITLE            "Detalls del fitxer"
+    IDS_CD_GENERAL          "General"//.
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "Usuari:"
+    IDS_CD_UHASH            "Hash d'usuari:"
+    IDS_CD_CSOFT            "Programari del client"
+    IDS_CD_UIP              "Adreça IP:"
+    IDS_CD_SIP              "IP del servidor:"
+    IDS_CD_VERSION          "Versió:"
+    IDS_CD_SNAME            "Servidor:"
+    IDS_CD_CDOWN            "Actualment s'està baixant:"
+    IDS_CD_DOWN             "Baixat (esta sessió):"
+    IDS_CD_ADOWN            "Taxa mitja de baixada:"
+    IDS_CD_TDOWN            "Total descarregat:"
+    IDS_CD_UP               "Pujat (esta sessió):"
+    IDS_CD_AUP              "Taxa mitja de pujada:"
+    IDS_CD_TUP              "Total pujat:"
+    IDS_CD_TRANS            "Transferència"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_SCORES           "Puntuacions"
+    IDS_CD_MOD              "Modificador BAI/PUJ:"
+    IDS_CD_RATING           "Valoració (total):"
+    IDS_CD_USCORE           "Punt. cua de pujada:"
+    IDS_CD_TITLE            "Detalls del client"
+    IDS_EMULEW              "Premeu"
+    IDS_EMULEW2             "per a comprovar si hi ha una versió nova"
+    IDS_EMULEW3             "ací"
+    IDS_PW_MAXSOURCES       "Màx. de fonts per fitxer"
+    IDS_SHAREDFILESCOUNT    "Quantitat de fitxers compartits: %u"
+    IDS_SF_SIZE             "Total de fitxers compartits : %s"
+    IDS_ERR_BADPORT         "Nombre de port erroni"
+    IDS_ERR_NOHELLO         "Demana qualsevol cosa sense dir «hola»"
+    IDS_ERR_INVALIDPACKET   "El paquet rebut no és vàlid o està malmés"
+    IDS_ERR_CLIENTERROR     "El client «%s» (IP:%s) ha provocat un error: %s. Es desconnectarà el client"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSIZE         "mida invàlida (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "No és un enllaç de fitxer"
+    IDS_ERR_CREATEPARTFILE  "ERROR: s'ha produït una fallada en crear el fitxer de parts"
+    IDS_CHAT_START          "*** Inici de sessió de xat : "
+    IDS_FILEPRIO            "Prioritat del fitxer"
+    IDS_SCORE               "Puntuació"
+    IDS_ASKED               "Demanat"
+    IDS_LASTSEEN            "Últ. comprov."
+    IDS_BANNED              "bloquejat(s)"
+    IDS_UUSERS              "Usuaris"
+    IDS_UFAILED             "Error"
+    IDS_OPENFILE            "Obri el fitxer"
+    IDS_DATE                "Data"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PARTINFOS           "Fitxer de parts:"
+    IDS_PARTINFOS2          "S'està descarregant (de %u fonts)"
+    IDS_USERID              "ID d'usuari"
+    IDS_CLIENT              "Client"//.
+    IDS_SERVER              "Servidor"
+    IDS_SOURCEINFO          "Nombre de peticions: %u vegades; nombre de parts disponibles : %u"
+    IDS_CLIENTSOURCENAME    "\nNom del fitxer del client: "
+    IDS_USERINFO            "Àlies: %s\n"
+    IDS_FILESTATS_SESSION   "Estadístiques del fitxer per a esta sessió: acceptades %u de %u peticions, %s transferits\n"
+    IDS_FILESTATS_TOTAL     "Estadístiques per a totes les sessions: acceptades %u de %u peticions, %s transferits"
+    IDS_REQ_UNKNOWNFILE     "S'ha sol·licitat un fitxer desconegut "
+    IDS_SF_AVERAGESIZE      "Mida mitjana dels fitxer: %s"
+    IDS_SF_REQUESTS         "Peticions"
+    IDS_SF_ACCEPTS          "Peticions acceptades"
+    IDS_SF_TRANSFERRED      "Dades transferides"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REMOVESEARCHSTRING  "Suprimeix els resultats seleccionats"
+    IDS_REMOVESELECTED      "Suprimeix la selecció"
+    IDS_REMOVEALLSEARCH     "Suprimeix-los tots"
+    IDS_ENTERQUEUE          "Entrats a cua"
+    IDS_SF_FAIL             "Servidors que han fallat"
+    IDS_SF_WUSER            "Usuaris a servidors en funcionament"
+    IDS_SF_WFILE            "Fitxers a servidors en funcionament"
+    IDS_SF_USER             "Total d'usuaris"
+    IDS_SF_FILE             "Total de fitxers"
+    IDS_UPLOADTIME          "Temps de pujada"
+    IDS_LASTSEENCOMPL       "Darrera vegada vist complet:"
+    IDS_YES                 "Sí"
+    IDS_NO                  "No"//.
+    IDS_UNBAN               "Permet l'accés"
+    IDS_SF_WORKING          "Servidors en funcionament"
+    IDS_ADDTOSTATIC         "afig a llista de servidors estàtica"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDED2SSF           "afegit a llista de servidors estàtica"
+    IDS_STATICSERVER        "Estàtic"
+    IDS_ERROR_SSF           "S'ha produït una fallada en obrir staticservers.dat"
+    IDS_SF_ACTIVECON        "Connexions actives (estimació)"
+    IDS_SF_MAXCONLIMITREACHED "S'ha arribat al nombre màx. de connexions"
+    IDS_SF_AVGCON           "Mitjana de connexions (estimació)"
+    IDS_SF_PEAKCON          "Pics de connexions (estimació)"
+    IDS_ST_ACTIVEC          "connexions actives"
+    IDS_NETWORK             "Xarxa"
+    IDS_SF_DELCOUNT         "Servidors Suprimits"
+    IDS_QUEUEFULL           "Cua plena"
+    IDS_AVG                 "Mitjana"
+    IDS_BYTES               "Bytes"//.
+    IDS_KBYTES              "KB"//.
+    IDS_MBYTES              "MB"//.
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GBYTES              "GB"//.
+    IDS_TBYTES              "TB"//.
+    IDS_SECS                "segs"
+    IDS_MINS                "mins"//.
+    IDS_HOURS               "h"//.
+    IDS_DAYS                "D"
+    IDS_ED2KLINKFIX         "Enllaços eD2K"
+    IDS_RECONNECT           "La connexió automàtica al servidor es tornarà a intentar en %u segons"
+    IDS_SERVERADDED         "S'ha afegit el servidor: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "Ignora els missatges sobre entrades"
+    IDS_STATS_SUCCUPCOUNT   "Total de sessions de pujada amb èxit: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "Ignora els missatges sobre eixides"
+    IDS_STATS_FAILUPCOUNT   "Total de sessions de pujada fallades: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "Mitjana de temps de pujada: %s"
+    IDS_SEARCHMINSIZE       "Mida mín."
+    IDS_SEARCHMAXSIZE       "Mida màx."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PREF_ONLINESIG      "Activa la signatura en línia"
+    IDS_ERROR_SAVEFILE      "S'ha produït una fallada en alçar"
+    IDS_REQ_SHAREDFILES     "L'usuari %s (%u) ha demanat la vostra llista de fitxers -> %s"
+    IDS_ACCEPTED            "accepta"
+    IDS_DENIED              "denega"
+    IDS_PW_CON_DOWNLBL      "Baixada"
+    IDS_PW_CON_UPLBL        "Pujada"
+    IDS_PW_AUTOCONNECTSTATICONLY
+                            "Autoconnecta només a servidors estàtics"
+    IDS_PW_CON_LIMITFRM     "Límits"
+    IDS_STATS_AVGLABEL      "Temps mitjà per gràfic: %u mins"
+    IDS_GRAPHS              "Gràfics"
+    IDS_STREE               "Arbre d'estadístiques"
+    IDS_IRC_IGNOREQUITMESSAGE "Ignora els missatges d'informarció en eixir"
+    IDS_STATSSETUPINFO      "Estadístiques"
+    IDS_IRC_SOUNDEVENTS     "So en esdeveniments"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "Intenta baixar abans la primera i última part"
+    IDS_RECOVER_SINGLE      "1 fitxer recuperat."
+    IDS_RECOVER_MULTIPLE    "%u fitxers recuperats."
+    IDS_ATTEMPTING_RECOVERY "S'està intentant recuperar fitxer "
+    IDS_RECOVERY_SUCCESSFUL "S'ha recuperat correctament el fitxer."
+    IDS_RECOVERY_FAILED     "S'ha produït un error en recuperar el fitxer."
+    IDS_STARTNEXTFILE       "Baixa el seg. fitxer en pausa en completar-ne un altre"
+    IDS_FULLCHUNKTRANS      "Intenta transferir parts completes en totes les pujades"
+    IDS_MANUALSERVERHIGHPRIO "Dóna prioritat alta als servidors afegits manualment"
+    IDS_VERBOSE             "Informació detallada (resposta del programa)"
+    IDS_FLAT                "pla"
+    IDS_ROUND               "3D"
+    IDS_SAMEUSERHASH        "Els clients «%s» i «%s» tenen el mateix resum o IP - s'ha suprimit «%s»"
+    IDS_SEARCHEXTENTION     "Extensió"
+    IDS_SEARCHAVAIL         "Disponibilitat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDLIMIT           "Límit màxim"
+    IDS_COL_MORECOLORS      "més..."
+    IDS_TOOMANYCONNS        "Massa connexions"
+    IDS_DOWNLOADRENAMED     "Ja existeix un fitxer amb este nom, el fitxer s'alçarà com a %s"
+    IDS_TBN_DOWNLOADDONE    "S'està baixant:"
+    IDS_PW_TBN_USESOUND     "Empra el so"
+    IDS_PW_TBN_ONLOG        "Entrada nova al registre"
+    IDS_PW_TBN_ONCHAT       "En iniciar una nova sessió de xat"
+    IDS_PW_TBN_POP_ALWAYS   "En rebre missatge de xat nou"
+    IDS_PW_TBN_ONDOWNLOAD   "Baixada finalitzada"
+    IDS_PW_EKDEV_OPTIONS    "Notificacions"
+    IDS_PW_TASKBARNOTIFIER  "Missatge d'alerta"
+    IDS_PW_TBN_OPTIONS      "Notifica"
+    IDS_TBN_NEWCHATMSG      "Missatge de"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_CON_CAPFRM       "Capacitat"
+    IDS_IRC_PRIVATECHANSTART "* S'ha iniciat una sessió privada de xat"
+    IDS_IRC_SLAPMSG         "* %s bufeteja a %s amb un gran tros de tonyina."
+    IDS_IRC_PRIVMESSAGE     "Missatge privat"
+    IDS_IRC_KICK            "Expulsa"
+    IDS_IRC_SLAP            "Bufeteja"
+    IDS_IRC_JOIN            "Entra al canal"
+    IDS_IRC_CHANNELLIST     "Llista de canals"
+    IDS_IRC_CONNECT         "Connecta"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_DISCONNECT      "Desconnecta"
+    IDS_IRC_HASJOINED       "* %s ha entrat a %s"
+    IDS_IRC_HASPARTED       "* %s ha eixit de %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s ha estat expulsat per %s (%s)"
+    IDS_IRC_HASQUIT         "* %s s'ha desconnectat (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s és ara %s"
+    IDS_IRC_SETSMODE        "* %s estableix el mode: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** Alguns dels modes seleccionats no compten encara amb assistència. Pot ser que vos calga eixir i entrar de nou al canal per a actualitzar la llista de sobrenoms..."
+    IDS_IRC_CHANNEL         "Canal"
+    IDS_IRC_NICK            "Sobrenom"
+    IDS_IRC_SEND            "Envia"
+    IDS_IRC_NAME            "Nom"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION bufeteja a %s amb un gran tros de tonyina.\001"
+    IDS_IRC_ADDTIMESTAMP    "Afig l'hora/data als missatges."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_USEFILTER       "Empra un filtre de canals"
+    IDS_IRC_PERFORM         "Executa"
+    IDS_IRC_USEPERFORM      "En connectar."
+    IDS_IRC_ADDTOFRIENDLIST "Afig a la llista d'amics"
+    IDS_IRC_LOADCHANNELLISTONCON "Carrega la llista de canals en connectar."
+    IDS_IRC_ADDASFRIEND     "T'han afegit com a amic."
+    IDS_PW_WARNING          "El nombre seleccionat per a «%s» és major del que admet el SOTA: %u\nAixò pot causar inestabilitat en el sistema.\n\nSegur que ho voleu fer?"
+    IDS_TAKEOVER            "Pren"
+    IDS_CLEANUP             "Neteja"
+    IDS_RENAME              "Canvia el nom"
+    IDS_IRC_ADDLINKTOIRC    "Afig-ho al porta-retalls de l'IRC per a enviar-ho als amics."
+    IDS_IRC_SENDLINK        "Envia a l'amic: "
+    IDS_IRC_RECIEVEDLINK    "%s enviat (%s) perquè comence automàticament."
+    IDS_IRC_ACCEPTLINKS     "enllaços eD2K a l'IRC (utilitzeu-ho amb precaució.)"
+    IDS_SHARED              "Compartit"
+    IDS_DOWNLOADED          "Baixat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCENAMES         "Nom de les fonts"
+    IDS_PREF_STARTMIN       "Inicia minimitzat"
+    IDS_PS_TBN_IMPORTANT    "Urgent: no queda espai al disc dur, s'ha perdut la connexió amb el servidor"
+    IDS_COLORS              "Colors"//.
+    IDS_SP_BACKGROUND       "Fons"
+    IDS_SP_GRID             "Graella"
+    IDS_SP_DL1              "Baixada actual"
+    IDS_SP_DL2              "Temps de baixada-mitjana"
+    IDS_SP_DL3              "Baixades de la sessió-mitjana"
+    IDS_SP_UL1              "Pujada actual"
+    IDS_SP_UL2              "Temps de pujada-mitjana"
+    IDS_SP_UL3              "Pujades de la sessió-mitjana"
+    IDS_SP_ACTCON           "Conexions actives"
+    IDS_SP_ACTDL            "Baixades actives"
+    IDS_SP_ACTUL            "Pujades actives"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "Il·limitat"
+    IDS_PW_MINREC           "Mínim recomanat\t%u "
+    IDS_PW_UA               "Velocitat màx. de pujada/baixada"
+    IDS_PW_PA               "Velocitat mín. pujada/baixada"
+    IDS_IRC_IGNOREINFOMESSAGE "Ignora els missatges d'informació."
+    IDS_CONNECTIONLOST      "Connexió perduda"
+    IDS_WIZ_OS_FRAME        "Sistema operatiu"
+    IDS_HASHINGFILE         "S'està codificant el resum del fitxer:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "Capacitat de pujada"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "Capacitat de baixada"
+    IDS_FRIENDLIST          "Amics"
+    IDS_CHATDISCONNECTED    "*** Desconnectat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZARD              "Auxiliar"
+    IDS_ADDFRIEND           "Afig a la llista d'amics"
+    IDS_REMOVEFRIEND        "Suprimeix amic"
+    IDS_REMOVEFROMSTATIC    "Suprimeix de la llista de servidors fixos"
+    IDS_LENGTH              "Durada"
+    IDS_VIDEO               "Vídeo"
+    IDS_AUDIO               "Àudio"
+    IDS_FILEINFO            "&Informació multimèdia"
+    IDS_CODEC               "Còdec"//.
+    IDS_BITRATE             "Taxa de bits"//.
+    IDS_WIDTH               "Amplada (pix.)"
+    IDS_FPS                 "Quadres per segon"
+    IDS_CHANNELS            "Canals"
+    IDS_SAMPLERATE          "Mostreig"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HEIGHT              "Alt"
+    IDS_SHAREDFILES_FAILED  "No es poden mostrar els fitxers compartits de «%s»"
+    IDS_SHAREDFILES_REQUEST "S'estan sol·licitant els fitxers compartits de «%s»"
+    IDS_VIEWFILES           "Mostra els fitxers"
+    IDS_FRIENDSLOT          "Estableix un lloc reservat per a l'amic"
+    IDS_FRIENDDETAIL        "(Lloc reservat per a l'amic)"
+    IDS_UDPDISABLED         "Inhabilita"
+    IDS_WIZ_CTFRAME         "Tipus de connexió"
+    IDS_CONCURDWL           "Baixades simultànees"
+    IDS_WIZARD_CUSTOM       "Personalitzat"
+    IDS_WIZARD_ENTERBELOW   "(introduïu-ho a continuació)"
+    IDS_STATS_MAXAVGDL      "Mitjana de baixada màx.: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MAXDL         "Velocitat màxima de baixada (sessió): %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "Ignora els missatges del protocol per a afegir amics de l'eMule"
+    IDS_PW_FASTSRVCON       "Connexió segura."
+    IDS_SOURCELINKFAILED    "Necessiteu un identificador alt per a crear un enllaç de font vàlid"
+    IDS_ERR_LOADSERVERMET   "S'ha produït una fallada en carregar el fitxer server.met."
+    IDS_ERR_CORRUPTCOMPRPKG "S'ha rebut un paquet comprimit malmés per a %s (error %u)"
+    IDS_ERR_EMFRIENDSINVALID
+                            "El fitxer emfriends.met no és vàlid o està malmés."
+    IDS_ERR_READEMFRIENDS   "S'ha produït un error desconegut en llegir el fitxer emfriends.met: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "S'ha rebut informació desconeguda del servidor."
+    IDS_WIZ_DOWN            "Baixada (kbit/s)"
+    IDS_WIZ_UP              "Pujada (kbit/s)"
+    IDS_SELECT_INCOMINGDIR  "Canvia la carpeta per als fitxers entrants"
+    IDS_SELECT_TEMPDIR      "Canvia la carpeta per als fitxers temporals"
+    IDS_PRIOAUTO            "Auto"//.
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOAUTONORMAL      "Auto [normal]"
+    IDS_PRIOAUTOHIGH        "Auto [alta]"
+    IDS_PRIOAUTORELEASE     "Auto [llanç.]"
+    IDS_PRIOAUTOLOW         "Auto [baixa]"
+    IDS_ERR_CONTIMEOUT      "S'ha excedit el temps d'espera per a l'intent de connexió a «%s» (%s:%u )"
+    IDS_OUTOFSERVERS        "S'ha produït un error en connectar a tots els servidors de la llista. Es realitzarà una altra passada."
+    IDS_PW_CONLIMITS        "Límits de connexió"
+    IDS_MAXCON5SECLABEL     "Màxim de connexions noves / 5 seg."
+    IDS_PW_UAP              "Afig els fitxers compartits nous amb prioritat automàtica"
+    IDS_MAXCLIENT           "Nombre màxim d'usuaris"
+    IDS_PW_TWEAK            "Opcions addicionals"
+    IDS_TWEAKS_WARNING      "Atenció: no canvieu estos valors si no sabeu el que esteu fent. En cas contrari, pot ser que el programa no funcioni correctament. L'eMule ja funcionarà prou bé sense canviar-hi res."
+    IDS_ADDAFRIEND          "Afig un amic"
+    IDS_PAF_REQINFO         "Informació requerida"
+    IDS_PAF_MOREINFO        "Informació addicional"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "Heu d'introduir una IP i uns ports vàlids. "
+    IDS_ADD                 "Afig"
+    IDS_RECOVERED_PARTMET   "S'ha recuperat el fitxer part.met de: %s"
+    IDS_CMT_QUEST           "Comenta este fitxer (el text es mostrarà a tots els usuaris)"
+    IDS_CMT_AIDE            "A les pel·lícules podeu afegir-hi la seua durada, el seu argument, la llengua... i si són una falsificació podeu informar als altres usuaris de l'eMule..."
+    IDS_CMT_ADD             "Canvia el comentari d'este fitxer..."
+    IDS_CMT_NONE            "Sense comentaris"
+    IDS_CMT_READ            "Comentari del fitxer:"
+    IDS_CMT_SHOWALL         "Mostra els comentaris"
+    IDS_CMT_READALL         "Tots els comentaris"
+    IDS_CMT_RATEQUEST       "Valoració del fitxer"
+    IDS_CMT_RATEHELP        "Canvia la qualificació del fitxer o adverteix a altres usuaris que no és vàlid."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_FAKE            "Invàlid / malmés / fals"
+    IDS_CMT_POOR            "Pobre"
+    IDS_CMT_GOOD            "Bo"
+    IDS_CMT_FAIR            "Acceptable"
+    IDS_CMT_EXCELLENT       "Excel·lent"
+    IDS_CMT_NOTRATED        "No avaluada"
+    IDS_KILO                "K"
+    IDS_MEGA                "M"//.
+    IDS_GIGA                "G"//.
+    IDS_TERA                "T"//.
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE
+                            "Ignora els missatges de l'eMule"
+    IDS_SMARTLOWIDCHECK     "Control intel·ligent d'identificador baix en connectar."
+    IDS_SF_SRVOCC           "Ocupació dels servidors: %.2f%%"
+    IDS_3DDEP               "Estil de la barra de progrés"
+    IDS_AUTOTAKEED2KLINKS   "Obté els eD2K automàticament només en temps d'execució"
+    IDS_ADDNEWFILESPAUSED   "Afig les baixades de forma pausada"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOHELP          "Visiteu la secció de baixada de la nostra pàgina web per a obtindre una còpia del fitxer d'ajuda més recent.\n\nVoleu mostrar l'ajuda en línia ara?"
+    IDS_SHOWOVERHEAD        "Mostra l'ample de banda excedent"
+    IDS_UPDOWNSMALL         "Pujada: %.1f | Baixada: %.1f"
+    IDS_EDITLIST            "Edita..."
+    IDS_SP_ICONBAR          "Icona de la safata del sistema amb barra de velocitat "
+    IDS_RATINGRECV          "Valoració del fitxer «%s» rebuda: %u"
+    IDS_DESCRIPTIONRECV     "Descripció del fitxer «%s» rebuda: %s"
+    IDS_WEBSERVICES         "Servicis &web"
+    IDS_WEBSVEDIT           "Edita els servicis web"
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "Ignora els missatges en enviar un enllaç de l'eMule"
+    IDS_CHECK4UPDATE        "Comprova si hi ha una nova versió"
+    IDS_STARTUP             "A l'inici"
+    IDS_NEWVERSIONAVL       "Hi ha una nova versió de l'eMule disponible. Aneu a la pàgina web del projecte per a obtindre més informació."
+    IDS_NEWVERSIONAVLPOPUP  "Hi ha una nova versió de l'eMule disponible. Feu clic ací per a veure les novetats d'esta versió."
+    IDS_NEWVERSIONFAILED    "No es pot comprovar si hi ha una versió nova."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "En detectar nova versió de l'eMule"
+    IDS_NONEWERVERSION      "No s'ha detectat cap versió nova de l'eMule."
+    IDS_VERSIONCHECK        "Comprova si hi ha &versions noves"
+    IDS_VISITVERSIONCHECK   "\n\nVoleu anar a la pàgina d'informació?"
+    IDS_PW_VIDEOPLAYER      "Reproductor de vídeo"
+    IDS_VIDEOBACKUP         "Crea una còpia de seguretat abans de previsualitzar"
+    IDS_MYINFO              "Informació pròpia"
+    IDS_ID                  "ID"//.
+    IDS_IDLOW               "ID baix"
+    IDS_IDHIGH              "ID alt"
+    IDS_UPSTATUS            "Parts"
+    IDS_TOVERHEAD           "Total per tràfic excedent (paquets): %s (%s)"
+    IDS_FROVERHEAD          "Excedent per peticions de fitxer (paquets): %s  \n(%s)"
+    IDS_SSOVERHEAD          "Excedent d'intercanvi de fonts (paquets): %s  \n(%s)"
+    IDS_SOVERHEAD           "Tràfic excedent de servidors (paquets): %s (%s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD "S'ha produït un error en completar el fitxer"
+    IDS_FILEBUFFERSIZE      "Mida de la memòria intermèdia per fitxer"
+    IDS_QUEUESIZE           "Mida de la cua d'espera"
+    IDS_DAYS2               "dies"
+    IDS_ERR_MAKEBAKCREDITFILE
+                            "S'ha produït un error en crear una còpia del fitxer de crèdits"
+    IDS_COMMENT             "Comentaris"
+    IDS_IPFILTERED          "IP filtrada: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "Completat"
+    IDS_DL_ACTIVE_TIME      "Temps de baixada"
+    IDS_STATS_FILTEREDCLIENTS "Filtrats: %u"
+    IDS_FILTERLABEL         "Filtra els missatges que continguen: (separador | )"
+    IDS_ERR_LARGEREQBLOCK   "Un client ha sol·licitat un bloc massa gran."
+    IDS_SHOWRATEONTITLE     "Mostra els índexs de transferència en el títol"
+    IDS_TBN_NOMESSAGEHISTORY "No hi ha cap missatge a l'historial."
+    IDS_PW_DAP              "Afig les baixades amb prioritat automàtica"
+    IDS_FD_LASTCHANGE       "Darrera recepció:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_RUNTIME       "Temps d'execució"
+    IDS_ALL                 "Tot"
+    IDS_CAT_ADD             "Afig una categoria..."
+    IDS_CAT_EDIT            "Edita una categoria..."
+    IDS_CAT_REMOVE          "Elimina la categoria"
+    IDS_CAT                 "Categoria"
+    IDS_TITLE               "Títol"
+    IDS_COLOR               "Color"//.
+    IDS_DEFAULT             "Predeterminat"
+    IDS_PW_DISPLAY          "Mostra"
+    IDS_INDICATERATINGS     "Mostra una icona per a les baixades amb comentaris"
+    IDS_ALLOTHERS           "Sense catalogar"
+    IDS_TOCAT               "Assigna a la categoria"
+    IDS_CAT_UNASSIGN        "(sense assignar)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "Voleu afegir estos enllaços ED2k per a baixar?\n"
+    IDS_PF_WATCHCB          "Cerca enllaços eD2K al porta-retalls"
+    IDS_SECURITY            "Seguretat"
+    IDS_IPFILTERLOADED      "%u adreces IP filtrades"
+    IDS_IPFILTER            "Filtre d'IP"
+    IDS_EDIT                "Edita..."
+    IDS_FILTERLEVEL         "Nivell de filtrat"
+    IDS_FILTERSERVERBYIPFILTER
+                            "Filtra els servidors"
+    IDS_FILTERCOMMENTSLABEL "Ignora els comentaris que continguen: (separador | )"
+    IDS_CLIENTLIST          "Clients coneguts"
+    IDS_FOLDER              "Carpeta"
+    IDS_CL_UPLOADSTATUS     "Estat de pujada"
+    IDS_CL_TRANSFUP         "Pujat"
+    IDS_CL_DOWNLSTATUS      "Estat de baixada"
+    IDS_CL_TRANSFDOWN       "Baixat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CL_PENDING          "Pendent"
+    IDS_CL_LOW2LOW          "D'ID baix a ID baix"
+    IDS_ERROR               "Error"//.
+    IDS_OPENINC             "&Obri la carpeta d'entrada"
+    IDS_HOTMENU             "Menú ràpid"
+    IDS_DISABLEKNOWNLIST    "Inhabilita la llista de clients coneguts"
+    IDS_DISABLEQUEUELIST    "Inhabilita la llista de la cua"
+    IDS_USECREDITSYSTEM     "Empra sistema de crèdits (recompensa els carregadors)"
+    IDS_FIRSTAUTODOWN       "Habiliteu esta opció si voleu que l'eMule gestione les vostres prioritats de baixada.\n\nEn habilitar-la, l'eMule s'assegurarà que les baixades amb moltes fonts no interferisquen amb les que en tenen menys. Això només afectarà a futures baixades."
+    IDS_FIRSTAUTOUP         "Habiliteu esta opció si voleu que l'eMule gestione les vostres prioritats de pujada.\n\nEn habilitar-la, l'eMule donarà prioritat a fitxers rars, fent que els fitxers populars siguen més difícils d'obtindre per a altres usuaris. Si la inhabiliteu, els fitxers populars seran més pujats i per tant els fitxers rars seran més difícils d'obtindre. Esta opció només afectarà a futurs fitxers compartits."
+    IDS_FIRSTSAFECON        "Habiliteu esta opció si voleu que l'eMule connecte emprant connexions segures.\n\nSi la inhabiliteu, l'eMule es connectarà amb els servidors una mica més prompte, però pot provocar un increment en el nombre de connexions amb identificador baix falses que obtingueu."
+    IDS_FIRSTAUTOCON        "Habiliteu esta opció si voleu que l'eMule es connecte en iniciar-se."
+    IDS_FIRSTCOMPLETE       "Heu completat l'auxiliar de primera execució.\n\nAquests i d'altres ajustaments es poden tornar a canviar fent clic a l'icona de preferències. Per a obtindre-ne una explicació i assistència, consulteu l'ajuda prement la tecla F1 dins de l'eMule."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENTERUSERNAME       "Introduïu el nom d'usuari:"
+    IDS_STATIC_CPUMEM       "Estalvia CPU i ús de memòria"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "La paraula clau és massa curta.\r\n\r\nCal que les paraules clau emprades en una expressió de cerca Kad tinguen una llargada mínima de 3 caràcters."
+    IDS_LOG2DISK            "Alça el registre al disc"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "Ja hi ha una cerca Kad en execució amb la paraula clau «%s».\r\n\r\nPer a cercar novament esta paraula, espereu fins que la cerca actual haja finalitzat, o bé tanqueu-ne la pestanya corresponent."
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "La paraula clau no és vàlida.\r\n\r\nUna expressió de cerca Kad té el següent format:\r\n\r\n\t<paraula-clau> [ <expressió-de-cerca-ed2k> ]\r\n\r\nCal que la <paraula-clau> no continga cap dels següents caràcters:\r\n\r\n\t%s"
+    IDS_EDITCAT             "Edita les propietats/categoria"
+    IDS_PW_WS               "Servidor web"
+    IDS_ENABLED             "activat"
+    IDS_WEB_LOGIN           "Identificació"
+    IDS_WEB_ENTER_PASSWORD  "Introduïu la vostra contrasenya ací"
+    IDS_WEB_LOGIN_NOW       "Identifica ara"
+    IDS_WEB_CONFIRM_REMOVE_SERVER
+                            "Esteu segur de voler suprimir este servidor de la llista?"
+    IDS_WEB_CONTROL         "Tauler de control web"
+    IDS_WEB_LOGOUT          "Ix"
+    IDS_WEB_ACTIONS         "Accions"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "Mostra la cua"
+    IDS_WEB_GZIP_COMPRESSION "Compressió Gzip"
+    IDS_WEB_GZIP_COMMENT    "Estalvia tràfic, sobre tot als gràfics."
+    IDS_WEB_REFRESH_TIME    "Temps de recàrrega de les pàgines"
+    IDS_WEB_REFRESH_COMMENT "Temps en segons (zero=desactivat):"
+    IDS_SV_URL              "URL"//.
+    IDS_WS_RELOAD_TMPL      "Plantilla"
+    IDS_SV_DEBUGLOG         "Registre d'errors"
+    IDS_WS_PASS             "Contrasenya"
+    IDS_WS_ERR_LOADTEMPLATE "No es poden carregar les plantilles: reemplaceu el fitxer %s amb una versió nova"
+    IDS_WEB_CONLIMITS       "Límits de connexió"
+    IDS_INFLST_USER_TOTALDOWNLOAD "Total baixat"
+    IDS_INFLST_USER_TOTALUPLOAD "Total pujat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "Servidor web: Intent erroni d'inici de sessió"
+    IDS_ERR_TOOLARGEFILE    "La mida del fitxer és major que el que el protocol eDonkey admet (>=256GB)"
+    IDS_MSGONLYFRIENDS      "Accepta només d'amics"
+    IDS_DAY_MO_SA           "Dl-Ds."
+    IDS_LIMITSOURCES        "Límit de fonts"
+    IDS_LIMITCONS5SEC       "Límit connexions/5seg"
+    IDS_SCHED_CATSTOP       "Cat:atura les baixades"
+    IDS_SCHED_CATRESUME     "Cat:reprén les baixades"
+    IDS_S_DAYS              "Dies"
+    IDS_STARTTIME           "Inicia el temporitzador"
+    IDS_VALUE               "Valor"
+    IDS_SCHED_ENTERDATARATELIMIT "Introduïu el límit de velocitat:"
+    IDS_SCHED_ENTERVAL      "Introduïu un valor nou:"
+    IDS_SCHED_ACTCONFIG     "Configura l'acció"
+    IDS_SELECTCAT           "Seleccioneu la categoria"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALLUNASSIGNED       "Tots els no assignats"
+    IDS_ACTSESSIONS         "Sessións actives"
+    IDS_WEBSRV              "Servidor web."
+    IDS_SW_REFETCHRES       "Resultats obtinguts"
+    IDS_FILEHASH            "Resum del fitxer"
+    IDS_PW_PROXY            "Servidor intermediari"//.
+    IDS_PROXY_ENABLE        "Activa el servidor intermediari"
+    IDS_PROXY_TYPE          "Tipus de servidor intermediari:"
+    IDS_PROXY_HOST          "Servidor servidor intermediari:"
+    IDS_PROXY_PORT          "Port del servidor intermediàri:"
+    IDS_PROXY_AUTH          "Activa l'autenticació"
+    IDS_AUTH                "Autenticació"
+    IDS_SHOWCATINFO         "Mostra la informació de les baixades en les pestanyes de categories"
+    IDS_SW_SEARCHINGINFO    "S'està realitzant la cerca. Els resultats s'obtindran en breu"
+    IDS_LOGENTRY            "Entrada del registre"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "Copia"
+    IDS_SELECTALL           "Selecciona-ho tot"
+    IDS_AUTOSCROLL          "Desplaçament automàtic"
+    IDS_WIZ1_WELCOME_TITLE  "Vos donem la benvinguda a l'eMule"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "Este auxiliar vos guiarà per a configurar l'eMule."
+    IDS_WIZ1_WELCOME_BTN_HINT "Per a continuar, premeu Següent."
+    IDS_WIZ1_END_TITLE      "S'està completant l'auxiliar"
+    IDS_WIZ1                "Iniciant l'auxiliar de l'eMule per primera vegada"
+    IDS_WIZ1_END_BTN_HINT   "Per tancar l'auxiliar, feu clic a Finalitzar."
+    IDS_WIZ1_UPLOAD_SUBTITLE "Transferència de parts completes"
+    IDS_DL_RESUMENEXT       "Reprén el següent fitxer en pausa"
+    IDS_STARTPRIO           "Prioritat per a esta categoria"
+    IDS_PREF_STARTNEXTFILECAT "Pref. mateixa categoria"
+    IDS_SOFTFILES           "Límit de fitxer baix"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDFILES           "Límit de fitxers alt"
+    IDS_FILTER              "Filtre"
+    IDS_LINKS               "Enllaços"
+    IDS_HM_SCHED_ON         "Activa el programador"
+    IDS_HM_SCHED_OFF        "Desactiva rogramador"
+    IDS_HM_LINKHP           "Web de l'eMule"
+    IDS_HM_LINKFAQ          "PMF de l'eMule"
+    IDS_HM_LINKVC           "Comprova la versió de l'eMule"
+    IDS_DEBUG_SOURCE_EXCHANGE "Registre d'intercanvi de fonts i de recerques i resultats des dels servidors "
+    IDS_SHAREDREQ1          "L'usuari %s (%u) ha demanat la vostra llista de carpetes compartides -> %s"
+    IDS_SHAREDREQ2          "L'usuari %s (%u) ha demanat la llista de fitxers compartits de la carpeta «%s» -> %s"
+    IDS_SHAREDANSW          "L'usuari %s (%u) comparteix la carpeta «%s»"
+    IDS_SHAREDANSW2         "L'usuari %s (%u) no envia la llista de carpetes compartides - ignorat"
+    IDS_SHAREDINFO1         "L'usuari %s (%u) ha enviat la llista de fitxers compartits de la carpeta «%s»"
+    IDS_SHAREDINFO2         "L'usuari %s (%u) finalitza l'enviament de llista de fitxers compartits"
+    IDS_SHAREDANSW3         "L'usuari %s (%u) no envia la llista de fitxers compartits de la carpeta «%s» - ignorat "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDREQDENIED     "L'usuari %s (%u) no permet l'accés a la llista de fitxers/carpetes compartits"
+    IDS_AUTOCLEANUPFN       "Neteja el nom del fitxer"
+    IDS_ONNEWDOWNLOAD       "Inicialment"
+    IDS_FILTERFILENAMEWORD  "Introdueix les paraules a filtrar, separades per |"
+    IDS_FNFILTERTITLE       "Edita el filtre per a netejar els noms dels fitxers"
+    IDS_CHANGECATVIEW       "Seleccioneu la visualització de filtres"
+    IDS_STATUS_NOTCOMPLETED "Incomplet"
+    IDS_STATS_CUMULATIVE    "Acumulat"
+    IDS_STATS_OVRHD         "Excedent"
+    IDS_STATS_RECORDS       "Rècords"
+    IDS_STATS_COMPDL        "Baixades completes"
+    IDS_STATS_SVRECWORKING  "Màx. de servidors actius"
+    IDS_STATS_SVRECUSERS    "Màx. d'usuaris connectats"
+    IDS_SEARCH_TEXT         "Cerca"
+    IDS_STATS_SVRECFILES    "Màx. de fitxers disponibles"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SHRECNUM      "Máx. de fitxers compartits"
+    IDS_SEARCH_COLUMN       "Cerca a la columna"
+    IDS_STATS_SHRECSIZE     "Major mida compartida"
+    IDS_STATS_SHRECASIZE    "Terme mitjà de fitxers major"
+    IDS_STATS_SESSION       "Sessió"
+    IDS_STATS_SRATIO        "Índex de PUJ:BAI sessió:"
+    IDS_STATS_CRATIO        "Índex de PUJ:BAI acumulat:"
+    IDS_SEARCH_NORESULT     "No s'ha trobat cap entrada coincident."
+    IDS_STATS_CURRSRVDUR    "Durada del servidor actual"
+    IDS_LONGSECS            "Segons"
+    IDS_STATS_DLSES         "Sessions de baixada"
+    IDS_LONGMINS            "Minuts"
+    IDS_STATS_SDLSES        "Sessions correctes de baixada"
+    IDS_STATS_FDLSES        "Sessions errònies de baixada "
+    IDS_STATS_AVGDATADLSES  "Terme mitjà baixat per sessió"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ULSES         "Sessions de pujada"
+    IDS_STATS_GAINCOMP      "Guanyat per compressió: %s"
+    IDS_STATS_LOSTCORRUPT   "Perdut per corrupció: %s"
+    IDS_STATS_AVGDATAULSES  "Mitjana de càrrega per sessió"
+    IDS_STATS_ICHSAVED      "Parts salvades per I.C.H: %u"
+    IDS_STATS_MBRESET_TXT   "Esteu segur de voler posar a zero les vostres estadístiques acumulades?\n\nSi canvieu d'opinió, podeu recuperar-les prement el botó «Recupera les estadístiques»."
+    IDS_STATS_MBRESTORE_TXT "Esteu segur de voler recuperar les vostres estadístiques acumulades des de la còpia de seguretat?\n\nSi premeu una altra vegada a «Recupera les estadístiques» es tornaran a carregar les vostres estadístiques actuals."
+    IDS_ERR_NOSTATBKUP      "ERROR: No es troba el fitxer de còpia de seguretat d'estadístiques..."
+    IDS_STATS_NFOLOADEDBKUP "Dades carregades de còpia de seguretat d'estadístiques..."
+    IDS_STATS_NFORESET      "S'han reiniciat les estadístiques a zero"
+    IDS_STATS_BNRESET       "Reinicia les estadístiques"
+    IDS_STATS_BNRESTORE     "Recupera les estadístiques"
+    IDS_PPGSTATS_YSCALE     "Escala eix-Y connexions estadístiques:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "Ràtio de connexions actives:"
+    IDS_STATS_PROBLEMATIC   "Problemàtic"
+    IDS_LONGHRS             "Hores"
+    IDS_STATS_LARGESTFILE   "Fitxer compartit més gran"
+    IDS_SPLIT_WINDOW        "Divideix la finestra"
+    IDS_STATS_DSPF          "Fitxer de parts"
+    IDS_STATS_DATASOURCE    "Font de dades"
+    IDS_STATS_DSFILE        "Fitxer complet"
+    IDS_STATS_GENERAL       "General"//.
+    IDS_STATS_TRANSTIME     "Temps de transferència"
+    IDS_STATS_DOWNTIME      "Temps de baixada"
+    IDS_STATS_UPTIME        "Temps de pujada"
+    IDS_STATS_TOTALSRVDUR   "Durada total del servidor"
+    IDS_STATS_MAXAVGUL      "Mitjana màx. de velocitat de pujada"
+    IDS_STATS_MAXUL         "Velocitat màxima de pujada"
+    IDS_STATS_AVGDLTIME     "Temps mig de baixada"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_PRTDEF        "Defecte"
+    IDS_STATS_PRTOTHER      "Altre"
+    IDS_STATS_MNUTREETITLE  "Arbre d'estadístiques"
+    IDS_STATS_MNUTREECPYSEL "Copia la branca seleccionada"
+    IDS_STATS_MNUTREECPYALL "Copia totes les estadístiques"
+    IDS_STATS_MNUTREEHTML   "Possibilitats HTML"
+    IDS_STATS_EXPORT2HTML   "Exporta totes les estadístiques"
+    IDS_STATS_MNUTREECPYVIS "Copia tot allò visible"
+    IDS_STATS_MNUTREEEXPANDALL "Expandeix totes les seccions"
+    IDS_STATS_MNUTREECOLLAPSEALL "Col·lapsa totes les seccions"
+    IDS_STATS_MNUTREEEXPANDMAIN "Expandeix les seccions principals"
+    IDS_STATS_LASTRESETSTATIC "Darrera reinicialització d'estadístiques: %s"
+    IDS_STATS_MONTHLY       "Mensualment"
+    IDS_STATS_YEARLY        "Anualment"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_TIMESTATS     "Estadístiques de temps"
+    IDS_STATS_AVGANDPROJ    "Mitjanes estimades"
+    IDS_STATS_TIMESINCERESET "Temps des de la darrera reinicialització: %s"
+    IDS_CRYPT_INITFAILED    "S'ha produït una fallada en inicialitzar les claus de xifratge - s'ha inhabilitat la identificació segura"
+    IDS_CD_IDENT            "Identificació:"
+    IDS_IDENTOK             "Correcte"
+    IDS_IDENTFAILED         "No vàlid"
+    IDS_IDENTNOSUPPORT      "No implementat o inhabilitat"
+    IDS_COMMITFILES         "Escriptura .met/.dat segura"
+    IDS_ERR_BADUNC          "nom UNC invàlid"
+    IDS_NEVER               "Mai"
+    IDS_ALWAYS              "Sempre"
+    IDS_ONSHUTDOWN          "En apagar"
+    IDS_UNCFOLDERS          "Carpetes UNC"
+    IDS_USESECIDENT         "Fes servir la identificació segura"
+    IDS_ADVSPAMFILTER       "Filtre de correu brossa avançat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CUT                 "Retalla"
+    IDS_STATS_SECUREIDENT   "Identificació Segura (OK : fallada)"
+    IDS_ONDISK              "Mida al disc: "
+    IDS_CLIENTCOL           "Atenció: s'ha trobat un client que coincideix amb un altre actualment connectat: %s (%s) i %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "La cadena no està terminada"
+    IDS_SEARCH_GENERALERROR "S'ha produït un error general"
+    IDS_SEARCH_MISSINGORRIGHT "Manca la part dreta de l'operador OR"
+    IDS_SEARCH_MISSINGNOTRIGHT "Manca la part dreta de l'operador NOT"
+    IDS_SEARCH_MISSINGEXPRPARANT "Manca expressió per «(» «)»"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "Manca un «)» tancat"
+    IDS_SEARCH_EXPRERROR    "S'ha produït una fallada en l'interpretació de l'expressió de cerca"
+    IDS_SEARCH_TOOCOMPLEX   "L'expressió és massa complexa"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSION             "Versió"
+    IDS_PASTE               "Enganxa"
+    IDS_A4AF                "Gestió de fonts"
+    IDS_AUTOCAT_LABEL       "Assignació automàtica de categoria (patró separat per |)"
+    IDS_SHOWEXTSETTINGS     "Mostra més controls (controls del mode avançat)"
+    IDS_TREEOPTIONS_TRUE    "Cert"
+    IDS_TREEOPTIONS_FALSE   "Fals"
+    IDS_TREEOPTIONS_OK      "D'acord"
+    IDS_HYPERTEXT_FONT_HINT "Font per finestra de servidor, missatge i xat IRC"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SELECT_FONT         "Selecciona la font"
+    IDS_SERVER_LIMITS       "Límit de fitxer tou / dur"
+    IDS_KBITSSEC            "kbit/s"//.
+    IDS_KBYTESSEC           "kByte/s"//.
+    IDS_ERR_CREATE_DIR      "S'ha produït una fallada en crear el directori %s «%s» - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "El directori de baixades no pot ser el directori d'instal·lació de l'eMule."
+    IDS_WRN_TEMPFILES_RESERVED
+                            "El directori temporal no pot ser el directori d'instal·lació de l'eMule."
+    IDS_WRN_INCTEMP_SAME    "El directori de baixades i el temporal no poden ser el mateix."
+    IDS_SHOWDWLPERCENTAGE   "Mostra el percentatge de baixada a la barra de progrés"
+    IDS_TBN_ONNEWDOWNLOAD   "S'ha afegit la baixada"
+    IDS_ARTIST              "Artista"
+    IDS_ALBUM               "Àlbum"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UPLOADREQ        "Pujada demanada:"
+    IDS_SETTINGCHANGED_RESTART
+                            "Hauríeu de tornar a iniciar l'eMule per tal que els canvis tinguen efecte."
+    IDS_CREDITSEXPIRED      ", %u clients suprimits (no vistos en 5 mesos)"
+    IDS_SOURCESINFO         "%u  (Útil: %u, NNP: %u, A4AF: %u)"
+    IDS_META_DATA           "Metadades"
+    IDS_TIMEBEFORE          "(fa %s)"
+    IDS_FD_TIMEDATE         "Dates"//.
+    IDS_FILEINFORMATION     "Informació de fitxer"
+    IDS_STATS_FREESPACE     "Espai lliure"
+    IDS_IRC_HELPCHANNEL     "Connecta't al canal d'ajuda"
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-catalan"
+    IDS_IRC_ACCEPTLINKSFRIENDS "Només d'amics."
+    IDS_COMPLSOURCES        "Fonts completes"
+    IDS_CHECKNOENDTIME      "sense temps de finalització"
+    IDS_FD_DOWNLOADSTARTED  "Baixada afegida:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FAILEDREOPEN        "Error Fatal: s'ha produït una fallada en reobrir el fitxer de parts «%s» (%s)."
+    IDS_ERR_PREVIEWALREADY  "Ja hi ha una petició de previsualització pendent d'este client"
+    IDS_ERR_PREVIEWFAILED   "La previsualització de l'Usuari «%s» ha fallat"
+    IDS_DWTOT               "Espai al disc"
+    IDS_DWTOT_NR            "Nombre de baixades: %u"
+    IDS_DWTOT_TSD           "Mida total de les baixades: %s"
+    IDS_DWTOT_TCS           "Mida total completada: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "Mida total a transferir: %s"
+    IDS_DWTOT_TSN           "Espai necessari per a les baixades: %s"
+    IDS_DWTOT_FS            "Espai lliure al disc temporal: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (vos cal alliberar %s)"
+    IDS_SERVERKEEPALIVETIMEOUT
+                            "Interval de refresc de connexió al servidor [min.]"
+    IDS_MORE                "&Més"
+    IDS_TOOLS               "&Eines"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u està fent un resum)"
+    IDS_CHECKDISKSPACE      "Comprova l'espai al disc"
+    IDS_YOURHOSTNAME        "Nom de l'ordinador per als enllaços eD2K propis"
+    IDS_INSUFFICIENT        "L'espai al disc és insuficient"
+    IDS_MINFREEDISKSPACE    "Espai mínim en disc [MB]"
+    IDS_WARNING             "Atenció"
+    IDS_IMPORTSPLPF         "Importa fitxers parcials (eMule, eDonkey, Overnet)"
+    IDS_IMP_STEPREADPF      "S'està llegint carpeta temporal"
+    IDS_IMP_STEPBASICINF    "S'està recollint la informació bàsica del fitxer de parts"
+    IDS_IMP_STEPCRDESTFILE  "S'està creant el fitxer de parts de destinació"
+    IDS_IMP_LOADDATA        "S'estan carregant les dades del fitxer de parts antic (%u de %u)"
+    IDS_IMP_SAVEDATA        "S'està desant el bloc de dades al nou fitxer de parts simple (%u de %u)"
+    IDS_IMP_IOERROR         "S'ha produït un error de fitxer en convertir el fitxer de parts"
+    IDS_IMP_GETPFINFO       "S'està recollint informació del fitxer de parts font"
+    IDS_IMP_ADDDWL          "S'està afegint la baixada i desant el fitxer de parts nou"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_FETCHSTATUS     "S'està recollint l'estat..."
+    IDS_IMP_INPROGR         "en progrés"
+    IDS_IMP_ERR_DISKSP      "Error: no hi ha espai al disc"
+    IDS_IMP_ERR_PARTMETIO   "Error: no s'ha trobat el Partmet"
+    IDS_IMP_ERR_IO          "Error: s'ha produït un error d'entrada/eixida"
+    IDS_IMP_ERR_FAILED      "Error: ha fallat"
+    IDS_IMP_STATUSQUEUED    "En cua"
+    IDS_IMP_ALRDWL          "Ja s'està baixant"
+    IDS_IMP_ADDBTN          "&Afig les importacions"
+    IDS_IMP_RETRYBTN        "&Reintenta els seleccionats"
+    IDS_IMP_REMOVEBTN       "&Treu els seleccionats"
+    IDS_IMP_SELFOLDER       "Esculliu només una carpeta partmet o bé l'antiga carpeta temporal amb totes les subcarpetes partmet."
+    IDS_IMP_DELSRC          "Voleu que se suprimisquen els fitxers de font de les baixades importades correctament?"
+    IDS_IMP_SIZE            "%s (disc:%s)"
+    IDS_IMP_STATUS          "S'està important %s: %s"
+    IDS_DYNUPENABLED        "Troba el límit de pujada més adient de manera automàtica"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "Tolerància al ping (% del ping més baix)"
+    IDS_DYNUP_GOINGUPDIVIDER "Lentitud de pujada"
+    IDS_DYNUP_GOINGDOWNDIVIDER "Lentitud de baixada"
+    IDS_DYNUP_NUMBEROFPINGS "Mitjana de nombre màxim de pings"
+    IDS_DYNUP_MINUPLOAD     "Velocitat mínima de pujada permesa"
+    IDS_ESTTIMELEFT         "Temps estimat:"
+    IDS_TRANSFER_RATE_LABEL "Velocitat de transferència:"
+    IDS_SAVELOG             "Alça el registre"
+    IDS_CMT_COPYCLIPBOARD   "Copia el comentari al porta-retalls"
+    IDS_ASKDOWNLOADLANG     "La llengua que heu triat no està instal·lat al sistema. Voleu que l'eMule la baixe des d'emule-project.net?"
+    IDS_ASKDOWNLOADLANGCAP  "Baixa els fitxers de llengua"
+    IDS_DELETESELECTED      "Suprimeix"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "S'ha produït un error en baixar i instal·lar el fitxer dll de la llengua seleccionada des de %s"
+    IDS_ERR_BADFOLDER       "La carpeta és incorrecta.\nLa carpeta no es pot crear. Comproveu-ne el nom i la ubicació."
+    IDS_AUTOREMOVEFD        "Neteja les baixades completades automàticament"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_NODE            "Recerca de node"
+    IDS_KAD_STOREFILE       "Alça el fitxer"
+    IDS_KAD_STOREKW         "Alça la paraula clau"
+    IDS_KAD_UNKNOWN         "Desconegut"
+    IDS_SRV_TCPCOMPR        "Compressió TCP"
+    IDS_KADSEARCHLAB        "Cerques actuals"
+    IDS_SRV_UDPSR           "Protocol UDP ampliat per a peticions de fonts"
+    IDS_SRV_UDPFR           "Protocol UDP ampliat per a peticions de fitxers"
+    IDS_MINLENGTH           "Duració mín. [hh:mm:ss]"
+    IDS_EM_HELP             "A&juda"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "No s'ha afegit l'amic.\r\n\r\Ja existeix un amic amb la mateixa adreça IP i port disponible."
+    IDS_DYNUP               "Sensor de velocitat de pujada"
+    IDS_KADOVERHEAD         "Tràfic excedent Kad (paquets): %s (%s)"
+    IDS_FIND                "Troba..."
+    IDS_LOG_BANNED_CLIENTS  "Registra els clients exclosos"
+    IDS_LOG_RATING_RECV     "Registra els fitxers rebuts amb descripcions i qualificacions"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "des de clients nous"
+    IDS_KADUDPPORTERR       "El port UDP del Kad entra en conflicte o bé amb el port ampliat de l'eMule o bé amb el del servidor UDP de l'eMule. El port s'ha canviat a %u."
+    IDS_CONFIRM_FILEDELETE  "Realment voleu suprimir tots els fitxers seleccionats del disc?"
+    IDS_OPENFOLDER          "Obri la carpeta"
+    IDS_RUNASUSER           "Inicia l'eMule com a usuari amb permisos limitats "
+    IDS_DELETE              "Suprimeix del disc"
+    IDS_BOOTSTRAP           "Arrencada"
+    IDS_VIAED2KSQ           "a través de servidor/cua eD2K"
+    IDS_EM_KADEMLIA         "&Kad"//.
+    IDS_VIAKAD              "a través del Kad"//.
+    IDS_VIASE               "a través de l'intercanvi de fonts"
+    IDS_SELECTTOOLBARBITMAP "Seleccioneu la imatge per a la barra d'eines"
+    IDS_SELECTTOOLBARBITMAPDIR "Seleccioneu el directori de la imatge"
+    IDS_TOOLBARSKINS        "Temes visuals per a la barra d'eines"
+    IDS_NOTEXTLABELS        "Sense etiquetes"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "Dreta de la icona"
+    IDS_TEXTLABELS          "Etiquetes de text"
+    IDS_ENABLETEXTLABELS    "Sota la icona"
+    IDS_CUSTOMIZETOOLBAR    "Personalitza la barra d'eines"
+    IDS_MINBITRATE          "Taxa de bits mín. [kbit/s]"
+    IDS_KAD_RECHECKFW       "Comprova el tallafocs"
+    IDS_SHAREDTITLE         "Compartit amb eD2K/KAD"
+    IDS_FIREWALLED          "Tallafocs"
+    IDS_KADEMLIA            "Kad"//.
+    IDS_KADCONTACTLAB       "Contactes"
+    IDS_KADDISTANCE         "Distància"
+    IDS_KEY                 "Clau"
+    IDS_NUMBER              "Nombre"
+    IDS_KAD_SEARCHSRC       "Cerca fonts"
+    IDS_KAD_SEARCHKW        "Cerca paraules clau"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_SECURE_IDENT    "Enregistra les identificacions segures"
+    IDS_LOG_FILTERED_IPS    "Enregistra les IPs filtrades i/o ignorades"
+    IDS_LOG_FILE_SAVING     "Enregistra les accions de desament de fitxers"
+    IDS_DELETEIPFILTERS     "Realment voleu suprimir els fitxers de filtre seleccionats?"
+    IDS_TOTAL_IPFILTER_LABEL "Total filtres IP:"
+    IDS_TOTAL_IPS_LABEL     "Total IPs:"//.
+    IDS_RAU_WARNING         "Este paràmetre permetrà que l'eMule siga més segur en front d'atacs i trampes, de manera que en recomanem l'ús.\nTanmateix, es recomana llegir el manual abans d'habilitar-la.\n\nEls canvis seran efectius quan torneu a iniciar l'eMule."
+    IDS_APPEND              "Afig..."
+    IDS_SAVE                "Alça"
+    IDS_IP_START            "Comença"
+    IDS_IP_END              "Acaba"
+    IDS_IP_LEVEL            "Nivell"
+    IDS_IP_DESC             "Descripció"
+    IDS_IP_HITS             "Encerts"
+    IDS_IP_RULES            "Filtres IP:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "Actualment no esteu connectat a la xarxa Kad"
+    IDS_IRC_NOSFS           "No hi ha fitxers compartits seleccionats"
+    IDS_RESETLABEL          "Compleció automàtica (funció història)"
+    IDS_IRC_IGNOREMISCMESSAGE "Ignora missatges diversos d'informació"
+    IDS_KNOWN               "Coneguts"
+    IDS_RAU_RUNNING         "l'eMule s'està executant com a l'usuari sense privilegis «%s»"
+    IDS_RAU_FAILED          "S'ha produït una fallada en iniciar l'eMule com a usuari sense privilegis «eMule_Secure». Es mantindran els privilegis de l'usuari actual («%s»)."
+    IDS_KADCONTACTSREAD     "Llig %u contactes del fitxer."
+    IDS_ERR_KADCONTACTS     "No es troben contactes. Hauríeu de tornar a iniciar o bé baixar el fitxer nodes.dat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE_MS 			"Tolerància al ping (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER 	"Mètode per a la tolerància al ping"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS 		"Mil·lisegons (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT 	"Percentatge (%)"
+    IDS_LOG_A4AF            "Registra les accions A4AF"
+    IDS_A4AF_SAVE_CPU       "Inhabilita les comprovacions d'A4AF per tal d'estalviar CPU"
+    IDS_SEARCH_DOC          "Document"//.
+    IDS_DOWNLOAD_ALPHABETICAL "Baixa en orde alfabètic"
+    IDS_INSTALL_SKIN        "Instal·la un tema de l'eMule"
+    IDS_INSTALL_SKIN_NODIR  "No hi ha cap directori de perfil de temes seleccionat, o el directori no és accessible"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "No s'ha pogut crear el directori «%s» per al tema de l'eMule - %s"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "S'ha produït un error en extreure el fitxer «%s» del tema de l'eMule al fitxer local «%s» - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "No és un paquet de tema de l'eMule vàlid."
+    IDS_NEXT_REASK          "Tot seguit, demana'l a este client"
+    IDS_A4AF_FILES          "Fitxers A4AF"
+    IDS_STATS_FRATIO        "Mitjana de pujada/baixada (excloent-ne la pujada dels amics):"
+    IDS_STATS_UDATA_FRIENDS "Dades pujades als amics amb «endoll» (sessió): %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FO_TEMPTCP_S        "S'ha obert el port %u (TCP) al tallafocs intern del Windows XP per a esta sessió de l'eMule"
+    IDS_FO_TEMPTCP_F        "No s'ha pogut obrir el port %u (TCP) al tallafocs intern del Windows XP per a esta sessió de l'eMule"
+    IDS_FO_TEMPUDP_S        "S'ha obert el port %u (UDP) al tallafocs intern del Windows XP per a esta sessió de l'eMule"
+    IDS_FO_TEMPUDP_F        "No s'ha pogut obrir el port %u (UDP) al tallafocs intern del Windows XP per a esta sessió de l'eMule"
+    IDS_FO_PREFBUTTON       "Obri estos ports al tallafocs intern del Windows XP"
+    IDS_FO_PREF_SUCCCEEDED  "Els ports seleccionats al tallafocs intern de Windows XP s'han obert amb èxit.\nTingueu en compte que això no afecta als tallafocs aliens ni als encaminadors (routers)."
+    IDS_FO_PREF_EXISTED     "L'eMule ha detectat regles existents per als ports seleccionats, les quals no han estat sobreescrites ni reemplaçades. Les regles que hi falten s'han afegit amb èxit.\nTingueu en compte que això no afecta als tallafocs aliens ni als encaminadors (routers)."
+    IDS_FO_PREF_FAILED      "No s'ha pogut configurar el tallafocs intern del Windows XP per als ports seleccionats."
+    IDS_FO_PREF_STARTUP     "Obri/tanca els ports al tallafocs del Windows XP quan l'eMule s'inici/isca"
+    IDS_LOG_LEVEL           "Nivell de registre"
+    IDS_SOURCESWAPBLOCKED   "S'ha blocat l'intercanvi"
+    IDS_A4AF_CHECK_THIS_NOW "Comprova esta font ara (depuració)"
+    IDS_NEWMSG              "Missatge nou procedent de «%s» (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "només a la mateixa categoria"
+    IDS_LOG_ULDL_EVENTS     "Registra els esdeveniments de pujada/baixada"
+    IDS_PEERCACHE_ENABLED   "El vostre proveïdor d'Internet admet la tecnologia de cau-entre-iguals (PeerCache). S'activarà la cau de baixades"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "Permet a l'usuari que vos afegisca com a amic."
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "Baixa primer les parts que calen per a la previsualització"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "Es desconeix el format del fitxer temporal, o bé està malmés."
+    IDS_SEARCH_INVALIDCHAR  "L'expressió de cerca conté caràcters no vàlids. Hi heu escrit o bé un «?» o bé caràcters que no són permesos a la xarxa eD2K."
+    IDS_PORTSCON            "Ports i connexió"
+    IDS_PORTINFO            "L'eMule empra dos ports per a la comunicació entre servidors i clients. Cal que aquells ports estiguen disponibles per als clients remots. Cal que el port TCP estiga disponible per a la funcionalitat principal de l'eMule. El port UDP s'empra per al Kad (xarxa sense servidors) i per a reduir el consum de xarxa.\n\nPodeu canviar els ports ací mentre l'activitat de xarxa no haja començat."
+    IDS_STARTTEST           "Comprova els ports"
+    IDS_TESTINFO            "Des d'ací podeu provar si els vostres ports TCP i UDP poden rebre connexions remotes. Esta comprovació ha de reeixir si voleu que els clients i servidors puguen connectar-se amb vós. El port TCP ha de reeixir"
+    IDS_CONNECTIONTEST      "Comprova la connexió"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "No es poden canviar els ports després d'haver-se connectat amb clients o mentre s'està connectat a un servidor/Kad.\n\nHauríeu de reinicieu l'eMule amb la configuració de ports canviada."
+    IDS_NETWORK_INFO        "Informació de la xarxa"
+    IDS_SP_TOTALUL          "Nombre total de pujades"
+    IDS_SP_ULFRIENDS        "«endolls» de pujada per als amics"
+    IDS_SP_ULSLOTSNOOVERHEAD "sobrecàrrega actual (Només per als «endolls» de pujada)"
+    IDS_ST_ACTIVEU_ZZ       "Pujades actives"
+    IDS_ST_ULCURRENT        "Pujada + sobrecàrrega"
+    IDS_ST_ULSLOTSNOOVERHEAD "Pujada"
+    IDS_ST_ULFRIEND         "Pujada dels amics"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "Pujades actives/per a completar l'amplada de banda cal: %u"
+    IDS_STATS_TOTALUL       "Nombre total de pujades: %u"
+    IDS_CHAT_DOWNLOADED     "Baixat:"
+    IDS_CHAT_UPLOADED       "Pujat:"
+    IDS_CHAT_IDENT          "Identificació:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAXHALFOPENCONS     "Màxim nombre de connexions mig obertes"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "Activeu-ho per i fer que l'eMule s'execute quan inicieu el Windows."
+    IDS_KAD_WAITCBK         "Espera el retorn de la crida Kad"
+    IDS_KAD_TOOMANDYKADLKPS "Hi ha massa resolucions Kad"
+    IDS_PCDS_CLIENTWAIT     "Espera del client"
+    IDS_PCDS_CACHEWAIT      "Espera de la cau"
+    IDS_CACHE               "Cau"
+    IDS_INDEXED             "Indexat"
+    IDS_KADINFO_SRC         "\tFont: %u\r\n"
+    IDS_KADINFO_KEYW        "\tParaula clau: %u\r\n"
+    IDS_STARTWITHWINDOWS    "Inicia amb el Windows"
+    IDS_ADDSRCMANUALLY      "Afig una font manualment"
+    IDS_BUDDY               "Amic"
+    IDS_BUDDYNONE           "Cap"
+    IDS_INFO                "Informació"
+    IDS_HALF                "Mig"
+    IDS_CONCOMPL            "Compl"//.
+    IDS_KADSTATUS_STOPPING  "Aturant"
+    IDS_KADSTATUS_ACTIVE    "Actiu"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FORMAT              "Format"//.
+    IDS_META_COLLECTION     "Col·lecció"
+    IDS_META_PARTPATH       "Ruta de la part"
+    IDS_META_PARTHASH       "Suma de la part"
+    IDS_META_GAPSTART       "Inici del buit"
+    IDS_META_GAPEND         "Fi del buit"
+    IDS_FAIL                "Falla"
+    IDS_META_PREFERENCES    "Preferències"
+    IDS_META_VERSION        "Versió"
+    IDS_META_TEMPFILE       "Fitxer temporal"
+    IDS_META_SERVERPORT     "Port del servidor"
+    IDS_META_SERVERIP       "IP del servidor"
+    IDS_META_SRCUDPPORT     "Port UDP de la font"
+    IDS_META_SRCTCPPORT     "Port TCP de la font"
+    IDS_META_SRCIP          "Font IP"
+    IDS_META_SRCTYPE        "Tipus de font"
+    IDS_SEARCH_UNICODE      "Cerca amb Unicode"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LD_ED2KLINK         "Enllaç eD2K"
+    IDS_LD_COPYCLIPBOARD    "Copia al porta-retalls"
+    IDS_LD_HOSTNAME         "Empra el nom (obtingut de preferències) en comptes de la IP en crear un enllaç de font"
+    IDS_SAVEACFAILED        "No s'ha pogut alçar el joc de resums AICH."
+    IDS_AICHHASH            "Resum AICH"
+    IDS_BYTESPERSEC         "B/s"//.
+    IDS_KBYTESPERSEC        "KB/s"//.
+    IDS_MBYTESPERSEC        "MB/s"//.
+    IDS_GBYTESPERSEC        "GB/s"//.
+    IDS_TBYTESPERSEC        "TB/s"//.
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MINORCLIENTS  "Menor"
+    IDS_LD_BASICOPT         "Opcions bàsiques"
+    IDS_LD_ADDSOURCE        "Afig-me com a font"
+    IDS_LD_EMULEHASH        "Afig el resum AICH del resum AICH de l'eMule per a la gestió avançada de la corrupció"
+    IDS_LD_ADVANCEDOPT      "Opcions avançades"
+    IDS_LD_ADDHTML          "Afig etiquetes HTML"
+    IDS_LD_ADDHASHSET       "Afig el joc de resums complet"
+    IDS_FILELINK            "Enllaç del fitxer"
+    IDS_PF_ADVANCEDCALC     "Empra el mètode de càlcul avançat per al temps romanent"
+    IDS_DL_SHOWED2KLINK     "Mostra un enllaç eD2K..."
+    IDS_AICH_SYNCTOTAL      "S'han trobat %u fitxers sense joc de resums AICH vàlids. Es regeneraran els resums per a estos fitxers"
+    IDS_AICH_CALCFILE       "S'està calculant el resum AICH per al fitxer %s"
+    IDS_AICH_WARNUSER       "Des de la versió 0.44a eMule empra un resum de fitxer addicional que ajuda a reduir considerablement la pèrdua de dades en detectar corrupcions. Atès que que esteu actualitzant-lo des d'una versió anterior, cal regenerar els resums de tots els vostres fitxers compartits. Això pot trigar una estona, però només caldrà fer-ho una vegada."
+    IDS_AICH_WORKED         "S'ha recuperat amb èxit l'AICH %s de %s des de la part %u per a %s"
+    IDS_TRICKLING           "En espera"
+    IDS_SOURCECLIENT        "Font del client"
+    IDS_USERSIP             "IP dels usuaris"
+    IDS_FEATURES            "Funcions"
+    IDS_IRC_NEWNICK         "Seleccioneu un sobrenom d'IRC."
+    IDS_IRC_NEWNICKDESC     "Ha de ser una paraula de menys de 20 caràcters, formada per (A-Z, 0-9). Podeu canviar-ho més tard al menú Preferències->Irc."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPARSEPARTFILES     "Crea els nous fitxers de parts com a buits (sparse) (només per a NTFS)"
+    IDS_ASPECTRATIO         "Relació d'aspecte"
+    IDS_NEGATEFILTER        "nega el filtre"
+    IDS_SEENCOMPL           "Mai vist complet"
+    IDS_SELSKINPROFILEDIR   "Selecciona el directori per al perfil de temes"
+    IDS_ASKDLINCOMPLETE     "Fitxer potencialment incomplet:\r\n\r\n%s\r\n\r\nAquest fitxer és suposadament incomplet a la xarxa, per la qual cosa el més probable és que no el pugueu baixar correctament. Segur que voleu baixar-lo?"
+    IDS_DEADSOURCES         "Fonts mortes"
+    IDS_LARGEICONS          "Icones grans"
+    IDS_SMALLICONS          "Icones petites"
+    IDS_SHORTTAGS           "Etiquetes breus"
+    IDS_THELOAD             "Pujada"
+    IDS_PACKSENT            "Paquets enviats"
+    IDS_RESPONSES           "Respostes"
+    IDS_EXTRACT_META_DATA   "Extreu-ne les meta dades"
+    IDS_META_DATA_MEDIADET  "DirectShow (per a tots els altres fitxers d'àudio/vídeo)"
+    IDS_META_DATA_ID3LIB    "Biblioteca ID3 (només per a fitxers d'àudio MPEG)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "La biblioteca de Controls Comuns de Windows (COMCTL32.DLL) és massa antiga.\r\n\r\nL'eMule ha detectat una versió de la «biblioteca de Controls Comuns de Windows (COMCTL32.DLL)» que és massa antiga perquè l'eMule la puga utilitzar. Per a assegurar el funcionament complet i correcte de l'eMule, es recomana que actualitzeu la «biblioteca de Controls Comuns de Windows (COMCTL32.DLL)» a la versió 5.8 o superior.\r\n\r\nPodeu baixar i instal·lar una actualització de la «biblioteca de Controls Comuns de Windows (COMCTL32.DLL)» al Centre de Decàrregues de Microsoft (R). Voleu anar a la URL corresponent?"
+    IDS_ASREGEXPR           "Com a expressió regular"
+    IDS_STATIC_REGEXP       "Expressió regular per al filtre de visualització:"
+    IDS_CARE4ALL            "Avalua tots els fitxers"
+    IDS_REGEXPRESSION       "Expressió regular"
+    IDS_SEARCHKAD           "Cerca al Kad"
+    IDS_DWL_IPFILTERFILE    "S'està baixant el fitxer de filtres d'IP"
+    IDS_DWLIPFILTERFAILED   "Ha fallat la baixada del fitxer de filtres d'IP"
+    IDS_FINDBUDDY           "Cerca un amic"
+    IDS_ERR_IPFILTERZIPEXTR "Ha fallat l'extracció del fitxer de filtres d'IP procedent del fitxer ZIP «%s» que s'ha baixat."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "El fitxer de filtres d'IP «%s» que s'ha baixat és un fitxer ZIP amb contingut inesperat."
+    IDS_STORENOTES          "Alça les notes"
+    IDS_NOTES               "Notes"//.
+    IDS_KADSEARCHALREADY    "Ja hi ha una altra cerca en execució. Torneu-ho intentar més avant"
+
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHUTDOWN        "Ix de l'eMule"
+    IDS_WEB_REBOOT          "Torna a iniciar el sistema"
+    IDS_WEB_SHUTDOWNSYSTEM  "Atura el sistema"
+    IDS_WEB_ADMINMENU       "Menú d'administració"
+    IDS_WEB_MAIN_CLOSE      "Segur que voleu eixir l'eMule?"
+    IDS_WEB_MAIN_REBOOT     "Segur que voleu reiniciar el sistema?"
+    IDS_WEB_MAIN_SHUTDOWN   "Segur que voleu aturar el sistema?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "Mostra els clients bandejats a la cua"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "Mostra els amics a la cua"
+    IDS_WEB_SESSIONTIMEOUT  "Temps d'espera de la sessió"
+    IDS_WEB_ALLOWHILEVFUNC  "Permet la eixida de l'eMule, el reinici i l'aturada"
+    IDS_SETPFSLIMIT         "Límit de fonts..."
+    IDS_SETPFSLIMITEXPLAINED
+                            "Introduïu el límit nou de fonts per als fitxers seleccionats.\n(establiu-lo a 0 per a emprar la configuració global)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "Voleu que les carpetes d'entrada siguen incloses a lacarpeta d'entrada antiga que s'actualitzarà ara?"
+    IDS_USESPEECH           "Missatge de notificació per veu"
+    IDS_CONDTCPACCEPT       "Rebuig ràpid de connexions"
+    IDS_TCPIP_CONNS         "Connexions TCP/IP"
+    IDS_ERR_DELFILE         "No s'ha pogut suprimir el fitxer «%s»"
+    IDS_MANUAL_FILENAMECLEANUP "Voleu netejar els noms dels fitxers seleccionats?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CONFIGCORRUPT   "Com que pareix que %s està malmés, serà reemplaçat"
+    IDS_UPLOADING           "S'està pujant"
+    IDS_CANCELLED           "Cancel·lat"
+    IDS_PW_REMEMBERDOWNLOADED "Recorda els fitxers baixats"
+    IDS_PW_REMEMBERCANCELLED "Recorda els fitxers cancel·lats"
+    IDS_AVAILABLEPARTS      "Parts disponibles"
+    IDS_NOSOUND             "Sense so"
+    IDS_PW_RECEIVERADDRESS  "Adreça del destinatari:"
+    IDS_PW_ENABLEEMAIL      "Activa les notificacions per correu electrònic"
+    IDS_EMULENOTIFICATION   "Notificació de l'eMule"
+    IDS_PW_EMAILNOTIFICATIONS "Notificacions per correu electrònic"
+    IDS_SMTPSERVER          "Servidor SMTP"
+    IDS_PW_SENDERADDRESS    "Adreça del remitent:"
+    IDS_PW_SHOWTRANSTOOLBAR "Mostra la barra d'eines extra a la finestra de transferències"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHARED_STATUS       "Parts compartides"
+    IDS_INCOMING_FILES      "Fitxers entrants"
+    IDS_INCOMPLETE_FILES    "Fitxers incomplets"
+    IDS_SHARED_DIRECTORIES  "Directoris compartits"
+    IDS_SHAREDIR            "Directori de compartició"
+    IDS_SHAREDIRSUB         "Comparteix amb els subdirectoris"
+    IDS_UNSHAREDIR          "Desfés la compartició del directori"
+    IDS_UNSHAREDIRSUB       "Desfés la compartició amb els subdirectoris"
+    IDS_ALLSHAREDFILES      "Tots els fitxers compartits"
+    IDS_ALLDIRECTORIES      "Tots els directoris"
+    IDS_SEARCHRELATED       "Cerca els fitxers relacionats"
+    IDS_RELATED             "Relacionat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLLECTIONLIST      "Llista de col·leccions"
+    IDS_SEARCH_EMULECOLLECTION "Col·lecció"
+    IDS_COLL_REPLACEEXISTING "Voleu reemplaçar el fitxer existent?"
+    IDS_COLL_ERR_DELETING   "S'ha produït un error desconegut en suprimir el fitxer antic. Voleu eixir sense alçar?"
+    IDS_CREATECOLLECTION    "Crea la col·lecció"
+    IDS_COLL_SIGN           "Signa la col·lectió amb nom i clau"
+    IDS_AUTHOR              "Autor"
+    IDS_AUTHORKEY           "Clau de l'autor"
+    IDS_COLL_ADDINCAT       "Afig les baixades noves en una categoria de col·lecció"
+    IDS_MODIFYCOLLECTION    "Modifica la col·lecció"
+    IDS_VIEWCOLLECTION      "Mostra la col·lecció"
+    IDS_COLL_TEXTFORMAT     "Alça la col·lecció en un format de text simple"
+    IDS_SEARCHAUTHORCOLLECTION "Cerca les col·leccions de l'autor"
+    IDS_ERR_DUPL_FILES      "Estos fitxers compartits estan duplicats: «%s» i «%s»"
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "UploadSpeedSense: La traça d'encaminament ha fallat massa vegades. Es desactivaran les pujades SpeedSense."
+    IDS_USS_STARTING        "UploadSpeedSense: S'han acabat les preparacions. S'inicia el control de la velocitat de pujada. (Els primers 60 segons seran en mode de reacció ràpida)"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "UploadSpeedSense: S'ha detectat un límit de càrrega apujat a través de les preferències. S'entrarà en mode de reacció ràpida durant 60 segons."
+    IDS_USS_STATE_PREPARING "S'està preparant..."
+    IDS_USS_STATE_WAITING   "S'està esperant..."
+    IDS_USS_STATE_ERROR     "Error."//.
+    IDS_SHAREWARNING        "(La carpeta serà compartida.)"
+    IDS_REMOVEALLSERVERS    "Segur que voleu eliminar tots els servidors?"
+    IDS_SEARCH_UNKATTR      "L'atribut de cerca «%s» és desconegut"
+    IDS_SEARCH_ATTRERR      "Hi ha un error de sintaxi a l'atribut de cerca «%s»"
+    IDS_SEARCH_MISSINGANDRIGHT "Manca la part dreta de l'operador AND"
+    IDS_SEARCH_OPRERR       "Hi ha un error de sintaxi a l'operador de comparació «%s»"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOAD_LANGFILE   "S'està baixant el fitxer de llengua"
+    IDS_DOWNLOADING_SERVERMET_FROM "S'està baixant el fitxer server.met de %s"
+    IDS_DOWNLOADING_SERVERMET "S'està baixant el fitxer server.met..."
+    IDS_FULLALLOC           "Allotja la mida del fitxer complet per als fitxers sense parts buides (sparse)"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "No s'ha trobat el resum."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "La llista de forats està malmesa."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "No s'ha trobat la llista de forats."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "El joc de resums està malmés."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "No s'ha trobat el joc de resums."
+    IDS_CONVERTINGKNOWN2MET "S'està convertint %s a %s per tal d'admetre fitxers grans..."
+    IDS_CONVERTINGKNOWN2FAILED
+                            "...no s'ha pogut convertir el fitxer known2.met, s'ignoraran els registres antics"
+    IDS_CONVERTINGKNOWN2DONE "... fet, la conversió ha acabat"
+    IDS_ERR_MET_BAD         "Error: el fitxer %s està malmés, no s'han pogut carregar els fitxers «known»"
+    IDS_SRV_LARGEFILES      "Funcionament amb fitxers grans"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE
+                            "No podeu baixar este fitxer perquè el vostre sistema de fitxers no n'admet de més grans de 4GB. Considereu convertir el sistema de fitxers a NTFS"
+    IDS_NEWVERSIONAVLBETA   "Esta versió beta no està actualitzada. Degut a la naturalesa de les versions beta, les quals sovint contenen errors, és molt important que l'actualitzeu a una versió estable així que pugueu"
+    IDS_KADSEARCHACTIVE     "(Cerca del Kad en marxa...)"
+    IDS_BOLD                "Commuta la negreta"
+    IDS_UNDERLINE           "Commuta el subratllat"
+    IDS_COLOUR              "Seleccioneu el color del text en primer pla (el color de segon pla és opcional)"
+    IDS_RESETFORMAT         "Reinicialitza tot el format previ (envia una etiqueta de reinicialització)"
+    IDS_RESTORESEARCHPARAMS "Restaura els paràmetres de cerca"
+    IDS_COMMAND             "Orde"
+    IDS_ARGUMENTS           "Arguments"//.
+    IDS_AP_CREATEPREVCOPY   "Crea un fitxer de previsualització"
+    IDS_ARCHIVEDETAILS      "Detalls del fitxer"
+    IDS_ARCHTYPE            "Tipus de fitxers"
+    IDS_ATTRIBUTES          "Atributs"
+    IDS_LASTMODIFIED        "Modificat per darrer dop"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "Les capçaleres són encriptades - no s'ha pogut llegir el fitxer."
+    IDS_ARCPARSED           "S'ha analitzat el fitxer."
+    IDS_ARCPREV_LISTMAYBEINCOMPL "Pot ser que la llista de fitxers siga incompleta."
+    IDS_ARCPREV_DIRNOTFOUND "No s'ha trobat la taula de continguts."
+    IDS_ARCPREV_INSUFFDATA  "Les dades disponibles són insuficients."
+    IDS_PASSWPROT           "Protecció per contrasenya"
+    IDS_ARCPREV_DIRSUCCREAD "La taula de continguts s'ha llegit amb èxit."
+    IDS_ARCPREV_UNKNOWNFORMAT "(desconegut/no admés)"
+    IDS_ARCPREV_PLEASEWAIT  "S'està analitzant el fitxer..."
+    IDS_OBFUSCATION         "Ofuscació"
+    IDS_SUPPORTED           "Admés"
+    IDS_ESTIMATED           "estimat"
+    IDS_MEDIAINFO_DLLMISSING
+                            "No hi ha cap biblioteca de MediaInfo instal·lada. Per obtindre més informació sobre fitxers d'àudio/video en este formulari,\r\baixeu la biblioteca MediaInfo de https://mediaarea.net/en/MediaInfo i copieu el fitxer MediaInfo.dll dins\r\nla carpeta d'instal·lació de l'eMule: «%s».\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "Avís: L'extensió de fitxer «%s» no es correspon amb l'extensió de fitxer\r\nque s'empra habitualment per a este format de fitxer. Podeu canviar el nom del fitxer de manera que\r\ntingui una d'estes extensions «%s»\r\ni que es puga emprar o visualitzar adientment.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "Avís: Pareix que el fitxer «%s» ha estat protegit amb DRM (gestió de drets digital).\r\nEl més probable és que no pugueu emprar este fitxer sense el permís del seu autor.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "Fitxers de mapa de bits per a la barra d'eines de l'eMule"
+    IDS_LOADFILTER_EMSKINFILES "Fitxers de tema per a l'eMule"
+    IDS_UPDATEFROM          "Actualitza des d'un URL: (filter.dat- o format-PeerGuardian)"
+    IDS_LOADURL             "Carrega"
+    IDS_DELETEAFTERALLOC    "El fitxer «%s» actualment ocupa espai en el disc i se suprimirà en acabar"
+    IDS_TRAYDLG_SPEED       "Velocitat de l'eMule"
+    IDS_VIAPASSIVE          "a través de passiu"
+    IDS_WEB_REMOTE_LINK_ADDED "Enllaç afegit: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "No s'ha afegit l'enllaç. La contrasenya és incorrecta."
+    IDS_OPTIONS             "Opcions"
+    IDS_ERR_FAILEDTOLOAD    "S'ha produït un error en carregar %s: %s "
+    IDS_RUNNINGRESTRICTED   "L'eMule s'està executant amb privilegis reduïts"
+    IDS_SEARCHPARAMS        "Paràmetres de cerca"
+    IDS_METATAGS            "Comptador de metaetiquetes:"
+    IDS_FILEFORMAT          "Format"//.
+    IDS_UDPREASKS           "Refés les consultes de fitxer per UDP"
+    IDS_ARCHPREV_ATTRIBINFO "Els atributs de fitxer poden contindre:\r\n\r\nP\tfitxer protegit per contrasenya\r\nD\tés un directori\r\nC\tComentari\r\nLx\tNivell de compressió x\r\nM\tdades comprimides i no totalment baixades\r\n<\tel fitxer és una continuació del volum previ\r\n>\tel fitxer continua al volum següent\r\n"
+    IDS_CONTENT_INFO        "Contingut"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "Missatges i comentaris"
+    IDS_DISABLEOBFUSCATION  "Inhabilita la funció per a connexions ofuscades"
+    IDS_ONLYOBFUSCATED      "Permet només les connexions ofuscades (no es recomana)"
+    IDS_ENABLEOBFUSCATION   "Activa l'ofuscació del protocol"
+    IDS_PROTOCOLOBFUSCATION "Ofuscació del protocol"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "S'està connectant a %s (%s:%u - s'està emprant l'ofuscació de protocol) ..."
+    IDS_CONNECTEDTOOBFUSCATED "S'ha establit una connexió ofuscada amb: %s"
+    IDS_VERIFIED            "Verificat"
+    IDS_OBFUSCATED          "Ofuscat"
+    IDS_UNVERIFIED          "No verificat"
+    IDS_INVALIDFILEEXT      "L'extensió de fitxer no és vàlida"
+    IDS_UNKNOWNFILEEXT      "extensió de fitxer desconeguda"
+    IDS_ENABLEMINIMULE      "Activa el MiniMule"
+    IDS_DISABLE_AUTOARCHPREV
+                            "Inhabilita l'inici automàtic de previsualització de fitxers als detalls del fitxer"
+    IDS_US_STALLEDW4BR      "Blocat. S'està esperant la sol·licitud de blocatge."
+    IDS_US_STALLEDREADINGFDISK "Blocat. S'està llegint del disc."
+    IDS_SERVERFEATURE_INTTYPETAGS "Etiquetes de tipus d'enter"
+    IDS_FILLGRAPHS          "Dibuixa gràfics omplerts"
+    IDS_PARAMETER           "Paràmetre"
+    IDS_TEST                "Prova"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "Empra UPnP per a configurar els ports"
+    IDS_UPNPSETUP           "S'està intentant configurar les redireccions de ports amb UPnP..."
+    IDS_UPNPFAILED          "L'UPnP no ha pogut configurar les redireccions de ports, torneu a dirigir estos ports manualment si cal."
+    IDS_UPNPSUCCESS         "L'UPnP ha configurat amb èxit les redireccions pels ports %u (TCP) i %u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "Obri els ports en el tallafocs del Windows XP SP1."
+    IDS_UPNP_NOSERVICE      "El servici d'hoste del dispositiu UPnP no s'està executant; s'ometrà la configuració de l'UPnP"
+    IDS_DELAYEDBYUPNP       "La connexió a la xarxa s'ha endarreritdegut al fet que l'UPnP encara està ocupat configurant les redireccions dels ports."
+    IDS_DELAYEDBYUPNP2      "Espereu-vos uns segons, l'eMule es connectarà així que l'UPnP haja acabat."
+    IDS_UPNP                "UPnP"//.
+    IDS_UPNPCLOSEONEXIT     "Suprimeix les redireccions de ports UPnP quan surtis"
+    IDS_UPNPSKIPWANIP       "No configuris la IP de la WAN"
+    IDS_UPNPSKIPWANPPP      "No configuris el PPP de la WAN"
+    IDS_SHAREEMULELABEL     "Compartició de l'eMule amb altres usuaris"
+    IDS_SHAREEMULEMULTI     "Cada usuari té la seua pròpia configuració i baixades"
+    IDS_SHAREEMULEPUBLIC    "Tothom té la mateixa configuració i baixades"
+    IDS_SHAREEMULEOLD       "Alça la configuració i les baixades en el directori del programa"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "En canviar esta opció es permetrà a l'eMule utilitzar altra configuració diferent a l'actual, la qual s'ignorarà, i les baixades en curs deixaran de ser visibles. Podreu tornar a la vostra configuració actual canviant novament esta opció.\n\nCaldrà reiniciar l'eMule perquè els canvis siguen efectius."
+    IDS_SPAM                "Brossa"//.
+    IDS_MARKSPAM            "Marca com a brossa"
+    IDS_MARKNOTSPAM         "Marca com a no brossa"
+    IDS_SEARCHSPAMFILTER    "Activa el filtre de brossa per als resultats de les cerques"
+    IDS_SHOWSMILEYS         "Mostra les emoticones"
+    IDS_CAPTCHAREQUEST      "Per a evitar missatges no desitjats, este usuari et demana que resolguis un captcha. Escriviu ací les lletres de la imatge:"
+    IDS_CAPTCHAFAILED       "La resposta al captcha ha estat errònia, i s'ha ignorat el vostre missatge. Podeu demanar un captcha nou si envieu un missatge nou."
+    IDS_CAPTCHASOLVED       "Heu superat la prova del captcha i l'usuari ha rebut el vostre missatge."
+    IDS_USECAPTCHAS         "Sol·licita autenticació per captcha"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat des d'URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "S'estan baixant els nodes.dat des de %s"
+    IDS_DOWNLOADING_NODESDAT "S'estan baixant els nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "S'ha produït un error en baixar els nodes.dat des de %s"
+    IDS_PREVENTSTANDBY      "No suspenguis el sistema si l'eMule està funcionant"
+    IDS_KADID               "KadID"//.
+    IDS_SEARCHINGFRIENDKAD  "S'estan cercant amics a la xarxa Kad"
+    IDS_FOUND               "trobat"
+    IDS_EXTERNUDPPORT       "Port UDP extern"
+    IDS_STORESEARCHES       "Recorda les cerques obertes entre reinicis"
+    IDS_WRN_INCFILE_EXISTS  "Heu seleccionat una carpeta nova per als vostres fitxers entrants que no és buida. L'eMule compartirà automàticament tots els fitxers que hi haja en este directori."
+    IDS_EDITSPAMFILTER      "Edita el filtre de la brossa..."
+    IDS_EDITSPAMFILTERCOMMENTS "Modifica el filtre de brossa per als comentaris"
+    IDS_WIZZARDOBFUSCATION  "Activeu esta opció si voleu habilitar l'ofuscació de protocol\n\nSi el vostre proveïdor d'Internet intenta limitar o bloquejar l'eMule, l'ofuscació ajudarà a esquivar estes restriccions."
+    IDS_BETANAG             "Esta és una versió beta de l'eMule. Hauríeu d'informar sobre els possibles problemes i comprovar regularment si hi ha actualitzacions en el nostre fòrum (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "Voleu baixar i utilitzar els contactes de Kad (nodes.dat) de la següent adreça:\n%s ?"
+    IDS_AUTOMATIC           "Automàtic"
+    IDS_NOTCONNECTEDANY     "No esteu connectat a cap servidor ni a la xarxa Kad."
+    IDS_ERR_SHARED_DIR      "No s'ha pogut llegir el directori compartit «%s» - %s"
+    IDS_FILE_WARNING_DRM    "Pareix ser que el fitxer «%s» està protegit amb gestió de persmisos digital (Digital Rights Management).\r\n\r\nEl més probable és que no pugueu utilitzar-lo sense una llicència del creador. Hauríeu de tindre en compte que en obrir este fitxer, el vostre reproductor multimèdia segurament obrirà el navegador i vos durà al lloc web del creador, on se vos demanarà si voleu adquirir-ne una llicència.\r\n\r\nSegur que voleu continuar?"
+    IDS_CHECK_FILE_OPEN     "Mostra un avís en obrir fitxers que no siguen de confiança"
+    IDS_BOOTABLE            "permet l'arrencada"
+    IDS_UNSUPPORTEDIMAGE    "imatge no implementada"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "Unshare"
+    IDS_WEBUPNPINCLUDE      "Include port into UPnP setup"
+    IDS_ADDEDON             "Added On"
+    IDS_RESOLVELINKS        "Resolve shell links in shared directories"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "Download Commands"
+    IDS_CLOSETOOLBAR        "Close Toolbar"
+    IDS_SHOWTOOLBAR         "Show Toolbar"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "You cannot use the first keyword with an OR operator when searching on Kad!\n\nFor example ""Keyword1 OR Keyword2"" is not possible. Try ""Keyword1 AND (Keyword2 OR Keyword3)"" or do multiple searches instead."
+    IDS_DISCOVEREDBY        "Discovered by"
+    IDS_NODES               "Node(s)"
+    IDS_ROUTINGTABLE        "Routing Table"
+    IDS_PROTOCOLVERSION     "Protocol Version"
+    IDS_FOUNDNODESUSEFUL    "Found Nodes (useful)"
+    IDS_NORESPONSE          "No Response"
+    IDS_NOTASKED            "Not Asked"
+    IDS_LOOKUPGRAPH         "Search Details"
+    IDS_AUTOKADLOOKUPGRAPH  "Automatically show active searches"
+    IDS_PAUSEONPREVIEW      "Pause when preview possible"
+    IDS_PREVIEWWITH         "Preview with"
+    IDS_CLOSEEMULE          "Close eMule"
+    IDS_DONOTASKAGAIN       "Don't ask me again"
+    IDS_POPULARITY          "Popularity Rank"
+    IDS_SHOWWIN7TASKBARGOODIES "Enable Windows 7 taskbar effects"
+    IDS_LANMODE             "LAN Mode"
+    IDS_OPENPREFINI         "Open preferences.ini"
+END
+
+#endif    // Catalan resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

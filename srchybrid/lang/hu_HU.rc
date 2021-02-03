@@ -1,0 +1,2009 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "hu_HU.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Hungarian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HUN)
+#ifdef _WIN32
+LANGUAGE LANG_HUNGARIAN, SUBLANG_DEFAULT
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "hu_HU.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "Nem tudtam használatba venni a fájlleírót. (socket)"
+    IDS_ABOUTBOX            "&Az eMule névjegye..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s -> %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "Sikeres kapcsolat: %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "Név feloldás: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "Név feloldva %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "Kapcsolódás: %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "Átirányítás: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "Fájlinformációk gyűjtése"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR "Letöltési hiba, kód: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "Hiba történt a kapcsolódásnál, kód: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE
+                            "Érvénytelen válasz érkezett a kiszolgálótól."
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "Érvénytelen HTTP válasz érkezett a kiszolgálótól."
+    IDS_HTTPDOWNLOAD_ERROR_READFILE
+                            "A fájl letöltése közben hiba következett be, kód: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE
+                            "Kiszolgálók listájának frissítése: %s%% / %s kész"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "Fájl fogadása"
+    IDS_HTTPDOWNLOAD_OF     "%s / %s"
+    IDS_CANCEL              "Mégsem"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTP_CAPTION        "Kiszolgálók listájának frissítése"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s másolva)"
+    IDS_HSAV                "Hash-készlet elérhető"
+    IDS_FD_CORR             "Sérült"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "A megadott '%s' fájl már létezik.\nBiztosan felülírjam?"
+    IDS_FD_RECOV            "Helyreállított"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "A letöltendő fájl megnyitása nem sikerült, kód: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "Átvitel megszakítása"
+    IDS_FD_COMPR            "Tömörítés"
+    IDS_WIZARD_NETWORK      "Válaszd ki a használni kívánt hálózatot."
+    IDS_MAIN_READY          "eMule Verzió %s kész"
+    IDS_WIZARD_ED2K         "ED2k Beállítások"
+    IDS_SEL_SKIN            "Bőr kiválasztása"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_SOCKETERROR    "Végzetes hiba: Nem tudom létrehozni a fájlleírót (socket) a porton (%u)"
+    IDS_MAIN_BTN_DISCONNECT "&Megszakítás"
+    IDS_ERR_WRONGFILEID     "rossz fájlazonosító érkezett"
+    IDS_ERR_BADHASHSET      "sérült vagy hibás hash-szerkezet érkezett"
+    IDS_ERR_BADDATABLOCK    "sérült vagy hibás adatblokk érkezett"
+    IDS_ERR_ILLFORMEDHASH   "Beteg-szerkezetű hash"
+    IDS_ERR_BADED2KLINK     "Helytelen ed2k hivatkozás"
+    IDS_ERR_NOSLLINK        "A megadott hivatkozás nem ED2K kiszolgáló, sem fájl hivatkozás"
+    IDS_ERR_WRONGPACKETSIZE "Érvénytelen OP_FILEREQUEST csomagméret"
+    IDS_ERR_WRONGHPACKETSIZE "érvénytelen OP_HASHSETREQUEST csomagméret"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "Ismeretlen ügyfél kiterjesztett protokoll szerinti csomagokat küld"
+    IDS_ERR_OPENMET         "Hiba: Nem sikerült megnyitni a part.met fájlt! (%s => %s)"
+    IDS_ERR_BADMETVERSION   "Hiba: Érvénytelen part.met verzió! (%s => %s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION "Érvénytelen verziós server.met (0x%X)!"
+    IDS_SERVERSFOUND        "%u kiszolgáló található a server.met fájlban"
+    IDS_SERVERSADDED        "%u kiszolgáló hozzáadva, %u kiszűrve"
+    IDS_ERR_BADSERVERLIST   "Hiba: a server.met kiszolgáló lista megsérült, nem lehet kiszolgáló listát betölteni"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "Váratlan fájlhiba következett be a server.met fájl olvasása közben: %s, nem lehet kiszolgáló listát beltölteni"
+    IDS_ERR_SAVESERVERMET   "A server.met fájl elmentése nem sikerült!"
+    IDS_PASSIVE             "Passzív"
+    IDS_MAIN_BTN_CANCEL     "&Mégse"
+    IDS_AVAIL               "Részek: %u , elérhető: %u (%.1f%%)\n\n"
+    IDS_TYPE                "Típus"
+    IDS_FILEID              "Fájlazonosító"
+    IDS_FILE                "Fájl"
+    IDS_DOWNLOAD            "Letöltés"
+    IDS_SL_SERVERNAME       "Kiszolgáló neve"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IP                  "IP cím"
+    IDS_DESCRIPTION         "Leírás"
+    IDS_PING                "Ping"
+    IDS_FILES               "Fájlok"
+    IDS_PREFERENCE          "Preferencia"
+    IDS_PRIONOPREF          "Nincs Pref."
+    IDS_CONNECTTHIS         "Kapcsolódás a kijelölt kiszolgálóhoz"
+    IDS_MAIN_BTN_CONNECT    "&Kapcsolódás"
+    IDS_ERR_SAVESERVERMET2  "Nem lehet elmenteni a server.met fájlt! Töröld le a server.met fájlt és nevezd át a server.met.old fájlt server.met-re!"
+    IDS_NOTCONNECTED        "Nincs kapcsolat"
+    IDS_DISCONNECTED        "Szétkapcsolva"
+    IDS_USERS               "Ügyfelek: %u"
+    IDS_UPDOWN              "Fel: %.1f(%.1f) | Le: %.1f(%.1f)"
+    IDS_CONNECTED           "Kapcsolódva"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_WRITEERROR      "Váratlan fájlhiba íráskor %s : %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "Váratlan fájlhiba a fájl befejezése közben: %s. Fájl megállítva, indítsa újra az eMule-t a befejezés újraindításához"
+    IDS_ERR_DELETEFAILED    "Nem sikerült letörölni: %s, ezt majd önnek kell letörölnie."
+    IDS_DOWNLOADDONE        "Letöltés befejezése %s :-)"
+    IDS_ERR_DELETE          "Nem sikerült letörölni: %s"
+    IDS_ERR_HASHERRORWARNING
+                            "Figyelmeztetés: A letöltött részt nem lehet HASH-elni - Hash-szerkezet hiányos (%s)."
+    IDS_ERR_INCOMPLETEHASH  "Hiba: A letöltött részt nem lehet HASH-elni - Hash-szerkezet hiányos (%s). Ennek soha nem szabadna megtörténnie"
+    IDS_DOWNLOADING         "Letöltés"
+    IDS_WAITING             "Várakozás"
+    IDS_HASHING             "Hash-elés"
+    IDS_COMPLETING          "Befejezés"
+    IDS_COMPLETE            "Befejezve"
+    IDS_PAUSED              "Szünetelve"
+    IDS_ERRORLIKE           "Hibás"
+    IDS_ASSIGNED2K          "Az ED2K hivatkozások nincsenek az eMule-hoz társítva. Létrehozzuk a társítást most ? (ajánlott)"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "Nem található kiszolgáló-lista-hivatkozás bejegyzés az 'addresses.dat' fájlban. Írj érvényes kiszolgáló-lista-hivatkozást a fájlba, hogy automatikusan frissítse a kiszolgálók listáját"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LINKNOTADDED        "A hivatkozás hozzáadása nem sikerült"
+    IDS_MAIN_EXIT           "Biztosan kilépsz az eMule programból?"
+    IDS_MAIN_POPUP_RESTORE  "Helyreállítás"
+    IDS_CONNECTTOANYSERVER  "Kapcsolódás bármely kiszolgálóhoz"
+    IDS_EXIT                "Kilépés"
+    IDS_CONNECTING          "Kapcsolódás"
+    IDS_FAILED              "sikertelen"
+    IDS_ERR_BADSERVERREPLY  "Sérült vagy érvénytelen válasz érkezett a kiszolgálótól a belépési kérésünkre"
+    IDS_NEWCLIENTID         "Az új ügyfélazonosító: %u"
+    IDS_SHAREDFOLDERS       "Megosztott mappák"
+    IDS_VIEW1               "Megtekintés "
+    IDS_VIEW2               " (nem megosztott)"
+    IDS_PRIOLOW             "Alacsony"
+    IDS_PRIONORMAL          "Normális"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOHIGH            "Magas"
+    IDS_DOWNLOADMENUTITLE   "Letöltések"
+    IDS_PRIORITY            "Prioritás"
+    IDS_NEWSERVERS          "%u új kiszolgáló érkezett"
+    IDS_DL_STOP             "&Megállít"
+    IDS_DL_PAUSE            "&Szüneteltet"
+    IDS_DL_RESUME           "Új&raindít"
+    IDS_DL_OPEN             "&Fájl megnyitása"
+    IDS_DL_INFO             "Fájl &tulajdonságai"
+    IDS_DL_CLEAR            "K&ész törlése"
+    IDS_DL_LINK1            "ED2k &hivatkozás másolása vágólapra"
+    IDS_DL_LINK2            "ED2k h&ivatkozás másolása vágólapra (HTML)"
+    IDS_SHOWDETAILS         "&Részletek"
+    IDS_SEND_MSG            "Üzenet &küldése"
+    IDS_ASKING              "Engedély kérése"
+    IDS_CONNVIASERVER       "Kapcsolódás a kiszolgálón kereszetül"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ONQUEUE             "Sorban áll"
+    IDS_TRANSFERRING        "Átvitel"
+    IDS_RECHASHSET          "Hash-szerkezet fogadása"
+    IDS_NONEEDEDPARTS       "Nem rendelkezik a szükséges szelettel"
+    IDS_NOCONNECTLOW2LOW    "Nem tudunk kapcsolódni, mert mindkét ügyfélazonosító alacsony"
+    IDS_UNKNOWN             "Ismeretlen"
+    IDS_ASKED4ANOTHERFILE   "Engedélyt kér egy másik fájlra"
+    IDS_Q_CANCELDL          "Biztos, hogy megszakítja és törli ezt a fájlt?\n"
+    IDS_Q_CANCELDL2         "Biztos, hogy megszakítja és törli ezt a fájlt?\n"
+    IDS_DL_FILENAME         "Fájlnév"
+    IDS_DL_SIZE             "Méret"
+    IDS_DL_TRANSF           "Letöltve"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_SPEED            "Sebesség"
+    IDS_DL_PROGRESS         "Folyamat"
+    IDS_DL_SOURCES          "Források"
+    IDS_ERR_BADSERVERLISTRECEIVED
+                            "Érvénytelen kiszolgáló lista csomag érkezett"
+    IDS_STATUS              "Állapot"
+    IDS_DL_REMAINS          "Hátra van még"
+    IDS_UPDATEFROM          "Frissítés URL-ről: (filter.dat vagy PeerGuardian formátum)"
+    IDS_QL_USERNAME         "Felhasználó neve"
+    IDS_QL_RATING           "Osztályzat"
+    IDS_CONNECTINGTO        "Kapcsolódás a következőhöz: %s (%s:%u)..."
+    IDS_CLIENTS             "Ügyfelek"
+    IDS_SEARCH_ANY          "Bármely"
+    IDS_SEARCH_AUDIO        "Hang"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "Kép"
+    IDS_SEARCH_PRG          "Program"
+    IDS_SEARCH_VIDEO        "Film"
+    IDS_SEARCH_CDIMG        "ISO"
+    IDS_SEARCH_ARC          "Arhivált anyagok"
+    IDS_ERR_INVALIDLINK     "A megadott ed2k hivatkozás érvénytelen (%s)"
+    IDS_ERR_LINKERROR       "Érvénytelen hivatkozás: %s"
+    IDS_ERR_NOTCONNECTED    "Nincs kapcsolat kiszolgálóval!"
+    IDS_REMOVETHIS          "Kijelölt kiszolgáló törlése"
+    IDS_REMOVEALL           "Összes kiszolgáló törlése"
+    IDS_SRV_ADDR            "Kiszolgáló címének megadása"
+    IDS_SRV_PORT            "Hiányzik a kiszolgáló portja: adjon meg portot"
+    IDS_SRV_NOTADDED        "Kiszolgáló nem lett hozzáadva!"
+    IDS_SRV_NOURLAV         "Nincs elérhető hivatkozás."
+    IDS_INVALIDURL          "Érvénytelen hivatkozás"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET "A kiszolgáló lista letöltése sikertelen: %s"
+    IDS_PERMISSION          "Engedély"
+    IDS_SHAREDFILES         "Megosztott fájlok"
+    IDS_PRIOVERYLOW         "Nagyon alacsony"
+    IDS_PRIORELEASE         "Felold"
+    IDS_FSTATUS_FRIENDSONLY "Csak barátoknak"
+    IDS_ERR_RENAMESF        "Átnevezés sikertelen:\r\n    ""%s""\r\n ->\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "elérhető"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FSTAT_TRANSFER      "Átvitel"
+    IDS_CONNECTIONS         "Kapcsolat"
+    IDS_FSTAT_SERVERS       "Kiszolgálók"
+    IDS_FSTAT_WAITING       "Várakozás..."
+    IDS_TIME                "Idő"
+    IDS_STATS_DDATA         "Fogadott adat: %s"
+    IDS_STATS_UDATA         "Feltöltött adat (Most): %s"
+    IDS_STATS_AVGDL         "Átlagos letöltési sebesség (Most): %s"
+    IDS_STATS_AVGUL         "Átlagos feltöltési sebesség (Most): %s"
+    IDS_STATS_FOUNDSRC      "Talált források száma: %u"
+    IDS_STATS_ACTDL         "Aktív letöltések (szeletek): %u"
+    IDS_STATS_ACTUL         "Aktív feltöltések: %u"
+    IDS_STATS_WAITINGUSERS  "Feltöltésre vár: %u"
+    IDS_STATS_RECONNECTS    "Újrakapcsolódik: %u"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "Ismeretlen: %u"
+    IDS_STATS_TOTAL         "Összesen: %u"
+    IDS_DISABLED            "letiltva"
+    IDS_STOPPED             "leállítva"
+    IDS_STATS_UPDATELABEL   "Frissítési szünet: %us"
+    IDS_ASKEDFAF            "\nEngedélyt kér egy másik fájlra"
+    IDS_WAITED              "Várakozott"
+    IDS_ERR_LOADCREDITFILE  "Nem sikerült a kreditfájl betöltése, ezért újat hozok létre"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "A kreditfájl már lejárt és ki lesz cserélve"
+    IDS_CREDITFILELOADED    "Kreditfájl betöltve, %u ügyfélt felismerek"
+    IDS_CREDITFILECORRUPT   "Hiba: a kreditfájl megsérült is ki lesz cserélve!"
+    IDS_ERR_CREDITFILEREAD  "Váratlan hiba következett be a kreditfájl olvasása közben: %s"
+    IDS_ERR_FAILED_CREDITSAVE "Nem sikerült a kreditfájl elmentése"
+    IDS_NOPARTSFOUND        "Nem találtam fájlszeletet"
+    IDS_FOUNDPARTS          "%u fájlszeletet találtam"
+    IDS_NEWDOWNLOAD         "Letöltés %s"
+    IDS_ERR_ALREADY_DOWNLOADING "Ez a fájl már a letöltési listában van %s"
+    IDS_ERR_ALREADY_DOWNLOADED "Ezt a fájlt már egyszer letöltötted %s"
+    IDS_ERR_SERVERMET_BAD   "Hiba: a known.met fájl megsérült, nem lehet betölteni a meglévő fájlokat"
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "Váratlan fájlhiba a known.met olvasása közben: %s, nem lehet betölteni a meglévő fájlokat"
+    IDS_ERR_CONNECTIONERROR "Hiba kapcsolódáskor: %s (%s:%u): %s"
+    IDS_ERR_SOCKET          "Hiba a kiszolgáló fájlleírójában (socket): %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "%u meglévő fájlt találtam"
+    IDS_SHAREDFOUNDHASHING  "%u meglévő fájlt találtam, %u új fájlt újrahash-elek"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "hiányos blokkot kért "
+    IDS_ERR_OPEN            "nem sikerült megnyitni a kért fájlt"
+    IDS_ERR_CLIENTERRORED   "'%s' ügyfél hibát okozott a csomag létrehozása közben (%s) - megszakítom a kapcsolatot a klienssel!"
+    IDS_ERR_REQ_FNF         "a kért fájl nem található"
+    IDS_DESC                "Leírás: %s"
+    IDS_PORT                "Port"
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "Nem található érvényes kiszolgáló a kiszolgáló listában, amihez kapcsolódni lehetne."
+    IDS_CONNECTEDTOREQ      "Kapcsolódás %s (%s:%u), bejelentkezési kérés küldése"
+    IDS_ERR_FATAL           "Végzetes hiba kapcsolódás közben. Lehet, hogy megszakadt az internet kapcsolat."
+    IDS_ERR_LOSTC           "Elvesztettük a következő kapcsolatot: %s (%s:%u)"
+    IDS_ERR_DEAD            "%s (%s:%u) Úgy tűnik, ez halott."
+    IDS_ERR_FULL            "%s (%s:%u) Úgy tűnik, ez tele van."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_METCORRUPT      "Hiba: %s (%s) megsérült, a fájl betöltése nem lehetséges"
+    IDS_ERR_FILEERROR       "Váratlan fájlhiba olvasás közben: %s (%s): %s"
+    IDS_ERR_FILEOPEN        "Nem sikerült megnyitni: %s (%s)"
+    IDS_SEL_SKINDIR         "Bőr mappa kiválasztása"
+    IDS_ERR_REHASH          "Figyelmeztetés: %s lehet, hogy megsérült, újrahesh-elem a meglévő részeket"
+    IDS_SKIN_PROF           "Bőrprofilok"
+    IDS_ERR_PART_FNF        ".part fájlt nem találtam"
+    IDS_KADOPEN             "Megnyitás"
+    IDS_ERR_SAVEMET         "HIBA: nem található met fájl: %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "Sérült részt találtam (%u) ebben: %s"
+    IDS_HASHINGDONE         "Hash-elés befejezése %s, úgy tűnik a fájl rendben van"
+    IDS_ERR_PARTCORRUPT     "A letöltött szelet sérült (%u) :(  (%s)"
+    IDS_ICHWORKED           "ISK: megsérült szelet helyreállítása %u  (%s), Saved: %s"
+    IDS_ERR_OUTOFSPACE      "Nincs elég szabad lemezterület a letöltéshez: %s!"
+    IDS_SE                  "Forrás-csere"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONNECTEDTO         "Kapcsolat létrehozva: %s"
+    IDS_DL_PREVIEW          "Előnézet"
+    IDS_VIEWQUEUE           "Sor megtekintése"
+    IDS_TW_UPLOADS          "Feltöltések"
+    IDS_TW_DOWNLOADS        "Letöltések"
+    IDS_TW_QUEUE            "Várakozó ügyfelek:"
+    IDS_SW_SEARCHBOX        "Keresés"
+    IDS_SW_NAME             "Név"
+    IDS_SW_GLOBAL           "Globális keresés"
+    IDS_SW_DIRECTDOWNLOAD   "Közvetlen letöltés"
+    IDS_SW_LINK             "ED2K hivatkozás"
+    IDS_SW_START            "Keresés"
+    IDS_SCHEDULER           "Ütemező"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC                 "Csevegés"
+    IDS_SW_RESULT           "Keresési eredmény"
+    IDS_SW_DOWNLOAD         "Kijelölt letöltése"
+    IDS_SV_SERVERLIST       "Kiszolgálólista"
+    IDS_SV_SERVERINFO       "Kiszolgálóinfó"
+    IDS_SV_LOG              "Napló"
+    IDS_SV_NEWSERVER        "Új kiszolgáló"
+    IDS_SV_ADDRESS          "IP vagy cím"
+
+    IDS_SV_ADD              "Hozzáadás"
+    IDS_SV_MET              "Server.met frissítése hivatkozásból"
+    IDS_SV_UPDATE           "Frissítés"
+    IDS_SF_FILES            "Megosztott fájlok"
+    IDS_SF_STATISTICS       "Statisztika"
+    IDS_SF_RELOAD           "Újratöltés"
+    IDS_SF_CURRENT          "Jelenlegi kapcsolat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPEED_LIMITS        "Sebességkorlátozás"
+    IDS_CAPACITY_LIMITS     "Sávszélesség korlátozása"
+    IDS_ADMIN               "Rendszergazda"
+    IDS_ACCESSDENIED        "Hozzáférés megtagadva!"
+    IDS_WEB_LOWUSER         "Vendég"
+    IDS_WEB_ERR_CANTLOAD    "Sablon betöltése sikertelen: Nem lehet megnyitni: %s"
+    IDS_GLOBALSEARCH        "Globális"
+    IDS_METHOD              "Metódus"
+    IDS_UNDO                "Visszacsinál"
+    IDS_DAYLY               "naponta"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_MO_FR           "H-P"
+    IDS_DAY_SA_SO           "Szo-V"
+    IDS_MO                  "Hétfő"
+    IDS_DI                  "Kedd"
+    IDS_MI                  "Szerda"
+    IDS_DO                  "Csütörtök"
+    IDS_FR                  "Péntek"
+    IDS_SA                  "Szombat"
+    IDS_SO                  "Vasárnap"
+    IDS_WEB_ADMINLOGIN      "Webkiszolgáló rendszergazda neve"
+    IDS_WEB_GUESTLOGIN      "Webkiszolgáló vendég neve"
+    IDS_WEB_SESSIONEND      "Webkiszolgáló: Kilépés"
+    IDS_DETAILS             "Részletek"
+    IDS_ACTION              "Parancsok"
+    IDS_REMOVE              "Törlés"
+    IDS_NEW                 "Új"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TOTAL            "Összesen"
+    IDS_SF_TRANS            "Áttöltve:"
+    IDS_SF_ACCEPTED         "Elfogadott feltöltések:"
+    IDS_SF_REQUESTED        "Kérések:"
+    IDS_ST_DOWNLOAD         "Letöltési sebesség"
+    IDS_ST_UPLOAD           "Feltöltési sebesség"
+    IDS_ST_CURRENT          "jelenlegi"
+    IDS_ST_SESSION          "jelenlegi átlag"
+    IDS_ST_ACTIVED          "aktív letöltés"
+    IDS_ST_ACTIVEU          "aktív feltöltés"
+    IDS_CW_MESSAGES         "Üzenetek"
+    IDS_CW_FRIENDS          "Barátok"
+    IDS_CW_SEND             "Küldés"
+    IDS_CW_CLOSE            "Bezár"
+    IDS_PW_GENERAL          "Általános"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_DIR              "Mappák"
+    IDS_PW_NICK             "Becenév"
+    IDS_PW_INCOMING         "Érkező fájlok"
+    IDS_PW_TEMP             "Ideiglenes fájlok"
+    IDS_PW_BROWSE           "Tallóz"
+    IDS_PW_SHARED           "Megosztott mappák"
+    IDS_CONNECTION          "Kapcsolat"
+    IDS_PW_DOWNL            "Letöltési korlát"
+    IDS_PW_UPL              "Feltöltési korlát"
+    IDS_PW_MAXC             "Kapcsolatok max. száma"
+    IDS_PW_CLIENTPORT       "Ügyfélport"
+    IDS_PW_AUTOCON          "Indításkor automatikus kapcsolódás"
+    IDS_PW_RECON            "Ledobás esetén újrakapcsolódás"
+    IDS_PW_SERVER           "Kiszolgáló"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_RDEAD            "Halott kiszolgáló törlése"
+    IDS_PW_RETRIES          "próbálkozás után"
+    IDS_PW_SCORE            "Prioritásos rendszer"
+    IDS_PW_USC              "Kiszolgáló lista frissítése kiszolgálóhoz való kapcsolódáskor"
+    IDS_PW_UCC              "Kiszolgáló lista frissítése ügyfélhez való kapcsolódáskor"
+    IDS_PW_FILTER           "Helyi hálózati címek szűrése kiszolgálók és ügyfelek esetén"
+    IDS_PW_USS              "Kiszolgáló lista frissítése automatikusan induláskor"
+    IDS_PW_MISC             "Egyéb lehetőségek"
+    IDS_PW_TRAY             "Minimali&zál tálcára"
+    IDS_PW_PROMPT           "Kilépésnél megerősítésre vár"
+    IDS_PW_SPLASH           "Nyitóképernyő megjelenítése"
+    IDS_PW_DBLCLICK         "Letöltési listában duplaklikkel való kibontás"
+    IDS_PW_TOOL             "Segítség késleltetése (mp)"
+    IDS_PW_FRONT            "Előrehoz klikkeléskor"
+    IDS_PW_LANG             "Nyelv"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_FILES            "Fájlok"
+    IDS_PW_SHARE            "Megosztás megtekintése"
+    IDS_PW_EVER             "Bárki"
+    IDS_PW_FRIENDS          "Barátok"
+    IDS_PW_NOONE            "Senki"
+    IDS_PW_RESET            "Eredeti"
+    IDS_PW_APPLY            "Alkalmaz"
+    IDS_EM_TRANS            "&Forgalom"
+    IDS_EM_SERVER           "K&iszolgálók"
+    IDS_EM_SEARCH           "K&eresés"
+    IDS_EM_FILES            "&Megosztás"
+    IDS_EM_MESSAGES         "Ü&zenetek"
+    IDS_EM_STATISTIC        "&Statisztika"
+    IDS_EM_PREFS            "&Beállítások"
+    IDS_MB_LANGUAGEINFO     "Alapértelmezett nyelv kiválasztva. Ezt a beállítást bármikor megváltoztathatja a beállítások fülben."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_GENERAL          "Általános"
+    IDS_FD_MET              "met-fájl:"
+    IDS_FD_HASH             "Hash:"
+    IDS_FD_SIZE             "Fájlméret:"
+    IDS_FD_TRANSFER         "Átvitel"
+    IDS_FD_PARTS            "Részek:"
+    IDS_FD_TRANS            "Átvitel:"
+    IDS_FD_DATARATE         "Adat ráta:"
+    IDS_FD_COMPSIZE         "Teljes méret:"
+    IDS_FD_CLOSE            "Bezár"
+    IDS_FD_TITLE            "Fájl részletei"
+    IDS_CD_GENERAL          "Általános"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "Felhasználó neve:"
+    IDS_CD_UHASH            "Felhasználó hash:"
+    IDS_CD_CSOFT            "Ügyfélszoftver"
+    IDS_CD_UIP              "IP cím:"
+    IDS_CD_SIP              "Kiszolgáló IP:"
+    IDS_CD_VERSION          "Ügyfélverzió:"
+    IDS_CD_SNAME            "Kiszolgáló neve:"
+    IDS_CD_CDOWN            "Jelenleg letöltés alatt:"
+    IDS_CD_DOWN             "Letöltve (most):"
+    IDS_CD_ADOWN            "Átlagos letöltési ráta:"
+    IDS_CD_TDOWN            "Összes letöltés:"
+    IDS_CD_UP               "Feltöltve (most):"
+    IDS_CD_AUP              "Átlagos feltöltési ráta:"
+    IDS_CD_TUP              "Összes feltöltés:"
+    IDS_CD_TRANS            "Átvitel"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_SCORES           "Pontszám"
+    IDS_CD_MOD              "Letöltés/Feltöltés módifikáló:"
+    IDS_CD_RATING           "Osztályzat (összesen):"
+    IDS_CD_USCORE           "Feltöltési sor pontszám:"
+    IDS_CD_TITLE            "Kliens részletei"
+    IDS_EMULEW              "Klikkelj ide:"
+    IDS_EMULEW2             "ha ellenőrizni szeretnéd, hogy elérhető-e már frissebb verzió"
+    IDS_EMULEW3             "ide"
+    IDS_PW_MAXSOURCES       "Max. forrás/fájl"
+    IDS_SHAREDFILESCOUNT    "Összes megosztott fájl száma: %u"
+    IDS_SF_SIZE             "Összes megosztott fájl mérete: %s"
+    IDS_ERR_BADPORT         "rossz port szám"
+    IDS_ERR_NOHELLO         "Helló nélküli kérés"
+    IDS_ERR_INVALIDPACKET   "Érvénytelen vagy sérült csomag érkezett"
+    IDS_ERR_CLIENTERROR     "'%s' (IP:%s) ügyfél hibát okozott: %s. Megszakítom a kapcsolatot az ügyféllel!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSIZE         "Érvénytelen méret (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "Nem fájlhivatkozás"
+    IDS_ERR_CREATEPARTFILE  "Hiba: Nem sikerült a részfájlt létrehozni)"
+    IDS_CHAT_START          "*** Csevegés kezdődik : "
+    IDS_FILEPRIO            "Fájl prioritása"
+    IDS_SCORE               "Pontszám"
+    IDS_ASKED               "Kérve"
+    IDS_LASTSEEN            "Utoljára látták"
+    IDS_BANNED              "Kitiltva"
+    IDS_UUSERS              "Felhasználók"
+    IDS_UFAILED             "Sikertelen"
+    IDS_OPENFILE            "Fájl megnyitása"
+    IDS_DATE                "Dátum"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PARTINFOS           "Részfájlnév:"
+    IDS_PARTINFOS2          "Letöltés (%u forrásból)"
+    IDS_USERID              "Ügyfélazonosító"
+    IDS_CLIENT              "Ügyfél"
+    IDS_SERVER              "Kiszolgáló"
+    IDS_SOURCEINFO          "Kérések száma: %ux - Rendelkezésre álló szeletek száma: %u"
+    IDS_CLIENTSOURCENAME    "\nÜgyfél fájlneve: "
+    IDS_USERINFO            "Becenév: %s\n"
+    IDS_FILESTATS_SESSION   "Statisztika most: Kérések elfogadva: %u  / %u, %s áttöltve\n"
+    IDS_FILESTATS_TOTAL     "Statisztika összesen: Kérések elfogadva: %u / %u, %s áttöltve"
+    IDS_REQ_UNKNOWNFILE     "Ismeretlen fájlt kért"
+    IDS_SF_AVERAGESIZE      "Átlagos fájlméret: %s"
+    IDS_SF_REQUESTS         "Kérések"
+    IDS_SF_ACCEPTS          "Elfogadott kérések"
+    IDS_SF_TRANSFERRED      "Átvitt adat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REMOVESEARCHSTRING  "Keresési eredmény bezárása"
+    IDS_REMOVESELECTED      "Kijelöltek bezárása"
+    IDS_REMOVEALLSEARCH     "Összes bezárása"
+    IDS_ENTERQUEUE          "Beállt a sorba"
+    IDS_SF_FAIL             "Sikertelen kiszolgálók"
+    IDS_SF_WUSER            "Felhasználók működő kiszolgálókon"
+    IDS_SF_WFILE            "Fájlok működő kiszolgálókon"
+    IDS_SF_USER             "Összes felhasználó"
+    IDS_SF_FILE             "Összes fájl"
+    IDS_UPLOADTIME          "Feltöltési idő"
+    IDS_LASTSEENCOMPL       "Legutoljára teljes láttam:"
+    IDS_YES                 "Igen"
+    IDS_NO                  "Nem"
+    IDS_UNBAN               "Kitiltás megszüntetése"
+    IDS_SF_WORKING          "Működő kiszolgálók"
+    IDS_ADDTOSTATIC         "Hozzáadás az állandó kiszolgálók listájához"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDED2SSF           "Hozzáadva az állandó kiszolgálók listájához"
+    IDS_STATICSERVER        "Állandó"
+    IDS_ERROR_SSF           "Nem sikerült megnyitni a staticservers.dat fájlt"
+    IDS_SF_ACTIVECON        "Aktív kapcsolatok (becslés)"
+    IDS_SF_MAXCONLIMITREACHED
+                            "Maximális kapcsolódások száma elérte a korlátot"
+    IDS_SF_AVGCON           "Kapcsolatok átlagos száma (becslés)"
+    IDS_SF_PEAKCON          "Kapcsolatok csúcsa (becslés)"
+    IDS_ST_ACTIVEC          "aktív kapcsolatok"
+    IDS_NETWORK             "Hálózat"
+    IDS_SF_DELCOUNT         "Törölt kiszolgálók"
+    IDS_QUEUEFULL           "A sor megtelt"
+    IDS_AVG                 "Átlagos"
+    IDS_BYTES               "Bájt"
+    IDS_KBYTES              "KB"
+    IDS_MBYTES              "MB"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GBYTES              "GB"
+    IDS_TBYTES              "TB"
+    IDS_SECS                "s"
+    IDS_MINS                "m"
+    IDS_HOURS               "h"
+    IDS_DAYS                "nap"
+    IDS_ED2KLINKFIX         "ED2K hivatkozás"
+    IDS_RECONNECT           "Automatikus kapcsolódás megismétlése %u másodperc múlva"
+    IDS_SERVERADDED         "Kiszolgáló hozzáadva: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "Belépések megjelenítésének mellőzése"
+    IDS_STATS_SUCCUPCOUNT   "Összes sikeres feltöltési próbálkozás: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "Távozások megjelenítésének mellőzése"
+    IDS_STATS_FAILUPCOUNT   "Összes sikertelen feltöltési próbálkozás: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "Átlagos feltöltési idő: %s"
+    IDS_SEARCHMINSIZE       "min. méret"
+    IDS_SEARCHMAXSIZE       "max. méret"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PREF_ONLINESIG      "Online-aláírás engedélyezése"
+    IDS_ERROR_SAVEFILE      "Nem lehetett elmenteni"
+    IDS_REQ_SHAREDFILES     "%s (%u) lekérdezte a megosztott fájlaid listáját -> %s"
+    IDS_ACCEPTED            "elfogadva"
+    IDS_DENIED              "megtagadva"
+    IDS_PW_CON_DOWNLBL      "Letöltés"
+    IDS_PW_CON_UPLBL        "Feltöltés"
+    IDS_PW_AUTOCONNECTSTATICONLY
+                            "Csak statikus kiszolgálókhoz kapcsolódjon automatikusan"
+    IDS_PW_CON_LIMITFRM     "Korlátok"
+    IDS_STATS_AVGLABEL      "Az átlag grafikon ideje: %u perc"
+    IDS_GRAPHS              "Grafikonok"
+    IDS_STREE               "Statisztika fa"
+    IDS_IRC_IGNOREQUITMESSAGE "Kilépési üzenetek mellőzése"
+    IDS_STATSSETUPINFO      "A statisztika kijelző beállítása"
+    IDS_IRC_SOUNDEVENTS     "Hangjelzés, ha esemény van"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "Próbáld meg előbb letölteni az első és utolsó szeleteket"
+    IDS_RECOVER_SINGLE      "1 fájl megmentve."
+    IDS_RECOVER_MULTIPLE    "%u fájl megmentve."
+    IDS_ATTEMPTING_RECOVERY "Próbálkozás tömörítvény megmentésére..."
+    IDS_RECOVERY_SUCCESSFUL "Tömörítvény megmentve."
+    IDS_RECOVERY_FAILED     "Tömörítvény megmentése sikertelen."
+    IDS_STARTNEXTFILE       "Következő szünetelt fájl letöltése ha az előzőt befejezte"
+    IDS_FULLCHUNKTRANS      "Megpróbál teljes szeleteket feltölteni"
+    IDS_MANUALSERVERHIGHPRIO
+                            "Kézzel hozzáadott kiszolgálók legyenek magas priorításúak"
+    IDS_VERBOSE             "Részletes (további programinfó)"
+    IDS_FLAT                "lapos"
+    IDS_ROUND               "kerek"
+    IDS_SAMEUSERHASH        "'%s' és '%s' klienseknek ugyanazzal a hashhel vagy IP-vel rendelkezik - eltávolítva: '%s'"
+    IDS_SEARCHEXTENTION     "Kiterjesztés"
+    IDS_SEARCHAVAIL         "Hozzáférhetőség"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDLIMIT           "Szigorú korlát"
+    IDS_COL_MORECOLORS      "tovább..."
+    IDS_TOOMANYCONNS        "Túl sok a kapcsolat"
+    IDS_DOWNLOADRENAMED     "Ilyen nevű fájl már létezik, ezért a következő néven mentettem el: %s"
+    IDS_TBN_DOWNLOADDONE    "Letöltve:"
+    IDS_PW_TBN_USESOUND     "Hangok használata"
+    IDS_PW_TBN_ONLOG        "Új bejegyzés kerül a naplóba"
+    IDS_PW_TBN_ONCHAT       "Valaki csevegést kezdeményez"
+    IDS_PW_TBN_POP_ALWAYS   "Valaki csevegéskor új üzenetet küld"
+    IDS_PW_TBN_ONDOWNLOAD   "Egy letöltés befejeződik"
+    IDS_PW_EKDEV_OPTIONS    "Figyelmeztetések"
+    IDS_PW_TASKBARNOTIFIER  "Üzenet felugrása"
+    IDS_PW_TBN_OPTIONS      "Felugrik, ha"
+    IDS_TBN_NEWCHATMSG      "Üzenet érkezett:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_CON_CAPFRM       "Kapacitások"
+    IDS_IRC_PRIVATECHANSTART "* Privát csevegés kezdődik"
+    IDS_IRC_SLAPMSG         "* %s jól pofánvágja %s gyereket egy bazinagy furkósbottal!"
+    IDS_IRC_PRIVMESSAGE     "Privát üzenet"
+    IDS_IRC_KICK            "Kirúg"
+    IDS_IRC_SLAP            "Csap"
+    IDS_IRC_JOIN            "Belépés"
+    IDS_IRC_CHANNELLIST     "Szobák listája"
+    IDS_IRC_CONNECT         "Kapcsolódás"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_DISCONNECT      "Megszakítás"
+    IDS_IRC_HASJOINED       "* %s belépett %s"
+    IDS_IRC_HASPARTED       "* %s elhagyta %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s ki lett rúgva %s által (%s)"
+    IDS_IRC_HASQUIT         "* %s kilépett (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s most már %s lett"
+    IDS_IRC_SETSMODE        "* %s operátorkodik: %s %s"
+    IDS_IRC_NOTSUPPORTED    "** Némely beállítás még nem teljesen támogatott. Hagyd el a szobát és lépj be újra, hogy a becenevek listája frissüljön..."
+    IDS_IRC_CHANNEL         "Szoba"
+    IDS_IRC_NICK            "Becenév"
+    IDS_IRC_SEND            "Küldés"
+    IDS_IRC_NAME            "Név"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION jól pofánvágja %s gyereket egy bazinagy furkósbottal!\001"
+    IDS_IRC_ADDTIMESTAMP    "Időbélyeg használata"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_USEFILTER       "Szobalista szűrő használata"
+    IDS_IRC_PERFORM         "Végrehajtás"
+    IDS_IRC_USEPERFORM      "Kapcsolódás után automatikusan hajtsa végre"
+    IDS_IRC_ADDTOFRIENDLIST "Barátok hozzáadása"
+    IDS_IRC_LOADCHANNELLISTONCON "Kapcsolódáskor szobalista letöltése"
+    IDS_IRC_ADDASFRIEND     "hozzáadott barátaihoz!"
+    IDS_PW_WARNING          "Az a szám amit megadtál (""%s"") nagyobb, mint amit az Operációs Rendszered támogatni képes:  %u\nEttől a rendszered instabillá válhat.\n\nBiztos vagy benne, hogy ezt akarod?"
+    IDS_TAKEOVER            "Átvesz"
+    IDS_CLEANUP             "Takarítás"
+    IDS_RENAME              "Átnevez"
+    IDS_IRC_ADDLINKTOIRC    "IRC vágólapra másolás, így bemásolhatom majd a barátaimnak."
+    IDS_IRC_SENDLINK        "Ajánld barátaidnak is: "
+    IDS_IRC_RECIEVEDLINK    "%s elküldve (%s) automatikusan elindítva."
+    IDS_IRC_ACCEPTLINKS     "ED2K hivatkozások fogadása IRC-en. (Légy óvatos!)"
+    IDS_SHARED              "Megosztva"
+    IDS_DOWNLOADED          "Letöltve"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCENAMES         "Forrásnevek"
+    IDS_PREF_STARTMIN       "Indítás ikonként"
+    IDS_PS_TBN_IMPORTANT    "Sürgős: Nincs szabad lemezterület vagy a kapcsolat kiszolgálóval megszakadt stb."
+    IDS_COLORS              "Színek"
+    IDS_SP_BACKGROUND       "Háttér"
+    IDS_SP_GRID             "Rács"
+    IDS_SP_DL1              "Letöltési áram"
+    IDS_SP_DL2              "Átlagos letöltési idő"
+    IDS_SP_DL3              "Átlagos letöltési idő (szakasz)"
+    IDS_SP_UL1              "Feltöltési áram"
+    IDS_SP_UL2              "Átlagos feltöltési idő"
+    IDS_SP_UL3              "Átlagos feltöltési idő (szakasz)"
+    IDS_SP_ACTCON           "Aktív kapcsolatok"
+    IDS_SP_ACTDL            "Aktív letöltések"
+    IDS_SP_ACTUL            "Aktív feltöltések"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "Korlátlan"
+    IDS_PW_MINREC           "ajánlott legalább \t%u "
+    IDS_PW_UA               "Korlátlan sebesség (fel/le)"
+    IDS_PW_PA               "Sebesség növelése (fel/le)"
+    IDS_IRC_IGNOREINFOMESSAGE "Infó üzenetek szűrése"
+    IDS_CONNECTIONLOST      "Kapcsolat megszakadt"
+    IDS_WIZ_OS_FRAME        "Operációs rendszer"
+    IDS_HASHINGFILE         "Fájl hash-elése:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "Valódi feltöltési sávszélesség"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "Valódi letöltési sávszélesség"
+    IDS_FRIENDLIST          "Barátok"
+    IDS_CHATDISCONNECTED    "*** Nincs kapcsolat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZARD              "Varázsló"
+    IDS_ADDFRIEND           "Hozzáadás barátaimhoz"
+    IDS_REMOVEFRIEND        "Barát törlése"
+    IDS_REMOVEFROMSTATIC    "Törlés az állandó kiszolgálólistáról"
+    IDS_LENGTH              "Hossz"
+    IDS_VIDEO               "Video"
+    IDS_AUDIO               "Hang"
+    IDS_FILEINFO            "Fájl &Info"
+    IDS_CODEC               "Codec"
+    IDS_BITRATE             "Bitrate"
+    IDS_WIDTH               "Szélesség"
+    IDS_FPS                 "Fps"
+    IDS_CHANNELS            "Csatornák"
+    IDS_SAMPLERATE          "Mintavételezési sűrűség"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HEIGHT              "Magasság"
+    IDS_SHAREDFILES_FAILED  "Nem lehetséges a megosztott fájlok letöltése tőle: '%s'"
+    IDS_SHAREDFILES_REQUEST "Megosztott fájlok kérése tőle: '%s'"
+    IDS_VIEWFILES           "Fájlok megtekintése"
+    IDS_FRIENDSLOT          "Barátoknak letöltés biztosítása (protekciós :)"
+    IDS_FRIENDDETAIL        "(protekciós)"
+    IDS_UDPDISABLED         "letiltva"
+    IDS_WIZ_CTFRAME         "Kapcsolat típusa"
+    IDS_CONCURDWL           "Jelenlegi letöltések"
+    IDS_WIZARD_CUSTOM       "Egyéni"
+    IDS_WIZARD_ENTERBELOW   "(add meg!)"
+    IDS_STATS_MAXAVGDL      "Maximális letöltési arány átlagosan (most): %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MAXDL         "Maximális letöltési arány (most): %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "eMule baráthozzáadás üzenetek mellőzése"
+    IDS_PW_FASTSRVCON       "Biztonságos kapcsolódás."
+    IDS_SOURCELINKFAILED    "Érvényes forráshivatkozáshoz magas azonosító (HighID) kell"
+    IDS_ERR_LOADSERVERMET   "Nem sikerült letölteni: server.met"
+    IDS_ERR_CORRUPTCOMPRPKG "A tömörített csomag megsérült. %s érkezett (hiba %u)"
+    IDS_ERR_EMFRIENDSINVALID
+                            "Az emfriends.met fájl érvénytelen vagy megsérült!"
+    IDS_ERR_READEMFRIENDS   "Ismeretlen hiba az emfriends.met olvasása közben: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "Ismeretlen kiszolgáló információ érkezett!"
+    IDS_WIZ_DOWN            "Le (kbit/s)"
+    IDS_WIZ_UP              "Fel (kbit/s)"
+    IDS_SELECT_INCOMINGDIR  "Válassz mappát az érkező fájloknak"
+    IDS_SELECT_TEMPDIR      "Válassz mappát az ideiglenes fájloknak"
+    IDS_PRIOAUTO            "Automatikus"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOAUTONORMAL      "Auto [Normális]"
+    IDS_PRIOAUTOHIGH        "Auto [Magas]"
+    IDS_PRIOAUTORELEASE     "Auto [Enged]"
+    IDS_PRIOAUTOLOW         "Auto [Alacsony]"
+    IDS_ERR_CONTIMEOUT      "Nem sikerült csatlakozni időtúllépés miatt a következőhöz: ""%s"" (%s:%u)"
+    IDS_OUTOFSERVERS        "Nincs több kiszolgáló, amihez csatlakozni lehetne."
+    IDS_PW_CONLIMITS        "Csatlakozások korlátai"
+    IDS_MAXCON5SECLABEL     "új kapcsolat max. száma / 5s"
+    IDS_PW_UAP              "Auto-prioritás új megosztott fájlok esetén"
+    IDS_MAXCLIENT           "Felhasználók max. száma"
+    IDS_PW_TWEAK            "Speciális beállítások"
+    IDS_TWEAKS_WARNING      "Figyelmeztetés: Csak akkor változtasd meg ezeket az értékeket, ha tudod, mit teszel, különben könnyen elronthatod az egészet. Az eMule akkor is jól fog futni, ha ezeket a beállításokat nem bántod."
+    IDS_ADDAFRIEND          "Barát hozzáadása"
+    IDS_PAF_REQINFO         "Kért információ"
+    IDS_PAF_MOREINFO        "További információ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "Érvényes IP címet és portot kell megadnod!"
+    IDS_ADD                 "Hozzáadás"
+    IDS_RECOVERED_PARTMET   "A következő fájlt sikerült helyreállítani: %s"
+    IDS_CMT_QUEST           "Tegyél megjegyzést! (Ezt majd mindenki elolvashatja)"
+    IDS_CMT_AIDE            "Például egy filmnél megadhatod a hosszát, a történetét, a nyelvét... és ha hamisítvány (fake), akkor ezt közölheted a többi eMule felhasználóval..."
+    IDS_CMT_ADD             "Fájl megjegyzésének megváltoztatása..."
+    IDS_CMT_NONE            "Nincs megjegyzés"
+    IDS_CMT_READ            "Fájl megjegyzése:"
+    IDS_CMT_SHOWALL         "Összes megjegyzés"
+    IDS_CMT_READALL         "Minden megjegyzés"
+    IDS_CMT_RATEQUEST       "Fájl minősége"
+    IDS_CMT_RATEHELP        "Értékeld a fájl minőségét vagy adj tanácsot más felhasználóknak, ha érvénytelen"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_FAKE            "Érvénytelen / Sérült / Hamisítvány"
+    IDS_CMT_POOR            "Gyenge"
+    IDS_CMT_GOOD            "Jó"
+    IDS_CMT_FAIR            "Elfogadható"
+    IDS_CMT_EXCELLENT       "Kitűnő"
+    IDS_CMT_NOTRATED        "Nem értékelt"
+    IDS_KILO                "K"
+    IDS_MEGA                "M"
+    IDS_GIGA                "G"
+    IDS_TERA                "T"
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "eMule Proto üzenetek tiltása"
+    IDS_SMARTLOWIDCHECK     "Kapcsolódáskor alacsony azonosító ellenőrzése"
+    IDS_SF_SRVOCC           "Kiszolgáló foglaltsága: %.2f%%"
+    IDS_3DDEP               "Folyamatmutató (hőmérő)"
+    IDS_AUTOTAKEED2KLINKS   "ED2K hivatkozások felszedése csak futási időben"
+    IDS_ADDNEWFILESPAUSED   "Letöltendő fájlok hozzáadása szünetel módban"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOHELP          "Kérjük látogasd meg a honlapunk letöltési oldalát, ahonnan megszerezheted a legfrissebb súgófájlt!\n\nMegnéznéd inkább az online súgót?"
+    IDS_SHOWOVERHEAD        "Sávszélesség megjelenítése"
+    IDS_UPDOWNSMALL         "Fel: %.1f | Le: %.1f"
+    IDS_EDITLIST            "Lista"
+    IDS_SP_ICONBAR          "Sebességmérő a tálcán"
+    IDS_RATINGRECV          "'%s' fájlhoz minőségi megjegyzés érkezett: %u"
+    IDS_DESCRIPTIONRECV     "'%s' fájlhoz megjegyzés érkezett: %s"
+    IDS_WEBSERVICES         "Webszolgáltatások"
+    IDS_WEBSVEDIT           "Webszolgáltatás módosítása"
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "eMule hivatkozásküldés üzenetek mellőzése"
+    IDS_CHECK4UPDATE        "Új verzió keresése"
+    IDS_STARTUP             "Indításkor"
+    IDS_NEWVERSIONAVL       "Új eMule verzió érhető el! Látogass el a honlapra tovább információért."
+    IDS_NEWVERSIONAVLPOPUP  "Új eMule verzió érhető. Klikkelj ide további információért!"
+    IDS_NEWVERSIONFAILED    "Nem sikerült megvizsgálni, van-e új verzió."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "Új eMule verziót észlelek."
+    IDS_NONEWERVERSION      "Nem észleltem újabb eMule verziót."
+    IDS_VERSIONCHECK        "&Verziófrissítés"
+    IDS_VISITVERSIONCHECK   "\n\nMeg szeretnéd látogatni az információs oldalt?"
+    IDS_PW_VIDEOPLAYER      "Videólejátszó"
+    IDS_VIDEOBACKUP         "Készítsen ideiglenes másolatot az előnézethez"
+    IDS_MYINFO              "Saját adatok"
+    IDS_ID                  "ID"
+    IDS_IDLOW               "Alacsony ID"
+    IDS_IDHIGH              "Magas ID"
+    IDS_UPSTATUS            "Elnyert szeletek"
+    IDS_TOVERHEAD           "Teljes sávszélesség (csomagok): %s (%s)"
+    IDS_FROVERHEAD          "Fájl kérés sávszélesség (csomagok): %s (%s)"
+    IDS_SSOVERHEAD          "Forráscsere sávszélesség (csomagok): %s (%s)"
+    IDS_SOVERHEAD           "Kiszolgáló sávszélesség (csomagok): %s (%s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD
+                            "Fájlbefejező programszál létrehozása sikertelen."
+    IDS_FILEBUFFERSIZE      "Fájl bufferméret"
+    IDS_QUEUESIZE           "Sorméret"
+    IDS_DAYS2               "nap"
+    IDS_ERR_MAKEBAKCREDITFILE
+                            "Nem sikerült létrehozni a kreditfájl biztonsági másolatát"
+    IDS_COMMENT             "Megjegyzés"
+    IDS_IPFILTERED          "Kiszűrt IP: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "Befejezve"
+    IDS_DL_ACTIVE_TIME      "Letöltési idő"
+    IDS_STATS_FILTEREDCLIENTS "Kiszűrve: %u"
+    IDS_FILTERLABEL         "Üzenetek kiszűrése ha tartalmazza: (elválasztójel | )"
+    IDS_ERR_LARGEREQBLOCK   "A kliens túl nagy blokkot kért."
+    IDS_SHOWRATEONTITLE     "Átvitelmutató a címben"
+    IDS_TBN_NOMESSAGEHISTORY "Nincsenek korábbi üzenetek!"
+    IDS_PW_DAP              "Új letöltések hozzáadása automatikus prioritással"
+    IDS_FD_LASTCHANGE       "Utolsó vétel:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_RUNTIME       "Futási idő"
+    IDS_ALL                 "minden"
+    IDS_CAT_ADD             "Új kategória"
+    IDS_CAT_EDIT            "Szerkesztés"
+    IDS_CAT_REMOVE          "Eltávolítás"
+    IDS_CAT                 "Kategória"
+    IDS_TITLE               "Cím"
+    IDS_COLOR               "Szín"
+    IDS_DEFAULT             "Eredeti"
+    IDS_PW_DISPLAY          "Kijelző"
+    IDS_INDICATERATINGS     "Megjegyzés/minőség mutatása ikonnal ha van"
+    IDS_ALLOTHERS           "minden egyéb"
+    IDS_TOCAT               "Hozzárendelés kategóriához"
+    IDS_CAT_UNASSIGN        "(hozzárendelés törlése)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "Hozzáadod az ED2k hivatkozásokat a letöltéshez?\n"
+    IDS_PF_WATCHCB          "ED2k hivatkozások figyelése a vágólapon"
+    IDS_SECURITY            "Biztonság"
+    IDS_IPFILTERLOADED      "%u IP-szűrő betöltve"
+    IDS_IPFILTER            "IP-Szűrő"
+    IDS_EDIT                "Szerkesztés"
+    IDS_FILTERLEVEL         "Szűrő fokozat"
+    IDS_FILTERSERVERBYIPFILTER
+                            "Kiszolgálók kiszűrése"
+    IDS_FILTERCOMMENTSLABEL "Megjegyzés mellőzése, ha tartalmaz: (elválasztójel | )"
+    IDS_CLIENTLIST          "Ismert ügyfelek"
+    IDS_FOLDER              "Mappa"
+    IDS_CL_UPLOADSTATUS     "Feltöltési állapot"
+    IDS_CL_TRANSFUP         "Feltöltött mennyiség"
+    IDS_CL_DOWNLSTATUS      "Letöltési állapot"
+    IDS_CL_TRANSFDOWN       "Letöltési mennyiség"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CL_PENDING          "Függőben"
+    IDS_CL_LOW2LOW          "Alacsony:Alacsony IP"
+    IDS_ERROR               "Hiba"
+    IDS_OPENINC             "&Beérkezettek mappája"
+    IDS_HOTMENU             "Gyorsmenü"
+    IDS_DISABLEKNOWNLIST    "Ismert klienslista tiltása"
+    IDS_DISABLEQUEUELIST    "Letöltési lista tiltása"
+    IDS_USECREDITSYSTEM     "Kreditrendszer engedélyezése (Feltöltők jutalmazása)"
+    IDS_FIRSTAUTODOWN       "Engedélyezd ezt az opciót, ha azt szeretnéd, hogy az eMule kezelje a letöltések prioritásait.\n\nHa engedélyezed, akkor az eMule ügyelni fog arra, hogy a sok forrással rendelkező letöltések ne zavarják a kevés forrással rendelkezőket. Csak a későbbi letöltésekre lesz hatással."
+    IDS_FIRSTAUTOUP         "Engedélyezd ezt az opciót, ha azt szeretnéd, hogy az eMule kezelje a feltöltések prioritásait.\n\nHa engedélyezed, akkor az eMule ügyelni fog arra, hogy a ritka fájlokat előnyben részesítse mások számára. Ha nem engedélyezed, akkor az eMule a népszerű fájlokat fogja előnyben részesíteni, így a ritka fájlok mások számára nehezen lesznek elérhetőek. Csak a későbbi megosztásokra lesz hatással."
+    IDS_FIRSTSAFECON        "Engedélyezd ezt az opciót, ha azt szeretnéd, hogy az eMule biztonságos kapcsolódást használjon.\n\nHa nem engedélyezed, gyorsabban kapcsolódhatsz a kiszolgálókhoz, de gyakrabban kaphatsz tévesen alacsony azonosítót is."
+    IDS_FIRSTAUTOCON        "Engedélyezd ezt az opciót, ha azt szeretnéd, hogy az eMule a program indításakor csatlakozni kezdjen."
+    IDS_FIRSTCOMPLETE       "Sikeresen befejezted az első futtatás utáni varázslót.\n\nA beállítások ikonra kattintva megváltoztathatod az imént megadott és egyéb beállításokat. Magyarázatokért és támogatásért nézd át a súgót, azaz nyomj F1 billentyűt az eMule-ben!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENTERUSERNAME       "Kérlek, add meg a felhasználói neved:"
+    IDS_STATIC_CPUMEM       "Processzor és memóriatakarékos üzemmód"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "A kulcsszó túl rövid.\r\n\r\nA Kad keresésben használt kulcsszavaknak legalább 3 betűsnek kell lennie."
+    IDS_LOG2DISK            "Napló mentése"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "Már folyamatban van egy Kad keresés erre a kulcsszóra: ""%s"".\r\n\r\nHa újra rá akarsz keresni, várd meg míg a keresés befejeződik vagy zárd be az adott keresőpanelt."
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "Érvénytelen Kad kulcsszó.\r\n\r\nA Kad keresési kifejezésnek a következő a szintaxisa:\r\n\r\n\t<kad-kulcsszó> [ <ed2k-keresési-kifejezés> ]\r\n\r\nA <kad-kulcsszó> nem tartalmazhatja a következő karaktereket:\r\n\r\n\t%s"
+    IDS_EDITCAT             "Kategória szerkesztés tulajdonságai"
+    IDS_PW_WS               "Webkiszolgáló"
+    IDS_ENABLED             "Engedélyezve"
+    IDS_WEB_LOGIN           "Felhasználói név"
+    IDS_WEB_ENTER_PASSWORD  "ide írd a jelszavadat"
+    IDS_WEB_LOGIN_NOW       "Belépés most"
+    IDS_WEB_CONFIRM_REMOVE_SERVER
+                            "Biztosan törölni szeretnéd ezt a kiszolgálót a listáról?"
+    IDS_WEB_CONTROL         "Web vezérlőpult"
+    IDS_WEB_LOGOUT          "Kilépés"
+    IDS_WEB_ACTIONS         "Parancsok"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "Feltöltési sor mutatása"
+    IDS_WEB_GZIP_COMPRESSION "Gzip tömörítés"
+    IDS_WEB_GZIP_COMMENT    "Forgalomcsökkenést okoz, főleg a grafikonoknál."
+    IDS_WEB_REFRESH_TIME    "Oldalak frissítési ideje"
+    IDS_WEB_REFRESH_COMMENT "Másodpercben add meg (0=tiltás):"
+    IDS_SV_URL              "URL"
+    IDS_WS_RELOAD_TMPL      "Sablon"
+    IDS_SV_DEBUGLOG         "Hibakeresési napló"
+    IDS_WS_PASS             "Jelszó"
+    IDS_WS_ERR_LOADTEMPLATE "Sablon betöltése sikertelen: cseréld újabb verzióra a(z) %s fájlt!"
+    IDS_WEB_CONLIMITS       "Kapcsolatok korlátozása"
+    IDS_INFLST_USER_TOTALDOWNLOAD "Összes letöltés"
+    IDS_INFLST_USER_TOTALUPLOAD "Összes feltöltés"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "Webkiszolgáló: sikertelen belépés"
+    IDS_ERR_TOOLARGEFILE    "Túl nagy fájl. Az edonkey protokol nem támogatja (>=256GB)"
+    IDS_MSGONLYFRIENDS      "Csak barátoktól"
+    IDS_DAY_MO_SA           "Hétfő-Szombat"
+    IDS_LIMITSOURCES        "Forrás korlát"
+    IDS_LIMITCONS5SEC       "Kapcsolat korlát/5mp"
+    IDS_SCHED_CATSTOP       "Kat:Letöltések megállítása"
+    IDS_SCHED_CATRESUME     "Kat:Letöltések folytatása"
+    IDS_S_DAYS              "nap"
+    IDS_STARTTIME           "Kezdés"
+    IDS_VALUE               "Érték"
+    IDS_SCHED_ENTERDATARATELIMIT "Add meg az adatátviteli korlátot:"
+    IDS_SCHED_ENTERVAL      "Add meg az új értéket:"
+    IDS_SCHED_ACTCONFIG     "Parancs beállítása"
+    IDS_SELECTCAT           "Kategória kiválasztása"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALLUNASSIGNED       "nincs hozzárendelés"
+    IDS_ACTSESSIONS         "aktív menet(ek)"
+    IDS_WEBSRV              "Webszrv."
+    IDS_SW_REFETCHRES       "Eredmények frissítése"
+    IDS_FILEHASH            "Fájl Hash"
+    IDS_PW_PROXY            "Proxy"
+    IDS_PROXY_ENABLE        "Proxy engedélyezése"
+    IDS_PROXY_TYPE          "Proxy típus:"
+    IDS_PROXY_HOST          "Proxy kiszolgáló:"
+    IDS_PROXY_PORT          "Proxy port:"
+    IDS_PROXY_AUTH          "Azonosítás engedélyezése"
+    IDS_AUTH                "Engedélyezés"
+    IDS_SHOWCATINFO         "Letöltési infó mutatása kategóriafüleken"
+    IDS_SW_SEARCHINGINFO    "Keresés folyamatban. Eredmények frissítése azonnal!"
+    IDS_LOGENTRY            "Naplóbejegyzés"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "Másol"
+    IDS_SELECTALL           "Összes kijelölése"
+    IDS_AUTOSCROLL          "Autogörgetés"
+    IDS_WIZ1_WELCOME_TITLE  "Üdvözöl az eMule"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "Ez a varázsló segít az eMule első beállításában."
+    IDS_WIZ1_WELCOME_BTN_HINT "A folytatáshoz klikkelj a következő gombra."
+    IDS_WIZ1_END_TITLE      "Varázsló befejezése"
+    IDS_WIZ1                "eMule első futtatáskori varázsló"
+    IDS_WIZ1_END_BTN_HINT   "A varázslóból való kilépéshez klikkelj a befejezésre."
+    IDS_WIZ1_UPLOAD_SUBTITLE "Teljes szeletek átvitele"
+    IDS_DL_RESUMENEXT       "Következő szünetelt folytatása"
+    IDS_STARTPRIO           "Kategória prioritása"
+    IDS_PREF_STARTNEXTFILECAT "Azonos kategóriát előnyben részesít"
+    IDS_SOFTFILES           "Enyhe fájl korlát"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDFILES           "Szigorú fájl korlát"
+    IDS_FILTER              "Szűrő"
+    IDS_LINKS               "Hivatkozások"
+    IDS_HM_SCHED_ON         "Ütemező engedélyezése"
+    IDS_HM_SCHED_OFF        "Ütemező tiltása"
+    IDS_HM_LINKHP           "eMule honlap"
+    IDS_HM_LINKFAQ          "eMule GyIK (FAQ)"
+    IDS_HM_LINKVC           "eMule verziófrissítés"
+    IDS_DEBUG_SOURCE_EXCHANGE "Forráscsere üzenetek megjelenítése"
+    IDS_SHAREDREQ1          "%s (%u) felhasználó lekérdezte a megosztott mappáidat -> %s"
+    IDS_SHAREDREQ2          "%s (%u) felhasználó lekérdezte az egyik megosztott mappád fájljait '%s' -> %s"
+    IDS_SHAREDANSW          "%s (%u) felhasználó megosztja mappáját '%s'"
+    IDS_SHAREDANSW2         "%s (%u) felhasználó nem a kért listát küldte vissza - eldobva"
+    IDS_SHAREDINFO1         "%s (%u) felhasználó visszaküldte a kért mappa fájllistáját '%s'"
+    IDS_SHAREDINFO2         "%s (%u) felhasználó befejezte a fájllista küldését"
+    IDS_SHAREDANSW3         "%s (%u) felhasználó nem a kért listát küldte vissza '%s' - eldobva"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDREQDENIED     "%s (%u) felhasználó megtagadta a fájllista lekérdezését"
+    IDS_AUTOCLEANUPFN       "Fájlnév megtisztítása"
+    IDS_ONNEWDOWNLOAD       "Inicializálás"
+    IDS_FILTERFILENAMEWORD  "Szűrőszavak megadása | jellel elválasztva"
+    IDS_FNFILTERTITLE       "Fájlnév szűrő szerkesztése tisztításhoz"
+    IDS_CHANGECATVIEW       "Szűrő kiválasztása"
+    IDS_STATUS_NOTCOMPLETED "Befejezetlen"
+    IDS_STATS_CUMULATIVE    "Összegzés"
+    IDS_STATS_OVRHD         "Sávszélesség"
+    IDS_STATS_RECORDS       "Rekordok"
+    IDS_STATS_COMPDL        "Befejezett letöltések"
+    IDS_STATS_SVRECWORKING  "Max. működő kiszolgálók száma"
+    IDS_STATS_SVRECUSERS    "Max. online felhasználók száma"
+    IDS_SEARCH_TEXT         "Keresés"
+    IDS_STATS_SVRECFILES    "Max. elérhető fájlok száma"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SHRECNUM      "Max. megosztott fájlok száma"
+    IDS_SEARCH_COLUMN       "Keresés oszlopok között"
+    IDS_STATS_SHRECSIZE     "Legnagyobb fájlmegosztás"
+    IDS_STATS_SHRECASIZE    "Legnagyobb átlagos fájlméret"
+    IDS_STATS_SESSION       "Menet"
+    IDS_STATS_SRATIO        "Menet Le:Fel arány:"
+    IDS_STATS_CRATIO        "Összegzett Le:Fel arány:"
+    IDS_SEARCH_NORESULT     "Nincs találat."
+    IDS_STATS_CURRSRVDUR    "Jelenlegi időtartam a kiszolgálón"
+    IDS_LONGSECS            "másodperc"
+    IDS_STATS_DLSES         "Letöltési menetek"
+    IDS_LONGMINS            "perc"
+    IDS_STATS_SDLSES        "Sikeres letöltési menetek"
+    IDS_STATS_FDLSES        "Sikertelen letöltési menetek"
+    IDS_STATS_AVGDATADLSES  "Letöltések átlagos száma menetenként"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ULSES         "Feltöltési menetek"
+    IDS_STATS_GAINCOMP      "Előny a tömörítésből: %s"
+    IDS_STATS_LOSTCORRUPT   "Hátrány a sérülésből: %s"
+    IDS_STATS_AVGDATAULSES  "Feltöltések átlagos száma menetenként"
+    IDS_STATS_ICHSAVED      "I.S.K által megmentett szeletek: %u"
+    IDS_STATS_MBRESET_TXT   "Biztos vagy benne, hogy nullázni akarod az összesített statisztikát?\n\nHa mégis meggondolnád magad, a művelet visszafordítható a 'Statisztika visszaállítása' gombbal."
+    IDS_STATS_MBRESTORE_TXT "Biztos vagy benne, hogy vissza akarod állítani az összesített statisztikát az előző mentésből?\n\nHa újra ráklikkelsz a Statisztika visszaállítása gombra, akkor visszakapod a jelenlegi adatokat."
+    IDS_ERR_NOSTATBKUP      "Hiba: Nem találtam előző statisztikai mentést..."
+    IDS_STATS_NFOLOADEDBKUP "Előző statisztikai adatok visszatöltve..."
+    IDS_STATS_NFORESET      "Statisztika nullázva!"
+    IDS_STATS_BNRESET       "Statisztika nullázása"
+    IDS_STATS_BNRESTORE     "Statisztika visszaállítása"
+    IDS_PPGSTATS_YSCALE     "Kapcsolatok statisztikájának lépésköze az Y tengelyen:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "Aktív kapcsolatok aránya:"
+    IDS_STATS_PROBLEMATIC   "Problematikus"
+    IDS_LONGHRS             "Óra"
+    IDS_STATS_LARGESTFILE   "Legnagyobb megosztott fájl"
+    IDS_SPLIT_WINDOW        "Ablak megfelezése"
+    IDS_STATS_DSPF          "Szelet"
+    IDS_STATS_DATASOURCE    "Adatforrás"
+    IDS_STATS_DSFILE        "Teljes fájl"
+    IDS_STATS_GENERAL       "Általános"
+    IDS_STATS_TRANSTIME     "Átviteli idő"
+    IDS_STATS_DOWNTIME      "Letöltési idő"
+    IDS_STATS_UPTIME        "Feltöltési idő"
+    IDS_STATS_TOTALSRVDUR   "Összes időtartam a kiszolgálón"
+    IDS_STATS_MAXAVGUL      "Maximális átlagos feltöltési ráta"
+    IDS_STATS_MAXUL         "Maximális feltöltési ráta"
+    IDS_STATS_AVGDLTIME     "Átlagos letöltési idő"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_PRTDEF        "Alapértelmezett"
+    IDS_STATS_PRTOTHER      "Egyéb"
+    IDS_STATS_MNUTREETITLE  "Statisztika-fa"
+    IDS_STATS_MNUTREECPYSEL "Kijelölt ág másolása"
+    IDS_STATS_MNUTREECPYALL "Minden másolása"
+    IDS_STATS_MNUTREEHTML   "HTML tulajdonságok"
+    IDS_STATS_EXPORT2HTML   "Összes statisztika exportálása"
+    IDS_STATS_MNUTREECPYVIS "Láthatóak másolása"
+    IDS_STATS_MNUTREEEXPANDALL "Összes szekció kibontása"
+    IDS_STATS_MNUTREECOLLAPSEALL "Összes szekció bezárása"
+    IDS_STATS_MNUTREEEXPANDMAIN "Fő szekciók kibontása"
+    IDS_STATS_LASTRESETSTATIC "Statisztika legutóbbi nullázása: %s"
+    IDS_STATS_MONTHLY       "Havonta"
+    IDS_STATS_YEARLY        "Évente"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_TIMESTATS     "Időstatisztika"
+    IDS_STATS_AVGANDPROJ    "Vázolt átlagok"
+    IDS_STATS_TIMESINCERESET "Legutóbbi nullázástól eltelt idő: %s"
+    IDS_CRYPT_INITFAILED    "Nem sikerült a kriptográfiai kulcsok betöltése - biztonságos azonosítás letiltva"
+    IDS_CD_IDENT            "Azonosítás:"
+    IDS_IDENTOK             "Sikeres"
+    IDS_IDENTFAILED         "Érvénytelen"
+    IDS_IDENTNOSUPPORT      "Nem támogatott vagy letiltva"
+    IDS_COMMITFILES         "Biztonságos .met/.dat fájlírás"
+    IDS_ERR_BADUNC          "Érvénytelen UNC-név"
+    IDS_NEVER               "Soha"
+    IDS_ALWAYS              "Mindig"
+    IDS_ONSHUTDOWN          "Rendszerleállításkor"
+    IDS_UNCFOLDERS          "Hálózati mappák (UNC)"
+    IDS_USESECIDENT         "Biztonságos azonosítás használata"
+    IDS_ADVSPAMFILTER       "Speciális spamszűrő"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CUT                 "Kivág"
+    IDS_STATS_SECUREIDENT   "Biztonságos azonosítás (Sikeres : Sikertelen)"
+    IDS_ONDISK              "Méret a háttértárolón: "
+    IDS_CLIENTCOL           "Figyelmeztetés: A talált klienssel már kapcsolatban állunk: %s (%s) és %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "Lezáratlan karakterlánc"
+    IDS_SEARCH_GENERALERROR "Általános hiba"
+    IDS_SEARCH_MISSINGORRIGHT "Hiányzó elem az OR művelet jobb oldalán"
+    IDS_SEARCH_MISSINGNOTRIGHT "Hiányzó elem a NOT művelet jobb oldalán"
+    IDS_SEARCH_MISSINGEXPRPARANT "Hiányzó kifejezés vagy '(' ')'"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "Hiányzó zárójel ')'"
+    IDS_SEARCH_EXPRERROR    "Nem sikerült elemezni a keresési kifejezést"
+    IDS_SEARCH_TOOCOMPLEX   "A kifejezés túl bonyolult"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSION             "Verzió"
+    IDS_PASTE               "Beilleszt"
+    IDS_A4AF                "Forráskezelés"
+    IDS_AUTOCAT_LABEL       "Automatikus kategória hozzárendelés (a mintákat | jellel kell elválasztani)"
+    IDS_SHOWEXTSETTINGS     "További beállítások (speciális)"
+    IDS_TREEOPTIONS_TRUE    "Igaz"
+    IDS_TREEOPTIONS_FALSE   "Hamis"
+    IDS_TREEOPTIONS_OK      "OK"
+    IDS_HYPERTEXT_FONT_HINT "Betűtípus a kiszolgáló, az üzenet és a csevegés ablakban"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SELECT_FONT         "Betűtípus kiválasztása"
+    IDS_SERVER_LIMITS       "Enyhe és szigorú fájlkorlát"
+    IDS_KBITSSEC            "kbit/sec"
+    IDS_KBYTESSEC           "kByte/sec"
+    IDS_ERR_CREATE_DIR      "Nem sikerült létrehozni a(z) %s mappát ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "Az érkező fájlok mappája nem lehet ugyanaz, mint az eMule telepítő mappája."
+    IDS_WRN_TEMPFILES_RESERVED
+                            "Az ideiglenes fájlok mappája nem lehet ugyanaz, mint az eMule telepítő mappája."
+    IDS_WRN_INCTEMP_SAME    "Az érkező fájlok mappája és az ideiglenes fájlok mappája nem lehet lehet ugyanaz."
+    IDS_SHOWDWLPERCENTAGE   "A letöltés befejezésének százalékos kijelzése a folyamatmutatón"
+    IDS_TBN_ONNEWDOWNLOAD   "Új letöltést adunk hozzá"
+    IDS_ARTIST              "Előadó"
+    IDS_ALBUM               "Album"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UPLOADREQ        "Kért feltöltés:"
+    IDS_SETTINGCHANGED_RESTART
+                            "A megváltozott beállítások érvényesítéséhez indítsd újra az eMule-t!"
+    IDS_CREDITSEXPIRED      ", %u kliens törölve (több mint 5 hónapja nem jelentkezett)"
+    IDS_SOURCESINFO         "%u  (Hasznos: %u, NNP: %u, A4AF: %u)"
+    IDS_META_DATA           "Metaadat"
+    IDS_TIMEBEFORE          "(%s óta)"
+    IDS_FD_TIMEDATE         "Dátum"
+    IDS_FILEINFORMATION     "Fájlinformáció"
+    IDS_STATS_FREESPACE     "Szabad hely"
+    IDS_IRC_HELPCHANNEL     "Csatlakozás a segélykérő szobához."
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-hungarian"
+    IDS_IRC_ACCEPTLINKSFRIENDS "Csak barátoktól."
+    IDS_COMPLSOURCES        "Források befejezése"
+    IDS_CHECKNOENDTIME      "nincs vége"
+    IDS_FD_DOWNLOADSTARTED  "Letöltés hozzáadva:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FAILEDREOPEN        "Végzetes hiba: Nem sikerült megnyitni a részfájlt '%s' (%s)!"
+    IDS_ERR_PREVIEWALREADY  "Már létezik egy előnézeti kérés ezzel az ügyféllel szemben"
+    IDS_ERR_PREVIEWFAILED   "Sikertelen előnézet a következő felhasználótól: '%s'"
+    IDS_DWTOT               "Szabad hely a meghajtón"
+    IDS_DWTOT_NR            "Letöltések száma: %u"
+    IDS_DWTOT_TSD           "Összes letöltések mérete: %s"
+    IDS_DWTOT_TCS           "Összes befejezett mérete: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "Teljes méret áttöltésre vár: %s"
+    IDS_DWTOT_TSN           "Teljes helyszükséglet a letöltésekhez: %s"
+    IDS_DWTOT_FS            "Szabad hely az ideiglenes meghajtón: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (fel kell szabadítanod ennyit: %s!)"
+    IDS_SERVERKEEPALIVETIMEOUT
+                            "Kiszolgáló kapcsolat frissítési gyakorisága [min.]"
+    IDS_MORE                "&Tovább"
+    IDS_TOOLS               "E&szközök"
+    IDS_SEARCHPARAMS        "Keresési paraméterek"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u hashelés kész)"
+    IDS_CHECKDISKSPACE      "Szabad hely ellenőrzése"
+    IDS_YOURHOSTNAME        "Gazdanév saját eD2K hivatkozásokhoz"
+    IDS_INSUFFICIENT        "Kevés a szabad hely"
+    IDS_MINFREEDISKSPACE    "Min. szabad hely [MB]"
+    IDS_WARNING             "Figyelmeztetés"
+    IDS_IMPORTSPLPF         "Részfájlok importálása (eMule,eDonkey,Overnet)"
+    IDS_IMP_STEPREADPF      "Részfájlok mappájának olvasása"
+    IDS_IMP_STEPBASICINF    "Alapvető információk beolvasása a részfájlból"
+    IDS_IMP_STEPCRDESTFILE  "Célhelyen részfájl létrehozása"
+    IDS_IMP_LOADDATA        "Adat betöltése a régi részfájlból (%u / %u)"
+    IDS_IMP_SAVEDATA        "Adat mentése egy új részfájlba (%u / %u)"
+    IDS_IMP_IOERROR         "Fájlhiba a részfájl átalakítása közben"
+    IDS_IMP_GETPFINFO       "Forrás részfájl információk betöltése"
+    IDS_IMP_ADDDWL          "Letöltés hozzáadása és új részfájl mentése"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_FETCHSTATUS     "Állapot lekérdezése..."
+    IDS_IMP_INPROGR         "folyamatban"
+    IDS_IMP_ERR_DISKSP      "Hiba: Elfogyott a lemezterület"
+    IDS_IMP_ERR_PARTMETIO   "Hiba: nem találtam rész .met-et"
+    IDS_IMP_ERR_IO          "Hiba: IO hiba!"
+    IDS_IMP_ERR_FAILED      "Hiba: Sikertelen!"
+    IDS_IMP_STATUSQUEUED    "Sorban áll"
+    IDS_IMP_ALRDWL          "Már letöltés alatt"
+    IDS_IMP_ADDBTN          "&Importok hozzáadása"
+    IDS_IMP_RETRYBTN        "Új&ra a kijelölteket"
+    IDS_IMP_REMOVEBTN       "&Törölje a kijelölteket"
+    IDS_IMP_SELFOLDER       "Kérlek válassz egy mappát az egyszerű részfájloknak vagy a régi temp mappádat az összes rész-met-almappával!"
+    IDS_IMP_DELSRC          "Szeretnéd megtartani a forrás részfájlt a sikeresen importált letöltésekből?"
+    IDS_IMP_SIZE            "%s (Lemez:%s)"
+    IDS_IMP_STATUS          "Importálás %s: %s"
+    IDS_DYNUPENABLED        "Automatikus feltöltési határ beállítása"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "Ping tűréshatár (legkisebb ping %)"
+    IDS_DYNUP_GOINGUPDIVIDER "Gyorsítás"
+    IDS_DYNUP_GOINGDOWNDIVIDER "Lassítás"
+    IDS_DYNUP_NUMBEROFPINGS "Átlagos pingelés max. száma"
+    IDS_DYNUP_MINUPLOAD     "Megengedett legkisebb feltöltési sebesség"
+    IDS_ESTTIMELEFT         "Hátralévő idő:"
+    IDS_TRANSFER_RATE_LABEL "Átviteli ráta:"
+    IDS_SAVELOG             "Napló mentése"
+    IDS_CMT_COPYCLIPBOARD   "Megjegyzés másolása vágólapra"
+    IDS_ASKDOWNLOADLANG     "A kiválasztott nyelv még nincs telepítve. Szeretnéd, hogy az eMule letöltse az emule-project.net oldalról?"
+    IDS_ASKDOWNLOADLANGCAP  "Nyelvi fájlok letöltése"
+    IDS_DELETESELECTED      "Törlés"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "A kiválasztott nyelv letöltése és telepítése nem sikerült: %s!"
+    IDS_ERR_BADFOLDER       "Érvénytelen mappa.\nA mappát nem sikerült létrehozni. Kérlek ellenőrizd a nevét és a helyét."
+    IDS_AUTOREMOVEFD        "Befejezett letöltések automatikus törlése a sorból"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "ismert ügyfelektől"
+    IDS_KADUDPPORTERR       "A Kads UDP portja ütközik (a) az eMule's külső UDP portjával vagy (b) az eMule's kiszolgáló UDP portjával. Az új port: %u."
+    IDS_CONFIRM_FILEDELETE  "Biztosan törölni szeretnéd a kijelölt fájlokat a lemezről?"
+    IDS_OPENFOLDER          "Mappa megnyitása"
+    IDS_RUNASUSER           "eMule futtatása nem kitüntetett felhasználóként"
+    IDS_DELETE              "Törlés a lemezről"
+    IDS_BOOTSTRAP           "Rendszertöltő"
+    IDS_VIAED2KSQ           "ED2K kiszolgálón/soron át"
+    IDS_EM_KADEMLIA         "&Kad"
+    IDS_VIAKAD              "Kademlián át"
+    IDS_VIASE               "Forráscserén át"
+    IDS_SELECTTOOLBARBITMAP "Eszközök háttérképe"
+    IDS_SELECTTOOLBARBITMAPDIR "Bitkép mappa"
+    IDS_TOOLBARSKINS        "Eszköz felszínek"
+    IDS_NOTEXTLABELS        "Nincsenek cimkék"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_NODE            "Csomópont kikeresése"
+    IDS_KAD_STOREFILE       "Fájl tárolása"
+    IDS_KAD_STOREKW         "Kulcsszó tárolása"
+    IDS_KAD_UNKNOWN         "Ismeretlen"
+    IDS_SRV_TCPCOMPR        "TCP tömörítés"
+    IDS_KADSEARCHLAB        "Jelenlegi keresések"
+    IDS_SRV_UDPSR           "Kibővített UDP protokol forráskérésekhez"
+    IDS_SRV_UDPFR           "Kibővített UDP protokol fájlkérésekhez"
+    IDS_MINLENGTH           "Min. length [hh:mm:ss]"
+    IDS_EM_HELP             "Súgó"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "Friend not added.\r\n\r\nThere is already a friend with same IP address and port available."
+    IDS_DYNUP               "Feltöltési érzékenység"
+    IDS_KADOVERHEAD         "Kad előny (Csomag): %s (%s)"
+    IDS_FIND                "Keresés..."
+    IDS_LOG_BANNED_CLIENTS  "Kitiltott kliensek naplózása"
+    IDS_LOG_RATING_RECV     "Beérkezett fájlok leírásainak és osztályzatainak naplózása"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "Az ikontól jobbra"
+    IDS_TEXTLABELS          "Szöveges cimkék"
+    IDS_ENABLETEXTLABELS    "Az ikon alatt"
+    IDS_CUSTOMIZETOOLBAR    "Eszköztár beállítása"
+    IDS_MINBITRATE          "Min. bitrate [kbit/s]"
+    IDS_KAD_RECHECKFW       "Tűzfal újraellenőrzése"
+    IDS_SHAREDTITLE         "Megosztott ED2K|Kad"
+    IDS_FIREWALLED          "Tűzfal"
+    IDS_KADEMLIA            "Kad"
+    IDS_KADCONTACTLAB       "Személyek"
+    IDS_KADDISTANCE         "Távolság"
+    IDS_KEY                 "Kulcs"
+    IDS_NUMBER              "Szám"
+    IDS_KAD_SEARCHSRC       "Források keresése"
+    IDS_KAD_SEARCHKW        "Kulcsszavak keresése"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_SECURE_IDENT    "Biztonságos azonosítók naplózása"
+    IDS_LOG_FILTERED_IPS    "Szűrt és mellőzött IP-k naplózása"
+    IDS_LOG_FILE_SAVING     "Fájlmentések naplózása"
+    IDS_DELETEIPFILTERS     "Biztosan törölni akarod a kiválasztott IP szűrők?"
+    IDS_TOTAL_IPFILTER_LABEL "Összes IP szűrő:"
+    IDS_TOTAL_IPS_LABEL     "Összes IP:"
+    IDS_RAU_WARNING         "Ez a beállítás tovább növeli az eMule biztonságát, ezért erősen ajánlott ennek használata.\nAzonban mielőtt bekapcsolnád, olvasd el a használati útmutatót!\n\nCsak az eMule újraindítása után lép érvénybe."
+    IDS_APPEND              "Hozzáfűz..."
+    IDS_SAVE                "Ment"
+    IDS_IP_START            "Kezdet"
+    IDS_IP_END              "Vég"
+    IDS_IP_LEVEL            "Szint"
+    IDS_IP_DESC             "Leírás"
+    IDS_IP_HITS             "Találatok"
+    IDS_IP_RULES            "IP Szűrők:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "Jelenleg nem kapcsolódsz a Kad Hálózathoz!"
+    IDS_IRC_NOSFS           "Nincsenek kijelölve megosztott fájlok"
+    IDS_RESETLABEL          "Automatikus kiegészítés (előzmények)"
+    IDS_IRC_IGNOREMISCMESSAGE "Egyéb infoüzenetek mellőzése"
+    IDS_KNOWN               "Ismert"
+    IDS_RAU_RUNNING         "eMule futtatása ""%s"" nevű nem kitüntett felhasználóként"
+    IDS_RAU_FAILED          "Nem sikerült elindítani az eMule-t a(z) ""eMule_Secure"" felhasználó nevében. Marad az eredeti felhasználó (""%s"")."
+    IDS_KADCONTACTSREAD     "%u partner beolvasása fájlból."
+    IDS_ERR_KADCONTACTS     "Nem találtam partnert, kérlek bootstrap-elj vagy tölts le egy nodes.dat fájlt."
+    IDS_METATAGS            "Metacimke számláló:"
+    IDS_FILEFORMAT          "Fájlformátum"
+    IDS_UDPREASKS           "UDP fájlújrakérés"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE_MS 			"Ping tolerancia (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER 	"Ping tolerancia metódusa"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS 		"Milliszekundum (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT 	"Százalék (%)"
+    IDS_LOG_A4AF            "A4AF események naplózása"
+    IDS_A4AF_SAVE_CPU       "A4AF ellenőrzések tiltása processzorkímélés érdekében"
+    IDS_SEARCH_DOC          "Dokumentum"
+    IDS_DOWNLOAD_ALPHABETICAL "Letöltés ábécé sorrendben"
+    IDS_INSTALL_SKIN        "eMule bőr telepítése"
+    IDS_INSTALL_SKIN_NODIR  "Nincs eMule bőr mappa kiválasztva vagy a mappa nem hozzáférhető!"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "Nem sikerült létrehozni a(z) ""%s"" mappát az eMule bőrnek: %s"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "Nem sikerült kicsomagolni a(z) ""%s"" fájlt az eMule bőrböl a helyi ""%s"" fájlba - %s"
+    IDS_INSTALL_SKIN_PKG_ERROR "Ez egy érvénytelen eMule bőrcsomag fájl."
+    IDS_NEXT_REASK          "A következő kérés ennek a kliensnek"
+    IDS_A4AF_FILES          "A4AF fájlok"
+    IDS_STATS_FRATIO        "Menet fel:le arány (barátok feltöltése nélkül):"
+    IDS_STATS_UDATA_FRIENDS "Barátoknak feltöltött adat (Menet): %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FO_PREF_EXISTED     "Észrevettem, hogy már léteznek szabályok a kiválasztott portokhoz, így azokat nem írtam felül. A hiányzó szabályokat azonban hozzáadtam.\nMegjegyzem, ez nincs hatással más tűzfalprogramodra vagy útvonalválasztódra!"
+    IDS_FO_PREF_FAILED      "Nem sikerült konfigurálni a Windows XP belső tűzfalát a kiválasztott portokhoz!"
+    IDS_FO_PREF_STARTUP     "Portok megnyitása/zárása a Windows XP tűzfalban, amikor elindítom/bezárom az eMule-t"
+    IDS_LOG_LEVEL           "Napló részletesség"
+    IDS_FO_TEMPTCP_S        "A(z) %u (TCP) portot megnyitottam az eMule számára a Windows XP belső tűzfalában"
+    IDS_FO_TEMPTCP_F        "Nem sikerült megnyitni a(z) %u (TCP) portot az eMule számára a Windows XP belső tűzfalában"
+    IDS_FO_TEMPUDP_S        "A(z) %u (UDP) portot megnyitottam az eMule számára a Windows XP belső tűzfalában"
+    IDS_FO_TEMPUDP_F        "Nem sikerült megnyitni a(z) %u (UDP) portot az eMule számára a Windows XP belső tűzfalában"
+    IDS_FO_PREFBUTTON       "Portok megnyitása a belső Windows XP tűzfalban"
+    IDS_FO_PREF_SUCCCEEDED  "Sikerült megnyitnom a kiválasztott portokat a Windows XP belső tűzfalában.\nMegjegyzem, ez nincs hatással más tűzfalprogramodra vagy útvonalválasztódra!"
+    IDS_SOURCESWAPBLOCKED   "Csere blokkolva"
+    IDS_A4AF_CHECK_THIS_NOW "Ellenőrizd ezt a forrást (hibakeresés)"
+    IDS_NEWMSG              "'%s' új üzenetet küldött (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "csak azonos kategóriában"
+    IDS_LOG_ULDL_EVENTS     "Fel/letöltések naplózása"
+    IDS_PEERCACHE_ENABLED   "Az internetszolgáltatód támogatja a PeerCache-t, engedélyezem a gyorsítótáras letöltést!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "Megengedem a felhasználónak hogy barátnak felvegyen."
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "Az előnézethez szükséges részeket töltse le hamarébb"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "Ismeretlen vagy rossz tempfájl formátum."
+    IDS_SEARCH_INVALIDCHAR  "A keresési kifejezés érvénytelen karaktereket tartalmaz. Talán beírtad a '?' karaktert, esetleg valami mást, amit nem szabad az eD2K hálózatban."
+    IDS_PORTSCON            "Portok és kapcsolatok"
+    IDS_PORTINFO            "Az eMule két portot használ a kiszolgálók és ügyfelek közötti kommunikációhoz. Ezeknek a portoknak szabadnak és kívülről elérhetőnek kell lenniük. A TCP port elengedhetetlenül szükséges az eMule minimális működéséhez.Az UDP port a KAD (kiszolgáló nélküli hálózat) használja és a hálózati forgalom csökkentésére is jó.\n\nMegváltoztathatod a portokat, ha semmilyen hálózati tevékenységet nem kezdtél meg."
+    IDS_STARTTEST           "Portok tesztelése"
+    IDS_TESTINFO            "Itt tesztelheted, hogy a TCP és UDP portjaid kívülről elérhetőek-e. A teszt sikeressége szükséges a kiszolgálókhoz és ügyfelekhez való kapcsolódáshoz. A TCP portnak muszáj működnie!"
+    IDS_CONNECTIONTEST      "Kapcsolat tesztelése"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "Nem tudom megváltoztatni a portokat, ha már kapcsolódtál az ügyfelekhez, kiszolgálóhoz vagy KAD hálózathoz.\n\nIndítsd újra az eMule-t a megváltozott beállításokkal."
+    IDS_NETWORK_INFO        "Hálózati információ"
+    IDS_SP_TOTALUL          "Összes feltöltések száma"
+    IDS_SP_ULFRIENDS        "Feltöltések száma barátok részére"
+    IDS_SP_ULSLOTSNOOVERHEAD "jelenlegi feltöltés kivéve a túlforgalmat (csak feltöltési helyek)"
+    IDS_ST_ACTIVEU_ZZ       "Aktív feltöltések"
+    IDS_ST_ULCURRENT        "Feltöltések+túlforgalom"
+    IDS_ST_ULSLOTSNOOVERHEAD "Feltöltés"
+    IDS_ST_ULFRIEND         "Feltöltés barátnak"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "Ennyi aktív feltöltés kell még a teljes sávszélesség kihasználásához: %u"
+    IDS_STATS_TOTALUL       "Összes feltöltések száma: %u"
+    IDS_CHAT_DOWNLOADED     "Letöltve:"
+    IDS_CHAT_UPLOADED       "Feltöltve:"
+    IDS_CHAT_IDENT          "Azonosító:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAXHALFOPENCONS     "Max. félig nyitott kapcsolat"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "Ezt kapcsold be, ha a Windows indításkor induljon az eMule."
+    IDS_KAD_WAITCBK         "Kad visszahívásra várás"
+    IDS_KAD_TOOMANDYKADLKPS "Túl sok KAD keresés"
+    IDS_PCDS_CLIENTWAIT     "Kliensre várok"
+    IDS_PCDS_CACHEWAIT      "Gyorsítótárra várok"
+    IDS_CACHE               "Gyorsítótár"
+    IDS_INDEXED             "Indexelve"
+    IDS_KADINFO_SRC         "\tForrás: %u\r\n"
+    IDS_KADINFO_KEYW        "\tKulcsszó: %u\r\n"
+    IDS_STARTWITHWINDOWS    "Induljon a Windows-zal"
+    IDS_ADDSRCMANUALLY      "Forrás hozzáadása kézzel"
+    IDS_BUDDY               "Pajtás"
+    IDS_BUDDYNONE           "Semmi"
+    IDS_INFO                "Infó"
+    IDS_HALF                "Fél"
+    IDS_CONCOMPL            "Kész"
+    IDS_KADSTATUS_STOPPING  "Megállítás"
+    IDS_KADSTATUS_ACTIVE    "Aktív"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FORMAT              "Formátum"
+    IDS_META_COLLECTION     "Kollekció"
+    IDS_META_PARTPATH       "Részlet útvonala"
+    IDS_META_PARTHASH       "Részlet hash"
+    IDS_META_GAPSTART       "Rés kezdete"
+    IDS_META_GAPEND         "Rés vége"
+    IDS_FAIL                "Hiba"
+    IDS_META_PREFERENCES    "Beállítások"
+    IDS_META_VERSION        "Verzió"
+    IDS_META_TEMPFILE       "Ideiglenes fájl"
+    IDS_META_SERVERPORT     "Kiszolgáló port"
+    IDS_META_SERVERIP       "Kiszolgáló IP"
+    IDS_META_SRCUDPPORT     "Forrás UDP port"
+    IDS_META_SRCTCPPORT     "Forrás TCP port"
+    IDS_META_SRCIP          "Forrás IP"
+    IDS_META_SRCTYPE        "Forrás típusa"
+    IDS_SEARCH_UNICODE      "Keresés Unicode kódkészlettel"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LD_ED2KLINK         "ED2K hivatkozás"
+    IDS_LD_COPYCLIPBOARD    "Másolás vágólapra"
+    IDS_LD_HOSTNAME         "Használja a kiszolgáló nevét (a beállításokból) az IP cím helyett, mikor forráshivatkozást hoz létre"
+    IDS_SAVEACFAILED        "Nem sikerült elmenteni az AICH Hash-készletet!"
+    IDS_AICHHASH            "AICH Hash"
+    IDS_BYTESPERSEC         "B/s"
+    IDS_KBYTESPERSEC        "KB/s"
+    IDS_MBYTESPERSEC        "MB/s"
+    IDS_GBYTESPERSEC        "GB/s"
+    IDS_TBYTESPERSEC        "TB/s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MINORCLIENTS  "Jelentéktelen"
+    IDS_LD_BASICOPT         "Alapvető beállítások"
+    IDS_LD_ADDSOURCE        "Saját magam hozzáadása forrásként"
+    IDS_LD_EMULEHASH        "Az eMule használjon AICH Hash-t a jobb sérüléskezeléshez"
+    IDS_LD_ADVANCEDOPT      "További beállítások"
+    IDS_LD_ADDHTML          "HTML-Tag-ek hozzáadása"
+    IDS_LD_ADDHASHSET       "Teljes hash-készlet hozzáadása"
+    IDS_FILELINK            "Fájlhivatkozás"
+    IDS_PF_ADVANCEDCALC     "A hátralévő idő kiszámítása haladó módszerekkel"
+    IDS_DL_SHOWED2KLINK     "eD2K hivatkozás mutatása..."
+    IDS_AICH_SYNCTOTAL      "Találtam %u fájlt érvényes AICH hash-készlet nélkül, úgyhogy most azokat újrahash-elem"
+    IDS_AICH_CALCFILE       "AICH hash számítása a %s fájl számára"
+    IDS_AICH_WARNUSER       "Az eMule 0.44a verzió óta egy újabb hash-t használunk, mely jó eséllyel csökkenti az adatvesztést, ha bekövetkezik. Mivel te egy régebbi verzióról frissítesz, muszáj újrahash-elni a megosztott fájlaidat. Ez eltarthat egy ideig, de csak egyszer kell elvégezned."
+    IDS_AICH_WORKED         "Az AICH sikeresen megmentett  %s / %s -t %u részlet számára %s"
+    IDS_TRICKLING           "Készenlét"
+    IDS_SOURCECLIENT        "Forráskliens"
+    IDS_USERSIP             "Felhasználók IP-je"
+    IDS_FEATURES            "Tulajdonságok"
+    IDS_IRC_NEWNICK         "Válassz egy IRC becenevet"
+    IDS_IRC_NEWNICKDESC     "Egy szóból állhat, 20 betűnél legyen rövidebb, ezeket használhatod: (A-Z, 0-9). Megváltoztatni később a Beállítások->Irc-ben lehet."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPARSEPARTFILES     "Az új részek létrehozása elszórva (csak NTFS esetén)"
+    IDS_ASPECTRATIO         "Képarány"
+    IDS_NEGATEFILTER        "negáló szűrő"
+    IDS_SEENCOMPL           "Valaha teljest láttam"
+    IDS_SELSKINPROFILEDIR   "Bőr profil mappa kiválasztása"
+    IDS_ASKDLINCOMPLETE     "Valószínűleg befejezetlen fájl:\r\n\r\n%s\r\n\r\nEz a fájl feltételezhetően nem létezik teljes egészében a hálózaton, ezért letölteni se lehet hibátlanul! Biztosan le szeretnéd tölteni?"
+    IDS_DEADSOURCES         "Halott források"
+    IDS_LARGEICONS          "Nagy ikonok"
+    IDS_SMALLICONS          "Kis ikonok"
+    IDS_SHORTTAGS           "Rövid cimkék"
+    IDS_THELOAD             "Betöltés"
+    IDS_PACKSENT            "Csomag elküldve"
+    IDS_RESPONSES           "Válaszok"
+    IDS_EXTRACT_META_DATA   "Metaadat kinyerése"
+    IDS_META_DATA_MEDIADET  "DirectShow (minden más kép/hangfájlhoz)"
+    IDS_META_DATA_ID3LIB    "ID3 Könyvtár (csak MPEG hangfájlhoz)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "A Windows Common Controls library (COMCTL32.DLL) túl régi!\r\n\r\nÉszrevettem, hogy a ""Windows Common Controls library (COMCTL32.DLL)"" olyan régi, hogy nem tudom megfelelően használni. A teljes és zökkenőmentes működés érdekében nagyon ajánlott, hogy frissítsd a ""Windows Common Controls library (COMCTL32.DLL)"" fájlt legalább 5.8-as verzióra.\r\n\r\nA ""Windows Common Controls library (COMCTL32.DLL)"" a Microsoft (R) Letöltőközpontban elérhető. Meglátogatod az oldalt?"
+    IDS_ASREGEXPR           "mint reguláris kifejezés"
+    IDS_STATIC_REGEXP       "Reguláris kifejezés a nézetszűrőben:"
+    IDS_CARE4ALL            "Minden fájl kiértékelése"
+    IDS_REGEXPRESSION       "Reguláris kifejezés"
+    IDS_SEARCHKAD           "Kad kersés"
+    IDS_DWL_IPFILTERFILE    "IP szűrő fájl letöltése"
+    IDS_DWLIPFILTERFAILED   "IP szűrő letöltése sikertelen"
+    IDS_FINDBUDDY           "Pajtás keresése"
+    IDS_ERR_IPFILTERZIPEXTR "Nem tudtam kinyerni az IP szűrőt a letöltött IP szűrő ZIP fájlból ""%s""."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "A letöltött ""%s"" IP szűrő fájl nem várt dolgokat tartalmaz."
+    IDS_STORENOTES          "Feljegyzések rögzítése"
+    IDS_NOTES               "Feljegyzések"
+    IDS_KADSEARCHALREADY    "Egy keresés már folyamatban van. Próbáld meg később!"
+
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHUTDOWN        "eMule kikapcsolása"
+    IDS_WEB_REBOOT          "Rendszer újraindítása"
+    IDS_WEB_SHUTDOWNSYSTEM  "Rendszer leállítása"
+    IDS_WEB_ADMINMENU       "Adminisztrációs Menü"
+    IDS_WEB_MAIN_CLOSE      "Biztosan be akarod zárni az eMule-t?"
+    IDS_WEB_MAIN_REBOOT     "Biztosan újra akarod indítani a rendszert?"
+    IDS_WEB_MAIN_SHUTDOWN   "Biztosan le akarod állítani a rendszert?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "Kitiltott ügyfelek megjelenítése a sorbanállók között"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "Barátok megjelenítése a sorbanállók között"
+    IDS_WEB_SESSIONTIMEOUT  "Időtúllépés"
+    IDS_WEB_ALLOWHILEVFUNC  "Az eMule kiléphet, újraindíthatja és leállíthatja a rendszert"
+    IDS_SETPFSLIMIT         "Forráshatár..."
+    IDS_SETPFSLIMITEXPLAINED
+                            "Kérlek adj meg új forráshatárt a kiválasztott fájl(ok)hoz!\n(vagy írj be nullát ha a globális beállítás legyen)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "Szeretnéd, hogy a beérkezett fájlok mappáit frissítsük?"
+    IDS_USESPEECH           "Üzenetek szavakkal"
+    IDS_CONDTCPACCEPT       "Gyorskapcsolódás visszautasítása"
+    IDS_TCPIP_CONNS         "TCP/IP kapcsolatok"
+    IDS_ERR_DELFILE         "Nem sikerült ezt a fájlt letörölni: ""%s"""
+    IDS_MANUAL_FILENAMECLEANUP "Szeretnéd a kiválasztott fájl(ok) neveit megtisztogatni?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CONFIGCORRUPT   "%s sérültnek néz ki és majd kicserélem"
+    IDS_UPLOADING           "Feltöltés"
+    IDS_CANCELLED           "Visszavonva"
+    IDS_PW_REMEMBERDOWNLOADED "Letöltött fájlok megjegyzése"
+    IDS_PW_REMEMBERCANCELLED "Visszavont fájlok megjegyzése"
+    IDS_AVAILABLEPARTS      "Elérhető részek"
+    IDS_NOSOUND             "Hang nélkül"
+    IDS_PW_RECEIVERADDRESS  "Címzett:"
+    IDS_PW_ENABLEEMAIL      "Email értesítés engedélyezése"
+    IDS_EMULENOTIFICATION   "eMule értesítés"
+    IDS_PW_EMAILNOTIFICATIONS "Email értesítés"
+    IDS_SMTPSERVER          "SMTP-kiszolgáló"
+    IDS_PW_SENDERADDRESS    "Feladó:"
+    IDS_PW_SHOWTRANSTOOLBAR "Mutasson további eszköztárat az átviteli ablakban"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHARED_STATUS       "Megosztott részek"
+    IDS_INCOMING_FILES      "Beérkező fájlok"
+    IDS_INCOMPLETE_FILES    "Nem teljes fájlok"
+    IDS_SHARED_DIRECTORIES  "Megosztott mappák"
+    IDS_SHAREDIR            "Mappa megosztása"
+    IDS_SHAREDIRSUB         "Mappa és almappák megosztása"
+    IDS_UNSHAREDIR          "Mappamegosztás megszüntetése"
+    IDS_UNSHAREDIRSUB       "Mappa és almappamegosztás megszüntetése"
+    IDS_ALLSHAREDFILES      "Minden megosztott fájl"
+    IDS_ALLDIRECTORIES      "Minden mappa"
+    IDS_SEARCHRELATED       "Keressen kapcsolód fájlt"
+    IDS_RELATED             "Kapcsolódó"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLLECTIONLIST      "Kollekció lista"
+    IDS_SEARCH_EMULECOLLECTION "Kollekció"
+    IDS_COLL_REPLACEEXISTING "Felül szeretnéd írni a létező fájlt?"
+    IDS_COLL_ERR_DELETING   "Ismeretlen hiba a régi fájl törlése során. Kilépés mentés nélkül?"
+    IDS_CREATECOLLECTION    "Kollekció létrehozása"
+    IDS_COLL_SIGN           "Kollekció aláírása névvel és kulccsal"
+    IDS_AUTHOR              "Szerző"
+    IDS_AUTHORKEY           "Szerző kulcs"
+    IDS_COLL_ADDINCAT       "Új letöltések hozzáadása a kollekció kategóriához"
+    IDS_MODIFYCOLLECTION    "Kollekció módosítása"
+    IDS_VIEWCOLLECTION      "Kollekció megtekintése"
+    IDS_COLL_TEXTFORMAT     "Kollekció mentése egyszerű szöveges fájlformátumban"
+    IDS_SEARCHAUTHORCOLLECTION "Szerző kollekciójának keresése"
+    IDS_ERR_DUPL_FILES      "Kétszer van megosztva: ""%s"" és ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "USS: Az útvonalkeresés túl sokszor sikertelen. Kikapcsolom az USS-t. (Feltöltési sebesség érzékelés)"
+    IDS_USS_STARTING        "USS: Előkészületek rendben. Feltöltési sebesség vezérlését megkezdtem. (Az első 60 másodpercben gyorsreagálású lesz)"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "USS: Észrevettem a beállításokban megemelt feltöltési határértéket. Gyorsreagálású leszek 60 másodpercig."
+    IDS_USS_STATE_PREPARING "Felkészülés..."
+    IDS_USS_STATE_WAITING   "Várakozás..."
+    IDS_USS_STATE_ERROR     "Hiba!"
+    IDS_SHAREWARNING        "(A mappa meg lesz osztva!)"
+    IDS_REMOVEALLSERVERS    "Biztosan törölni akarod az összes kiszolgálót?"
+    IDS_SEARCH_UNKATTR      "Ismeretlen keresési attribútum: '%s'"
+    IDS_SEARCH_ATTRERR      "Szintaxis hiba a(z) '%s' keresési attribútumban"
+    IDS_SEARCH_MISSINGANDRIGHT "Hiányzik az AND művelet jobb oldala"
+    IDS_SEARCH_OPRERR       "Szintaxis hiba az összehasonlító műveletben: '%s'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOAD_LANGFILE   "Nyelvi fájl letöltése"
+    IDS_DOWNLOADING_SERVERMET_FROM "Server.met letöltése innen: %s"
+    IDS_DOWNLOADING_SERVERMET "Server.met letöltése..."
+    IDS_FULLALLOC           "A teljes fájlméret lefoglalása a nem-szétszort részekből álló fájlok számára"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "Nem találtam Hash-t "
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "Rés lista sérült."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "Rés listát nem találtam."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "Hash készlet sérült."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "Hash készletet nem találtam."
+    IDS_CONVERTINGKNOWN2MET "Átalakítom a fájlt, hogy támogathassam a nagyméretű fájlokat (%s -> %s)..."
+    IDS_CONVERTINGKNOWN2FAILED
+                            "...nem sikerült átalakítani a known2.met-et, ezért mellőzöm a régi bejegyzéseket"
+    IDS_CONVERTINGKNOWN2DONE "... kész, átalakítás sikeres."
+    IDS_ERR_MET_BAD         "Hiba: a(z) %s fájl sérült, nem tudom betölteni az ismert fájlokat"
+    IDS_SRV_LARGEFILES      "Nagyméretű fájlok támogatása"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE
+                            "You cannot download this file because your filesystem doesn't supports files which are larger than 4GB, consider converting it to NTFS"
+    IDS_NEWVERSIONAVLBETA   "This Beta version is out of date. Due to the nature of Beta versions, which often contain bugs it is very important that you update to a stable release as soon as possible!"
+    IDS_KADSEARCHACTIVE     "(Kad search in progress...)"
+    IDS_BOLD                "Toggles bold text"
+    IDS_UNDERLINE           "Toggles underlined text"
+    IDS_COLOUR              "Selects foreground text colour (optional background colour)"
+    IDS_RESETFORMAT         "Resets all previous formatting (sends a reset tag)"
+    IDS_RESTORESEARCHPARAMS "Restore Search Parameters"
+    IDS_COMMAND             "Command"
+    IDS_ARGUMENTS           "Arguments"
+    IDS_AP_CREATEPREVCOPY   "Create preview file"
+    IDS_ARCHIVEDETAILS      "Archive-Details"
+    IDS_ARCHTYPE            "Archive type"
+    IDS_ATTRIBUTES          "Attributes"
+    IDS_LASTMODIFIED        "Last Modified"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "Headers encrypted - unable to read archive."
+    IDS_ARCPARSED           "Archive scanned."
+    IDS_ARCPREV_LISTMAYBEINCOMPL "File list may be incomplete."
+    IDS_ARCPREV_DIRNOTFOUND "Table of contents not found."
+    IDS_ARCPREV_INSUFFDATA  "Insufficent data available."
+    IDS_PASSWPROT           "Password protection"
+    IDS_ARCPREV_DIRSUCCREAD "Table of contents successfully read."
+    IDS_ARCPREV_UNKNOWNFORMAT "(unknown/unsupported)"
+    IDS_ARCPREV_PLEASEWAIT  "Scanning archive..."
+    IDS_OBFUSCATION         "Obfuscation"
+    IDS_SUPPORTED           "Supported"
+    IDS_ESTIMATED           "estimated"
+    IDS_MEDIAINFO_DLLMISSING
+                            "There is no MediaInfo library installed. If you want to get more information about audio/video files in this dialog,\r\ndownload the MediaInfo library from https://mediaarea.net/hu/MediaInfo and copy the MediaInfo.dll file into\r\neMule's installation folder ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "Warning: The file extension of ""%s"" does not match the file extension\r\ntypically used for that file format. You may want to rename the file to\r\nuse one of those file extensions ""%s""\r\nfor properly using or viewing that file format.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "Warning: The file ""%s"" seems to be protected with Digital Rights Management.\r\nYou will most likely not be able to use that file without a license from the originator of that file.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "eMule Toolbar Bitmap Files"
+    IDS_LOADFILTER_EMSKINFILES "eMule Skin Files"
+    IDS_LOADURL             "Load"
+    IDS_DELETEAFTERALLOC    "File '%s' is currently allocating disk space and will be deleted afterwards"
+    IDS_TRAYDLG_SPEED       "eMule Speed"
+    IDS_VIAPASSIVE          "via Passive"
+    IDS_WEB_REMOTE_LINK_ADDED "Link added: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "Link not added. Wrong password."
+    IDS_OPTIONS             "Options"
+    IDS_ERR_FAILEDTOLOAD    "Failed to load %s: %s "
+    IDS_RUNNINGRESTRICTED   "eMule is running with reduced privileges"
+    IDS_ARCHPREV_ATTRIBINFO "File attributes can contain:\r\n\r\nP\tfile is password protected\r\nD\tis a directory\r\nC\tComment\r\nLx\tCompression level x\r\nM\tcompressed data not completely downloaded yet\r\n<\tfile continued from previous volume\r\n>\tfile continues in next volume\r\n"
+    IDS_CONTENT_INFO        "Content"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "Messages and Comments"
+    IDS_DISABLEOBFUSCATION  "Disable support for obfuscated connections"
+    IDS_ONLYOBFUSCATED      "Allow obfuscated connections only (not recommended)"
+    IDS_ENABLEOBFUSCATION   "Enable Protocol Obfuscation"
+    IDS_PROTOCOLOBFUSCATION "Protocol Obfuscation"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "Connecting to %s (%s:%u - using Protocol Obfuscation) ..."
+    IDS_CONNECTEDTOOBFUSCATED "Obfuscated connection established on: %s"
+    IDS_VERIFIED            "Verified"
+    IDS_OBFUSCATED          "Obfuscated"
+    IDS_UNVERIFIED          "Unverified"
+    IDS_INVALIDFILEEXT      "Invalid file extension"
+    IDS_UNKNOWNFILEEXT      "unknown file extension"
+    IDS_ENABLEMINIMULE      "Enable MiniMule"
+    IDS_DISABLE_AUTOARCHPREV
+                            "Disable automatic archive preview start in file details"
+    IDS_US_STALLEDW4BR      "Stalled! Waiting for block request."
+    IDS_US_STALLEDREADINGFDISK "Stalled! Reading from disk."
+    IDS_SERVERFEATURE_INTTYPETAGS "Integer type tags"
+    IDS_FILLGRAPHS          "Draw filled graphs"
+    IDS_PARAMETER           "Parameter"
+    IDS_TEST                "Test"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "Use UPnP to setup ports"
+    IDS_UPNPSETUP           "Trying to setup port forwardings with UPnP..."
+    IDS_UPNPFAILED          "UPnP failed to setup port forwardings, please forward those ports manually if necessary!"
+    IDS_UPNPSUCCESS         "UPnP successfully set up forwardings for ports %u (TCP) and %u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "Open ports on WinXP SP1 firewall"
+    IDS_UPNP_NOSERVICE      "UPnP Device Host service is not running, skipping UPnP setup"
+    IDS_DELAYEDBYUPNP       "Connecting to the network is delayed, because UPnP is still busy configuring the port forwardings."
+    IDS_DELAYEDBYUPNP2      "Please wait some seconds, eMule will connect as soon as UPnP finished."
+    IDS_UPNP                "UPnP"
+    IDS_UPNPCLOSEONEXIT     "Remove UPnP port forwardings on exit"
+    IDS_UPNPSKIPWANIP       "Skip WAN IP setup"
+    IDS_UPNPSKIPWANPPP      "Skip WAN PPP setup"
+    IDS_SHAREEMULELABEL     "Sharing eMule with other computer users"
+    IDS_SHAREEMULEMULTI     "Each user has its own configuration and downloads"
+    IDS_SHAREEMULEPUBLIC    "Everyone has the same configuration and downloads"
+    IDS_SHAREEMULEOLD       "Store config and downloads in the program directory"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "Changing this option will let eMule use another configuration. You current settings will be ignored and already started downloads might not be visible anymore. You can switch back to your current configuration by changing this option again anytime.\n\nYou need to restart eMule for this change to take effect."
+    IDS_SPAM                "Spam"
+    IDS_MARKSPAM            "Mark as Spam"
+    IDS_MARKNOTSPAM         "Mark as not Spam"
+    IDS_SEARCHSPAMFILTER    "Enable Spam Filter for search results"
+    IDS_SHOWSMILEYS         "Show Smileys"
+    IDS_CAPTCHAREQUEST      "In order to avoid spam messages, this user requires you to solve a captcha before you can send him a message. Please enter the letters you see on this image as response:"
+    IDS_CAPTCHAFAILED       "Your response to the captcha was wrong and your message has been ignored. You can request a new captcha by sending a new message."
+    IDS_CAPTCHASOLVED       "You have passed the captcha check and the user has received your message."
+    IDS_USECAPTCHAS         "Require captcha authentication"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat from URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "Downloading nodes.dat from %s"
+    IDS_DOWNLOADING_NODESDAT "Downloading nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "Failed to download nodes.dat from %s"
+    IDS_PREVENTSTANDBY      "Prevent Standby mode while eMule is running"
+    IDS_KADID               "KadID"
+    IDS_SEARCHINGFRIENDKAD  "Searching in Kad Network for friend"
+    IDS_FOUND               "found"
+    IDS_EXTERNUDPPORT       "Extern UDP Port"
+    IDS_STORESEARCHES       "Remember open searches between restarts"
+    IDS_WRN_INCFILE_EXISTS  "You have selected a new directory for your incoming files which is not empty. All existing files in this directory will be automatically shared by eMule."
+    IDS_EDITSPAMFILTER      "Edit spam filter..."
+    IDS_EDITSPAMFILTERCOMMENTS "Edit spam filter for comments"
+    IDS_WIZZARDOBFUSCATION  "Enable this option if you want to enable protocol obfuscation\n\nIf your ISP tries throttle or block eMule, enabling obfuscation will help to circumvent such restrictions."
+    IDS_BETANAG             "This is a beta version of eMule. Please report problems and check regulary for updates in our forum (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "Do you want to download and use Kad contacts (nodes.dat) from this address:\n%s ?"
+    IDS_AUTOMATIC           "Automatic"
+    IDS_NOTCONNECTEDANY     "You are not connected to a server or the Kad network!"
+    IDS_ERR_SHARED_DIR      "Failed to read shared directory ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "The file ""%s"" seems to be protected with Digital Rights Management.\r\n\r\nYou will most likely not be able to use that file without a license from the originator. You should be aware that opening this file will most likely cause your media player to open a web browser which will transfer you automatically to the site of the originator of that file where you will get asked to acquire a license.\r\n\r\nDo you really want to continue opening the file?"
+    IDS_CHECK_FILE_OPEN     "Warn when opening untrusted files"
+    IDS_BOOTABLE            "bootable"
+    IDS_UNSUPPORTEDIMAGE    "unsupported image"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "Unshare"
+    IDS_WEBUPNPINCLUDE      "Include port into UPnP setup"
+    IDS_ADDEDON             "Added On"
+    IDS_RESOLVELINKS        "Resolve shell links in shared directories"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "Download Commands"
+    IDS_CLOSETOOLBAR        "Close Toolbar"
+    IDS_SHOWTOOLBAR         "Show Toolbar"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "You cannot use the first keyword with an OR operator when searching on Kad!\n\nFor example ""Keyword1 OR Keyword2"" is not possible. Try ""Keyword1 AND (Keyword2 OR Keyword3)"" or do multiple searches instead."
+    IDS_DISCOVEREDBY        "Discovered by"
+    IDS_NODES               "Node(s)"
+    IDS_ROUTINGTABLE        "Routing Table"
+    IDS_PROTOCOLVERSION     "Protocol Version"
+    IDS_FOUNDNODESUSEFUL    "Found Nodes (useful)"
+    IDS_NORESPONSE          "No Response"
+    IDS_NOTASKED            "Not Asked"
+    IDS_LOOKUPGRAPH         "Search Details"
+    IDS_AUTOKADLOOKUPGRAPH  "Automatically show active searches"
+    IDS_PAUSEONPREVIEW      "Pause when preview possible"
+    IDS_PREVIEWWITH         "Preview with"
+    IDS_CLOSEEMULE          "Close eMule"
+    IDS_DONOTASKAGAIN       "Don't ask me again"
+    IDS_POPULARITY          "Popularity Rank"
+    IDS_SHOWWIN7TASKBARGOODIES "Enable Windows 7 taskbar effects"
+    IDS_LANMODE             "LAN Mode"
+    IDS_OPENPREFINI         "Open preferences.ini"
+END
+
+#endif    // Hungarian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,1994 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "mt_MT.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Maltese resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_MT)
+#ifdef _WIN32
+LANGUAGE 0x3a, 0x1
+#pragma code_page(65001)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "mt_MT.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#include ""..\\version.h""\r\n"
+    "#include ""lang.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_SOCKETS_INIT_FAILED "Kien hemm problema bis-sockets tal-windows."
+    IDS_ABOUTBOX            "&Dwar l-eMule..."
+    IDS_HTTPDOWNLOAD_FILESTATUS "%s mingħand %s"
+    IDS_HTTPDOWNLOAD_CONNECTED "Ikkonnektjat ma' %s"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "Tfittix għall-isem: %s"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "L-isem instab: %s"
+    IDS_HTTPDOWNLOAD_CONNECTING "Qiegħed taqbad ma' %s"
+    IDS_HTTPDOWNLOAD_REDIRECTING "Qiegħed tiġi trasferit għal %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "Qiegħed tirċievi l-informazzjoni dwar il-file tiegħek"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR
+                            "Kien hemm problema waqt l-attentat biex jiġi ddawnlowdjat dan il-file. Il-problema hi: %s"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER
+                            "Kien hemm problema waqt li kont qiegħed taqbad mas-server. Il-problema hi: %s"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE
+                            "Ma rnexxilniex nirċievu rispons validu mingħand is-server"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE
+                            "Ma rnexxilniex nirċievu rispons validu tal-HTTP mingħand is-server"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE
+                            "Kien hemm problema waqt l-iddownlowdjar tal-file. Il-problema hi: %s"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "Download: %s%% minn %s kompluta"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "Qiegħed tirċievi il-file"
+    IDS_HTTPDOWNLOAD_OF     "%s minn %s"
+    IDS_FILELINK            "Link għall-file"
+    IDS_LD_BASICOPT         "Għażliet Bażiċi"
+    IDS_LD_ADDSOURCE        "Żid lilek innifsek bħala sors"
+    IDS_LD_EMULEHASH        "Żid il-Hash tal-eMule magħrufa bħala AICH biex tirranġa files problematiċi"
+    IDS_LD_ADVANCEDOPT      "Għażliet Avvanzati"
+    IDS_CANCEL              "Ikkanċella"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LD_ADDHTML          "Żid it-Tags tal-HTML"
+    IDS_HTTP_CAPTION        "Il-lista tas-servers qiegħda tiġi aġġornata"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%s (%s ikkupjat)"
+    IDS_LD_ADDHASHSET       "Żid il-hashset kollu"
+    IDS_HSAV                "Il-Hashset huwa disponibbli"
+    IDS_DL_SHOWED2KLINK     "Il-links tal-eD2K..."
+    IDS_FD_CORR             "Imħassar"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE
+                            "Il-file '%s' diġa' jeżisti.\nTixtieq tikteb mill-ġdid fuqu?"
+    IDS_FD_RECOV            "Irpilja"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN
+                            "Kien hemm problema waqt il-ftuh tal-file li qiegħed jiġi mniżżel. Il-problema hi: %s"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "Qiegħed jiġi mwaqqaf it-transfer"
+    IDS_FD_COMPR            "Ikkompressar"
+    IDS_WIZARD_NETWORK      "Agħżel liema network(s) tixtieq tuża."
+    IDS_MAIN_READY          "Il-verżjoni %s tal-eMule hija lesta"
+    IDS_WIZARD_ED2K         "Għazliet tal-eD2K"
+    IDS_SEL_SKIN            "Agħżel Skin..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAIN_SOCKETERROR    "Problema Fatali: Ma nistgħux nagħmlu socket fuq il-port %u"
+    IDS_MAIN_BTN_DISCONNECT "Aqta"
+    IDS_ERR_WRONGFILEID     "Il-File ID mibgħut kien ħazin"
+    IDS_ERR_BADHASHSET      "Il-hashset li irċevejna kienet imħassra jew invalida"
+    IDS_ERR_BADDATABLOCK    "Id-DataBlock li irċevejna kienet imħassra jew invalida"
+    IDS_ERR_ILLFORMEDHASH   "Il-hash ġiet magħmula ħażin"
+    IDS_ERR_BADED2KLINK     "Il-link tal-eD2K kienet magħmula ħażin"
+    IDS_ERR_NOSLLINK        "Dan mhux eD2K server jew link għall-file"
+    IDS_ERR_WRONGPACKETSIZE "Id-daqs tal-packet OP_REQUESTFILENAME huwa invalidu"
+    IDS_ERR_WRONGHPACKETSIZE "Id-daqs tal-packet OP_HASHSETREQUEST huwa invalidu"
+    IDS_ERR_UNKNOWNCLIENTACTION
+                            "Klijent mhux magħruf bagħat 'extended protocol packet'"
+    IDS_ERR_OPENMET         "Problema: Ma rnexxilniex niftħu il-file part.met! (%s => %s)"
+    IDS_ERR_BADMETVERSION   "Problema: Il-verżjoni tal-file part.met hija invalida! (%s => %s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSERVERMETVERSION "Il-versiontag fil-file server.met hija invalida (0x%X)!"
+    IDS_SERVERSFOUND        "Instabu %u servers ġo server.met"
+    IDS_SERVERSADDED        "%u servers ġew miżjuda, %u ma kienux miżjudin għax diġa jeżistu jew huma invalidi"
+    IDS_ERR_BADSERVERLIST   "Problema: Il-file server.met huwa mħassar, ma nistgħux naqraw il-lista tas-servers"
+    IDS_ERR_FILEERROR_SERVERMET
+                            "Problema mhux mistennija waqt il-qari tal-file server.met: %s, ma nistgħux naqraw il-lista tas-servers"
+    IDS_ERR_SAVESERVERMET   "Ma rnexxilniex nissejvjaw server.met!"
+    IDS_PASSIVE             "Passiv"
+    IDS_MAIN_BTN_CANCEL     "Ikkanċella"
+    IDS_AVAIL               "Partijiet: %u, Disponibbli: %u (%.1f%%)\n\n"
+    IDS_TYPE                "Tip"
+    IDS_FILEID              "L-ID tal-file"
+    IDS_FILE                "File"
+    IDS_DOWNLOAD            "Dawnlowd"
+    IDS_SL_SERVERNAME       "L-isem tas-Server"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IP                  "IP"
+    IDS_DESCRIPTION         "Deskrizzjoni"
+    IDS_PING                "Ping"
+    IDS_FILES               "Files"
+    IDS_PREFERENCE          "Preferenza"
+    IDS_PRIONOPREF          "M'hemm'x pref."
+    IDS_CONNECTTHIS         "Aqbad Ma'"
+    IDS_MAIN_BTN_CONNECT    "Aqbad"
+    IDS_ERR_SAVESERVERMET2  "Ma rnexxilniex nissejvjaw server.met! Jista' jkun li għandek bżonn tħassar server.met, u tbiddel l-isem ta' server.met.old għato ll-server.met!"
+    IDS_NOTCONNECTED        "Mhux imqabbad"
+    IDS_DISCONNECTED        "Maqtugħ"
+    IDS_USERS               "User: %u"
+    IDS_UPDOWN              "Tiela: %.1f(%.1f) | Nieżel: %.1f(%.1f)"
+    IDS_CONNECTED           "Imqabbad"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_WRITEERROR      "Problema mhux mistennija fil-file waqt il-kitba ta' %s : %s"
+    IDS_ERR_COMPLETIONFAILED
+                            "Problema mhux mistennija fil-file meta kien qed jiġi komplut %s. Il-file ġie mwaqqaf, erġa ixgħal l-eMule biex tipprova terġa tkompli il-file."
+    IDS_ERR_DELETEFAILED    "Ma rnexxilniex inġassru %s. Trid tagħmel dan manwalment."
+    IDS_DOWNLOADDONE        "Id-downlowd tal-file %s hija kompluta :-)"
+    IDS_ERR_DELETE          "Ma rnexxilniex inħassru %s"
+    IDS_ERR_HASHERRORWARNING
+                            "Twissija: Ma nistgħux nagħmlu hash tal-parti ddownlowdjata - il-hashset mhix kompluta (%s)"
+    IDS_ERR_INCOMPLETEHASH  "Problema: Ma nistgħux nagħmlu hash tal-parti ddownlowdjata - il-hashset mhix kompluta (%s). Din qatt m'għandha tiġri"
+    IDS_DOWNLOADING         "Jiddawnlowdja"
+    IDS_WAITING             "Nistennew..."
+    IDS_HASHING             "Nagħmlu il-Hash"
+    IDS_COMPLETING          "Dalwaqt Niżel"
+    IDS_COMPLETE            "Niżel"
+    IDS_PAUSED              "Imwaqqaf"
+    IDS_ERRORLIKE           "Problematiku"
+    IDS_ASSIGNED2K          "L-eMule mhuwiex qiegħed assoċjat mal-links tal-eD2Ks. Tixtieq tassoċja l-eMule mal-links tal-eD2K? (irrikomandata) ?"
+    IDS_ERR_EMPTYADDRESSESDAT
+                            "M'hemmx lista ta' indirizzi tas-servers ġewwa 'addresses.dat'. Jekk jogħoġbok ikteb lista ta' indirizzi f'dan il-file sabiex taġġorna il-lista tas-servers tiegħek."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LINKNOTADDED        "Dan il-link ma jistax jiġi miżjud"
+    IDS_MAIN_EXIT           "Żgur li trid toħroġ mill-eMule?"
+    IDS_MAIN_POPUP_RESTORE  "Irristorja"
+    IDS_CONNECTTOANYSERVER  "Aqbad ma' kwalunkwe Server"
+    IDS_EXIT                "Oħroġ"
+    IDS_CONNECTING          "Qegħdin naqbdu..."
+    IDS_FAILED              "Ma rnexxilniex"
+    IDS_ERR_BADSERVERREPLY  "Irċevejna risposta invalida dwar il-login mis-server."
+    IDS_NEWCLIENTID         "Il-client ID il-ġdid hu %u"
+    IDS_SHAREDFOLDERS       "Folders ixxerjati"
+    IDS_VIEW1               "Ara "
+    IDS_VIEW2               " (Mhux Ixxerjat)"
+    IDS_PRIOLOW             "Baxx"
+    IDS_PRIONORMAL          "Normali"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOHIGH            "Għolja"
+    IDS_DOWNLOADMENUTITLE   "Dawnlowds"
+    IDS_PRIORITY            "Prijorita'"
+    IDS_NEWSERVERS          "Irċevejna %u servers ġodda"
+    IDS_DL_STOP             "Ikkanċella għal &kollox"
+    IDS_DL_PAUSE            "Waqqaf għal &ftit"
+    IDS_DL_RESUME           "Kom&pli"
+    IDS_DL_OPEN             "Iftaħ il-&file"
+    IDS_DL_INFO             "&Dettalji..."
+    IDS_DL_CLEAR            "Ħassar il-files &lesti"
+    IDS_DL_LINK1            "Ikkopja il-links tal-&eD2K"
+    IDS_DL_LINK2            "Ikkopja il-links tal-eD2K (bl-&HTML)"
+    IDS_SHOWDETAILS         "&Dettalji..."
+    IDS_SEND_MSG            "Ibgħat &messaġġ"
+    IDS_ASKING              "Qiegħed tistaqsi..."
+    IDS_CONNVIASERVER       "Qed naqbdu permezz ta' dan is-server"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ONQUEUE             "Fil-kju"
+    IDS_TRANSFERRING        "Qiegħed jitrasferixxi"
+    IDS_RECHASHSET          "Qiegħed tirċievi il-hashset"
+    IDS_NONEEDEDPARTS       "M'hemmx partijiet li għandna bżonn"
+    IDS_NOCONNECTLOW2LOW    "Ma nistgħux inqabbdu LowID ma' LowID"
+    IDS_UNKNOWN             "Ma nafux"
+    IDS_ASKED4ANOTHERFILE   "Mistoqsi għall-file ieħor"
+    IDS_Q_CANCELDL          "Żgur li trid tikkanċella u tħassar dawn il-files?\n"
+    IDS_Q_CANCELDL2         "Żgur li trid tikkanċella u tħassar dan il-file?\n"
+    IDS_DL_FILENAME         "L-isem tal-file"
+    IDS_DL_SIZE             "Daqs"
+    IDS_DL_TRANSF           "Trasferit"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DL_SPEED            "Veloċita"
+    IDS_DL_PROGRESS         "Progress"
+    IDS_DL_SOURCES          "Sorsi"
+    IDS_ERR_BADSERVERLISTRECEIVED "Irċvejna packet invalidu tal-lista ta' servers"
+    IDS_STATUS              "Stat"
+    IDS_DL_REMAINS          "Fadal"
+    IDS_UPDATEFROM          "Aġġorna mill-URL: (filter.dat- jew il-format tal-PeerGuardian)"
+    IDS_QL_USERNAME         "Isem tal-user"
+    IDS_LOADURL             "Illowdja"
+    IDS_DELETEAFTERALLOC    "Il-file '%s' qiegħed jiġi allokat l-ispazju fuq id-disk bħalissa u se jiġi mħassar iktar tard."
+    IDS_QL_RATING           "Popolarita'"
+    IDS_CONNECTINGTO        "Qegħdin naqbdu ma' %s (%s:%u)..."
+    IDS_CLIENTS             "Klijenti (Users)"
+    IDS_SEARCH_ANY          "Kwalunkwe"
+    IDS_SEARCH_AUDIO        "Awdjo"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_PICS         "Stampa"
+    IDS_SEARCH_PRG          "Programm"
+    IDS_SEARCH_VIDEO        "Vidjo"
+    IDS_SEARCH_CDIMG        "Image ta' CD"
+    IDS_SEARCH_ARC          "Arkivju"
+    IDS_ERR_INVALIDLINK     "Din il-link tal-eD2K mhix valida (%s)"
+    IDS_ERR_LINKERROR       "Link invalida: %s"
+    IDS_ERR_NOTCONNECTED    "Mintix imqabbad ma' server!"
+    IDS_REMOVETHIS          "Neħħi"
+    IDS_REMOVEALL           "Neħħi kollox"
+    IDS_SRV_ADDR            "Jekk jogħġbok ikteb indirizz ta' server"
+    IDS_SRV_PORT            "Ikteb il-port tas-server"
+    IDS_SRV_NOTADDED        "Is-server ma ġiex miżjud!"
+    IDS_SRV_NOURLAV         "M'hemmx URL disponibbli."
+    IDS_INVALIDURL          "URL Invalida"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FAILEDDOWNLOADMET "Ma rnexxilniex inniżlu il-lista ta' servers minn %s"
+    IDS_PERMISSION          "Permessi"
+    IDS_SHAREDFILES         "Files Ixxerjati"
+    IDS_PRIOVERYLOW         "Baxx Ħafna"
+    IDS_PRIORELEASE         "Irrilaxxa"
+    IDS_TRAYDLG_SPEED       "Veloċita tal-eMule"
+    IDS_FSTATUS_FRIENDSONLY "Ħbieb biss"
+    IDS_VIAPASSIVE          "Permezz tal-'Passive'"
+    IDS_ERR_RENAMESF        "Ma rnexxilniex inbiddlu l-isem\r\n    ""%s""\r\nto\r\n    ""%s""\r\n\r\n%s"
+    IDS_AVAILABLE           "disponibbli"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FSTAT_TRANSFER      "Transfer"
+    IDS_CONNECTIONS         "Konnessjoni"
+    IDS_FSTAT_SERVERS       "Servers"
+    IDS_FSTAT_WAITING       "Qed Nistennew..."
+    IDS_TIME                "Ħin"
+    IDS_STATS_DDATA         "Data Imniżżla: %s"
+    IDS_STATS_UDATA         "Data Imtella: %s"
+    IDS_STATS_AVGDL         "Medja tar-rata tad-download: %s"
+    IDS_STATS_AVGUL         "Medja tar-rata tal-upload: %s"
+    IDS_STATS_FOUNDSRC      "Sorsi: %u"
+    IDS_STATS_ACTDL         "Downloads Attivi (Biċċiet): %u"
+    IDS_STATS_ACTUL         "Uploads Attivi: %u"
+    IDS_STATS_WAITINGUSERS  "Uploads fil-kju: %u"
+    IDS_STATS_RECONNECTS    "Erġajna qbadna: %u drabi"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_UNKNOWNCLIENT "Mhux magħruf: %u"
+    IDS_STATS_TOTAL         "Total: %u"
+    IDS_DISABLED            "Mitfi"
+    IDS_STOPPED             "Imwaqqaf"
+    IDS_STATS_UPDATELABEL   "Pawsa qabel l-aġġornament: %u sekondi"
+    IDS_ASKEDFAF            "\nMistoqsi għall-file ieħor"
+    IDS_WAITED              "Mistenni"
+    IDS_ERR_LOADCREDITFILE  "Ma rnexxilniex nillowdjaw il-file tal-kreditu. File ġdid se jiġi magħmul."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_CREDITFILEOLD   "Il-file tal-kreditu huwa skadut u se jiġi sostitwit"
+    IDS_CREDITFILELOADED    "Il-file tal-kreditu ġie llowdjat. Klijenti misjuba: %u"
+    IDS_CREDITFILECORRUPT   "Problema: Il-file tal-kreditu huwa ħazin u se jkollu jiġi maħmul mill-ġdid!"
+    IDS_ERR_CREDITFILEREAD  "Problema mhux mistennija waqt il-qari tal-file tal-kreditu: %s"
+    IDS_ERR_FAILED_CREDITSAVE "Ma rnexxilniex nissejvjaw il-file tal-kreditu"
+    IDS_NOPARTSFOUND        "Ma nstabu l-ebda files magħrufa bħala 'part'"
+    IDS_FOUNDPARTS          "Instabu %u files magħrufa bħala 'part'"
+    IDS_NEWDOWNLOAD         "Qed Jinżel: %s"
+    IDS_ERR_ALREADY_DOWNLOADING
+                            "Inti diġa qed tipprova tniżżel dan il-file %s"
+    IDS_ERR_ALREADY_DOWNLOADED "Inti diġa għandek dan il-file %s"
+    IDS_ERR_SERVERMET_BAD   "Problema: Il-file known.met ma jistax jinqara."
+    IDS_ERR_SERVERMET_UNKNOWN
+                            "Problema mhux magħrufa waqt il-qari ta' known.met: %s"
+    IDS_ERR_CONNECTIONERROR "Problema waqt li konna qed nikkonnektjaw ma' %s (%s:%u): %s"
+    IDS_ERR_SOCKET          "Problema fis-socket tas-server: %s (%s:%u): %s"
+    IDS_SHAREDFOUND         "File(s) ixxerjati: %u"
+    IDS_SHAREDFOUNDHASHING  "Instabu %u file(s) ixxerjati, se niġġeneraw il-hash għall-%u file(s) ġodda."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FILECOMPLETIONTHREAD "Il-file ġie kkrejat mingħajr problemi"
+    IDS_FILEBUFFERSIZE      "Id-daqs tal-buffer tal-file"
+    IDS_QUEUESIZE           "Id-daqs tal-kju"
+    IDS_DAYS2               "ġranet"
+    IDS_ERR_MAKEBAKCREDITFILE "Ma rnexxilniex nieħdu backup tal-file tal-kreditu"
+    IDS_COMMENT             "Kummenti"
+    IDS_IPFILTERED          "IP Iffilterjat: %s (%s)"
+    IDS_DL_TRANSFCOMPL      "Komplut"
+    IDS_DL_ACTIVE_TIME      "Ħin għad-download"
+    IDS_STATS_FILTEREDCLIENTS "Iffilterjat: %u"
+    IDS_FILTERLABEL         "Iffilterja il-messaġġi li għandom: ( issepara permezz ta' | )"
+    IDS_ERR_LARGEREQBLOCK   "Il-klijent talab wisq minn block."
+    IDS_SHOWRATEONTITLE     "Ara ir-rati tat-transfer fit-titlu"
+    IDS_TBN_NOMESSAGEHISTORY "M'hemmx messaġġi issejvjati!"
+    IDS_PW_DAP              "Issetja prijorita awtomatika mad-downloads il-ġodda"
+    IDS_FD_LASTCHANGE       "L-aħħar li rċevejna:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_RUNTIME       "Kemm domna imqabbdin"
+    IDS_ALL                 "Kollox"
+    IDS_CAT_ADD             "Żid kategorija..."
+    IDS_CAT_EDIT            "Biddel kategorija..."
+    IDS_CAT_REMOVE          "Ħassar kategorija"
+    IDS_CAT                 "Kategorija"
+    IDS_TITLE               "Titlu"
+    IDS_COLOR               "Kulur"
+    IDS_DEFAULT             "Għażla Inizzjali"
+    IDS_PW_DISPLAY          "Vista"
+    IDS_INDICATERATINGS     "Indika il-kummenti/popolarita' ta' download permezz ta' icon"
+    IDS_ALLOTHERS           "Mhux kategorizzat"
+    IDS_TOCAT               "Assoċja ma' kategorija"
+    IDS_CAT_UNASSIGN        "(Neħħi l-assoċjazzjoni)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_INCOMPLETEBLOCK "Mistoqsi għall-parti mhix kompluta"
+    IDS_ERR_OPEN            "Ma rnexxilniex niftħu il-file li tixtieq"
+    IDS_ERR_CLIENTERRORED   "Is-software tal-klijent '%s' ikkawża l-problemi (%s) - il-klijent se jinqata"
+    IDS_ERR_REQ_FNF         "Il-fajl li tixtieq ma nstabx"
+    IDS_DESC                "Deskrizzjoni: %s"
+    IDS_PORT                "Port"
+    IDS_ERR_NOVALIDSERVERSFOUND
+                            "M'hemm l'ebda server validu fil-lista biex naqbdu miegħu"
+    IDS_CONNECTEDTOREQ      "Qbadna ma' %s (%s:%u). Se nistaqsu il-permess biex nidħlu..."
+    IDS_ERR_FATAL           "Problema fatali waqt li pruvajna naqbdu. Aktarx għandek il-problemi bl-internet."
+    IDS_ERR_LOSTC           "Tlifna il-konnesjoni ma' %s (%s:%u)"
+    IDS_ERR_DEAD            "%s (%s:%u) jidher li hu mejjet."
+    IDS_ERR_FULL            "%s (%s:%u) jidher li hu mimli"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_METCORRUPT      "Problema: %s (%s) huwa problematiku, ma nistawx naqraw dan il-fajl"
+    IDS_ERR_FILEERROR       "Problema mhux magħrufa waqt il-qari tal-fajl %s (%s): %s"
+    IDS_ERR_FILEOPEN        "Ma rnexxilniex niftħu %s (%s)"
+    IDS_SEL_SKINDIR         "Agħżel id-Directory għall-iSkins..."
+    IDS_ERR_REHASH          "Twissija: %s huwa problematiku, se nerġgħu nippruvaw niġġeneraw il-hash ta' dan il-fajl."
+    IDS_SKIN_PROF           "Id-dettalji tal-iSkin"
+    IDS_ERR_PART_FNF        "Il-'Part file' ma nstabx"
+    IDS_KADOPEN             "Iftaħ"
+    IDS_ERR_SAVEMET         "Problema waqt li qed nissejvjaw il-'Part file': %s (%s)"
+    IDS_ERR_FOUNDCORRUPTION "Sibna parti problematika (%u) ġo %s"
+    IDS_HASHINGDONE         "Erġajna ġġenerajna il-hash ta' %s, il-file jidher li hu ok"
+    IDS_ERR_PARTCORRUPT     "Il-parti tad-download %u hija problematika :(  (%s)"
+    IDS_ICHWORKED           "I.C.H.: Irranġajna il-parti problematika %u (%s), Issejvjata: %s"
+    IDS_ERR_OUTOFSPACE      "M'għandekx spazju biżżejjed biex tniżżel ""%s""!"
+    IDS_SE                  "Skambju ta' sorsi"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONNECTEDTO         "Konnessjoni magħmula fuq: %s"
+    IDS_DL_PREVIEW          "Ara kif se jidher"
+    IDS_VIEWQUEUE           "Ara l-kju"
+    IDS_TW_UPLOADS          "Uploads"
+    IDS_TW_DOWNLOADS        "Downloads"
+    IDS_TW_QUEUE            "Klijenti fil-kju:"
+    IDS_SW_SEARCHBOX        "Fittex"
+    IDS_SW_NAME             "Isem"
+    IDS_SW_GLOBAL           "Tfittxija Globali"
+    IDS_SW_DIRECTDOWNLOAD   "Ippejstja links tal-eD2K"
+    IDS_SW_LINK             "Links tal-eD2K"
+    IDS_SW_START            "Fittex"
+    IDS_SCHEDULER           "Iġġenera Skeda"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC                 "&IRC"
+    IDS_SW_RESULT           "Riżultati tat-Tfittxija"
+    IDS_SW_DOWNLOAD         "Niżżel"
+    IDS_SV_SERVERLIST       "Servers"
+    IDS_SV_SERVERINFO       "Informazzjoni fuq is-Server"
+    IDS_SV_LOG              "Log"
+    IDS_SV_NEWSERVER        "Server Ġdid"
+    IDS_SV_ADDRESS          "IP jew Indirizz"
+
+    IDS_SV_ADD              "Żid mal-lista"
+    IDS_SV_MET              "Aġġorna server.met minn URL"
+    IDS_SV_UPDATE           "Aġġorna"
+    IDS_SF_FILES            "Files Ixxerjati"
+    IDS_SF_STATISTICS       "Statistiċi"
+    IDS_SF_RELOAD           "Irrilowdja"
+    IDS_SF_CURRENT          "Din is-sessjoni"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPEED_LIMITS        "Limitu tal-veloċita'"
+    IDS_CAPACITY_LIMITS     "Limitu tal-Bandwidth"
+    IDS_ADMIN               "Amministratur"
+    IDS_ACCESSDENIED        "Permess għall-aċċess miċħud!"
+    IDS_WEB_LOWUSER         "Mistieden"
+    IDS_WEB_ERR_CANTLOAD    "Ma nistgħux nillowdjaw it-templates: Ma nistgħux niftħu il-file %s"
+    IDS_GLOBALSEARCH        "Globali (Fis-Servers)"
+    IDS_METHOD              "Metodu"
+    IDS_UNDO                "Erġa Lura"
+    IDS_DAYLY               "Kuljum"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DAY_MO_FR           "Mit-Tnejn sal-Ġimgħa"
+    IDS_DAY_SA_SO           "Is-Sibt u l-Ħadd"
+    IDS_MO                  "It-Tnejn"
+    IDS_DI                  "It-Tlieta"
+    IDS_MI                  "L-Erbgħa"
+    IDS_DO                  "Il-Ħamis"
+    IDS_FR                  "Il-Ġimgħa"
+    IDS_SA                  "Is-Sibt"
+    IDS_SO                  "Il-Ħadd"
+    IDS_WEB_ADMINLOGIN      "L-aċċess mill-Web: Il-login tal-amministraturi"
+    IDS_WEB_GUESTLOGIN      "L-aċċess mill-Web: Il-login tal-mistednin"
+    IDS_WEB_SESSIONEND      "L-aċċess mill-Web: Oħroġ"
+    IDS_DETAILS             "Dettalji"
+    IDS_ACTION              "Azzjoni"
+    IDS_REMOVE              "Neħħi"
+    IDS_NEW                 "Żid"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TOTAL            "Total"
+    IDS_SF_TRANS            "Transferjat:"
+    IDS_SF_ACCEPTED         "Uploads Aċċettati:"
+    IDS_SF_REQUESTED        "Mitluba:"
+    IDS_ST_DOWNLOAD         "Il-veloċita tad-Download"
+    IDS_ST_UPLOAD           "Il-veloċita tal-Upload"
+    IDS_ST_CURRENT          "Kurrenti"
+    IDS_ST_SESSION          "Il-medja f'din is-sezzjoni"
+    IDS_ST_ACTIVED          "Downloads Attivi"
+    IDS_ST_ACTIVEU          "Uploads Attivi"
+    IDS_CW_MESSAGES         "Messaġġi"
+    IDS_CW_FRIENDS          "Ħbieb"
+    IDS_CW_SEND             "Ibgħat"
+    IDS_CW_CLOSE            "Agħlaq"
+    IDS_PW_GENERAL          "Ġenerali"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_DIR              "'Directories'"
+    IDS_PW_NICK             "Laqam"
+    IDS_PW_INCOMING         "Files neżlin"
+    IDS_PW_TEMP             "Files temporanji"
+    IDS_PW_BROWSE           "Ibbrowsja..."
+    IDS_PW_SHARED           "Directories ixxerjati (Ctrl-Click tinkludi is-subdirectories)"
+    IDS_CONNECTION          "Konnessjoni"
+    IDS_PW_DOWNL            "Il-limitu tad-download"
+    IDS_PW_UPL              "Il-limitu tal-Upload"
+    IDS_PW_MAXC             "Konnessjonijiet Massimi"
+    IDS_PW_CLIENTPORT       "Il-port tal-klijent"
+    IDS_PW_AUTOCON          "Ikkonnektja meta tixgħal l-eMule"
+    IDS_PW_RECON            "Ikkonnektja meta taqa' l-linja"
+    IDS_PW_SERVER           "Server"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_RDEAD            "Ħassar is-servers mejtin wara li taħti"
+    IDS_PW_RETRIES          "ċansijiet"
+    IDS_PW_SCORE            "Uża is-sistema tal-prijoritajiet"
+    IDS_PW_USC              "Aġġorna il-lista ta' servers meta tikkonnektja ma' server"
+    IDS_PW_UCC              "Aġġorna il-lista ta' servers meta il-programm jikkonnektja"
+    IDS_PW_FILTER           "Iffilterja l-'LAN IPs' tas-server u tal-klijent"
+    IDS_PW_USS              "Aġġorna il-lista ta' servers meta tixgħal l-eMule"
+    IDS_PW_MISC             "Oħrajn"
+    IDS_PW_TRAY             "Imminimajżja ġos-'system tray'"
+    IDS_PW_PROMPT           "Ikkonferma qabel nagħlaq l-eMule"
+    IDS_PW_SPLASH           "Ara l-iSplashscreen"
+    IDS_PW_DBLCLICK         "Iklikja darbtejn biex tara d-dettalji ta' download"
+    IDS_PW_TOOL             "Pawsa qabel it-tooltip [sekondi]"
+    IDS_PW_FRONT            "Poġġi l-eMule fuq quddiem meta niklikkja fuq xi link"
+    IDS_PW_LANG             "Lingwa"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_FILES            "Files"
+    IDS_PW_SHARE            "Ara il-files li huma ixxerjati"
+    IDS_PW_EVER             "Kulħadd"
+    IDS_PW_FRIENDS          "Ħbieb"
+    IDS_PW_NOONE            "Ħadd"
+    IDS_PW_RESET            "Irristetja"
+    IDS_PW_APPLY            "Applika"
+    IDS_CD_SNAME            "Isem tas-Server:"
+    IDS_EM_TRANS            "&Transfers"
+    IDS_EM_SERVER           "Ser&vers"
+    IDS_EM_SEARCH           "&Tfittxija"
+    IDS_EM_FILES            "&Files Ixxerjati"
+    IDS_EM_MESSAGES         "&Messaġġi"
+    IDS_EM_STATISTIC        "St&atistiċi"
+    IDS_EM_PREFS            "&Għażliet"
+    IDS_MB_LANGUAGEINFO     "Lingwa intgħazlet awtomatikament. Tista tbiddel il-lingwa permezz tal-buttuna tal-Għażliet"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FD_GENERAL          "Ġenerali"
+    IDS_FD_MET              "Il-file part.met:"
+    IDS_FD_HASH             "Hash:"
+    IDS_FD_SIZE             "Daqs:"
+    IDS_FD_TRANSFER         "Transfer"
+    IDS_FD_PARTS            "Partijiet"
+    IDS_FD_TRANS            "Trasferiti:"
+    IDS_FD_DATARATE         "Rata tad-data:"
+    IDS_FD_COMPSIZE         "Kompluti:"
+    IDS_FD_CLOSE            "Agħlaq"
+    IDS_FD_TITLE            "Dettalji tal-file"
+    IDS_CD_GENERAL          "Ġenerali"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UNAME            "Isem:"
+    IDS_CD_UHASH            "Hash:"
+    IDS_CD_CSOFT            "Software"
+    IDS_CD_UIP              "Indirizz IP:"
+    IDS_CD_SIP              "IP tas-server:"
+    IDS_CD_VERSION          "Verzjoni tal-klijent:"
+    IDS_CD_CDOWN            "Neżlin bħalissa:"
+    IDS_CD_DOWN             "Niżlu (f'din is-sezzjoni):"
+    IDS_CD_ADOWN            "Il-medja tar-rata tad-Download:"
+    IDS_CD_TDOWN            "It-total tad-Downloads:"
+    IDS_CD_UP               "Telgħu (f'din is-sezzjoni):"
+    IDS_CD_AUP              "Il-medja tar-rata tal-Upload:"
+    IDS_CD_TUP              "It-total tal-Uploads:"
+    IDS_CD_TRANS            "Transfer"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_SCORES           "Punteġġ"
+    IDS_CD_MOD              "Modifikazzjoni ta' DL/UP:"
+    IDS_CD_RATING           "Popolarita' (total):"
+    IDS_CD_USCORE           "Punteġġ tal-Uploadqueue:"
+    IDS_CD_TITLE            "Dettalji tal-Klijent"
+    IDS_EMULEW              "Ikklikkja"
+    IDS_EMULEW2             "biex tiċċekkja jekk ħargitx verżjoni ġdida tal-eMule"
+    IDS_EMULEW3             "hawn"
+    IDS_PW_MAXSOURCES       "Sorsi massimi għal kull file"
+    IDS_SHAREDFILESCOUNT    "Numru ta' files ixxerjati: %u"
+    IDS_SF_SIZE             "Id-daqs totali tal-files ixxerjati: %s"
+    IDS_ERR_BADPORT         "il-port mhux tajjeb"
+    IDS_ERR_NOHELLO         "Staqsi għal xi ħaġa mingħajr ma tgħid hello"
+    IDS_ERR_INVALIDPACKET   "Pakket invalidu irċevut"
+    IDS_ERR_CLIENTERROR     "Il-klijent '%s' (IP:%s) ikkawż problema: %s. Il-klijent se jinqata!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_BADSIZE         "daqs invalidu (OP_QUEUERANKING)"
+    IDS_ERR_NOTAFILELINK    "Din mhix link għall-file!"
+    IDS_ERR_CREATEPARTFILE  "Problema: Ma rnexxilniex nagħmlu il-part file."
+    IDS_CHAT_START          "*** Bidu tal-konverżazzjoni : "
+    IDS_FILEPRIO            "Prijorita' tal-file"
+    IDS_SCORE               "Punteġġ"
+    IDS_ASKED               "Mistoqsi"
+    IDS_LASTSEEN            "L-aħħar li ntwera"
+    IDS_BANNED              "Ibbenjat"
+    IDS_UUSERS              "Users"
+    IDS_UFAILED             "Fallut"
+    IDS_OPENFILE            "Iftaħ il-File"
+    IDS_DATE                "Data"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PARTINFOS           "L-isem tal-part file:"
+    IDS_PARTINFOS2          "Qed Jiddownloadja - mingħand %u sors(i)"
+    IDS_USERID              "L-ID tal-User"
+    IDS_CLIENT              "Klijent"
+    IDS_SERVER              "Server"
+    IDS_SOURCEINFO          "Mistoqsi: %u darbiet; Partijiet disponibbli: %u"
+    IDS_CLIENTSOURCENAME    "\nL-isem tal-file tal-klijent: "
+    IDS_USERINFO            "Isem tal-user: %s\n"
+    IDS_FILESTATS_SESSION   "Statistiċi għall-files f'din is-sezzjoni: Talbiet aċċettati - %u minn %u, %s transferjati\n"
+    IDS_FILESTATS_TOTAL     "Statistiċi għall-files fis-sezzjonijiet kollha: Talbiet aċċettati - %u minn %u, %s transferjati"
+    IDS_REQ_UNKNOWNFILE     "Il-file mitlub mhux magħruf"
+    IDS_SF_AVERAGESIZE      "Il-medja tad-daqs tal-files: %s"
+    IDS_SF_REQUESTS         "Talbiet"
+    IDS_SF_ACCEPTS          "Talbiet Milqugħa"
+    IDS_SF_TRANSFERRED      "'Data' Transferita"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REMOVESEARCHSTRING  "Agħlaw il-Window"
+    IDS_REMOVESELECTED      "Neħħi"
+    IDS_REMOVEALLSEARCH     "Agħlaq kollox"
+    IDS_ENTERQUEUE          "Dħalt fil-queue"
+    IDS_SF_FAIL             "Servers ma jaħdmux"
+    IDS_SF_WUSER            "Users fuq is-Servers attivi"
+    IDS_SF_WFILE            "Files fuq is-Servers attivi"
+    IDS_SF_USER             "Total ta' Users"
+    IDS_SF_FILE             "Total ta' Files"
+    IDS_UPLOADTIME          "Ħin tal-Upload"
+    IDS_LASTSEENCOMPL       "L'aħħar li niżel file:"
+    IDS_YES                 "Iva"
+    IDS_NO                  "Le"
+    IDS_UNBAN               "Neħħi il-Ban"
+    IDS_SF_WORKING          "Servers Attivi"
+    IDS_ADDTOSTATIC         "Żid mal-iStatic List"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDED2SSF           "Miżjud mal-iStatic list"
+    IDS_STATICSERVER        "Statiku"
+    IDS_ERROR_SSF           "Ma rnexxilniex nifthu il-file 'staticservers.dat'"
+    IDS_SF_ACTIVECON        "Konnessjonijiet Attivi (stima)"
+    IDS_SF_MAXCONLIMITREACHED "Il-Massimu ta' Konnessjonijiet intlaħaq"
+    IDS_SF_AVGCON           "Il-medja tal-konnessjonijiet (stima)"
+    IDS_SF_PEAKCON          "L-ikbar ammont ta konnessjonijiet f'daqqa (stima)"
+    IDS_ST_ACTIVEC          "Konnessjonijiet Attivi"
+    IDS_NETWORK             "Network"
+    IDS_SF_DELCOUNT         "Servers imħassrin"
+    IDS_QUEUEFULL           "Il-kju mimli"
+    IDS_AVG                 "Medja"
+    IDS_BYTES               "Bytes"
+    IDS_KBYTES              "KB"
+    IDS_MBYTES              "MB"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GBYTES              "GB"
+    IDS_TBYTES              "TB"
+    IDS_SECS                "sekondi"
+    IDS_MINS                "minuti"
+    IDS_HOURS               "siegħat"
+    IDS_DAYS                "ġranet"
+    IDS_ED2KLINKFIX         "Links tal-eD2K"
+    IDS_RECONNECT           "Attentat ieħor għall-konnessjoni mas-server se jibda f' %u sekondi"
+    IDS_SERVERADDED         "Server miżjud: %s"
+    IDS_IRC_IGNOREJOINMESSAGE "Injora messaġġi rigward informazzjoni ta' sħubija"
+    IDS_STATS_SUCCUPCOUNT   "L-ammont total ta' sessjonijiet ta' upload: %u (%.2f%%)"
+    IDS_IRC_IGNOREPARTMESSAGE "Injora messaġġi rigward 'parts'"
+    IDS_STATS_FAILUPCOUNT   "L-ammont total ta' sessjonijiet falluti ta' upload: %u (%.2f%%)"
+    IDS_STATS_AVEUPTIME     "Medja ta' ħin ta' upload: %s"
+    IDS_SEARCHMINSIZE       "Daqs Minimu [MB]"
+    IDS_SEARCHMAXSIZE       "Daqs Massimu [MB]"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PREF_ONLINESIG      "Uża firma online"
+    IDS_ERROR_SAVEFILE      "Ma rnexxilniex nissejvjaw"
+    IDS_REQ_SHAREDFILES     "Il-User %s (%u) talab il-lista ta' files li inti għandek ixxerjati -> %s"
+    IDS_ACCEPTED            "aċċettata"
+    IDS_DENIED              "rifjutata"
+    IDS_PW_CON_DOWNLBL      "Download"
+    IDS_PW_CON_UPLBL        "Upload"
+    IDS_PW_AUTOCONNECTSTATICONLY "Ikkonnektja awtomatikament ma' server li huma fl-iStatic List biss"
+    IDS_PW_CON_LIMITFRM     "Limiti"
+    IDS_STATS_AVGLABEL      "Ħin medju ghall-graph: %u minuti"
+    IDS_GRAPHS              "Graphs"
+    IDS_STREE               "'Statistics tree'"
+    IDS_IRC_IGNOREQUITMESSAGE "Injora messaġġi rigward egħluq ta' konnessjoni"
+    IDS_STATSSETUPINFO      "Statistiċi"
+    IDS_IRC_SOUNDEVENTS     "Semmagħni ħoss waqt xi avveniment partikolari"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOTCONNECTEDKAD "Bħaslissa mintix imqabbad man-network Kad!"
+    IDS_IRC_NOSFS           "M'hemm l'ebda file ixxerjat magħżul"
+    IDS_RESETLABEL          "'Auto completion' (funzjoni tal-'history')"
+    IDS_IRC_IGNOREMISCMESSAGE "Injorja messaġġi ġenerali"
+    IDS_KNOWN               "Magħruf"
+    IDS_RAU_RUNNING         "L-eMule qed jiġi użat minn user mhux awtorizzat ""%s"""
+    IDS_RAU_FAILED          "Ma rnexxilniex nillowdjaw l-eMule minn user mhux awtorizzat. ""eMule_Secure"". Se nħallu il-privileġġi tal-user kurrenti (""%s"")."
+    IDS_KADCONTACTSREAD     "Inqraw %u kuntatti mill-file."
+    IDS_ERR_KADCONTACTS     "Ma nstabu l-ebda kuntatti. Jekk jogħġbok agħmel 'bootstrap', jew iddawnlowdja il-file nodes.dat."
+    IDS_METATAGS            "Ammont ta' 'Meta Tags':"
+    IDS_FILEFORMAT          "Format"
+    IDS_UDPREASKS           "'UDP File Reasks'"
+    IDS_DYNUP_PINGTOLERANCE_MS "'Ping tolerance' (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_HEADER "Metodu għall-'ping tolerance'"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_MS "Millisekondi (ms)"
+    IDS_DYNUP_RADIO_PINGTOLERANCE_PERCENT "Persentaġġ (%)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADMOVIECHUNKS "Ipprova niżżel il-'preview chunks' l-ewwel."
+    IDS_RECOVER_SINGLE      "Arkivji problematiċi: File wieħed irranġat."
+    IDS_RECOVER_MULTIPLE    "Arkivji problematiċi: %u files irranġati."
+    IDS_ATTEMPTING_RECOVERY "Arkivji problematiċi: Attentat biex jiġi rranġat"
+    IDS_RECOVERY_SUCCESSFUL "Arkivji problematiċi: Irranġat mingħajr problemi"
+    IDS_RECOVERY_FAILED     "Arkivji problematiċi: Ma ġiex irranġat"
+    IDS_STARTNEXTFILE       "Ibda il-file mwaqqaf li jmiss meta file ieħor jinżel"
+    IDS_FULLCHUNKTRANS      "Ipprova trasferixxi biċċiet sħaħ meta taplowdja"
+    IDS_MANUALSERVERHIGHPRIO "Issetja is-servers li żidt manwalment bi prijorita' għaolja"
+    IDS_VERBOSE             "Uża il-metodu 'Verbose' (iktar rispons mill-programm)"
+    IDS_FLAT                "ċatta"
+    IDS_ROUND               "tonda"
+    IDS_SAMEUSERHASH        "Il-klijenti '%s' u '%s' għandom l-istess hash jew IP - imħassrin '%s'"
+    IDS_SEARCHEXTENTION     "'Extension'"
+    IDS_SEARCHAVAIL         "Disponibbilta'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDLIMIT           "Limitu 'Hard'"
+    IDS_COL_MORECOLORS      "iktar..."
+    IDS_TOOMANYCONNS        "Hawn ħafna connections"
+    IDS_DOWNLOADRENAMED     "File b'dak l-isem diġa jeżisti. Il-file ġie ssejvjat bl-isem %s"
+    IDS_TBN_DOWNLOADDONE    "Iddawnlowdjati:"
+    IDS_PW_TBN_USESOUND     "Semma l-ħoss"
+    IDS_PW_TBN_ONLOG        "Ġiet imdaħħla skrittura fil-Log"
+    IDS_PW_TBN_ONCHAT       "Inbdiet konverżazzjono"
+    IDS_PW_TBN_POP_ALWAYS   "Irċevut messaġġ"
+    IDS_PW_TBN_ONDOWNLOAD   "Download lesta"
+    IDS_PW_EKDEV_OPTIONS    "Notifikazzjonijiet"
+    IDS_PW_TASKBARNOTIFIER  "Messaġġ fil-forma ta' 'Pop up'"
+    IDS_PW_TBN_OPTIONS      "Oħroġ meta"
+    IDS_TBN_NEWCHATMSG      "Messaġġ mingħand"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_CON_CAPFRM       "Kapaċitajiet"
+    IDS_IRC_PRIVATECHANSTART "* Inbdiet konverżazzjoni privata"
+    IDS_IRC_SLAPMSG         "* %s jagħti xebgħa njama lill %s!"
+    IDS_IRC_PRIVMESSAGE     "Messaġġ Privat"
+    IDS_WEB_REMOTE_LINK_ADDED "Link miżjuda: "
+    IDS_WEB_REMOTE_LINK_NOT_ADDED "Il-link ma ġietx miżjuda. Password ħazina."
+    IDS_DL_TRY_TO_GET_PREVIEW_PARTS "Hemm bżonn il-partijiet tal-'preview' l-ewwel"
+    IDS_IRC_KICK            "Ixxutja"
+    IDS_IRC_SLAP            "Fajjarlu daqqa"
+    IDS_IRC_JOIN            "Issieħeb"
+    IDS_IRC_CHANNELLIST     "Lista ta' 'channels'"
+    IDS_IRC_CONNECT         "Aqbad"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FO_PREF_EXISTED     "eMule sab regoli eżistenti għal dawn il-ports, li ma kinux sostitwiti. Ir-regoli neqsin kienu miżjuda mingħajr problemi.\nJekk jogħġbok innota li ċertu 'desktopfirewalls' u 'routers' ma jiġux affetwati!"
+    IDS_FO_PREF_FAILED      "Il-firewall intern tal-WinXP ma setax jiġi issetjat fuq dawn il-ports!"
+    IDS_FO_PREF_STARTUP     "Iftaħ/agħlaq il-ports fuq il-firewall tal-WinXP meta niftaħ/nagħlaq l-eMule"
+    IDS_LOG_LEVEL           "Il-livell tal-Log"
+    IDS_NEWMSG              "Messaġġ ġdid mingħand '%s' (IP:%s)"
+    IDS_PREF_STARTNEXTFILECATONLY "Fl-istess kategorija biss"
+    IDS_LOG_ULDL_EVENTS     "Żomm Log tal-attivita tal-uploads/downloads"
+    IDS_PEERCACHE_ENABLED   "L-ISP tiegħek jippermetti it-teknoloġija 'PeerCache', il-'cache downloads' ġew attivati!"
+    IDS_IRC_EMULEPROTO_ALLOWADDFRIEND "Ippermetti li user iżidek bħala ħabib."
+    IDS_SOURCESWAPBLOCKED   "Tpartit mhux permess"
+    IDS_TRICKLING           "Stenna"
+    IDS_A4AF_CHECK_THIS_NOW "Iċċekja dan is-sors (debug)"
+    IDS_STATS_FRATIO        "UL:DL Ratio f'din is-sessjoni (UL tal-ħbieb mhux ikkunsidrat):"
+    IDS_STATS_UDATA_FRIENDS "Data aplowdjata ġo Slot ta' ħabibek (F'din is-sessjoni): %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_DISCONNECT      "Aqta"
+    IDS_IRC_HASJOINED       "* %s issieħeb/issieħbet %s"
+    IDS_IRC_HASPARTED       "* %s telaq/telqet %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s kien ixxutjat minn %s (%s)"
+    IDS_DOWNLOAD_ALPHABETICAL "Iddawnlowdja f'ordni alfabetika"
+    IDS_IRC_HASQUIT         "* %s ħareġ (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s issa huwa magħruf bħala %s"
+    IDS_IRC_SETSMODE        "* %s jissetja il-'mode': %s %s"
+    IDS_IRC_NOTSUPPORTED    "** Ċertu modes ma kinux issetjati kullimkien. Jista jkun li għandek bżonn toħroġ u terġa tidħol fiċ-channel biex taġġorna il-lista ta laqmijiet.."
+    IDS_IRC_CHANNEL         "Channel"
+    IDS_IRC_NICK            "Laqam"
+    IDS_IRC_SEND            "Ibgħat"
+    IDS_IRC_NAME            "Isem"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION jagħti daqqa ta' njama lill %s!\001"
+    IDS_IRC_ADDTIMESTAMP    "Żid il-ħin mal-messaġġ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IRC_USEFILTER       "Uża il-filter tal-lista ta' channels"
+    IDS_IRC_PERFORM         "Esegwixxi"
+    IDS_IRC_USEPERFORM      "Uża l-istring tal-'perform' waqt li tkun qiegħed taqbad"
+    IDS_IRC_ADDTOFRIENDLIST "Żid mal-lista ta' ħbieb"
+    IDS_IRC_LOADCHANNELLISTONCON "Illowdja il-lista ta' channels fuq dan is-server meta tikkonnektja"
+    IDS_IRC_ADDASFRIEND     "miżjud bħala ħabibek!"
+    IDS_PW_WARNING          "In-numru li għażilt għal ""%s"" huwa ikbar milli l-OS tiegħek jiflah:  %u\nDan jista jikkawża instabbilta' fis-sistema tiegħek.\n\nŻgur li tixtieq tkompli?"
+    IDS_TAKEOVER            "Ħu kontroll"
+    IDS_CLEANUP             "Naddaf kollox"
+    IDS_RENAME              "Biddel l-isem"
+    IDS_IRC_ADDLINKTOIRC    "Żid mal-clipboard tal-IRC"
+    IDS_IRC_SENDLINK        "Ibgħat lill ħabib(a): "
+    IDS_IRC_RECIEVEDLINK    "%s bgħat/bgħatet (%s) biex jibda awtomatikament."
+    IDS_IRC_ACCEPTLINKS     "Aċċetta links tal-eD2K fuq IRC (Uża b'attenzjoni!)"
+    IDS_SHARED              "Ixxerjat"
+    IDS_DOWNLOADED          "Iddawnlowdjat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SOURCENAMES         "L-ismijiet tas-sorsi"
+    IDS_PREF_STARTMIN       "Ixgħal imminimajzjat"
+    IDS_PS_TBN_IMPORTANT    "Urġenti: M'għandekx spazju fuq il-hard disk, il-konnessjoni mas-server intilfet"
+    IDS_COLORS              "Kuluri"
+    IDS_SP_BACKGROUND       "Sfond"
+    IDS_SP_GRID             "Grid"
+    IDS_SP_DL1              "Download kurrenti"
+    IDS_SP_DL2              "Il-medja tad-download"
+    IDS_SP_DL3              "Il-medja tad-download f'din is-sessjoni"
+    IDS_SP_UL1              "Upload kurrenti"
+    IDS_SP_UL2              "Il-medja tal-upload"
+    IDS_SP_UL3              "Il-medja tal-upload f'din is-sessjoni"
+    IDS_SP_ACTCON           "Konnessjonijiet attivi"
+    IDS_SP_ACTDL            "Downloads attivi"
+    IDS_SP_ACTUL            "Uploads attivi"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_UNLIMITED        "Bla limitu"
+    IDS_PW_MINREC           "Il-minimu rikomandat\t%u "
+    IDS_PW_UA               "Uża il-massimu tal-veloċita tal-Up/Down"
+    IDS_PW_PA               "Agħmel 'throttle' tal-veloċita tal-Up/Down"
+    IDS_IRC_IGNOREINFOMESSAGE "Injora messaġġi ta' informazzjoni"
+    IDS_CONNECTIONLOST      "Konnessjoni mwaqqa'"
+    IDS_WIZ_OS_FRAME        "Sistema Operattiva"
+    IDS_HASHINGFILE         "Il-file tal-Hashing:"
+    IDS_WIZ_TRUEUPLOAD_TEXT "Il-kapacita' vera tal-Upload"
+    IDS_WIZ_TRUEDOWNLOAD_TEXT "Il-kapaċita vera tad-Download"
+    IDS_FRIENDLIST          "Ħbieb"
+    IDS_CHATDISCONNECTED    "*** Waqat il-konnessjoni"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WIZARD              "Wizard"
+    IDS_ADDFRIEND           "Żid mal-&Favoriti"
+    IDS_REMOVEFRIEND        "Neħħi"
+    IDS_REMOVEFROMSTATIC    "Neħħi mill-iStatic List"
+    IDS_LENGTH              "Tul"
+    IDS_VIDEO               "Vidjo"
+    IDS_AUDIO               "Awdjo"
+    IDS_FILEINFO            "Informazzjoni fuq il-file"
+    IDS_CODEC               "Codec"
+    IDS_BITRATE             "Bitrate"
+    IDS_CMT_SHOWALL         "Kummenti..."
+	  IDS_WIDTH               "Wisa'"
+    IDS_FPS                 "Frames/sekonda"
+    IDS_CHANNELS            "Channels"
+    IDS_SAMPLERATE          "Samplerate"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HEIGHT              "Għoli"
+    IDS_SHAREDFILES_FAILED  "Il-lista ta' files ixxerjati ma tistax tasal mingħand '%s'"
+    IDS_SHAREDFILES_REQUEST "Qegħda tintalab lista ta files ixxerjati mingħand '%s'"
+    IDS_VIEWFILES           "Ara il-files ixxerjati"
+    IDS_FRIENDSLOT          "Iftaħ slot ma' ħabib(a)"
+    IDS_FRIENDDETAIL        "(Slot ma' ħabib(a))"
+    IDS_UDPDISABLED         "Itfi"
+    IDS_WIZ_CTFRAME         "Tip ta' konnessjoni"
+    IDS_CONCURDWL           "Downloads f'daqqa"
+    IDS_WIZARD_CUSTOM       "L-għażla tiegħi"
+    IDS_WIZARD_ENTERBELOW   "(ikteb hawn taħt)"
+    IDS_STATS_MAXAVGDL      "Il-massimu tal-medja tal-veloċita' tad-download: %s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_MAXDL         "Masimu tal-veloċita' tad-download: %s"
+    IDS_IRC_EMULEPROTO_IGNOREADDFRIEND
+                            "Injora il-messaġġi tal-eMule rigward l-'add friend protocol'"
+    IDS_PW_FASTSRVCON       "Uża is-'Safe Connect'"
+    IDS_SOURCELINKFAILED    "Għandek bżonn 'HighID' biex tagħmel 'sourcelink' validu"
+    IDS_ERR_LOADSERVERMET   "Il-server.met ma jistax jiġi llowdjat!"
+    IDS_ERR_CORRUPTCOMPRPKG "Messaġġ mhux leġġibbli għal %s kien irċevut (err %u)"
+    IDS_ERR_EMFRIENDSINVALID
+                            "Il-file 'emfriends.met' huwa invalidu jew mhux leġġibli!"
+    IDS_ERR_READEMFRIENDS   "Problema mhux magħrufa waqt il-qari ta' emfriends.met: %s"
+    IDS_ERR_KNOWNSERVERINFOREC "Informazzjoni mhux magħrufa ġiet irċevuta mis-server!"
+    IDS_WIZ_DOWN            "Down (kBits/sekonda)"
+    IDS_WIZ_UP              "Up (kBits/sekonda)"
+    IDS_SELECT_INCOMINGDIR  "Agħżel folder għall-files li neżlin"
+    IDS_SELECT_TEMPDIR      "Agħżel folder għall-files temporanji"
+    IDS_PRIOAUTO            "Awtomatika"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRIOAUTONORMAL      "Awto [Normali]"
+    IDS_PRIOAUTOHIGH        "Awto [Għolja]"
+    IDS_PRIOAUTORELEASE     "Awto [Irrilaxxata]"
+    IDS_PRIOAUTOLOW         "Awto [Baxxa]"
+    IDS_ERR_CONTIMEOUT      "Il-ħin allokat għall-attentat ta' konnesjoni ma' ""%s"" (%s:%u ) skada"
+    IDS_OUTOFSERVERS        "Il-konnessjoni mas-servers kollha tal-lista ma tistax issir. Se jerġħu jiġu ppruvati kollha."
+    IDS_PW_CONLIMITS        "Limitu ta' Konnessjonijet"
+    IDS_MAXCON5SECLABEL     "Massimu ta' konnessjonijiet kull 5 sekondi."
+    IDS_PW_UAP              "Żid files ixxerjati ġodda bi prijorita' awtomatika"
+    IDS_MAXCLIENT           "Ammont massimu ta' users"
+    IDS_PW_TWEAK            "Estiża"
+    IDS_TWEAKS_WARNING      "Twissija: Tbiddilx dawn is-settings jekk ma tafx x'inti tagħmel, inkella tista tiggrava is-sitwazzjoni. L-eMule jaħdem sewwa mingħajr ma tbiddel dawn is-settings."
+    IDS_ADDAFRIEND          "Żid..."
+    IDS_PAF_REQINFO         "Informazzjoni meħtieġa"
+    IDS_PAF_MOREINFO        "Informazzjoni addizzjonali"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOVALIDFRIENDINFO "Trid tikteb IP u Port validu!"
+    IDS_ADD                 "Żid"
+    IDS_RECOVERED_PARTMET   "Irrikoverat il-file part.met għal: %s"
+    IDS_CMT_QUEST           "Ikkummenta fuq dan il-file! (Dan il-kumment se jintwera lill users kollha.)"
+    IDS_CMT_AIDE            "Għal xi film, tista tispeċifika it-tul, l-istorja, il-lingwa... U jekk huwa finta, tista tinforma lill users tal-eMule..."
+    IDS_CMT_ADD             "Kummenti..."
+    IDS_CMT_NONE            "Bla kummenti"
+    IDS_CMT_READ            "Kumment tal-file:"
+    IDS_CMT_READALL         "Kummenti"
+    IDS_CMT_RATEQUEST       "Il-kwalita' tal-file"
+    IDS_CMT_RATEHELP        "Speċifika il-kwalita' tal-file u avża lill-users jekk il-file huwa invalidu!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CMT_FAKE            "Invalidu / Mhux leġġibbli / Finta"
+    IDS_CMT_POOR            "Ħażin"
+    IDS_CMT_GOOD            "Tajjeb"
+    IDS_CMT_FAIR            "Mhux Ħażin"
+    IDS_CMT_EXCELLENT       "Eċċellenti"
+    IDS_CMT_NOTRATED        "Bla kummment"
+    IDS_KILO                "k"
+    IDS_MEGA                "M"
+    IDS_GIGA                "G"
+    IDS_TERA                "T"
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "Injora messaġġi dwar l-'eMule protocol'"
+    IDS_SMARTLOWIDCHECK     "Uża l-i'smart LowID check' meta tikkonnektja"
+    IDS_SF_SRVOCC           "Okkupazzjoni tas-Server: %.2f%%"
+    IDS_3DDEP               "Stil tal-Progressbar"
+    IDS_AUTOTAKEED2KLINKS   "Aċċetta il-links tal-eD2K waqt li l-programm ikun mixgħul biss"
+    IDS_ADDNEWFILESPAUSED   "Issetja il-files ġodda bħala Imwaqfin Temporanjament"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_NOHELP          "Jekk jogħġbok żur is-sezzjoni tad-downlods tal-website tagħna biex tniżżel kopja tal-aħħar file tal-għajnuna!\n\nTixtieq tuża għajnuna online għalissa?"
+    IDS_SHOWOVERHEAD        "Uri il-bandwidth mhux utilizzat"
+    IDS_UPDOWNSMALL         "Up: %.1f | Down: %.1f"
+    IDS_EDITLIST            "Ara..."
+    IDS_SP_ICONBAR          "L-i'speed bar' tal-'icon' tas-'System tray'"
+    IDS_RATINGRECV          "Il-kwalita tal-file '%s' irċevuta: %u"
+    IDS_DESCRIPTIONRECV     "Id-deskrizzjoni tal-file '%s' irċevuta: %s"
+    IDS_WEBSERVICES         "Servizzi fuq il-Web"
+    IDS_WEBSVEDIT           "Is-Servizzi tal-Web..."
+    IDS_IRC_EMULEPROTO_IGNORESENDLINK
+                            "Injora il-messaġġi tal-'eMule send link protocol'"
+    IDS_CHECK4UPDATE        "Iċċekja għall-verżjonijiet ġodda"
+    IDS_STARTUP             "Ftuħ tal-programm"
+    IDS_NEWVERSIONAVL       "Ħarġet verżjoni ġdida tal-eMule! Iċċekja il-website għal aktar informazzjoni."
+    IDS_NEWVERSIONAVLPOPUP  "Ħarġet verżjoni ġdida tal-eMule! Agħfas hawn biex taqra dwar din il-verżjoni."
+    IDS_NEWVERSIONFAILED    "Ma jistax jiġi ċċekkjat jekk hemmx verzjoni ġdida."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CB_TBN_ONNEWVERSION "M'hemmx verżjoni ġdida tal-eMule"
+    IDS_NONEWERVERSION      "M'hemmx verżjoni ġdida tal-eMule."
+    IDS_VERSIONCHECK        "Iċċeka l-verżjoni"
+    IDS_VISITVERSIONCHECK   "\n\nTixtieq iżżur il-paġna tal-Informazzjoni issa?"
+    IDS_PW_VIDEOPLAYER      "Video player"
+    IDS_VIDEOBACKUP         "Agħmel backup biex tara preview"
+    IDS_MYINFO              "Info tiegħi"
+    IDS_ID                  "ID"
+    IDS_IDLOW               "ID Baxxa"
+    IDS_IDHIGH              "ID Għolja"
+    IDS_UPSTATUS            "Partijiet ottenuti"
+    IDS_TOVERHEAD           "Total ta' pakketti mhux utilizzati: %s (%s)"
+    IDS_FROVERHEAD          "Talbiet ta' pakketti mhux utilizzati: %s (%s)"
+    IDS_SSOVERHEAD          "Pakketti ta' Tpartit ta Sorsi mhux utilizzati: %s (%s)"
+    IDS_SOVERHEAD           "Pakketti mhux utilizzati fuq is-server: %s (%s)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ADDDOWNLOADSFROMCB  "Żid dawn il-links tal-eD2K mad-downloads?\n"
+    IDS_PF_WATCHCB          "Iċċekkja il-clipboard awtomatikament għall-links tal-eD2K"
+    IDS_SECURITY            "Sigurta'"
+    IDS_IPFILTERLOADED      "Ġew illowdjati %u IP filters"
+    IDS_IPFILTER            "IP Filter"
+    IDS_EDIT                "Editja..."
+    IDS_FILTERLEVEL         "Livell tal-Filter"
+    IDS_FILTERSERVERBYIPFILTER "Iffilterja is-servers ukoll"
+    IDS_FILTERCOMMENTSLABEL "Injora kummenti li fihom: (Issepara permezz ta' | )"
+    IDS_CLIENTLIST          "Klijenti magħrufa"
+    IDS_FOLDER              "Folder"
+    IDS_CL_UPLOADSTATUS     "Stat tal-Upload"
+    IDS_CL_TRANSFUP         "Aplowdjat"
+    IDS_CL_DOWNLSTATUS      "Stat tad-Download"
+    IDS_CL_TRANSFDOWN       "Iddownlowdjat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CL_PENDING          "Stenna..."
+    IDS_CL_LOW2LOW          "Ip baxx għal ieħor baxx"
+    IDS_ERROR               "Problema"
+    IDS_OPENINC             "Iftaħ il-folder tal-files li neżlin"
+    IDS_HOTMENU             "Hotmenu"
+    IDS_DISABLEKNOWNLIST    "Tużax il-lista ta' klijenti magħrufa"
+    IDS_DISABLEQUEUELIST    "Tużax il-lista ta' kju"
+    IDS_USECREDITSYSTEM     "Uża is-sistema ta' kreditu (ringrazzjament lill dawk li japplowdjaw)"
+    IDS_FIRSTAUTODOWN       "Ixgħal din jekk tixtieq lill-eMule jiddeċiedi il-prijoritajiet tad-downloads tiegħek.\n\nMeta tixgħal din taċċerta ruħek li l-eMule ma jħallix downloads b'ħafna sorsi jinterferixxu ma downloads bi ftit sorsi. Din l-għażla se tinfluwenza biss id-downloads futuri."
+    IDS_FIRSTAUTOUP         "Ixgħal din jekk tixtieq lill-eMule jiddeċiedi il-prijoritajiet tal-uploads.\n\nMeta tixgħal din taċċerta ruħek li l-eMule jippromovi files rari, li tfisser li files popolari jkunu iktar diffiċli biex jiġu ddownlowdjati minn ħaddieħort. Jekk titfi din l-għażla tkun qed tippermetti l-eMule biex japlowdja files popolari iktar spiss u jfisser li files rari se jkunu iktar diffiċli biex jiġu ddawnlowdjati minn ħaddieħor. Din l-għażla taffetwa biss files ixxerjati fil-futur."
+    IDS_FIRSTSAFECON        "Ixgħal din l-għażla jekk tixtieq l-eMule jikkonnektja billi juża 'Safe Connect'.\n\n Meta titfi din il-feature tkun qed tħalli l-eMule jikkonnektja mas-servers b'veloċita ftit aħjar, iżda jista jkollok ħafna 'LowIDs' foloz waqt li taqbad."
+    IDS_FIRSTAUTOCON        "Ixgħal din l-għażla jekk tixtieq l-eMule jikkonnektja meta tixgħalu."
+    IDS_FIRSTCOMPLETE       "Inti issa lestejt il-wizars ta' l-ewwel darba.\n\nDawn is-settings kollha jistgħu jinbidlu billi tiklikkja fuq l-icon tal-Preferenzi. Għal spjegazzjoni uża l-għajnuna billi tagħfas F1 fl-eMule!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENTERUSERNAME       "Jekk jogħġbok ikteb il-user name:"
+    IDS_STATIC_CPUMEM       "Iffranka l-użu tal-memorja u s-CPU"
+    IDS_KAD_SEARCH_KEYWORD_TOO_SHORT
+                            "Il-frażi qasira wisq.\r\n\r\nIl-fraż(ijiet) użati fit-tfittix tal-Kad irid ikollhom 3 ittri."
+    IDS_LOG2DISK            "Issejvja il-log fuq id-disk"
+    IDS_KAD_SEARCH_KEYWORD_ALREADY_SEARCHING
+                            "Diġa hemm Tfittxija tal-Kad għadejja għall-frażi ""%s"".\r\n\r\nBiex terġa tfittex għal dik il-frażi, jew stenna sakemm it-tfittxija titlesta jew inkella agħlaq is-sezzjoni fejn qed issir it-tfittxija."
+    IDS_KAD_SEARCH_KEYWORD_INVALID
+                            "Frażi invalida fil-Kad.\r\n\r\nFrazi tal-Kad irid ikollha dan il-format:\r\n\r\n\t<frażi-kad> [ <frażi-tfittxija-ed2k> ]\r\n\r\nIl-<frażi-kad> ma' jridx ikun fiha dawn l-ittri:\r\n\r\n\t%s"
+    IDS_EDITCAT             "Biddel l-għażliet tal-Kategoriji"
+    IDS_PW_WS               "Interface fuq il-web"
+    IDS_ENABLED             "Mixgħul"
+    IDS_WEB_LOGIN           "Idħol"
+    IDS_WEB_ENTER_PASSWORD  "Ikteb il-password tiegħek hawn"
+    IDS_WEB_LOGIN_NOW       "Idħol Issa"
+    IDS_WEB_CONFIRM_REMOVE_SERVER
+                            "Żgur li tixtieq tneħħi dan is-server mill-lista?"
+    IDS_WEB_CONTROL         "Interface tal-Web"
+    IDS_WEB_LOGOUT          "Oħroġ"
+    IDS_WEB_ACTIONS         "Azzjonijiet"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHOW_UPLOAD_QUEUE "Ara l-Queue"
+    IDS_WEB_GZIP_COMPRESSION "Uża il-'Gzip compression'"
+    IDS_WEB_GZIP_COMMENT    "Iffranka it-traffic, speċjalment fil-graphs."
+    IDS_WEB_REFRESH_TIME    "Ir-'Refresh-Time' tal-paġni"
+    IDS_WEB_REFRESH_COMMENT "Ħin f'sekondi (0=mitfi):"
+    IDS_SV_URL              "URL"
+    IDS_WS_RELOAD_TMPL      "Template"
+    IDS_SV_DEBUGLOG         "Il-log għad-Debug"
+    IDS_WS_PASS             "Password"
+    IDS_WS_ERR_LOADTEMPLATE "It-templates ma jistgħux jiġu llowdjati: biddel il-file %s ma' verżjoni aktar riċenti!"
+    IDS_WEB_CONLIMITS       "Il-limiti tal-konnessjonijiet"
+    IDS_INFLST_USER_TOTALDOWNLOAD "It-total ta' Downloads"
+    IDS_INFLST_USER_TOTALUPLOAD "It-total ta' Uploads"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_BADLOGINATTEMPT "Interface fuq il-Web: Ma tistax tidħol"
+    IDS_ERR_TOOLARGEFILE    "Il-file huwa ikbar mid-daqs rikkomandat ġo l-'edonkey protocol' (>=256GB)"
+    IDS_MSGONLYFRIENDS      "Aċċetta mingħand il-ħbieb biss"
+    IDS_DAY_MO_SA           "Mit-Tnejn sas-Sibt"
+    IDS_LIMITSOURCES        "Il-limitu ta' sorsi"
+    IDS_LIMITCONS5SEC       "Il-limitu ta konnessjonijiet kull 5 sekondi"
+    IDS_SCHED_CATSTOP       "Cat:Waqqaf Downloads"
+    IDS_SCHED_CATRESUME     "Cat:Kompli Downloads"
+    IDS_S_DAYS              "Ġranet"
+    IDS_STARTTIME           "Il-ħin tal-bidu"
+    IDS_VALUE               "Valur"
+    IDS_SCHED_ENTERDATARATELIMIT "Ikteb limitu ta' datarate:"
+    IDS_SCHED_ENTERVAL      "Jekk jogħġbok ikteb valur ġdid:"
+    IDS_SCHED_ACTCONFIG     "Agħżel azzjoni"
+    IDS_SELECTCAT           "Agħżel kategorija"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ALLUNASSIGNED       "Dawk li mhumiex kategorizzati"
+    IDS_ACTSESSIONS         "Sessjoni(jiet) Attivi"
+    IDS_WEBSRV              "Interface tal-Web"
+    IDS_SW_REFETCHRES       "Ir-riżultati tar-Refetch"
+    IDS_FILEHASH            "Il-Hash tal-file"
+    IDS_PW_PROXY            "Proxy"
+    IDS_PROXY_ENABLE        "Ixgħal il-proxy"
+    IDS_PROXY_TYPE          "It-tip ta' Proxy:"
+    IDS_PROXY_HOST          "Il-host tal-Proxy:"
+    IDS_PROXY_PORT          "Il-port tal-Proxy:"
+    IDS_PROXY_AUTH          "Uża l-awtentikazzjoni"
+    IDS_AUTH                "Awtentikazzjoni"
+    IDS_SHOWCATINFO         "Ara l-informazzjoni fuq il-download fit-tabs tal-kategoriji"
+    IDS_SW_SEARCHINGINFO    "Għaddejja tfittxija. Erġa llowdja r-riżultati f'mument ieħor!"
+    IDS_LOGENTRY            "Skrittura fil-Log"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "Ikkopja"
+    IDS_SELECTALL           "Agħżel Kollox"
+    IDS_AUTOSCROLL          "Skrollja awtomatikament"
+    IDS_WIZ1_WELCOME_TITLE  "Merħba fl-eMule!"
+    IDS_WIZ1_WELCOME_ACTIONS
+                            "Dan il-wiżard se jgħinek fl-ewwel għażliet li trid tagħmel għall-użu  tal-eMule."
+    IDS_WIZ1_WELCOME_BTN_HINT "Biex tmur f'li jmiss, agħżel Kompli."
+    IDS_WIZ1_END_TITLE      "Se jitlesta il-Wizard"
+    IDS_WIZ1                "Il-wizard ta' l-ewwel darba"
+    IDS_WIZ1_END_BTN_HINT   "Biex tagħlaq il-wiżard aħgfas Tmiem."
+    IDS_WIZ1_UPLOAD_SUBTITLE "Trasferixxi biċċiet sħaħ"
+    IDS_DL_RESUMENEXT       "Kompli dak li hemm imwaqqaf"
+    IDS_STARTPRIO           "Prijorita' għall-din il-kategorija"
+    IDS_PREF_STARTNEXTFILECAT "Nippreferi l-istess kategorija"
+    IDS_SOFTFILES           "Il-limitu 'soft' tal-files"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HARDFILES           "Il-limitu 'hard' tal-files"
+    IDS_FILTER              "Filter"
+    IDS_LINKS               "Links"
+    IDS_HM_SCHED_ON         "Ixgħal l-iskeda"
+    IDS_HM_SCHED_OFF        "Itfi l-iskeda"
+    IDS_HM_LINKHP           "eIl-website tal-Mule"
+    IDS_HM_LINKFAQ          "Mistoqsijiet kommuni dwar l-eMule"
+    IDS_HM_LINKVC           "Iċċekja il-verżjoni tal-eMule"
+    IDS_DEBUG_SOURCE_EXCHANGE
+                            "Żomm nota tat-tpartit tas-sorsi bejn il-klijenti u tat-talbiet u r-risposti tas-server"
+    IDS_SHAREDREQ1          "Il-user %s (%u) jixtieq il-lista ta' direttori ixxerjati -> %s"
+    IDS_SHAREDREQ2          "Il-user %s (%u) jixtieq il-lista ta' files ixxerjati fid-direttorju '%s' -> %s"
+    IDS_SHAREDANSW          "Il-user %s (%u) jixxerja id-direttorju '%s'"
+    IDS_SHAREDANSW2         "Il-user %s (%u) bagħat mhux talab il-lista ta' direttorji ixxerjati - it-talba injorata"
+    IDS_SHAREDINFO1         "Il-user %s (%u) bagħat lista ta' files fid-direttorju '%s'"
+    IDS_SHAREDINFO2         "Il-user %s (%u) spiċċa jibgħat il-lista ta' files ixxerjati"
+    IDS_SHAREDANSW3         "Il-user %s (%u) bagħat mhux talab il-lista ta' files ixxerjati fid-direttorju '%s' - it-talba injorata"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREDREQDENIED     "Il-user %s (%u) ma tħalliex jaċċessa il-lista ta' direttorji/files ixxerjati"
+    IDS_AUTOCLEANUPFN       "Naddaf l-ismijiet tal-files iddawnlowdjati"
+    IDS_ONNEWDOWNLOAD       "L-illowdjar tal-bidu"
+    IDS_FILTERFILENAMEWORD  "Ikteb il-kliem biex tiffilterja, isseparati permezz ta' |"
+    IDS_FNFILTERTITLE       "Irranġa l-'wordfilter' ta' l-isem tal-file għan-'name-cleanup'"
+    IDS_CHANGECATVIEW       "Agħel il-'View Filter'"
+    IDS_STATUS_NOTCOMPLETED "Mhux komplut"
+    IDS_STATS_CUMULATIVE    "Kumulattiv"
+    IDS_STATS_OVRHD         "Ħela"
+    IDS_STATS_RECORDS       "Records"
+    IDS_STATS_COMPDL        "Downloads Lesti"
+    IDS_STATS_SVRECWORKING  "Massimu ta' Working Servers"
+    IDS_STATS_SVRECUSERS    "Massimu ta' Users Online"
+    IDS_SEARCH_TEXT         "Fittex għal"
+    IDS_STATS_SVRECFILES    "Massimu ta' files disponibbli"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_SHRECNUM      "Massimu ta' files ixxerjati"
+    IDS_SEARCH_COLUMN       "Fittex fil-kolonna"
+    IDS_STATS_SHRECSIZE     "L-ikbar daqs ta' Share"
+    IDS_STATS_SHRECASIZE    "L-ikbar medja ta' daqs ta' file"
+    IDS_STATS_SESSION       "Sessjoni"
+    IDS_STATS_SRATIO        "Ir-ratio UL:DL f'din is-sessjoni:"
+    IDS_STATS_CRATIO        "Ir-ratio UL:DL akkumulat:"
+    IDS_SEARCH_NORESULT     "Ma nstabet l-ebda skrittura."
+    IDS_STATS_CURRSRVDUR    "Current Server Duration"
+    IDS_LONGSECS            "Sekondi"
+    IDS_STATS_DLSES         "Sessjonijiet ta' download"
+    IDS_LONGMINS            "Minuti"
+    IDS_STATS_SDLSES        "Sessjonijiet kompluti ta' downloads"
+    IDS_STATS_FDLSES        "Sessjonijiet falluti ta' downloads"
+    IDS_STATS_AVGDATADLSES  "Il-medja ta' download f'kull sessjoni"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ULSES         "Sessjonijiet ta' Upload"
+    IDS_STATS_GAINCOMP      "Iggwadanjat permezz tal-Compression: %s"
+    IDS_STATS_LOSTCORRUPT   "Mitluf minħabba il-Corruption: %s"
+    IDS_STATS_AVGDATAULSES  "Medja ta' uploads f'kull sessjoni"
+    IDS_STATS_ICHSAVED      "Partijiet iffrankati permezz ta' I.C.H: %u"
+    IDS_STATS_MBRESET_TXT   "Żgur li trid tirrisetja l-istatistika akkumulata tiegħek?\n\nJekk tbiddel fegħmtek, tista terġa lura billi tiklikkja fuq 'Irristorja l-Istatistiċi'."
+    IDS_STATS_MBRESTORE_TXT "Żgur li tixtieq tirristorja l-istatistiċi akkumulati mill-file tal-backup?\n\nJekk terġa tiklikkja fuq fuq 'Irristorja l-Istatistiċi', terġa tillowdja l-istatistiċi li hemm bħalissa."
+    IDS_ERR_NOSTATBKUP      "Problema: Il-backup file tal-istatistika ma nstabx..."
+    IDS_STATS_NFOLOADEDBKUP "Illowdjata id-data tal-istatistika..."
+    IDS_STATS_NFORESET      "L-istatistika ġiet irrisetjata!"
+    IDS_STATS_BNRESET       "Irrisetja l-Istatistika"
+    IDS_STATS_BNRESTORE     "Irristorja l-Istatistika"
+    IDS_PPGSTATS_YSCALE     "Statistika dwar il-konnessjonijiet (Y-axis):"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PPGSTATS_ACRATIO    "Ir-ratio ta' konnessjonijiet attivi:"
+    IDS_STATS_PROBLEMATIC   "Problematiċi"
+    IDS_LONGHRS             "Siegħat"
+    IDS_STATS_LARGESTFILE   "L-ikbar file ixxerjat"
+    IDS_SPLIT_WINDOW        "Aqsam il-Window"
+    IDS_STATS_DSPF          "Part File"
+    IDS_STATS_DATASOURCE    "Sors ta' Data"
+    IDS_STATS_DSFILE        "File Komplut"
+    IDS_STATS_GENERAL       "Ġenerali"
+    IDS_STATS_TRANSTIME     "Ħin għat-Transfer"
+    IDS_STATS_DOWNTIME      "Ħin għad-Download"
+    IDS_STATS_UPTIME        "Ħin għal-Upload"
+    IDS_STATS_TOTALSRVDUR   "Il-ħin total online tas-server"
+    IDS_STATS_MAXAVGUL      "L-ikbar medja tar-rata ta' l-upload"
+    IDS_STATS_MAXUL         "L-ikbar rata ta' l-upload"
+    IDS_STATS_AVGDLTIME     "Il-medja ta' ħin għad-download"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_PRTDEF        "Għażla inizzjali"
+    IDS_STATS_PRTOTHER      "Ieħor"
+    IDS_STATS_MNUTREETITLE  "'Tree' tal-istatistika"
+    IDS_STATS_MNUTREECPYSEL "Ikkopja il-fergħa"
+    IDS_STATS_MNUTREECPYALL "Ikkopja l-istatistiċi kollha"
+    IDS_STATS_MNUTREEHTML   "Features tal-HTML"
+    IDS_STATS_EXPORT2HTML   "Exportja l-istatistiċi..."
+    IDS_CONDTCPACCEPT       "Irriġetta konnessjonijiet b'veloċita għolja"
+    IDS_STATS_MNUTREECPYVIS "Ikkopja dak kollu li hu viżibbli"
+    IDS_STATS_MNUTREEEXPANDALL "Espandi is-sezzjonijiet kollha"
+    IDS_STATS_MNUTREECOLLAPSEALL "Ikkollassa is-sezzjonijiet kollha"
+    IDS_STATS_MNUTREEEXPANDMAIN "Espandi is-sezzjonijiet prinċipali"
+    IDS_STATS_LASTRESETSTATIC "L-aħħar li ġew irrisetjati l-istatistiċi: %s"
+    IDS_STATS_MONTHLY       "Darba fix-xahar"
+    IDS_STATS_YEARLY        "Darba fis-sena"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_SHUTDOWNSYSTEM  "Itfi il-kompjuter"
+    IDS_WEB_ADMINMENU       "Menu tal-Amministrazzjoni"
+    IDS_WEB_MAIN_CLOSE      "Żgur li trid toħroġ mill-eMule?"
+    IDS_WEB_MAIN_REBOOT     "Żgur li trid tirribûtja il-komputer?"
+    IDS_WEB_MAIN_SHUTDOWN   "Żgur li trid titfi l-komputer?"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_BANNED "Ara l-klijenti ibbenjati li hemm fil-kju"
+    IDS_WEB_SHOW_UPLOAD_QUEUE_FRIEND "Ara l-ħbieb li hemm fil-kju"
+    IDS_WEB_SESSIONTIMEOUT  "Tiskadi is-session"
+    IDS_WEB_ALLOWHILEVFUNC  "Ħalli l-eMule jingħalaq, jirristartja u jitfi il-komputer"
+    IDS_SETPFSLIMIT         "Limitu ta' sorsi..."
+    IDS_SETPFSLIMITEXPLAINED
+                            "Jekk jogħġbok ikteb il-limitu ta' sorsi l-ġdid għall-file(s) magħżulin! \n(issetja 0 biex tuża is-setting globali)"
+    IDS_UPDATECATINCOMINGDIRS
+                            "Tixtieq li d-direttorji tal-kategoriji li huma fid-direttorju l-antik jiġu aġġornati fil-post il-ġdid?"
+    IDS_USESPEECH           "Speak notification message"
+    IDS_ERR_FAILEDTOLOAD    "%s: %s ma setax jiġi llowdjat "
+    IDS_TCPIP_CONNS         "Konnessjonijiet tat-TCP/IP"
+    IDS_MANUAL_FILENAMECLEANUP
+                            "Tixtieq tnaddaf l-ismijiet tal-files magħżulin?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_TIMESTATS     "Statistiċi tal-ħin"
+    IDS_STATS_AVGANDPROJ    "Medji ppjanati"
+    IDS_STATS_TIMESINCERESET "Il-ħin mill-aħħar reset: %s"
+    IDS_CRYPT_INITFAILED    "Il-cryptokeys ma jistgħux jiġu llowdjati - is-'secure ident' ġie mitfi"
+    IDS_CD_IDENT            "Identifikazzjoni:"
+    IDS_IDENTOK             "Suċċess"
+    IDS_IDENTFAILED         "Invalidu"
+    IDS_IDENTNOSUPPORT      "Mhux permess jew mitfi"
+    IDS_COMMITFILES         "Ikteb .met/.dat b'sigurta"
+    IDS_ERR_BADUNC          "UNC-name invalidu"
+    IDS_NEVER               "Qatt"
+    IDS_ALWAYS              "Dejjem"
+    IDS_ONSHUTDOWN          "Waqt l-għeluq"
+    IDS_UNCFOLDERS          "Il-paths tal-UNC"
+    IDS_USESECIDENT         "Uża identifikazzjoni sigura"
+    IDS_ADVSPAMFILTER       "Spamfilter avvanzat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CUT                 "Cut"
+    IDS_STATS_SECUREIDENT   "Ident Sigur (OK : Fallut)"
+    IDS_ONDISK              "Daqs fuq id-disk: "
+    IDS_CLIENTCOL           "Twissija: Il-klijent li nstab huwa diġa mqabbad: %s (%s) u %s (%s)"
+    IDS_SEARCH_UNTERMSTRING "String mhux mitmuma"
+    IDS_SEARCH_GENERALERROR "Problema Ġenerali"
+    IDS_SEARCH_MISSINGORRIGHT "In-naħa tal-lemin tal-'OR operator' hija nieqsa"
+    IDS_SEARCH_MISSINGNOTRIGHT "In-naħa tal-lemin tan-'NOT operator' hija nieqsa"
+    IDS_SEARCH_MISSINGEXPRPARANT "L-esprezzjoni għal '(' ')' hija nieqsa"
+    IDS_SEARCH_MISSINGCLOSINGPARANT "L-għeluq permezz ta' ')' huwa nieqes"
+    IDS_SEARCH_EXPRERROR    "L-espressjoni għat-tfittxija mhix valida"
+    IDS_SEARCH_TOOCOMPLEX   "L-espressjoni hija kumplikata wisq"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VERSION             "Verżjoni"
+    IDS_OPTIONS             "Għażliet"
+    IDS_PASTE               "Ippejstja"
+    IDS_SEARCHAUTHORCOLLECTION "Fittexx il-kollezzjonijiet tal-Awtur"
+    IDS_ERR_DUPL_FILES      "Files ixxerjati idduplikati: ""%s"" u ""%s"""
+    IDS_USS_TRACEROUTEOFTENFAILED
+                            "UploadSpeedSense: It-Tracerouting falla ħafna drabi. L-iSpeedSense tal-upload ġie mitfi."
+    IDS_USS_STARTING        "UploadSpeedSense: Il-preparazzjonijiet lesti. Se jibda il-kontroll tal-veloċita' tal-upload. (L-ewwel 60 sekonda jkunu b'veloċita għolja biex tiġi ċċekjata r-rejazzjoni)"
+    IDS_A4AF                "L-immaniġġjar tas-Sorsi"
+    IDS_AUTOCAT_LABEL       "Sat-Assignment awtomatiku (uża pattern, separat b' | )"
+    IDS_SHOWEXTSETTINGS     "Ara iktar għażliet avvanzati"
+    IDS_TREEOPTIONS_TRUE    "Vera"
+    IDS_TREEOPTIONS_FALSE   "Falz"
+    IDS_TREEOPTIONS_OK      "OK"
+    IDS_HYPERTEXT_FONT_HINT "Font għas-Server-, Messaġġ- u l-Window tal-IRC"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SELECT_FONT         "Agħżel Font"
+    IDS_SERVER_LIMITS       "Limitu tal-File Soft jew Hard"
+    IDS_KBITSSEC            "kBit/sek"
+    IDS_KBYTESSEC           "kByte/sek"
+    IDS_ERR_CREATE_DIR      "Id-direttorju %s ma jistax isir ""%s"" - %s"
+    IDS_WRN_INCFILE_RESERVED
+                            "Id-direttorju tal-files neżlin ma jistax ikun id-direttorju fejn l-eMule huwa nstallat."
+    IDS_WRN_TEMPFILES_RESERVED
+                            "Id-direttorju temporanju ma jistax ikun id-direttorju fejn l-eMule huwa nstallat."
+    IDS_WRN_INCTEMP_SAME    "Id-direttorju tal-files neżlin u d-direttorju tomporanju ma jistgħux jkunu l-istess."
+    IDS_SHOWDWLPERCENTAGE   "Ara l-persentaġġ tal-progress tad-download fuq il-progressbar"
+    IDS_TBN_ONNEWDOWNLOAD   "Id-Download ġiet miżjuda"
+    IDS_ARTIST              "Artist"
+    IDS_ALBUM               "Album"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CD_UPLOADREQ        "Talba għall-upload:"
+    IDS_SETTINGCHANGED_RESTART
+                            "Biex l-għażliet il-ġodda jkollhom effett, jekk jogħġbok irristartja l-eMule!"
+    IDS_CREDITSEXPIRED      ", %u klijenti mħassra (ma dehrux f'dawn l-aħħar 5 xhur)"
+    IDS_SOURCESINFO         "%u  (Utli: %u, NNP: %u);  A4AF: %u"
+    IDS_META_DATA           "Meta Data"
+    IDS_TIMEBEFORE          "(%s ilu)"
+    IDS_FD_TIMEDATE         "Dati"
+    IDS_FILEINFORMATION     "Informazzjoni fuq il-file"
+    IDS_STATS_FREESPACE     "Spazju disponibbli"
+    IDS_IRC_HELPCHANNEL     "Ikkonnektja ma' channel tal-għajnuna"
+    IDS_IRC_HELPCHANNELPERFORM "/join #emule-english"
+    IDS_IRC_ACCEPTLINKSFRIENDS "Mingħand il-ħbieb biss"
+    IDS_COMPLSOURCES        "Sorsi Kompluti"
+    IDS_CHECKNOENDTIME      "Mhux magħruf il-ħin għat-tmiem"
+    IDS_FD_DOWNLOADSTARTED  "Download miżjuda:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FAILEDREOPEN        "Problema fatali: Il-part file '%s' (%s) ma jistax jiġi miftuh!"
+    IDS_ERR_PREVIEWALREADY  "Diġa hemm rikjesta għall-preview mingħand dan il-klijent"
+    IDS_ERR_PREVIEWFAILED   "Il-preview mingħand il-user '%s' ma rnexxiex"
+    IDS_DWTOT               "Spazju fuq id-disk"
+    IDS_DWTOT_NR            "Numru ta' Downloads: %u"
+    IDS_DWTOT_TSD           "Id-daqs totali ta' Downloads: %s"
+    IDS_DWTOT_TCS           "Id-daqs totali ta' Downloads Kompluti: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "Id-daqs li għad fadal jiddawnlowdja: %s"
+    IDS_DWTOT_TSN           "Spazju li hemm bżonn għad-downloads li fadal: %s"
+    IDS_DWTOT_FS            "Spazju disponibbli fuq it-Tempdrive: %s"
+    IDS_NEEDFREEDISKSPACE   "%s (għandek bżonn tħalli %s disponibbli!)"
+    IDS_SERVERKEEPALIVETIMEOUT "Intervall qabel is-server jiċċekja l-konnessjoni [min.]"
+    IDS_MORE                "&Aktar"
+    IDS_TOOLS               "Għodda"
+    IDS_SEARCHPARAMS        "Parameters għat-Tfittxija"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HASHINGFILESCOUNT   " (%u qed jiġi iħħexxjat)"
+    IDS_CHECKDISKSPACE      "Qed jiġi ċċekjat l-ispazju disponibbli fuq id-disk"
+    IDS_YOURHOSTNAME        "Il-Host name għall-links tal-eD2K tiegħek"
+    IDS_INSUFFICIENT        "M'hemmx biżżejjed spazju disponibbli fuq id-disk"
+    IDS_MINFREEDISKSPACE    "Minimu ta' spazju disponibbli fuq id-disk [MB]"
+    IDS_WARNING             "Twissija"
+    IDS_IMPORTSPLPF         "Daħħal downloads esterni (eM,eD,ON)"
+    IDS_IMP_STEPREADPF      "Qed jnqara id-direttorju temporanju"
+    IDS_IMP_STEPBASICINF    "Qed tiġi rċevuta l-informazzjoni bażika dwar il-file"
+    IDS_IMP_STEPCRDESTFILE  "Qed jiġi magħmul il-file"
+    IDS_IMP_LOADDATA        "Qed tiġi llowdjata id-data mill-file diġa ddawnlowdjat (%u of %u)"
+    IDS_IMP_SAVEDATA        "Qed tiġi ssejvjati l-blokok ta' data ġo file wieħed (%u of %u)"
+    IDS_IMP_IOERROR         "Problema fil-file waqt id-download"
+    IDS_IMP_GETPFINFO       "Qed tiġi rċevuta l-informazzjoni dwar il-file mingħand is-sors"
+    IDS_IMP_ADDDWL          "Qed tiżdied id-download u jiġi ssejvjat part file ġdid"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_FETCHSTATUS     "Qed jinqara l-istatus..."
+    IDS_IMP_INPROGR         "qed jinħadem..."
+    IDS_IMP_ERR_DISKSP      "Problema: M'hemmx spazju disponibbli fuq id-disk"
+    IDS_IMP_ERR_PARTMETIO   "Problema: Partmet ma nstabx"
+    IDS_IMP_ERR_IO          "Problema: Problema bil-IO!"
+    IDS_IMP_ERR_FAILED      "Problema: Falliment!"
+    IDS_IMP_STATUSQUEUED    "Fil-kju"
+    IDS_IMP_ALRDWL          "Diġa qed jiddawnlowdja"
+    IDS_IMP_ADDBTN          "Daħħal l-imports"
+    IDS_IMP_RETRYBTN        "Erġa pprova bil-magħżulin"
+    IDS_IMP_REMOVEBTN       "Ħassar il-magħżulin"
+    IDS_IMP_SELFOLDER       "Agħżel direttorju biex tfittex għad-downloads temporanji! (Is-subfolders se jiġu inklużi)"
+    IDS_IMP_DELSRC          "Tixtieq is-sors tal-files ta' downloads importati jitħassru?"
+    IDS_IMP_SIZE            "%s (Disk:%s)"
+    IDS_IMP_STATUS          "Qed jiġu mportati %s: %s"
+    IDS_DYNUPENABLED        "Sib l-aħjar limitu ta' upload awtomatikament"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DYNUP_PINGTOLERANCE "Tolleranza tal-Pinge (% tal-iżgħar ping)"
+    IDS_DYNUP_GOINGUPDIVIDER "Veloċita meta ttella"
+    IDS_DYNUP_GOINGDOWNDIVIDER "Veloċita meta tniżżel"
+    IDS_DYNUP_NUMBEROFPINGS "Numru massimu ta' pings għall-medja"
+    IDS_DYNUP_MINUPLOAD     "L-inqas veloċita permessa għall-upload"
+    IDS_ESTTIMELEFT         "Stima ta' ħin li fadal:"
+    IDS_TRANSFER_RATE_LABEL "Rata ta' transfer:"
+    IDS_SAVELOG             "Issejvja il-Log"
+    IDS_CMT_COPYCLIPBOARD   "Ikkopja l-kumment"
+    IDS_ASKDOWNLOADLANG     "Il-lingwa l-għażilt mhix installata fuq is-sistema tiegħek. Trid lill eMule jiddawnlowdjaha minn emule-project.net?"
+    IDS_ASKDOWNLOADLANGCAP  "Iddawnlowdja il-files tal-lingwa"
+    IDS_DELETESELECTED      "Ħassar"
+    IDS_ERR_FAILEDDOWNLOADLANG
+                            "Ma setgħux jiġu ddawnlowdjati u nstallati il-files tal-lingwa minn %s!"
+    IDS_ERR_BADFOLDER       "Direttorju invalidu. \nId-direttorju ma jsitax jiġi magħmul. Iċċeja l-isem u d-destinazzjoni."
+    IDS_AUTOREMOVEFD        "Neħħi awtomatikament id-downloads lesti"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_KAD_NODE            "Tfittix tan-Node"
+    IDS_KAD_STOREFILE       "Issejvja il-File"
+    IDS_KAD_STOREKW         "Ftakar il-Keyword"
+    IDS_KAD_UNKNOWN         "Mhux magħruf"
+    IDS_SRV_TCPCOMPR        "Il-compression tat-TCP"
+    IDS_KADSEARCHLAB        "Tfittix kurrenti"
+    IDS_SRV_UDPSR           "UDP protocol estiż għall-rikjesti ta' sorsi"
+    IDS_SRV_UDPFR           "UDP protocol estiż għall-rikjesti ta' files"
+    IDS_MINLENGTH           "Tul minimu [SS:mm:ss]"
+    IDS_EM_HELP             "Għajnuna"
+    IDS_WRN_FRIENDDUPLIPPORT
+                            "Ħabib mhux miżjud. \r\n\r\nDiġa hemm ħabib bl-istess indirizz tal-IP u port."
+    IDS_DYNUP               "SpeedSense fl-Upload"
+    IDS_KADOVERHEAD         "Il-ħela mill-Kad (Pakketti): %s (%s)"
+    IDS_FIND                "Sib..."
+    IDS_LOG_BANNED_CLIENTS  "Żomm nota tal-klijenti ibbenjati"
+    IDS_LOG_RATING_RECV     "Żomm nota tad-deskrizzjonijiet u l-popolarita' tal-files"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RADCLIENTS          "Mingħand klijenti magħrufa"
+    IDS_KADUDPPORTERR       "Il-UDP port tal-Kad qed joħloq kunflitt jew ma' l-Ext UDP port tal-eMule jew mal-UDP port tas-Server ta' l-eMule. Il-port inbidel għal %u."
+    IDS_CONFIRM_FILEDELETE  "Żgur li trid tħassar il-files magħżulin minn fuq id-disk?"
+    IDS_OPENFOLDER          "Iftah id-direttorju"
+    IDS_RUNASUSER           "Uża l-eMule bħala user mhux privileġġjat"
+    IDS_DELETE              "Ħassar mid-disk"
+    IDS_BOOTSTRAP           "Bootstrap"
+    IDS_VIAED2KSQ           "permezz ta' server tal-eD2K"
+    IDS_EM_KADEMLIA         "&Kad"
+    IDS_VIAKAD              "permezz tal-Kad"
+    IDS_VIASE               "permezz tas-Source Exchange"
+    IDS_SELECTTOOLBARBITMAP "Agħżel il-Bitmap tat-Toolbar..."
+    IDS_SELECTTOOLBARBITMAPDIR "Agħżel id-direttorju tal-Bitmap tat-Toolbar..."
+    IDS_TOOLBARSKINS        "L-iSkins tat-Toolbar"
+    IDS_NOTEXTLABELS        "Mingħajr Tikketti"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTLABELSONRIGHT   "Tikketti fuq il-lemin"
+    IDS_TEXTLABELS          "Għażliet fuq it-tikketti"
+    IDS_ENABLETEXTLABELS    "Uri it-Tikketti"
+    IDS_CUSTOMIZETOOLBAR    "Ippersonalizza it-Toolbar..."
+    IDS_MINBITRATE          "Bitrate Minima [kBit/sek]"
+    IDS_KAD_RECHECKFW       "Erġa iċċekja l-Firewall"
+    IDS_SHAREDTITLE         "eD2K|Kad Ixxerjati"
+    IDS_FIREWALLED          "Bil-Firewal"
+    IDS_KADEMLIA            "Kad"
+    IDS_KADCONTACTLAB       "Kuntatti"
+    IDS_KADDISTANCE         "Distanza"
+    IDS_KEY                 "Key"
+    IDS_NUMBER              "Numru"
+    IDS_KAD_SEARCHSRC       "Sorsi għat-tfittxija"
+    IDS_KAD_SEARCHKW        "Keywords għat-tfittxija"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_SECURE_IDENT    "Żomm nota tas-secure ident"
+    IDS_LOG_FILTERED_IPS    "Żomm nota ta' IPs iffilterjati u/jew injorati"
+    IDS_LOG_FILE_SAVING     "Żomm nota tal-files issejvjati"
+    IDS_DELETEIPFILTERS     "Żgur li trid tħassar l-IP filters?"
+    IDS_TOTAL_IPFILTER_LABEL "Total ta' IP filters:"
+    IDS_TOTAL_IPS_LABEL     "Total ta' IPs:"
+    IDS_RAU_WARNING         "Din l-għażla tagħti l-eMule sigurata addizzjonali kontra attakkti u abbużi u ninkoraġġuk tixgħal din l-għażla.\nBarra minn hekk, huwa rrakomandat li taqra l-istruzzjonijiet qabel tattivaha!\n\nIt-tibdiliet jiġu affetwati wara li terġa tixgħal l-eMule."
+    IDS_APPEND              "Appendja..."
+    IDS_SAVE                "Issejvja"
+    IDS_IP_START            "Ibda"
+    IDS_IP_END              "Waqqaf"
+    IDS_IP_LEVEL            "Livell"
+    IDS_IP_DESC             "Deskrizzjoni"
+    IDS_IP_HITS             "Hits"
+    IDS_IP_RULES            "Filters tal-IP:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LOG_A4AF            "Żomm nota ta' l-azzjonijiet ta' l-A4AF"
+    IDS_A4AF_SAVE_CPU       "Itfi l-iċċekjar ta' l-A4AF biex tifranka l-ħin fuq is-CPU"
+    IDS_SEARCH_DOC          "Dokument"
+    IDS_INSTALL_SKIN        "Installa Skin tal-eMule"
+    IDS_INSTALL_SKIN_NODIR  "M'hemmx direttorju tal-iskins magħżul jew id-direttorju ma jistax jiġi aċċessat!"
+    IDS_INSTALL_SKIN_DIR_ERROR
+                            "Id-direttorju ""%s"" tal-eMule Skin %s ma jistax jiġi magħmul"
+    IDS_INSTALL_SKIN_FILE_ERROR
+                            "Il-file ""%s"" mill-iSkin tal-eMule għal ġol-file ""%s"" - %s ma jistax jiġi magħmul"
+    IDS_INSTALL_SKIN_PKG_ERROR "Din mhix eMule Skin valida."
+    IDS_NEXT_REASK          "Ir-reask li jmiss"
+    IDS_A4AF_FILES          "Il-files A4AF"
+    IDS_FO_TEMPTCP_S        "Il-port %u (TCP) ġie miftuh fil-firewall intern tal-WinXP għal din is-sessjoni tal-eMule"
+    IDS_FO_TEMPTCP_F        "Il-port %u (TCP) ma jistax jiġi miftuh fil-firewall intern tal-WinXP għal din is-sessjoni tal-eMule"
+    IDS_FO_TEMPUDP_S        "Il-port %u (UDP) ġie miftuh fil-firewall intern tal-WinXP għal din is-sessjoni tal-eMule"
+    IDS_FO_TEMPUDP_F        "Il-port %u (UDP) ma jistax jiġi miftuh fil-firewall intern tal-WinXP għal din is-sessjoni tal-eMule"
+    IDS_FO_PREFBUTTON       "Iftaħ dawn il-ports fil-firewall intern tal-WinXP"
+    IDS_FO_PREF_SUCCCEEDED  "Il-ports magħżulin infetħu mingħajr problemi fil-firewall intern tal-WinXP.\nJekk jogħġbok ħu ħsieb li firewalls oħra u routers ma jiġux affetwati b'dan!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMP_ERR_BADFORMAT   "File temporanju mhux magħruf jew magħmul ħażin."
+    IDS_SEARCH_INVALIDCHAR  "L-ispressjoni li użajt fit-tfittxija tinkludi ittri invalidi. Jew ktibt '?' jew inkella ktibt xi ittri oħra li ma jistgħux jintużaw f'dan in-network."
+    IDS_PORTSCON            "Ports u Konnesjoni"
+    IDS_PORTINFO            "L-eMule juża żewġ ports għall-kommunikazzjoni mas-servers u mal-klijenti. Dawn il-ports iridu jkunu disponibbli u miftuħa fuq il-klijenti l-oħra. It-TCP port irid ikun disponibbli biex tiġi aċċertata il-funzjoni bażika tal-eMule. Il-UDP port huwa użat mill-Kad (network bla servers) u biex jirriduċi t-traffiku fuq in-network (Ħela).\n\nTista tbiddel il-ports hawnhekk meta l-ebda attivita fuq in-network ma tkun għada inbdiet."
+    IDS_STARTTEST           "Ittestja il-Ports"
+    IDS_TESTINFO            "Hawn tista tittestja jekk it-TCP u l-UDP port tiegħek jista jiġi utilizzat minn komputers oħra. Is-suċċess ta' dan it-test huwa bżonnjuż biex servers u klijenti oħra jaqbdu miegħek. It-TCP port irid jaħdem bilfors!"
+    IDS_CONNECTIONTEST      "Test tal-konnesjoni"
+    IDS_NOPORTCHANGEPOSSIBLE
+                            "Ma tistax tbiddel il-ports wara li taqbad ma klijenti oħra jew wara li taqbad ma' server/Kad!\n\nJekk jogħġbok itfi u erġa ixgħal l-eMule bil-ports il-ġodda."
+    IDS_NETWORK_INFO        "Informazzjoni fuq in-network"
+    IDS_SP_TOTALUL          "Uploads Totali"
+    IDS_SP_ULFRIENDS        "Slots tal-upload għall-ħbieb"
+    IDS_SP_ULSLOTSNOOVERHEAD "Upload kurrenti (il-ħela eskluża)"
+    IDS_ST_ACTIVEU_ZZ       "Uploads attivi"
+    IDS_ST_ULCURRENT        "Kurrenti"
+    IDS_ST_ULSLOTSNOOVERHEAD "Kurrenti (il-ħela eskluża)"
+    IDS_ST_ULFRIEND         "Uploads mingħand il-ħbieb"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATS_ACTUL_ZZ      "Uploads Attivi/Bżonnjuzi biex jiġi utilizzat il-bandwidth: %u"
+    IDS_STATS_TOTALUL       "Uploads Totali: %u"
+    IDS_CHAT_DOWNLOADED     "Iddawnlowdjati:"
+    IDS_CHAT_UPLOADED       "Aplowdjati:"
+    IDS_CHAT_IDENT          "Identifikazzjoni:"
+    IDS_MAXHALFOPENCONS     "Massimu ta' konnessjonijiet nofshom miftuħa"
+    IDS_WIZ_STARTWITHWINDOWS
+                            "Ixgħal din biex l-eMule jitla meta tixgħal il-Windows."
+    IDS_KAD_WAITCBK         "Stenna il-Callback tal-Kad"
+    IDS_KAD_TOOMANDYKADLKPS "Hawn ħafna Lookups tal-Kad"
+    IDS_PCDS_CLIENTWAIT     "ClientWait"
+    IDS_PCDS_CACHEWAIT      "CacheWait"
+    IDS_CACHE               "Cache"
+    IDS_INDEXED             "Indexjat"
+    IDS_KADINFO_SRC         "\tSors: %u\r\n"
+    IDS_KADINFO_KEYW        "\tFrażi: %u\r\n"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STARTWITHWINDOWS    "Ixgħal mal-windows"
+    IDS_ADDSRCMANUALLY      "Żid sorsi..."
+    IDS_BUDDY               "Ħabib"
+    IDS_BUDDYNONE           "Xejn"
+    IDS_INFO                "Info"
+    IDS_HALF                "Nofs"
+    IDS_CONCOMPL            "Lest"
+    IDS_KADSTATUS_STOPPING  "Se jieqaf"
+    IDS_KADSTATUS_ACTIVE    "Attiv"
+    IDS_FORMAT              "Format"
+    IDS_META_COLLECTION     "Kollezzjoni"
+    IDS_META_PARTPATH       "Path tal-Part"
+    IDS_META_PARTHASH       "Has tal-Part"
+    IDS_META_GAPSTART       "Bidu tal-Gap"
+    IDS_META_GAPEND         "Tmiem tal-Gap"
+    IDS_FAIL                "Falliment"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_META_PREFERENCES    "Preferenzi"
+    IDS_META_VERSION        "Verżjoni"
+    IDS_META_TEMPFILE       "File temporanju"
+    IDS_META_SERVERPORT     "Port tas-Server"
+    IDS_META_SERVERIP       "IP tas-Server"
+    IDS_META_SRCUDPPORT     "UDP port tas-Sors"
+    IDS_META_SRCTCPPORT     "TCP port tas-Sors "
+    IDS_META_SRCIP          "IP tas-Sors"
+    IDS_META_SRCTYPE        "Tip ta Sors"
+    IDS_SEARCH_UNICODE      "Fittex bil-Unicode"
+    IDS_PF_ADVANCEDCALC     "Uża metodu ta' kalkulazzjoni avvanzat għal ħin li baqa"
+    IDS_LD_ED2KLINK         "Link tal-ED2K"
+    IDS_LD_COPYCLIPBOARD    "Ikkopja"
+    IDS_LD_HOSTNAME         "Uża l-host name (mill-preferenzi) minflok l-IP meta tagħmel link għal-sors"
+    IDS_SAVEACFAILED        "Ma rnexxilniex nissejvjaw Hashset tal-AICH!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_AICHHASH            "Hash tal-AICH"
+    IDS_BYTESPERSEC         "B/s"
+    IDS_KBYTESPERSEC        "KB/s"
+    IDS_MBYTESPERSEC        "MB/s"
+    IDS_GBYTESPERSEC        "GB/s"
+    IDS_TBYTESPERSEC        "TB/s"
+    IDS_STATS_MINORCLIENTS  "Minuri"
+    IDS_AICH_SYNCTOTAL      "Instabu %u files mingħajr AICH Hashset valida, dawk il-files se jerġgħu jiġu iħħexxjati"
+    IDS_AICH_CALCFILE       "K-AICH Hash qegħda tiġi kkalkulata għall-file %s"
+    IDS_AICH_WARNUSER       "Peress li l-verżjoni 0.44a tal-eMule tuża Has tal-file addizzjonali, li tnaqqas ħafna telf ta' data meta l-file ma jinqarax kollu. Peress li qed tapdejtja minn verżjoni aktar antika, l-eMule għandu bżonn jerġa jagħmel il-hash tal-files ixxerjati tiegħek. Din tista tieħu l-ħin imma hi azzjoni ta' darba. "
+    IDS_AICH_WORKED         "L-AICH irrikovera %s minn %s mill-parti %u għal %s"
+    IDS_SOURCECLIENT        "Il-klijent"
+    IDS_USERSIP             "IP tal-users"
+    IDS_FEATURES            "Għamla"
+    IDS_IRC_NEWNICK         "Agħżel laqam għall-IRC."
+    IDS_IRC_NEWNICKDESC     "Irid ikun kelma waħda inqas minn 20 ittra magħmula minn (A-Z, 0-9). Tista tiġi mibdula mill-Preferenzi>IRC."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SPARSEPARTFILES     "Agħmel part files ġodda bħala 'sparse' (NTFS biss)"
+    IDS_ASPECTRATIO         "Aspect Ratio"
+    IDS_NEGATEFILTER        "Innega il-Filter"
+    IDS_SEENCOMPL           "Qatt intwera komplut"
+    IDS_SELSKINPROFILEDIR   "Agħżel id-direttorju għall-skin profile"
+    IDS_ASKDLINCOMPLETE     "Jista jkun file mhux komplut:\r\n\r\n%s\r\n\r\nDan il-file jista jkun mhux sħiħ fin-network u jista jkun li ma jinżel qatt! Żgur li trid tniżżel dan il-file?"
+    IDS_DEADSOURCES         "Sorsi Mejtin"
+    IDS_LARGEICONS          "Icons Kbar"
+    IDS_SMALLICONS          "Icons Zgħar"
+    IDS_SHORTTAGS           "Tikketti qosra"
+    IDS_THELOAD             "Illowdja"
+    IDS_PACKSENT            "Pakketti mibgħuta"
+    IDS_RESPONSES           "Resposti"
+    IDS_EXTRACT_META_DATA   "Aqra l-meta data"
+    IDS_META_DATA_MEDIADET  "Uża id-DirectShow (għal files ta' awdjo/vidjo)"
+    IDS_META_DATA_ID3LIB    "Uża l-ID3 Library (għal files MPEG biss)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COMCTRL32_DLL_TOOOLD
+                            "Il-Windows Common Controls library (COMCTL32.DLL) hija antika wisq!\r\n\r\nL-eMule sab verżjoni tal-""Windows Common Controls library (COMCTL32.DLL)"" li hija antika wisq biex tintuża kif suppost mal-eMule. Biex ikollok funzjonalita' sħiħa u mingħajr problemi nissuġġerixxu li tapdetja ""Windows Common Controls library (COMCTL32.DLL)"" minn tal-inqas għall-verżjoni 5.8.\r\n\r\nNiżżel u nstalla update tal-""Windows Common Controls library (COMCTL32.DLL)"" fil-Microsoft (R) Download Center. Tixtieq tidħol f'din il-paġna?"
+    IDS_ASREGEXPR           "Bħala 'Regular Expression'"
+    IDS_STATIC_REGEXP       "'Regular expression' għall-filter:"
+    IDS_CARE4ALL            "Evalwa il-files kollha"
+    IDS_REGEXPRESSION       "Regular Expression"
+    IDS_SEARCHKAD           "Fittex fil-Kad"
+    IDS_DWL_IPFILTERFILE    "L-IP filter file qed jiġi ddawnlowdjat"
+    IDS_DWLIPFILTERFAILED   "Id-download tal-IP filter ma tistax issir"
+    IDS_FINDBUDDY           "Sib Ħabib"
+    IDS_ERR_IPFILTERZIPEXTR "L-IP filter ma jistax jinqara miż-ZIP file iddawnlowdjat ""%s""."
+    IDS_ERR_IPFILTERCONTENTERR
+                            "L-IP filter file ""%s"" iddawnlowdjat huwa ZIP file b'kontenut mhux mistenni."
+    IDS_STORENOTES          "Issejvja in-Noti"
+    IDS_NOTES               "Noti"
+    IDS_KADSEARCHALREADY    "Tfittxija oħra diġa għaddejja. Jekk jogħġbok erġa pprova dalwaqt.!"
+    IDS_WEB_SHUTDOWN        "Itfi l-eMule"
+    IDS_WEB_REBOOT          "Irributja s-sistema"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_DELFILE         "Il-file ""%s"" ma jistax jiġi mħassar"
+    IDS_ERR_CONFIGCORRUPT   "%s ma jistax jinqara u se jkun sostitwit"
+    IDS_UPLOADING           "Uploads"
+    IDS_CANCELLED           "Ikkanċellat"
+    IDS_PW_REMEMBERDOWNLOADED "Ftakar il-files li niżlu"
+    IDS_PW_REMEMBERCANCELLED "Ftakar il-files li twaqqfu"
+    IDS_PW_EMAILNOTIFICATIONS "Notifikazzjonijiet bl-email"
+    IDS_SMTPSERVER          "Server tal-SMTP"
+    IDS_PW_SENDERADDRESS    "Indirizz ta' min jibgħat:"
+    IDS_AVAILABLEPARTS      "Partijiet disponibbli"
+    IDS_NOSOUND             "Bla ħoss"
+    IDS_PW_RECEIVERADDRESS  "Indirizz ta' min jirċievi:"
+    IDS_PW_ENABLEEMAIL      "Ixgħal in-notifikazzjonijiet bl-email"
+    IDS_EMULENOTIFICATION   "Notifikazzjonijiet bl-eMule"
+    IDS_PW_SHOWTRANSTOOLBAR "Ara toolbar addizzjonali fil-window tat-transfers"
+    IDS_SHARED_STATUS       "Partijiet ixxerjati"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEARCH_EMULECOLLECTION "Kolezzjoni"
+    IDS_INCOMING_FILES      "Files Neżlin"
+    IDS_INCOMPLETE_FILES    "Files mhux kompluti"
+    IDS_SHARED_DIRECTORIES  "Direttorji ixxerjati"
+    IDS_COLLECTIONLIST      "Lista ta' konnessjonijiet"
+    IDS_SHAREDIR            "Direttorju ixxerjat"
+    IDS_SHAREDIRSUB         "Ixxerja bis-subdirettorji"
+    IDS_UNSHAREDIR          "Tixxerjax dan id-direttorju"
+    IDS_UNSHAREDIRSUB       "Tixxerjax bis-subdirettorji b'kollox"
+    IDS_ALLSHAREDFILES      "Il-files ixxerjati kollha"
+    IDS_ALLDIRECTORIES      "Id-direttorji kollha"
+    IDS_SEARCHRELATED       "Sib files relatati"
+    IDS_RELATED             "Relatati"
+    IDS_COLL_REPLACEEXISTING "Tixtieq tissostitwixxi il-files eżistenti?"
+    IDS_COLL_ERR_DELETING   "Problema mhux magħrufa waqt li file antik kien qed jiġi mħassar. Trid toħroġ mingħajr ma tissejvja?"
+    IDS_CREATECOLLECTION    "Agħmel konnessjoni"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MODIFYCOLLECTION    "Immodifika l-kollezzjoni"
+    IDS_COLL_SIGN           "Iffirma il-kollezzjoni bl-isem u bil-key"
+    IDS_AUTHOR              "Awtur"
+    IDS_AUTHORKEY           "Key tal-awtur"
+    IDS_COLL_ADDINCAT       "Żid downloads ġodda f'kollezzjoni"
+    IDS_VIEWCOLLECTION      "Ara l-kollezzjoni"
+    IDS_COLL_TEXTFORMAT     "Issejvja l-kollezzjoni f'sempliċi text format"
+    IDS_RUNNINGRESTRICTED   "L-eMule qed jaħdem bi privileġġi mnaqqsa"
+    IDS_USS_MANUALUPLOADLIMITDETECTED
+                            "UploadSpeedSense: Upload limit miżjud fil-preferenzi. Is-60 sekonda li ġejjin se jkunu 'reaction mode' b'veloċita għolja."
+    IDS_USS_STATE_PREPARING "Preparamenti..."
+    IDS_USS_STATE_WAITING   "Stenna..."
+    IDS_USS_STATE_ERROR     "Problema!"
+    IDS_SHAREWARNING        "(Folder will be shared!)"
+    IDS_REMOVEALLSERVERS    "Żgur li trid tneħħi is-servers kollha?"
+    IDS_SEARCH_UNKATTR      "Ma jistax jiġi magħruf '%s'"
+    IDS_SEARCH_ATTRERR      "Żball fis-sintassi ġo '%s'"
+    IDS_SEARCH_MISSINGANDRIGHT "Nieqsa n-naħa tal-lemin tal-operator AND"
+    IDS_SEARCH_OPRERR       "Żball fis-sintassi ta' '%s'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOAD_LANGFILE   "Qed jiġi ddawnlowdjat il-fajl tal-lingwa"
+    IDS_DOWNLOADING_SERVERMET_FROM "Qed jiġi ddawnlowdjat server.met minn %s"
+    IDS_DOWNLOADING_SERVERMET "Qed jiġi ddawnlowdjat server.met..."
+    IDS_FULLALLOC           "Alloka id-daqs tal-fajl kollu għal files non-sparse"
+    IDS_X_SHAREAZA_IMPORT_NO_HASH "Il-Hash ma nstabitx."
+    IDS_X_SHAREAZA_IMPORT_GAP_LIST_CORRUPT "Il-Gap list ikkoraptjata."
+    IDS_X_SHAREAZA_IMPORT_NO_GAP_LIST "Il-Gap list ma nstabitx."
+    IDS_X_SHAREAZA_IMPORT_HASH_SET_CORRUPT "Il-Hash set ikkorraptjat."
+    IDS_X_SHAREAZA_IMPORT_NO_HASH_SET "Il-Hash set ma nstabx."
+    IDS_CONVERTINGKNOWN2MET "Qed jiġi konvertit %s għal %s biex jiġu ssapportjati fajls kbar..."
+    IDS_CONVERTINGKNOWN2FAILED
+                            "...known2.met ma setax jiġi konvertit, se jiġu njorati r-rekords l-antiki"
+    IDS_CONVERTINGKNOWN2DONE "... il-konverżjoni lesta"
+    IDS_ERR_MET_BAD         "Problema: il-fajl %s huwa kkorraptjat, ma jistgħux jinfetħu il-fajls magħrufa"
+    IDS_SRV_LARGEFILES      "Sapport għall-fajls kbar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERR_FSCANTHANDLEFILE
+                            "Ma tistax tiddawnlowdja dan il-fajl għax is-sistema tal-fajls tiegħek ma tissapportjax fajls li huma ikbar minn 4GB. Ikkunsidra li taqleb għall-NTFS"
+    IDS_NEWVERSIONAVLBETA   "Din il-verżjoni Beta hija skaduta. Minħabba n-natura tal-verżjonijiet Beta, li s-soltu jkun fihom il-bags, huwa importanti ħafna li tapdetja għal-verżjoni stabbli malajr kemm jista' jkun!"
+    IDS_KADSEARCHACTIVE     "(Qed issir tfittxija tal-Kad...)"
+    IDS_BOLD                "Ittogilja l-kliem bold"
+    IDS_UNDERLINE           "Ittogilja l-kliem b'sing taħtu"
+    IDS_COLOUR              "Tagħżel il-kulur tal-kliem (tista' tagħżel ukoll il-kulur ta' l-isfond)"
+    IDS_RESETFORMAT         "Tirrisettja il-formatting kollu li sar qabel. (tintbgħat ir-reset tag)"
+    IDS_RESTORESEARCHPARAMS "Irristorja is-Search Parameters"
+    IDS_COMMAND             "Kmand"
+    IDS_ARGUMENTS           "Arguments"
+    IDS_AP_CREATEPREVCOPY   "Ikkrea il-fajl tal-preview"
+    IDS_ARCHIVEDETAILS      "Id-dettalji tal-arkivju"
+    IDS_ARCHTYPE            "It-tip ta' arkivju"
+    IDS_ATTRIBUTES          "Attributes"
+    IDS_LASTMODIFIED        "L-aħħar li ġie mmodifikat"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RARFULLENCR         "Il-headers u d-direttorju huma encypted u ma jistgħux jinqaraw"
+    IDS_ARCPARSED           "L-arkivju ġie pparsjat"
+    IDS_ARCPREV_LISTMAYBEINCOMPL "Il-lista ta' files tista' ma tkunx kompluta."
+    IDS_ARCPREV_DIRNOTFOUND "Il-werrej ta' l-arkivju ma nstabx."
+    IDS_ARCPREV_INSUFFDATA  "Hemm ftit data."
+    IDS_PASSWPROT           "Protezzjoni bil-password"
+    IDS_ARCPREV_DIRSUCCREAD "Il-werrej tal-arkivju inqara mingħajr problemi."
+    IDS_ARCPREV_UNKNOWNFORMAT "(mhux magħruf/issapportjat)"
+    IDS_ARCPREV_PLEASEWAIT  "Qiegħed jiġi skenjat l-arkivju..."
+    IDS_OBFUSCATION         "Obfuscation"
+    IDS_SUPPORTED           "Issapportjat"
+    IDS_ESTIMATED           "stima"
+    IDS_MEDIAINFO_DLLMISSING
+                            "M'hemmx librerija tal-MediaInfo installata. Jekk trid iktar informazzjoni dwar fajls ta awdjo/vidjo,\r\niddawnlowdja l-librerija tal-MediaInfo minn fuq https://mediaarea.net/en/MediaInfo u kkopja il-fajl MediaInfo.dll fid-direttorju\r\nta' l-installazjoni ta' l-eMule. ""%s"".\r\n"
+    IDS_WARNING_WRONGFILEEXTENTION
+                            "Problema: L-extenxin tal-fajl ""%s"" ma taqbilx ma' l-extenxin\r\n li tintuża s-soltu. X'aktarx għandek bżonn tbiddel l-isem tal-fajl\r\nbież juża wieħed minn dawn l-extenxins ""%s""\r\n biex tkun tista' tuża jew tara dak il-format ta' fajl.\r\n"
+    IDS_MEDIAINFO_DRMWARNING
+                            "Problema: Il-fajl ""%s"" jidher li hu protett bid-Digital Rights Management.\r\nX'aktarx mhux se jirnexxielek tuża dak il-fajl mingħajr liċenzja mingħand l-awtur oriġinali ta' dak il-fajl.\r\n"
+    IDS_LOADFILTER_EMTOOLBAR "eMule Toolbar għall-fajls Bitmap"
+    IDS_LOADFILTER_EMSKINFILES "Il-fajlts ta' l-eMule Skin"
+    IDS_ARCHPREV_ATTRIBINFO "L-attributes tal-fajl jistgħu jkunu:\r\n\r\nP\til-fajl huwa protett bil-password\r\nD\thuwa direttorju\r\nC\tKumment\r\nLx\tLivell ta' komprexin x\r\nM\tData kkumpressata li għada ma gietx iddawnlowdjata\r\n<\til-fajl ikompli minn volum ieħor\r\n>\til-fajl ikompli fuq volum ieħor\r\n"
+    IDS_CONTENT_INFO        "Content"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MESSAGESCOMMENTS    "Messaġġi u Kummenti"
+    IDS_DISABLEOBFUSCATION  "Tħallix konnessjonijiet li huma 'obfuscated'"
+    IDS_ONLYOBFUSCATED      "Ħalli biss 'obfuscated connections' (mhux rikomandat)"
+    IDS_ENABLEOBFUSCATION   "Ippermetti 'Protocol Obfuscation'"
+    IDS_PROTOCOLOBFUSCATION "Protocol Obfuscation"
+    IDS_CONNECTINGTOOBFUSCATED
+                            "Qed issir konnessjoni ma' %s (%s:%u - permezz ta' Protocol Obfuscation) ..."
+    IDS_CONNECTEDTOOBFUSCATED "Saret konnessjoni 'Obfuscated' fuq: %s"
+    IDS_VERIFIED            "verifikat"
+    IDS_OBFUSCATED          "Obfuscated"
+    IDS_UNVERIFIED          "mhux verifikat"
+    IDS_INVALIDFILEEXT      "Estensjoni tal-fajl invalida"
+    IDS_UNKNOWNFILEEXT      "estensjoni tal-fajl mhux magħrufa"
+    IDS_US_STALLEDW4BR      "Stalled! Waiting for block request."
+    IDS_US_STALLEDREADINGFDISK "Stalled! Reading from disk."
+    IDS_SERVERFEATURE_INTTYPETAGS "Integer type tags"
+    IDS_FILLGRAPHS          "Draw filled graphs"
+    IDS_PARAMETER           "Parameter"
+    IDS_TEST                "Test"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPNPSTART           "Use UPnP to setup ports"
+    IDS_UPNPSETUP           "Trying to setup port forwardings with UPnP..."
+    IDS_UPNPFAILED          "UPnP failed to setup port forwardings, please forward those ports manually if necessary!"
+    IDS_UPNPSUCCESS         "UPnP successfully set up forwardings for ports %u (TCP) and %u (UDP)"
+    IDS_FO_PREFBUTTON_NEW   "Open ports on WinXP SP1 firewall"
+    IDS_UPNP_NOSERVICE      "UPnP Device Host service is not running, skipping UPnP setup"
+    IDS_DELAYEDBYUPNP       "Connecting to the network is delayed, because UPnP is still busy configuring the port forwardings."
+    IDS_DELAYEDBYUPNP2      "Please wait some seconds, eMule will connect as soon as UPnP finished."
+    IDS_UPNP                "UPnP"
+    IDS_UPNPCLOSEONEXIT     "Remove UPnP port forwardings on exit"
+    IDS_UPNPSKIPWANIP       "Skip WAN IP setup"
+    IDS_UPNPSKIPWANPPP      "Skip WAN PPP setup"
+    IDS_SHAREEMULELABEL     "Sharing eMule with other computer users"
+    IDS_SHAREEMULEMULTI     "Each user has its own configuration and downloads"
+    IDS_SHAREEMULEPUBLIC    "Everyone has the same configuration and downloads"
+    IDS_SHAREEMULEOLD       "Store config and downloads in the programm directory"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SHAREEMULEWARNING   "Changing this option will let eMule use another configuration. You current settings will be ignored and already started downloads might not be visible anymore. You can switch back to your current configuration by changing this option again anytime.\n\nYou need to restart eMule for this change to take effect."
+    IDS_SPAM                "Spam"
+    IDS_MARKSPAM            "Mark as Spam"
+    IDS_MARKNOTSPAM         "Mark as not Spam"
+    IDS_SEARCHSPAMFILTER    "Enable Spam Filter for search results"
+    IDS_SHOWSMILEYS         "Show Smileys"
+    IDS_CAPTCHAREQUEST      "In order to avoid spam messages, this user requires you to solve a captcha before you can send him a message. Please enter the letters you see on this image as response:"
+    IDS_CAPTCHAFAILED       "Your response to the captcha was wrong and your message has been ignored. You can request a new captcha by sending a new message."
+    IDS_CAPTCHASOLVED       "You have passed the captcha check and the user has received your message."
+    IDS_USECAPTCHAS         "Require captcha authentication"
+    IDS_BOOTSRAPNODESDAT    "Nodes.dat from URL:"
+    IDS_DOWNLOADING_NODESDAT_FROM "Downloading nodes.dat from %s"
+    IDS_DOWNLOADING_NODESDAT "Downloading nodes.dat..."
+    IDS_ERR_FAILEDDOWNLOADNODES "Failed to download nodes.dat from %s"
+    IDS_PREVENTSTANDBY      "Prevent Standby mode while eMule is running"
+    IDS_KADID               "KadID"
+    IDS_SEARCHINGFRIENDKAD  "Searching in Kad Network for friend"
+    IDS_FOUND               "found"
+    IDS_EXTERNUDPPORT       "Extern UDP Port"
+    IDS_STORESEARCHES       "Remember open searches between restarts"
+    IDS_WRN_INCFILE_EXISTS  "You have selected a new directory for your incoming files which is not empty. All existing files in this directory will be automatically shared by eMule."
+    IDS_EDITSPAMFILTER      "Edit spam filter..."
+    IDS_EDITSPAMFILTERCOMMENTS "Edit spam filter for comments"
+    IDS_WIZZARDOBFUSCATION  "Enable this option if you want to enable protocol obfuscation\n\nIf your ISP tries throttle or block eMule, enabling obfuscation will help to circumvent such restrictions."
+    IDS_BETANAG             "This is a beta version of eMule. Please report problems and check regulary for updates in our forum (https://forum.emule-project.net)."
+    IDS_CONFIRMNODESDOWNLOAD
+                            "Do you want to download and use Kad contacts (nodes.dat) from this address:\n%s ?"
+    IDS_AUTOMATIC           "Automatic"
+    IDS_NOTCONNECTEDANY     "You are not connected to a server or the Kad network!"
+    IDS_ERR_SHARED_DIR      "Failed to read shared directory ""%s"" - %s"
+    IDS_FILE_WARNING_DRM    "The file ""%s"" seems to be protected with Digital Rights Management.\r\n\r\nYou will most likely not be able to use that file without a license from the originator. You should be aware that opening this file will most likely cause your media player to open a web browser which will transfer you automatically to the site of the originator of that file where you will get asked to acquire a license.\r\n\r\nDo you really want to continue opening the file?"
+    IDS_CHECK_FILE_OPEN     "Warn when opening untrusted files"
+    IDS_BOOTABLE            "bootable"
+    IDS_UNSUPPORTEDIMAGE    "unsupported image"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSHARE             "Unshare"
+    IDS_WEBUPNPINCLUDE      "Include port into UPnP setup"
+    IDS_ADDEDON             "Added On"
+    IDS_RESOLVELINKS        "Resolve shell links in shared directories"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOWNLOADCOMMANDS    "Download Commands"
+    IDS_CLOSETOOLBAR        "Close Toolbar"
+    IDS_SHOWTOOLBAR         "Show Toolbar"
+    IDS_SEARCH_BADOPERATORCOMBINATION
+                            "You cannot use the first keyword with an OR operator when searching on Kad!\n\nFor example ""Keyword1 OR Keyword2"" is not possible. Try ""Keyword1 AND (Keyword2 OR Keyword3)"" or do multiple searches instead."
+    IDS_DISCOVEREDBY        "Discovered by"
+    IDS_NODES               "Node(s)"
+    IDS_ROUTINGTABLE        "Routing Table"
+    IDS_PROTOCOLVERSION     "Protocol Version"
+    IDS_FOUNDNODESUSEFUL    "Found Nodes (useful)"
+    IDS_NORESPONSE          "No Response"
+    IDS_NOTASKED            "Not Asked"
+    IDS_LOOKUPGRAPH         "Search Details"
+    IDS_AUTOKADLOOKUPGRAPH  "Automatically show active searches"
+    IDS_PAUSEONPREVIEW      "Pause when preview possible"
+    IDS_PREVIEWWITH         "Preview with"
+    IDS_CLOSEEMULE          "Close eMule"
+    IDS_DONOTASKAGAIN       "Don't ask me again"
+    IDS_POPULARITY          "Popularity Rank"
+    IDS_SHOWWIN7TASKBARGOODIES "Enable Windows 7 taskbar effects"
+    IDS_LANMODE             "LAN Mode"
+    IDS_OPENPREFINI         "Open preferences.ini"
+END
+
+#endif    // Maltese resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "lang.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

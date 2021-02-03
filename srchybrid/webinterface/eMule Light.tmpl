@@ -1,0 +1,1726 @@
+<-- ################################################################# -->
+<-- ##                  eMuleXP Light  TEMPLATE                    ## -->
+<-- ##                                                             ## -->
+<-- ##                BASED ON MODIFIED VERSION BY eMule+          ## -->
+<-- ##                BASED ON TEMPLATE BY Chicane                 ## -->
+<-- ################################################################# -->
+
+<--TMPL_VERSION-->
+7
+<--TMPL_VERSION_END-->
+
+
+
+<-- ################################################################# -->
+<-- ############################ LOGIN ############################## -->
+<-- ################################################################# -->
+
+<--TMPL_LOGIN-->
+<!DOCTYPE html SYSTEM>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=[CharSet]">
+<title>[eMuleAppName] [version] - [WebControl]</title>
+<style>
+body
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:9pt;
+}
+.failed
+{
+font-weight:bold;
+text-align:center;
+color:#FF0000;
+}
+form
+{
+display:inline;
+}
+</style>
+
+</head>
+<body background="main_bg.gif" text=white link=white vlink=white alink=white onload="document.login.p.focus();">
+ <table align=center border=0 cellpadding=4 cellspacing=0 width="100%" height="100%">
+  <tr>
+   <td align=center valign=middle>
+    <table align=center border=0 cellpadding=0 cellspacing=0 width="407">
+     <tr>
+      <td height="300">
+       <div align="center">
+        <center>
+         <table border=0 cellpadding=7 cellspacing=7 width="100%" height="100%" bgcolor="#006699" style="border-collapse:collapse" bordercolor="#111111">
+          <tr>
+           <td align="center">
+            <br><img src="logo.jpg" alt=""><br>
+           </td>
+          </tr>
+          <tr>
+           <td align="center" height="50">
+            <font face=Tahoma style="font-size:10pt;"><b>[WebControl] | [Login]</b></font>
+           </td>
+          </tr>
+          <tr>
+           <td bgcolor="#0099cc" align="center">
+            <form action="" method="POST" name="login">
+             <font face=Tahoma style="font-size:10pt;">
+              &nbsp;<br>
+              [EnterPassword]<br><br>
+              <input type="password" autocomplete="off" name="p" maxlength=12 size=37 style="border-width:1px; border-color:black; border-style:none;" value="">
+              <input type="hidden" name="w" value="password">
+              <br><br><input type="submit" value="[LoginNow]"><br><br>
+             </font>
+            </form>
+           </td>
+          </tr>
+         </table>
+        </center>
+       </div>
+      </td>
+     </tr>
+    </table>
+   </td>
+  </tr>
+ </table>
+</body>
+</html>
+<--TMPL_LOGIN_END-->
+
+
+
+<-- ################################################################# -->
+<-- ######################### MAIN SITE ############################# -->
+<-- ################################################################# -->
+
+<--TMPL_HEADER-->
+<!DOCTYPE html SYSTEM>
+<html>
+<head>
+ <link rel="icon" href="/favicon.ico">
+ <meta http-equiv="content-type" content="text/html; charset=[CharSet]">
+ <meta http-equiv="PRAGMA" content="NO-CACHE">
+ <title>[eMuleAppName] [version] - [WebControl]</title>
+ [StyleSheet]
+</head>
+<body background="main_bg.gif" text=white link="#2184B5" vlink="#2184B5" alink="#2184B5" marginwidth=0 marginheight=0 topmargin=0 leftmargin=0 style="margin:0px">
+ <table border="0" cellpadding="4" cellspacing="0" width="100%" background="main_menubg.gif" class="tabs_three">
+  <tr>
+   <td width="5">&nbsp;</td>
+   <td width="95" nowrap>
+     <a href="https://emule-project.net" target="_blank"><img src="h_emule.gif" alt="[eMuleAppName] | [WebControl]"><br>[WebControl]</a>
+   </td>
+   <td width="5">&nbsp;</td>
+   <td width="9%" align="center" valign="top"><br>
+    <a href="?ses=[Session]&amp;w=transfer">
+     <img src="h_transfer.gif" alt=""><br>
+     [Transfer]
+    </a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+    <a href="?ses=[Session]&amp;w=kad">
+     <img src="h_kad.gif" alt=""><br>
+     [Kad]
+    </a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+    <a href="?ses=[Session]&amp;w=server">
+     <img src="h_server.gif" alt=""><br>
+     [Server]
+    </a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+    <a href="?ses=[Session]&amp;w=search">
+     <img src="h_search.gif" alt=""><br>
+     [Search]
+    </a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+    <a href="?ses=[Session]&amp;w=shared">
+     <img src="h_shared.gif" alt=""><br>
+     [Shared]
+    </a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+    <a href="?ses=[Session]&amp;w=stats">
+     <img src="h_statistic.gif" alt=""><br>
+     [Stats]
+    </a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+    <a href="?ses=[Session]&amp;w=graphs">
+     <img src="h_graph.gif" alt=""><br>
+     [Graphs]
+    </a>
+   </td>
+   <td width="9%" align="center" valign="top"><br>
+    <a href="?ses=[Session]&amp;w=options">
+     <img src="h_preferences.gif" alt=""><br>
+     [Options]
+    </a>
+   </td>
+
+   <td width="20">&nbsp;</td>
+
+   <td width="9%" align="center" valign="top"><br>
+    <a href="?ses=[Session]&amp;w=logout"><br><img src="l_logout.gif" alt="">&nbsp;[Logout]</a>
+   </td>
+   <td>&nbsp;</td>
+   <td width="100" nowrap>
+    <img src="l_info.gif" align="middle" alt=""><a href="?ses=[Session]&amp;w=myinfo">&nbsp;&nbsp;[MyInfo]</a><br>
+    <img src="h_log.gif" align="middle" alt=""><a href="?ses=[Session]&amp;w=log#end">&nbsp;&nbsp;[Log]</a><br>
+    <img src="h_log.gif" align="middle" alt=""><a href="?ses=[Session]&amp;w=sinfo#end">&nbsp;&nbsp;[ServerInfo]</a><br>
+    <img src="h_log.gif" align="middle" alt=""><a href="?ses=[Session]&amp;w=debuglog#end">&nbsp;&nbsp;[DebugLog]</a>
+   </td>
+  </tr>
+ </table>
+
+<table border="0" cellpadding="2" cellspacing="0" width="100%" height="64">
+ <tr>
+  <td background="main_topbardarker.gif">
+   <table class="tabs_four" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+     <td rowspan="2">&nbsp;</td>
+     <td nowrap height="25"><b>[Connection]:</b></td>
+    </tr>
+    <tr>
+     <td nowrap height="25"><b>[QuickStats]:</b></td>
+    </tr>
+   </table>
+  </td>
+  <td background="main_topbarseparator.gif" width="7">&nbsp;</td>
+  <td background="main_topbar.gif">
+   <table class="tabs_four" border="0" cellpadding="1" cellspacing="0" width="100%">
+    <tr>
+     <td><img src="[ConState].gif" align="left" alt=""> [ConText] &nbsp;&nbsp;(<img src="l_users.gif" align="middle" alt=""> [CurUsers]&nbsp;&nbsp;<img src="filetype_other.gif" align="middle" alt=""> [CurFiles])</td>
+     <td width="25%" nowrap><img src="h_kad.gif" width="16" height="16" align="left" alt=""> [KadConText]</td>
+     <td width="1%"></td>
+     <td width="14%"></td>
+     <td></td>
+     <td width="17" align="right"></td>
+    </tr>
+   </table>
+   <table class="tabs_four" border="0" cellpadding="1" cellspacing="0" width="100%">
+    <tr>
+     <td style="font-size:8pt">
+      <img src="arrow_down.gif" align="left" hspace="3" vspace="4" alt=""> [Down]: [CurDownload] ([MaxDownload])
+      <table width="125" border=1 class="percent_table" cellpadding=0 cellspacing=0 bordercolor="#005784" bgcolor="#99CCFF">
+       <tr>
+        <td><img src="qs_down.jpg" width="[DownloadValue]%" height="8" alt=""></td>
+       </tr>
+      </table>
+     </td>
+     <td style="font-size:8pt">
+      <img src="arrow_up.gif" align="left" hspace="3" vspace="4" alt=""> [Up]: [CurUpload] ([MaxUpload])
+      <table width="125" border=1 class="percent_table" cellpadding=0 cellspacing=0 bordercolor="#005784" bgcolor="#99CCFF">
+       <tr>
+        <td><img src="qs_up.jpg" width="[UploadValue]%" height="8" alt=""></td>
+       </tr>
+      </table>
+     </td>
+     <td style="font-size:8pt">
+      <img src="l_con.gif" align="left" hspace="3" vspace="4" alt=""> [Con]: [CurConnection] ([MaxConnection])
+      <table width="125" border=1 class="percent_table" cellpadding=0 cellspacing=0 bordercolor="#005784" bgcolor="#99CCFF">
+       <tr>
+        <td><img src="qs_con.jpg" width="[ConnectionValue]%" height="8" alt=""></td>
+       </tr>
+      </table>
+     </td>
+     <td style="font-size:8pt">
+      <img src="l_users.gif" align="left" hspace="3" vspace="4" alt=""> [Users]: [CurUsers] ([MaxUsers])
+      <table width="125" border=1 class="percent_table" cellpadding=0 cellspacing=0 bordercolor="#005784" bgcolor="#99CCFF">
+       <tr>
+        <td><img src="qs_user.jpg" width="[UserValue]%" height="8" alt=""></td>
+       </tr>
+      </table>
+     </td>
+     <td></td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+<--TMPL_HEADER_END-->
+
+
+
+<-- ################################################################# -->
+<-- ######################## STYLE SHEETS ########################### -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_HEADER_STYLESHEET-->
+<style>
+img
+{
+border:0px;
+}
+img.link
+{
+cursor:pointer;
+}
+form
+{
+display:inline;
+}
+a:active, a:link, a:visited
+{
+color:white;
+text-decoration:none;
+}
+a:hover
+{
+color:#FFC412;
+text-decoration:none;
+}
+.down-line-downloading a:hover
+{
+color:#FFC412;
+text-decoration:none;
+}
+.down-header, .down-header-left, .down-header-right,
+.down-line-hashing, .down-line-hashing-left, .down-line-hashing-right,
+.down-line-waitinghash, .down-line-waitinghash-left, .down-line-waitinghash-right,
+.down-line-error, .down-line-error-left, .down-line-error-right,
+.down-line-stalled, .down-line-stalled-left, .down-line-stalled-right,
+.down-line-complete, .down-line-complete-left, .down-line-complete-right,
+.down-line-completing, .down-line-completing-left, .down-line-completing-right,
+.down-line-waiting, .down-line-waiting-left, .down-line-waiting-right,
+.down-line-paused, .down-line-paused-left, .down-line-paused-right,
+.down-line-stopped, .down-line-stopped-left, .down-line-stopped-right,
+.down-line-downloading, .down-line-downloading-left, .down-line-downloading-right,
+.up-header, .up-header-left,
+.up-line-uploading, .up-line-uploading-left,
+.up-line-connecting, .up-line-connecting-left,
+.server-header, .server-header-left,
+.server-line-disconnected, .server-line-disconnected-left,
+.server-line-high, .server-line-high-left,
+.server-line-low, .server-line-low-left,
+.server-line-connecting, .server-line-connecting-left,
+.server-line-failed, .server-line-failed-left,
+.shared-header, .shared-header-left,
+.shared-line-file, .shared-line-file-left,
+.shared-line-filedown, .shared-line-filedown-left,
+.header, .smallheader, .commontext,
+.upqueue-header, .upqueue-header-left,
+.upqueue-none-line, .upqueue-none-line-left,
+.upqueue-banned-line, .upqueue-banned-line-left,
+.upqueue-friend-line, .upqueue-friend-line-left,
+.upqueue-credit-line, .upqueue-credit-line-left,
+.upqueue-next-line, .upqueue-next-line-left,
+.search-header, .search-header-left, .search-header-right, .search-main, .search-line, .search-line-left, .search-line-right,
+.addserver-header, .addserver-line
+{
+font-family:Tahoma;
+font-size:8pt;
+}
+.tabs
+{
+font-family:Tahoma;
+font-size:8pt;
+background-color:#1F76A5;
+}
+.tabs_two
+{
+font-family:Tahoma;
+font-size:8pt;
+background-color:#0075B3;
+}
+.tabs_three
+{
+font-family:Tahoma;
+font-size:10pt;
+font-weight:bold;
+}
+.tabs_four
+{
+font-family:Tahoma;
+font-size:8pt;
+}
+.tabs_five
+{
+font-family:Tahoma;
+font-size:8pt;
+background-color:#005784;
+}
+.down-header, .down-line-hashing, .down-line-waitinghash, .down-line-error, .down-line-stalled, .down-line-complete, .down-line-completing, .down-line-waiting, .down-line-paused, .down-line-stopped, .down-line-downloading,
+.up-header, .up-line-connecting, .up-line-uploading,
+.server-header, .server-line-disconnected, .server-line-high, .server-line-low, .server-line-connecting, .server-line-failed,
+.shared-header, .shared-line-file, .shared-line-filedown,
+.upqueue-header, .upqueue-none-line, .upqueue-banned-line, .upqueue-friend-line, .upqueue-credit-line, .upqueue-next-line,
+.search-header, .search-line, .addserver-header, .addserver-line
+{
+text-align:center;
+}
+.down-header-left, .down-line-hashing-left, .down-line-waitinghash-left, .down-line-error-left, .down-line-stalled-left, .down-line-complete-left, .down-line-completing-left, .down-line-waiting-left, .down-line-paused-left, .down-line-stopped-left, .down-line-downloading-left,
+.up-header-left, .upqueue-header-left, .up-line-uploading-left, .up-line-connecting-left,
+.server-header-left, .server-line-disconnected-left, .server-line-high-left, .server-line-low-left, .server-line-connecting-left, .server-line-failed-left, .shared-header-left,
+.shared-line-file-left, .shared-line-filedown-left,
+.upqueue-none-line-left, .upqueue-banned-line-left, .upqueue-friend-line-left, .upqueue-credit-line-left, .upqueue-next-line-left,
+.search-line-left, .search-header-left, .search-main
+{
+text-align:left;
+}
+.down-header-right, .down-line-hashing-right, .down-line-waitinghash-right, .down-line-error-right, .down-line-stalled-right, .down-line-complete-right, .down-line-completing-right, .down-line-waiting-right, .down-line-paused-right, .down-line-stopped-right, .down-line-downloading-right, .search-line-right, .search-header-right
+{
+text-align:right;
+}
+.down-header, .down-header-left, .down-header-right,
+.up-header, .up-header-left, .server-header, .server-header-left,
+.shared-header, .shared-header-left, .upqueue-header, .upqueue-header-left,
+.addserver-header, .search-header, .search-header-left, .search-header-right
+{
+background-color:#005784;
+}
+.search-main
+{
+background-color:#000000;
+}
+.header
+{
+background-color:#0046AC;
+}
+.smallheader
+{
+background-color:#003C6E;
+color:#FFFFFF;
+}
+.commontext
+{
+background-color:#FFFFFF;
+color:#000000;
+}
+.down-line-hashing, .down-line-waitinghash, .down-line-error, .down-line-stalled, .down-line-complete, .down-line-completing, .down-line-waiting, .down-line-paused, .down-line-stopped, .down-line-downloading,
+.down-line-hashing-left, .down-line-waitinghash-left, .down-line-error-left, .down-line-stalled-left, .down-line-complete-left, .down-line-completing-left, .down-line-waiting-left, .down-line-paused-left, .down-line-stopped-left, .down-line-downloading-left,
+.down-line-hashing-right, .down-line-waitinghash-right, .down-line-error-right, .down-line-stalled-right, .down-line-complete-right, .down-line-completing-right, .down-line-waiting-right, .down-line-paused-right, .down-line-stopped-right, .down-line-downloading-right,
+.up-line-connecting, .up-line-connecting-left, .up-line-uploading, .up-line-uploading-left,
+.server-line-disconnected, .server-line-disconnected-left,
+.server-line-high, .server-line-high-left,
+.server-line-low, .server-line-low-left,
+.server-line-connecting, .server-line-connecting-left,
+.server-line-failed, .server-line-failed-left,
+.shared-line-file, .shared-line-file-left,
+.shared-line-filedown, .shared-line-filedown-left,
+.upqueue-none-line, .upqueue-none-line-left,
+.upqueue-banned-line, .upqueue-banned-line-left,
+.upqueue-friend-line, .upqueue-friend-line-left,
+.upqueue-credit-line, .upqueue-credit-line-left,
+.upqueue-next-line, .upqueue-next-line-left,
+.search-line, .search-line-left, .search-line-right, .addserver-line
+{
+background-color:#1F76A5;
+}
+.down-line-waiting a:active, .down-line-waiting a:link, .down-line-waiting a:visited,
+.shared-line-file a:active, .shared-line-file a:link, .shared-line-file a:visited,
+.server-line-disconnected a:active, .server-line-disconnected a:link, .server-line-disconnected a:visited
+{
+color:#ffffff;
+}
+.server-line-high, .server-line-high-left, .server-line-high a:active, .server-line-high a:link, .server-line-high a:visited,
+.upqueue-friend-line, .upqueue-friend-line-left,
+.up-line-uploading, .up-line-uploading-left,
+.down-line-downloading, .down-line-downloading-left, .down-line-downloading-right, .down-line-downloading a:link, .down-line-downloading a:active, .down-line-downloading a:visited
+{
+color:#00ff00;
+}
+.server-line-low, .server-line-low-left, .server-line-low a:active, .server-line-low a:link, .server-line-low a:visited,
+.upqueue-credit-line, .upqueue-credit-line-left,
+.down-line-hashing, .down-line-hashing-left, .down-line-hashing-right, .down-line-hashing a:active, .down-line-hashing a:link, .down-line-hashing a:visited
+{
+color:#ffff00;
+}
+.down-line-waitinghash, .down-line-waitinghash-left, .down-line-waitinghash-right, .down-line-waitinghash a:active, .down-line-waitinghash a:link, .down-line-waitinghash a:visited
+{
+color:#feff89;
+}
+.server-line-connecting, .server-line-connecting-left, .server-line-connecting a:active, .server-line-connecting a:link, .server-line-connecting a:visited,
+.down-line-complete, .down-line-complete-left, .down-line-complete-right, .down-line-complete a:active, .down-line-complete a:link, .down-line-complete a:visited
+{
+color:#1D3445;
+}
+.down-line-completing, .down-line-completing-left, .down-line-completing-right, .down-line-completing a:active, .down-line-completing a:link, .down-line-completing a:visited
+{
+color:#2D4F69;
+}
+.upqueue-banned-line, .upqueue-banned-line-left,
+.down-line-error, .down-line-error-left, .down-line-error-right, .down-line-error a:active, .down-line-error a:link, .down-line-error a:visited
+{
+color:#FF4040;
+}
+.upqueue-next-line, .upqueue-next-line-left,
+.down-line-stalled, .down-line-stalled-left, .down-line-stalled-right, .down-line-stalled a:active, .down-line-stalled a:link, .down-line-stalled a:visited
+{
+color:#FFC412;
+}
+.down-line-paused, .down-line-paused-left, .down-line-paused-right, .down-line-paused a:active, .down-line-paused a:link, .down-line-paused a:visited,
+.shared-line-filedown, .shared-line-filedown-left, .shared-line-filedown a:active, .shared-line-filedown a:link, .shared-line-filedown a:visited,
+.server-line-failed, .server-line-failed-left,  .server-line-failed a:active, .server-line-failed a:link, .server-line-failed a:visited
+{
+color:#C1C1C1;
+}
+.down-line-stopped, .down-line-stopped-left, .down-line-stopped-right, .down-line-stopped a:active, .down-line-stopped a:link, .down-line-stopped a:visited
+{
+color:#A0A0A0;
+}
+.percent_table
+{
+border:0px solid #000000;
+border-collapse:collapse;
+}
+.message
+{
+font-family:Tahoma;
+font-size:8pt;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#005784;
+}
+.dinput
+{
+border-width:1px;
+border-color:black;
+border-style:dotted;
+}
+.fdown
+{
+font-weight:bold;
+color:#CC0000;
+}
+.fok
+{
+font-weight:bold;
+color:#CCFFCC;
+}
+.menuskin
+{
+position:absolute;
+background-color:#005784;
+border:1px solid black;
+line-height:18px;
+font:normal 12px Tahoma;
+z-index:100;
+visibility:hidden;
+}
+.menuskin a
+{
+text-decoration:none;
+color:white;
+}
+.menuimages
+{
+background-color:#003C6E;
+border:2px #003C6E solid;
+vertical-align:middle;
+}
+.menuchecked
+{
+background-color:#005784;
+border:2px #005784 solid;
+vertical-align:middle;
+}
+#mouseoverstyle
+{
+background-color:#003C6E;
+}
+#mouseoverstyle .menuchecked
+{
+background-color:#003C6E;
+border:2px #003C6E solid;
+}
+/* Tooltip customization */
+div#tipDiv
+{
+position:absolute; visibility:hidden; left:0; top:0; z-index:10000;
+background-color:#005784; border:1px solid #000000;
+width:400px; padding:4px;
+font-family:Tahoma, Verdana, Arial;
+color:#FFFFFF; font-size:8pt; line-height:1.2;
+}
+</style>
+<--TMPL_HEADER_STYLESHEET_END-->
+
+
+<--TMPL_FOOTER-->
+</body>
+</html>
+<--TMPL_FOOTER_END-->
+
+
+
+<-- ################################################################# -->
+<-- ######################## SERVER LIST ############################ -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_SERVER_LIST-->
+<table border=0 cellpadding=4 cellspacing=0 align=center width="95%">
+ <tr>
+  <td align=center valign=middle>
+   [AddServerBox]
+  </td>
+ </tr>
+</table>
+
+<table border=0 align=center cellpadding=2 cellspacing=0 width="100%">
+ <tr>
+  <td class="smallheader" colspan=12 style="background-color:#000000"><b><img src="l_server.gif" align="middle" alt="">&nbsp;[ServerList]</b></td>
+ </tr>
+ <tr>
+  <td valign=middle class="server-header-left" nowrap>
+   &nbsp;<a href="?ses=[Session]&amp;w=server&amp;sort=state[SortState]"><b>&times;</b></a>
+   &nbsp;<a href="?ses=[Session]&amp;w=server&amp;sort=name[SortName]"><b>[ServernameH][ServernameI]</b></a>
+  </td>
+  <td valign=middle class="server-header"><a href="?ses=[Session]&amp;w=server&amp;sort=ip[SortIP]"><b>[AddressH][AddressI]</b></a></td>
+  <td valign=middle class="server-header"><a href="?ses=[Session]&amp;w=server&amp;sort=description[SortDescription]"><b>[DescriptionH][DescriptionI]</b></a></td>
+  <td valign=middle class="server-header"><a href="?ses=[Session]&amp;w=server&amp;sort=ping[SortPing]"><b>[PingH][PingI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=users[SortUsers]"><b>[UsersH][UsersI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=files[SortFiles]"><b>[FilesH][FilesI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=priority[SortPriority]"><b>[PriorityH][PriorityI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=failed[SortFailed]"><b>[FailedH][FailedI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=limit[SortLimit]"><b>[LimitH][LimitI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=server&amp;sort=version[SortVersion]"><b>[VersionH][VersionI]</b></a></td>
+  <td valign=middle class="server-header" style="font-size:7.5pt"></td>
+ </tr>
+ [ServersList]
+</table>
+
+<--TMPL_SERVER_LIST_END-->
+
+
+<--TMPL_SERVER_LINE-->
+<tr>
+ <td valign=middle class="server-line-[ServerState]-left">
+  <table cellspacing="0" cellpadding="0" border="0" valign=middle class="server-line-[ServerState]-left">
+   <tr>
+    <td background="[ServerState].gif" width="16" height="16" style="background-position:center;background-repeat:no-repeat">
+     <a href="?ses=[Session]&amp;w=server&amp;c=connect&amp;ip=[ip]&amp;port=[port]"><img alt="connect" src="is_[ServerType].gif" alt=""></a></td>
+     <td>&nbsp;</td><td>[Servername]
+    </td>
+   </tr>
+  </table>
+ </td>
+ <td valign=middle class="server-line-[ServerState]">[Address]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt">[Description]</td>
+ <td valign=middle class="server-line-[ServerState]">[Ping]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt">[Users]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt">[Files]</td>
+ <td valign=middle class="server-line-[ServerState]"><a href="#">[Priority]</a></td>
+ <td valign=middle class="server-line-[ServerState]">[Failed]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt">[Limit]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt">[Version]</td>
+ <td valign=middle class="server-line-[ServerState]" style="font-size:7.5pt"></td>
+</tr>
+<--TMPL_SERVER_LINE_END-->
+
+
+
+<-- ################################################################# -->
+<-- ####################### ADD SERVER BOX ########################## -->
+<-- ################################################################# -->
+
+<--TMPL_ADDSERVERBOX-->
+<br>
+<table border="2" cellpadding="4" cellspacing=0 width="100%">
+ <tr>
+  <td class="search-main" ID="prefstag" align="center" style="background:#005784" nowrap><img src="l_connect.gif" align="middle" alt="">&nbsp;<b>[ServerOptions]</b>&nbsp;</td>
+  <td class="search-main" ID="servertag" align="center" nowrap><img src="l_search.gif" align="middle" alt="">&nbsp;<b>[UpdateServerMetFromURL]</b>&nbsp;</td>
+  <td class="search-main" ID="manualtag" align="center" nowrap><img src="l_search.gif" align="middle" alt="">&nbsp;<b>[AddServer]</b>&nbsp;</td>
+ </tr>
+ <tr>
+  <td class="search-line">
+   <form ID="prefs" action="" method="GET">
+    <table border=0 cellpadding=4 cellspacing=0 align="left">
+     <tr>
+      <td>
+       &nbsp;<input type="button" value="[Connect]" onclick="window.location.href='[URL_Connect]'">
+       &nbsp;<input type="button" value="[Disconnect]" onclick="window.location.href='[URL_Disconnect]'">
+      </td>
+     </tr>
+    </table>
+   </form>
+  </td>
+  <td class="search-line">
+   <form ID="manual" action="" method="GET">
+    <table border=0 cellpadding=4 cellspacing=0 align="left">
+     <tr>
+      <td class="tabs">[IP]</td>
+      <td><input name="serveraddr" type="text" size="15"></td>
+     </tr>
+     <tr>
+      <td class="tabs">[Port]</td>
+      <td><input name="serverport" type="text" size="6"></td>
+     </tr>
+     <tr>
+      <td class="tabs">[Name]</td>
+      <td><input name="servername" type="text" size="30"></td>
+     </tr>
+     <tr>
+      <td class="tabs">[Static]</td>
+      <td><input type='checkbox' name="addtostatic" value='true'></td>
+     </tr>
+     <tr>
+      <td class="tabs">[ConnectNow]</td>
+      <td><input type='checkbox' name="connectnow" value='true'></td>
+     </tr>
+     <tr>
+      <td class="tabs">[Priority]</td>
+      <td>
+       <select name="priority">
+        <option value="low">[Low]</option>
+        <option value="normal">[Normal]</option>
+        <option value="high">[High]</option>
+       </select>
+      </td>
+     </tr>
+     <tr>
+      <td valign="bottom">
+       <input type="hidden" name="ses" value="[Session]">
+       <input type="hidden" name="w" value="server">
+       <input type="hidden" name="c" value="options">
+       <input name="addserver" type="hidden" value="true">
+       <input type="submit" value="[Add]">
+      </td>
+      <td>&nbsp;</td>
+     </tr>
+    </table>
+   </form>
+  </td>
+  <td class="search-line">
+   <form ID="server" action="" method="GET">
+    <table border=0 cellpadding=4 cellspacing=0>
+     <tr>
+      <td class="tabs">[IP]&nbsp;&nbsp;&nbsp;
+       <input name="servermeturl" type="text" size="30">
+       <input type="hidden" name="ses" value="[Session]">
+       <input type="hidden" name="w" value="server">
+       <input type="hidden" name="c" value="options">
+       <input name="updateservermetfromurl" type="hidden" value="true">
+       &nbsp;&nbsp;
+       <input type="submit" value="[Apply]">
+      </td>
+     </tr>
+    </table>
+   </form>
+  </td>
+ </tr>
+</table>
+
+<div class="message">[Message]</div>
+<br>
+<--TMPL_ADDSERVERBOX_END-->
+
+
+
+<-- ################################################################# -->
+<-- ######################### TRANSFER ############################## -->
+<-- ################################################################# -->
+
+<--TMPL_TRANSFER_IMAGES-->
+&nbsp;
+<--TMPL_TRANSFER_IMAGES_END-->
+
+
+<--PROGRESSBARWIDTH-->
+350
+<--PROGRESSBARWIDTH_END-->
+
+
+<--PROGRESSBARIMGS-->
+<img src="[PROGRESSGIFNAME]" height=13 width=[PROGRESSGIFINTERNAL] alt="">
+<--PROGRESSBARIMGS_END-->
+
+
+<--PROGRESSBARPERCENTIMG-->
+<img src="[PROGRESSGIFNAME]" height=3 width=[PROGRESSGIFINTERNAL] alt="">
+<--PROGRESSBARPERCENTIMG_END-->
+
+<--TMPL_CATARROW-->
+&nbsp;&nbsp;&nbsp;
+<input type="hidden" name="ses" value="[Session]">
+<input type="hidden" name="w" value="transfer">
+<input type="image" src="l_catarrow.gif" alt="">&nbsp;&nbsp;&nbsp;
+<--TMPL_CATARROW_END-->
+
+
+<--TMPL_DOWNARROW-->
+&nbsp;<img src="l_downarrow.gif" align="middle" alt="">
+<--TMPL_DOWNARROW_END-->
+
+
+<--TMPL_UPARROW-->
+&nbsp;<img src="l_uparrow.gif" align="middle" alt="">
+<--TMPL_UPARROW_END-->
+
+
+<--TMPL_DNDOUBLEARROW-->
+&nbsp;<img src="l_dndoublearrow.gif" align="middle" alt="">
+<--TMPL_DNDOUBLEARROW_END-->
+
+
+<--TMPL_UPDOUBLEARROW-->
+&nbsp;<img src="l_updoublearrow.gif" align="middle" alt="">
+<--TMPL_UPDOUBLEARROW_END-->
+
+
+<--TMPL_TRANSFER_LIST-->
+ <table border=0 align=center cellpadding=4 cellspacing=0 width="95%">
+  <tr>
+   <td align=center valign=middle>
+    [DownloadHeader]
+    [DownloadFilesList]
+    [DownloadFooter]
+    &nbsp;
+    [UploadHeader]
+    [UploadFilesList]
+    [UploadFooter]
+    &nbsp;
+    [UploadQueue]
+    [UploadQueueFriend]
+    [UploadQueueBanned]
+  <!-- test add tags -->
+ </table>
+</table>
+<--TMPL_TRANSFER_LIST_END-->
+
+
+<--TMPL_TRANSFER_DOWN_HEADER-->
+<script Language="JavaScript">
+<!--
+function GotoCat(cat) {
+	var loc= window.location.href;
+	var pos= loc.indexOf("cat=");
+
+	if (pos>1) {
+		if (loc.substr(pos-1,1)=="&") pos--;
+		var subs=loc.substr(pos+3,256);
+		var pos2=subs.indexOf("&");
+		if (pos2==-1) pos2=loc.length;
+		pos2 += pos+3;
+		var t1=loc.substring(0,pos);
+		var t2=loc.substring(pos2+1,loc.length );
+		loc=t1+t2;
+	}
+	window.location.href=loc+"&amp;cat="+cat;
+}
+//-->
+</script>
+<table border=0 align=center cellpadding=2 cellspacing=0 width="100%" bgcolor="#99CCFF">
+ <tr>
+  <td class="smallheader" colspan="5" style="background-color:#000000"><img src="arrow_down.gif" align="middle" alt="">&nbsp;<b>[DownloadList]</b>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[CATBOX]
+  </td>
+  <td class="smallheader" colspan="5" style="background-color:#000000" align="right"><a href="?ses=[Session]&amp;w=transfer&amp;clearcompleted=all"><img src="m_clearcompleted.gif" align="middle" alt=""></a></td>
+ </tr>
+ <tr>
+  <td valign=middle class="down-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="down-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dstate[SortDState]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dtype[SortDType]"><b>&times;</b></a></td><td>&nbsp;</td><td><a href="?ses=[Session]&amp;w=transfer&amp;sort=dname[SortDName]"><b>[DFilename][DFilenameI]</b></a></td></tr></table></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dsize[SortDSize]"><b>[DSize][DSizeI]</b></a></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dtransferred[SortDTransferred]"><b>[DTransferred][DTransferredI]</b></a></td>
+  <td valign=middle class="down-header"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dprogress[SortDProgress]"><b>[DProgress][DProgressI]</b></a></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dspeed[SortDSpeed]"><b>[DSpeed][DSpeedI]</b></a></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dsources[SortDSources]"><b>[DSources][DSourcesI]</b></a></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dpriority[SortDPriority]"><b>[DPriority][DPriorityI]</b></a></td>
+  <td valign=middle class="down-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=dcategory[SortDCategory]"><b>[DCategory][DCategoryI]</b></a></td>
+  <td valign=middle class="down-header">&nbsp;</td>
+ </tr>
+<--TMPL_TRANSFER_DOWN_HEADER_END-->
+
+
+<--TMPL_TRANSFER_DOWN_FOOTER-->
+ <tr>
+  <td valign=middle class="down-header-left" style="font-size:7.5pt"><b>[TotalDown]</b></td>
+  <td valign=middle class="down-header-right" nowrap style="font-size:7.5pt"><b>[TotalDownSize]</b></td>
+  <td valign=middle class="down-header-right" nowrap style="font-size:7.5pt"><b>[TotalDownTransferred]</b></td>
+  <td valign=middle class="down-header">&nbsp;</td>
+  <td valign=middle class="down-header-right" nowrap style="font-size:7.5pt"><b>[TotalDownSpeed]</b></td>
+  <td valign=middle class="down-header-right" colspan="5" style="font-size:7.5pt"><b>[TotalFiles]</b></td>
+ </tr>
+</table>
+<--TMPL_TRANSFER_DOWN_FOOTER_END-->
+
+
+<--TMPL_TRANSFER_DOWN_LINE-->
+   <tr>
+    <td valign=top class="down-line-[DownState]-left" nowrap><table cellspacing="0" cellpadding="0" border="0" valign=top class="down-line-[DownState]-left">
+    <tr>
+      <td><img src="t_[DownState].gif" alt=""></td>
+      <td>&nbsp;</td>
+      <td background="filetype_[FileType].gif" width="16" height="16" style="background-position:center;background-repeat:no-repeat">
+       <img src="is_half[FileCommentIcon].gif" alt="">
+      </td>
+      <td>&nbsp;</td>
+      <td>[ShortFileName]</td>
+    </tr>
+   </table>
+  </td>
+  <td valign=top class="down-line-[DownState]-right" nowrap style="font-size:7.5pt">[2]</td>
+  <td valign=top class="down-line-[DownState]-right" nowrap>[3]</td>
+  <td valign=middle class="down-line-[DownState]" width=[PROGRESSBARWIDTHVAL]><table width=[PROGRESSBARWIDTHVAL] height=11 border=1 class="percent_table" cellpadding=0 cellspacing=0 bordercolor="#000000">
+  <tr>
+  <td>[DownloadBar]</td></tr></table></td>
+  <td valign=top class="down-line-[DownState]-right" nowrap>[4]</td>
+  <td valign=top class="down-line-[DownState]" nowrap style="font-size:7.5pt">[5]</td>
+  <td valign=top class="down-line-[DownState]" nowrap style="font-size:7.5pt">[PrioVal]</td>
+  <td valign=top class="down-line-[DownState]" style="font-size:7.5pt">[Category]</td>
+
+  <td valign=top class="down-line-[DownState]" width="100">
+   [ISACTIVE]<a href="?ses=[Session]&amp;w=transfer&amp;op=resume&amp;file=[filehash]"><img src="l_resume.gif" alt="[Resume]"></a>[ISACTIVE_END]
+   [!ISACTIVE]
+   <a href="?ses=[Session]&amp;w=transfer&amp;op=stop&amp;file=[filehash]"><img src="l_stop.gif" alt="[Stop]"></a>
+   <a href="?ses=[Session]&amp;w=transfer&amp;op=pause&amp;file=[filehash]"><img src="l_pause.gif" alt="[Pause]"></a>
+   [!ISACTIVE_END]
+   <a href="?ses=[Session]&amp;w=transfer&amp;op=cancel&amp;file=[filehash]" onclick="return confirm(removeconfirm)"><img src="l_cancel.gif" alt="[Cancel]"></a>
+   [HASCOMMENT]<a href="?ses=[Session]&amp;w=commentlist&amp;filehash=[filehash]" target="_blank"><img src="l_comments.gif" alt="[FileComments]"></a>[HASCOMMENT_END]
+   <a href="javascript:alert('[finfo]');"><img src="l_info.gif" alt=""></a>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="10" bgcolor="#005784" height="1"></td>
+ </tr>
+<--TMPL_TRANSFER_DOWN_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_HEADER-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="100%">
+<tr>
+ <td class="smallheader" colspan="6" style="background-color:#000000"><img src="arrow_up.gif" align="middle" alt="">&nbsp;<b>[UploadList]</b></td>
+</tr>
+<tr>
+ <td class="up-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="up-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=uspeed[SortUSpeed]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=uclient[SortUClient]"><b>&times;</b></a></td><td>&nbsp;</td><td><a href="?ses=[Session]&amp;w=transfer&amp;sort=uuser[SortUUser]"><b>[UUser][UUserI]</b></a></td></tr></table></td>
+ <td class="up-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=uversion[SortUVersion]"><b>[UVersion][UVersionI]</b></a></td>
+ <td class="up-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=ufilename[SortUFilename]"><b>[UFilename][UFilenameI]</b></a></td>
+ <td class="up-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=utransferred[SortUTransferred]"><b>[UTransferred][UTransferredI]</b></a></td>
+ <td class="up-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=uspeed[SortUSpeed]"><b>[USpeed][USpeedI]</b></a></td>
+</tr>
+<--TMPL_TRANSFER_UP_HEADER_END-->
+
+
+<--TMPL_TRANSFER_UP_FOOTER-->
+<tr>
+ <td class="up-header-left" style="font-size:7.5pt"><b>[TotalUp]</b></td>
+ <td class="up-header"></td>
+ <td class="up-header"></td>
+ <td class="up-header" style="font-size:7.5pt"><b>[TotalUpTransferred]</b></td>
+ <td class="up-header" style="font-size:7.5pt"><b>[TotalUpSpeed]</b></td>
+</tr>
+</table>
+<--TMPL_TRANSFER_UP_FOOTER_END-->
+
+
+<--TMPL_TRANSFER_UP_LINE-->
+<tr>
+ <td valign=top class="up-line-[ClientState]-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="up-line-[ClientState]-left"><tr><td><img src="t_[ClientState].gif" alt=""></td><td>&nbsp;</td>
+ <td background="ct_[ClientSoft].gif" style="background-position:center;background-repeat:no-repeat">
+ <img src="is_[ClientExtra].gif" alt=""></td><td>&nbsp;</td><td>[1]</td></tr></table></td>
+ <td valign=top class="up-line-[ClientState]-left" style="font-size:7.5pt">[ClientSoftV]</td>
+ <td valign=top class="up-line-[ClientState]-left" style="font-size:7.5pt">[2]</td>
+ <td valign=top class="up-line-[ClientState]" style="font-size:7.5pt">[3]</td>
+ <td valign=top class="up-line-[ClientState]" style="font-size:7.5pt">[4]</td>
+</tr>
+<--TMPL_TRANSFER_UP_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_SHOW-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="100%">
+<tr>
+ <td class="smallheader" style="background-color:#000000"><img src="arrow_up_q.gif" align="middle" alt="">&nbsp;<b>
+ <a href="#">[ShowUploadQueue]</a></b></td>
+ <td class="smallheader" colspan="4" align="right" style="background-color:#000000"><b>[CounterAll] ([CounterAllSecure])</b></td>
+</tr>
+<tr>
+ <td class="smallheader"><a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueue=false"><img src="l_remove.gif" align="middle" alt=""></a>&nbsp;&nbsp;<b>[UploadQueueList]</b></td>
+ <td class="smallheader" colspan="4" align="right"><b>[CounterQueue] ([CounterQueueSecure])</b></td>
+</tr>
+<tr>
+ <td class="upqueue-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscore[SortQScore]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qclient[SortQClient]"><b>&times;</b></a></td><td>&nbsp;</td><td><a href="?ses=[Session]&amp;w=transfer&amp;sort=quser[SortQUser]"><b>[UserNameTitle][UserNameTitleI]</b></a></td></tr></table></td>
+ <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qversion[SortQVersion]"><b>[Version][VersionI]</b></a></td>
+ <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qfilename[SortQFilename]"><b>[FileNameTitle][FileNameTitleI]</b></a></td>
+ <td class="upqueue-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscore[SortQScore]"><b>[ScoreTitle][ScoreTitleI]</b></a></td>
+ <td class="upqueue-header">&nbsp;</td>
+</tr>
+[QueueList]
+<--TMPL_TRANSFER_UP_QUEUE_SHOW_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_SHOW-->
+<tr>
+ <td class="smallheader"><a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueuebanned=false"><img src="l_remove.gif" align="middle" alt=""></a>&nbsp;&nbsp;<b>[UploadQueueBannedList]</b></td>
+ <td class="smallheader" colspan="4" align="right"><b>[CounterQueueBanned] ([CounterQueueBannedSecure])</b></td>
+</tr>
+<tr>
+ <td class="upqueue-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscore[SortQScore]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qclient[SortQClient]"><b>&times;</b></a></td><td>&nbsp;</td><td><a href="?ses=[Session]&amp;w=transfer&amp;sort=quser[SortQUser]"><b>[UserNameTitle][UserNameTitleI]</b></a></td></tr></table></td>
+ <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qversion[SortQVersion]"><b>[Version][VersionI]</b></a></td>
+ <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qfilename[SortQFilename]"><b>[FileNameTitle][FileNameTitleI]</b></a></td>
+ <td class="upqueue-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscore[SortQScore]"><b>[ScoreTitle][ScoreTitleI]</b></a></td>
+ <td class="upqueue-header">&nbsp;</td>
+</tr>
+[QueueListBanned]
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_SHOW_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_SHOW-->
+<tr>
+ <td class="smallheader"><a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueuefriend=false"><img src="l_remove.gif" align="middle" alt=""></a>&nbsp;&nbsp;<b>[UploadQueueFriendList]</b></td>
+ <td class="smallheader" colspan="4" align="right"><b>[CounterQueueFriend] ([CounterQueueFriendSecure])</b></td>
+</tr>
+<tr>
+ <td class="upqueue-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscoret[SortQScore]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qclient[SortQClient]"><b>&times;</b></a></td><td>&nbsp;</td><td><a href="?ses=[Session]&amp;w=transfer&amp;sort=quser[SortQUser]"><b>[UserNameTitle][UserNameTitleI]</b></a></td></tr></table></td>
+ <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qversion[SortQVersion]"><b>[Version][VersionI]</b></a></td>
+ <td class="upqueue-header-left" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qfilename[SortQFilename]"><b>[FileNameTitle][FileNameTitleI]</b></a></td>
+ <td class="upqueue-header" style="font-size:7.5pt"><a href="?ses=[Session]&amp;w=transfer&amp;sort=qscore[SortQScore]"><b>[ScoreTitle][ScoreTitleI]</b></a></td>
+ <td class="upqueue-header">&nbsp;</td>
+</tr>
+[QueueListFriend]
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_SHOW_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_LINE-->
+<tr>
+ <td valign=top class="upqueue-[ClientState]-line-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-[ClientState]-line-left"><tr><td><img src="t_[ClientStateSpecial].gif" alt=""></td><td>&nbsp;</td><td background="ct_[ClientSoft].gif" style="background-position:center;background-repeat:no-repeat">
+ <img src="is_[ClientExtra].gif" alt=""></td><td>&nbsp;</td><td>[UserName]</td></tr></table>
+ <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[ClientSoftV]</td>
+ <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[FileName]</td>
+ <td valign=top class="upqueue-[ClientState]-line" style="font-size:7.5pt">[Score]</td>
+ <td valign=top class="upqueue-[ClientState]-line">&nbsp;</td>
+</tr>
+<--TMPL_TRANSFER_UP_QUEUE_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_LINE-->
+<tr>
+ <td valign=top class="upqueue-[ClientState]-line-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-[ClientState]-line-left"><tr><td><img src="t_[ClientStateSpecial].gif" alt=""></td><td>&nbsp;</td><td background="ct_[ClientSoft].gif" style="background-position:center;background-repeat:no-repeat">
+ <img src="is_[ClientExtra].gif" alt=""></td><td>&nbsp;</td><td>[UserName]</td></tr></table>
+ <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[ClientSoftV]</td>
+ <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[FileName]</td>
+ <td valign=top class="upqueue-[ClientState]-line" style="font-size:7.5pt">[Score]</td>
+ <td valign=top class="upqueue-[ClientState]-line">&nbsp;</td>
+</tr>
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_LINE-->
+<tr>
+ <td valign=top class="upqueue-[ClientState]-line-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-[ClientState]-line-left"><tr><td><img src="t_[ClientStateSpecial].gif" alt=""></td><td>&nbsp;</td><td background="ct_[ClientSoft].gif" style="background-position:center;background-repeat:no-repeat"><img src="is_[ClientExtra].gif" alt=""></td><td>&nbsp;</td><td>[UserName]</td></tr></table>
+ <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[ClientSoftV]</td>
+ <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[FileName]</td>
+ <td valign=top class="upqueue-[ClientState]-line" style="font-size:7.5pt">[Score]</td>
+ <td valign=top class="upqueue-[ClientState]-line">&nbsp;</td>
+</tr>
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_CREDIT_LINE-->
+<tr>
+ <td valign=top class="upqueue-[ClientState]-line-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="upqueue-[ClientState]-line-left"><tr><td><img src="t_[ClientStateSpecial].gif" alt=""></td><td>&nbsp;</td><td background="ct_[ClientSoft].gif" style="background-position:center;background-repeat:no-repeat"><img src="is_[ClientExtra].gif" alt=""></td><td>&nbsp;</td><td>[UserName]</td></tr></table>
+ <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[ClientSoftV]</td>
+ <td valign=top class="upqueue-[ClientState]-line-left" style="font-size:7.5pt">[FileName]</td>
+ <td valign=top class="upqueue-[ClientState]-line" style="font-size:7.5pt">[Score]</td>
+ <td valign=top class="upqueue-[ClientState]-line">&nbsp;</td>
+</tr>
+<--TMPL_TRANSFER_UP_QUEUE_CREDIT_LINE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_HIDE-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="100%">
+ <tr>
+  <td class="smallheader" style="background-color:#000000"><img src="arrow_up_q.gif" align="middle" alt="">&nbsp;<b>[ShowUploadQueue]</b></td>
+  <td class="smallheader" colspan="4" align="right" style="background-color:#000000"><b>[CounterAll] ([CounterAllSecure])</b></td>
+ </tr>
+ <tr>
+  <td class="smallheader"><a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueue=true"><img src="l_add.gif" align="middle" alt=""></a>&nbsp;&nbsp;<b>[ShowUploadQueueList]</b></td>
+  <td class="smallheader" colspan="4" align="right"><b>[CounterQueue] ([CounterQueueSecure])</b></td>
+ </tr>
+<--TMPL_TRANSFER_UP_QUEUE_HIDE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_HIDE-->
+<tr>
+ <td class="smallheader"><a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueuebanned=true"><img src="l_add.gif" align="middle" alt=""></a>&nbsp;&nbsp;<b>[ShowUploadQueueListBanned]</b></td>
+ <td class="smallheader" colspan="4" align="right"><b>[CounterQueueBanned] ([CounterQueueBannedSecure])</b></td>
+</tr>
+<--TMPL_TRANSFER_UP_QUEUE_BANNED_HIDE_END-->
+
+
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_HIDE-->
+<tr>
+  <td class="smallheader"><a href="?ses=[Session]&amp;w=transfer&amp;showuploadqueuefriend=true"><img src="l_add.gif" align="middle" alt=""></a>&nbsp;&nbsp;<b>[ShowUploadQueueListFriend]</b></td>
+ <td class="smallheader" colspan="4" align="right"><b>[CounterQueueFriend] ([CounterQueueFriendSecure])</b></td>
+</tr>
+<--TMPL_TRANSFER_UP_QUEUE_FRIEND_HIDE_END-->
+
+
+<-- ################################################################# -->
+<-- ########################### SEARCH ############################## -->
+<-- ################################################################# -->
+
+
+<--TMPL_SEARCH-->
+<table border="1" cellpadding="4" cellspacing="0" align=center width="95%">
+<tr>
+<td class="search-main"><img src="l_search.gif" align="middle" alt="">[Search]</td>
+<td class="search-main"><img src="l_contentdb.gif" align="middle" alt="">ContentDB [Search]</td>
+<td class="search-main"><img src="l_ed2klink.gif" align="middle" alt="">[Ed2klink]</td>
+</tr>
+
+<tr>
+ <td class="search-line" width="40%">
+  <form ID="search" action="" method="GET">
+   <table border=0 cellpadding=4 cellspacing=0 align="left">
+    <tr>
+     <td class="tabs" width=150>[Name]</td>
+     <td><input name="tosearch" type="text" size="30"></td>
+    </tr>
+    <tr>
+     <td class="tabs" width=150><br></td>
+     <td class="tabs"><input type="checkbox" checked name="unicode">[Unicode]<br></td>
+    </tr>
+    <tr>
+     <td class="tabs">[Type]</td>
+     <td>
+      <select name="type">
+      <option value="">[Any]</option>
+      <option value="Arc">[Archive] (.zip .rar .ace...)</option>
+      <option value="Audio">[Audio] (.mp3 .ogg .wav...)</option>
+      <option value="Iso">[CDImage] (.iso .bin .nrg...)</option>
+      <option value="Doc">[Document] (.doc .txt .pdf...)</option>
+      <option value="Image">[Image] (.jpg .gif .png...)</option>
+      <option value="Pro">[Program] (.exe .zip .rar...)</option>
+      <option value="Video">[Video] (.avi .mpg .ogm...)</option>
+      <option value="EmuleCollection">[eMuleCollection] (.emulecollection)</option>
+      </select>
+     </td>
+    </tr>
+    <tr>
+     <td class=tabs>[SizeMin]</td>
+     <td><input name="min" type="text" size="10"></td>
+    </tr>
+    <tr>
+     <td class=tabs>[SizeMax]</td>
+     <td><input name="max" type="text" size="10"></td>
+    </tr>
+    <tr>
+     <td class=tabs>[Availabl]</td>
+     <td><input name="avail" type="text" size="10"></td>
+    </tr>
+    <tr>
+     <td class=tabs>[Extention]</td>
+     <td><input name="ext" type="text" size="10"></td>
+    </tr>
+    <tr>
+     <td class=tabs>[METHOD]</td>
+	 <td class="tabs">
+	  <input value="server" type="radio" name="method" checked>[USESSERVER]<br>
+	  <input value="global" type="radio" name="method">[Global]<br>
+	  <input value="kademlia" type="radio" name="method">[USEKADEMLIA]</td>
+	</tr>
+    <tr>
+     <td></td>
+     <td valign="bottom" height="40">
+      <input type="hidden" name="ses" value="[Session]">
+      <input type="hidden" name="w" value="search">
+      <input type="submit" value="[Search]">
+     </td>
+     <td>&nbsp;</td>
+    </tr>
+   </table>
+  </form>
+  </td>
+
+  <td class="search-line" width="30%">
+  <form ID="contentdb" action="https://contentdb.emule-project.net/search.php" method="get" target="_blank">
+   <table border="0" cellpadding=4 cellspacing=0 align="left">
+    <tr>
+     <td class="tabs" width=150>[Name]</td>
+     <td><input name="s" type="text" size="30"></td>
+    </tr>
+    <tr>
+    <td class="tabs">[Type]</td>
+     <td>
+      <select name="cat">
+       <option value="all">[Any]</option>
+       <option value="1">Software</option>
+       <option value="2">Music</option>
+       <option value="3">Movies</option>
+       <option value="4">Games</option>
+       <option value="5">Miscellaneous Items</option>
+      </select>
+     </td>
+    </tr>
+    <tr>
+     <td height="40" valign="bottom">
+      <input type="hidden" name="ses" value="[Session]">
+      <input type="hidden" name="qsource" value="webinterface">
+      <input type="submit" value="[Search]">
+     </td>
+     <td>&nbsp;</td>
+    </tr>
+   </table>
+  </form>
+  </td>
+
+  <td class="search-line" width="30%">
+   <table align=center border="0" cellpadding=4 cellspacing=0 width="80%">
+    <tr>
+     <td align=center valign=top class=tabs>
+     <br>
+      <form action="" method="GET">
+       <input type="hidden" name="ses" value="[Session]">
+       <input type="hidden" name="w" value=transfer>
+       <textarea name="ed2k" cols="70" rows="7" class=dinput></textarea>
+       <br><br><input type="submit" value="[Start]">[CATBOX]
+      </form>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+<br>
+<table border=0 cellpadding=4 cellspacing=0 width="100%">
+ <tr>
+  <td colspan="6" class="search-main"><img src="l_filesearch.gif" align="middle" alt="">&nbsp;<b>
+  [Result]
+  &nbsp;&nbsp;&nbsp;<a href="?ses=[Session]&amp;w=search"><font color="#FFC412">([Message])</font></a></b></td>
+ </tr>
+ <tr>
+  <td valign="bottom" height="40">
+   <form action="" method="GET">
+    <input type="hidden" name="ses" value="[Session]">
+    <input type="hidden" name="w" value="search">
+   </form>
+  </td>
+ </tr>
+ [RESULTLIST]
+ <tr>
+  <td colspan="6" class="search-line">
+   <br><input type="submit" value="[Download]">[CATBOX]<br><br>
+  </td>
+ </tr>
+</table>
+</td>
+</tr>
+</table>
+<--TMPL_SEARCH_END-->
+
+
+<--TMPL_SEARCH_RESULT_HEADER-->
+<tr>
+ <td class="search-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=middle class="search-header"><tr><td width="16"><a href="?ses=[Session]&amp;w=search&amp;sort=3&amp;sortAsc=[SORTASCVALUE3]">&times;</a></td><td>&nbsp;</td><td width="16"><a href="?ses=[Session]&amp;w=search&amp;sort=5&amp;sortAsc=[SORTASCVALUE5]">&times;</a></td><td>&nbsp;</td><td align="left"><b><a href="?ses=[Session]&amp;w=search&amp;sort=0&amp;sortAsc=[SORTASCVALUE0]">[FilenameH][FilenameI]</a></b></td></tr></table></td>
+ <td class="search-header-right" style="font-size:7.5pt"><b><a href="?ses=[Session]&amp;w=search&amp;sort=1&amp;sortAsc=[SORTASCVALUE1]">[FilesizeH][FilesizeI]</a></b></td>
+ <td class="search-header" style="font-size:7.5pt"><b><a href="?ses=[Session]&amp;w=search&amp;sort=2&amp;sortAsc=[SORTASCVALUE2]">[FilehashH][FilehashI]</a></b></td>
+ <td class="search-header" style="font-size:7.5pt"><b><a href="?ses=[Session]&amp;w=search&amp;sort=3&amp;sortAsc=[SORTASCVALUE3]">[SourcesH][SourcesI]</a></b></td>
+ <td class="search-header">&nbsp;</td>
+</tr>
+<--TMPL_SEARCH_RESULT_HEADER_END-->
+
+
+<--TMPL_SEARCH_RESULT_LINE-->
+   <tr>
+    <td class="search-line-left"><table cellspacing="0" cellpadding="0" border="0" valign=middle class="search-line"><tr><td background="l_sources_%s.gif" width="16" height="16" style="background-position:center;background-repeat:no-repeat">
+    <!-- <a href="#" onMouseover="searchmenu(event,'%s')" onMouseout="delayhidemenu()"> -->
+    <img src="is_%s.gif" alt="">
+    <!-- </a> -->
+    </td><td>&nbsp;<img src="filetype_%s.gif" align="middle" alt=""></td><td>&nbsp;</td>
+    <td>%s</td>
+   </tr>
+  </table>
+ </td>
+ <td class="search-line-right">%s</td>
+ <td class="search-line" style="font-size:7.5pt">%s</td>
+ <td class="search-line" style="font-size:7.5pt">%s</td>
+ <td class="search-line"><input type="checkbox" name="downloads" value="%s"></td>
+</tr>
+<tr>
+ <td colspan="6" bgcolor="#005784" height="1"></td>
+</tr>
+<--TMPL_SEARCH_RESULT_LINE_END-->
+
+
+
+<-- ################################################################# -->
+<-- ###################### SHARED FILES LIST ######################## -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_SHARED_LIST-->
+<br>
+<table align=center border=0 cellpadding=4 cellspacing=0 width="95%">
+ <tr>
+  <td class="smallheader" colspan=8 style="background-color:#000000"><b><img src="l_shared.gif" align="middle" alt="">&nbsp;<a href="#">[SharedList]</a>&nbsp;[Message]</b></td>
+ </tr>
+ <tr>
+  <td valign=middle class="shared-header-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="shared-header-left"><tr><td width="16" align="center"><a href="?ses=[Session]&amp;w=shared&amp;[SortState]"><b>&times;</b></a></td><td>&nbsp;</td><td width="16" align="center"><a href="?ses=[Session]&amp;w=shared&amp;[SortType]"><b>&times;</b></a></td><td><a href="?ses=[Session]&amp;w=shared&amp;[SortName]"><b>[Filename][FilenameI]</b></a></td></tr></table></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortTransferred]"><b>[FileTransferred][FileTransferredI]</b></a></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortRequests]"><b>[FileRequests][FileRequestsI]</b></a></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortAccepts]"><b>[FileAccepts][FileAcceptsI]</b></a></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortSize]"><b>[Size][SizeI]</b></a></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortCompletes]"><b>[Completes][CompletesI]</b></a></td>
+  <td valign=middle class="shared-header"><a href="?ses=[Session]&amp;w=shared&amp;[SortPriority]"><b>[Priority][PriorityI]</b></a></td>
+  <td valign=middle class="shared-header">&nbsp;</td>
+ </tr>
+ [SharedFilesList]
+</table>
+<div align="center">
+ <br>
+ <form><input type="button" name="queue" value="[Reload]" onClick="self.location.href='\/?ses=[Session]&amp;w=shared&amp;reload=true'"></form>
+ <br>
+</div>
+<--TMPL_SHARED_LIST_END-->
+
+
+<--TMPL_SHARED_LINE-->
+<tr>
+ <td valign=top class="shared-line-[FileState]-left"><table cellspacing="0" cellpadding="0" border="0" valign=top class="shared-line-[FileState]-left"><tr><td background="[FileState].gif" width="16" height="16" style="background-position:center;background-repeat:no-repeat">
+ <img src="is_[FileIsPriority].gif" alt=""></td><td>&nbsp;</td><td><img src="filetype_[FileType].gif" align="middle" alt=""></td><td>&nbsp;</td><td><acronym title="[FileName]&#013;Hash: [FileHash]">[ShortFileName]</acronym></td></tr></table></td>
+ <td valign=top class="shared-line-[FileState]">[FileTransferred][FileAllTimeTransferred]</td>
+ <td valign=top class="shared-line-[FileState]">[FileRequests][FileAllTimeRequests]</td>
+ <td valign=top class="shared-line-[FileState]">[FileAccepts][FileAllTimeAccepts]</td>
+ <td valign=top class="shared-line-[FileState]">[FileSize]</td>
+ <td valign=top class="shared-line-[FileState]">[Completes]</td>
+ <td valign=top class="shared-line-[FileState]">[Priority]</td>
+ <td valign=top class="shared-line-[FileState]" width="30">
+  [IFDOWNLOADABLE]<a href="?ses=[Session]&amp;w=getfile&amp;filehash=[FileHash]"><img src="downloading.gif" alt=""></a>[/IFDOWNLOADABLE]
+ </td>
+</tr>
+<--TMPL_SHARED_LINE_END-->
+
+
+
+<-- ################################################################# -->
+<-- ########################## STATISTICS ########################### -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_STATS-->
+&nbsp;
+<script Language="JavaScript">
+function obj(menu)
+{
+	return (navigator.appName == "Microsoft Internet Explorer")?this[menu]:document.getElementById(menu);
+}
+function togglevisible(treepart)
+{
+	if (this.obj("T"+treepart).style.visibility == "hidden")
+	{
+		this.obj("T"+treepart).style.position="";
+		this.obj("T"+treepart).style.visibility="";
+		document["I"+treepart].src="stats_visible.gif";
+	}
+	else
+	{
+		this.obj("T"+treepart).style.position="absolute";
+		this.obj("T"+treepart).style.visibility="hidden";
+		document["I"+treepart].src="stats_hidden.gif";
+	}
+}
+</script>
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+ <tr>
+  <td align=left valign=middle class="commontext">
+   [Stats]
+  </td>
+ </tr>
+</table>
+&nbsp;
+<--TMPL_STATS_END-->
+
+
+
+<-- ################################################################# -->
+<-- ########################### GRAPHS ############################## -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_GRAPHS-->
+<script Language="JavaScript">
+function traceGraph(SpeedString,imageURL,MaxSpeed) {
+	document.write('<table cellspacing=0 border=0 cellpadding=0 width="500px"><tr><td valign="bottom" height="150" width="100%"><\/td>');
+	var speed = SpeedString.split(",");
+	if(MaxSpeed==0) MaxSpeed = 1; //No divide by 0 !
+	for(i=0;i<speed.length;i++)
+	{
+		speed[i]=new Number(speed[i]);
+		if (speed[i]>MaxSpeed) speed[i]=MaxSpeed;
+		size=Math.round(speed[i]*150/MaxSpeed);
+		document.write('<td valign="bottom"><table height="'+ size +'px" width="1px" border=0 cellpadding=0 cellspacing=0><td background="' + imageURL + '" height="100%" width="100%"><\/td><\/table><\/td>');
+	}
+	document.write('<\/tr><\/table>');
+}
+</SCRIPT>
+&nbsp;
+<table border=0 align=center cellpadding=0 cellspacing=0>
+ <tr>
+  <td style="border-width:1px; border-color:green; border-style:solid;" valign="bottom" height="150px" background="stats_back.gif">
+   <script Language="JavaScript">
+   var dlstring="[GraphDownload]";
+   traceGraph(dlstring,"stats_down.gif",[MaxDownload]*1024);
+   </script>
+  </td>
+ </tr>
+ <tr><td align=center><font color=black face=Tahoma style="font-size:8pt;">[TxtDownload]: Max [MaxDownload] [KByteSec], [TxtTime]: [ScaleTime]</font><br>&nbsp;</td></tr>
+ <tr>
+  <td style="border-width:1px; border-color:red; border-style:solid;" valign="bottom" height="150px" background="stats_back.gif">
+   <script Language="JavaScript">
+   var ulstring="[GraphUpload]";
+   traceGraph(ulstring,"stats_up.gif",[MaxUpload]*1024);
+   </script>
+  </td>
+ </tr>
+ <tr><td align=center><font color=black face=Tahoma style="font-size:8pt;">[TxtUpload]: Max [MaxUpload] [KByteSec], [TxtTime]: [ScaleTime]</font><br>&nbsp;</td></tr>
+ <tr>
+  <td style="border-width:1px; border-color:blue; border-style:solid;" valign="bottom" height="150px" background="stats_back.gif">
+   <script Language="JavaScript">
+   var ulstring="[GraphConnections]";
+   traceGraph(ulstring,"stats_con.gif",[MaxConnections]);
+   </script>
+  </td>
+ </tr>
+ <tr><td align=center><font color=black face=Tahoma style="font-size:8pt;">[TxtConnections]: Max [MaxConnections], [TxtTime]: [ScaleTime]</font></td></tr>
+</table>
+<--TMPL_GRAPHS_END-->
+
+
+
+<-- ################################################################# -->
+<-- ######################### PREFERENCES ########################### -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_PREFERENCES-->
+<br>
+<form action="" method="GET">
+ <input type="hidden" name="ses" value="[Session]">
+ <input type="hidden" name="w" value=options>
+ <input type="hidden" name="saveprefs" value="true">
+
+ <table border=0 align=center cellpadding=4 cellspacing=0 width="90%">
+  <tr>
+   <td class="search-main"><b>[WebControl]</b></td>
+  </tr>
+  <tr>
+   <td align=left valign=middle bgcolor="#005784">
+    <font face=Tahoma style="font-size:8pt;"><b>[UseGzipForm]</b></font><input type="checkbox" name="gzip" [UseGzipVal] value="ON">
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=top bgcolor="#2184B5">
+    <font face=Tahoma style="font-size:8pt;">
+     &nbsp;&nbsp;&nbsp;&nbsp;[UseGzipComment]
+    </font>
+    <br>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=middle bgcolor="#005784">
+    <font face=Tahoma style="font-size:8pt;"><b>[RefreshTimeForm]</b></font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=top bgcolor="#2184B5">
+    <font face=Tahoma style="font-size:8pt;">
+     &nbsp;&nbsp;&nbsp;&nbsp;[RefreshTimeComment] <input type="text" name="refresh" size="5" class=dinput value="[RefreshVal]"><br>
+    </font>
+   </td>
+  </tr>
+  <tr>
+   <td>&nbsp;</td>
+  </tr>
+  <tr>
+   <td class="search-main"><b>[eMuleAppName]</b></td>
+  </tr>
+  <tr>
+   <td align=left valign=middle bgcolor="#005784">
+    <font face=Tahoma style="font-size:8pt;"><b>[SpeedCapForm]</b></font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=top bgcolor="#2184B5">
+    <font face=Tahoma style="font-size:8pt;">
+     &nbsp;&nbsp;&nbsp;&nbsp;[MaxCapDown]: <input type="text" name="maxcapdown" size="5" class=dinput value="[MaxCapDownVal]"> [KBS]
+     &nbsp;&nbsp;[MaxCapUp]: <input type="text" name="maxcapup" size="5" class=dinput value="[MaxCapUpVal]"> [KBS]
+    </font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=middle bgcolor="#005784">
+    <font face=Tahoma style="font-size:8pt;"><b>[SpeedForm]</b></font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=top bgcolor="#2184B5">
+    <font face=Tahoma style="font-size:8pt;">
+     &nbsp;&nbsp;&nbsp;&nbsp;[MaxDown]: <input type="text" name="maxdown" size="5" class=dinput value="[MaxDownVal]"> [KBS]
+     &nbsp;&nbsp;[MaxUp]: <input type="text" name="maxup" size="5" class=dinput value="[MaxUpVal]"> [KBS]
+    </font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=middle bgcolor="#005784">
+    <font face=Tahoma style="font-size:8pt;"><b>[LimitForm]</b></font>
+   </td>
+  </tr>
+  <tr>
+   <td align=left valign=top bgcolor="#2184B5">
+    <table border=0>
+     <tr>
+      <td><font face=Tahoma style="font-size:8pt;">[MaxSources]</font></td>
+      <td><input type="text" name="maxsources" size="5" class=dinput value="[MaxSourcesVal]"></td>
+     </tr>
+     <tr>
+      <td><font face=Tahoma style="font-size:8pt;">[MaxConnections]</font></td>
+      <td><input type="text" name="maxconnections" size="5" class=dinput value="[MaxConnectionsVal]"></td>
+     </tr>
+     <tr>
+      <td><font face=Tahoma style="font-size:8pt;">[MaxConnectionsPer5]</font></td>
+      <td><input type="text" name="maxconnectionsperfive" size="5" class=dinput value="[MaxConnectionsPer5Val]"></td>
+     </tr>
+    </table>
+   </td>
+  </tr>
+  <tr>
+   <td align=center><br>
+    <input type="submit" value="[Apply]">
+   </td>
+  </tr>
+ </table>
+</form>
+<br>
+<center>
+ <form>
+  <input type=button onClick="window.open('[CONNECTIONTESTLINK]');" value="[CONNECTIONTESTLABEL]">
+ </form>
+</center>
+&nbsp;
+<--TMPL_PREFERENCES_END-->
+
+
+
+<-- ################################################################# -->
+<-- ######################### SERVER INFO ########################### -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_SERVERINFO-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+ <tr>
+  <td align=left valign=middle class="commontext">
+   <font face="Lucida Console"><object><pre>[ServerInfo]</pre></object></font>
+  </td>
+ </tr>
+ <tr>
+  <td align=left valign=middle>
+   <form action="" method="GET">
+    <input type="hidden" name="ses" value="[Session]">
+    <input type="hidden" name="w" value=sinfo>
+    <input type="hidden" name="clear" value=yes>
+    <input type="submit" value="[Clear]">
+   </form>
+  </td>
+ </tr>
+</table>
+<--TMPL_SERVERINFO_END-->
+
+
+
+<-- ################################################################# -->
+<-- ############################ LOGS ############################### -->
+<-- ################################################################# -->
+
+
+
+<--TMPL_LOG-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+ <tr>
+  <td align=left valign=middle class="commontext">
+   <font face="Lucida Console"><object><pre>[Log]</pre></object></font>
+  </td>
+ </tr>
+ <tr>
+  <td align=left valign=middle>
+   <form action="" method="GET">
+    <input type="hidden" name="ses" value="[Session]">
+    <input type="hidden" name="w" value=log>
+    <input type="hidden" name="clear" value=yes>
+    <input type="submit" value="[Clear]">
+   </form>
+  </td>
+ </tr>
+</table>
+<--TMPL_LOG_END-->
+
+
+
+<-- ################################################################# -->
+<-- ######################### DEBUG LOG ############################# -->
+<-- ################################################################# -->
+
+<--TMPL_DEBUGLOG-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+ <tr>
+  <td align=left valign=middle class="commontext">
+   <font face="Lucida Console"><object><pre>[DebugLog]</pre></object></font>
+  </td>
+ </tr>
+ <tr>
+  <td align=left valign=middle>
+   <form action="" method="GET">
+    <input type="hidden" name="ses" value="[Session]">
+    <input type="hidden" name="w" value=debuglog>
+    <input type="hidden" name="clear" value=yes>
+    <input type="submit" value="[Clear]">
+   </form>
+  </td>
+ </tr>
+</table>
+<--TMPL_DEBUGLOG_END-->
+
+
+<-- ################################################################# -->
+<-- ######################### My Info ############################### -->
+<-- ################################################################# -->
+
+<--TMPL_MYINFO-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+ <tr>
+  <td align=left valign=middle class="commontext">
+   <font face="Lucida Console"><object><pre>[MYINFOLOG]</pre></object></font>
+  </td>
+ </tr>
+</table>
+<--TMPL_MYINFO_END-->
+
+
+
+<-- ################################################################# -->
+<-- ########################## KAD  ################################# -->
+<-- ################################################################# -->
+
+<--TMPL_BOOTSTRAPLINE-->
+
+<br>
+<form action="" method="GET">
+ <table border=0 align=center cellpadding=4 cellspacing=0 width="30%">
+  <tr>
+   <td align=left class="search-main" colspan="2"><b>[BOOTSTRAP]</b></td>
+  </tr>
+  <tr>
+   <td class="tabs_five">[BS_IP]:</td>
+   <td class="tabs_five" style="text-align:left">
+    <input name="ip" type="text" size="16">
+   </td>
+  </tr>
+  <tr>
+   <td class="tabs_five">[BS_PORT]:</td>
+   <td class="tabs_five"><input name="port" type="text" size="6"></td>
+  </tr>
+  <tr>
+   <td class="tabs_five">
+    <input type="hidden" name="ses" value="[Session]">
+    <input type="hidden" name="w" value="kad">
+    <input type="hidden" name="bootstrap" value="kad">
+   </td>
+   <td class="tabs_five">
+    <input type="submit" value="[BOOTSTRAP]">
+   </td>
+  </tr>
+ </table>
+</form>
+<br>
+<br>
+<--TMPL_BOOTSTRAPLINE_END-->
+
+
+<--TMPL_KADDLG-->
+<br><br>
+
+
+<table border=0 align=center cellpadding=4 cellspacing=0 width="30%">
+ <tr><td class="search-main" colspan="3"><b>[KAD]</b></td></tr>
+ <tr>
+  <td bgcolor="#2184B5">
+   <font face=Tahoma style="font-size:9pt;"><b>[STATUS]</b></font>
+  </td>
+  <td align=left valign=middle bgcolor="#2184B5">
+   <font face=Tahoma style="font-size:9pt;"><b>[KADSTATUS]<br></b></font>
+  </td>
+  <td align=left valign=middle bgcolor="#2184B5">
+   <font face=Tahoma style="font-size:8pt;">[KADACTION]</font>
+  </td>
+ </tr>
+</table>
+
+<br>
+
+[BOOTSTRAPLINE]
+
+<table border=0 align=center cellpadding=4 cellspacing=0 width="30%">
+ <tr>
+  <td align=left class="search-main" colspan="3"><b>[KADSTAT]</b><br></td>
+ </tr>
+ <tr>
+  <td bgcolor="#2184B5">
+   <font face=Tahoma style="font-size:8pt;">[KADSTATSLABELS]</font>
+  </td>
+  <td colspan="2" bgcolor="#2184B5">
+   <font face=Tahoma style="font-size:8pt;">[KADSTATSDATA]</font>
+  </td>
+ </tr>
+</table>
+
+<--TMPL_KADDLG_END-->
+
+
+<-- ################################################################# -->
+<-- ########################## Comment List  ######################## -->
+<-- ################################################################# -->
+
+
+<--TMPL_COMMENTLIST-->
+<!DOCTYPE html SYSTEM>
+<html>
+ <meta http-equiv="content-type" content="text/html; charset=[CharSet]">
+ <head>
+  <link rel="icon" href="/favicon.ico">
+  <title>[COMMENTS]</title>
+ </head>
+ <body background="main_bg.gif" text="white" link="white" vlink="white" alink="white"">
+  <div align="center">
+   <center>
+    <table border="1" cellpadding=4 cellspacing=0 width="100%" style="border-collapse:collapse" bordercolor="#111111">
+     <tr>
+      <td colspan="4" class="search-main" bgcolor="#000000" height="35" width="80%"><b><font face=Tahoma style="font-size:8pt;">[COMMENTS]</font></b></td>
+     </tr>
+     <tr>
+      <td align=left valign=middle bgcolor="#005784" width="20%"><font face=Tahoma style="font-size:8pt;"><b>[USERNAME]</b></font></td>
+      <td align=left valign=middle bgcolor="#005784" width="25%"><font face=Tahoma style="font-size:8pt;"><b>[FILENAME]</b></font></td>
+      <td align=left valign=middle bgcolor="#005784" width="35%"><font face=Tahoma style="font-size:8pt;"><b>[COMMENT]</b></font></td>
+      <td align=left valign=middle bgcolor="#005784" width="20%"><font face=Tahoma style="font-size:8pt;"><b>[RATING]</b></font></td>
+     </tr>
+     [COMMENTLINES]
+    </table>
+   </center>
+  </div>
+ </body>
+</html>
+<--TMPL_COMMENTLIST_END-->
+
+
+<--TMPL_COMMENTLIST_LINE-->
+<tr>
+ <td align="left" bgcolor="#2184B5" width="20%%" bordercolordark="#0000FF"><font face=Tahoma style="font-size:8pt;">%s</font></td>
+ <td align="left" bgcolor="#2184B5" width="35%%" bordercolordark="#0000FF"><font face=Tahoma style="font-size:8pt;">%s</font></td>
+ <td align="left" bgcolor="#2184B5" width="35%%" bordercolordark="#0000FF"><font face=Tahoma style="font-size:8pt;">%s</font></td>
+ <td align="left" bgcolor="#2184B5" width="10%%" bordercolordark="#0000FF"><font face=Tahoma style="font-size:8pt;">%s</font></td>
+</tr>
+<--TMPL_COMMENTLIST_LINE_END-->
