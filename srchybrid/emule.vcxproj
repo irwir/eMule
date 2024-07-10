@@ -291,7 +291,6 @@
     <ClCompile Include="HttpDownloadDlg.cpp" />
     <ClCompile Include="I18n.cpp" />
     <ClCompile Include="IconStatic.cpp" />
-    <ClCompile Include="IESecurity.cpp" />
     <ClCompile Include="Ini2.cpp" />
     <ClCompile Include="InputBox.cpp" />
     <ClCompile Include="IPFilter.cpp" />
@@ -575,7 +574,6 @@
     <ClInclude Include="HttpClientReqSocket.h" />
     <ClInclude Include="HttpDownloadDlg.h" />
     <ClInclude Include="IconStatic.h" />
-    <ClInclude Include="IESecurity.h" />
     <ClInclude Include="ImportParts.h" />
     <ClInclude Include="Ini2.h" />
     <ClInclude Include="InputBox.h" />

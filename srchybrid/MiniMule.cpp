@@ -190,6 +190,7 @@ void CMiniMule::DoDataExchange(CDataExchange *pDX)
 BOOL CMiniMule::CreateControlSite(COleControlContainer *pContainer, COleControlSite **ppSite, UINT /*nID*/, REFCLSID /*clsid*/)
 {
 	ASSERT(GetCurrentThreadId() == g_uMainThreadId);
+	/*
 	CMuleBrowserControlSite *pBrowserSite;
 	try {
 		pBrowserSite = new CMuleBrowserControlSite(pContainer, this);
@@ -197,7 +198,8 @@ BOOL CMiniMule::CreateControlSite(COleControlContainer *pContainer, COleControlS
 		return FALSE;
 	}
 	*ppSite = pBrowserSite;
-	return TRUE;
+	*/
+	return FALSE;
 }
 
 CString CreateFilePathUrl(LPCTSTR pszFilePath, int nProtocol)
