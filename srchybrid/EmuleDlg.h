@@ -75,7 +75,7 @@ public:
 	CImageList& GetClientIconList();
 	void ShowConnectionState();
 	void ShowNotifier(LPCTSTR pszText, TbnMsg nMsgType, LPCTSTR pszLink = NULL, bool bForceSoundOFF = false);
-	void SendNotificationMail(TbnMsg nMsgType, LPCTSTR pszText);
+	//void SendNotificationMail(TbnMsg nMsgType, LPCTSTR pszText);
 	void ShowUserCount();
 	void ShowMessageState(UINT nIcon);
 	void SetActiveDialog(CWnd *dlg);

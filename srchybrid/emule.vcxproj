@@ -406,7 +406,6 @@
     <ClCompile Include="SearchResultsWnd.cpp" />
     <ClCompile Include="SecRunAsUser.cpp" />
     <ClCompile Include="SelfTest.cpp" />
-    <ClCompile Include="SendMail.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="ServerConnect.cpp" />
     <ClCompile Include="ServerList.cpp" />

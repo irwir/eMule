@@ -2128,7 +2128,7 @@ void CemuleDlg::ShowNotifier(LPCTSTR pszText, TbnMsg nMsgType, LPCTSTR pszLink, 
 			bShowIt = true;
 			pszSoundEvent = _T("eMule_DownloadFinished");
 			iSoundPrio = 1;
-			SendNotificationMail(nMsgType, pszText);
+			//SendNotificationMail(nMsgType, pszText);
 		}
 		break;
 	case TBN_DOWNLOADADDED:
@@ -2152,7 +2152,7 @@ void CemuleDlg::ShowNotifier(LPCTSTR pszText, TbnMsg nMsgType, LPCTSTR pszLink, 
 			bShowIt = true;
 			pszSoundEvent = _T("eMule_Urgent");
 			iSoundPrio = 1;
-			SendNotificationMail(nMsgType, pszText);
+			//SendNotificationMail(nMsgType, pszText);
 		}
 		break;
 	case TBN_NEWVERSION:
