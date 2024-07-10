@@ -26,7 +26,7 @@
 #include <atlenc.h>
 #include <wincrypt.h>
 
-#include "mbedtls/build_info.h"
+//#include "mbedtls/build_info.h"
 #include "mbedtls/platform.h"
 #include "mbedtls/base64.h"
 #include "mbedtls/error.h"

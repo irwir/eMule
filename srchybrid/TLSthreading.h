@@ -1,6 +1,6 @@
 #pragma once
 
-#include "mbedtls/build_info.h"
+//#include "mbedtls/build_info.h"
 #include "mbedtls/threading.h"
 
 void threading_mutex_init_alt(mbedtls_threading_mutex_t *mutex) noexcept;
