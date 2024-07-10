@@ -97,7 +97,7 @@ int KeyCreate(mbedtls_pk_context *key, mbedtls_ctr_drbg_context *ctr_drbg, LPCTS
 		pmsg = _T("mbedtls_pk_setup");
 		goto exit;
 	}
-	ret = mbedtls_rsa_gen_key(mbedtls_pk_rsa(key), mbedtls_ctr_drbg_random, ctr_drbg, 2048u, 65537);
+	ret = mbedtls_rsa_gen_key(mbedtls_pk_rsa(*key), mbedtls_ctr_drbg_random, ctr_drbg, 2048u, 65537);
 	if (ret) {
 		pmsg = _T("mbedtls_rsa_gen_key");
 		goto exit;
