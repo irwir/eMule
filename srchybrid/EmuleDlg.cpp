@@ -333,8 +333,10 @@ void CemuleDlg::DoDataExchange(CDataExchange *pDX)
 	CTrayDialog::DoDataExchange(pDX);
 }
 
-LRESULT CemuleDlg::OnAreYouEmule(WPARAM, LPARAM)
+LRESULT CemuleDlg::OnAreYouEmule(WPARAM wParam, LPARAM)
 {
+	if (wParam == EMULE_INSTANCE_RESTORE)
+		RestoreWindow();
 	return UWM_ARE_YOU_EMULE;
 }
 
@@ -1228,10 +1230,11 @@ void CemuleDlg::OnSize(UINT nType, int cx, int cy)
 
 void CemuleDlg::ProcessED2KLink(LPCTSTR pszData)
 {
+	CED2KLink *pLink = NULL;
 	try {
 		CString link(pszData);
 		link.Replace(_T("%7c"), _T("|"));
-		CED2KLink *pLink = CED2KLink::CreateLinkFromUrl(OptUtf8ToStr(URLDecode(link)));
+		pLink = CED2KLink::CreateLinkFromUrl(OptUtf8ToStr(URLDecode(link)));
 		ASSERT(pLink);
 		switch (pLink->GetKind()) {
 		case CED2KLink::kFile:
@@ -1298,9 +1301,12 @@ void CemuleDlg::ProcessED2KLink(LPCTSTR pszData)
 			break;
 		}
 		delete pLink;
+		pLink = NULL;
 	} catch (const CString &strError) {
+		delete pLink;
 		LogWarning(LOG_STATUSBAR, _T("%s - %s"), (LPCTSTR)GetResString(IDS_LINKNOTADDED), (LPCTSTR)strError);
 	} catch (...) {
+		delete pLink;
 		LogWarning(LOG_STATUSBAR, GetResString(IDS_LINKNOTADDED));
 	}
 }
@@ -1309,8 +1315,20 @@ void CemuleDlg::ProcessED2KLink(LPCTSTR pszData)
 #pragma warning(disable:4774)
 LRESULT CemuleDlg::OnWMData(WPARAM, LPARAM lParam)
 {
-	PCOPYDATASTRUCT data = (PCOPYDATASTRUCT)lParam;
+	const COPYDATASTRUCT *data = reinterpret_cast<const COPYDATASTRUCT *>(lParam);
+	if (data == NULL || data->lpData == NULL || data->cbData < sizeof(TCHAR)
+		|| data->cbData % sizeof(TCHAR) != 0 || data->cbData > 32768 * sizeof(TCHAR))
+		return FALSE;
+
 	ULONG_PTR op = data->dwData;
+	if (op != OP_ED2KLINK && op != OP_COLLECTION && op != OP_CLCOMMAND)
+		return FALSE;
+
+	const size_t uCharCount = data->cbData / sizeof(TCHAR);
+	LPCTSTR pszData = static_cast<LPCTSTR>(data->lpData);
+	if (pszData[uCharCount - 1] != _T('\0') || _tcsnlen(pszData, uCharCount) != uCharCount - 1)
+		return FALSE;
+	const CString strData(pszData, static_cast<int>(uCharCount - 1));
 	if ((op == OP_ED2KLINK && thePrefs.IsBringToFront()) || op == OP_COLLECTION) {
 		if (IsIconic())
 			ShowWindow(SW_SHOWNORMAL);
@@ -1320,12 +1338,12 @@ LRESULT CemuleDlg::OnWMData(WPARAM, LPARAM lParam)
 	}
 	switch (op) {
 	case OP_ED2KLINK:
-		ProcessED2KLink((LPCTSTR)data->lpData);
+		ProcessED2KLink(strData);
 		break;
 	case OP_COLLECTION:
 		{
 			CCollection *pCollection = new CCollection();
-			const CString &strPath((LPCTSTR)data->lpData);
+			const CString &strPath(strData);
 			if (pCollection->InitCollectionFromFile(strPath, strPath.Right(strPath.GetLength() - 1 - strPath.ReverseFind(_T('\\'))))) {
 				CCollectionViewDialog dialog;
 				dialog.SetCollection(pCollection);
@@ -1337,7 +1355,7 @@ LRESULT CemuleDlg::OnWMData(WPARAM, LPARAM lParam)
 	case OP_CLCOMMAND:
 		{
 			// command line command received
-			CString clcommand((LPCTSTR)data->lpData);
+			CString clcommand(strData);
 			clcommand.MakeLower();
 			AddLogLine(true, _T("CLI: %s"), (LPCTSTR)clcommand);
 

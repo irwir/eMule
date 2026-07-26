@@ -62,6 +62,12 @@ enum AppState : uint8
 	APP_STATE_DONE			//shutdown has completed
 };
 
+enum EmuleInstanceRequest
+{
+	EMULE_INSTANCE_QUERY = 0,
+	EMULE_INSTANCE_RESTORE
+};
+
 class CemuleApp : public CWinApp
 {
 public:

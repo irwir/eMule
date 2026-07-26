@@ -218,6 +218,8 @@ STDMETHODIMP CCustomAutoComplete::QueryInterface(REFIID iid, LPVOID *ppvObj) noe
 //
 STDMETHODIMP CCustomAutoComplete::Next(ULONG celt, LPOLESTR *rgelt, ULONG *pceltFetched) noexcept
 {
+	if (rgelt == NULL || (celt > 1 && pceltFetched == NULL))
+		return E_POINTER;
 	if (!celt)
 		celt = 1;
 	if (pceltFetched)
@@ -228,6 +230,17 @@ STDMETHODIMP CCustomAutoComplete::Next(ULONG celt, LPOLESTR *rgelt, ULONG *pcelt
 			break;
 
 		rgelt[i] = (LPWSTR)::CoTaskMemAlloc(sizeof(WCHAR) * ((SIZE_T)m_asList[m_nCurrentElement].GetLength() + 1));
+		if (rgelt[i] == NULL) {
+			while (i > 0) {
+				--i;
+				::CoTaskMemFree(rgelt[i]);
+				rgelt[i] = NULL;
+				--m_nCurrentElement;
+			}
+			if (pceltFetched)
+				*pceltFetched = 0;
+			return E_OUTOFMEMORY;
+		}
 		wcscpy(rgelt[i], (CStringW)m_asList[m_nCurrentElement]);
 
 		if (pceltFetched)

@@ -382,6 +382,10 @@ void CUPnPImplMiniLib::Cleanup()
 void CUPnPImplMiniLib::StartThread()
 {
 	CStartDiscoveryThread *pStartDiscoveryThread = (CStartDiscoveryThread*)AfxBeginThread(RUNTIME_CLASS(CStartDiscoveryThread), THREAD_PRIORITY_NORMAL, 0, CREATE_SUSPENDED);
+	if (pStartDiscoveryThread == NULL) {
+		m_hThreadHandle = NULL;
+		return;
+	}
 	m_hThreadHandle = pStartDiscoveryThread->m_hThread;
 	pStartDiscoveryThread->SetValues(this);
 	pStartDiscoveryThread->ResumeThread();

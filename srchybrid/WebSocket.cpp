@@ -499,9 +499,11 @@ int StartSSL()
 	mbedtls_ssl_ticket_init(&ticket_ctx);
 	int ret = (int)psa_crypto_init();
 	if (!ret) { // PSA_SUCCESS is 0
-		ret = mbedtls_x509_crt_parse_file(&srvcert, thePrefs.GetWebCertPath());
+		const CStringA strCertPath(thePrefs.GetWebCertPath());
+		const CStringA strKeyPath(thePrefs.GetWebKeyPath());
+		ret = mbedtls_x509_crt_parse_file(&srvcert, strCertPath);
 		if (!ret) {
-			ret = mbedtls_pk_parse_keyfile(&pkey, thePrefs.GetWebKeyPath(), NULL);
+			ret = mbedtls_pk_parse_keyfile(&pkey, strKeyPath, NULL);
 			if (!ret) {
 				ret = mbedtls_ssl_config_defaults(&conf, MBEDTLS_SSL_IS_SERVER, MBEDTLS_SSL_TRANSPORT_STREAM, MBEDTLS_SSL_PRESET_DEFAULT);
 				if (!ret) {
@@ -520,9 +522,14 @@ int StartSSL()
 	if (ret)
 		DebugLogError(_T("Web Interface start failed: %s"), (LPCTSTR)SSLerror(ret));
 	else {
-		unsigned char fingerprint[20];
-		mbedtls_sha1(srvcert.raw.p, srvcert.raw.len, fingerprint);
-		DebugLog(_T("Loaded certificate: %s"), (LPCTSTR)GetCertHash(fingerprint, (int)(sizeof fingerprint)));
+		unsigned char fingerprint[PSA_HASH_LENGTH(PSA_ALG_SHA_1)];
+		size_t fingerprintLen = 0;
+		const psa_status_t status = psa_hash_compute(PSA_ALG_SHA_1, srvcert.raw.p, srvcert.raw.len,
+			fingerprint, sizeof fingerprint, &fingerprintLen);
+		if (status == PSA_SUCCESS && fingerprintLen == sizeof fingerprint)
+			DebugLog(_T("Loaded certificate: %s"), (LPCTSTR)GetCertHash(fingerprint, (int)fingerprintLen));
+		else
+			DebugLogError(_T("Failed to calculate certificate fingerprint: %d"), status);
 	}
 	return ret;
 }

@@ -683,6 +683,21 @@ int eMuleAllocHook(int mode, void *pUserData, size_t nSize, int nBlockUse, long 
 }
 #endif
 
+static bool SendCopyDataToRunningInstance(HWND hWnd, const COPYDATASTRUCT &data) noexcept
+{
+	DWORD_PTR dwMsgResult = 0;
+	return ::SendMessageTimeout(hWnd, WM_COPYDATA, 0, reinterpret_cast<LPARAM>(&data),
+		SMTO_BLOCK | SMTO_ABORTIFHUNG, SEC2MS(10), &dwMsgResult) != 0;
+}
+
+static void AllowRunningInstanceToSetForeground(HWND hWnd) noexcept
+{
+	DWORD dwProcessId = 0;
+	::GetWindowThreadProcessId(hWnd, &dwProcessId);
+	if (dwProcessId != 0)
+		::AllowSetForegroundWindow(dwProcessId);
+}
+
 bool CemuleApp::ProcessCommandline()
 {
 	bool bIgnoreRunningInstances = (GetProfileInt(_T("eMule"), _T("IgnoreInstances"), 0) != 0);
@@ -737,7 +752,8 @@ bool CemuleApp::ProcessCommandline()
 			sendstruct.dwData = OP_ED2KLINK;
 			sendstruct.lpData = const_cast<LPTSTR>((LPCTSTR)command);
 			if (maininst) {
-				SendMessage(maininst, WM_COPYDATA, (WPARAM)0, (LPARAM)(PCOPYDATASTRUCT)&sendstruct);
+				AllowRunningInstanceToSetForeground(maininst);
+				SendCopyDataToRunningInstance(maininst, sendstruct);
 				return true;
 			}
 
@@ -747,7 +763,8 @@ bool CemuleApp::ProcessCommandline()
 			sendstruct.dwData = OP_COLLECTION;
 			sendstruct.lpData = const_cast<LPTSTR>((LPCTSTR)command);
 			if (maininst) {
-				SendMessage(maininst, WM_COPYDATA, (WPARAM)0, (LPARAM)(PCOPYDATASTRUCT)&sendstruct);
+				AllowRunningInstanceToSetForeground(maininst);
+				SendCopyDataToRunningInstance(maininst, sendstruct);
 				return true;
 			}
 
@@ -757,7 +774,8 @@ bool CemuleApp::ProcessCommandline()
 			sendstruct.dwData = OP_CLCOMMAND;
 			sendstruct.lpData = const_cast<LPTSTR>((LPCTSTR)command);
 			if (maininst) {
-				SendMessage(maininst, WM_COPYDATA, (WPARAM)0, (LPARAM)(PCOPYDATASTRUCT)&sendstruct);
+				AllowRunningInstanceToSetForeground(maininst);
+				SendCopyDataToRunningInstance(maininst, sendstruct);
 				return true;
 			}
 			// Don't start if we were invoked with 'exit' command.
@@ -765,13 +783,20 @@ bool CemuleApp::ProcessCommandline()
 				return true;
 		}
 	}
+	if (maininst) {
+		AllowRunningInstanceToSetForeground(maininst);
+
+		DWORD_PTR dwMsgResult;
+		::SendMessageTimeout(maininst, UWM_ARE_YOU_EMULE, EMULE_INSTANCE_RESTORE, 0,
+			SMTO_BLOCK | SMTO_ABORTIFHUNG, SEC2MS(10), &dwMsgResult);
+	}
 	return maininst || bAlreadyRunning;
 }
 
 BOOL CALLBACK CemuleApp::SearchEmuleWindow(HWND hWnd, LPARAM lParam) noexcept
 {
 	DWORD_PTR dwMsgResult;
-	LRESULT res = ::SendMessageTimeout(hWnd, UWM_ARE_YOU_EMULE, 0, 0, SMTO_BLOCK | SMTO_ABORTIFHUNG, SEC2MS(10), &dwMsgResult);
+	LRESULT res = ::SendMessageTimeout(hWnd, UWM_ARE_YOU_EMULE, EMULE_INSTANCE_QUERY, 0, SMTO_BLOCK | SMTO_ABORTIFHUNG, SEC2MS(10), &dwMsgResult);
 	if (res != 0 && dwMsgResult == UWM_ARE_YOU_EMULE) {
 		*reinterpret_cast<HWND*>(lParam) = hWnd;
 		return FALSE;

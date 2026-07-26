@@ -135,6 +135,8 @@ CED2KFileLink::CED2KFileLink(LPCTSTR pszName, LPCTSTR pszSize, LPCTSTR pszHash
 		int iPos = strParam.Find(_T('='));
 		if (iPos >= 0)
 			strTok = strParam.Left(iPos);
+		if (strTok.IsEmpty())
+			continue;
 		switch (strTok[0]) {
 		case _T('s'):
 			{
@@ -417,7 +419,7 @@ CED2KLink* CED2KLink::CreateLinkFromUrl(LPCTSTR uri)
 				strTok = GetNextString(strURI, _T('&'), iPos);
 				if (iPos < 0)
 					return new CED2KFileLink(strName, strSize, strHash, astrEd2kParams, strEmuleExt);
-				if (strTok[2] != _T('='))
+				if (strTok.GetLength() < 3 || strTok[2] != _T('='))
 					continue;
 				const CString &strT(strTok.Left(2));
 				strTok.Delete(0, 3);

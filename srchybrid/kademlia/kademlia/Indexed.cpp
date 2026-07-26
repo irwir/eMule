@@ -61,6 +61,7 @@ CIndexed::CIndexed()
 	, m_uTotalIndexKeyword()
 	, m_uTotalIndexNotes()
 	, m_uTotalIndexLoad()
+	, m_bLoadThreadStarted()
 	, m_bAbortLoading()
 	, m_bDataLoaded()
 {
@@ -80,13 +81,21 @@ void CIndexed::ReadFile()
 {
 	m_bAbortLoading = false;
 	CLoadDataThread *pLoadDataThread = static_cast<CLoadDataThread*>(AfxBeginThread(RUNTIME_CLASS(CLoadDataThread), THREAD_PRIORITY_BELOW_NORMAL, 0, CREATE_SUSPENDED));
+	if (pLoadDataThread == NULL) {
+		DebugLogError(_T("Failed to create Kad index loading thread (Win32 error %lu)"), ::GetLastError());
+		return;
+	}
+
 	pLoadDataThread->SetValues(this);
+	m_bLoadThreadStarted = true;
 	pLoadDataThread->ResumeThread();
 }
 
 CIndexed::~CIndexed()
 {
-	if (!m_bDataLoaded) {
+	if (!m_bLoadThreadStarted) {
+		DebugLogWarning(_T("Kad index data was not loaded because its loading thread could not be started"));
+	} else if (!m_bDataLoaded) {
 		// the user clicked on disconnect/close just after he started kad (and probably just before posting in the forum that emule doesn't work :P )
 		// while the loading thread is still busy. First tell the thread to abort its loading, afterwards wait for it to terminate
 		// and then delete all loaded items without writing them to the files (as they are incomplete and unchanged)

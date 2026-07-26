@@ -3517,6 +3517,10 @@ void CPartFile::PreviewFile()
 			return;
 		m_bPreviewing = true;
 		CPreviewThread *pThread = static_cast<CPreviewThread*>(AfxBeginThread(RUNTIME_CLASS(CPreviewThread), THREAD_PRIORITY_BELOW_NORMAL, 0, CREATE_SUSPENDED));
+		if (pThread == NULL) {
+			m_bPreviewing = false;
+			return;
+		}
 		pThread->SetValues(this, thePrefs.GetVideoPlayer(), thePrefs.GetVideoPlayerArgs());
 		pThread->ResumeThread();
 	} else
