@@ -25,6 +25,7 @@
 #include "uploadqueue.h"
 #include "preferences.h"
 #include "UploadDiskIOThread.h"
+#include "Log.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -44,7 +45,11 @@ UploadBandwidthThrottler::UploadBandwidthThrottler()
 	, m_highestNumberOfFullyActivatedSlots()
 	, m_bRun(true)
 {
-	AfxBeginThread(RunProc, (LPVOID)this);
+	if (AfxBeginThread(RunProc, (LPVOID)this) == NULL) {
+		m_bRun = false;
+		m_eventThreadEnded.SetEvent();
+		DebugLogError(_T("Failed to create UploadBandwidthThrottler thread (Win32 error %lu)"), ::GetLastError());
+	}
 }
 
 /**

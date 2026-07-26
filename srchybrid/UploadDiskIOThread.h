@@ -58,6 +58,7 @@ private:
 	static void CreatePackedPackets(const OverlappedRead_Struct &OverlappedRead, CPacketList &rOutPacketList);
 	static void CreateStandardPackets(const OverlappedRead_Struct &OverlappedRead, CPacketList &rOutPacketList);
 
+	CEvent		m_eventThreadStarted;
 	CEvent		m_eventThreadEnded;
 	CTypedPtrList<CPtrList, OverlappedRead_Struct*>	m_listPendingIO;
 

@@ -23,6 +23,7 @@
 #include "UpDownClient.h"
 #include "Preferences.h"
 #include "Pinger.h"
+#include "Log.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -52,8 +53,11 @@ LastCommonRouteFinder::LastCommonRouteFinder()
 	, m_bUseMillisecondPingTolerance()
 	, needMoreHosts()
 {
-
-	AfxBeginThread(RunProc, (LPVOID)this);
+	if (AfxBeginThread(RunProc, (LPVOID)this) == NULL) {
+		m_bRun = false;
+		m_eventThreadEnded.SetEvent();
+		DebugLogError(_T("Failed to create LastCommonRouteFinder thread (Win32 error %lu)"), ::GetLastError());
+	}
 }
 
 bool LastCommonRouteFinder::AddHostToCheck(uint32 ip)

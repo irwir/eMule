@@ -35,12 +35,17 @@ static char THIS_FILE[] = __FILE__;
 IMPLEMENT_DYNCREATE(CPartFileWriteThread, CWinThread)
 
 CPartFileWriteThread::CPartFileWriteThread()
-	: m_eventThreadEnded(FALSE, TRUE)
+	: m_eventThreadStarted(FALSE, TRUE)
+	, m_eventThreadEnded(FALSE, TRUE)
 	, m_hPort()
 	, m_Run(RUN_STOP)
 	, m_bNewData()
 {
-	AfxBeginThread(RunProc, (LPVOID)this, THREAD_PRIORITY_BELOW_NORMAL);
+	if (AfxBeginThread(RunProc, (LPVOID)this, THREAD_PRIORITY_BELOW_NORMAL) == NULL) {
+		m_eventThreadStarted.SetEvent();
+		m_eventThreadEnded.SetEvent();
+		DebugLogError(_T("Failed to create PartFileWriteThread (Win32 error %lu)"), ::GetLastError());
+	}
 }
 
 CPartFileWriteThread::~CPartFileWriteThread()
@@ -57,21 +62,28 @@ UINT AFX_CDECL CPartFileWriteThread::RunProc(LPVOID pParam)
 
 void CPartFileWriteThread::EndThread()
 {
+	m_eventThreadStarted.Lock();
 	m_Run = RUN_STOP;
-	PostQueuedCompletionStatus(m_hPort, 0, 0, NULL);
+	if (m_hPort != NULL)
+		PostQueuedCompletionStatus(m_hPort, 0, 0, NULL);
 	m_eventThreadEnded.Lock();
 }
 
 UINT CPartFileWriteThread::RunInternal()
 {
 	m_hPort = ::CreateIoCompletionPort(INVALID_HANDLE_VALUE, 0, 0, 1);
-	if (!m_hPort)
-		return ::GetLastError();
+	if (!m_hPort) {
+		const DWORD dwError = ::GetLastError();
+		m_eventThreadStarted.SetEvent();
+		m_eventThreadEnded.SetEvent();
+		return dwError;
+	}
 
 	DWORD dwWrite = 0;
 	ULONG_PTR completionKey = 0;
 	OverlappedWrite_Struct *pCurIO = NULL;
 	m_Run = RUN_IDLE;
+	m_eventThreadStarted.SetEvent();
 	while (m_Run
 		&& ::GetQueuedCompletionStatus(m_hPort, &dwWrite, &completionKey, (LPOVERLAPPED*)&pCurIO, INFINITE)
 		&& completionKey)

@@ -61,6 +61,7 @@ private:
 	CList<ToWrite>	m_listToWrite;
 	CTypedPtrList<CPtrList, OverlappedWrite_Struct*>	m_listPendingIO;
 
+	CEvent	m_eventThreadStarted;
 	CEvent	m_eventThreadEnded;
 	HANDLE	m_hPort;
 	volatile char m_Run; //0 - not running; 1 - idle; 2 - processing

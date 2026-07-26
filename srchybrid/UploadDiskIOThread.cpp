@@ -48,7 +48,8 @@ static char THIS_FILE[] = __FILE__;
 IMPLEMENT_DYNCREATE(CUploadDiskIOThread, CWinThread)
 
 CUploadDiskIOThread::CUploadDiskIOThread()
-	: m_eventThreadEnded(FALSE, TRUE)
+	: m_eventThreadStarted(FALSE, TRUE)
+	, m_eventThreadEnded(FALSE, TRUE)
 	, m_hPort()
 #ifdef _DEBUG
 	, dbgDataReadPending()
@@ -58,7 +59,11 @@ CUploadDiskIOThread::CUploadDiskIOThread()
 	, m_bSignalThrottler()
 {
 	ASSERT(theApp.uploadqueue != NULL);
-	AfxBeginThread(RunProc, (LPVOID)this);
+	if (AfxBeginThread(RunProc, (LPVOID)this) == NULL) {
+		m_eventThreadStarted.SetEvent();
+		m_eventThreadEnded.SetEvent();
+		DebugLogError(_T("Failed to create UploadDiskIOThread (Win32 error %lu)"), ::GetLastError());
+	}
 }
 
 CUploadDiskIOThread::~CUploadDiskIOThread()
@@ -75,21 +80,28 @@ UINT AFX_CDECL CUploadDiskIOThread::RunProc(LPVOID pParam)
 
 void CUploadDiskIOThread::EndThread()
 {
+	m_eventThreadStarted.Lock();
 	m_Run = RUN_STOP;
-	PostQueuedCompletionStatus(m_hPort, 0, 0, NULL);
+	if (m_hPort != NULL)
+		PostQueuedCompletionStatus(m_hPort, 0, 0, NULL);
 	m_eventThreadEnded.Lock();
 }
 
 UINT CUploadDiskIOThread::RunInternal()
 {
 	m_hPort = ::CreateIoCompletionPort(INVALID_HANDLE_VALUE, 0, 0, 1);
-	if (!m_hPort)
-		return ::GetLastError();
+	if (!m_hPort) {
+		const DWORD dwError = ::GetLastError();
+		m_eventThreadStarted.SetEvent();
+		m_eventThreadEnded.SetEvent();
+		return dwError;
+	}
 
 	DWORD dwRead = 0;
 	ULONG_PTR completionKey = 0;
 	OverlappedRead_Struct *pCurIO = NULL;
 	m_Run = RUN_IDLE;
+	m_eventThreadStarted.SetEvent();
 	while (m_Run
 			&& ::GetQueuedCompletionStatus(m_hPort, &dwRead, &completionKey, (LPOVERLAPPED*)&pCurIO, INFINITE)
 			&& completionKey)
