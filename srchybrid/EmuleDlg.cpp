@@ -31,6 +31,7 @@
 #include <share.h>
 #include <dbt.h>
 #include <uxtheme.h>
+#include <memory>
 #include "emule.h"
 #include "emuleDlg.h"
 #include "otherfunctions.h"
@@ -1230,11 +1231,10 @@ void CemuleDlg::OnSize(UINT nType, int cx, int cy)
 
 void CemuleDlg::ProcessED2KLink(LPCTSTR pszData)
 {
-	CED2KLink *pLink = NULL;
 	try {
 		CString link(pszData);
 		link.Replace(_T("%7c"), _T("|"));
-		pLink = CED2KLink::CreateLinkFromUrl(OptUtf8ToStr(URLDecode(link)));
+		std::unique_ptr<CED2KLink> pLink(CED2KLink::CreateLinkFromUrl(OptUtf8ToStr(URLDecode(link))));
 		ASSERT(pLink);
 		switch (pLink->GetKind()) {
 		case CED2KLink::kFile:
@@ -1300,13 +1300,9 @@ void CemuleDlg::ProcessED2KLink(LPCTSTR pszData)
 		default:
 			break;
 		}
-		delete pLink;
-		pLink = NULL;
 	} catch (const CString &strError) {
-		delete pLink;
 		LogWarning(LOG_STATUSBAR, _T("%s - %s"), (LPCTSTR)GetResString(IDS_LINKNOTADDED), (LPCTSTR)strError);
 	} catch (...) {
-		delete pLink;
 		LogWarning(LOG_STATUSBAR, GetResString(IDS_LINKNOTADDED));
 	}
 }
